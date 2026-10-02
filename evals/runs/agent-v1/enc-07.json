@@ -1,0 +1,1264 @@
+{
+ "case_id": "enc-07",
+ "prompt_version": "2026-10-02.3",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "COPD",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Hyperinflation consistent with COPD",
+   "note": null,
+   "start": 217,
+   "end": 252
+  },
+  {
+   "id": "F2",
+   "condition": "No focal consolidation",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "No focal consolidation, pleural effusion or pneumothorax",
+   "note": null,
+   "start": 128,
+   "end": 184
+  },
+  {
+   "id": "F3",
+   "condition": "No pleural effusion",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "No focal consolidation, pleural effusion or pneumothorax",
+   "note": null,
+   "start": 128,
+   "end": 184
+  },
+  {
+   "id": "F4",
+   "condition": "No pneumothorax",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "No focal consolidation, pleural effusion or pneumothorax",
+   "note": null,
+   "start": 128,
+   "end": 184
+  },
+  {
+   "id": "F5",
+   "condition": "Hyperinflated lungs",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Hyperinflated lungs with flattened hemidiaphragms",
+   "note": null,
+   "start": 77,
+   "end": 126
+  },
+  {
+   "id": "F6",
+   "condition": "COPD exacerbation",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "1. COPD exacerbation.",
+   "note": null,
+   "start": 647,
+   "end": 668
+  },
+  {
+   "id": "F7",
+   "condition": "Shortness of breath",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "69M with COPD, current smoker, presents with 3 days of worsening SOB",
+   "note": null,
+   "start": 41,
+   "end": 109
+  },
+  {
+   "id": "F8",
+   "condition": "Wheezing",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "diffuse expiratory wheezes, prolonged expiration",
+   "note": null,
+   "start": 345,
+   "end": 393
+  },
+  {
+   "id": "F9",
+   "condition": "Current smoker",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "69M with COPD, current smoker",
+   "note": null,
+   "start": 41,
+   "end": 70
+  },
+  {
+   "id": "F10",
+   "condition": "Hypoxia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "SpO2 87% RA on arrival",
+   "note": null,
+   "start": 293,
+   "end": 315
+  },
+  {
+   "id": "F11",
+   "condition": "Acute hypoxic respiratory failure",
+   "assertion": "possible",
+   "doc_id": "d2",
+   "quote": "2. Acute hypoxic respiratory failure? ABG pending.",
+   "note": null,
+   "start": 669,
+   "end": 719
+  },
+  {
+   "id": "F12",
+   "condition": "Hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "PMH: COPD (FEV1 52% predicted, 2025). HTN.",
+   "note": null,
+   "start": 124,
+   "end": 166
+  },
+  {
+   "id": "F13",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "PMH: COPD (FEV1 52% predicted, 2025). HTN. HLD.",
+   "note": null,
+   "start": 124,
+   "end": 171
+  },
+  {
+   "id": "F14",
+   "condition": "Depression",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "PMH: COPD (FEV1 52% predicted, 2025). HTN. HLD. Depression.",
+   "note": null,
+   "start": 124,
+   "end": 183
+  },
+  {
+   "id": "F15",
+   "condition": "COPD with reduced FEV1",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "COPD (FEV1 52% predicted, 2025)",
+   "note": null,
+   "start": 129,
+   "end": 160
+  },
+  {
+   "id": "F16",
+   "condition": "Tobacco use, cigarette dependence",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Smokes 1 ppd cigarettes, 45 pack-years",
+   "note": null,
+   "start": 354,
+   "end": 392
+  },
+  {
+   "id": "F17",
+   "condition": "Not in respiratory failure",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Not in respiratory failure: SpO2 92% RA, no increased work of breathing, ABG without hypoxemia or hypercapnia requiring support",
+   "note": null,
+   "start": 817,
+   "end": 944
+  },
+  {
+   "id": "F18",
+   "condition": "Respiratory acidosis ruled out",
+   "assertion": "ruled_out",
+   "doc_id": "d3",
+   "quote": "ABG (RA, 08:40): pH 7.39 / pCO2 45 / pO2 66 / HCO3 27",
+   "note": null,
+   "start": 579,
+   "end": 632
+  },
+  {
+   "id": "F19",
+   "condition": "Hypoxemia present",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "ABG (RA, 08:40): pH 7.39 / pCO2 45 / pO2 66 / HCO3 27",
+   "note": "pO2 66 mmHg on room air is below normal (~80-100)",
+   "start": 579,
+   "end": 632
+  },
+  {
+   "id": "F20",
+   "condition": "Nicotine patch applied",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "nicotine patch applied",
+   "note": null,
+   "start": 228,
+   "end": 250
+  },
+  {
+   "id": "F21",
+   "condition": "COPD exacerbation, improving",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "COPD exacerbation - improving. Space DuoNeb to q6h.",
+   "note": null,
+   "start": 181,
+   "end": 232
+  },
+  {
+   "id": "F22",
+   "condition": "Faint end-expiratory wheeze",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Faint end-expiratory wheeze",
+   "note": null,
+   "start": 131,
+   "end": 158
+  },
+  {
+   "id": "F23",
+   "condition": "No home O2 need on ambulatory testing",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "No home O2 need on ambulatory testing",
+   "note": null,
+   "start": 253,
+   "end": 290
+  },
+  {
+   "id": "F24",
+   "condition": "Tobacco dependence",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "2. Tobacco dependence - on patch, wants to try varenicline.",
+   "note": null,
+   "start": 292,
+   "end": 351
+  },
+  {
+   "id": "F25",
+   "condition": "COPD with acute exacerbation",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "1. COPD with acute exacerbation",
+   "note": null,
+   "start": 102,
+   "end": 133
+  },
+  {
+   "id": "F26",
+   "condition": "Nicotine dependence, cigarettes",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "2. Nicotine dependence, cigarettes",
+   "note": null,
+   "start": 134,
+   "end": 168
+  },
+  {
+   "id": "F27",
+   "condition": "Acute respiratory failure questioned",
+   "assertion": "ruled_out",
+   "doc_id": "d6",
+   "quote": "Acute respiratory failure was questioned in the ED; on admission he was not in respiratory failure",
+   "note": null,
+   "start": 268,
+   "end": 366
+  },
+  {
+   "id": "F28",
+   "condition": "Improved with steroids, bronchodilators and azithromycin",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Improved with steroids, bronchodilators and azithromycin",
+   "note": null,
+   "start": 424,
+   "end": 480
+  },
+  {
+   "id": "F29",
+   "condition": "Room air throughout after ED",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Room air throughout after the ED",
+   "note": null,
+   "start": 482,
+   "end": 514
+  },
+  {
+   "id": "F30",
+   "condition": "WBC 10.8",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Labs: WBC 10.8",
+   "note": null,
+   "start": 423,
+   "end": 437
+  },
+  {
+   "id": "F31",
+   "condition": "Hemoglobin 15.9",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "WBC 10.8, Hgb 15.9",
+   "note": null,
+   "start": 429,
+   "end": 447
+  },
+  {
+   "id": "F32",
+   "condition": "Troponin <0.01",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Troponin <0.01",
+   "note": null,
+   "start": 467,
+   "end": 481
+  },
+  {
+   "id": "F33",
+   "condition": "No fever",
+   "assertion": "negated",
+   "doc_id": "d2",
+   "quote": "No fever, chest pain or leg swelling",
+   "note": null,
+   "start": 196,
+   "end": 232
+  },
+  {
+   "id": "F34",
+   "condition": "No chest pain",
+   "assertion": "negated",
+   "doc_id": "d2",
+   "quote": "No fever, chest pain or leg swelling",
+   "note": null,
+   "start": 196,
+   "end": 232
+  },
+  {
+   "id": "F35",
+   "condition": "No leg swelling",
+   "assertion": "negated",
+   "doc_id": "d2",
+   "quote": "No fever, chest pain or leg swelling",
+   "note": null,
+   "start": 196,
+   "end": 232
+  },
+  {
+   "id": "F36",
+   "condition": "Increased yellow sputum",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "increased sputum, now yellow",
+   "note": null,
+   "start": 122,
+   "end": 150
+  },
+  {
+   "id": "F37",
+   "condition": "Tripoding on arrival",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Tripoding on arrival, diffuse expiratory wheezes",
+   "note": null,
+   "start": 323,
+   "end": 371
+  }
+ ],
+ "codes": [
+  {
+   "code": "J44.1",
+   "poa": "Y",
+   "finding_ids": [
+    "F6",
+    "F21",
+    "F25"
+   ],
+   "confidence": 0.96,
+   "rationale": "The discharge summary documents COPD with acute exacerbation, and it was the reason for admission.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "COPD with acute exacerbation is documented consistently in the H&P, progress note and discharge summary. It was treated with steroids, nebulizers and azithromycin and was the reason for admission. The CXR showed no pneumonia, so no J44.0 is needed.",
+   "severity": null,
+   "description": "Chronic obstructive pulmonary disease with (acute) exacerbation"
+  },
+  {
+   "code": "F17.210",
+   "poa": "Y",
+   "finding_ids": [
+    "F16",
+    "F24",
+    "F26"
+   ],
+   "confidence": 0.95,
+   "rationale": "Providers document cigarette nicotine dependence, and it was treated with a patch and varenicline.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Nicotine dependence, cigarettes, is documented by the provider in the discharge summary and was treated with a patch, counseling and varenicline. The patient is a current smoker, so there is no in-remission issue.",
+   "severity": "none",
+   "description": "Nicotine dependence, cigarettes, uncomplicated"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F12"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hypertension is a chronic condition listed in the discharge diagnoses and treated with amlodipine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypertension is a discharge diagnosis and is treated with amlodipine, so it meets the reportable secondary diagnosis criteria.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F13"
+   ],
+   "confidence": 0.88,
+   "rationale": "Hyperlipidemia is a discharge diagnosis, and the patient takes atorvastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is a discharge diagnosis and is treated with atorvastatin. Unspecified is the appropriate level of specificity.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "F32.A",
+   "poa": "Y",
+   "finding_ids": [
+    "F14"
+   ],
+   "confidence": 0.85,
+   "rationale": "Depression, unspecified, is a discharge diagnosis, and the patient takes sertraline.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Depression is documented as stable on sertraline and listed in the discharge diagnoses. F32.A is correct for depression NOS, though a query for type and severity is optional and not required.",
+   "severity": "none",
+   "description": "Depression, unspecified"
+  }
+ ],
+ "removed": [],
+ "issues": [
+  {
+   "kind": "clinical_validation",
+   "summary": "The ED queried acute hypoxic respiratory failure (SpO2 87% on arrival, pO2 66). The H&P and discharge summary explicitly say the patient was not in respiratory failure, so it is not coded. The hypoxemia was not diagnosed by a provider, and no query is needed because the attending addressed it.",
+   "finding_ids": [
+    "F11",
+    "F17",
+    "F27",
+    "F10",
+    "F19"
+   ],
+   "guideline": "OCG Section II.H / III.B",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Optional: the 87% RA SpO2 and pO2 of 66 were not given a diagnosis. The attending explicitly stated there was no respiratory failure, so hypoxemia should not be coded and no query is needed. Hypoxemia is also integral to the COPD exacerbation picture.",
+   "finding_ids": [
+    "F10",
+    "F19",
+    "F17"
+   ],
+   "guideline": "OCG Section III.B",
+   "blocks_autonomy": false
+  }
+ ],
+ "queries": [],
+ "drg": {
+  "family": "copd",
+  "number": "192",
+  "title": "Chronic obstructive pulmonary disease w/o CC/MCC",
+  "weight": 0.69,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.96,
+ "confidence_base": 0.96,
+ "blocking_issues": 0,
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 14772,
+   "input_tokens": 2830,
+   "output_tokens": 2669,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01617
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 14773,
+   "ms": 8410,
+   "input_tokens": 20665,
+   "output_tokens": 915,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.05048
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 23183,
+   "ms": 5317,
+   "input_tokens": 5983,
+   "output_tokens": 642,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01839
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "Radiology",
+     "author_role": "radiology",
+     "timestamp": "2026-09-16T06:10",
+     "words": 33,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-16T06:35",
+     "words": 117,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-16T10:05",
+     "words": 186,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-16T12:30",
+     "words": 57,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-18T09:30",
+     "words": 62,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-19T11:15",
+     "words": 101,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 14772,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "COPD",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Hyperinflation consistent with COPD",
+     "note": null,
+     "start": 217,
+     "end": 252
+    },
+    {
+     "id": "F2",
+     "condition": "No focal consolidation",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "No focal consolidation, pleural effusion or pneumothorax",
+     "note": null,
+     "start": 128,
+     "end": 184
+    },
+    {
+     "id": "F3",
+     "condition": "No pleural effusion",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "No focal consolidation, pleural effusion or pneumothorax",
+     "note": null,
+     "start": 128,
+     "end": 184
+    },
+    {
+     "id": "F4",
+     "condition": "No pneumothorax",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "No focal consolidation, pleural effusion or pneumothorax",
+     "note": null,
+     "start": 128,
+     "end": 184
+    },
+    {
+     "id": "F5",
+     "condition": "Hyperinflated lungs",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Hyperinflated lungs with flattened hemidiaphragms",
+     "note": null,
+     "start": 77,
+     "end": 126
+    },
+    {
+     "id": "F6",
+     "condition": "COPD exacerbation",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "1. COPD exacerbation.",
+     "note": null,
+     "start": 647,
+     "end": 668
+    },
+    {
+     "id": "F7",
+     "condition": "Shortness of breath",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "69M with COPD, current smoker, presents with 3 days of worsening SOB",
+     "note": null,
+     "start": 41,
+     "end": 109
+    },
+    {
+     "id": "F8",
+     "condition": "Wheezing",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "diffuse expiratory wheezes, prolonged expiration",
+     "note": null,
+     "start": 345,
+     "end": 393
+    },
+    {
+     "id": "F9",
+     "condition": "Current smoker",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "69M with COPD, current smoker",
+     "note": null,
+     "start": 41,
+     "end": 70
+    },
+    {
+     "id": "F10",
+     "condition": "Hypoxia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "SpO2 87% RA on arrival",
+     "note": null,
+     "start": 293,
+     "end": 315
+    },
+    {
+     "id": "F11",
+     "condition": "Acute hypoxic respiratory failure",
+     "assertion": "possible",
+     "doc_id": "d2",
+     "quote": "2. Acute hypoxic respiratory failure? ABG pending.",
+     "note": null,
+     "start": 669,
+     "end": 719
+    },
+    {
+     "id": "F12",
+     "condition": "Hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "PMH: COPD (FEV1 52% predicted, 2025). HTN.",
+     "note": null,
+     "start": 124,
+     "end": 166
+    },
+    {
+     "id": "F13",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "PMH: COPD (FEV1 52% predicted, 2025). HTN. HLD.",
+     "note": null,
+     "start": 124,
+     "end": 171
+    },
+    {
+     "id": "F14",
+     "condition": "Depression",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "PMH: COPD (FEV1 52% predicted, 2025). HTN. HLD. Depression.",
+     "note": null,
+     "start": 124,
+     "end": 183
+    },
+    {
+     "id": "F15",
+     "condition": "COPD with reduced FEV1",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "COPD (FEV1 52% predicted, 2025)",
+     "note": null,
+     "start": 129,
+     "end": 160
+    },
+    {
+     "id": "F16",
+     "condition": "Tobacco use, cigarette dependence",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Smokes 1 ppd cigarettes, 45 pack-years",
+     "note": null,
+     "start": 354,
+     "end": 392
+    },
+    {
+     "id": "F17",
+     "condition": "Not in respiratory failure",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Not in respiratory failure: SpO2 92% RA, no increased work of breathing, ABG without hypoxemia or hypercapnia requiring support",
+     "note": null,
+     "start": 817,
+     "end": 944
+    },
+    {
+     "id": "F18",
+     "condition": "Respiratory acidosis ruled out",
+     "assertion": "ruled_out",
+     "doc_id": "d3",
+     "quote": "ABG (RA, 08:40): pH 7.39 / pCO2 45 / pO2 66 / HCO3 27",
+     "note": null,
+     "start": 579,
+     "end": 632
+    },
+    {
+     "id": "F19",
+     "condition": "Hypoxemia present",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "ABG (RA, 08:40): pH 7.39 / pCO2 45 / pO2 66 / HCO3 27",
+     "note": "pO2 66 mmHg on room air is below normal (~80-100)",
+     "start": 579,
+     "end": 632
+    },
+    {
+     "id": "F20",
+     "condition": "Nicotine patch applied",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "nicotine patch applied",
+     "note": null,
+     "start": 228,
+     "end": 250
+    },
+    {
+     "id": "F21",
+     "condition": "COPD exacerbation, improving",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "COPD exacerbation - improving. Space DuoNeb to q6h.",
+     "note": null,
+     "start": 181,
+     "end": 232
+    },
+    {
+     "id": "F22",
+     "condition": "Faint end-expiratory wheeze",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Faint end-expiratory wheeze",
+     "note": null,
+     "start": 131,
+     "end": 158
+    },
+    {
+     "id": "F23",
+     "condition": "No home O2 need on ambulatory testing",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "No home O2 need on ambulatory testing",
+     "note": null,
+     "start": 253,
+     "end": 290
+    },
+    {
+     "id": "F24",
+     "condition": "Tobacco dependence",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "2. Tobacco dependence - on patch, wants to try varenicline.",
+     "note": null,
+     "start": 292,
+     "end": 351
+    },
+    {
+     "id": "F25",
+     "condition": "COPD with acute exacerbation",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "1. COPD with acute exacerbation",
+     "note": null,
+     "start": 102,
+     "end": 133
+    },
+    {
+     "id": "F26",
+     "condition": "Nicotine dependence, cigarettes",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "2. Nicotine dependence, cigarettes",
+     "note": null,
+     "start": 134,
+     "end": 168
+    },
+    {
+     "id": "F27",
+     "condition": "Acute respiratory failure questioned",
+     "assertion": "ruled_out",
+     "doc_id": "d6",
+     "quote": "Acute respiratory failure was questioned in the ED; on admission he was not in respiratory failure",
+     "note": null,
+     "start": 268,
+     "end": 366
+    },
+    {
+     "id": "F28",
+     "condition": "Improved with steroids, bronchodilators and azithromycin",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Improved with steroids, bronchodilators and azithromycin",
+     "note": null,
+     "start": 424,
+     "end": 480
+    },
+    {
+     "id": "F29",
+     "condition": "Room air throughout after ED",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Room air throughout after the ED",
+     "note": null,
+     "start": 482,
+     "end": 514
+    },
+    {
+     "id": "F30",
+     "condition": "WBC 10.8",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Labs: WBC 10.8",
+     "note": null,
+     "start": 423,
+     "end": 437
+    },
+    {
+     "id": "F31",
+     "condition": "Hemoglobin 15.9",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "WBC 10.8, Hgb 15.9",
+     "note": null,
+     "start": 429,
+     "end": 447
+    },
+    {
+     "id": "F32",
+     "condition": "Troponin <0.01",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Troponin <0.01",
+     "note": null,
+     "start": 467,
+     "end": 481
+    },
+    {
+     "id": "F33",
+     "condition": "No fever",
+     "assertion": "negated",
+     "doc_id": "d2",
+     "quote": "No fever, chest pain or leg swelling",
+     "note": null,
+     "start": 196,
+     "end": 232
+    },
+    {
+     "id": "F34",
+     "condition": "No chest pain",
+     "assertion": "negated",
+     "doc_id": "d2",
+     "quote": "No fever, chest pain or leg swelling",
+     "note": null,
+     "start": 196,
+     "end": 232
+    },
+    {
+     "id": "F35",
+     "condition": "No leg swelling",
+     "assertion": "negated",
+     "doc_id": "d2",
+     "quote": "No fever, chest pain or leg swelling",
+     "note": null,
+     "start": 196,
+     "end": 232
+    },
+    {
+     "id": "F36",
+     "condition": "Increased yellow sputum",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "increased sputum, now yellow",
+     "note": null,
+     "start": 122,
+     "end": 150
+    },
+    {
+     "id": "F37",
+     "condition": "Tripoding on arrival",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Tripoding on arrival, diffuse expiratory wheezes",
+     "note": null,
+     "start": 323,
+     "end": 371
+    }
+   ]
+  },
+  {
+   "t": 14773,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "COPD with acute exacerbation"
+   },
+   "id": "toolu_01SJU77BwLosKbc97ZLtyGWL"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "nicotine dependence cigarettes uncomplicated"
+   },
+   "id": "toolu_01KkRzrfM3tKneRuzMtqqqRL"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "depression"
+   },
+   "id": "toolu_01W42kUGqUi9YbTMshtBDrPL"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "hyperlipidemia"
+   },
+   "id": "toolu_01KY1WuBvLtepdbSyiKos2FJ"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "essential hypertension"
+   },
+   "id": "toolu_011HzAezcYfSmG3PjEVrsPvp"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01SJU77BwLosKbc97ZLtyGWL",
+   "result": "[\"no matches; try different terms\"]"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01KkRzrfM3tKneRuzMtqqqRL",
+   "result": "[\"F17.210  Nicotine dependence, cigarettes, uncomplicated\"]"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01W42kUGqUi9YbTMshtBDrPL",
+   "result": "[\"F32.A  Depression, unspecified\", \"F53.0  Postpartum depression\", \"P91.4  Neonatal cerebral depression\", \"Z13.31  Encounter for screening for depression\", \"Z13.32  Encounter for screening for maternal depression\"]"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01KY1WuBvLtepdbSyiKos2FJ",
+   "result": "[\"E78.2  Mixed hyperlipidemia\", \"E78.49  Other hyperlipidemia\", \"E78.5  Hyperlipidemia, unspecified\"]"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_011HzAezcYfSmG3PjEVrsPvp",
+   "result": "[\"I10  Essential (primary) hypertension\", \"O10.02  Pre-existing essential hypertension complicating childbirth\", \"O10.03  Pre-existing essential hypertension complicating the puerperium\", \"O10.011  Pre-existing essential hypertension complicating pregnancy, first trimester\", \"O10.012  Pre-existing essential hypertension complicating pregnancy, second trimester\", \"O10.013  Pre-existing essential hypertension complicating pregnancy, third trimester\", \"O10.019  Pre-existing essential hypertension complicating pregnancy, unspecified trimester\"]"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "J44.1"
+   },
+   "id": "toolu_01PsGf9da4jANkUBp1ouV1E8"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01PsGf9da4jANkUBp1ouV1E8",
+   "result": "J44.1: Chronic obstructive pulmonary disease with (acute) exacerbation (billable)"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"J44.1\",\"poa\":\"Y\",\"finding_ids\":[\"F6\",\"F21\",\"F25\"],\"confidence\":0.95,\"rationale\":\"The discharge summary documents COPD with acute exacerbation, and it was the reason for admission.\"},\"secondary\":[{\"code\":\"F17.210\",\"poa\":\"Y\",\"finding_ids\":[\"F16\",\"F24\",\"F26\"],\"confidence\":0.93,\"rationale\":\"Providers document cigarette nicotine dependence, and it was treated with a patch and varenicline.\"},{\"code\":\"I10\",\"poa\":\"Y\",\"finding_ids\":[\"F12\"],\"confidence\":0.9,\"rationale\":\"Hypertension is a chronic condition listed in the discharge diagnoses and treated with amlodipine.\"},{\"code\":\"E78.5\",\"p"
+  },
+  {
+   "t": 23183,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "J44.1",
+     "poa": "Y",
+     "finding_ids": [
+      "F6",
+      "F21",
+      "F25"
+     ],
+     "confidence": 0.95,
+     "rationale": "The discharge summary documents COPD with acute exacerbation, and it was the reason for admission."
+    },
+    "secondary": [
+     {
+      "code": "F17.210",
+      "poa": "Y",
+      "finding_ids": [
+       "F16",
+       "F24",
+       "F26"
+      ],
+      "confidence": 0.93,
+      "rationale": "Providers document cigarette nicotine dependence, and it was treated with a patch and varenicline."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F12"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hypertension is a chronic condition listed in the discharge diagnoses and treated with amlodipine."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F13"
+      ],
+      "confidence": 0.88,
+      "rationale": "Hyperlipidemia is a discharge diagnosis, and the patient takes atorvastatin."
+     },
+     {
+      "code": "F32.A",
+      "poa": "Y",
+      "finding_ids": [
+       "F14"
+      ],
+      "confidence": 0.85,
+      "rationale": "Depression, unspecified, is a discharge diagnosis, and the patient takes sertraline."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "clinical_validation",
+      "summary": "The ED queried acute hypoxic respiratory failure (SpO2 87% on arrival, pO2 66). The H&P and discharge summary explicitly say the patient was not in respiratory failure, so it is not coded. The hypoxemia was not diagnosed by a provider, and no query is needed because the attending addressed it.",
+      "finding_ids": [
+       "F11",
+       "F17",
+       "F27",
+       "F10",
+       "F19"
+      ],
+      "guideline": "OCG Section II.H / III.B",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 23183,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 28500,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"J44.1\",\"verdict\":\"supported\",\"confidence\":0.96,\"reason\":\"COPD with acute exacerbation is documented consistently in the H&P, progress note and discharge summary. It was treated with steroids, nebulizers and azithromycin and was the reason for admission. The CXR showed no pneumonia, so no J44.0 is needed.\"},{\"code\":\"F17.210\",\"verdict\":\"supported\",\"confidence\":0.95,\"reason\":\"Nicotine dependence, cigarettes, is documented by the provider in the discharge summary and was treated with a patch, counseling and varenicline. The patient is a current smoker, so there is no in-remiss"
+  },
+  {
+   "t": 28500,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "J44.1",
+      "verdict": "supported",
+      "confidence": 0.96,
+      "reason": "COPD with acute exacerbation is documented consistently in the H&P, progress note and discharge summary. It was treated with steroids, nebulizers and azithromycin and was the reason for admission. The CXR showed no pneumonia, so no J44.0 is needed."
+     },
+     {
+      "code": "F17.210",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "reason": "Nicotine dependence, cigarettes, is documented by the provider in the discharge summary and was treated with a patch, counseling and varenicline. The patient is a current smoker, so there is no in-remission issue."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hypertension is a discharge diagnosis and is treated with amlodipine, so it meets the reportable secondary diagnosis criteria."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "Hyperlipidemia is a discharge diagnosis and is treated with atorvastatin. Unspecified is the appropriate level of specificity."
+     },
+     {
+      "code": "F32.A",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Depression is documented as stable on sertraline and listed in the discharge diagnoses. F32.A is correct for depression NOS, though a query for type and severity is optional and not required."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": [
+     {
+      "kind": "other",
+      "summary": "Optional: the 87% RA SpO2 and pO2 of 66 were not given a diagnosis. The attending explicitly stated there was no respiratory failure, so hypoxemia should not be coded and no query is needed. Hypoxemia is also integral to the COPD exacerbation picture.",
+      "finding_ids": [
+       "F10",
+       "F19",
+       "F17"
+      ],
+      "guideline": "OCG Section III.B",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 28500,
+   "stage": "grouper",
+   "type": "output",
+   "family": "copd",
+   "drg": "192",
+   "title": "Chronic obstructive pulmonary disease w/o CC/MCC",
+   "weight": 0.69,
+   "tier": "none",
+   "drivers": []
+  },
+  {
+   "t": 28500,
+   "stage": "router",
+   "type": "output",
+   "base": 0.96,
+   "blocking": 0,
+   "confidence": 0.96
+  }
+ ],
+ "ms": 28500,
+ "cost_usd": 0.08504
+}

@@ -1,0 +1,94 @@
+{
+  "id": "enc-04",
+  "title": "Routine community-acquired pneumonia",
+  "summary": "A straightforward pneumonia admission in a 58-year-old man with stable, well-documented chronic conditions; nothing tricky.",
+  "hero": true,
+  "family": "pneumonia",
+  "patient": {
+    "age": 58,
+    "sex": "M"
+  },
+  "admit_date": "2026-09-02",
+  "discharge_date": "2026-09-05",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "Radiology",
+      "author": "E. Fontaine, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-02T16:05",
+      "text": "EXAM: Chest radiograph, PA and lateral\nINDICATION: Fever, cough.\nFINDINGS: Patchy consolidation in the left lower lobe, obscuring the left hemidiaphragm on the lateral view. No pleural effusion or pneumothorax. Heart size normal. Lungs otherwise clear. Osseous structures unremarkable.\nIMPRESSION: Left lower lobe pneumonia."
+    },
+    {
+      "id": "d2",
+      "type": "ED note",
+      "author": "C. Yamamoto, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-02T16:20",
+      "text": "CC: Fever and cough, not improving on antibiotics.\n\nHPI: 58M HVAC technician with HTN, HLD, GERD and BPH. Five days of cough productive of yellow-green sputum, fevers to 39.2 C, chills and L-sided chest discomfort with coughing. Seen at urgent care 3 days ago, started on azithromycin; fevers persist and he now feels too weak to work. Mild DOE. No hemoptysis, no leg swelling, no recent travel. Quit smoking 2019 (30 pack-years).\n\nROS: + myalgias, decreased appetite. Neg for vomiting, diarrhea, dysuria, rash.\n\nVitals: T 39.0 C, HR 112, BP 136/84, RR 22, SpO2 94% RA.\nExam: Flushed, tired, speaking full sentences. Crackles and egophony L base. Tachycardic, regular. Abd soft. No edema.\n\nLabs: WBC 17.1 (86% PMN), Hgb 14.6, Plt 288. Na 138, K 4.1, BUN 16, Cr 1.0, Glu 112. Lactate 1.4. Procalcitonin 2.2.\nCXR: LLL consolidation (see report).\n\nAssessment/Plan:\n1. Community-acquired pneumonia, LLL, failed outpatient azithromycin. PSI class III. Blood cx x2, sputum cx, then ceftriaxone 1 g IV + doxycycline 100 mg IV. Acetaminophen, 1 L NS.\nDispo: Admit to hospital medicine, med-surg."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "F. Adeyemi, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-02T20:10",
+      "text": "HISTORY AND PHYSICAL\n\nHPI: 58M with 5 days of fever and productive cough despite 3 days of azithromycin; see ED note. After acetaminophen and fluids feels \"about 20% better.\"\n\nPMH: Hypertension (dx 2015). Hyperlipidemia. GERD. Benign prostatic hyperplasia without urinary symptoms on current therapy.\nMeds: amlodipine 10 mg daily, rosuvastatin 20 mg daily, omeprazole 20 mg daily, tamsulosin 0.4 mg qHS.\nAllergies: Penicillin (hives as a child).\nSocial: Married, two adult children. Former smoker, quit 2019, 30 pack-years. Occasional beer. Works in residential HVAC.\nFHx: Father with MI at 70.\n\nExam: T 38.2, HR 98, BP 128/80, RR 18, SpO2 95% RA. Alert, conversant. Crackles L base. RRR, no murmur. Abd benign. No edema. Prostate exam deferred.\n\nAssessment/Plan:\n1. Community-acquired pneumonia, LLL - failed outpatient macrolide. Ceftriaxone 1 g IV daily + doxycycline 100 mg BID (tolerated ceftriaxone in 2021 without reaction). F/u blood cx, sputum cx, urine Legionella and pneumococcal antigens. Incentive spirometry. No O2 requirement.\n2. Hypertension - continue amlodipine.\n3. Hyperlipidemia - continue rosuvastatin.\n4. GERD - continue omeprazole.\n5. BPH - continue tamsulosin; no retention.\n6. Former tobacco use - congratulated on staying quit; due for low-dose CT lung cancer screening, PCP to arrange.\nVTE ppx: enoxaparin 40 mg daily. Code: Full."
+    },
+    {
+      "id": "d4",
+      "type": "Nursing note",
+      "author": "M. Kowalski, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-02T21:30",
+      "text": "Admitted to 4 West from ED. A&O x4, ambulatory, independent with ADLs. Productive cough, thick yellow sputum; sputum specimen collected and sent. T 38.2, SpO2 95% RA, no O2 applied. Lungs coarse L base. Pain 2/10 L chest with coughing. Wife at bedside, oriented to room and call light. Penicillin allergy band on. Incentive spirometry teaching done, pt reaching 1,500 mL. Fall risk low."
+    },
+    {
+      "id": "d5",
+      "type": "Progress note",
+      "author": "F. Adeyemi, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-04T10:30",
+      "text": "HOSPITAL DAY 3\n\nS: Feels much better. Last fever 37.9 yesterday morning. Cough looser, eating well, walked the unit twice.\nO: T 37.0, HR 84, BP 126/78, RR 16, SpO2 97% RA. Few crackles L base.\nLabs: WBC 10.2. Blood cx no growth at 48 h. Sputum: normal respiratory flora. Urine Legionella and pneumococcal Ag negative.\n\nAssessment/Plan:\n1. Community-acquired pneumonia, LLL, organism not identified - clinically improving, afebrile >24 h. Transition to cefpodoxime 200 mg BID + doxycycline 100 mg BID to complete 7 days total. Likely d/c tomorrow.\n2. HTN, HLD, GERD, BPH - stable on home meds."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "F. Adeyemi, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-05T11:00",
+      "text": "DISCHARGE SUMMARY\nAdmit: 09/02/2026   Discharge: 09/05/2026   Disposition: Home\n\nDISCHARGE DIAGNOSES:\n1. Community-acquired pneumonia, left lower lobe, organism not identified\n2. Hypertension\n3. Hyperlipidemia\n4. Gastroesophageal reflux disease\n5. Benign prostatic hyperplasia\n6. Former smoker\n\nHOSPITAL COURSE:\n58M admitted with LLL pneumonia after failing 3 days of outpatient azithromycin. Treated with IV ceftriaxone and doxycycline with steady improvement; afebrile since 09/03 and never required supplemental oxygen. Cultures and urine antigens unrevealing. Transitioned to oral cefpodoxime and doxycycline on 09/04. Ambulating independently, eating well at discharge.\n\nDISCHARGE MEDICATIONS:\n- Cefpodoxime 200 mg BID through 09/08\n- Doxycycline 100 mg BID through 09/08\n- Home meds unchanged: amlodipine, rosuvastatin, omeprazole, tamsulosin\n\nFOLLOW-UP: PCP in 1 week; repeat CXR in 6-8 weeks to document resolution. Low-dose CT lung cancer screening referral via PCP. Return for fever >38.5, worsening SOB or chest pain."
+    }
+  ],
+  "gold": {
+    "pdx": "J18.9",
+    "secondary": [
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "K21.9",
+        "poa": "Y"
+      },
+      {
+        "code": "N40.0",
+        "poa": "Y"
+      },
+      {
+        "code": "Z87.891",
+        "poa": "Y"
+      }
+    ],
+    "drg": "195",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [],
+    "explanation": "A clean, consistently documented community-acquired pneumonia with no organism identified, so J18.9 is principal. The provider documents chronic conditions with no CC/MCC value (HTN, hyperlipidemia, GERD, BPH without LUTS, former smoker), and no CC or MCC is supported, giving DRG 195. 'Left lower lobe' does not make this lobar pneumonia (J18.1), and symptoms like fever and cough are integral and not coded separately. This is the kind of chart that should go straight through without a human touch."
+  }
+}

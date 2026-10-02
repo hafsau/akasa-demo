@@ -1,0 +1,1310 @@
+{
+ "case_id": "enc-17",
+ "prompt_version": "2026-10-02.4-router-v2",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Right lower lobe community-acquired pneumonia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "RLL community-acquired pneumonia",
+   "note": null,
+   "start": 940,
+   "end": 972
+  },
+  {
+   "id": "F2",
+   "condition": "Productive cough with yellow sputum",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "productive cough (yellow sputum)",
+   "note": null,
+   "start": 95,
+   "end": 127
+  },
+  {
+   "id": "F3",
+   "condition": "Subjective fever",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "subjective fevers",
+   "note": null,
+   "start": 129,
+   "end": 146
+  },
+  {
+   "id": "F4",
+   "condition": "Fatigue",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "mild fatigue x 4 days",
+   "note": null,
+   "start": 148,
+   "end": 169
+  },
+  {
+   "id": "F5",
+   "condition": "Shortness of breath on exertion",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Mild SOB on exertion only",
+   "note": null,
+   "start": 171,
+   "end": 196
+  },
+  {
+   "id": "F6",
+   "condition": "Hypertension",
+   "assertion": "history",
+   "doc_id": "d1",
+   "quote": "71 y/o M with HTN",
+   "note": null,
+   "start": 34,
+   "end": 51
+  },
+  {
+   "id": "F7",
+   "condition": "Hyperlipidemia",
+   "assertion": "history",
+   "doc_id": "d1",
+   "quote": "HTN, HLD, T2DM",
+   "note": null,
+   "start": 48,
+   "end": 62
+  },
+  {
+   "id": "F8",
+   "condition": "Type 2 diabetes mellitus",
+   "assertion": "history",
+   "doc_id": "d1",
+   "quote": "T2DM (metformin)",
+   "note": null,
+   "start": 58,
+   "end": 74
+  },
+  {
+   "id": "F9",
+   "condition": "GERD",
+   "assertion": "history",
+   "doc_id": "d1",
+   "quote": "GERD",
+   "note": null,
+   "start": 76,
+   "end": 80
+  },
+  {
+   "id": "F10",
+   "condition": "Elevated WBC",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "WBC 11.2",
+   "note": null,
+   "start": 632,
+   "end": 640
+  },
+  {
+   "id": "F11",
+   "condition": "Right lower lobe crackles on lung exam",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Crackles R base",
+   "note": null,
+   "start": 538,
+   "end": 553
+  },
+  {
+   "id": "F12",
+   "condition": "Right lower lobe airspace opacity on CXR",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Patchy airspace opacity in the right lower lobe",
+   "note": null,
+   "start": 63,
+   "end": 110
+  },
+  {
+   "id": "F13",
+   "condition": "No pleural effusion",
+   "assertion": "negated",
+   "doc_id": "d2",
+   "quote": "No pleural effusion",
+   "note": null,
+   "start": 112,
+   "end": 131
+  },
+  {
+   "id": "F14",
+   "condition": "No pneumothorax",
+   "assertion": "negated",
+   "doc_id": "d2",
+   "quote": "No pneumothorax",
+   "note": null,
+   "start": 133,
+   "end": 148
+  },
+  {
+   "id": "F15",
+   "condition": "Sepsis due to right lower lobe community-acquired pneumonia",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Sepsis due to RLL community-acquired pneumonia",
+   "note": null,
+   "start": 617,
+   "end": 663
+  },
+  {
+   "id": "F16",
+   "condition": "Meets SIRS criteria",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "meets SIRS (HR > 90, WBC > 11)",
+   "note": null,
+   "start": 666,
+   "end": 696
+  },
+  {
+   "id": "F17",
+   "condition": "Type 2 diabetes mellitus with A1c 7.2%",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "T2DM (last A1c 7.2%)",
+   "note": null,
+   "start": 224,
+   "end": 244
+  },
+  {
+   "id": "F18",
+   "condition": "Elevated temperature",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "T 37.8",
+   "note": null,
+   "start": 413,
+   "end": 419
+  },
+  {
+   "id": "F19",
+   "condition": "Blood cultures with no growth at 24 hours",
+   "assertion": "negated",
+   "doc_id": "d4",
+   "quote": "Blood cultures x2 (09/03): no growth at 24 h",
+   "note": null,
+   "start": 108,
+   "end": 152
+  },
+  {
+   "id": "F20",
+   "condition": "Sputum culture with normal oropharyngeal flora",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Sputum culture: normal oropharyngeal flora",
+   "note": null,
+   "start": 154,
+   "end": 196
+  },
+  {
+   "id": "F21",
+   "condition": "Elevated lactate initially",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Lactate (repeat): 0.9",
+   "note": null,
+   "start": 85,
+   "end": 106
+  },
+  {
+   "id": "F22",
+   "condition": "Hemodynamically stable throughout hospitalization",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "no MAP < 65 recorded; SpO2 94-97% RA throughout. No vasopressors",
+   "note": null,
+   "start": 297,
+   "end": 361
+  },
+  {
+   "id": "F23",
+   "condition": "Clinical improvement of pneumonia",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Cough improving, ate full breakfast. No fevers overnight",
+   "note": null,
+   "start": 17,
+   "end": 73
+  },
+  {
+   "id": "F24",
+   "condition": "Faint right lower lobe crackles persisting",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Lungs: faint RLL crackles",
+   "note": null,
+   "start": 124,
+   "end": 149
+  },
+  {
+   "id": "F25",
+   "condition": "Sepsis resolved",
+   "assertion": "resolved",
+   "doc_id": "d5",
+   "quote": "Sepsis due to RLL CAP - clinically improving",
+   "note": null,
+   "start": 205,
+   "end": 249
+  },
+  {
+   "id": "F26",
+   "condition": "Type 2 diabetes mellitus without complications",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Type 2 diabetes mellitus without complications",
+   "note": null,
+   "start": 216,
+   "end": 262
+  },
+  {
+   "id": "F27",
+   "condition": "Afebrile for > 24 hours at discharge",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Afebrile > 24 h at discharge",
+   "note": null,
+   "start": 566,
+   "end": 594
+  },
+  {
+   "id": "F28",
+   "condition": "Normal renal function at baseline",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "renal function at baseline",
+   "note": null,
+   "start": 512,
+   "end": 538
+  },
+  {
+   "id": "F29",
+   "condition": "Normal lactate",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Lactate normal x2",
+   "note": null,
+   "start": 493,
+   "end": 510
+  }
+ ],
+ "codes": [
+  {
+   "code": "A41.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F15",
+    "F16"
+   ],
+   "confidence": 0.15,
+   "rationale": "The attending documents sepsis due to CAP consistently, including in the discharge summary, so it is coded per the provider and sequenced first (OCG I.C.1.d). Clinical support is weak, so a clinical validation issue is raised.",
+   "role": "pdx",
+   "verdict": "needs_query",
+   "critic_reason": "Sepsis is documented through discharge, but the only support is SIRS (HR 94-96, WBC 11.2). There is no organ dysfunction, lactate was normal, there was no hypotension, cultures were negative, and treatment was routine pneumonia care. Clinical validity is weak and the code is the principal diagnosis, so it needs a validation query.",
+   "severity": null,
+   "description": "Sepsis, unspecified organism"
+  },
+  {
+   "code": "J18.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F1",
+    "F12",
+    "F15"
+   ],
+   "confidence": 0.9,
+   "rationale": "RLL community-acquired pneumonia is the localized infection behind the sepsis. No organism was identified and lobar pneumonia was not documented.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "The ED note, radiology, H&P and discharge summary all document RLL CAP treated with IV and then PO antibiotics. No organism or lobar pneumonia is documented, so J18.9 is appropriate. It would become the principal diagnosis if sepsis is not validated.",
+   "severity": "MCC",
+   "description": "Pneumonia, unspecified organism"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F6"
+   ],
+   "confidence": 0.92,
+   "rationale": "Hypertension is a chronic condition treated with lisinopril.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypertension is listed in the discharge summary and treated with lisinopril.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F7"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hyperlipidemia is a chronic condition treated with a statin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is listed in the discharge summary and treated with atorvastatin.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F8",
+    "F17",
+    "F26"
+   ],
+   "confidence": 0.92,
+   "rationale": "The discharge summary documents type 2 diabetes without complications.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "The discharge summary documents type 2 diabetes without complications. It was monitored and treated with sliding-scale insulin, and A1c was 7.2%.",
+   "severity": "none",
+   "description": "Type 2 diabetes mellitus without complications"
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F9"
+   ],
+   "confidence": 0.88,
+   "rationale": "GERD is treated with a PPI.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "GERD is listed in the discharge summary and treated with a PPI.",
+   "severity": "none",
+   "description": "Gastro-esophageal reflux disease without esophagitis"
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "finding_ids": [
+    "F8"
+   ],
+   "confidence": 0.85,
+   "rationale": "The patient takes metformin long term, an oral hypoglycemic.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Home metformin is documented, and it was held in hospital and resumed at discharge.",
+   "severity": "none",
+   "description": "Long term (current) use of oral hypoglycemic drugs"
+  }
+ ],
+ "removed": [],
+ "issues": [
+  {
+   "kind": "clinical_validation",
+   "summary": "Sepsis is documented based only on SIRS criteria (HR>90, WBC>11.2), with no organ dysfunction, normal lactate, normal creatinine, no hypotension and negative cultures. Sepsis-3 criteria are not met, so ask the provider to clinically validate it. If it is removed, pneumonia (J18.9) becomes the principal diagnosis.",
+   "finding_ids": [
+    "F15",
+    "F16",
+    "F22",
+    "F29",
+    "F28",
+    "F19"
+   ],
+   "guideline": "OCG Section I.C.1.d / AHIMA-ACDIS clinical validation",
+   "impact": "principal",
+   "codes": [
+    "A41.9",
+    "J18.9"
+   ],
+   "blocks_autonomy": true
+  },
+  {
+   "kind": "clinical_validation",
+   "summary": "A41.9: Sepsis is documented through discharge, but the only support is SIRS (HR 94-96, WBC 11.2). There is no organ dysfunction, lactate was normal, there was no hypotension, cultures were negative, and treatment was routine pneumonia care. Clinical validity is weak and the code is the principal diagnosis, so it needs a validation query.",
+   "finding_ids": [
+    "F15",
+    "F16"
+   ],
+   "guideline": null,
+   "impact": "severity",
+   "codes": [
+    "A41.9"
+   ],
+   "blocks_autonomy": true,
+   "source": "critic_verdict"
+  }
+ ],
+ "queries": [
+  {
+   "issue": "Sepsis is documented based only on SIRS criteria (HR>90, WBC>11.2), with no organ dysfunction, normal lactate, normal creatinine, no hypotension and negative cultures. Sepsis-3 criteria are not met, so ask the provider to clinically validate it. If it is removed, pneumonia (J18.9) becomes the principal diagnosis.",
+   "to": "Attending physician",
+   "clinical_indicators": [
+    {
+     "text": "Progress note (day 3): \"Sepsis due to RLL community-acquired pneumonia\"",
+     "finding_id": "F15"
+    },
+    {
+     "text": "Progress note (day 3): \"meets SIRS (HR > 90, WBC > 11)\"",
+     "finding_id": "F16"
+    },
+    {
+     "text": "Blood cultures x2 (09/03): no growth at 24 h",
+     "finding_id": "F19"
+    },
+    {
+     "text": "No MAP < 65 recorded; SpO2 94-97% on room air throughout; no vasopressors",
+     "finding_id": "F22"
+    },
+    {
+     "text": "Renal function at baseline",
+     "finding_id": "F28"
+    },
+    {
+     "text": "Lactate normal x2",
+     "finding_id": "F29"
+    }
+   ],
+   "question": "Sepsis is documented as due to RLL community-acquired pneumonia, with SIRS findings noted. Based on your clinical judgment and the clinical indicators above, please clarify the diagnosis that best reflects this patient's condition during this admission.",
+   "options": [
+    "Sepsis due to RLL community-acquired pneumonia, clinically supported (please document the clinical findings supporting this diagnosis)",
+    "RLL community-acquired pneumonia with a localized infection and systemic inflammatory response, without sepsis",
+    "RLL community-acquired pneumonia only; sepsis was considered and ruled out",
+    "Other (please specify)",
+    "Clinically undetermined"
+   ],
+   "lint": []
+  }
+ ],
+ "drg": {
+  "family": "sepsis",
+  "number": "871",
+  "title": "Septicemia or severe sepsis w/o MV >96 hours w MCC",
+  "weight": 1.86,
+  "tier": "MCC",
+  "drivers": [
+   "J18.9"
+  ]
+ },
+ "confidence": 0.075,
+ "confidence_base": 0.15,
+ "blocking_issues": 2,
+ "blocking_reasons": [
+  "clinical_validation: Sepsis is documented based only on SIRS criteria (HR>90, WBC>11.2), with no organ dysfunction, normal lactate, normal creatinine, no hypotension and negative cultures. Sepsis-3 criteria are not met, so ask the provider to clinically validate it. If it is removed, pneumonia (J18.9) becomes the principal diagnosis.",
+  "critic wants a query on claim code A41.9"
+ ],
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 11179,
+   "input_tokens": 3101,
+   "output_tokens": 1952,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01286
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 11179,
+   "ms": 11921,
+   "input_tokens": 13667,
+   "output_tokens": 1383,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.04116
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 23100,
+   "ms": 4726,
+   "input_tokens": 6303,
+   "output_tokens": 622,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01883
+  },
+  {
+   "stage": "query",
+   "model": "claude-sonnet-5-5",
+   "started": 27827,
+   "ms": 3952,
+   "input_tokens": 1074,
+   "output_tokens": 475,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.0069
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-03T10:24",
+     "words": 186,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "Radiology",
+     "author_role": "radiology",
+     "timestamp": "2026-09-03T10:51",
+     "words": 43,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-03T13:40",
+     "words": 176,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Lab summary",
+     "author_role": "lab",
+     "timestamp": "2026-09-04T06:15",
+     "words": 67,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-04T10:05",
+     "words": 82,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-05T11:20",
+     "words": 108,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 11179,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Right lower lobe community-acquired pneumonia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "RLL community-acquired pneumonia",
+     "note": null,
+     "start": 940,
+     "end": 972
+    },
+    {
+     "id": "F2",
+     "condition": "Productive cough with yellow sputum",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "productive cough (yellow sputum)",
+     "note": null,
+     "start": 95,
+     "end": 127
+    },
+    {
+     "id": "F3",
+     "condition": "Subjective fever",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "subjective fevers",
+     "note": null,
+     "start": 129,
+     "end": 146
+    },
+    {
+     "id": "F4",
+     "condition": "Fatigue",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "mild fatigue x 4 days",
+     "note": null,
+     "start": 148,
+     "end": 169
+    },
+    {
+     "id": "F5",
+     "condition": "Shortness of breath on exertion",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Mild SOB on exertion only",
+     "note": null,
+     "start": 171,
+     "end": 196
+    },
+    {
+     "id": "F6",
+     "condition": "Hypertension",
+     "assertion": "history",
+     "doc_id": "d1",
+     "quote": "71 y/o M with HTN",
+     "note": null,
+     "start": 34,
+     "end": 51
+    },
+    {
+     "id": "F7",
+     "condition": "Hyperlipidemia",
+     "assertion": "history",
+     "doc_id": "d1",
+     "quote": "HTN, HLD, T2DM",
+     "note": null,
+     "start": 48,
+     "end": 62
+    },
+    {
+     "id": "F8",
+     "condition": "Type 2 diabetes mellitus",
+     "assertion": "history",
+     "doc_id": "d1",
+     "quote": "T2DM (metformin)",
+     "note": null,
+     "start": 58,
+     "end": 74
+    },
+    {
+     "id": "F9",
+     "condition": "GERD",
+     "assertion": "history",
+     "doc_id": "d1",
+     "quote": "GERD",
+     "note": null,
+     "start": 76,
+     "end": 80
+    },
+    {
+     "id": "F10",
+     "condition": "Elevated WBC",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "WBC 11.2",
+     "note": null,
+     "start": 632,
+     "end": 640
+    },
+    {
+     "id": "F11",
+     "condition": "Right lower lobe crackles on lung exam",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Crackles R base",
+     "note": null,
+     "start": 538,
+     "end": 553
+    },
+    {
+     "id": "F12",
+     "condition": "Right lower lobe airspace opacity on CXR",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Patchy airspace opacity in the right lower lobe",
+     "note": null,
+     "start": 63,
+     "end": 110
+    },
+    {
+     "id": "F13",
+     "condition": "No pleural effusion",
+     "assertion": "negated",
+     "doc_id": "d2",
+     "quote": "No pleural effusion",
+     "note": null,
+     "start": 112,
+     "end": 131
+    },
+    {
+     "id": "F14",
+     "condition": "No pneumothorax",
+     "assertion": "negated",
+     "doc_id": "d2",
+     "quote": "No pneumothorax",
+     "note": null,
+     "start": 133,
+     "end": 148
+    },
+    {
+     "id": "F15",
+     "condition": "Sepsis due to right lower lobe community-acquired pneumonia",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Sepsis due to RLL community-acquired pneumonia",
+     "note": null,
+     "start": 617,
+     "end": 663
+    },
+    {
+     "id": "F16",
+     "condition": "Meets SIRS criteria",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "meets SIRS (HR > 90, WBC > 11)",
+     "note": null,
+     "start": 666,
+     "end": 696
+    },
+    {
+     "id": "F17",
+     "condition": "Type 2 diabetes mellitus with A1c 7.2%",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "T2DM (last A1c 7.2%)",
+     "note": null,
+     "start": 224,
+     "end": 244
+    },
+    {
+     "id": "F18",
+     "condition": "Elevated temperature",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "T 37.8",
+     "note": null,
+     "start": 413,
+     "end": 419
+    },
+    {
+     "id": "F19",
+     "condition": "Blood cultures with no growth at 24 hours",
+     "assertion": "negated",
+     "doc_id": "d4",
+     "quote": "Blood cultures x2 (09/03): no growth at 24 h",
+     "note": null,
+     "start": 108,
+     "end": 152
+    },
+    {
+     "id": "F20",
+     "condition": "Sputum culture with normal oropharyngeal flora",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Sputum culture: normal oropharyngeal flora",
+     "note": null,
+     "start": 154,
+     "end": 196
+    },
+    {
+     "id": "F21",
+     "condition": "Elevated lactate initially",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Lactate (repeat): 0.9",
+     "note": null,
+     "start": 85,
+     "end": 106
+    },
+    {
+     "id": "F22",
+     "condition": "Hemodynamically stable throughout hospitalization",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "no MAP < 65 recorded; SpO2 94-97% RA throughout. No vasopressors",
+     "note": null,
+     "start": 297,
+     "end": 361
+    },
+    {
+     "id": "F23",
+     "condition": "Clinical improvement of pneumonia",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Cough improving, ate full breakfast. No fevers overnight",
+     "note": null,
+     "start": 17,
+     "end": 73
+    },
+    {
+     "id": "F24",
+     "condition": "Faint right lower lobe crackles persisting",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Lungs: faint RLL crackles",
+     "note": null,
+     "start": 124,
+     "end": 149
+    },
+    {
+     "id": "F25",
+     "condition": "Sepsis resolved",
+     "assertion": "resolved",
+     "doc_id": "d5",
+     "quote": "Sepsis due to RLL CAP - clinically improving",
+     "note": null,
+     "start": 205,
+     "end": 249
+    },
+    {
+     "id": "F26",
+     "condition": "Type 2 diabetes mellitus without complications",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Type 2 diabetes mellitus without complications",
+     "note": null,
+     "start": 216,
+     "end": 262
+    },
+    {
+     "id": "F27",
+     "condition": "Afebrile for > 24 hours at discharge",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Afebrile > 24 h at discharge",
+     "note": null,
+     "start": 566,
+     "end": 594
+    },
+    {
+     "id": "F28",
+     "condition": "Normal renal function at baseline",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "renal function at baseline",
+     "note": null,
+     "start": 512,
+     "end": 538
+    },
+    {
+     "id": "F29",
+     "condition": "Normal lactate",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Lactate normal x2",
+     "note": null,
+     "start": 493,
+     "end": 510
+    }
+   ]
+  },
+  {
+   "t": 11179,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "Sepsis is documented consistently by the attending, but clinically it only meets SIRS criteria, not Sepsis-3, so I should code it as documented while flagging clinical_validation. For the principal diagnosis I'm weighing A41.9 for sepsis of unspecified organism against the RLL pneumonia, trying to determine whether this is better coded as J18.9 unspecified pneumonia or J18.1 lobar pneumonia, since \"community-acquired\" documentation alone doesn't necessarily support the lobar specificity.\n\nI'm settling on J18.9 and now checking secondary codes - I10, E78.5, E11.9, K21.9, Z79.84 for the oral hyp"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "A41.9"
+   },
+   "id": "toolu_01Wa6jBPLAqDneLaZifmmqu4"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "J18.9"
+   },
+   "id": "toolu_013ftgAcSWQcY3cWuNnxbvQu"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I10"
+   },
+   "id": "toolu_01W1ctbVMfngSmgU8yPC7o2g"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_01MGkTesRPyfRCjzKVz746By"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E11.9"
+   },
+   "id": "toolu_01YVRnsCpgLbGdW7M8NhSPrd"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "K21.9"
+   },
+   "id": "toolu_013mTDQfDeh632PzxoCBgFev"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.84"
+   },
+   "id": "toolu_0195NhT9zci8hEKMiSvQ9en1"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01Wa6jBPLAqDneLaZifmmqu4",
+   "result": "A41.9: Sepsis, unspecified organism (billable)"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_013ftgAcSWQcY3cWuNnxbvQu",
+   "result": "J18.9: Pneumonia, unspecified organism (billable)"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01W1ctbVMfngSmgU8yPC7o2g",
+   "result": "I10: Essential (primary) hypertension (billable)"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01MGkTesRPyfRCjzKVz746By",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01YVRnsCpgLbGdW7M8NhSPrd",
+   "result": "E11.9: Type 2 diabetes mellitus without complications (billable)"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_013mTDQfDeh632PzxoCBgFev",
+   "result": "K21.9: Gastro-esophageal reflux disease without esophagitis (billable)"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_0195NhT9zci8hEKMiSvQ9en1",
+   "result": "Z79.84: Long term (current) use of oral hypoglycemic drugs (billable)"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"A41.9\",\"poa\":\"Y\",\"finding_ids\":[\"F15\",\"F16\"],\"confidence\":0.55,\"rationale\":\"The attending documents sepsis due to CAP consistently, including in the discharge summary, so it is coded per the provider and sequenced first (OCG I.C.1.d). Clinical support is weak, so a clinical validation issue is raised.\"},\"secondary\":[{\"code\":\"J18.9\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F12\",\"F15\"],\"confidence\":0.9,\"rationale\":\"RLL community-acquired pneumonia is the localized infection behind the sepsis. No organism was identified and lobar pneumonia was not documented.\"},{\"code\":\"I10\",\"poa\":\"Y\",\"find"
+  },
+  {
+   "t": 23100,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "A41.9",
+     "poa": "Y",
+     "finding_ids": [
+      "F15",
+      "F16"
+     ],
+     "confidence": 0.55,
+     "rationale": "The attending documents sepsis due to CAP consistently, including in the discharge summary, so it is coded per the provider and sequenced first (OCG I.C.1.d). Clinical support is weak, so a clinical validation issue is raised."
+    },
+    "secondary": [
+     {
+      "code": "J18.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F1",
+       "F12",
+       "F15"
+      ],
+      "confidence": 0.9,
+      "rationale": "RLL community-acquired pneumonia is the localized infection behind the sepsis. No organism was identified and lobar pneumonia was not documented."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F6"
+      ],
+      "confidence": 0.92,
+      "rationale": "Hypertension is a chronic condition treated with lisinopril."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F7"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hyperlipidemia is a chronic condition treated with a statin."
+     },
+     {
+      "code": "E11.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F8",
+       "F17",
+       "F26"
+      ],
+      "confidence": 0.92,
+      "rationale": "The discharge summary documents type 2 diabetes without complications."
+     },
+     {
+      "code": "K21.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F9"
+      ],
+      "confidence": 0.88,
+      "rationale": "GERD is treated with a PPI."
+     },
+     {
+      "code": "Z79.84",
+      "poa": "Y",
+      "finding_ids": [
+       "F8"
+      ],
+      "confidence": 0.8,
+      "rationale": "The patient takes metformin long term, an oral hypoglycemic."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "clinical_validation",
+      "summary": "Sepsis is documented based only on SIRS criteria (HR>90, WBC>11.2), with no organ dysfunction, normal lactate, normal creatinine, no hypotension and negative cultures. Sepsis-3 criteria are not met, so ask the provider to clinically validate it. If it is removed, pneumonia (J18.9) becomes the principal diagnosis.",
+      "finding_ids": [
+       "F15",
+       "F16",
+       "F22",
+       "F29",
+       "F28",
+       "F19"
+      ],
+      "guideline": "OCG Section I.C.1.d / AHIMA-ACDIS clinical validation",
+      "impact": "principal",
+      "codes": [
+       "A41.9",
+       "J18.9"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "t": 23100,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 27826,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"A41.9\",\"verdict\":\"needs_query\",\"confidence\":0.15,\"reason\":\"Sepsis is documented through discharge, but the only support is SIRS (HR 94-96, WBC 11.2). There is no organ dysfunction, lactate was normal, there was no hypotension, cultures were negative, and treatment was routine pneumonia care. Clinical validity is weak and the code is the principal diagnosis, so it needs a validation query.\"},{\"code\":\"J18.9\",\"verdict\":\"supported\",\"confidence\":0.9,\"reason\":\"The ED note, radiology, H&P and discharge summary all document RLL CAP treated with IV and then PO antibiotics. No organ"
+  },
+  {
+   "t": 27826,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "A41.9",
+      "verdict": "needs_query",
+      "confidence": 0.15,
+      "reason": "Sepsis is documented through discharge, but the only support is SIRS (HR 94-96, WBC 11.2). There is no organ dysfunction, lactate was normal, there was no hypotension, cultures were negative, and treatment was routine pneumonia care. Clinical validity is weak and the code is the principal diagnosis, so it needs a validation query."
+     },
+     {
+      "code": "J18.9",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "The ED note, radiology, H&P and discharge summary all document RLL CAP treated with IV and then PO antibiotics. No organism or lobar pneumonia is documented, so J18.9 is appropriate. It would become the principal diagnosis if sepsis is not validated."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "reason": "Hypertension is listed in the discharge summary and treated with lisinopril."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hyperlipidemia is listed in the discharge summary and treated with atorvastatin."
+     },
+     {
+      "code": "E11.9",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "reason": "The discharge summary documents type 2 diabetes without complications. It was monitored and treated with sliding-scale insulin, and A1c was 7.2%."
+     },
+     {
+      "code": "K21.9",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "GERD is listed in the discharge summary and treated with a PPI."
+     },
+     {
+      "code": "Z79.84",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Home metformin is documented, and it was held in hospital and resumed at discharge."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": []
+   }
+  },
+  {
+   "t": 27827,
+   "stage": "grouper",
+   "type": "output",
+   "family": "sepsis",
+   "drg": "871",
+   "title": "Septicemia or severe sepsis w/o MV >96 hours w MCC",
+   "weight": 1.86,
+   "tier": "MCC",
+   "drivers": [
+    "J18.9"
+   ]
+  },
+  {
+   "t": 27827,
+   "stage": "router",
+   "type": "output",
+   "base": 0.15,
+   "blocking": 2,
+   "reasons": [
+    "clinical_validation: Sepsis is documented based only on SIRS criteria (HR>90, WBC>11.2), with no organ dysfunction, normal lactate, normal creatinine, no hypotension and negative cultures. Sepsis-3 criteria are not met, so ask the provider to clinically validate it. If it is removed, pneumonia (J18.9) becomes the principal diagnosis.",
+    "critic wants a query on claim code A41.9"
+   ],
+   "confidence": 0.075
+  },
+  {
+   "t": 27827,
+   "stage": "query",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5",
+   "issue": "Sepsis is documented based only on SIRS criteria (HR>90, WBC>11.2), with no organ dysfunction, normal lactate, normal creatinine, no hypotension and negative cultures. Sepsis-3 criteria are not met, so ask the provider to clinically validate it. If it is removed, pneumonia (J18.9) becomes the principal diagnosis."
+  },
+  {
+   "t": 31779,
+   "stage": "query",
+   "type": "text",
+   "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"Progress note (day 3): \\\"Sepsis due to RLL community-acquired pneumonia\\\"\",\"finding_id\":\"F15\"},{\"text\":\"Progress note (day 3): \\\"meets SIRS (HR > 90, WBC > 11)\\\"\",\"finding_id\":\"F16\"},{\"text\":\"Blood cultures x2 (09/03): no growth at 24 h\",\"finding_id\":\"F19\"},{\"text\":\"No MAP < 65 recorded; SpO2 94-97% on room air throughout; no vasopressors\",\"finding_id\":\"F22\"},{\"text\":\"Renal function at baseline\",\"finding_id\":\"F28\"},{\"text\":\"Lactate normal x2\",\"finding_id\":\"F29\"}],\"question\":\"Sepsis is documented as due to RLL community-acquired pneumo"
+  },
+  {
+   "t": 31779,
+   "stage": "query",
+   "type": "output",
+   "query": {
+    "issue": "Sepsis is documented based only on SIRS criteria (HR>90, WBC>11.2), with no organ dysfunction, normal lactate, normal creatinine, no hypotension and negative cultures. Sepsis-3 criteria are not met, so ask the provider to clinically validate it. If it is removed, pneumonia (J18.9) becomes the principal diagnosis.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "Progress note (day 3): \"Sepsis due to RLL community-acquired pneumonia\"",
+      "finding_id": "F15"
+     },
+     {
+      "text": "Progress note (day 3): \"meets SIRS (HR > 90, WBC > 11)\"",
+      "finding_id": "F16"
+     },
+     {
+      "text": "Blood cultures x2 (09/03): no growth at 24 h",
+      "finding_id": "F19"
+     },
+     {
+      "text": "No MAP < 65 recorded; SpO2 94-97% on room air throughout; no vasopressors",
+      "finding_id": "F22"
+     },
+     {
+      "text": "Renal function at baseline",
+      "finding_id": "F28"
+     },
+     {
+      "text": "Lactate normal x2",
+      "finding_id": "F29"
+     }
+    ],
+    "question": "Sepsis is documented as due to RLL community-acquired pneumonia, with SIRS findings noted. Based on your clinical judgment and the clinical indicators above, please clarify the diagnosis that best reflects this patient's condition during this admission.",
+    "options": [
+     "Sepsis due to RLL community-acquired pneumonia, clinically supported (please document the clinical findings supporting this diagnosis)",
+     "RLL community-acquired pneumonia with a localized infection and systemic inflammatory response, without sepsis",
+     "RLL community-acquired pneumonia only; sepsis was considered and ruled out",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  }
+ ],
+ "ms": 31779,
+ "cost_usd": 0.07975
+}

@@ -1,0 +1,91 @@
+{
+ "case_id": "enc-18",
+ "codes": [
+  {
+   "code": "E86.0",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Dehydration",
+   "confidence": 0.72
+  },
+  {
+   "code": "A08.4",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Viral intestinal infection, unspecified",
+   "confidence": 0.72
+  },
+  {
+   "code": "E11.22",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease",
+   "confidence": 0.72
+  },
+  {
+   "code": "I12.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",
+   "confidence": 0.72
+  },
+  {
+   "code": "N18.31",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Chronic kidney disease, stage 3a",
+   "confidence": 0.72
+  },
+  {
+   "code": "Z79.4",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of insulin",
+   "confidence": 0.72
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.72
+  },
+  {
+   "code": "G47.33",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Obstructive sleep apnea (adult) (pediatric)",
+   "confidence": 0.72
+  },
+  {
+   "code": "Z79.899",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Other long term (current) drug therapy",
+   "confidence": 0.72
+  }
+ ],
+ "drg": {
+  "family": null,
+  "number": null,
+  "weight": null,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.36,
+ "needs_human": true,
+ "reason": "Conflicting documentation: attending/discharge summary lists AKI on CKD 3a as principal, but nephrology consultant documents no AKI (Cr 1.5 at established baseline 1.4-1.6; KDIGO not met) and clinical indicators support nephrology. Coded without N17.9 and with dehydration (E86.0) as principal, with viral gastroenteritis A08.4 secondary. Attending query is recommended to resolve the AKI diagnosis; if AKI is confirmed, N17.9 would be principal. Also, ED/H&P sequencing of dehydration vs gastroenteritis could affect PDX (A08.4 could be considered principal per guidelines for dehydration with gastroenteritis\u2014both treated, either may be sequenced depending on circumstances of admission, since admission was for dehydration, E86.0 chosen). Z79.899 is optional.",
+ "ms": 5237,
+ "cost_usd": 0.01141,
+ "input_tokens": 3300,
+ "output_tokens": 481
+}

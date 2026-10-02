@@ -1,0 +1,110 @@
+{
+  "id": "enc-12",
+  "title": "Pulmonary embolism with leg clot",
+  "summary": "A straightforward blood clot in the lung with a clot in the right leg, both clearly documented and present on arrival.",
+  "family": "pe",
+  "patient": {
+    "age": 58,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-15",
+  "discharge_date": "2026-09-18",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "K. Abernathy, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-15T21:10",
+      "text": "CC: SOB, R leg swelling.\nHPI: 58F with HTN, HLD, hypothyroidism, GERD, obesity presents with 2 days of exertional SOB and 5 days of R calf/thigh swelling and ache. Returned 6 days ago from a 14-hour flight from Singapore. No prior VTE. No hormone therapy. No known malignancy; colonoscopy and mammogram up to date.\nROS: + DOE, R leg pain/swelling, mild pleuritic L chest pain. Denies syncope, hemoptysis, fever.\nVitals: T 37.0, HR 104, RR 20, BP 146/88, SpO2 95% RA.\nExam: Mild tachypnea, lungs clear. RRR. R thigh and calf swollen (R calf 4 cm > L), tender along femoral vein. Distal pulses intact.\nLabs: D-dimer 4.8. Troponin <0.01. BNP 42. CBC, BMP unremarkable; Cr 0.8.\nCTA chest (prelim per radiology phone call): segmental PE RLL and LLL, no RV strain.\nMDM: Acute PE, provoked by long-haul travel, hemodynamically stable, sPESI 0. Heparin drip started. Admit for anticoagulation and LE duplex."
+    },
+    {
+      "id": "d2",
+      "type": "Radiology",
+      "author": "D. Mwangi, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-15T22:20",
+      "text": "EXAM: CT angiography chest with contrast.\nFINDINGS: Filling defects in segmental branches of the right lower lobe and left lower lobe pulmonary arteries. Main and lobar arteries patent. RV/LV ratio 0.8; no septal bowing; no reflux of contrast into the IVC. No infarct. No effusion. Small hiatal hernia.\nIMPRESSION: Bilateral segmental pulmonary emboli without CT evidence of right heart strain."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "F. Castellano, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-16T01:30",
+      "text": "HPI: As per ED. Travel-associated bilateral segmental PE.\nPMH: HTN, HLD, hypothyroidism, GERD, obesity.\nMeds: losartan 50 mg, rosuvastatin 10 mg, levothyroxine 100 mcg, pantoprazole 40 mg.\nSocial: Accountant, never smoker, rare EtOH.\nExam: Wt 98 kg, Ht 165 cm, BMI 36.0. HR 96, SpO2 96% RA. R leg edema/tenderness.\nAssessment/Plan:\n1. Acute bilateral segmental pulmonary embolism, POA, without right heart strain - heparin gtt per protocol; transition to DOAC once duplex done and stable.\n2. R leg swelling, suspect DVT - LE venous duplex in AM.\n3. HTN - continue losartan.\n4. HLD - continue rosuvastatin.\n5. Hypothyroidism - continue levothyroxine.\n6. GERD - continue PPI.\n7. Obesity, BMI 36 - counseling.\nCode: Full."
+    },
+    {
+      "id": "d4",
+      "type": "Radiology",
+      "author": "D. Mwangi, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-16T09:45",
+      "text": "EXAM: US venous duplex, bilateral lower extremities.\nFINDINGS: RIGHT: Noncompressible, expanded femoral vein with occlusive echogenic thrombus from the proximal to distal femoral vein. Common femoral, popliteal, and calf veins compressible with normal flow. LEFT: Normal compressibility and flow throughout.\nIMPRESSION: Acute occlusive deep vein thrombosis of the right femoral vein."
+    },
+    {
+      "id": "d5",
+      "type": "Progress note",
+      "author": "F. Castellano, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-17T08:20",
+      "text": "S: SOB improving, leg pain better with elevation.\nO: HR 84, RR 16, BP 132/80, SpO2 97% RA. R leg edema persists, less tender.\nA/P:\n1. Acute bilateral segmental PE - stable on heparin; transition to apixaban 10 mg BID x7d then 5 mg BID today.\n2. Acute DVT, R femoral vein, POA - source of PE; on anticoagulation as above.\n3. HTN, HLD, hypothyroidism, GERD, obesity - stable, home meds."
+    },
+    {
+      "id": "d6",
+      "type": "Pharmacy note",
+      "author": "I. Moreau, PharmD (Clinical Pharmacy)",
+      "author_role": "pharmacy",
+      "timestamp": "2026-09-17T14:05",
+      "text": "Anticoagulation transition consult. Heparin infusion stopped 13:30; apixaban 10 mg PO given 13:30. Wt 98 kg, CrCl ~105 mL/min, no interacting CYP3A4/P-gp agents on med list. Plan: apixaban 10 mg BID x7 days (through 09/22) then 5 mg BID. Counseled patient on missed doses, bleeding signs, avoidance of NSAIDs, and to inform dentist/surgeons. Copay verified affordable; 30-day free trial card provided. Patient verbalized understanding via teach-back."
+    },
+    {
+      "id": "d7",
+      "type": "Discharge summary",
+      "author": "F. Castellano, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-18T10:30",
+      "text": "Admit: 09/15/2026  Discharge: 09/18/2026\nDischarge diagnoses:\n1. Acute bilateral segmental pulmonary embolism without right heart strain, provoked (long-haul travel)\n2. Acute deep vein thrombosis, right femoral vein\n3. Hypertension\n4. Hyperlipidemia\n5. Hypothyroidism\n6. GERD\n7. Obesity, BMI 36\nHospital course: Presented with dyspnea and R leg swelling after a 14-h flight. CTA: bilateral segmental PE, no RV strain; troponin/BNP normal. Duplex: occlusive R femoral DVT. Treated with heparin gtt then apixaban. Never hypoxic, remained hemodynamically stable.\nDischarge meds: apixaban 10 mg BID through 09/22 then 5 mg BID for at least 3 months; home losartan, rosuvastatin, levothyroxine, pantoprazole.\nFollow-up: PCP 1 week; hematology 3 months to decide duration."
+    }
+  ],
+  "gold": {
+    "pdx": "I26.99",
+    "secondary": [
+      {
+        "code": "I82.411",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "E03.9",
+        "poa": "Y"
+      },
+      {
+        "code": "K21.9",
+        "poa": "Y"
+      },
+      {
+        "code": "E66.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z68.36",
+        "poa": "1"
+      }
+    ],
+    "drg": "176",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [],
+    "explanation": "Clean case: bilateral segmental PE without right heart strain is I26.99 (not cor pulmonale), and the attending documents the acute right femoral vein DVT as the source, so I82.411 is added, both present on admission. Chronic conditions are coded from the provider's problem list, with BMI from the H&P supporting the documented obesity. With no CC/MCC beyond the PE family, the case groups to DRG 176 and can go through without a coder."
+  },
+  "hero": false
+}

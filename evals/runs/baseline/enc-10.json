@@ -1,0 +1,99 @@
+{
+ "case_id": "enc-10",
+ "codes": [
+  {
+   "code": "I50.33",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Acute on chronic diastolic (congestive) heart failure",
+   "confidence": 0.6
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus without complications",
+   "confidence": 0.6
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.6
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypothyroidism, unspecified",
+   "confidence": 0.6
+  },
+  {
+   "code": "G47.33",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Obstructive sleep apnea (adult) (pediatric)",
+   "confidence": 0.6
+  },
+  {
+   "code": "E66.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Obesity, unspecified",
+   "confidence": 0.6
+  },
+  {
+   "code": "Z68.34",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Body mass index [BMI] 34.0-34.9, adult",
+   "confidence": 0.6
+  },
+  {
+   "code": "I11.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypertensive heart disease with heart failure",
+   "confidence": 0.6
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of oral hypoglycemic drugs",
+   "confidence": 0.6
+  },
+  {
+   "code": "Z99.89",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Dependence on other enabling machines and devices",
+   "confidence": 0.6
+  }
+ ],
+ "drg": {
+  "family": "hf",
+  "number": "293",
+  "weight": 0.64,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.3,
+ "needs_human": true,
+ "reason": "Lab-documented hyponatremia (Na 127-129, low serum osm, treated with fluid restriction and daily BMP monitoring) is never diagnosed by a provider, so E871 cannot be coded without a query. Also, I110 (hypertensive heart disease with HF) is only assumed by the ICD-10-CM presumed-relationship convention, but hypertension is not documented anywhere in the chart, so I110 should NOT be assigned; the I110 code in my list is an error and should be removed on review. Z9989 for CPAP dependence is optional. Z7984 is appropriate for metformin only if long-term oral hypoglycemic use is documented (it is in the med list). Pleural effusions are integral to HF and not coded. Recommend a physician query for hyponatremia and coder verification of the hypertension and Z-code entries.",
+ "ms": 4519,
+ "cost_usd": 0.0111,
+ "input_tokens": 3205,
+ "output_tokens": 469
+}

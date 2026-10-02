@@ -1,0 +1,92 @@
+{
+  "id": "enc-15",
+  "title": "COPD flare with low sodium",
+  "summary": "A COPD flare-up where the doctor also diagnosed and treated low sodium; the breathing symptoms are part of the flare and are not coded separately.",
+  "family": "copd",
+  "patient": {
+    "age": 71,
+    "sex": "M"
+  },
+  "admit_date": "2026-09-21",
+  "discharge_date": "2026-09-25",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "W. Adeyemi, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-21T11:25",
+      "text": "CC: worsening SOB and wheezing.\nHPI: 71M with severe COPD (FEV1 38%) on 2L home O2, HTN, HLD, GERD, current smoker (1/2 ppd, 50 pk-yr) with 4 days of increased dyspnea, wheezing, and cough with increased green sputum after a cold from his grandson. Using albuterol q2h without relief. Poor appetite, drinking mostly water and tea.\nROS: + SOB, wheeze, cough, sputum, fatigue. Denies fever, CP, leg swelling, hemoptysis.\nVitals: T 37.4, HR 102, RR 24, BP 148/86, SpO2 90% on his home 2L (baseline 91-93% on 2L).\nExam: Mild distress, speaking full sentences. Prolonged expiratory phase, diffuse expiratory wheezes, no crackles. No accessory muscle use. Heart regular, distant. No JVD. No edema. Oral mucosa slightly dry.\nLabs: WBC 10.8. Na 129, K 4.2, Cl 92, CO2 30, BUN 22, Cr 1.0, glucose 118. VBG 7.38/52 (baseline pCO2 ~50). Flu/COVID neg.\nCXR: hyperinflation, no consolidation, no effusion.\nMDM: COPD exacerbation. Duonebs x3, methylprednisolone 125 mg IV, azithromycin. Low sodium noted. Admit."
+    },
+    {
+      "id": "d2",
+      "type": "H&P",
+      "author": "S. Kowalczyk, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-21T15:00",
+      "text": "HPI: As per ED. 71M with severe COPD on 2L home O2 admitted with viral-triggered exacerbation.\nPMH: COPD (GOLD 3) on 2L continuous home O2 since 2023, HTN, HLD, GERD.\nMeds: tiotropium/olodaterol daily, albuterol PRN, amlodipine 5 mg, pravastatin 40 mg, omeprazole 20 mg. Home O2 2L continuous.\nSocial: Smokes 1/2 ppd cigarettes, 50 pk-yr; precontemplative. Retired machinist.\nExam: RR 22, SpO2 91% on 2L. Diffuse wheezes, prolonged expiration. Euvolemic to slightly dry.\nAssessment/Plan:\n1. Acute exacerbation of COPD - O2 requirement unchanged from his home baseline 2L, pCO2 at baseline; no acute respiratory failure. Prednisone 40 mg daily x5d, azithromycin x5d, scheduled duonebs q4h, continue LAMA/LABA.\n2. Hyponatremia - Na 129, likely hypovolemic from poor solute intake with free water (\"tea and toast\"). Urine Na 14, serum osm 270. NS 75 mL/h, encourage solute intake, BMP q12h, avoid overly rapid correction.\n3. Dependence on home O2 - continue 2L continuous.\n4. HTN - continue amlodipine.\n5. HLD - continue pravastatin.\n6. GERD - continue PPI.\n7. Tobacco dependence, cigarettes - counseled >3 min; nicotine patch 14 mg offered and accepted.\nDVT ppx: enoxaparin. Code: Full."
+    },
+    {
+      "id": "d3",
+      "type": "Progress note",
+      "author": "S. Kowalczyk, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-22T09:10",
+      "text": "S: Breathing a bit better, still wheezy. Eating more.\nO: HR 94, RR 20, SpO2 92% on 2L. Scattered wheezes, improved air movement.\nLabs: Na 129 -> 132, K 4.0, glucose 142.\nA/P:\n1. COPD exacerbation - improving. Continue prednisone, azithro, duonebs; space to q6h.\n2. Hyponatremia, hypovolemic - improving with NS; correction 3 mEq in 18h, appropriate. Stop IVF this evening if Na >= 133.\n3. Tobacco dependence - nicotine patch.\n4. HTN, HLD, GERD - home meds."
+    },
+    {
+      "id": "d4",
+      "type": "Progress note",
+      "author": "S. Kowalczyk, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-24T08:50",
+      "text": "S: Near baseline, walked to nursing station on 2L.\nO: SpO2 93% on 2L at rest, 90% with ambulation (baseline). Few end-expiratory wheezes.\nLabs: Na 136.\nA/P:\n1. COPD exacerbation - resolving; plan discharge tomorrow to complete prednisone/azithro at home.\n2. Hyponatremia - resolved with IVF and diet.\n3. Tobacco dependence, HTN, HLD, GERD - as before."
+    },
+    {
+      "id": "d5",
+      "type": "Discharge summary",
+      "author": "S. Kowalczyk, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-25T10:30",
+      "text": "Admit: 09/21/2026  Discharge: 09/25/2026\nDischarge diagnoses:\n1. Acute exacerbation of COPD, viral-triggered\n2. Hyponatremia, hypovolemic, resolved\n3. Dependence on supplemental oxygen (2L home O2, at baseline)\n4. Hypertension\n5. Hyperlipidemia\n6. GERD\n7. Tobacco dependence, cigarettes\nHospital course: Admitted with 4 days of increased dyspnea, wheezing and productive cough. CXR without pneumonia. O2 requirement remained at home baseline; no acute respiratory failure. Treated with steroids, azithromycin and bronchodilators with steady improvement. Na 129 on admission from poor solute intake, corrected with NS to 136.\nDischarge meds: prednisone 40 mg x1 more day, azithromycin x1 more day, tiotropium/olodaterol, albuterol PRN, amlodipine, pravastatin, omeprazole, nicotine patch 14 mg daily. Home O2 2L continuous.\nFollow-up: pulmonology 2 weeks; PCP 1 week with BMP; smoking cessation clinic referral placed."
+    }
+  ],
+  "gold": {
+    "pdx": "J44.1",
+    "secondary": [
+      {
+        "code": "E87.1",
+        "poa": "Y"
+      },
+      {
+        "code": "Z99.81",
+        "poa": "1"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "K21.9",
+        "poa": "Y"
+      },
+      {
+        "code": "F17.210",
+        "poa": "Y"
+      }
+    ],
+    "drg": "191",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [
+      "symptom_integral"
+    ],
+    "explanation": "Wheezing, dyspnea and cough are integral to the COPD exacerbation (J44.1) and are not coded separately. Unlike a lab-only finding, hyponatremia here is diagnosed, worked up, treated with IV saline and followed by the attending, so E87.1 is coded and acts as the CC driving DRG 191. Home O2 dependence (Z99.81) and cigarette dependence (F17.210) are coded; acute respiratory failure is explicitly denied, so J96.x is not coded. A naive system adds R06.2/R06.00/R05.9 symptom codes, or misses the documented hyponatremia and groups to 192."
+  },
+  "hero": false
+}

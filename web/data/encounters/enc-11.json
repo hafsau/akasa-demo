@@ -1,0 +1,1441 @@
+{
+ "case": {
+  "id": "enc-11",
+  "title": "Pneumonia, consultant names respiratory failure",
+  "summary": "Pneumonia where the admitting doctor wrote only 'hypoxia', but the lung specialist and later notes diagnose acute respiratory failure, which is the more specific diagnosis to code.",
+  "hero": false,
+  "family": "pneumonia",
+  "patient": {
+   "age": 68,
+   "sex": "M"
+  },
+  "admit_date": "2026-09-10",
+  "discharge_date": "2026-09-14",
+  "documents": [
+   {
+    "id": "d1",
+    "type": "ED note",
+    "author": "C. Romero, MD (Emergency Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-10T07:45",
+    "text": "CC: SOB, cough, fever.\nHPI: 68M with HTN, HLD, BPH, R knee OA, former smoker (35 pk-yr, quit 2014) presents with 4 days of cough with yellow sputum, fevers, and worsening SOB since last night; now dyspneic speaking in short phrases.\nROS: + fever, chills, cough, dyspnea. Denies CP, hemoptysis, leg swelling, recent travel.\nVitals: T 38.8C, HR 108, RR 30, BP 138/82, SpO2 84% RA.\nExam: Tachypneic, using accessory muscles (SCM retractions). Crackles L base with egophony. RRR. No edema.\nLabs: WBC 15.9, Hgb 14.2, Plt 288. BMP: Na 137, K 3.9, Cr 1.0, glucose 128. Lactate 1.6. Procalcitonin 1.8. Flu/COVID/RSV PCR negative.\nCXR (my read): LLL consolidation.\nMDM: CAP, LLL. Hypoxic on RA, placed on 4L NC with SpO2 90%. Ceftriaxone + azithromycin. Admit to medicine, step-down level."
+   },
+   {
+    "id": "d2",
+    "type": "Radiology",
+    "author": "P. Iversen, MD (Radiology)",
+    "author_role": "radiology",
+    "timestamp": "2026-09-10T08:30",
+    "text": "EXAM: XR chest portable AP.\nFINDINGS: Lobar consolidation left lower lobe with air bronchograms. No pleural effusion or pneumothorax. Right lung clear. Cardiomediastinal silhouette normal. Emphysematous changes not well evaluated on portable technique.\nIMPRESSION: Left lower lobe pneumonia."
+   },
+   {
+    "id": "d3",
+    "type": "H&P",
+    "author": "T. Nakamura, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-10T10:20",
+    "text": "HPI: As per ED. 68M with 4d productive cough and fever, now with SOB. SpO2 84% RA in ED, 90% on 4L NC.\nPMH: HTN, HLD, BPH, OA R knee. Former smoker, quit 2014.\nMeds: amlodipine 10 mg, atorvastatin 40 mg, tamsulosin 0.4 mg qHS, acetaminophen PRN knee pain.\nExam: T 38.5, HR 104, RR 26, BP 134/80, SpO2 91% 4L NC. Crackles LLL.\nAssessment/Plan:\n1. LLL community-acquired pneumonia - ceftriaxone 1 g daily + azithromycin 500 mg daily. Sputum/blood cx. Legionella/pneumococcal Ag.\n2. Hypoxia - on 4L NC, titrate to SpO2 > 90%, wean as tolerated.\n3. HTN - continue amlodipine.\n4. HLD - continue atorvastatin.\n5. BPH - continue tamsulosin; no LUTS currently.\n6. OA R knee - acetaminophen PRN.\nDVT ppx: enoxaparin. Code: Full."
+   },
+   {
+    "id": "d4",
+    "type": "Consult",
+    "author": "R. Desai, MD (Pulmonology)",
+    "author_role": "consultant",
+    "timestamp": "2026-09-10T16:50",
+    "text": "Reason for consult: worsening oxygenation.\nHPI: 68M admitted this AM with LLL CAP. Rapid response called 15:30 for SpO2 86% on 4L NC, RR 32, increased work of breathing.\nExam: Anxious, speaking 3-4 word sentences, accessory muscle use with intercostal retractions. RR 30. Bronchial breath sounds LLL. No wheeze. No stridor.\nABG on 4L NC: pH 7.46 / pCO2 33 / pO2 54 / HCO3 23. P/F approx 150.\nBedside US: A-lines R, consolidation with dynamic air bronchograms LLL, no effusion.\nAssessment:\n1. Acute hypoxic respiratory failure secondary to LLL community-acquired pneumonia. SpO2 84% RA on presentation, RR 30, accessory muscle use, pO2 54 on 4L NC.\n2. LLL CAP - agree with current antibiotics.\n3. Remote tobacco use; no prior PFTs. No clinical evidence of obstructive lung disease on exam; will not label COPD without spirometry.\nRecommendations:\n- Escalate to high-flow nasal cannula 40 L/min, FiO2 50%, goal SpO2 92-96%.\n- Continue ceftriaxone/azithro.\n- Low threshold for ICU transfer / BiPAP if worsening; not currently requiring intubation.\n- Outpatient PFTs after recovery."
+   },
+   {
+    "id": "d5",
+    "type": "Progress note",
+    "author": "T. Nakamura, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-11T09:05",
+    "text": "S: Overnight on HFNC, work of breathing improved. Still coughing.\nO: T 37.9, HR 94, RR 22, BP 128/76. SpO2 94% on HFNC 30 L/40%. Crackles LLL. WBC 13.2. Blood cx NGTD. Urine Ag negative.\nA/P:\n1. Acute hypoxic respiratory failure due to LLL pneumonia - agree with pulmonology. Improving; weaning HFNC, goal transition to NC today.\n2. LLL CAP - continue ceftriaxone/azithro.\n3. HTN, HLD, BPH, OA - home meds."
+   },
+   {
+    "id": "d6",
+    "type": "Discharge summary",
+    "author": "T. Nakamura, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-14T10:40",
+    "text": "Admit: 09/10/2026  Discharge: 09/14/2026\nDischarge diagnoses:\n1. Left lower lobe community-acquired pneumonia, organism not identified\n2. Acute hypoxic respiratory failure secondary to #1, resolved\n3. Hypertension\n4. Hyperlipidemia\n5. BPH\n6. Osteoarthritis, right knee\nHospital course: Presented with fever, productive cough and SpO2 84% RA. Required escalation to HFNC (max 40 L/50%) on day 1 per pulmonology for acute hypoxic respiratory failure; weaned to 2L NC on day 2 and to room air on day 3 (SpO2 94% RA at rest and ambulation). Treated with ceftriaxone/azithromycin, transitioned to PO amoxicillin-clavulanate. Cultures negative.\nDischarge meds: amoxicillin-clavulanate 875 mg BID x4 days; home amlodipine, atorvastatin, tamsulosin.\nFollow-up: PCP 1 week; pulmonology with PFTs and repeat CXR in 6-8 weeks."
+   }
+  ],
+  "gold": {
+   "pdx": "J18.9",
+   "secondary": [
+    {
+     "code": "J96.01",
+     "poa": "Y"
+    },
+    {
+     "code": "I10",
+     "poa": "Y"
+    },
+    {
+     "code": "E78.5",
+     "poa": "Y"
+    },
+    {
+     "code": "N40.0",
+     "poa": "Y"
+    },
+    {
+     "code": "M17.11",
+     "poa": "Y"
+    },
+    {
+     "code": "Z87.891",
+     "poa": "1"
+    }
+   ],
+   "drg": "193",
+   "route": "autonomous",
+   "hold_reasons": [],
+   "query": null,
+   "traps": [
+    "consultant_specificity",
+    "symptom_integral"
+   ],
+   "explanation": "The attending's H&P lists only 'hypoxia', but the pulmonology consult documents acute hypoxic respiratory failure with clinical support (SpO2 84% RA, RR 30, accessory muscles, pO2 54, HFNC), and the attending's next progress note and discharge summary agree. Consultant documentation is codable when it doesn't conflict with the attending, so J96.01 is assigned and hypoxia (R09.02), dyspnea and cough are not coded as they are integral to the respiratory failure and pneumonia. A naive system codes R09.02 from the H&P and misses the MCC; it also should not code COPD, which the pulmonologist explicitly declined to diagnose."
+  }
+ },
+ "run": {
+  "case_id": "enc-11",
+  "prompt_version": "2026-10-02.4-router-v2",
+  "models": {
+   "fast": "anthropic:claude-haiku-4-5",
+   "reason": "anthropic:claude-sonnet-5-5"
+  },
+  "findings": [
+   {
+    "id": "F1",
+    "condition": "Hypertension",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "68M with HTN, HLD, BPH, R knee OA",
+    "note": null,
+    "start": 28,
+    "end": 61
+   },
+   {
+    "id": "F2",
+    "condition": "Hyperlipidemia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "68M with HTN, HLD, BPH, R knee OA",
+    "note": null,
+    "start": 28,
+    "end": 61
+   },
+   {
+    "id": "F3",
+    "condition": "Benign prostatic hyperplasia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "68M with HTN, HLD, BPH, R knee OA",
+    "note": null,
+    "start": 28,
+    "end": 61
+   },
+   {
+    "id": "F4",
+    "condition": "Osteoarthritis, right knee",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "R knee OA",
+    "note": null,
+    "start": 52,
+    "end": 61
+   },
+   {
+    "id": "F5",
+    "condition": "Tobacco use history, former smoker",
+    "assertion": "history",
+    "doc_id": "d1",
+    "quote": "former smoker (35 pk-yr, quit 2014)",
+    "note": null,
+    "start": 63,
+    "end": 98
+   },
+   {
+    "id": "F6",
+    "condition": "Cough with yellow sputum",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "4 days of cough with yellow sputum",
+    "note": null,
+    "start": 113,
+    "end": 147
+   },
+   {
+    "id": "F7",
+    "condition": "Fever",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "+ fever, chills, cough, dyspnea",
+    "note": null,
+    "start": 238,
+    "end": 269
+   },
+   {
+    "id": "F8",
+    "condition": "Dyspnea",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "worsening SOB since last night; now dyspneic speaking in short phrases",
+    "note": null,
+    "start": 161,
+    "end": 231
+   },
+   {
+    "id": "F9",
+    "condition": "Hypoxemia on room air",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "SpO2 84% RA",
+    "note": null,
+    "start": 366,
+    "end": 377
+   },
+   {
+    "id": "F10",
+    "condition": "Tachypnea with accessory muscle use",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Tachypneic, using accessory muscles (SCM retractions)",
+    "note": null,
+    "start": 385,
+    "end": 438
+   },
+   {
+    "id": "F11",
+    "condition": "Crackles left lung base",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Crackles L base with egophony",
+    "note": null,
+    "start": 440,
+    "end": 469
+   },
+   {
+    "id": "F12",
+    "condition": "Leukocytosis",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "WBC 15.9",
+    "note": null,
+    "start": 492,
+    "end": 500
+   },
+   {
+    "id": "F13",
+    "condition": "Elevated procalcitonin",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Procalcitonin 1.8",
+    "note": null,
+    "start": 575,
+    "end": 592
+   },
+   {
+    "id": "F14",
+    "condition": "Influenza/COVID/RSV testing negative",
+    "assertion": "negated",
+    "doc_id": "d1",
+    "quote": "Flu/COVID/RSV PCR negative",
+    "note": null,
+    "start": 594,
+    "end": 620
+   },
+   {
+    "id": "F15",
+    "condition": "Left lower lobe consolidation",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "LLL consolidation",
+    "note": null,
+    "start": 637,
+    "end": 654
+   },
+   {
+    "id": "F16",
+    "condition": "Left lower lobe pneumonia with air bronchograms",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Lobar consolidation left lower lobe with air bronchograms",
+    "note": null,
+    "start": 38,
+    "end": 95
+   },
+   {
+    "id": "F17",
+    "condition": "Community-acquired pneumonia, left lower lobe",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "LLL community-acquired pneumonia",
+    "note": null,
+    "start": 346,
+    "end": 378
+   },
+   {
+    "id": "F18",
+    "condition": "Acute hypoxic respiratory failure",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "Acute hypoxic respiratory failure secondary to LLL community-acquired pneumonia",
+    "note": null,
+    "start": 492,
+    "end": 571
+   },
+   {
+    "id": "F19",
+    "condition": "Hypoxemia on supplemental oxygen",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "pO2 54 on 4L NC",
+    "note": null,
+    "start": 631,
+    "end": 646
+   },
+   {
+    "id": "F20",
+    "condition": "Rapid shallow breathing pattern",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "RR 32, increased work of breathing",
+    "note": null,
+    "start": 134,
+    "end": 168
+   },
+   {
+    "id": "F21",
+    "condition": "Anxiety",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "Anxious",
+    "note": null,
+    "start": 176,
+    "end": 183
+   },
+   {
+    "id": "F22",
+    "condition": "Intercostal retractions",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "accessory muscle use with intercostal retractions",
+    "note": null,
+    "start": 214,
+    "end": 263
+   },
+   {
+    "id": "F23",
+    "condition": "Respiratory acidosis not present; mild alkalemia",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "pH 7.46 / pCO2 33 / pO2 54 / HCO3 23",
+    "note": null,
+    "start": 338,
+    "end": 374
+   },
+   {
+    "id": "F24",
+    "condition": "Acute hypoxic respiratory failure improving on high-flow nasal cannula",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "Acute hypoxic respiratory failure due to LLL pneumonia - agree with pulmonology. Improving",
+    "note": null,
+    "start": 195,
+    "end": 285
+   },
+   {
+    "id": "F25",
+    "condition": "Blood cultures negative",
+    "assertion": "negated",
+    "doc_id": "d5",
+    "quote": "Blood cx NGTD",
+    "note": null,
+    "start": 153,
+    "end": 166
+   },
+   {
+    "id": "F26",
+    "condition": "Pneumococcal antigen negative",
+    "assertion": "negated",
+    "doc_id": "d5",
+    "quote": "Urine Ag negative",
+    "note": null,
+    "start": 168,
+    "end": 185
+   },
+   {
+    "id": "F27",
+    "condition": "Left lower lobe community-acquired pneumonia, organism not identified",
+    "assertion": "affirmed",
+    "doc_id": "d6",
+    "quote": "Left lower lobe community-acquired pneumonia, organism not identified",
+    "note": null,
+    "start": 65,
+    "end": 134
+   },
+   {
+    "id": "F28",
+    "condition": "Acute hypoxic respiratory failure resolved",
+    "assertion": "resolved",
+    "doc_id": "d6",
+    "quote": "Acute hypoxic respiratory failure secondary to #1, resolved",
+    "note": null,
+    "start": 138,
+    "end": 197
+   },
+   {
+    "id": "F29",
+    "condition": "Escalation to high-flow nasal cannula during hospitalization",
+    "assertion": "affirmed",
+    "doc_id": "d6",
+    "quote": "Required escalation to HFNC (max 40 L/50%)",
+    "note": null,
+    "start": 342,
+    "end": 384
+   },
+   {
+    "id": "F30",
+    "condition": "Successful weaning from supplemental oxygen",
+    "assertion": "affirmed",
+    "doc_id": "d6",
+    "quote": "weaned to 2L NC on day 2 and to room air on day",
+    "note": null,
+    "start": 449,
+    "end": 496
+   },
+   {
+    "id": "F31",
+    "condition": "Treatment with ceftriaxone and azithromycin",
+    "assertion": "affirmed",
+    "doc_id": "d6",
+    "quote": "Treated with ceftriaxone/azithromycin",
+    "note": null,
+    "start": 537,
+    "end": 574
+   },
+   {
+    "id": "F32",
+    "condition": "Transition to oral amoxicillin-clavulanate",
+    "assertion": "affirmed",
+    "doc_id": "d6",
+    "quote": "transitioned to PO amoxicillin-clavulanate",
+    "note": null,
+    "start": 576,
+    "end": 618
+   },
+   {
+    "id": "F33",
+    "condition": "Cultures negative",
+    "assertion": "negated",
+    "doc_id": "d6",
+    "quote": "Cultures negative",
+    "note": null,
+    "start": 620,
+    "end": 637
+   }
+  ],
+  "codes": [
+   {
+    "code": "J18.1",
+    "poa": "Y",
+    "finding_ids": [
+     "F17",
+     "F27",
+     "F16"
+    ],
+    "confidence": 0.88,
+    "rationale": "The provider documented LLL community-acquired pneumonia with no organism identified. Lobar pneumonia, unspecified organism (J18.1) fits that documentation.",
+    "role": "pdx",
+    "verdict": "supported",
+    "critic_reason": "Providers document LLL community-acquired pneumonia with lobar consolidation on imaging, organism not identified. J18.1 is reasonable for lobar pneumonia, and the attending's CAP diagnosis is consistent across the stay. Radiology wording alone is not used, but the attending confirms.",
+    "severity": null,
+    "description": "Lobar pneumonia, unspecified organism"
+   },
+   {
+    "code": "J96.01",
+    "poa": "Y",
+    "finding_ids": [
+     "F18",
+     "F24",
+     "F28"
+    ],
+    "confidence": 0.9,
+    "rationale": "Pulmonology and the attending both documented acute hypoxic respiratory failure. SpO2 was 84% on room air with increased work of breathing at presentation, so it was present on admission.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Provider-documented by pulmonology and the attending and carried into the discharge summary. Clinically valid: SpO2 84% RA, RR 30-32, accessory muscle use, P/F about 150, HFNC required. POA is Y given the presenting hypoxemia and distress.",
+    "severity": "MCC",
+    "description": "Acute respiratory failure with hypoxia"
+   },
+   {
+    "code": "I10",
+    "poa": "Y",
+    "finding_ids": [
+     "F1"
+    ],
+    "confidence": 0.95,
+    "rationale": "Chronic hypertension, treated with amlodipine.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Documented HTN, treated with amlodipine, listed in the discharge diagnoses.",
+    "severity": "none",
+    "description": "Essential (primary) hypertension"
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "finding_ids": [
+     "F2"
+    ],
+    "confidence": 0.95,
+    "rationale": "Hyperlipidemia, treated with atorvastatin.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Documented hyperlipidemia, treated with atorvastatin, listed in the discharge diagnoses.",
+    "severity": "none",
+    "description": "Hyperlipidemia, unspecified"
+   },
+   {
+    "code": "N40.0",
+    "poa": "Y",
+    "finding_ids": [
+     "F3"
+    ],
+    "confidence": 0.9,
+    "rationale": "BPH was documented, and the H&P states no LUTS currently.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "BPH without LUTS is documented explicitly in the H&P, and tamsulosin was continued.",
+    "severity": "none",
+    "description": "Benign prostatic hyperplasia without lower urinary tract symptoms"
+   },
+   {
+    "code": "M17.11",
+    "poa": "Y",
+    "finding_ids": [
+     "F4"
+    ],
+    "confidence": 0.88,
+    "rationale": "Right knee osteoarthritis, treated with acetaminophen PRN. It is not documented as secondary, so primary is assumed.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Right knee OA is documented, treated with acetaminophen, and listed in the discharge diagnoses. Unilateral primary is the default when not specified as secondary.",
+    "severity": "none",
+    "description": "Unilateral primary osteoarthritis, right knee"
+   },
+   {
+    "code": "Z87.891",
+    "poa": "Y",
+    "finding_ids": [
+     "F5"
+    ],
+    "confidence": 0.85,
+    "rationale": "Former smoker who quit in 2014.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Former smoker, quit 2014, documented by the ED and H&P providers. Pulmonology states no COPD, so there is no conflict.",
+    "severity": "none",
+    "description": "Personal history of nicotine dependence"
+   }
+  ],
+  "removed": [],
+  "issues": [],
+  "queries": [],
+  "drg": {
+   "family": "pneumonia",
+   "number": "193",
+   "title": "Simple pneumonia and pleurisy w MCC",
+   "weight": 1.31,
+   "tier": "MCC",
+   "drivers": [
+    "J96.01"
+   ]
+  },
+  "confidence": 0.88,
+  "confidence_base": 0.88,
+  "blocking_issues": 0,
+  "blocking_reasons": [],
+  "stages": [
+   {
+    "stage": "triage",
+    "model": null,
+    "started": 0,
+    "ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cost_usd": 0
+   },
+   {
+    "stage": "evidence",
+    "model": "claude-haiku-4-5",
+    "started": 0,
+    "ms": 31340,
+    "input_tokens": 8130,
+    "output_tokens": 4168,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02897
+   },
+   {
+    "stage": "coder",
+    "model": "claude-sonnet-5-5",
+    "started": 31340,
+    "ms": 7365,
+    "input_tokens": 14348,
+    "output_tokens": 974,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.03844
+   },
+   {
+    "stage": "critic",
+    "model": "claude-sonnet-5-5",
+    "started": 38705,
+    "ms": 5139,
+    "input_tokens": 6291,
+    "output_tokens": 634,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01892
+   }
+  ],
+  "events": [
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "stage_start"
+   },
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "output",
+    "documents": [
+     {
+      "id": "d1",
+      "type": "ED note",
+      "author_role": "provider",
+      "timestamp": "2026-09-10T07:45",
+      "words": 130,
+      "flags": []
+     },
+     {
+      "id": "d2",
+      "type": "Radiology",
+      "author_role": "radiology",
+      "timestamp": "2026-09-10T08:30",
+      "words": 38,
+      "flags": []
+     },
+     {
+      "id": "d3",
+      "type": "H&P",
+      "author_role": "provider",
+      "timestamp": "2026-09-10T10:20",
+      "words": 127,
+      "flags": []
+     },
+     {
+      "id": "d4",
+      "type": "Consult",
+      "author_role": "consultant",
+      "timestamp": "2026-09-10T16:50",
+      "words": 173,
+      "flags": []
+     },
+     {
+      "id": "d5",
+      "type": "Progress note",
+      "author_role": "provider",
+      "timestamp": "2026-09-11T09:05",
+      "words": 71,
+      "flags": []
+     },
+     {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author_role": "provider",
+      "timestamp": "2026-09-14T10:40",
+      "words": 117,
+      "flags": [
+       "discharge"
+      ]
+     }
+    ]
+   },
+   {
+    "t": 0,
+    "stage": "evidence",
+    "type": "stage_start",
+    "model": "anthropic:claude-haiku-4-5"
+   },
+   {
+    "t": 31340,
+    "stage": "evidence",
+    "type": "validation_retry",
+    "reason": "These quotes are not verbatim. Copy exact text from the document:\nF30: quote not found verbatim in d6: 'weaned to 2L NC on day 2 and to room air on day 3 (SpO2 94% RA)'"
+   },
+   {
+    "t": 31340,
+    "stage": "evidence",
+    "type": "output",
+    "findings": [
+     {
+      "id": "F1",
+      "condition": "Hypertension",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "68M with HTN, HLD, BPH, R knee OA",
+      "note": null,
+      "start": 28,
+      "end": 61
+     },
+     {
+      "id": "F2",
+      "condition": "Hyperlipidemia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "68M with HTN, HLD, BPH, R knee OA",
+      "note": null,
+      "start": 28,
+      "end": 61
+     },
+     {
+      "id": "F3",
+      "condition": "Benign prostatic hyperplasia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "68M with HTN, HLD, BPH, R knee OA",
+      "note": null,
+      "start": 28,
+      "end": 61
+     },
+     {
+      "id": "F4",
+      "condition": "Osteoarthritis, right knee",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "R knee OA",
+      "note": null,
+      "start": 52,
+      "end": 61
+     },
+     {
+      "id": "F5",
+      "condition": "Tobacco use history, former smoker",
+      "assertion": "history",
+      "doc_id": "d1",
+      "quote": "former smoker (35 pk-yr, quit 2014)",
+      "note": null,
+      "start": 63,
+      "end": 98
+     },
+     {
+      "id": "F6",
+      "condition": "Cough with yellow sputum",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "4 days of cough with yellow sputum",
+      "note": null,
+      "start": 113,
+      "end": 147
+     },
+     {
+      "id": "F7",
+      "condition": "Fever",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "+ fever, chills, cough, dyspnea",
+      "note": null,
+      "start": 238,
+      "end": 269
+     },
+     {
+      "id": "F8",
+      "condition": "Dyspnea",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "worsening SOB since last night; now dyspneic speaking in short phrases",
+      "note": null,
+      "start": 161,
+      "end": 231
+     },
+     {
+      "id": "F9",
+      "condition": "Hypoxemia on room air",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "SpO2 84% RA",
+      "note": null,
+      "start": 366,
+      "end": 377
+     },
+     {
+      "id": "F10",
+      "condition": "Tachypnea with accessory muscle use",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Tachypneic, using accessory muscles (SCM retractions)",
+      "note": null,
+      "start": 385,
+      "end": 438
+     },
+     {
+      "id": "F11",
+      "condition": "Crackles left lung base",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Crackles L base with egophony",
+      "note": null,
+      "start": 440,
+      "end": 469
+     },
+     {
+      "id": "F12",
+      "condition": "Leukocytosis",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "WBC 15.9",
+      "note": null,
+      "start": 492,
+      "end": 500
+     },
+     {
+      "id": "F13",
+      "condition": "Elevated procalcitonin",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Procalcitonin 1.8",
+      "note": null,
+      "start": 575,
+      "end": 592
+     },
+     {
+      "id": "F14",
+      "condition": "Influenza/COVID/RSV testing negative",
+      "assertion": "negated",
+      "doc_id": "d1",
+      "quote": "Flu/COVID/RSV PCR negative",
+      "note": null,
+      "start": 594,
+      "end": 620
+     },
+     {
+      "id": "F15",
+      "condition": "Left lower lobe consolidation",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "LLL consolidation",
+      "note": null,
+      "start": 637,
+      "end": 654
+     },
+     {
+      "id": "F16",
+      "condition": "Left lower lobe pneumonia with air bronchograms",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Lobar consolidation left lower lobe with air bronchograms",
+      "note": null,
+      "start": 38,
+      "end": 95
+     },
+     {
+      "id": "F17",
+      "condition": "Community-acquired pneumonia, left lower lobe",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "LLL community-acquired pneumonia",
+      "note": null,
+      "start": 346,
+      "end": 378
+     },
+     {
+      "id": "F18",
+      "condition": "Acute hypoxic respiratory failure",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "Acute hypoxic respiratory failure secondary to LLL community-acquired pneumonia",
+      "note": null,
+      "start": 492,
+      "end": 571
+     },
+     {
+      "id": "F19",
+      "condition": "Hypoxemia on supplemental oxygen",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "pO2 54 on 4L NC",
+      "note": null,
+      "start": 631,
+      "end": 646
+     },
+     {
+      "id": "F20",
+      "condition": "Rapid shallow breathing pattern",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "RR 32, increased work of breathing",
+      "note": null,
+      "start": 134,
+      "end": 168
+     },
+     {
+      "id": "F21",
+      "condition": "Anxiety",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "Anxious",
+      "note": null,
+      "start": 176,
+      "end": 183
+     },
+     {
+      "id": "F22",
+      "condition": "Intercostal retractions",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "accessory muscle use with intercostal retractions",
+      "note": null,
+      "start": 214,
+      "end": 263
+     },
+     {
+      "id": "F23",
+      "condition": "Respiratory acidosis not present; mild alkalemia",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "pH 7.46 / pCO2 33 / pO2 54 / HCO3 23",
+      "note": null,
+      "start": 338,
+      "end": 374
+     },
+     {
+      "id": "F24",
+      "condition": "Acute hypoxic respiratory failure improving on high-flow nasal cannula",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "Acute hypoxic respiratory failure due to LLL pneumonia - agree with pulmonology. Improving",
+      "note": null,
+      "start": 195,
+      "end": 285
+     },
+     {
+      "id": "F25",
+      "condition": "Blood cultures negative",
+      "assertion": "negated",
+      "doc_id": "d5",
+      "quote": "Blood cx NGTD",
+      "note": null,
+      "start": 153,
+      "end": 166
+     },
+     {
+      "id": "F26",
+      "condition": "Pneumococcal antigen negative",
+      "assertion": "negated",
+      "doc_id": "d5",
+      "quote": "Urine Ag negative",
+      "note": null,
+      "start": 168,
+      "end": 185
+     },
+     {
+      "id": "F27",
+      "condition": "Left lower lobe community-acquired pneumonia, organism not identified",
+      "assertion": "affirmed",
+      "doc_id": "d6",
+      "quote": "Left lower lobe community-acquired pneumonia, organism not identified",
+      "note": null,
+      "start": 65,
+      "end": 134
+     },
+     {
+      "id": "F28",
+      "condition": "Acute hypoxic respiratory failure resolved",
+      "assertion": "resolved",
+      "doc_id": "d6",
+      "quote": "Acute hypoxic respiratory failure secondary to #1, resolved",
+      "note": null,
+      "start": 138,
+      "end": 197
+     },
+     {
+      "id": "F29",
+      "condition": "Escalation to high-flow nasal cannula during hospitalization",
+      "assertion": "affirmed",
+      "doc_id": "d6",
+      "quote": "Required escalation to HFNC (max 40 L/50%)",
+      "note": null,
+      "start": 342,
+      "end": 384
+     },
+     {
+      "id": "F30",
+      "condition": "Successful weaning from supplemental oxygen",
+      "assertion": "affirmed",
+      "doc_id": "d6",
+      "quote": "weaned to 2L NC on day 2 and to room air on day",
+      "note": null,
+      "start": 449,
+      "end": 496
+     },
+     {
+      "id": "F31",
+      "condition": "Treatment with ceftriaxone and azithromycin",
+      "assertion": "affirmed",
+      "doc_id": "d6",
+      "quote": "Treated with ceftriaxone/azithromycin",
+      "note": null,
+      "start": 537,
+      "end": 574
+     },
+     {
+      "id": "F32",
+      "condition": "Transition to oral amoxicillin-clavulanate",
+      "assertion": "affirmed",
+      "doc_id": "d6",
+      "quote": "transitioned to PO amoxicillin-clavulanate",
+      "note": null,
+      "start": 576,
+      "end": 618
+     },
+     {
+      "id": "F33",
+      "condition": "Cultures negative",
+      "assertion": "negated",
+      "doc_id": "d6",
+      "quote": "Cultures negative",
+      "note": null,
+      "start": 620,
+      "end": 637
+     }
+    ]
+   },
+   {
+    "t": 31340,
+    "stage": "coder",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 38704,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "pneumonia lobar unspecified organism"
+    },
+    "id": "toolu_01BPJ78KPjJfgGMLM1ZLJmDL"
+   },
+   {
+    "t": 38704,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "acute respiratory failure with hypoxia"
+    },
+    "id": "toolu_01MMxtNyMb9HqvsUQ7goidfG"
+   },
+   {
+    "t": 38704,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "hypertension essential"
+    },
+    "id": "toolu_01TawanaKTX4UCiBj6YRZxka"
+   },
+   {
+    "t": 38704,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "hyperlipidemia unspecified"
+    },
+    "id": "toolu_01E1gCXbLyqy8ATbfKufLsN8"
+   },
+   {
+    "t": 38704,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "benign prostatic hyperplasia without LUTS"
+    },
+    "id": "toolu_01Va7qLSqwqbBNZW51nMuddu"
+   },
+   {
+    "t": 38704,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "osteoarthritis right knee primary"
+    },
+    "id": "toolu_012JgmpQQjB6oH5W15cawNTJ"
+   },
+   {
+    "t": 38704,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "personal history of nicotine dependence"
+    },
+    "id": "toolu_01CD58vQxoen4ZCisRNAB375"
+   },
+   {
+    "t": 38705,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01BPJ78KPjJfgGMLM1ZLJmDL",
+    "result": "[\"J18.1  Lobar pneumonia, unspecified organism\"]"
+   },
+   {
+    "t": 38705,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01MMxtNyMb9HqvsUQ7goidfG",
+    "result": "[\"J96.01  Acute respiratory failure with hypoxia\", \"J96.21  Acute and chronic respiratory failure with hypoxia\", \"J96.00  Acute respiratory failure, unspecified whether with hypoxia or hypercapnia\", \"J96.20  Acute and chronic respiratory failure, unspecified whether with hypoxia or hypercapnia\"]"
+   },
+   {
+    "t": 38705,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01TawanaKTX4UCiBj6YRZxka",
+    "result": "[\"I10  Essential (primary) hypertension\", \"O10.02  Pre-existing essential hypertension complicating childbirth\", \"O10.03  Pre-existing essential hypertension complicating the puerperium\", \"O10.011  Pre-existing essential hypertension complicating pregnancy, first trimester\", \"O10.012  Pre-existing essential hypertension complicating pregnancy, second trimester\", \"O10.013  Pre-existing essential hypertension complicating pregnancy, third trimester\", \"O10.019  Pre-existing essential hypertension complicating pregnancy, unspecified trimester\"]"
+   },
+   {
+    "t": 38705,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01E1gCXbLyqy8ATbfKufLsN8",
+    "result": "[\"E78.5  Hyperlipidemia, unspecified\"]"
+   },
+   {
+    "t": 38705,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01Va7qLSqwqbBNZW51nMuddu",
+    "result": "[\"N40.0  Benign prostatic hyperplasia without lower urinary tract symptoms\", \"N40.1  Benign prostatic hyperplasia with lower urinary tract symptoms\"]"
+   },
+   {
+    "t": 38705,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_012JgmpQQjB6oH5W15cawNTJ",
+    "result": "[\"M17.11  Unilateral primary osteoarthritis, right knee\"]"
+   },
+   {
+    "t": 38705,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01CD58vQxoen4ZCisRNAB375",
+    "result": "[\"Z87.891  Personal history of nicotine dependence\"]"
+   },
+   {
+    "t": 38705,
+    "stage": "coder",
+    "type": "text",
+    "text": "{\"pdx\":{\"code\":\"J18.1\",\"poa\":\"Y\",\"finding_ids\":[\"F17\",\"F27\",\"F16\"],\"confidence\":0.9,\"rationale\":\"The provider documented LLL community-acquired pneumonia with no organism identified. Lobar pneumonia, unspecified organism (J18.1) fits that documentation.\"},\"secondary\":[{\"code\":\"J96.01\",\"poa\":\"Y\",\"finding_ids\":[\"F18\",\"F24\",\"F28\"],\"confidence\":0.85,\"rationale\":\"Pulmonology and the attending both documented acute hypoxic respiratory failure. SpO2 was 84% on room air with increased work of breathing at presentation, so it was present on admission.\"},{\"code\":\"I10\",\"poa\":\"Y\",\"finding_ids\":[\"F1\"],\"con"
+   },
+   {
+    "t": 38705,
+    "stage": "coder",
+    "type": "output",
+    "draft": {
+     "pdx": {
+      "code": "J18.1",
+      "poa": "Y",
+      "finding_ids": [
+       "F17",
+       "F27",
+       "F16"
+      ],
+      "confidence": 0.9,
+      "rationale": "The provider documented LLL community-acquired pneumonia with no organism identified. Lobar pneumonia, unspecified organism (J18.1) fits that documentation."
+     },
+     "secondary": [
+      {
+       "code": "J96.01",
+       "poa": "Y",
+       "finding_ids": [
+        "F18",
+        "F24",
+        "F28"
+       ],
+       "confidence": 0.85,
+       "rationale": "Pulmonology and the attending both documented acute hypoxic respiratory failure. SpO2 was 84% on room air with increased work of breathing at presentation, so it was present on admission."
+      },
+      {
+       "code": "I10",
+       "poa": "Y",
+       "finding_ids": [
+        "F1"
+       ],
+       "confidence": 0.95,
+       "rationale": "Chronic hypertension, treated with amlodipine."
+      },
+      {
+       "code": "E78.5",
+       "poa": "Y",
+       "finding_ids": [
+        "F2"
+       ],
+       "confidence": 0.95,
+       "rationale": "Hyperlipidemia, treated with atorvastatin."
+      },
+      {
+       "code": "N40.0",
+       "poa": "Y",
+       "finding_ids": [
+        "F3"
+       ],
+       "confidence": 0.9,
+       "rationale": "BPH was documented, and the H&P states no LUTS currently."
+      },
+      {
+       "code": "M17.11",
+       "poa": "Y",
+       "finding_ids": [
+        "F4"
+       ],
+       "confidence": 0.85,
+       "rationale": "Right knee osteoarthritis, treated with acetaminophen PRN. It is not documented as secondary, so primary is assumed."
+      },
+      {
+       "code": "Z87.891",
+       "poa": "Y",
+       "finding_ids": [
+        "F5"
+       ],
+       "confidence": 0.8,
+       "rationale": "Former smoker who quit in 2014."
+      }
+     ],
+     "issues": []
+    }
+   },
+   {
+    "t": 38705,
+    "stage": "critic",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 43844,
+    "stage": "critic",
+    "type": "text",
+    "text": "{\"reviews\":[{\"code\":\"J18.1\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"Providers document LLL community-acquired pneumonia with lobar consolidation on imaging, organism not identified. J18.1 is reasonable for lobar pneumonia, and the attending's CAP diagnosis is consistent across the stay. Radiology wording alone is not used, but the attending confirms.\"},{\"code\":\"J96.01\",\"verdict\":\"supported\",\"confidence\":0.9,\"reason\":\"Provider-documented by pulmonology and the attending and carried into the discharge summary. Clinically valid: SpO2 84% RA, RR 30-32, accessory muscle use, P/F about 150"
+   },
+   {
+    "t": 43844,
+    "stage": "critic",
+    "type": "output",
+    "critique": {
+     "reviews": [
+      {
+       "code": "J18.1",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "Providers document LLL community-acquired pneumonia with lobar consolidation on imaging, organism not identified. J18.1 is reasonable for lobar pneumonia, and the attending's CAP diagnosis is consistent across the stay. Radiology wording alone is not used, but the attending confirms."
+      },
+      {
+       "code": "J96.01",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "Provider-documented by pulmonology and the attending and carried into the discharge summary. Clinically valid: SpO2 84% RA, RR 30-32, accessory muscle use, P/F about 150, HFNC required. POA is Y given the presenting hypoxemia and distress."
+      },
+      {
+       "code": "I10",
+       "verdict": "supported",
+       "confidence": 0.95,
+       "reason": "Documented HTN, treated with amlodipine, listed in the discharge diagnoses."
+      },
+      {
+       "code": "E78.5",
+       "verdict": "supported",
+       "confidence": 0.95,
+       "reason": "Documented hyperlipidemia, treated with atorvastatin, listed in the discharge diagnoses."
+      },
+      {
+       "code": "N40.0",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "BPH without LUTS is documented explicitly in the H&P, and tamsulosin was continued."
+      },
+      {
+       "code": "M17.11",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "Right knee OA is documented, treated with acetaminophen, and listed in the discharge diagnoses. Unilateral primary is the default when not specified as secondary."
+      },
+      {
+       "code": "Z87.891",
+       "verdict": "supported",
+       "confidence": 0.85,
+       "reason": "Former smoker, quit 2014, documented by the ED and H&P providers. Pulmonology states no COPD, so there is no conflict."
+      }
+     ],
+     "pdx_ok": true,
+     "pdx_alternative": null,
+     "missed": []
+    }
+   },
+   {
+    "t": 43844,
+    "stage": "grouper",
+    "type": "output",
+    "family": "pneumonia",
+    "drg": "193",
+    "title": "Simple pneumonia and pleurisy w MCC",
+    "weight": 1.31,
+    "tier": "MCC",
+    "drivers": [
+     "J96.01"
+    ]
+   },
+   {
+    "t": 43844,
+    "stage": "router",
+    "type": "output",
+    "base": 0.88,
+    "blocking": 0,
+    "reasons": [],
+    "confidence": 0.88
+   }
+  ],
+  "ms": 43844,
+  "cost_usd": 0.08633
+ },
+ "baseline": {
+  "case_id": "enc-11",
+  "codes": [
+   {
+    "code": "J18.9",
+    "poa": "Y",
+    "role": "pdx",
+    "valid": true,
+    "description": "Pneumonia, unspecified organism",
+    "confidence": 0.4
+   },
+   {
+    "code": "J96.01",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Acute respiratory failure with hypoxia",
+    "confidence": 0.4
+   },
+   {
+    "code": "I10",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Essential (primary) hypertension",
+    "confidence": 0.4
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Hyperlipidemia, unspecified",
+    "confidence": 0.4
+   },
+   {
+    "code": "N40.0",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Benign prostatic hyperplasia without lower urinary tract symptoms",
+    "confidence": 0.4
+   },
+   {
+    "code": "M17.11",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Unilateral primary osteoarthritis, right knee",
+    "confidence": 0.4
+   },
+   {
+    "code": "Z87.891",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Personal history of nicotine dependence",
+    "confidence": 0.4
+   }
+  ],
+  "drg": {
+   "family": "pneumonia",
+   "number": "193",
+   "weight": 1.31,
+   "tier": "MCC",
+   "drivers": [
+    "J96.01"
+   ]
+  },
+  "confidence": 0.2,
+  "needs_human": true,
+  "reason": "Sequencing question: acute hypoxic respiratory failure was present on admission (SpO2 84% RA, RR 30, accessory muscle use in ED) and is documented as secondary to pneumonia. Per guidelines, when respiratory failure and pneumonia are both POA and meet the principal diagnosis definition, either may be sequenced first depending on circumstances of admission and the focus of treatment. Pneumonia (J18.9) was chosen as the principal diagnosis because it was the underlying cause and the focus of the admission, but J96.01 as principal is a reasonable alternative, so coder review is needed. J18.9 was assigned because the organism was not identified and the LLL location has no specific code. Emphysema was not coded because radiology said it was not well evaluated and pulmonology documented no obstructive lung disease. N40.0 was used since no LUTS were documented.",
+  "ms": 5188,
+  "cost_usd": 0.01044,
+  "input_tokens": 3066,
+  "output_tokens": 431
+ },
+ "score": {
+  "id": "enc-11",
+  "title": "Pneumonia, consultant names respiratory failure",
+  "summary": "Pneumonia where the admitting doctor wrote only 'hypoxia', but the lung specialist and later notes diagnose acute respiratory failure, which is the more specific diagnosis to code.",
+  "family": "pneumonia",
+  "hero": false,
+  "traps": [
+   "consultant_specificity",
+   "symptom_integral"
+  ],
+  "gold_route": "autonomous",
+  "gold_drg": "193",
+  "pred_drg": "193",
+  "gold_weight": 1.31,
+  "pred_weight": 1.31,
+  "confidence": 0.88,
+  "tp": 6,
+  "fp": 1,
+  "fn": 1,
+  "fp_codes": [
+   "J18.1"
+  ],
+  "fn_codes": [
+   "J18.9"
+  ],
+  "cc_tp": 1,
+  "cc_fp": 0,
+  "cc_fn": 0,
+  "pdx_ok": false,
+  "drg_ok": true,
+  "overcoded": false,
+  "undercoded": false,
+  "invalid_codes": [],
+  "citations": 33,
+  "citations_located": 33,
+  "queries": 0,
+  "queries_lint_clean": 0,
+  "cost_usd": 0.08633,
+  "ms": 43844
+ }
+}

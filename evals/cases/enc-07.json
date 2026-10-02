@@ -1,0 +1,97 @@
+{
+  "id": "enc-07",
+  "title": "COPD flare, respiratory failure considered and excluded",
+  "summary": "A man with a COPD flare was briefly flagged in the ER for possible respiratory failure, but the admitting doctor examined him and documented that he did not have it.",
+  "hero": false,
+  "family": "copd",
+  "patient": {
+    "age": 69,
+    "sex": "M"
+  },
+  "admit_date": "2026-09-16",
+  "discharge_date": "2026-09-19",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "Radiology",
+      "author": "T. Achebe, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-16T06:10",
+      "text": "EXAM: Chest radiograph, portable AP\nINDICATION: Dyspnea, wheezing.\nFINDINGS: Hyperinflated lungs with flattened hemidiaphragms. No focal consolidation, pleural effusion or pneumothorax. Heart size normal.\nIMPRESSION: Hyperinflation consistent with COPD. No acute cardiopulmonary process."
+    },
+    {
+      "id": "d2",
+      "type": "ED note",
+      "author": "D. Ferreira, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-16T06:35",
+      "text": "CC: Shortness of breath, wheezing.\n\nHPI: 69M with COPD, current smoker, presents with 3 days of worsening SOB, wheeze and increased sputum, now yellow. Using albuterol q2h at home without relief. No fever, chest pain or leg swelling. Not on home O2.\n\nVitals: T 37.3, HR 108, BP 148/90, RR 26, SpO2 87% RA on arrival.\nExam: Tripoding on arrival, diffuse expiratory wheezes, prolonged expiration, mild accessory muscle use.\n\nLabs: WBC 10.8, Hgb 15.9, BMP unremarkable. Troponin <0.01.\nCXR: hyperinflation, no infiltrate or effusion.\n\nCourse: DuoNeb x3, methylprednisolone 125 mg IV, azithromycin 500 mg. On 2 L NC SpO2 93%; RR 22.\n\nAssessment/Plan:\n1. COPD exacerbation.\n2. Acute hypoxic respiratory failure? ABG pending.\nDispo: Admit to medicine."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "K. Whitaker, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-16T10:05",
+      "text": "HISTORY AND PHYSICAL\n\nHPI: See ED. Feels much better after nebs. Two exacerbations in the past year treated as outpatient.\n\nPMH: COPD (FEV1 52% predicted, 2025). HTN. HLD. Depression.\nMeds: fluticasone/vilanterol 200/25 1 inh daily, tiotropium 18 mcg daily, albuterol PRN, amlodipine 5 mg daily, atorvastatin 20 mg daily, sertraline 50 mg daily.\nSocial: Smokes 1 ppd cigarettes, 45 pack-years. Retired roofer.\n\nExam: T 37.0, HR 94, BP 136/82, RR 20, SpO2 92% on room air at rest. Speaking full sentences, no accessory muscle use, scattered expiratory wheezes, fair air movement.\nABG (RA, 08:40): pH 7.39 / pCO2 45 / pO2 66 / HCO3 27.\n\nAssessment/Plan:\n1. COPD with acute exacerbation - prednisone 40 mg daily x5 days, DuoNeb q4h + albuterol q2h PRN, azithromycin x3 days. Titrate O2 to SpO2 88-92% only if needed.\n   Not in respiratory failure: SpO2 92% RA, no increased work of breathing, ABG without hypoxemia or hypercapnia requiring support.\n2. Tobacco use - cigarette dependence; nicotine patch 21 mg, cessation counseling >3 min.\n3. HTN - continue amlodipine.\n4. HLD - atorvastatin.\n5. Depression - stable on sertraline.\nVTE ppx: enoxaparin."
+    },
+    {
+      "id": "d4",
+      "type": "Nursing note",
+      "author": "R. Delgado, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-16T12:30",
+      "text": "Arrived to unit on 2 L NC. Per order weaned to room air at 11:00; SpO2 92-93% RA at rest, RR 20, speaking in full sentences, no accessory muscle use. DuoNeb given at 10:00 and 14:00 per RT. Pt requesting to go outside to smoke; nicotine patch applied, smoking cessation pamphlet given. Steady gait, independent in room."
+    },
+    {
+      "id": "d5",
+      "type": "Progress note",
+      "author": "K. Whitaker, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-18T09:30",
+      "text": "HOSPITAL DAY 3\n\nS: Breathing near baseline, walked hallway without stopping.\nO: HR 84, RR 18, SpO2 93% RA, ambulatory SpO2 90% RA. Faint end-expiratory wheeze.\n\nAssessment/Plan:\n1. COPD exacerbation - improving. Space DuoNeb to q6h. Prednisone day 3/5. No home O2 need on ambulatory testing.\n2. Tobacco dependence - on patch, wants to try varenicline.\n3. HTN, HLD, depression - stable."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "K. Whitaker, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-19T11:15",
+      "text": "DISCHARGE SUMMARY\nAdmit: 09/16/2026   Discharge: 09/19/2026   Disposition: Home\n\nDISCHARGE DIAGNOSES:\n1. COPD with acute exacerbation\n2. Nicotine dependence, cigarettes\n3. Hypertension\n4. Hyperlipidemia\n5. Depression\n\nHOSPITAL COURSE: Admitted with COPD exacerbation. Acute respiratory failure was questioned in the ED; on admission he was not in respiratory failure (SpO2 92% RA, normal work of breathing, reassuring ABG). Improved with steroids, bronchodilators and azithromycin. Room air throughout after the ED. Started varenicline.\n\nDISCHARGE MEDICATIONS: prednisone 40 mg x2 more days; varenicline starter pack; nicotine patch 21 mg; home inhalers (fluticasone/vilanterol, tiotropium, albuterol), amlodipine, atorvastatin, sertraline unchanged.\nFOLLOW-UP: PCP 1 week; pulmonary rehab referral."
+    }
+  ],
+  "gold": {
+    "pdx": "J44.1",
+    "secondary": [
+      {
+        "code": "F17.210",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "F32.A",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.51",
+        "poa": "Y"
+      }
+    ],
+    "drg": "192",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [
+      "ruled_out",
+      "symptom_integral"
+    ],
+    "explanation": "The ED's 'acute hypoxic respiratory failure?' was a question, and the admitting physician explicitly ruled it out with exam and ABG; the discharge summary agrees, so no J96 code. Dyspnea, wheezing and sputum are integral to the COPD exacerbation and aren't coded. Secondaries carry no CC, giving DRG 192. A naive system that picks up 'acute hypoxic respiratory failure' from the ED note adds J96.01 (an MCC) and wrongly lands on DRG 190."
+  }
+}

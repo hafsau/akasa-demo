@@ -1,0 +1,102 @@
+{
+  "id": "enc-20",
+  "title": "Resolved AKI, copied-forward progress notes",
+  "summary": "Kidney injury was treated and resolved by day 2, but later progress notes copy old text saying it is worsening with a kidney consult that never happened.",
+  "hero": false,
+  "family": "aki",
+  "patient": {
+    "age": 81,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-10",
+  "discharge_date": "2026-09-15",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "H&P",
+      "author": "T. Gallagher, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-10T16:20",
+      "text": "HISTORY AND PHYSICAL\nCC: vomiting and diarrhea, weakness.\nHPI: 81 y/o F, lives alone, with HTN, HLD, hypothyroidism, presents with 3 days of nonbloody watery diarrhea (6-8/day) and vomiting after a church potluck; several attendees similarly ill. Unable to keep fluids down x 24 h. Generalized weakness, near-fall at home this AM. No abx in 3 months.\nMeds: losartan 50 mg daily, atorvastatin 20 mg, levothyroxine 75 mcg.\nVitals: T 37.4, HR 104, BP 102/58, RR 16, SpO2 97% RA.\nExam: Frail, dry MM, poor skin turgor. Abd soft, hyperactive BS, mild diffuse tenderness. A&Ox3.\nLabs: Cr 2.1 (baseline 0.9, 06/2026), BUN 48, Na 141, K 3.1, HCO3 19. WBC 9.9. Stool C. diff PCR pending. GI pathogen panel: norovirus GII detected.\nASSESSMENT/PLAN:\n1. AKI, prerenal - Cr 2.1 from baseline 0.9, due to volume depletion from GI losses + ARB. Hold losartan. LR 150 mL/h after 2 L bolus. Strict I/O, BMP in AM.\n2. Dehydration due to viral gastroenteritis (norovirus) - IVF, ondansetron PRN, contact precautions, advance diet as tolerated.\n3. Hypokalemia - K 3.1 from GI losses. KCl 40 mEq PO x2, recheck.\n4. HTN - hold losartan as above.\n5. HLD - continue statin. 6. Hypothyroidism - continue levothyroxine.\n7. Weakness/near-fall - PT/OT eval.\nFull code. DVT ppx heparin SQ."
+    },
+    {
+      "id": "d2",
+      "type": "Progress note",
+      "author": "T. Gallagher, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-11T09:15",
+      "text": "HD2\nS: Diarrhea slowing (2 episodes overnight), no emesis, tolerating clears.\nO: T 36.9, HR 84, BP 124/70. UOP 2.1 L. Labs: Cr 1.0 (from 2.1), BUN 22, K 3.7, HCO3 23. C. diff PCR negative.\nA/P:\n1. AKI, prerenal - resolved with IV fluids, Cr 1.0. Saline lock this afternoon if taking PO. Continue holding losartan for now.\n2. Dehydration due to norovirus gastroenteritis - improving, advance to regular diet.\n3. Hypokalemia - improved, 1 more dose KCl.\n4. HTN, HLD, hypothyroidism - as above.\n5. Weakness - PT: unsteady, min assist, recommends SNF short-term rehab. CM consulted."
+    },
+    {
+      "id": "d3",
+      "type": "Progress note",
+      "author": "T. Gallagher, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-12T10:02",
+      "text": "HD3\nS: No diarrhea x 24 h. Eating 75% of meals. Worked with PT.\nO: T 36.8, HR 78, BP 132/76. Labs: Cr 0.9, BUN 15, K 4.0.\nA/P:\n1. AKI - worsening, Cr trending up. Nephrology consulted, appreciate recs. Hold nephrotoxins, renal US ordered, continue IVF.\n2. Dehydration due to norovirus gastroenteritis - resolved.\n3. Hypokalemia - resolved.\n4. HTN - BP 130s, continue holding losartan, reassess at discharge.\n5. HLD, hypothyroidism - home meds.\n6. Deconditioning/unsteady gait - SNF referral sent, awaiting bed offer."
+    },
+    {
+      "id": "d4",
+      "type": "Nursing note",
+      "author": "B. Ruiz, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-13T03:30",
+      "text": "Pt resting comfortably, A&Ox3. Voiding without difficulty, UOP adequate. No stools this shift. Saline locked since 09/11, taking fluids well. Ambulated to BR with walker + 1 assist. Bed alarm on, fall precautions maintained."
+    },
+    {
+      "id": "d5",
+      "type": "Progress note",
+      "author": "T. Gallagher, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-13T09:48",
+      "text": "HD4\nS: Feels \"back to normal,\" wants to go home but agrees with rehab.\nO: T 36.6, HR 76, BP 138/78. Labs: Cr 0.9, BUN 14, K 4.2, Na 140.\nA/P:\n1. AKI - worsening, Cr trending up. Nephrology consulted, appreciate recs. Hold nephrotoxins, renal US ordered, continue IVF.\n2. Dehydration/norovirus gastroenteritis - resolved.\n3. Hypokalemia - resolved.\n4. HTN - restart losartan 25 mg tomorrow.\n5. Unsteady gait - awaiting SNF bed (Maple Grove offered for 09/15)."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "T. Gallagher, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-15T10:30",
+      "text": "DISCHARGE SUMMARY\nAdmit 09/10/2026 - Discharge 09/15/2026 to Maple Grove SNF (short-term rehab).\nPrincipal diagnosis: Acute kidney injury, prerenal, due to dehydration - resolved.\nSecondary diagnoses: Dehydration due to norovirus gastroenteritis. Hypokalemia. Hypertension. Hyperlipidemia. Hypothyroidism. Deconditioning.\nHospital course: 81F with 3 days of vomiting/diarrhea (norovirus on GI panel), Cr 2.1 from baseline 0.9 with K 3.1. Treated with IV fluids and K repletion; Cr 1.0 by HD2 and 0.9 thereafter. Losartan held and restarted at reduced dose 09/14. Diarrhea resolved HD3. Remained in hospital for PT and SNF placement due to unsteady gait.\nDischarge meds: losartan 25 mg daily (reduced), atorvastatin 20 mg, levothyroxine 75 mcg.\nFollow-up: BMP in 1 week at SNF; PCP 2 weeks."
+    }
+  ],
+  "gold": {
+    "pdx": "N17.9",
+    "secondary": [
+      {
+        "code": "E86.0",
+        "poa": "Y"
+      },
+      {
+        "code": "A08.11",
+        "poa": "Y"
+      },
+      {
+        "code": "E87.6",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "E03.9",
+        "poa": "Y"
+      }
+    ],
+    "drg": "684",
+    "route": "coder",
+    "hold_reasons": [
+      "Copy-forward inconsistency: the HD3 and HD4 progress notes both say 'AKI - worsening, Cr trending up. Nephrology consulted... renal US ordered, continue IVF', but the same notes show Cr 0.9. There is no nephrology consult or renal ultrasound in the record, the patient was saline locked on 09/11, and the HD2 note and discharge summary document AKI resolved by HD2. AKI is still valid as PDx (present on admission and treated), but confirm documentation accuracy with the attending before final coding."
+    ],
+    "query": null,
+    "traps": [
+      "copy_forward"
+    ],
+    "explanation": "AKI was real (Cr 2.1 from baseline 0.9), was treated with IV fluids, and resolved by HD2, so N17.9 stays the principal diagnosis with dehydration, norovirus gastroenteritis (A08.11) and hypokalemia. The HD3/HD4 progress notes carry a stale problem-list entry ('worsening, nephrology consulted, renal US ordered') that contradicts their own labs and the rest of the chart. A careful coder flags this as a documentation integrity problem and doesn't treat it as evidence of an ongoing or more severe renal condition. A naive system reads 'worsening AKI, nephrology consulted' at face value."
+  }
+}

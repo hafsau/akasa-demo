@@ -1,0 +1,1272 @@
+{
+ "generated": "2026-10-02",
+ "prompt_version": "2026-10-02.4-router-v2",
+ "default_threshold": 0.8,
+ "agent": {
+  "all": {
+   "n": 24,
+   "n_auto": 24,
+   "autonomy": 1.0,
+   "code_precision": [
+    0.9375,
+    0.9040404040404041,
+    0.9695507996836976
+   ],
+   "code_recall": [
+    0.967741935483871,
+    0.9453531522714298,
+    0.9891891891891892
+   ],
+   "ccmcc_precision": [
+    0.8695652173913043,
+    0.7646358543417366,
+    1.0
+   ],
+   "ccmcc_recall": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "drg_match": [
+    0.875,
+    0.7083333333333334,
+    1.0
+   ],
+   "pdx_accuracy": [
+    0.8333333333333334,
+    0.6666666666666666,
+    0.9583333333333334
+   ],
+   "overcoding_rate": [
+    0.041666666666666664,
+    0.0,
+    0.125
+   ],
+   "undercoding_rate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "invalid_code_rate": 0.0,
+   "cost_mean": 0.09560999999999999,
+   "latency_p50_ms": 40638.5,
+   "latency_p95_ms": 52410.35
+  },
+  "at_default": {
+   "n": 24,
+   "n_auto": 11,
+   "autonomy": 0.4583333333333333,
+   "code_precision": [
+    0.9529411764705882,
+    0.9135802469135802,
+    0.9882352941176471
+   ],
+   "code_recall": [
+    0.9418604651162791,
+    0.9036047415468326,
+    0.9772727272727273
+   ],
+   "ccmcc_precision": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "ccmcc_recall": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "drg_match": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pdx_accuracy": [
+    0.8181818181818182,
+    0.5454545454545454,
+    1.0
+   ],
+   "overcoding_rate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "undercoding_rate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "invalid_code_rate": 0.0,
+   "escaped": 0,
+   "escape_rate": 0.0,
+   "held_needlessly": 5,
+   "cost_mean": 0.09560999999999999,
+   "latency_p50_ms": 40638.5,
+   "latency_p95_ms": 52410.35
+  }
+ },
+ "baseline": {
+  "all": {
+   "n": 24,
+   "n_auto": 24,
+   "autonomy": 1.0,
+   "code_precision": [
+    0.8428571428571429,
+    0.779254310871958,
+    0.9040457769181174
+   ],
+   "code_recall": [
+    0.9516129032258065,
+    0.9179395604395604,
+    0.9790603184991273
+   ],
+   "ccmcc_precision": [
+    0.9,
+    0.8,
+    1.0
+   ],
+   "ccmcc_recall": [
+    0.9,
+    0.7647058823529411,
+    1.0
+   ],
+   "drg_match": [
+    0.8333333333333334,
+    0.6666666666666666,
+    0.9583333333333334
+   ],
+   "pdx_accuracy": [
+    0.9166666666666666,
+    0.7916666666666666,
+    1.0
+   ],
+   "overcoding_rate": [
+    0.041666666666666664,
+    0.0,
+    0.125
+   ],
+   "undercoding_rate": [
+    0.08333333333333333,
+    0.0,
+    0.20833333333333334
+   ],
+   "invalid_code_rate": 0.004761904761904762,
+   "cost_mean": 0.011104999999999999,
+   "latency_p50_ms": 5087.5,
+   "latency_p95_ms": 9979.399999999994
+  },
+  "at_default": {
+   "n": 24,
+   "n_auto": 8,
+   "autonomy": 0.3333333333333333,
+   "code_precision": [
+    0.9230769230769231,
+    0.875,
+    0.9811320754716981
+   ],
+   "code_recall": [
+    0.967741935483871,
+    0.9285714285714286,
+    1.0
+   ],
+   "ccmcc_precision": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "ccmcc_recall": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "drg_match": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "pdx_accuracy": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "overcoding_rate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "undercoding_rate": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "invalid_code_rate": 0.0,
+   "escaped": 1,
+   "escape_rate": 0.125,
+   "held_needlessly": 9,
+   "cost_mean": 0.011104999999999999,
+   "latency_p50_ms": 5087.5,
+   "latency_p95_ms": 9979.399999999994
+  }
+ },
+ "sweep": {
+  "agent": [
+   {
+    "threshold": 0.0,
+    "autonomy": 1.0,
+    "code_precision": 0.9375,
+    "drg_match": 0.875,
+    "escape_rate": 1.0,
+    "overcoding_rate": 0.041666666666666664
+   },
+   {
+    "threshold": 0.05,
+    "autonomy": 1.0,
+    "code_precision": 0.9375,
+    "drg_match": 0.875,
+    "escape_rate": 1.0,
+    "overcoding_rate": 0.041666666666666664
+   },
+   {
+    "threshold": 0.1,
+    "autonomy": 0.9583333333333334,
+    "code_precision": 0.9351351351351351,
+    "drg_match": 0.8695652173913043,
+    "escape_rate": 0.875,
+    "overcoding_rate": 0.043478260869565216
+   },
+   {
+    "threshold": 0.15,
+    "autonomy": 0.9583333333333334,
+    "code_precision": 0.9351351351351351,
+    "drg_match": 0.8695652173913043,
+    "escape_rate": 0.875,
+    "overcoding_rate": 0.043478260869565216
+   },
+   {
+    "threshold": 0.2,
+    "autonomy": 0.9166666666666666,
+    "code_precision": 0.9325842696629213,
+    "drg_match": 0.8636363636363636,
+    "escape_rate": 0.875,
+    "overcoding_rate": 0.045454545454545456
+   },
+   {
+    "threshold": 0.25,
+    "autonomy": 0.875,
+    "code_precision": 0.9294117647058824,
+    "drg_match": 0.9047619047619048,
+    "escape_rate": 0.75,
+    "overcoding_rate": 0.047619047619047616
+   },
+   {
+    "threshold": 0.3,
+    "autonomy": 0.8333333333333334,
+    "code_precision": 0.9316770186335404,
+    "drg_match": 0.95,
+    "escape_rate": 0.625,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.35,
+    "autonomy": 0.7916666666666666,
+    "code_precision": 0.9407894736842105,
+    "drg_match": 0.9473684210526315,
+    "escape_rate": 0.5,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.4,
+    "autonomy": 0.7916666666666666,
+    "code_precision": 0.9407894736842105,
+    "drg_match": 0.9473684210526315,
+    "escape_rate": 0.5,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.45,
+    "autonomy": 0.6666666666666666,
+    "code_precision": 0.9457364341085271,
+    "drg_match": 0.9375,
+    "escape_rate": 0.25,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.5,
+    "autonomy": 0.5416666666666666,
+    "code_precision": 0.9504950495049505,
+    "drg_match": 0.9230769230769231,
+    "escape_rate": 0.0,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.55,
+    "autonomy": 0.5416666666666666,
+    "code_precision": 0.9504950495049505,
+    "drg_match": 0.9230769230769231,
+    "escape_rate": 0.0,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.6,
+    "autonomy": 0.5416666666666666,
+    "code_precision": 0.9504950495049505,
+    "drg_match": 0.9230769230769231,
+    "escape_rate": 0.0,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.65,
+    "autonomy": 0.4583333333333333,
+    "code_precision": 0.9529411764705882,
+    "drg_match": 1.0,
+    "escape_rate": 0.0,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.7,
+    "autonomy": 0.4583333333333333,
+    "code_precision": 0.9529411764705882,
+    "drg_match": 1.0,
+    "escape_rate": 0.0,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.75,
+    "autonomy": 0.4583333333333333,
+    "code_precision": 0.9529411764705882,
+    "drg_match": 1.0,
+    "escape_rate": 0.0,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.8,
+    "autonomy": 0.4583333333333333,
+    "code_precision": 0.9529411764705882,
+    "drg_match": 1.0,
+    "escape_rate": 0.0,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.85,
+    "autonomy": 0.4166666666666667,
+    "code_precision": 0.9473684210526315,
+    "drg_match": 1.0,
+    "escape_rate": 0.0,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.9,
+    "autonomy": 0.2916666666666667,
+    "code_precision": 0.9636363636363636,
+    "drg_match": 1.0,
+    "escape_rate": 0.0,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.95,
+    "autonomy": 0.041666666666666664,
+    "code_precision": 1.0,
+    "drg_match": 1.0,
+    "escape_rate": 0.0,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 1.0,
+    "autonomy": 0.0,
+    "code_precision": null,
+    "drg_match": null,
+    "escape_rate": 0.0,
+    "overcoding_rate": null
+   }
+  ],
+  "baseline": [
+   {
+    "threshold": 0.0,
+    "autonomy": 1.0,
+    "code_precision": 0.8428571428571429,
+    "drg_match": 0.8333333333333334,
+    "escape_rate": 1.0,
+    "overcoding_rate": 0.041666666666666664
+   },
+   {
+    "threshold": 0.05,
+    "autonomy": 1.0,
+    "code_precision": 0.8428571428571429,
+    "drg_match": 0.8333333333333334,
+    "escape_rate": 1.0,
+    "overcoding_rate": 0.041666666666666664
+   },
+   {
+    "threshold": 0.1,
+    "autonomy": 1.0,
+    "code_precision": 0.8428571428571429,
+    "drg_match": 0.8333333333333334,
+    "escape_rate": 1.0,
+    "overcoding_rate": 0.041666666666666664
+   },
+   {
+    "threshold": 0.15,
+    "autonomy": 1.0,
+    "code_precision": 0.8428571428571429,
+    "drg_match": 0.8333333333333334,
+    "escape_rate": 1.0,
+    "overcoding_rate": 0.041666666666666664
+   },
+   {
+    "threshold": 0.2,
+    "autonomy": 1.0,
+    "code_precision": 0.8428571428571429,
+    "drg_match": 0.8333333333333334,
+    "escape_rate": 1.0,
+    "overcoding_rate": 0.041666666666666664
+   },
+   {
+    "threshold": 0.25,
+    "autonomy": 0.875,
+    "code_precision": 0.8306878306878307,
+    "drg_match": 0.8571428571428571,
+    "escape_rate": 0.875,
+    "overcoding_rate": 0.047619047619047616
+   },
+   {
+    "threshold": 0.3,
+    "autonomy": 0.75,
+    "code_precision": 0.8881578947368421,
+    "drg_match": 0.8888888888888888,
+    "escape_rate": 0.625,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.35,
+    "autonomy": 0.5416666666666666,
+    "code_precision": 0.9333333333333333,
+    "drg_match": 0.9230769230769231,
+    "escape_rate": 0.25,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.4,
+    "autonomy": 0.4166666666666667,
+    "code_precision": 0.9367088607594937,
+    "drg_match": 1.0,
+    "escape_rate": 0.125,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.45,
+    "autonomy": 0.4166666666666667,
+    "code_precision": 0.9367088607594937,
+    "drg_match": 1.0,
+    "escape_rate": 0.125,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.5,
+    "autonomy": 0.4166666666666667,
+    "code_precision": 0.9367088607594937,
+    "drg_match": 1.0,
+    "escape_rate": 0.125,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.55,
+    "autonomy": 0.4166666666666667,
+    "code_precision": 0.9367088607594937,
+    "drg_match": 1.0,
+    "escape_rate": 0.125,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.6,
+    "autonomy": 0.4166666666666667,
+    "code_precision": 0.9367088607594937,
+    "drg_match": 1.0,
+    "escape_rate": 0.125,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.65,
+    "autonomy": 0.4166666666666667,
+    "code_precision": 0.9367088607594937,
+    "drg_match": 1.0,
+    "escape_rate": 0.125,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.7,
+    "autonomy": 0.4166666666666667,
+    "code_precision": 0.9367088607594937,
+    "drg_match": 1.0,
+    "escape_rate": 0.125,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.75,
+    "autonomy": 0.3333333333333333,
+    "code_precision": 0.9230769230769231,
+    "drg_match": 1.0,
+    "escape_rate": 0.125,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.8,
+    "autonomy": 0.3333333333333333,
+    "code_precision": 0.9230769230769231,
+    "drg_match": 1.0,
+    "escape_rate": 0.125,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.85,
+    "autonomy": 0.08333333333333333,
+    "code_precision": 0.9166666666666666,
+    "drg_match": 1.0,
+    "escape_rate": 0.0,
+    "overcoding_rate": 0.0
+   },
+   {
+    "threshold": 0.9,
+    "autonomy": 0.0,
+    "code_precision": null,
+    "drg_match": null,
+    "escape_rate": 0.0,
+    "overcoding_rate": null
+   },
+   {
+    "threshold": 0.95,
+    "autonomy": 0.0,
+    "code_precision": null,
+    "drg_match": null,
+    "escape_rate": 0.0,
+    "overcoding_rate": null
+   },
+   {
+    "threshold": 1.0,
+    "autonomy": 0.0,
+    "code_precision": null,
+    "drg_match": null,
+    "escape_rate": 0.0,
+    "overcoding_rate": null
+   }
+  ]
+ },
+ "history": [
+  {
+   "version": "v1",
+   "all": {
+    "n": 24,
+    "n_auto": 24,
+    "autonomy": 1.0,
+    "code_precision": [
+     0.900497512437811,
+     0.854366492657462,
+     0.9456521739130435
+    ],
+    "code_recall": [
+     0.9731182795698925,
+     0.9505426203630624,
+     0.9897959183673469
+    ],
+    "ccmcc_precision": [
+     0.9090909090909091,
+     0.8148148148148148,
+     1.0
+    ],
+    "ccmcc_recall": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "drg_match": [
+     0.9166666666666666,
+     0.7916666666666666,
+     1.0
+    ],
+    "pdx_accuracy": [
+     0.9166666666666666,
+     0.7916666666666666,
+     1.0
+    ],
+    "overcoding_rate": [
+     0.041666666666666664,
+     0.0,
+     0.125
+    ],
+    "undercoding_rate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "invalid_code_rate": 0.0,
+    "cost_mean": 0.10483500000000001,
+    "latency_p50_ms": 46395.0,
+    "latency_p95_ms": 67613.15
+   },
+   "at_default": {
+    "n": 24,
+    "n_auto": 8,
+    "autonomy": 0.3333333333333333,
+    "code_precision": [
+     0.9365079365079365,
+     0.875,
+     1.0
+    ],
+    "code_recall": [
+     0.9672131147540983,
+     0.921875,
+     1.0
+    ],
+    "ccmcc_precision": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ccmcc_recall": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "drg_match": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "pdx_accuracy": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "overcoding_rate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "undercoding_rate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "invalid_code_rate": 0.0,
+    "escaped": 1,
+    "escape_rate": 0.125,
+    "held_needlessly": 9,
+    "cost_mean": 0.10483500000000001,
+    "latency_p50_ms": 46395.0,
+    "latency_p95_ms": 67613.15
+   },
+   "sweep": [
+    {
+     "threshold": 0.0,
+     "autonomy": 1.0,
+     "code_precision": 0.900497512437811,
+     "drg_match": 0.9166666666666666,
+     "escape_rate": 1.0,
+     "overcoding_rate": 0.041666666666666664
+    },
+    {
+     "threshold": 0.05,
+     "autonomy": 1.0,
+     "code_precision": 0.900497512437811,
+     "drg_match": 0.9166666666666666,
+     "escape_rate": 1.0,
+     "overcoding_rate": 0.041666666666666664
+    },
+    {
+     "threshold": 0.1,
+     "autonomy": 0.9583333333333334,
+     "code_precision": 0.8969072164948454,
+     "drg_match": 0.9130434782608695,
+     "escape_rate": 0.875,
+     "overcoding_rate": 0.043478260869565216
+    },
+    {
+     "threshold": 0.15,
+     "autonomy": 0.9166666666666666,
+     "code_precision": 0.9032258064516129,
+     "drg_match": 0.9090909090909091,
+     "escape_rate": 0.875,
+     "overcoding_rate": 0.045454545454545456
+    },
+    {
+     "threshold": 0.2,
+     "autonomy": 0.875,
+     "code_precision": 0.9,
+     "drg_match": 0.9047619047619048,
+     "escape_rate": 0.875,
+     "overcoding_rate": 0.047619047619047616
+    },
+    {
+     "threshold": 0.25,
+     "autonomy": 0.7916666666666666,
+     "code_precision": 0.901840490797546,
+     "drg_match": 0.9473684210526315,
+     "escape_rate": 0.75,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.3,
+     "autonomy": 0.7083333333333334,
+     "code_precision": 0.9041095890410958,
+     "drg_match": 1.0,
+     "escape_rate": 0.5,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.35,
+     "autonomy": 0.625,
+     "code_precision": 0.9069767441860465,
+     "drg_match": 1.0,
+     "escape_rate": 0.5,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.4,
+     "autonomy": 0.625,
+     "code_precision": 0.9069767441860465,
+     "drg_match": 1.0,
+     "escape_rate": 0.5,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.45,
+     "autonomy": 0.5416666666666666,
+     "code_precision": 0.9345794392523364,
+     "drg_match": 1.0,
+     "escape_rate": 0.375,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.5,
+     "autonomy": 0.4166666666666667,
+     "code_precision": 0.9487179487179487,
+     "drg_match": 1.0,
+     "escape_rate": 0.125,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.55,
+     "autonomy": 0.4166666666666667,
+     "code_precision": 0.9487179487179487,
+     "drg_match": 1.0,
+     "escape_rate": 0.125,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.6,
+     "autonomy": 0.4166666666666667,
+     "code_precision": 0.9487179487179487,
+     "drg_match": 1.0,
+     "escape_rate": 0.125,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.65,
+     "autonomy": 0.375,
+     "code_precision": 0.9428571428571428,
+     "drg_match": 1.0,
+     "escape_rate": 0.125,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.7,
+     "autonomy": 0.375,
+     "code_precision": 0.9428571428571428,
+     "drg_match": 1.0,
+     "escape_rate": 0.125,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.75,
+     "autonomy": 0.375,
+     "code_precision": 0.9428571428571428,
+     "drg_match": 1.0,
+     "escape_rate": 0.125,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.8,
+     "autonomy": 0.3333333333333333,
+     "code_precision": 0.9365079365079365,
+     "drg_match": 1.0,
+     "escape_rate": 0.125,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.85,
+     "autonomy": 0.3333333333333333,
+     "code_precision": 0.9365079365079365,
+     "drg_match": 1.0,
+     "escape_rate": 0.125,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.9,
+     "autonomy": 0.16666666666666666,
+     "code_precision": 0.896551724137931,
+     "drg_match": 1.0,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.95,
+     "autonomy": 0.041666666666666664,
+     "code_precision": 1.0,
+     "drg_match": 1.0,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 1.0,
+     "autonomy": 0.0,
+     "code_precision": null,
+     "drg_match": null,
+     "escape_rate": 0.0,
+     "overcoding_rate": null
+    }
+   ]
+  },
+  {
+   "version": "current",
+   "all": {
+    "n": 24,
+    "n_auto": 24,
+    "autonomy": 1.0,
+    "code_precision": [
+     0.9375,
+     0.9040404040404041,
+     0.9695507996836976
+    ],
+    "code_recall": [
+     0.967741935483871,
+     0.9453531522714298,
+     0.9891891891891892
+    ],
+    "ccmcc_precision": [
+     0.8695652173913043,
+     0.7646358543417366,
+     1.0
+    ],
+    "ccmcc_recall": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "drg_match": [
+     0.875,
+     0.7083333333333334,
+     1.0
+    ],
+    "pdx_accuracy": [
+     0.8333333333333334,
+     0.6666666666666666,
+     0.9583333333333334
+    ],
+    "overcoding_rate": [
+     0.041666666666666664,
+     0.0,
+     0.125
+    ],
+    "undercoding_rate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "invalid_code_rate": 0.0,
+    "cost_mean": 0.09560999999999999,
+    "latency_p50_ms": 40638.5,
+    "latency_p95_ms": 52410.35
+   },
+   "at_default": {
+    "n": 24,
+    "n_auto": 11,
+    "autonomy": 0.4583333333333333,
+    "code_precision": [
+     0.9529411764705882,
+     0.9135802469135802,
+     0.9882352941176471
+    ],
+    "code_recall": [
+     0.9418604651162791,
+     0.9036047415468326,
+     0.9772727272727273
+    ],
+    "ccmcc_precision": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ccmcc_recall": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "drg_match": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "pdx_accuracy": [
+     0.8181818181818182,
+     0.5454545454545454,
+     1.0
+    ],
+    "overcoding_rate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "undercoding_rate": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "invalid_code_rate": 0.0,
+    "escaped": 0,
+    "escape_rate": 0.0,
+    "held_needlessly": 5,
+    "cost_mean": 0.09560999999999999,
+    "latency_p50_ms": 40638.5,
+    "latency_p95_ms": 52410.35
+   },
+   "sweep": [
+    {
+     "threshold": 0.0,
+     "autonomy": 1.0,
+     "code_precision": 0.9375,
+     "drg_match": 0.875,
+     "escape_rate": 1.0,
+     "overcoding_rate": 0.041666666666666664
+    },
+    {
+     "threshold": 0.05,
+     "autonomy": 1.0,
+     "code_precision": 0.9375,
+     "drg_match": 0.875,
+     "escape_rate": 1.0,
+     "overcoding_rate": 0.041666666666666664
+    },
+    {
+     "threshold": 0.1,
+     "autonomy": 0.9583333333333334,
+     "code_precision": 0.9351351351351351,
+     "drg_match": 0.8695652173913043,
+     "escape_rate": 0.875,
+     "overcoding_rate": 0.043478260869565216
+    },
+    {
+     "threshold": 0.15,
+     "autonomy": 0.9583333333333334,
+     "code_precision": 0.9351351351351351,
+     "drg_match": 0.8695652173913043,
+     "escape_rate": 0.875,
+     "overcoding_rate": 0.043478260869565216
+    },
+    {
+     "threshold": 0.2,
+     "autonomy": 0.9166666666666666,
+     "code_precision": 0.9325842696629213,
+     "drg_match": 0.8636363636363636,
+     "escape_rate": 0.875,
+     "overcoding_rate": 0.045454545454545456
+    },
+    {
+     "threshold": 0.25,
+     "autonomy": 0.875,
+     "code_precision": 0.9294117647058824,
+     "drg_match": 0.9047619047619048,
+     "escape_rate": 0.75,
+     "overcoding_rate": 0.047619047619047616
+    },
+    {
+     "threshold": 0.3,
+     "autonomy": 0.8333333333333334,
+     "code_precision": 0.9316770186335404,
+     "drg_match": 0.95,
+     "escape_rate": 0.625,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.35,
+     "autonomy": 0.7916666666666666,
+     "code_precision": 0.9407894736842105,
+     "drg_match": 0.9473684210526315,
+     "escape_rate": 0.5,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.4,
+     "autonomy": 0.7916666666666666,
+     "code_precision": 0.9407894736842105,
+     "drg_match": 0.9473684210526315,
+     "escape_rate": 0.5,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.45,
+     "autonomy": 0.6666666666666666,
+     "code_precision": 0.9457364341085271,
+     "drg_match": 0.9375,
+     "escape_rate": 0.25,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.5,
+     "autonomy": 0.5416666666666666,
+     "code_precision": 0.9504950495049505,
+     "drg_match": 0.9230769230769231,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.55,
+     "autonomy": 0.5416666666666666,
+     "code_precision": 0.9504950495049505,
+     "drg_match": 0.9230769230769231,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.6,
+     "autonomy": 0.5416666666666666,
+     "code_precision": 0.9504950495049505,
+     "drg_match": 0.9230769230769231,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.65,
+     "autonomy": 0.4583333333333333,
+     "code_precision": 0.9529411764705882,
+     "drg_match": 1.0,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.7,
+     "autonomy": 0.4583333333333333,
+     "code_precision": 0.9529411764705882,
+     "drg_match": 1.0,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.75,
+     "autonomy": 0.4583333333333333,
+     "code_precision": 0.9529411764705882,
+     "drg_match": 1.0,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.8,
+     "autonomy": 0.4583333333333333,
+     "code_precision": 0.9529411764705882,
+     "drg_match": 1.0,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.85,
+     "autonomy": 0.4166666666666667,
+     "code_precision": 0.9473684210526315,
+     "drg_match": 1.0,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.9,
+     "autonomy": 0.2916666666666667,
+     "code_precision": 0.9636363636363636,
+     "drg_match": 1.0,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 0.95,
+     "autonomy": 0.041666666666666664,
+     "code_precision": 1.0,
+     "drg_match": 1.0,
+     "escape_rate": 0.0,
+     "overcoding_rate": 0.0
+    },
+    {
+     "threshold": 1.0,
+     "autonomy": 0.0,
+     "code_precision": null,
+     "drg_match": null,
+     "escape_rate": 0.0,
+     "overcoding_rate": null
+    }
+   ]
+  }
+ ],
+ "taxonomy": [
+  {
+   "trap": "conflicting_notes",
+   "cases": [
+    "enc-02",
+    "enc-18"
+   ],
+   "fp": 1,
+   "fn": 1,
+   "drg_miss": 2
+  },
+  {
+   "trap": "no_trap",
+   "cases": [
+    "enc-04",
+    "enc-05",
+    "enc-08",
+    "enc-13"
+   ],
+   "fp": 2,
+   "fn": 2,
+   "drg_miss": 1
+  },
+  {
+   "trap": "ruled_out",
+   "cases": [
+    "enc-02",
+    "enc-07"
+   ],
+   "fp": 1,
+   "fn": 1,
+   "drg_miss": 1
+  },
+  {
+   "trap": "clinical_validation",
+   "cases": [
+    "enc-02"
+   ],
+   "fp": 1,
+   "fn": 0,
+   "drg_miss": 1
+  },
+  {
+   "trap": "copy_forward",
+   "cases": [
+    "enc-01",
+    "enc-20"
+   ],
+   "fp": 3,
+   "fn": 0,
+   "drg_miss": 0
+  },
+  {
+   "trap": "negation",
+   "cases": [
+    "enc-01",
+    "enc-21"
+   ],
+   "fp": 3,
+   "fn": 0,
+   "drg_miss": 0
+  },
+  {
+   "trap": "symptom_integral",
+   "cases": [
+    "enc-07",
+    "enc-11"
+   ],
+   "fp": 1,
+   "fn": 2,
+   "drg_miss": 0
+  },
+  {
+   "trap": "consultant_specificity",
+   "cases": [
+    "enc-11"
+   ],
+   "fp": 1,
+   "fn": 1,
+   "drg_miss": 0
+  },
+  {
+   "trap": "combination_code",
+   "cases": [
+    "enc-19"
+   ],
+   "fp": 1,
+   "fn": 1,
+   "drg_miss": 0
+  },
+  {
+   "trap": "excludes1",
+   "cases": [
+    "enc-19"
+   ],
+   "fp": 1,
+   "fn": 1,
+   "drg_miss": 0
+  },
+  {
+   "trap": "lab_only",
+   "cases": [
+    "enc-23"
+   ],
+   "fp": 2,
+   "fn": 0,
+   "drg_miss": 0
+  },
+  {
+   "trap": "late_addendum",
+   "cases": [
+    "enc-01"
+   ],
+   "fp": 1,
+   "fn": 0,
+   "drg_miss": 0
+  }
+ ],
+ "stage_costs": [
+  {
+   "stage": "triage",
+   "model": null,
+   "cost_usd": 0.0,
+   "ms": 0.0,
+   "input_tokens": 0.0,
+   "output_tokens": 0.0,
+   "n": 24
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "cost_usd": 0.019829583333333334,
+   "ms": 18132.375,
+   "input_tokens": 5019.791666666667,
+   "output_tokens": 2962.2083333333335,
+   "n": 24
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "cost_usd": 0.05150458333333333,
+   "ms": 13786.666666666666,
+   "input_tokens": 17973.875,
+   "output_tokens": 1555.7083333333333,
+   "n": 24
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "cost_usd": 0.020886250000000006,
+   "ms": 6303.0,
+   "input_tokens": 6538.291666666667,
+   "output_tokens": 780.9166666666666,
+   "n": 24
+  },
+  {
+   "stage": "query",
+   "model": "claude-sonnet-5-5",
+   "cost_usd": 0.003389583333333333,
+   "ms": 3931.214285714286,
+   "input_tokens": 568.375,
+   "output_tokens": 225.29166666666666,
+   "n": 14
+  }
+ ],
+ "retries": {
+  "coder": 1,
+  "evidence": 9
+ }
+}

@@ -1,0 +1,1294 @@
+{
+ "case_id": "enc-24",
+ "prompt_version": "2026-10-02.4-router-v2",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+   "note": null,
+   "start": 20,
+   "end": 53
+  },
+  {
+   "id": "F2",
+   "condition": "Type 2 diabetes mellitus",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+   "note": null,
+   "start": 20,
+   "end": 53
+  },
+  {
+   "id": "F3",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+   "note": null,
+   "start": 20,
+   "end": 53
+  },
+  {
+   "id": "F4",
+   "condition": "Coronary artery disease, status post percutaneous coronary intervention",
+   "assertion": "history",
+   "doc_id": "d1",
+   "quote": "CAD (s/p PCI 2019)",
+   "note": null,
+   "start": 50,
+   "end": 68
+  },
+  {
+   "id": "F5",
+   "condition": "Acute confusion and altered mental status",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "1 day of new confusion, sleepiness, and garbled speech",
+   "note": null,
+   "start": 89,
+   "end": 143
+  },
+  {
+   "id": "F6",
+   "condition": "Urinary frequency and dysuria",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "2 days of urinary frequency and burning",
+   "note": null,
+   "start": 150,
+   "end": 189
+  },
+  {
+   "id": "F7",
+   "condition": "Fever",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "T 38.1",
+   "note": null,
+   "start": 316,
+   "end": 322
+  },
+  {
+   "id": "F8",
+   "condition": "Drowsiness and somnolence",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Drowsy but arousable",
+   "note": null,
+   "start": 368,
+   "end": 388
+  },
+  {
+   "id": "F9",
+   "condition": "Disorientation (oriented to self only)",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "oriented to self only",
+   "note": null,
+   "start": 390,
+   "end": 411
+  },
+  {
+   "id": "F10",
+   "condition": "Suprapubic tenderness",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Mild suprapubic tenderness",
+   "note": null,
+   "start": 510,
+   "end": 536
+  },
+  {
+   "id": "F11",
+   "condition": "Elevated white blood cell count",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "WBC 13.1",
+   "note": null,
+   "start": 544,
+   "end": 552
+  },
+  {
+   "id": "F12",
+   "condition": "Urinalysis: positive nitrite, large leukocyte esterase, elevated WBC",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "UA: + nitrite, large LE, > 50 WBC/hpf",
+   "note": null,
+   "start": 658,
+   "end": 695
+  },
+  {
+   "id": "F13",
+   "condition": "Hyperglycemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "glucose 188",
+   "note": null,
+   "start": 611,
+   "end": 622
+  },
+  {
+   "id": "F14",
+   "condition": "Acute metabolic encephalopathy due to urinary tract infection",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Acute metabolic encephalopathy due to UTI",
+   "note": null,
+   "start": 534,
+   "end": 575
+  },
+  {
+   "id": "F15",
+   "condition": "Type 2 diabetes mellitus with glycemic control (A1c 6.9%)",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "T2DM (A1c 6.9%)",
+   "note": null,
+   "start": 219,
+   "end": 234
+  },
+  {
+   "id": "F16",
+   "condition": "Positive CAM (Confusion Assessment Method) indicating delirium",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "CAM positive",
+   "note": null,
+   "start": 78,
+   "end": 90
+  },
+  {
+   "id": "F17",
+   "condition": "Restlessness and agitation",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Pt restless overnight, pulling at IV x1",
+   "note": null,
+   "start": 0,
+   "end": 39
+  },
+  {
+   "id": "F18",
+   "condition": "Cloudy, foul-smelling urine",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Voided 350 mL, cloudy, foul-smelling",
+   "note": null,
+   "start": 162,
+   "end": 198
+  },
+  {
+   "id": "F19",
+   "condition": "Escherichia coli urinary tract infection (urine culture >100,000 CFU/mL)",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Urine cx: > 100,000 CFU/mL E. coli",
+   "note": null,
+   "start": 148,
+   "end": 182
+  },
+  {
+   "id": "F20",
+   "condition": "E. coli susceptibility to ceftriaxone (pan-sensitive except ampicillin)",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "> 100,000 CFU/mL E. coli, pan-sensitive except ampicillin",
+   "note": null,
+   "start": 158,
+   "end": 215
+  },
+  {
+   "id": "F21",
+   "condition": "Improvement in mental status (oriented to self and hospital, follows commands)",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Oriented to self and hospital, not date. Follows commands.",
+   "note": null,
+   "start": 89,
+   "end": 147
+  },
+  {
+   "id": "F22",
+   "condition": "Blood cultures negative",
+   "assertion": "negated",
+   "doc_id": "d5",
+   "quote": "Blood cultures x2 (09/18): no growth at 48 h",
+   "note": null,
+   "start": 170,
+   "end": 214
+  },
+  {
+   "id": "F23",
+   "condition": "Declining white blood cell count (trending toward normal)",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "WBC 13.1 -> 10.4 -> 8.2",
+   "note": null,
+   "start": 216,
+   "end": 239
+  },
+  {
+   "id": "F24",
+   "condition": "E. coli resistance to ampicillin",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Resistant: ampicillin",
+   "note": null,
+   "start": 147,
+   "end": 168
+  },
+  {
+   "id": "F25",
+   "condition": "Fingerstick glucose range 132-191 during hospitalization",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Fingerstick glucose range 09/19-09/20: 132-191",
+   "note": null,
+   "start": 292,
+   "end": 338
+  },
+  {
+   "id": "F26",
+   "condition": "Delirium (CAM positive 09/19, negative 09/20)",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "CAM (nursing flowsheet): positive 09/19 04:00; positive 09/19 20:00; negative 09/20 08:00",
+   "note": null,
+   "start": 340,
+   "end": 429
+  },
+  {
+   "id": "F27",
+   "condition": "Acute metabolic encephalopathy due to E. coli UTI, resolved",
+   "assertion": "resolved",
+   "doc_id": "d6",
+   "quote": "Acute metabolic encephalopathy due to E. coli UTI, resolved",
+   "note": null,
+   "start": 157,
+   "end": 216
+  },
+  {
+   "id": "F28",
+   "condition": "Mental status returned to baseline by hospital day 3",
+   "assertion": "resolved",
+   "doc_id": "d6",
+   "quote": "Mental status improved steadily with antibiotics and returned to baseline by HD3",
+   "note": null,
+   "start": 525,
+   "end": 605
+  },
+  {
+   "id": "F29",
+   "condition": "Oriented times 3, CAM negative at discharge",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "oriented x3, CAM negative",
+   "note": null,
+   "start": 616,
+   "end": 641
+  }
+ ],
+ "codes": [
+  {
+   "code": "N39.0",
+   "poa": "Y",
+   "finding_ids": [
+    "F6",
+    "F12",
+    "F19"
+   ],
+   "confidence": 0.8,
+   "rationale": "The discharge summary lists E. coli UTI as the principal diagnosis. It was present on admission and treated with antibiotics, and no site was specified (cystitis vs early pyelo).",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "Provider-documented E. coli UTI, culture-confirmed, POA, and designated principal in the discharge summary. Site is unspecified (cystitis vs early pyelo) but N39.0 is acceptable as documented.",
+   "severity": null,
+   "description": "Urinary tract infection, site not specified"
+  },
+  {
+   "code": "B96.20",
+   "poa": "Y",
+   "finding_ids": [
+    "F19"
+   ],
+   "confidence": 0.92,
+   "rationale": "Urine culture grew E. coli, and the provider documented an E. coli UTI. This code identifies the organism.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documents E. coli UTI, and the culture confirms the organism.",
+   "severity": "none",
+   "description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere"
+  },
+  {
+   "code": "G93.41",
+   "poa": "Y",
+   "finding_ids": [
+    "F14",
+    "F27"
+   ],
+   "confidence": 0.8,
+   "rationale": "The provider documented acute metabolic encephalopathy due to UTI. It was present on admission and resolved by discharge, so it is coded as a secondary diagnosis. Delirium is integral to it and is not coded separately.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Documented consistently by the attending in the H&P, progress note and discharge summary. Clinical indicators are adequate: acute global change from independent baseline, CAM positive, negative workup, and resolution with treatment of the infection. It is an MCC, so it is a likely audit target, but the clinical validity is solid.",
+   "severity": "MCC",
+   "description": "Metabolic encephalopathy"
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F2",
+    "F15"
+   ],
+   "confidence": 0.85,
+   "rationale": "Type 2 diabetes is documented. The provider did not link hyperglycemia or any complication to it.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "T2DM is documented with A1c 6.9%. No complication is linked, and hyperglycemia was not linked by the provider.",
+   "severity": "none",
+   "description": "Type 2 diabetes mellitus without complications"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F1"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hypertension is documented, and lisinopril was continued.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "HTN is documented and treated with lisinopril.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "I25.10",
+   "poa": "Y",
+   "finding_ids": [
+    "F4"
+   ],
+   "confidence": 0.85,
+   "rationale": "CAD is documented and was asymptomatic, with no angina.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "CAD is documented as a current condition on aspirin and statin. No angina.",
+   "severity": "none",
+   "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris"
+  },
+  {
+   "code": "Z95.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F4"
+   ],
+   "confidence": 0.4,
+   "rationale": "History of PCI to the LAD. Stent placement is implied but not stated.",
+   "role": "secondary",
+   "verdict": "needs_query",
+   "critic_reason": "Only PCI to LAD is documented. A coronary stent is not stated, and PCI may be balloon angioplasty only (Z98.61). This has no severity impact.",
+   "severity": "none",
+   "description": "Presence of coronary angioplasty implant and graft"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F3"
+   ],
+   "confidence": 0.88,
+   "rationale": "Hyperlipidemia is documented and treated with atorvastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is documented and treated with atorvastatin.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "finding_ids": [
+    "F2"
+   ],
+   "confidence": 0.85,
+   "rationale": "The patient takes metformin long term, and it was resumed at discharge.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Metformin is a home medication that was held in hospital and resumed at discharge, which supports long-term oral hypoglycemic use.",
+   "severity": "none",
+   "description": "Long term (current) use of oral hypoglycemic drugs"
+  }
+ ],
+ "removed": [],
+ "issues": [
+  {
+   "kind": "other",
+   "summary": "Both E. coli UTI and metabolic encephalopathy were present on admission and each could be sequenced first. The attending designated the UTI as principal, and that choice was followed.",
+   "finding_ids": [
+    "F14",
+    "F27"
+   ],
+   "guideline": "OCG Section II.C",
+   "impact": "none",
+   "codes": [
+    "N39.0",
+    "G93.41"
+   ],
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "UTI site is documented as 'acute cystitis vs early pyelo' in the H&P and later as just UTI. This uncertain-diagnosis wording was never resolved, so N39.0 is acceptable. A clarification would only add specificity (N30.00 or N10), not change severity.",
+   "finding_ids": [
+    "F6",
+    "F10"
+   ],
+   "guideline": "OCG Section II.H",
+   "impact": "none",
+   "codes": [
+    "N39.0"
+   ],
+   "blocks_autonomy": false
+  }
+ ],
+ "queries": [],
+ "drg": {
+  "family": "uti",
+  "number": "689",
+  "title": "Kidney and urinary tract infections w MCC",
+  "weight": 1.12,
+  "tier": "MCC",
+  "drivers": [
+   "G93.41"
+  ]
+ },
+ "confidence": 0.8,
+ "confidence_base": 0.8,
+ "blocking_issues": 0,
+ "blocking_reasons": [],
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 12501,
+   "input_tokens": 2949,
+   "output_tokens": 2180,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01385
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 12502,
+   "ms": 12845,
+   "input_tokens": 14184,
+   "output_tokens": 1598,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.04435
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 25347,
+   "ms": 11349,
+   "input_tokens": 6518,
+   "output_tokens": 867,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.02171
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-18T19:30",
+     "words": 145,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-18T23:15",
+     "words": 185,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-19T04:10",
+     "words": 31,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-19T10:00",
+     "words": 85,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Lab summary",
+     "author_role": "lab",
+     "timestamp": "2026-09-20T06:15",
+     "words": 62,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-21T11:30",
+     "words": 111,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 12502,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+     "note": null,
+     "start": 20,
+     "end": 53
+    },
+    {
+     "id": "F2",
+     "condition": "Type 2 diabetes mellitus",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+     "note": null,
+     "start": 20,
+     "end": 53
+    },
+    {
+     "id": "F3",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+     "note": null,
+     "start": 20,
+     "end": 53
+    },
+    {
+     "id": "F4",
+     "condition": "Coronary artery disease, status post percutaneous coronary intervention",
+     "assertion": "history",
+     "doc_id": "d1",
+     "quote": "CAD (s/p PCI 2019)",
+     "note": null,
+     "start": 50,
+     "end": 68
+    },
+    {
+     "id": "F5",
+     "condition": "Acute confusion and altered mental status",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "1 day of new confusion, sleepiness, and garbled speech",
+     "note": null,
+     "start": 89,
+     "end": 143
+    },
+    {
+     "id": "F6",
+     "condition": "Urinary frequency and dysuria",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "2 days of urinary frequency and burning",
+     "note": null,
+     "start": 150,
+     "end": 189
+    },
+    {
+     "id": "F7",
+     "condition": "Fever",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "T 38.1",
+     "note": null,
+     "start": 316,
+     "end": 322
+    },
+    {
+     "id": "F8",
+     "condition": "Drowsiness and somnolence",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Drowsy but arousable",
+     "note": null,
+     "start": 368,
+     "end": 388
+    },
+    {
+     "id": "F9",
+     "condition": "Disorientation (oriented to self only)",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "oriented to self only",
+     "note": null,
+     "start": 390,
+     "end": 411
+    },
+    {
+     "id": "F10",
+     "condition": "Suprapubic tenderness",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Mild suprapubic tenderness",
+     "note": null,
+     "start": 510,
+     "end": 536
+    },
+    {
+     "id": "F11",
+     "condition": "Elevated white blood cell count",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "WBC 13.1",
+     "note": null,
+     "start": 544,
+     "end": 552
+    },
+    {
+     "id": "F12",
+     "condition": "Urinalysis: positive nitrite, large leukocyte esterase, elevated WBC",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "UA: + nitrite, large LE, > 50 WBC/hpf",
+     "note": null,
+     "start": 658,
+     "end": 695
+    },
+    {
+     "id": "F13",
+     "condition": "Hyperglycemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "glucose 188",
+     "note": null,
+     "start": 611,
+     "end": 622
+    },
+    {
+     "id": "F14",
+     "condition": "Acute metabolic encephalopathy due to urinary tract infection",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Acute metabolic encephalopathy due to UTI",
+     "note": null,
+     "start": 534,
+     "end": 575
+    },
+    {
+     "id": "F15",
+     "condition": "Type 2 diabetes mellitus with glycemic control (A1c 6.9%)",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "T2DM (A1c 6.9%)",
+     "note": null,
+     "start": 219,
+     "end": 234
+    },
+    {
+     "id": "F16",
+     "condition": "Positive CAM (Confusion Assessment Method) indicating delirium",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "CAM positive",
+     "note": null,
+     "start": 78,
+     "end": 90
+    },
+    {
+     "id": "F17",
+     "condition": "Restlessness and agitation",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Pt restless overnight, pulling at IV x1",
+     "note": null,
+     "start": 0,
+     "end": 39
+    },
+    {
+     "id": "F18",
+     "condition": "Cloudy, foul-smelling urine",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Voided 350 mL, cloudy, foul-smelling",
+     "note": null,
+     "start": 162,
+     "end": 198
+    },
+    {
+     "id": "F19",
+     "condition": "Escherichia coli urinary tract infection (urine culture >100,000 CFU/mL)",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Urine cx: > 100,000 CFU/mL E. coli",
+     "note": null,
+     "start": 148,
+     "end": 182
+    },
+    {
+     "id": "F20",
+     "condition": "E. coli susceptibility to ceftriaxone (pan-sensitive except ampicillin)",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "> 100,000 CFU/mL E. coli, pan-sensitive except ampicillin",
+     "note": null,
+     "start": 158,
+     "end": 215
+    },
+    {
+     "id": "F21",
+     "condition": "Improvement in mental status (oriented to self and hospital, follows commands)",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Oriented to self and hospital, not date. Follows commands.",
+     "note": null,
+     "start": 89,
+     "end": 147
+    },
+    {
+     "id": "F22",
+     "condition": "Blood cultures negative",
+     "assertion": "negated",
+     "doc_id": "d5",
+     "quote": "Blood cultures x2 (09/18): no growth at 48 h",
+     "note": null,
+     "start": 170,
+     "end": 214
+    },
+    {
+     "id": "F23",
+     "condition": "Declining white blood cell count (trending toward normal)",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "WBC 13.1 -> 10.4 -> 8.2",
+     "note": null,
+     "start": 216,
+     "end": 239
+    },
+    {
+     "id": "F24",
+     "condition": "E. coli resistance to ampicillin",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Resistant: ampicillin",
+     "note": null,
+     "start": 147,
+     "end": 168
+    },
+    {
+     "id": "F25",
+     "condition": "Fingerstick glucose range 132-191 during hospitalization",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Fingerstick glucose range 09/19-09/20: 132-191",
+     "note": null,
+     "start": 292,
+     "end": 338
+    },
+    {
+     "id": "F26",
+     "condition": "Delirium (CAM positive 09/19, negative 09/20)",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "CAM (nursing flowsheet): positive 09/19 04:00; positive 09/19 20:00; negative 09/20 08:00",
+     "note": null,
+     "start": 340,
+     "end": 429
+    },
+    {
+     "id": "F27",
+     "condition": "Acute metabolic encephalopathy due to E. coli UTI, resolved",
+     "assertion": "resolved",
+     "doc_id": "d6",
+     "quote": "Acute metabolic encephalopathy due to E. coli UTI, resolved",
+     "note": null,
+     "start": 157,
+     "end": 216
+    },
+    {
+     "id": "F28",
+     "condition": "Mental status returned to baseline by hospital day 3",
+     "assertion": "resolved",
+     "doc_id": "d6",
+     "quote": "Mental status improved steadily with antibiotics and returned to baseline by HD3",
+     "note": null,
+     "start": 525,
+     "end": 605
+    },
+    {
+     "id": "F29",
+     "condition": "Oriented times 3, CAM negative at discharge",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "oriented x3, CAM negative",
+     "note": null,
+     "start": 616,
+     "end": 641
+    }
+   ]
+  },
+  {
+   "t": 12502,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "I'm pulling together the diagnosis codes: UTI with unspecified organism plus bacterial infection code, encephalopathy, diabetes without documented hyperglycemia, hypertension, atherosclerotic heart disease, stent and angioplasty status codes, hyperlipidemia, and long-term medication use codes for metformin and aspirin.\n\nFor principal diagnosis, weighing UTI versus encephalopathy since the discharge summary lists UTI as principal and both were present on admission -- going with N39.0 as the lead code since that's what the documentation supports.\n\n"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "N39.0"
+   },
+   "id": "toolu_01WZkVmnYZrzMNqPKNCx9fzt"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "B96.20"
+   },
+   "id": "toolu_0114KsH2jpNWzV3q3gSh4kss"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "G93.41"
+   },
+   "id": "toolu_018JQGxLLn54VUuu8mewSVgz"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E11.9"
+   },
+   "id": "toolu_017k9w4gXVfcWUxo8iUekkMi"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I10"
+   },
+   "id": "toolu_01XRm1L15Q64jcM9tpFzUU8R"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I25.10"
+   },
+   "id": "toolu_01NcFuz1MVGMqiGEseMwT4ia"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_01WtApn7Gg17hap1H5oTrFGu"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z95.5"
+   },
+   "id": "toolu_015otgEfhqaZKnXBBhC3oFWG"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.84"
+   },
+   "id": "toolu_01QCs99Zrrk4X8tQUmLpnsPJ"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01WZkVmnYZrzMNqPKNCx9fzt",
+   "result": "N39.0: Urinary tract infection, site not specified (billable)"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_0114KsH2jpNWzV3q3gSh4kss",
+   "result": "B96.20: Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere (billable)"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_018JQGxLLn54VUuu8mewSVgz",
+   "result": "G93.41: Metabolic encephalopathy (billable)"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_017k9w4gXVfcWUxo8iUekkMi",
+   "result": "E11.9: Type 2 diabetes mellitus without complications (billable)"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01XRm1L15Q64jcM9tpFzUU8R",
+   "result": "I10: Essential (primary) hypertension (billable)"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01NcFuz1MVGMqiGEseMwT4ia",
+   "result": "I25.10: Atherosclerotic heart disease of native coronary artery without angina pectoris (billable)"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01WtApn7Gg17hap1H5oTrFGu",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_015otgEfhqaZKnXBBhC3oFWG",
+   "result": "Z95.5: Presence of coronary angioplasty implant and graft (billable)"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01QCs99Zrrk4X8tQUmLpnsPJ",
+   "result": "Z79.84: Long term (current) use of oral hypoglycemic drugs (billable)"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"N39.0\",\"poa\":\"Y\",\"finding_ids\":[\"F6\",\"F12\",\"F19\"],\"confidence\":0.8,\"rationale\":\"The discharge summary lists E. coli UTI as the principal diagnosis. It was present on admission and treated with antibiotics, and no site was specified (cystitis vs early pyelo).\"},\"secondary\":[{\"code\":\"B96.20\",\"poa\":\"Y\",\"finding_ids\":[\"F19\"],\"confidence\":0.9,\"rationale\":\"Urine culture grew E. coli, and the provider documented an E. coli UTI. This code identifies the organism.\"},{\"code\":\"G93.41\",\"poa\":\"Y\",\"finding_ids\":[\"F14\",\"F27\"],\"confidence\":0.88,\"rationale\":\"The provider documented acute metabo"
+  },
+  {
+   "t": 25347,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "N39.0",
+     "poa": "Y",
+     "finding_ids": [
+      "F6",
+      "F12",
+      "F19"
+     ],
+     "confidence": 0.8,
+     "rationale": "The discharge summary lists E. coli UTI as the principal diagnosis. It was present on admission and treated with antibiotics, and no site was specified (cystitis vs early pyelo)."
+    },
+    "secondary": [
+     {
+      "code": "B96.20",
+      "poa": "Y",
+      "finding_ids": [
+       "F19"
+      ],
+      "confidence": 0.9,
+      "rationale": "Urine culture grew E. coli, and the provider documented an E. coli UTI. This code identifies the organism."
+     },
+     {
+      "code": "G93.41",
+      "poa": "Y",
+      "finding_ids": [
+       "F14",
+       "F27"
+      ],
+      "confidence": 0.88,
+      "rationale": "The provider documented acute metabolic encephalopathy due to UTI. It was present on admission and resolved by discharge, so it is coded as a secondary diagnosis. Delirium is integral to it and is not coded separately."
+     },
+     {
+      "code": "E11.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F2",
+       "F15"
+      ],
+      "confidence": 0.85,
+      "rationale": "Type 2 diabetes is documented. The provider did not link hyperglycemia or any complication to it."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hypertension is documented, and lisinopril was continued."
+     },
+     {
+      "code": "I25.10",
+      "poa": "Y",
+      "finding_ids": [
+       "F4"
+      ],
+      "confidence": 0.85,
+      "rationale": "CAD is documented and was asymptomatic, with no angina."
+     },
+     {
+      "code": "Z95.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F4"
+      ],
+      "confidence": 0.6,
+      "rationale": "History of PCI to the LAD. Stent placement is implied but not stated."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F3"
+      ],
+      "confidence": 0.88,
+      "rationale": "Hyperlipidemia is documented and treated with atorvastatin."
+     },
+     {
+      "code": "Z79.84",
+      "poa": "Y",
+      "finding_ids": [
+       "F2"
+      ],
+      "confidence": 0.8,
+      "rationale": "The patient takes metformin long term, and it was resumed at discharge."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "other",
+      "summary": "Both E. coli UTI and metabolic encephalopathy were present on admission and each could be sequenced first. The attending designated the UTI as principal, and that choice was followed.",
+      "finding_ids": [
+       "F14",
+       "F27"
+      ],
+      "guideline": "OCG Section II.C",
+      "impact": "none",
+      "codes": [
+       "N39.0",
+       "G93.41"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "t": 25347,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 36696,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"N39.0\",\"verdict\":\"supported\",\"confidence\":0.8,\"reason\":\"Provider-documented E. coli UTI, culture-confirmed, POA, and designated principal in the discharge summary. Site is unspecified (cystitis vs early pyelo) but N39.0 is acceptable as documented.\"},{\"code\":\"B96.20\",\"verdict\":\"supported\",\"confidence\":0.92,\"reason\":\"Provider documents E. coli UTI, and the culture confirms the organism.\"},{\"code\":\"G93.41\",\"verdict\":\"supported\",\"confidence\":0.8,\"reason\":\"Documented consistently by the attending in the H&P, progress note and discharge summary. Clinical indicators are adequate"
+  },
+  {
+   "t": 36696,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "N39.0",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "Provider-documented E. coli UTI, culture-confirmed, POA, and designated principal in the discharge summary. Site is unspecified (cystitis vs early pyelo) but N39.0 is acceptable as documented."
+     },
+     {
+      "code": "B96.20",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "reason": "Provider documents E. coli UTI, and the culture confirms the organism."
+     },
+     {
+      "code": "G93.41",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "Documented consistently by the attending in the H&P, progress note and discharge summary. Clinical indicators are adequate: acute global change from independent baseline, CAM positive, negative workup, and resolution with treatment of the infection. It is an MCC, so it is a likely audit target, but the clinical validity is solid."
+     },
+     {
+      "code": "E11.9",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "T2DM is documented with A1c 6.9%. No complication is linked, and hyperglycemia was not linked by the provider."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "HTN is documented and treated with lisinopril."
+     },
+     {
+      "code": "I25.10",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "CAD is documented as a current condition on aspirin and statin. No angina."
+     },
+     {
+      "code": "Z95.5",
+      "verdict": "needs_query",
+      "confidence": 0.4,
+      "reason": "Only PCI to LAD is documented. A coronary stent is not stated, and PCI may be balloon angioplasty only (Z98.61). This has no severity impact."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "Hyperlipidemia is documented and treated with atorvastatin."
+     },
+     {
+      "code": "Z79.84",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Metformin is a home medication that was held in hospital and resumed at discharge, which supports long-term oral hypoglycemic use."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": [
+     {
+      "kind": "other",
+      "summary": "UTI site is documented as 'acute cystitis vs early pyelo' in the H&P and later as just UTI. This uncertain-diagnosis wording was never resolved, so N39.0 is acceptable. A clarification would only add specificity (N30.00 or N10), not change severity.",
+      "finding_ids": [
+       "F6",
+       "F10"
+      ],
+      "guideline": "OCG Section II.H",
+      "impact": "none",
+      "codes": [
+       "N39.0"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "t": 36696,
+   "stage": "grouper",
+   "type": "output",
+   "family": "uti",
+   "drg": "689",
+   "title": "Kidney and urinary tract infections w MCC",
+   "weight": 1.12,
+   "tier": "MCC",
+   "drivers": [
+    "G93.41"
+   ]
+  },
+  {
+   "t": 36696,
+   "stage": "router",
+   "type": "output",
+   "base": 0.8,
+   "blocking": 0,
+   "reasons": [],
+   "confidence": 0.8
+  }
+ ],
+ "ms": 36696,
+ "cost_usd": 0.07991
+}

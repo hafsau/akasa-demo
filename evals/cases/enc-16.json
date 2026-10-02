@@ -1,0 +1,110 @@
+{
+  "id": "enc-16",
+  "title": "Heart failure, pressure ulcer during stay",
+  "summary": "A heart failure patient whose skin was intact on arrival but who developed a deep bedsore during the stay, a hospital-acquired condition that must be marked as not present on admission.",
+  "family": "hf",
+  "patient": {
+    "age": 84,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-02",
+  "discharge_date": "2026-09-09",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "H&P",
+      "author": "O. Brennan, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-02T17:30",
+      "text": "HPI: 84F with ischemic cardiomyopathy (EF 25% on TTE 05/2026), CAD s/p DES to RCA 2019, T2DM, HLD, hypothyroidism, presents from home with 10 days of worsening DOE, orthopnea, abdominal bloating and leg swelling. Weight up 12 lb. Has been largely chair-bound for the past week due to fatigue.\nPMH: ischemic cardiomyopathy/HFrEF, CAD s/p PCI, T2DM, HLD, hypothyroidism.\nMeds: sacubitril/valsartan 24/26 mg BID, carvedilol 6.25 mg BID, spironolactone 12.5 mg, furosemide 40 mg daily, empagliflozin 10 mg, aspirin 81 mg, atorvastatin 40 mg, levothyroxine 50 mcg.\nExam: HR 96 regular, BP 108/64, RR 22, SpO2 91% RA -> 95% 2L. JVD to ear, bibasilar crackles, S3, 3+ pitting edema to thighs, sacral edema. Skin: no breakdown noted.\nLabs: BNP 3,880. Troponin 0.04 flat. Na 136, K 4.4, Cr 1.1 (baseline 1.0). A1c 7.1.\nCXR: cardiomegaly, pulmonary edema, bilateral small effusions.\nAssessment/Plan:\n1. Acute on chronic systolic heart failure (HFrEF, EF 25%) due to ischemic cardiomyopathy - furosemide 80 mg IV BID, strict I/O, daily weights, continue carvedilol; hold sacubitril/valsartan for soft BP, resume as tolerated.\n2. Ischemic cardiomyopathy / CAD s/p PCI - no ACS, flat troponin. Aspirin, statin.\n3. T2DM - hold empagliflozin, SSI.\n4. HLD - atorvastatin.\n5. Hypothyroidism - levothyroxine.\n6. Mobility - PT/OT eval; turning schedule q2h, pressure-redistribution mattress.\nCode: Full (discussed with patient and son)."
+    },
+    {
+      "id": "d2",
+      "type": "Nursing note",
+      "author": "R. Delgado, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-02T20:00",
+      "text": "Admission nursing assessment. Braden score 15 (at risk). Skin assessment head-to-toe with second RN: skin intact; no breakdown noted to sacrum, coccyx, buttocks, heels, or elbows. Sacral area with edema, blanchable. Pressure-redistribution mattress in place, heels floated, q2h turns initiated. Foley not placed. Patient on 2L NC, 3+ BLE edema."
+    },
+    {
+      "id": "d3",
+      "type": "Progress note",
+      "author": "O. Brennan, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-04T09:00",
+      "text": "S: Breathing better, lying flatter. Net -3.4 L.\nO: HR 88, BP 104/62, SpO2 94% on 1L. Crackles at bases. 2+ edema. Cr 1.2.\nA/P:\n1. Acute on chronic systolic HF - diuresing well. Continue IV furosemide; resume sacubitril/valsartan low dose when SBP > 105.\n2. CAD/ischemic CM - aspirin, statin, carvedilol.\n3. T2DM - SSI, glucose 150s.\n4. HLD, hypothyroidism - stable.\n5. Mobility - PT working with her; spending much of day in bed due to fatigue."
+    },
+    {
+      "id": "d4",
+      "type": "Wound care note",
+      "author": "L. Bianchi, RN, CWOCN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-05T14:20",
+      "text": "Consulted by bedside RN for new sacral skin breakdown found on AM turn.\nLocation: sacrum, midline.\nAssessment: Full-thickness skin loss, 3.0 x 2.5 x 0.3 cm. Wound bed 80% red granulation, 20% yellow slough. Subcutaneous fat visible; no bone, tendon or muscle visible. No tunneling or undermining. Small serous drainage. Periwound macerated, no erythema or induration. No odor.\nStage: Stage 3 pressure injury, sacrum. Not present on admission per admission skin assessment 09/02 (skin intact).\nPlan: Cleanse with NS, apply calcium alginate + silicone foam border, change q2 days and PRN. Low-air-loss mattress ordered. Turn q2h, limit HOB to 30 degrees except meals. Dietitian consult for protein. Wound care to follow twice weekly."
+    },
+    {
+      "id": "d5",
+      "type": "Progress note",
+      "author": "O. Brennan, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-06T08:45",
+      "text": "S: Breathing near baseline. Notes some discomfort at tailbone.\nO: HR 82, BP 112/66, SpO2 95% RA. Trace crackles. 1+ edema. Wt down 9 lb. Cr 1.2. Sacral dressing c/d/i.\nA/P:\n1. Acute on chronic systolic HF - near euvolemia. Transition to PO torsemide 20 mg tomorrow; resumed sacubitril/valsartan 24/26 BID.\n2. Sacral pressure ulcer, stage 3, hospital-acquired, wound care following - low-air-loss mattress, offloading, protein supplementation.\n3. CAD/ischemic CM, T2DM, HLD, hypothyroidism - stable.\n4. Mobility - PT recommends SNF for strengthening."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "O. Brennan, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-09T11:30",
+      "text": "Admit: 09/02/2026  Discharge: 09/09/2026\nDischarge diagnoses:\n1. Acute on chronic systolic heart failure (HFrEF, EF 25%)\n2. Ischemic cardiomyopathy\n3. Coronary artery disease s/p PCI\n4. Pressure ulcer of sacrum, stage 3\n5. Type 2 diabetes mellitus\n6. Hyperlipidemia\n7. Hypothyroidism\nHospital course: Admitted with volume overload, diuresed 11 lb with IV furosemide, transitioned to PO torsemide. GDMT resumed. During admission developed a sacral pressure ulcer (see wound care notes), managed with alginate/foam dressings and low-air-loss mattress. Discharged to SNF for rehab per PT.\nDischarge meds: torsemide 20 mg daily, sacubitril/valsartan 24/26 BID, carvedilol, spironolactone, empagliflozin, aspirin, atorvastatin, levothyroxine. Wound care: calcium alginate + foam q2 days.\nFollow-up: HF clinic 1 week; wound care at SNF."
+    }
+  ],
+  "gold": {
+    "pdx": "I50.23",
+    "secondary": [
+      {
+        "code": "L89.153",
+        "poa": "N"
+      },
+      {
+        "code": "I25.5",
+        "poa": "Y"
+      },
+      {
+        "code": "I25.10",
+        "poa": "Y"
+      },
+      {
+        "code": "Z95.5",
+        "poa": "1"
+      },
+      {
+        "code": "E11.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.84",
+        "poa": "1"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "E03.9",
+        "poa": "Y"
+      }
+    ],
+    "drg": "293",
+    "route": "coder",
+    "hold_reasons": [
+      "Hospital-acquired condition: stage 3 sacral pressure ulcer (L89.153) assigned POA = N based on admission skin assessment 09/02 'skin intact', wound care note 09/05, and attending note 09/06 'hospital-acquired'; the discharge summary does not restate onset. Confirm POA status with provider before final billing (POA guideline, OCG Appendix I)"
+    ],
+    "query": null,
+    "traps": [
+      "poa_hac"
+    ],
+    "explanation": "The admission nursing skin check documents intact skin, the wound nurse stages a new sacral ulcer on day 4, and the attending confirms 'stage 3, hospital-acquired' on day 5, so L89.153 is coded with POA = N. As a stage 3 pressure ulcer not present on admission it is a Medicare HAC and cannot raise the DRG, so the case stays at DRG 293 despite the ulcer normally being a severity driver. A naive system defaults the ulcer to POA = Y (it appears on the discharge summary problem list), which wrongly bumps the DRG; because HAC/POA status affects payment, a coder should confirm before final billing."
+  },
+  "hero": false
+}

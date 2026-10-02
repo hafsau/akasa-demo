@@ -1,0 +1,107 @@
+{
+ "case_id": "enc-16",
+ "codes": [
+  {
+   "code": "I50.23",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Acute on chronic systolic (congestive) heart failure",
+   "confidence": 0.8
+  },
+  {
+   "code": "I25.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Ischemic cardiomyopathy",
+   "confidence": 0.8
+  },
+  {
+   "code": "I25.10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z95.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Presence of coronary angioplasty implant and graft",
+   "confidence": 0.8
+  },
+  {
+   "code": "L89.153",
+   "poa": "N",
+   "role": "secondary",
+   "valid": true,
+   "description": "Pressure ulcer of sacral region, stage 3",
+   "confidence": 0.8
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus without complications",
+   "confidence": 0.8
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypothyroidism, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z79.82",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of aspirin",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of oral hypoglycemic drugs",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z79.899",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Other long term (current) drug therapy",
+   "confidence": 0.8
+  }
+ ],
+ "drg": {
+  "family": "hf",
+  "number": "293",
+  "weight": 0.64,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.8,
+ "needs_human": false,
+ "reason": "Heart failure is the clear principal diagnosis. The sacral stage 3 pressure ulcer is hospital-acquired, so POA is N, supported by the admission skin assessment and the provider documentation. Should consider Z79.4 not applicable because no insulin is used. The Z79 codes (aspirin, oral hypoglycemic, long-term drug therapy) are optional. T2DM with CAD is not linked by the provider, so E11.9 is used. Hypertension is not documented, so I11.0 and I13 are not applicable.",
+ "ms": 5259,
+ "cost_usd": 0.01025,
+ "input_tokens": 3112,
+ "output_tokens": 403
+}

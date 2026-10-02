@@ -1,0 +1,110 @@
+{
+  "id": "enc-17",
+  "title": "Sepsis on paper, thin clinical support",
+  "summary": "The doctor wrote 'sepsis due to pneumonia', but the vital signs and labs barely support sepsis, so the diagnosis needs a clinical validation query.",
+  "hero": false,
+  "family": "sepsis",
+  "patient": {
+    "age": 71,
+    "sex": "M"
+  },
+  "admit_date": "2026-09-03",
+  "discharge_date": "2026-09-05",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "L. Okafor, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-03T10:24",
+      "text": "CC: cough, fatigue x 4 days.\nHPI: 71 y/o M with HTN, HLD, T2DM (metformin), GERD presents with productive cough (yellow sputum), subjective fevers, mild fatigue x 4 days. Mild SOB on exertion only. No chest pain, no confusion, eating and drinking OK. Wife states he \"just isn't himself.\" No recent hospitalization or antibiotics.\nROS: + cough, + subjective fever, + fatigue. Neg for CP, syncope, dysuria, N/V/D, rash.\nVitals: T 37.9 C, HR 96, RR 18, BP 132/78 (MAP 96), SpO2 95% RA.\nExam: Alert, oriented x3, NAD. Mucous membranes moist. Crackles R base, no wheeze. RRR, no murmur. Abd soft, NT. No edema. Cap refill < 2 sec.\nLabs: WBC 11.2, Hgb 13.9, Plt 231. Na 138, K 4.1, Cr 0.9 (baseline 0.9), BUN 16, glucose 168. Lactate 1.1. Procalcitonin 0.22. Bili 0.6.\nCXR: RLL opacity (see radiology).\nED course: 1 L LR given per triage protocol, ceftriaxone 1 g IV + azithromycin 500 mg IV. BP remained 128-136 systolic throughout.\nImpression: RLL community-acquired pneumonia. Patient asks to go home but family uncomfortable; will admit to hospitalist for IV abx and observation of response."
+    },
+    {
+      "id": "d2",
+      "type": "Radiology",
+      "author": "S. Brandt, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-03T10:51",
+      "text": "EXAM: XR chest PA/lateral.\nINDICATION: cough, fever.\nFINDINGS: Patchy airspace opacity in the right lower lobe. No pleural effusion. No pneumothorax. Heart size normal. Mild degenerative changes thoracic spine.\nIMPRESSION: Right lower lobe airspace opacity compatible with pneumonia in the appropriate clinical setting."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "M. Castellano, DO (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-03T13:40",
+      "text": "HISTORY AND PHYSICAL\nCC: cough, fever.\nHPI: 71M with HTN, HLD, T2DM, GERD here with 4 days productive cough, subjective fevers, fatigue. Seen in ED, CXR with RLL opacity. Given ceftriaxone/azithro and 1 L LR.\nPMH: HTN, HLD, T2DM (last A1c 7.2%), GERD.\nMeds: lisinopril 20 mg daily, atorvastatin 40 mg nightly, metformin 1000 mg BID, omeprazole 20 mg daily.\nSH: Retired machinist. Never smoker. Rare EtOH.\nVitals: T 37.8, HR 94, RR 18, BP 130/76, SpO2 95% RA.\nExam: Pleasant, conversant, A&Ox3. Crackles RLL. Heart RRR. Abd benign. No edema.\nLabs: WBC 11.2, lactate 1.1, Cr 0.9, Plt 231, bili 0.6.\nASSESSMENT/PLAN:\n1. Sepsis due to RLL community-acquired pneumonia - meets SIRS (HR > 90, WBC > 11). Continue ceftriaxone 1 g IV daily + azithromycin x 3 days. Blood cx x2, sputum cx. Trend vitals. Maintenance IVF only, encourage PO.\n2. HTN - continue lisinopril.\n3. HLD - continue atorvastatin.\n4. T2DM - hold metformin while inpatient, SSI, carb-consistent diet.\n5. GERD - continue PPI.\nDVT ppx: enoxaparin. Code: Full. Dispo: anticipate 24-48 h."
+    },
+    {
+      "id": "d4",
+      "type": "Lab summary",
+      "author": "Clinical Laboratory",
+      "author_role": "lab",
+      "timestamp": "2026-09-04T06:15",
+      "text": "HD2 AM labs: WBC 9.4, Hgb 13.5, Plt 226. Na 139, K 4.0, Cr 0.8, BUN 13, glucose 142.\nLactate (repeat): 0.9.\nBlood cultures x2 (09/03): no growth at 24 h.\nSputum culture: normal oropharyngeal flora.\nVitals trend (flowsheet): Tmax 37.9 C (09/03 10:10), last 36.9 C; HR 78-96; RR 16-18; SBP 124-138, no MAP < 65 recorded; SpO2 94-97% RA throughout. No vasopressors. GCS 15 throughout."
+    },
+    {
+      "id": "d5",
+      "type": "Progress note",
+      "author": "M. Castellano, DO (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-04T10:05",
+      "text": "S: Feels better. Cough improving, ate full breakfast. No fevers overnight.\nO: T 36.9, HR 80, RR 16, BP 128/74, SpO2 96% RA. Lungs: faint RLL crackles. Labs: WBC 9.4, lactate 0.9, Cr 0.8. BCx NGTD.\nA/P:\n1. Sepsis due to RLL CAP - clinically improving. Transition to PO cefpodoxime + finish azithromycin. Likely d/c tomorrow if remains afebrile.\n2. HTN - controlled. 3. HLD - statin. 4. T2DM - BG 140s on SSI; resume metformin at d/c. 5. GERD - PPI."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "M. Castellano, DO (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-05T11:20",
+      "text": "DISCHARGE SUMMARY\nAdmit: 09/03/2026. Discharge: 09/05/2026. Dispo: home with wife.\nPrincipal diagnosis: Sepsis due to right lower lobe community-acquired pneumonia.\nSecondary diagnoses: Hypertension. Hyperlipidemia. Type 2 diabetes mellitus without complications. GERD.\nHospital course: 71M admitted with productive cough and low-grade temp, RLL opacity on CXR. Treated with ceftriaxone/azithromycin, transitioned to PO cefpodoxime HD2. Remained hemodynamically stable on room air throughout. Lactate normal x2, renal function at baseline, blood cultures no growth. Afebrile > 24 h at discharge, eating well, ambulating independently.\nDischarge meds: cefpodoxime 200 mg PO BID x 4 more days; resume home lisinopril, atorvastatin, metformin, omeprazole.\nFollow-up: PCP in 1 week; repeat CXR in 6-8 weeks."
+    }
+  ],
+  "gold": {
+    "pdx": "A41.9",
+    "secondary": [
+      {
+        "code": "J18.9",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "E11.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.84",
+        "poa": "Y"
+      },
+      {
+        "code": "K21.9",
+        "poa": "Y"
+      }
+    ],
+    "drg": "871",
+    "route": "coder",
+    "hold_reasons": [
+      "Clinical validation risk: sepsis is documented consistently by the attending (H&P, progress note, discharge summary), but clinical indicators do not clearly support it under Sepsis-3 or typical facility criteria (Tmax 37.9 C, HR 96, WBC 11.2, lactate 1.1 then 0.9, normotensive without pressors, no organ dysfunction, SOFA 0, discharged HD2). Code as documented but hold for a clinical validation query to the attending (OCG I.A.19; ACDIS/AHIMA query practice)."
+    ],
+    "query": {
+      "topic": "Clinical validity of sepsis. Indicators in the record: Tmax 37.9 C, HR 78-96, RR 16-18, SBP 124-138 without vasopressors, WBC 11.2 then 9.4, lactate 1.1 then 0.9, creatinine 0.9 (baseline), platelets 231, bilirubin 0.6, GCS 15, SpO2 94-97% on room air, blood cultures no growth, discharged on hospital day 2. The H&P, progress note and discharge summary document 'sepsis due to RLL community-acquired pneumonia.' Based on your clinical judgment, please clarify the diagnosis.",
+      "options": [
+        "Sepsis due to RLL community-acquired pneumonia (please document the clinical indicators supporting sepsis)",
+        "RLL community-acquired pneumonia without sepsis",
+        "Other (please specify)",
+        "Clinically undetermined"
+      ]
+    },
+    "traps": [
+      "clinical_validation"
+    ],
+    "explanation": "Coders assign codes from provider documentation, so as written this is A41.9 with J18.9 (DRG 871). The clinical picture, though, is low-grade temperature, HR 96, WBC 11.2, normal lactate, no hypotension and no organ dysfunction, and the patient went home on day 2. That is weak support for sepsis and a common audit denial target. A careful coder holds the account and sends a neutral clinical validation query. A naive system either drops sepsis by itself (coders can't overrule the provider) or bills 871 without any review."
+  }
+}

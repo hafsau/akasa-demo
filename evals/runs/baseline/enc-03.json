@@ -1,0 +1,93 @@
+{
+ "case_id": "enc-03",
+ "codes": [
+  {
+   "code": "I13.0",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",
+   "confidence": 0.6
+  },
+  {
+   "code": "I50.23",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Acute on chronic systolic (congestive) heart failure",
+   "confidence": 0.6
+  },
+  {
+   "code": "N18.32",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Chronic kidney disease, stage 3b",
+   "confidence": 0.6
+  },
+  {
+   "code": "E11.22",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease",
+   "confidence": 0.6
+  },
+  {
+   "code": "Z79.4",
+   "poa": "exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of insulin",
+   "confidence": 0.6
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.6
+  },
+  {
+   "code": "G47.33",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Obstructive sleep apnea (adult) (pediatric)",
+   "confidence": 0.6
+  },
+  {
+   "code": "E11.65",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus with hyperglycemia",
+   "confidence": 0.6
+  },
+  {
+   "code": "Z79.899",
+   "poa": "exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Other long term (current) drug therapy",
+   "confidence": 0.6
+  }
+ ],
+ "drg": {
+  "family": "hf",
+  "number": "291",
+  "weight": 1.34,
+  "tier": "MCC",
+  "drivers": [
+   "I50.23"
+  ]
+ },
+ "confidence": 0.3,
+ "needs_human": true,
+ "reason": "Cr rose from 1.6 to 2.5 (about 1.56x baseline, +0.9 mg/dL) during diuresis, meeting KDIGO AKI criteria, but no provider documented AKI, so N17.9 was not coded. A query is recommended. Documentation of E11.65 hyperglycemia is also weak (glucose 214 with no provider diagnosis), so consider removing it. The heart failure type is documented only by cardiology (acute on chronic systolic), while the attending says only 'CHF exacerbation'; this is acceptable for I50.23 but worth confirming. Also confirm the Z-code POA exempt handling.",
+ "ms": 3898,
+ "cost_usd": 0.0115,
+ "input_tokens": 3725,
+ "output_tokens": 405
+}

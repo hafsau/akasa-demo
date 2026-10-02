@@ -1,0 +1,1418 @@
+{
+ "case_id": "enc-22",
+ "prompt_version": "2026-10-02.3",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Left lower lobe pneumonia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Dense consolidation left lower lobe with air bronchograms",
+   "note": null,
+   "start": 41,
+   "end": 98
+  },
+  {
+   "id": "F2",
+   "condition": "Emphysematous changes",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Hyperinflated lungs with flattened hemidiaphragms, consistent with emphysematous change",
+   "note": null,
+   "start": 100,
+   "end": 187
+  },
+  {
+   "id": "F3",
+   "condition": "COPD",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "69 y/o M with COPD (no home O2)",
+   "note": null,
+   "start": 28,
+   "end": 59
+  },
+  {
+   "id": "F4",
+   "condition": "Hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "COPD (no home O2), HTN, HLD, GERD",
+   "note": null,
+   "start": 42,
+   "end": 75
+  },
+  {
+   "id": "F5",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "HTN, HLD, GERD, current smoker",
+   "note": null,
+   "start": 61,
+   "end": 91
+  },
+  {
+   "id": "F6",
+   "condition": "GERD",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "HLD, GERD, current smoker 1 ppd",
+   "note": null,
+   "start": 66,
+   "end": 97
+  },
+  {
+   "id": "F7",
+   "condition": "Tobacco use disorder, active smoker",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "current smoker 1 ppd",
+   "note": null,
+   "start": 77,
+   "end": 97
+  },
+  {
+   "id": "F8",
+   "condition": "Productive cough with green sputum",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "3 days productive cough with green sputum",
+   "note": null,
+   "start": 113,
+   "end": 154
+  },
+  {
+   "id": "F9",
+   "condition": "Fever",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "fevers to 38.6",
+   "note": null,
+   "start": 156,
+   "end": 170
+  },
+  {
+   "id": "F10",
+   "condition": "Pleuritic left-sided chest pain",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "pleuritic L-sided chest pain",
+   "note": null,
+   "start": 172,
+   "end": 200
+  },
+  {
+   "id": "F11",
+   "condition": "Increased shortness of breath",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "increased SOB",
+   "note": null,
+   "start": 206,
+   "end": 219
+  },
+  {
+   "id": "F12",
+   "condition": "Elevated WBC",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "WBC 15.4 (88% PMN)",
+   "note": null,
+   "start": 534,
+   "end": 552
+  },
+  {
+   "id": "F13",
+   "condition": "Elevated procalcitonin",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Procalcitonin 1.8",
+   "note": null,
+   "start": 585,
+   "end": 602
+  },
+  {
+   "id": "F14",
+   "condition": "Hyponatremia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Na 136, K 4.2, Cr 1.0, BUN 17",
+   "note": null,
+   "start": 554,
+   "end": 583
+  },
+  {
+   "id": "F15",
+   "condition": "COPD GOLD stage 3",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "COPD GOLD 3 (FEV1 44% predicted, 2025)",
+   "note": null,
+   "start": 31,
+   "end": 69
+  },
+  {
+   "id": "F16",
+   "condition": "Active tobacco use with significant pack-year history",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "active smoker 45 pack-years",
+   "note": null,
+   "start": 71,
+   "end": 98
+  },
+  {
+   "id": "F17",
+   "condition": "Community-acquired pneumonia, left lower lobe, bacterial",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Community-acquired pneumonia, LLL, bacterial",
+   "note": null,
+   "start": 591,
+   "end": 635
+  },
+  {
+   "id": "F18",
+   "condition": "Bronchial breath sounds and crackles",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "LLL crackles, bronchial BS",
+   "note": null,
+   "start": 466,
+   "end": 492
+  },
+  {
+   "id": "F19",
+   "condition": "COPD exacerbation",
+   "assertion": "negated",
+   "doc_id": "d3",
+   "quote": "I do not think this is a COPD exacerbation",
+   "note": null,
+   "start": 810,
+   "end": 852
+  },
+  {
+   "id": "F20",
+   "condition": "Normal respiratory flora in sputum culture",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Sputum cx: normal respiratory flora",
+   "note": null,
+   "start": 221,
+   "end": 256
+  },
+  {
+   "id": "F21",
+   "condition": "Streptococcus pneumoniae and Legionella negative by urine antigen",
+   "assertion": "negated",
+   "doc_id": "d4",
+   "quote": "Strep pneumo and legionella urine Ag negative",
+   "note": null,
+   "start": 174,
+   "end": 219
+  },
+  {
+   "id": "F22",
+   "condition": "Community-acquired pneumonia organism not identified",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "LLL community-acquired pneumonia, organism not identified",
+   "note": null,
+   "start": 266,
+   "end": 323
+  },
+  {
+   "id": "F23",
+   "condition": "Improvement in shortness of breath",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Less SOB, pleuritic pain improved",
+   "note": null,
+   "start": 3,
+   "end": 36
+  },
+  {
+   "id": "F24",
+   "condition": "Declining WBC with treatment",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "WBC 11.0",
+   "note": null,
+   "start": 164,
+   "end": 172
+  },
+  {
+   "id": "F25",
+   "condition": "Afebrile",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Afebrile",
+   "note": null,
+   "start": 351,
+   "end": 359
+  },
+  {
+   "id": "F26",
+   "condition": "Weaned to room air with adequate oxygenation",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Weaned to RA at 22:00 per protocol, SpO2 90-92% at rest",
+   "note": null,
+   "start": 31,
+   "end": 86
+  },
+  {
+   "id": "F27",
+   "condition": "Productive cough with minimal sputum",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Productive cough, small amt yellow sputum",
+   "note": null,
+   "start": 158,
+   "end": 199
+  },
+  {
+   "id": "F28",
+   "condition": "Diminished breath sounds left base",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Lungs diminished L base",
+   "note": null,
+   "start": 201,
+   "end": 224
+  },
+  {
+   "id": "F29",
+   "condition": "Patient engaged in smoking cessation",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "pt asked for cessation pamphlet, provided",
+   "note": null,
+   "start": 308,
+   "end": 349
+  },
+  {
+   "id": "F30",
+   "condition": "Community-acquired pneumonia left lower lobe",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Principal diagnosis: Community-acquired pneumonia, left lower lobe",
+   "note": null,
+   "start": 65,
+   "end": 131
+  },
+  {
+   "id": "F31",
+   "condition": "COPD with acute lower respiratory infection",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "COPD with acute lower respiratory infection (no exacerbation)",
+   "note": null,
+   "start": 154,
+   "end": 215
+  },
+  {
+   "id": "F32",
+   "condition": "Nicotine dependence, cigarettes",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Nicotine dependence, cigarettes",
+   "note": null,
+   "start": 217,
+   "end": 248
+  },
+  {
+   "id": "F33",
+   "condition": "No exacerbation of COPD",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "COPD remained at baseline throughout without steroids",
+   "note": null,
+   "start": 543,
+   "end": 596
+  },
+  {
+   "id": "F34",
+   "condition": "No home oxygen required",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "no home O2 needed",
+   "note": null,
+   "start": 437,
+   "end": 454
+  }
+ ],
+ "codes": [
+  {
+   "code": "J18.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F17",
+    "F22",
+    "F30"
+   ],
+   "confidence": 0.35,
+   "rationale": "The attending documents LLL community-acquired pneumonia as the principal diagnosis, and no organism was identified. This is a bacterial pneumonia with an unspecified organism.",
+   "role": "pdx",
+   "verdict": "unsupported",
+   "critic_reason": "Provider documents 'bacterial' CAP, organism not identified. Bacterial pneumonia unspecified is J15.9, not J18.9, which is for pneumonia unspecified organism. The H&P says 'bacterial' and the chart never retracts it. Code selection should be J15.9 unless a query shows the provider means unspecified pneumonia. Principal diagnosis condition itself is well supported.",
+   "severity": null,
+   "description": "Pneumonia, unspecified organism"
+  },
+  {
+   "code": "J44.0",
+   "poa": "Y",
+   "finding_ids": [
+    "F31",
+    "F15",
+    "F33"
+   ],
+   "confidence": 0.88,
+   "rationale": "The attending documents COPD with acute lower respiratory infection. The 'code also' note for J44.0 means the pneumonia is coded as well. There is no exacerbation, so J44.1 is not assigned.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documents COPD with acute lower respiratory infection consistently in H&P, progress note and discharge summary. Exacerbation is explicitly negated, so J44.1 is correctly not assigned. The code-also note is satisfied by coding the pneumonia.",
+   "severity": "CC",
+   "description": "Chronic obstructive pulmonary disease with (acute) lower respiratory infection"
+  },
+  {
+   "code": "F17.210",
+   "poa": "Y",
+   "finding_ids": [
+    "F32",
+    "F7"
+   ],
+   "confidence": 0.94,
+   "rationale": "The discharge summary documents nicotine dependence to cigarettes.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Attending documents nicotine dependence, cigarettes, on the discharge summary, with the patch and counseling treated. Active smoker, 1 ppd.",
+   "severity": "none",
+   "description": "Nicotine dependence, cigarettes, uncomplicated"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F4"
+   ],
+   "confidence": 0.94,
+   "rationale": "Hypertension is documented, and the patient is treated with amlodipine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypertension is documented by the attending, treated with amlodipine, and listed on the discharge summary.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F5"
+   ],
+   "confidence": 0.93,
+   "rationale": "Hyperlipidemia is documented, and the patient is treated with simvastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is documented by the attending, treated with simvastatin, and listed on the discharge summary.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F6"
+   ],
+   "confidence": 0.93,
+   "rationale": "GERD is documented, and the patient is treated with pantoprazole.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "GERD is documented by the attending, treated with pantoprazole, and listed on the discharge summary.",
+   "severity": "none",
+   "description": "Gastro-esophageal reflux disease without esophagitis"
+  }
+ ],
+ "removed": [],
+ "issues": [
+  {
+   "kind": "other",
+   "summary": "Sequencing of J18.9 versus J44.0 as principal diagnosis depends on circumstances of admission. The attending lists pneumonia as principal, so J18.9 was sequenced first.",
+   "finding_ids": [
+    "F30",
+    "F31"
+   ],
+   "guideline": "OCG Section II / J44 code-also note",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "The patient had SpO2 90% on room air with 2 L oxygen given, and had an increased respiratory rate. No provider documents hypoxia or acute respiratory failure, so a query could be considered. Clinical indicators are weak.",
+   "finding_ids": [
+    "F26"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Emphysema is seen only on imaging and was not coded. The provider documents COPD only.",
+   "finding_ids": [
+    "F2"
+   ],
+   "guideline": "OCG Section III.B",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "conflicting_documentation",
+   "summary": "H&P documents 'bacterial' CAP, while later notes say 'organism not identified'. This affects J15.9 vs J18.9. Confirm with the provider whether bacterial pneumonia is intended, or apply the documented term.",
+   "finding_ids": [
+    "F17",
+    "F22",
+    "F30"
+   ],
+   "guideline": "OCG Section I.C.10 / Index: Pneumonia, bacterial",
+   "blocks_autonomy": true
+  },
+  {
+   "kind": "other",
+   "summary": "Sequencing: with COPD with pneumonia (J44.0 code-also), the pneumonia is the reason for admission and the attending lists it as principal. Pneumonia as PDx is acceptable. Ensure J44.0 is not sequenced first.",
+   "finding_ids": [
+    "F30",
+    "F31"
+   ],
+   "guideline": "OCG Section II / J44 code-also note",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "Clinical indicators of hypoxia: SpO2 90% on RA, 2 L O2 started, ambulatory SpO2 89-90%, RR 22. No provider documents hypoxia or respiratory failure. Indicators are weak (no distress, normal sentences), so a query is optional and should not be leading.",
+   "finding_ids": [
+    "F26"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Finding F14 labels hyponatremia with Na 136, which is normal. Do not code it. Procalcitonin and WBC elevation are integral to pneumonia and are not separately coded.",
+   "finding_ids": [
+    "F14",
+    "F12",
+    "F13"
+   ],
+   "guideline": "OCG Section III.B",
+   "blocks_autonomy": false
+  }
+ ],
+ "queries": [
+  {
+   "issue": "H&P documents 'bacterial' CAP, while later notes say 'organism not identified'. This affects J15.9 vs J18.9. Confirm with the provider whether bacterial pneumonia is intended, or apply the documented term.",
+   "to": "Attending physician",
+   "clinical_indicators": [
+    {
+     "text": "H&P (day 3): \"Community-acquired pneumonia, LLL, bacterial\"",
+     "finding_id": "F17"
+    },
+    {
+     "text": "Progress note (day 4): \"LLL community-acquired pneumonia, organism not identified\"",
+     "finding_id": "F22"
+    },
+    {
+     "text": "Discharge documentation (day 6): \"Principal diagnosis: Community-acquired pneumonia, left lower lobe\" with no etiology specified",
+     "finding_id": "F30"
+    }
+   ],
+   "question": "Based on your clinical judgment and the documentation in this record, please clarify the type or etiology of the left lower lobe community-acquired pneumonia treated during this admission.",
+   "options": [
+    "Bacterial pneumonia, causative organism not identified",
+    "Pneumonia, etiology unspecified (bacterial cause not established)",
+    "Pneumonia due to a specific organism (please specify organism)",
+    "Other (please specify)",
+    "Clinically undetermined"
+   ],
+   "lint": []
+  }
+ ],
+ "drg": {
+  "family": "pneumonia",
+  "number": "194",
+  "title": "Simple pneumonia and pleurisy w CC",
+  "weight": 0.89,
+  "tier": "CC",
+  "drivers": [
+   "J44.0"
+  ]
+ },
+ "confidence": 0.175,
+ "confidence_base": 0.35,
+ "blocking_issues": 1,
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 13527,
+   "input_tokens": 3000,
+   "output_tokens": 2359,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.0148
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 13527,
+   "ms": 11826,
+   "input_tokens": 13583,
+   "output_tokens": 1544,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.04261
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 25353,
+   "ms": 9775,
+   "input_tokens": 6298,
+   "output_tokens": 1183,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.02443
+  },
+  {
+   "stage": "query",
+   "model": "claude-sonnet-5-5",
+   "started": 35129,
+   "ms": 2979,
+   "input_tokens": 948,
+   "output_tokens": 331,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.00521
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "Radiology",
+     "author_role": "radiology",
+     "timestamp": "2026-09-15T13:02",
+     "words": 39,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-15T13:25",
+     "words": 140,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-15T17:00",
+     "words": 187,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-16T09:50",
+     "words": 92,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-17T03:20",
+     "words": 58,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-18T10:40",
+     "words": 112,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 13527,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Left lower lobe pneumonia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Dense consolidation left lower lobe with air bronchograms",
+     "note": null,
+     "start": 41,
+     "end": 98
+    },
+    {
+     "id": "F2",
+     "condition": "Emphysematous changes",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Hyperinflated lungs with flattened hemidiaphragms, consistent with emphysematous change",
+     "note": null,
+     "start": 100,
+     "end": 187
+    },
+    {
+     "id": "F3",
+     "condition": "COPD",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "69 y/o M with COPD (no home O2)",
+     "note": null,
+     "start": 28,
+     "end": 59
+    },
+    {
+     "id": "F4",
+     "condition": "Hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "COPD (no home O2), HTN, HLD, GERD",
+     "note": null,
+     "start": 42,
+     "end": 75
+    },
+    {
+     "id": "F5",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "HTN, HLD, GERD, current smoker",
+     "note": null,
+     "start": 61,
+     "end": 91
+    },
+    {
+     "id": "F6",
+     "condition": "GERD",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "HLD, GERD, current smoker 1 ppd",
+     "note": null,
+     "start": 66,
+     "end": 97
+    },
+    {
+     "id": "F7",
+     "condition": "Tobacco use disorder, active smoker",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "current smoker 1 ppd",
+     "note": null,
+     "start": 77,
+     "end": 97
+    },
+    {
+     "id": "F8",
+     "condition": "Productive cough with green sputum",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "3 days productive cough with green sputum",
+     "note": null,
+     "start": 113,
+     "end": 154
+    },
+    {
+     "id": "F9",
+     "condition": "Fever",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "fevers to 38.6",
+     "note": null,
+     "start": 156,
+     "end": 170
+    },
+    {
+     "id": "F10",
+     "condition": "Pleuritic left-sided chest pain",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "pleuritic L-sided chest pain",
+     "note": null,
+     "start": 172,
+     "end": 200
+    },
+    {
+     "id": "F11",
+     "condition": "Increased shortness of breath",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "increased SOB",
+     "note": null,
+     "start": 206,
+     "end": 219
+    },
+    {
+     "id": "F12",
+     "condition": "Elevated WBC",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "WBC 15.4 (88% PMN)",
+     "note": null,
+     "start": 534,
+     "end": 552
+    },
+    {
+     "id": "F13",
+     "condition": "Elevated procalcitonin",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Procalcitonin 1.8",
+     "note": null,
+     "start": 585,
+     "end": 602
+    },
+    {
+     "id": "F14",
+     "condition": "Hyponatremia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Na 136, K 4.2, Cr 1.0, BUN 17",
+     "note": null,
+     "start": 554,
+     "end": 583
+    },
+    {
+     "id": "F15",
+     "condition": "COPD GOLD stage 3",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "COPD GOLD 3 (FEV1 44% predicted, 2025)",
+     "note": null,
+     "start": 31,
+     "end": 69
+    },
+    {
+     "id": "F16",
+     "condition": "Active tobacco use with significant pack-year history",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "active smoker 45 pack-years",
+     "note": null,
+     "start": 71,
+     "end": 98
+    },
+    {
+     "id": "F17",
+     "condition": "Community-acquired pneumonia, left lower lobe, bacterial",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Community-acquired pneumonia, LLL, bacterial",
+     "note": null,
+     "start": 591,
+     "end": 635
+    },
+    {
+     "id": "F18",
+     "condition": "Bronchial breath sounds and crackles",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "LLL crackles, bronchial BS",
+     "note": null,
+     "start": 466,
+     "end": 492
+    },
+    {
+     "id": "F19",
+     "condition": "COPD exacerbation",
+     "assertion": "negated",
+     "doc_id": "d3",
+     "quote": "I do not think this is a COPD exacerbation",
+     "note": null,
+     "start": 810,
+     "end": 852
+    },
+    {
+     "id": "F20",
+     "condition": "Normal respiratory flora in sputum culture",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Sputum cx: normal respiratory flora",
+     "note": null,
+     "start": 221,
+     "end": 256
+    },
+    {
+     "id": "F21",
+     "condition": "Streptococcus pneumoniae and Legionella negative by urine antigen",
+     "assertion": "negated",
+     "doc_id": "d4",
+     "quote": "Strep pneumo and legionella urine Ag negative",
+     "note": null,
+     "start": 174,
+     "end": 219
+    },
+    {
+     "id": "F22",
+     "condition": "Community-acquired pneumonia organism not identified",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "LLL community-acquired pneumonia, organism not identified",
+     "note": null,
+     "start": 266,
+     "end": 323
+    },
+    {
+     "id": "F23",
+     "condition": "Improvement in shortness of breath",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Less SOB, pleuritic pain improved",
+     "note": null,
+     "start": 3,
+     "end": 36
+    },
+    {
+     "id": "F24",
+     "condition": "Declining WBC with treatment",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "WBC 11.0",
+     "note": null,
+     "start": 164,
+     "end": 172
+    },
+    {
+     "id": "F25",
+     "condition": "Afebrile",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Afebrile",
+     "note": null,
+     "start": 351,
+     "end": 359
+    },
+    {
+     "id": "F26",
+     "condition": "Weaned to room air with adequate oxygenation",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Weaned to RA at 22:00 per protocol, SpO2 90-92% at rest",
+     "note": null,
+     "start": 31,
+     "end": 86
+    },
+    {
+     "id": "F27",
+     "condition": "Productive cough with minimal sputum",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Productive cough, small amt yellow sputum",
+     "note": null,
+     "start": 158,
+     "end": 199
+    },
+    {
+     "id": "F28",
+     "condition": "Diminished breath sounds left base",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Lungs diminished L base",
+     "note": null,
+     "start": 201,
+     "end": 224
+    },
+    {
+     "id": "F29",
+     "condition": "Patient engaged in smoking cessation",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "pt asked for cessation pamphlet, provided",
+     "note": null,
+     "start": 308,
+     "end": 349
+    },
+    {
+     "id": "F30",
+     "condition": "Community-acquired pneumonia left lower lobe",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Principal diagnosis: Community-acquired pneumonia, left lower lobe",
+     "note": null,
+     "start": 65,
+     "end": 131
+    },
+    {
+     "id": "F31",
+     "condition": "COPD with acute lower respiratory infection",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "COPD with acute lower respiratory infection (no exacerbation)",
+     "note": null,
+     "start": 154,
+     "end": 215
+    },
+    {
+     "id": "F32",
+     "condition": "Nicotine dependence, cigarettes",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Nicotine dependence, cigarettes",
+     "note": null,
+     "start": 217,
+     "end": 248
+    },
+    {
+     "id": "F33",
+     "condition": "No exacerbation of COPD",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "COPD remained at baseline throughout without steroids",
+     "note": null,
+     "start": 543,
+     "end": 596
+    },
+    {
+     "id": "F34",
+     "condition": "No home oxygen required",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "no home O2 needed",
+     "note": null,
+     "start": 437,
+     "end": 454
+    }
+   ]
+  },
+  {
+   "t": 13527,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "I'm working through the coding here: since lobar pneumonia isn't explicitly documented, left lower lobe pneumonia indexes to J18.9 rather than J18.1, with J44.0 as the principal diagnosis for COPD with acute lower respiratory infection, noting the guideline that J44.0 requires an additional code to identify the specific infection.\n\n"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "J18.9"
+   },
+   "id": "toolu_01XvCV7NvKThTNNwJQ6n95MS"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "J44.0"
+   },
+   "id": "toolu_011tPb53eMo6iWsDaK9NWJ4a"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "F17.210"
+   },
+   "id": "toolu_01ETMrQvmMKHNmK6xiVDjUXp"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I10"
+   },
+   "id": "toolu_01VUDE9iysN4yoVTm19CSura"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_019vLM3eZ6hDaMH7qbiQTTaD"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "K21.9"
+   },
+   "id": "toolu_019vc7VenqBUc5426TqvNFAY"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01XvCV7NvKThTNNwJQ6n95MS",
+   "result": "J18.9: Pneumonia, unspecified organism (billable)"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_011tPb53eMo6iWsDaK9NWJ4a",
+   "result": "J44.0: Chronic obstructive pulmonary disease with (acute) lower respiratory infection (billable)"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01ETMrQvmMKHNmK6xiVDjUXp",
+   "result": "F17.210: Nicotine dependence, cigarettes, uncomplicated (billable)"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01VUDE9iysN4yoVTm19CSura",
+   "result": "I10: Essential (primary) hypertension (billable)"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_019vLM3eZ6hDaMH7qbiQTTaD",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_019vc7VenqBUc5426TqvNFAY",
+   "result": "K21.9: Gastro-esophageal reflux disease without esophagitis (billable)"
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"J18.9\",\"poa\":\"Y\",\"finding_ids\":[\"F17\",\"F22\",\"F30\"],\"confidence\":0.8,\"rationale\":\"The attending documents LLL community-acquired pneumonia as the principal diagnosis, and no organism was identified. This is a bacterial pneumonia with an unspecified organism.\"},\"secondary\":[{\"code\":\"J44.0\",\"poa\":\"Y\",\"finding_ids\":[\"F31\",\"F15\",\"F33\"],\"confidence\":0.9,\"rationale\":\"The attending documents COPD with acute lower respiratory infection. The 'code also' note for J44.0 means the pneumonia is coded as well. There is no exacerbation, so J44.1 is not assigned.\"},{\"code\":\"F17.210\",\"poa\":\"Y\",\""
+  },
+  {
+   "t": 25353,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "J18.9",
+     "poa": "Y",
+     "finding_ids": [
+      "F17",
+      "F22",
+      "F30"
+     ],
+     "confidence": 0.8,
+     "rationale": "The attending documents LLL community-acquired pneumonia as the principal diagnosis, and no organism was identified. This is a bacterial pneumonia with an unspecified organism."
+    },
+    "secondary": [
+     {
+      "code": "J44.0",
+      "poa": "Y",
+      "finding_ids": [
+       "F31",
+       "F15",
+       "F33"
+      ],
+      "confidence": 0.9,
+      "rationale": "The attending documents COPD with acute lower respiratory infection. The 'code also' note for J44.0 means the pneumonia is coded as well. There is no exacerbation, so J44.1 is not assigned."
+     },
+     {
+      "code": "F17.210",
+      "poa": "Y",
+      "finding_ids": [
+       "F32",
+       "F7"
+      ],
+      "confidence": 0.93,
+      "rationale": "The discharge summary documents nicotine dependence to cigarettes."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F4"
+      ],
+      "confidence": 0.93,
+      "rationale": "Hypertension is documented, and the patient is treated with amlodipine."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F5"
+      ],
+      "confidence": 0.92,
+      "rationale": "Hyperlipidemia is documented, and the patient is treated with simvastatin."
+     },
+     {
+      "code": "K21.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F6"
+      ],
+      "confidence": 0.92,
+      "rationale": "GERD is documented, and the patient is treated with pantoprazole."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "other",
+      "summary": "Sequencing of J18.9 versus J44.0 as principal diagnosis depends on circumstances of admission. The attending lists pneumonia as principal, so J18.9 was sequenced first.",
+      "finding_ids": [
+       "F30",
+       "F31"
+      ],
+      "guideline": "OCG Section II / J44 code-also note",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "query_opportunity",
+      "summary": "The patient had SpO2 90% on room air with 2 L oxygen given, and had an increased respiratory rate. No provider documents hypoxia or acute respiratory failure, so a query could be considered. Clinical indicators are weak.",
+      "finding_ids": [
+       "F26"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "Emphysema is seen only on imaging and was not coded. The provider documents COPD only.",
+      "finding_ids": [
+       "F2"
+      ],
+      "guideline": "OCG Section III.B",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 25353,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 35128,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"J18.9\",\"verdict\":\"unsupported\",\"confidence\":0.35,\"reason\":\"Provider documents 'bacterial' CAP, organism not identified. Bacterial pneumonia unspecified is J15.9, not J18.9, which is for pneumonia unspecified organism. The H&P says 'bacterial' and the chart never retracts it. Code selection should be J15.9 unless a query shows the provider means unspecified pneumonia. Principal diagnosis condition itself is well supported.\"},{\"code\":\"J44.0\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"Provider documents COPD with acute lower respiratory infection consistently in H&P, p"
+  },
+  {
+   "t": 35128,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "J18.9",
+      "verdict": "unsupported",
+      "confidence": 0.35,
+      "reason": "Provider documents 'bacterial' CAP, organism not identified. Bacterial pneumonia unspecified is J15.9, not J18.9, which is for pneumonia unspecified organism. The H&P says 'bacterial' and the chart never retracts it. Code selection should be J15.9 unless a query shows the provider means unspecified pneumonia. Principal diagnosis condition itself is well supported."
+     },
+     {
+      "code": "J44.0",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "Provider documents COPD with acute lower respiratory infection consistently in H&P, progress note and discharge summary. Exacerbation is explicitly negated, so J44.1 is correctly not assigned. The code-also note is satisfied by coding the pneumonia."
+     },
+     {
+      "code": "F17.210",
+      "verdict": "supported",
+      "confidence": 0.94,
+      "reason": "Attending documents nicotine dependence, cigarettes, on the discharge summary, with the patch and counseling treated. Active smoker, 1 ppd."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.94,
+      "reason": "Hypertension is documented by the attending, treated with amlodipine, and listed on the discharge summary."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.93,
+      "reason": "Hyperlipidemia is documented by the attending, treated with simvastatin, and listed on the discharge summary."
+     },
+     {
+      "code": "K21.9",
+      "verdict": "supported",
+      "confidence": 0.93,
+      "reason": "GERD is documented by the attending, treated with pantoprazole, and listed on the discharge summary."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": [
+     {
+      "kind": "conflicting_documentation",
+      "summary": "H&P documents 'bacterial' CAP, while later notes say 'organism not identified'. This affects J15.9 vs J18.9. Confirm with the provider whether bacterial pneumonia is intended, or apply the documented term.",
+      "finding_ids": [
+       "F17",
+       "F22",
+       "F30"
+      ],
+      "guideline": "OCG Section I.C.10 / Index: Pneumonia, bacterial",
+      "blocks_autonomy": true
+     },
+     {
+      "kind": "other",
+      "summary": "Sequencing: with COPD with pneumonia (J44.0 code-also), the pneumonia is the reason for admission and the attending lists it as principal. Pneumonia as PDx is acceptable. Ensure J44.0 is not sequenced first.",
+      "finding_ids": [
+       "F30",
+       "F31"
+      ],
+      "guideline": "OCG Section II / J44 code-also note",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "query_opportunity",
+      "summary": "Clinical indicators of hypoxia: SpO2 90% on RA, 2 L O2 started, ambulatory SpO2 89-90%, RR 22. No provider documents hypoxia or respiratory failure. Indicators are weak (no distress, normal sentences), so a query is optional and should not be leading.",
+      "finding_ids": [
+       "F26"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "Finding F14 labels hyponatremia with Na 136, which is normal. Do not code it. Procalcitonin and WBC elevation are integral to pneumonia and are not separately coded.",
+      "finding_ids": [
+       "F14",
+       "F12",
+       "F13"
+      ],
+      "guideline": "OCG Section III.B",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 35129,
+   "stage": "grouper",
+   "type": "output",
+   "family": "pneumonia",
+   "drg": "194",
+   "title": "Simple pneumonia and pleurisy w CC",
+   "weight": 0.89,
+   "tier": "CC",
+   "drivers": [
+    "J44.0"
+   ]
+  },
+  {
+   "t": 35129,
+   "stage": "router",
+   "type": "output",
+   "base": 0.35,
+   "blocking": 1,
+   "confidence": 0.175
+  },
+  {
+   "t": 35129,
+   "stage": "query",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5",
+   "issue": "H&P documents 'bacterial' CAP, while later notes say 'organism not identified'. This affects J15.9 vs J18.9. Confirm with the provider whether bacterial pneumonia is intended, or apply the documented term."
+  },
+  {
+   "t": 38108,
+   "stage": "query",
+   "type": "text",
+   "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"H&P (day 3): \\\"Community-acquired pneumonia, LLL, bacterial\\\"\",\"finding_id\":\"F17\"},{\"text\":\"Progress note (day 4): \\\"LLL community-acquired pneumonia, organism not identified\\\"\",\"finding_id\":\"F22\"},{\"text\":\"Discharge documentation (day 6): \\\"Principal diagnosis: Community-acquired pneumonia, left lower lobe\\\" with no etiology specified\",\"finding_id\":\"F30\"}],\"question\":\"Based on your clinical judgment and the documentation in this record, please clarify the type or etiology of the left lower lobe community-acquired pneumonia treated du"
+  },
+  {
+   "t": 38109,
+   "stage": "query",
+   "type": "output",
+   "query": {
+    "issue": "H&P documents 'bacterial' CAP, while later notes say 'organism not identified'. This affects J15.9 vs J18.9. Confirm with the provider whether bacterial pneumonia is intended, or apply the documented term.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "H&P (day 3): \"Community-acquired pneumonia, LLL, bacterial\"",
+      "finding_id": "F17"
+     },
+     {
+      "text": "Progress note (day 4): \"LLL community-acquired pneumonia, organism not identified\"",
+      "finding_id": "F22"
+     },
+     {
+      "text": "Discharge documentation (day 6): \"Principal diagnosis: Community-acquired pneumonia, left lower lobe\" with no etiology specified",
+      "finding_id": "F30"
+     }
+    ],
+    "question": "Based on your clinical judgment and the documentation in this record, please clarify the type or etiology of the left lower lobe community-acquired pneumonia treated during this admission.",
+    "options": [
+     "Bacterial pneumonia, causative organism not identified",
+     "Pneumonia, etiology unspecified (bacterial cause not established)",
+     "Pneumonia due to a specific organism (please specify organism)",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  }
+ ],
+ "ms": 38109,
+ "cost_usd": 0.08705
+}

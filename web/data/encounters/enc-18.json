@@ -1,0 +1,1979 @@
+{
+ "case": {
+  "id": "enc-18",
+  "title": "AKI vs. baseline CKD, consultant disagrees",
+  "summary": "The hospitalist calls it acute kidney injury, but the kidney specialist says the creatinine is just the patient's usual level, so the attending must be asked to resolve the conflict.",
+  "hero": false,
+  "family": "aki",
+  "patient": {
+   "age": 68,
+   "sex": "M"
+  },
+  "admit_date": "2026-09-08",
+  "discharge_date": "2026-09-11",
+  "documents": [
+   {
+    "id": "d1",
+    "type": "ED note",
+    "author": "J. Whitcomb, MD (Emergency Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-08T15:02",
+    "text": "CC: nausea, poor PO intake, lightheaded.\nHPI: 68 y/o M with T2DM on insulin, HTN, CKD, HLD, OSA presents with 3 days of nausea and decreased PO intake after a \"stomach bug\" at home (grandchildren sick). 2 episodes of emesis day 1, none since. No diarrhea x 24 h. Lightheaded on standing this AM. Continued lisinopril and HCTZ at home.\nVitals: T 36.8, HR 98, BP 112/66 (orthostatic drop to 96/60 standing), RR 16, SpO2 97% RA.\nExam: Dry mucous membranes. Abd soft, mild diffuse tenderness, no rebound. Lungs clear.\nLabs: Na 137, K 4.6, Cl 101, HCO3 23, BUN 34, Cr 1.5, glucose 211. WBC 8.1. Lipase nl. UA: SG 1.025, trace protein, no blood.\nED course: 1 L NS bolus, ondansetron 4 mg IV.\nImpression: Dehydration, nausea, elevated Cr. Admit to hospitalist."
+   },
+   {
+    "id": "d2",
+    "type": "H&P",
+    "author": "A. Lindqvist, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-08T18:30",
+    "text": "HISTORY AND PHYSICAL\nHPI: 68M with T2DM (insulin), HTN, CKD 3a, HLD, OSA on CPAP, presenting with 3 days nausea/poor PO intake after viral GI illness, now lightheaded with orthostasis. Cr 1.5 today; last value I can find in our system is 1.1 (06/2022).\nPMH: T2DM with diabetic nephropathy, HTN, CKD 3a, HLD, OSA.\nMeds: insulin glargine 24 u qHS, lispro SSI, lisinopril 20 mg daily, HCTZ 25 mg daily, atorvastatin 40 mg, CPAP nightly.\nExam: Tired-appearing, A&Ox3. Dry MM. RRR. Lungs CTAB. Abd soft. No edema.\nASSESSMENT/PLAN:\n1. AKI on CKD 3a - Cr 1.5 from 1.1 (2022), likely prerenal from volume depletion + ACEi/thiazide. Hold lisinopril and HCTZ. IVF NS 100 mL/h. Strict I/O. Renal US if not improving. Nephrology consult for AKI on CKD.\n2. Dehydration due to viral gastroenteritis, resolving - IVF, antiemetics PRN, advance diet.\n3. T2DM with diabetic CKD, on insulin - reduce glargine to 16 u while PO poor, SSI.\n4. HTN - holding antihypertensives as above; BP soft.\n5. HLD - atorvastatin.\n6. OSA - CPAP qHS.\nDVT ppx: heparin SQ. Full code."
+   },
+   {
+    "id": "d3",
+    "type": "Consult",
+    "author": "P. Raghunathan, MD (Nephrology)",
+    "author_role": "consultant",
+    "timestamp": "2026-09-09T11:15",
+    "text": "NEPHROLOGY CONSULTATION\nReason: \"AKI on CKD 3a.\"\nHPI: As per H&P. Reviewed outside records from his nephrologist (Dr. Ferreira, Valley Kidney Associates): creatinine 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026); eGFR 46-54. Followed for CKD 3a due to diabetic nephropathy with contribution from hypertension. UACR 180 mg/g (05/2026).\nToday: Cr 1.5 -> 1.5 (AM). UOP 1.6 L/24 h. UA bland, no casts.\nExam: Euvolemic after IVF. No edema. No rub.\nASSESSMENT:\n1. No AKI. Creatinine 1.5 is at his established baseline of 1.4-1.6; the 2022 value of 1.1 predates his CKD progression and is not an appropriate comparator. KDIGO criteria for AKI not met.\n2. CKD stage 3a due to diabetic nephropathy and HTN, stable.\n3. Mild volume depletion from GI losses, corrected.\nRECOMMENDATIONS:\n- Stop IVF today, encourage PO.\n- Resume lisinopril at discharge once taking PO well; would hold HCTZ until seen in clinic.\n- No renal imaging needed.\n- Follow up with Dr. Ferreira in 4-6 weeks. We will sign off; call with questions."
+   },
+   {
+    "id": "d4",
+    "type": "Lab summary",
+    "author": "Clinical Laboratory",
+    "author_role": "lab",
+    "timestamp": "2026-09-10T06:20",
+    "text": "Creatinine trend: 09/08 15:00 1.5; 09/09 05:30 1.5; 09/10 05:40 1.4.\nBUN: 34 -> 25 -> 19. K 4.6 -> 4.3 -> 4.2. HCO3 23 -> 24 -> 25.\nGlucose (fingerstick) range 132-244.\nOutside results scanned to chart 09/09: Cr 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026)."
+   },
+   {
+    "id": "d5",
+    "type": "Progress note",
+    "author": "A. Lindqvist, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-10T09:40",
+    "text": "S: Nausea resolved, tolerating regular diet. No lightheadedness walking in hall.\nO: T 36.7, HR 76, BP 134/80, orthostatics negative. Cr 1.4, BUN 19.\nA/P:\n1. AKI on CKD 3a - Cr 1.5 -> 1.4, improving with hydration. Nephrology input appreciated. IVF stopped.\n2. Dehydration due to viral gastroenteritis - resolved.\n3. T2DM with diabetic CKD on insulin - BG 130-240s, resume home glargine 24 u tonight.\n4. HTN - BP up; resume lisinopril tomorrow AM, continue holding HCTZ.\n5. HLD, OSA - stable.\nPlan d/c home tomorrow."
+   },
+   {
+    "id": "d6",
+    "type": "Discharge summary",
+    "author": "A. Lindqvist, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-11T10:50",
+    "text": "DISCHARGE SUMMARY\nAdmit 09/08/2026 - Discharge 09/11/2026. Home, self-care.\nPrincipal diagnosis: Acute kidney injury on CKD stage 3a, prerenal, resolved.\nSecondary diagnoses: Dehydration due to viral gastroenteritis. Type 2 diabetes mellitus with diabetic CKD, on insulin. Hypertension. Hyperlipidemia. Obstructive sleep apnea.\nHospital course: Admitted with 3 days of nausea/poor PO intake and orthostasis, Cr 1.5. Treated as prerenal AKI on CKD 3a with IVF and holding ACEi/thiazide. Cr 1.4 at discharge. Seen by nephrology. Tolerating diet.\nDischarge meds: resume lisinopril 20 mg daily; HOLD HCTZ until nephrology follow-up; insulin glargine 24 u qHS; atorvastatin 40 mg.\nFollow-up: PCP 1 week with BMP; Dr. Ferreira (nephrology) 4-6 weeks."
+   }
+  ],
+  "gold": {
+   "pdx": "N17.9",
+   "secondary": [
+    {
+     "code": "E86.0",
+     "poa": "Y"
+    },
+    {
+     "code": "A08.4",
+     "poa": "Y"
+    },
+    {
+     "code": "E11.22",
+     "poa": "Y"
+    },
+    {
+     "code": "I12.9",
+     "poa": "Y"
+    },
+    {
+     "code": "N18.31",
+     "poa": "Y"
+    },
+    {
+     "code": "Z79.4",
+     "poa": "Y"
+    },
+    {
+     "code": "E78.5",
+     "poa": "Y"
+    },
+    {
+     "code": "G47.33",
+     "poa": "Y"
+    }
+   ],
+   "drg": "684",
+   "route": "coder",
+   "hold_reasons": [
+    "Conflicting documentation: the attending documents 'AKI on CKD 3a' (H&P, HD3 progress note, discharge summary), but the nephrology consult states 'No AKI', with creatinine 1.5 at the established baseline of 1.4-1.6 and KDIGO criteria not met. The attending never addresses the consultant's finding. When attending and consultant conflict, the attending must be queried before final coding (OCG I.A.19; Coding Clinic guidance that attending-consultant conflicts go to the attending)."
+   ],
+   "query": {
+    "topic": "Acute kidney injury vs. CKD at baseline. The H&P and discharge summary document 'AKI on CKD 3a' (admission creatinine 1.5 compared with 1.1 in 06/2022). The nephrology consult on 09/09 documents 'No AKI' with creatinine at the established baseline of 1.4-1.6 (outside values 1.4 in 03/2025, 1.6 in 11/2025, 1.5 in 05/2026). Inpatient creatinine 1.5, 1.5, then 1.4; urine output 1.6 L/24 h. Based on your clinical judgment, please clarify the renal diagnosis for this admission.",
+    "options": [
+     "Acute kidney injury on chronic kidney disease stage 3a",
+     "Chronic kidney disease stage 3a at baseline, without acute kidney injury",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ]
+   },
+   "traps": [
+    "conflicting_notes"
+   ],
+   "explanation": "The attending carries 'AKI on CKD 3a' all the way to discharge, using a 2022 creatinine as the comparator. The nephrologist reviewed outside records and says creatinine 1.5 is this patient's baseline, so there is no AKI. Provisionally the key follows the attending (N17.9 PDx with dehydration, viral gastroenteritis, E11.22, I12.9, N18.31). Because attending and consultant conflict, the account must be held and the attending queried. A naive system codes AKI without noticing the consult; an overcorrecting one drops AKI on the consultant's word alone, which a coder can't do without the attending."
+  }
+ },
+ "run": {
+  "case_id": "enc-18",
+  "prompt_version": "2026-10-02.4-router-v2",
+  "models": {
+   "fast": "anthropic:claude-haiku-4-5",
+   "reason": "anthropic:claude-sonnet-5-5"
+  },
+  "findings": [
+   {
+    "id": "F1",
+    "condition": "Type 2 diabetes mellitus",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "68 y/o M with T2DM on insulin",
+    "note": null,
+    "start": 46,
+    "end": 75
+   },
+   {
+    "id": "F2",
+    "condition": "Hypertension",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "T2DM on insulin, HTN, CKD, HLD",
+    "note": null,
+    "start": 60,
+    "end": 90
+   },
+   {
+    "id": "F3",
+    "condition": "Chronic kidney disease stage 3a",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "CKD 3a, HLD, OSA on CPAP",
+    "note": null,
+    "start": 56,
+    "end": 80
+   },
+   {
+    "id": "F4",
+    "condition": "Diabetic nephropathy",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "T2DM with diabetic nephropathy, HTN",
+    "note": null,
+    "start": 258,
+    "end": 293
+   },
+   {
+    "id": "F5",
+    "condition": "Hyperlipidemia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "HTN, CKD, HLD, OSA presents",
+    "note": null,
+    "start": 77,
+    "end": 104
+   },
+   {
+    "id": "F6",
+    "condition": "Obstructive sleep apnea",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "HLD, OSA on CPAP, presenting",
+    "note": null,
+    "start": 64,
+    "end": 92
+   },
+   {
+    "id": "F7",
+    "condition": "Nausea",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "CC: nausea, poor PO intake, lightheaded",
+    "note": null,
+    "start": 0,
+    "end": 39
+   },
+   {
+    "id": "F8",
+    "condition": "Viral gastroenteritis",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "3 days nausea/poor PO intake after viral GI illness",
+    "note": null,
+    "start": 98,
+    "end": 149
+   },
+   {
+    "id": "F9",
+    "condition": "Orthostatic hypotension",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "orthostatic drop to 96/60 standing",
+    "note": null,
+    "start": 369,
+    "end": 403
+   },
+   {
+    "id": "F10",
+    "condition": "Dehydration",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Impression: Dehydration, nausea, elevated Cr",
+    "note": null,
+    "start": 686,
+    "end": 730
+   },
+   {
+    "id": "F11",
+    "condition": "Acute kidney injury",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "1. AKI on CKD 3a - Cr 1.5 from 1.1",
+    "note": null,
+    "start": 526,
+    "end": 560
+   },
+   {
+    "id": "F12",
+    "condition": "Acute kidney injury, prerenal, resolved",
+    "assertion": "resolved",
+    "doc_id": "d6",
+    "quote": "Principal diagnosis: Acute kidney injury on CKD stage 3a, prerenal, resolved",
+    "note": null,
+    "start": 76,
+    "end": 152
+   },
+   {
+    "id": "F13",
+    "condition": "Creatinine elevation (baseline established)",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "creatinine 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026)",
+    "note": null,
+    "start": 155,
+    "end": 209
+   },
+   {
+    "id": "F14",
+    "condition": "No acute kidney injury (nephrology reassessment)",
+    "assertion": "negated",
+    "doc_id": "d3",
+    "quote": "No AKI. Creatinine 1.5 is at his established baseline",
+    "note": null,
+    "start": 456,
+    "end": 509
+   },
+   {
+    "id": "F15",
+    "condition": "Dry mucous membranes",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Exam: Dry mucous membranes",
+    "note": null,
+    "start": 426,
+    "end": 452
+   },
+   {
+    "id": "F16",
+    "condition": "Abdominal tenderness, mild diffuse",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Abd soft, mild diffuse tenderness, no rebound",
+    "note": null,
+    "start": 454,
+    "end": 499
+   },
+   {
+    "id": "F17",
+    "condition": "Sodium 137 mEq/L",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Labs: Na 137, K 4.6, Cl 101",
+    "note": null,
+    "start": 514,
+    "end": 541
+   },
+   {
+    "id": "F18",
+    "condition": "Potassium 4.6 mEq/L",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "K 4.6, Cl 101, HCO3 23",
+    "note": null,
+    "start": 528,
+    "end": 550
+   },
+   {
+    "id": "F19",
+    "condition": "BUN 34 mg/dL",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "BUN 34, Cr 1.5, glucose 211",
+    "note": null,
+    "start": 552,
+    "end": 579
+   },
+   {
+    "id": "F20",
+    "condition": "Creatinine 1.5 mg/dL",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "BUN 34, Cr 1.5, glucose 211",
+    "note": null,
+    "start": 552,
+    "end": 579
+   },
+   {
+    "id": "F21",
+    "condition": "Glucose 211 mg/dL",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "BUN 34, Cr 1.5, glucose 211",
+    "note": null,
+    "start": 552,
+    "end": 579
+   },
+   {
+    "id": "F22",
+    "condition": "Urine specific gravity elevated at 1.025",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "UA: SG 1.025, trace protein, no blood",
+    "note": null,
+    "start": 601,
+    "end": 638
+   },
+   {
+    "id": "F23",
+    "condition": "Trace urine protein",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "UA: SG 1.025, trace protein, no blood",
+    "note": null,
+    "start": 601,
+    "end": 638
+   },
+   {
+    "id": "F24",
+    "condition": "Microalbuminuria or albuminuria (UACR 180 mg/g)",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "UACR 180 mg/g (05/2026)",
+    "note": null,
+    "start": 308,
+    "end": 331
+   },
+   {
+    "id": "F25",
+    "condition": "Reduced urine output 1.6 L/24 h",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "Today: Cr 1.5 -> 1.5 (AM). UOP 1.6 L/24 h",
+    "note": null,
+    "start": 333,
+    "end": 374
+   },
+   {
+    "id": "F26",
+    "condition": "Creatinine improved from 1.5 to 1.4",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "Creatinine trend: 09/08 15:00 1.5; 09/09 05:30 1.5; 09/10 05:40 1.4",
+    "note": null,
+    "start": 0,
+    "end": 67
+   },
+   {
+    "id": "F27",
+    "condition": "BUN trending downward 34 to 19",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "BUN: 34 -> 25 -> 19",
+    "note": null,
+    "start": 69,
+    "end": 88
+   },
+   {
+    "id": "F28",
+    "condition": "Potassium trending downward 4.6 to 4.2",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "K 4.6 -> 4.3 -> 4.2",
+    "note": null,
+    "start": 90,
+    "end": 109
+   },
+   {
+    "id": "F29",
+    "condition": "HCO3 normalized from 23 to 25",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "HCO3 23 -> 24 -> 25",
+    "note": null,
+    "start": 111,
+    "end": 130
+   },
+   {
+    "id": "F30",
+    "condition": "Fingerstick glucose range 132-244",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "Glucose (fingerstick) range 132-244",
+    "note": null,
+    "start": 132,
+    "end": 167
+   },
+   {
+    "id": "F31",
+    "condition": "Emesis 2 episodes on day 1",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "2 episodes of emesis day 1, none since",
+    "note": null,
+    "start": 203,
+    "end": 241
+   },
+   {
+    "id": "F32",
+    "condition": "No diarrhea for 24 hours",
+    "assertion": "negated",
+    "doc_id": "d1",
+    "quote": "No diarrhea x 24 h",
+    "note": null,
+    "start": 243,
+    "end": 261
+   },
+   {
+    "id": "F33",
+    "condition": "Lightheadedness on standing",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Lightheaded on standing this AM",
+    "note": null,
+    "start": 263,
+    "end": 294
+   },
+   {
+    "id": "F34",
+    "condition": "Nausea resolved",
+    "assertion": "resolved",
+    "doc_id": "d5",
+    "quote": "S: Nausea resolved, tolerating regular diet",
+    "note": null,
+    "start": 0,
+    "end": 43
+   },
+   {
+    "id": "F35",
+    "condition": "Dehydration resolved",
+    "assertion": "resolved",
+    "doc_id": "d5",
+    "quote": "2. Dehydration due to viral gastroenteritis - resolved",
+    "note": null,
+    "start": 257,
+    "end": 311
+   },
+   {
+    "id": "F36",
+    "condition": "Negative orthostatic vital signs",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "orthostatics negative",
+    "note": null,
+    "start": 110,
+    "end": 131
+   },
+   {
+    "id": "F37",
+    "condition": "Insulin-dependent diabetes management",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "insulin glargine 24 u qHS, lispro SSI",
+    "note": null,
+    "start": 319,
+    "end": 356
+   },
+   {
+    "id": "F38",
+    "condition": "On ACE inhibitor (lisinopril 20 mg daily)",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "lisinopril 20 mg daily, HCTZ 25 mg daily",
+    "note": null,
+    "start": 358,
+    "end": 398
+   },
+   {
+    "id": "F39",
+    "condition": "On thiazide diuretic (HCTZ 25 mg daily)",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "lisinopril 20 mg daily, HCTZ 25 mg daily",
+    "note": null,
+    "start": 358,
+    "end": 398
+   }
+  ],
+  "codes": [
+   {
+    "code": "E86.0",
+    "poa": "Y",
+    "finding_ids": [
+     "F10",
+     "F35",
+     "F15",
+     "F9"
+    ],
+    "confidence": 0.45,
+    "rationale": "The attending and nephrology disagree on AKI, so I coded the consistently documented dehydration, which was treated with IV fluids, as principal (OCG Section II, conflicting documentation).",
+    "role": "pdx",
+    "verdict": "needs_query",
+    "critic_reason": "Dehydration is documented consistently and treated with IVF, but PDX depends on resolving the AKI conflict. Also, A08.4 with dehydration: dehydration is coded additionally, so E86.0 is codable, but sequencing is pending the query.",
+    "severity": null,
+    "description": "Dehydration"
+   },
+   {
+    "code": "A08.4",
+    "poa": "Y",
+    "finding_ids": [
+     "F8",
+     "F35"
+    ],
+    "confidence": 0.85,
+    "rationale": "Dehydration was documented as due to viral gastroenteritis, and nausea and emesis are integral to it.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Viral gastroenteritis documented by the attending with dehydration due to it. If AKI is not confirmed, A08.4 may be better sequenced as principal with E86.0 secondary, since the dehydration was due to gastroenteritis (OCG II).",
+    "severity": "none",
+    "description": "Viral intestinal infection, unspecified"
+   },
+   {
+    "code": "E11.22",
+    "poa": "Y",
+    "finding_ids": [
+     "F1",
+     "F4",
+     "F3"
+    ],
+    "confidence": 0.9,
+    "rationale": "The provider documented T2DM with diabetic CKD, which is a combination code assumed to be linked.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Provider documents diabetic nephropathy/diabetic CKD with CKD 3a; nephrology confirms CKD due to diabetic nephropathy.",
+    "severity": "none",
+    "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease"
+   },
+   {
+    "code": "I12.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F2",
+     "F3"
+    ],
+    "confidence": 0.5,
+    "rationale": "HTN with CKD is presumed related and nephrology confirms an HTN contribution to the CKD (OCG I.C.9.a).",
+    "role": "secondary",
+    "verdict": "needs_query",
+    "critic_reason": "HTN with CKD is presumed linked and nephrology confirms HTN contribution, so I12.9 is the right combination. However, with I12.9, N18.31 is required, which is present. Low risk, but the discharge summary lists HTN separately; supported by guideline presumption.",
+    "severity": "none",
+    "description": "Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease"
+   },
+   {
+    "code": "N18.31",
+    "poa": "Y",
+    "finding_ids": [
+     "F3"
+    ],
+    "confidence": 0.93,
+    "rationale": "CKD stage 3a is documented and is coded with E11.22 and I12.9.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "CKD 3a documented consistently by attending and nephrology, with eGFR 46-54 supporting it.",
+    "severity": "none",
+    "description": "Chronic kidney disease, stage 3a"
+   },
+   {
+    "code": "Z79.4",
+    "poa": "Y",
+    "finding_ids": [
+     "F37",
+     "F1"
+    ],
+    "confidence": 0.92,
+    "rationale": "The patient is on long-term insulin.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Long-term insulin use is documented in the meds and plan.",
+    "severity": "none",
+    "description": "Long term (current) use of insulin"
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "finding_ids": [
+     "F5"
+    ],
+    "confidence": 0.88,
+    "rationale": "Hyperlipidemia is documented and treated with atorvastatin.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Hyperlipidemia documented and treated with atorvastatin.",
+    "severity": "none",
+    "description": "Hyperlipidemia, unspecified"
+   },
+   {
+    "code": "G47.33",
+    "poa": "Y",
+    "finding_ids": [
+     "F6"
+    ],
+    "confidence": 0.88,
+    "rationale": "OSA is documented and managed with CPAP.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "OSA documented and managed with CPAP.",
+    "severity": "none",
+    "description": "Obstructive sleep apnea (adult) (pediatric)"
+   }
+  ],
+  "removed": [],
+  "issues": [
+   {
+    "kind": "conflicting_documentation",
+    "summary": "The attending lists AKI on CKD 3a as the principal diagnosis, but nephrology documents 'No AKI' because Cr 1.5 is at his baseline of 1.4-1.6 and KDIGO criteria are not met. Query the attending to resolve this. If AKI is confirmed, N17.9 would be a CC and could become principal. If it is not, dehydration stays principal.",
+    "finding_ids": [
+     "F11",
+     "F12",
+     "F14",
+     "F13",
+     "F26"
+    ],
+    "guideline": "OCG Section II / AHIMA-ACDIS query practice",
+    "impact": "principal",
+    "codes": [
+     "N17.9",
+     "E86.0"
+    ],
+    "blocks_autonomy": true
+   },
+   {
+    "kind": "clinical_validation",
+    "summary": "The AKI diagnosis lacks clinical support. Cr is stable at 1.5 to 1.4 against an established outside baseline, and the comparison value of 1.1 dates from 2022.",
+    "finding_ids": [
+     "F11",
+     "F12",
+     "F13",
+     "F26"
+    ],
+    "guideline": "AHIMA/ACDIS clinical validation",
+    "impact": "severity",
+    "codes": [
+     "N17.9"
+    ],
+    "blocks_autonomy": true
+   },
+   {
+    "kind": "conflicting_documentation",
+    "summary": "Sequencing: if AKI is not validated, the reason for admission was dehydration due to viral gastroenteritis, so A08.4 would likely be sequenced before E86.0 rather than E86.0 as principal; confirm after the AKI query.",
+    "finding_ids": [
+     "F8",
+     "F10",
+     "F35"
+    ],
+    "guideline": "OCG Section II / I.C.1.a",
+    "impact": "principal",
+    "codes": [
+     "A08.4",
+     "E86.0"
+    ],
+    "blocks_autonomy": true
+   },
+   {
+    "kind": "other",
+    "summary": "Hyperglycemia: glucose 211-244 on insulin; no provider documentation of E11.65, so no action unless documented.",
+    "finding_ids": [
+     "F21",
+     "F30"
+    ],
+    "guideline": null,
+    "impact": "none",
+    "codes": [
+     "E11.65"
+    ],
+    "blocks_autonomy": false
+   },
+   {
+    "kind": "clinical_validation",
+    "summary": "E86.0: Dehydration is documented consistently and treated with IVF, but PDX depends on resolving the AKI conflict. Also, A08.4 with dehydration: dehydration is coded additionally, so E86.0 is codable, but sequencing is pending the query.",
+    "finding_ids": [
+     "F10",
+     "F35",
+     "F15",
+     "F9"
+    ],
+    "guideline": null,
+    "impact": "severity",
+    "codes": [
+     "E86.0"
+    ],
+    "blocks_autonomy": true,
+    "source": "critic_verdict"
+   }
+  ],
+  "queries": [
+   {
+    "issue": "The attending lists AKI on CKD 3a as the principal diagnosis, but nephrology documents 'No AKI' because Cr 1.5 is at his baseline of 1.4-1.6 and KDIGO criteria are not met. Query the attending to resolve this. If AKI is confirmed, N17.9 would be a CC and could become principal. If it is not, dehydration stays principal.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "Attending progress note (day 2): 'AKI on CKD 3a - Cr 1.5 from 1.1'",
+      "finding_id": "F11"
+     },
+     {
+      "text": "Attending discharge documentation (day 6): 'Principal diagnosis: Acute kidney injury on CKD stage 3a, prerenal, resolved'",
+      "finding_id": "F12"
+     },
+     {
+      "text": "Outpatient creatinine history: 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026)",
+      "finding_id": "F13"
+     },
+     {
+      "text": "Nephrology consultation (day 3): 'No AKI. Creatinine 1.5 is at his established baseline'",
+      "finding_id": "F14"
+     },
+     {
+      "text": "Inpatient creatinine trend: 09/08 15:00 1.5; 09/09 05:30 1.5; 09/10 05:40 1.4",
+      "finding_id": "F26"
+     }
+    ],
+    "question": "There is conflicting documentation regarding the patient's renal status during this admission. Based on your clinical judgment and the indicators above, please clarify the diagnosis that best describes the patient's renal condition and the condition established after study to be chiefly responsible for the admission.",
+    "options": [
+     "Acute kidney injury on chronic kidney disease stage 3a",
+     "Chronic kidney disease stage 3a at baseline renal function, without acute kidney injury",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   },
+   {
+    "issue": "The AKI diagnosis lacks clinical support. Cr is stable at 1.5 to 1.4 against an established outside baseline, and the comparison value of 1.1 dates from 2022.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "Progress note (day 2): '1. AKI on CKD 3a - Cr 1.5 from 1.1'",
+      "finding_id": "F11"
+     },
+     {
+      "text": "Outside creatinine history: 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026)",
+      "finding_id": "F13"
+     },
+     {
+      "text": "Inpatient creatinine trend: 1.5 (09/08 15:00), 1.5 (09/09 05:30), 1.4 (09/10 05:40)",
+      "finding_id": "F26"
+     },
+     {
+      "text": "Discharge documentation (day 6): 'Principal diagnosis: Acute kidney injury on CKD stage 3a, prerenal, resolved'",
+      "finding_id": "F12"
+     }
+    ],
+    "question": "Based on your clinical judgment and the creatinine values above, please clarify the diagnosis that best describes the patient's renal status during this admission.",
+    "options": [
+     "Acute kidney injury on CKD stage 3a (please document the clinical basis, including the baseline creatinine used for comparison)",
+     "CKD stage 3a at baseline, without acute kidney injury",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  ],
+  "drg": {
+   "family": null,
+   "number": null,
+   "title": null,
+   "weight": null,
+   "tier": "none",
+   "drivers": []
+  },
+  "confidence": 0.225,
+  "confidence_base": 0.45,
+  "blocking_issues": 4,
+  "blocking_reasons": [
+   "conflicting_documentation: The attending lists AKI on CKD 3a as the principal diagnosis, but nephrology documents 'No AKI' because Cr 1.5 is at his baseline of 1.4-1.6 and KDIGO criteria are not met. Query the attending to resolve this. If AKI is confirmed, N17.9 would be a CC and could become principal. If it is not, dehydration stays principal.",
+   "clinical_validation: The AKI diagnosis lacks clinical support. Cr is stable at 1.5 to 1.4 against an established outside baseline, and the comparison value of 1.1 dates from 2022.",
+   "conflicting_documentation: Sequencing: if AKI is not validated, the reason for admission was dehydration due to viral gastroenteritis, so A08.4 would likely be sequenced before E86.0 rather than E86.0 as principal; confirm after the AKI query.",
+   "critic wants a query on claim code E86.0"
+  ],
+  "stages": [
+   {
+    "stage": "triage",
+    "model": null,
+    "started": 0,
+    "ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cost_usd": 0
+   },
+   {
+    "stage": "evidence",
+    "model": "claude-haiku-4-5",
+    "started": 0,
+    "ms": 16878,
+    "input_tokens": 3259,
+    "output_tokens": 2937,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01794
+   },
+   {
+    "stage": "coder",
+    "model": "claude-sonnet-5-5",
+    "started": 16878,
+    "ms": 15727,
+    "input_tokens": 15871,
+    "output_tokens": 1876,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.0505
+   },
+   {
+    "stage": "critic",
+    "model": "claude-sonnet-5-5",
+    "started": 32605,
+    "ms": 7162,
+    "input_tokens": 7516,
+    "output_tokens": 956,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02459
+   },
+   {
+    "stage": "query",
+    "model": "claude-sonnet-5-5",
+    "started": 39767,
+    "ms": 4132,
+    "input_tokens": 1115,
+    "output_tokens": 490,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.00713
+   },
+   {
+    "stage": "query",
+    "model": "claude-sonnet-5-5",
+    "started": 43899,
+    "ms": 4505,
+    "input_tokens": 1013,
+    "output_tokens": 407,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.0061
+   }
+  ],
+  "events": [
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "stage_start"
+   },
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "output",
+    "documents": [
+     {
+      "id": "d1",
+      "type": "ED note",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T15:02",
+      "words": 134,
+      "flags": []
+     },
+     {
+      "id": "d2",
+      "type": "H&P",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T18:30",
+      "words": 181,
+      "flags": []
+     },
+     {
+      "id": "d3",
+      "type": "Consult",
+      "author_role": "consultant",
+      "timestamp": "2026-09-09T11:15",
+      "words": 166,
+      "flags": []
+     },
+     {
+      "id": "d4",
+      "type": "Lab summary",
+      "author_role": "lab",
+      "timestamp": "2026-09-10T06:20",
+      "words": 46,
+      "flags": []
+     },
+     {
+      "id": "d5",
+      "type": "Progress note",
+      "author_role": "provider",
+      "timestamp": "2026-09-10T09:40",
+      "words": 88,
+      "flags": []
+     },
+     {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author_role": "provider",
+      "timestamp": "2026-09-11T10:50",
+      "words": 107,
+      "flags": [
+       "discharge"
+      ]
+     }
+    ]
+   },
+   {
+    "t": 0,
+    "stage": "evidence",
+    "type": "stage_start",
+    "model": "anthropic:claude-haiku-4-5"
+   },
+   {
+    "t": 16878,
+    "stage": "evidence",
+    "type": "output",
+    "findings": [
+     {
+      "id": "F1",
+      "condition": "Type 2 diabetes mellitus",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "68 y/o M with T2DM on insulin",
+      "note": null,
+      "start": 46,
+      "end": 75
+     },
+     {
+      "id": "F2",
+      "condition": "Hypertension",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "T2DM on insulin, HTN, CKD, HLD",
+      "note": null,
+      "start": 60,
+      "end": 90
+     },
+     {
+      "id": "F3",
+      "condition": "Chronic kidney disease stage 3a",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "CKD 3a, HLD, OSA on CPAP",
+      "note": null,
+      "start": 56,
+      "end": 80
+     },
+     {
+      "id": "F4",
+      "condition": "Diabetic nephropathy",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "T2DM with diabetic nephropathy, HTN",
+      "note": null,
+      "start": 258,
+      "end": 293
+     },
+     {
+      "id": "F5",
+      "condition": "Hyperlipidemia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "HTN, CKD, HLD, OSA presents",
+      "note": null,
+      "start": 77,
+      "end": 104
+     },
+     {
+      "id": "F6",
+      "condition": "Obstructive sleep apnea",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "HLD, OSA on CPAP, presenting",
+      "note": null,
+      "start": 64,
+      "end": 92
+     },
+     {
+      "id": "F7",
+      "condition": "Nausea",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "CC: nausea, poor PO intake, lightheaded",
+      "note": null,
+      "start": 0,
+      "end": 39
+     },
+     {
+      "id": "F8",
+      "condition": "Viral gastroenteritis",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "3 days nausea/poor PO intake after viral GI illness",
+      "note": null,
+      "start": 98,
+      "end": 149
+     },
+     {
+      "id": "F9",
+      "condition": "Orthostatic hypotension",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "orthostatic drop to 96/60 standing",
+      "note": null,
+      "start": 369,
+      "end": 403
+     },
+     {
+      "id": "F10",
+      "condition": "Dehydration",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Impression: Dehydration, nausea, elevated Cr",
+      "note": null,
+      "start": 686,
+      "end": 730
+     },
+     {
+      "id": "F11",
+      "condition": "Acute kidney injury",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "1. AKI on CKD 3a - Cr 1.5 from 1.1",
+      "note": null,
+      "start": 526,
+      "end": 560
+     },
+     {
+      "id": "F12",
+      "condition": "Acute kidney injury, prerenal, resolved",
+      "assertion": "resolved",
+      "doc_id": "d6",
+      "quote": "Principal diagnosis: Acute kidney injury on CKD stage 3a, prerenal, resolved",
+      "note": null,
+      "start": 76,
+      "end": 152
+     },
+     {
+      "id": "F13",
+      "condition": "Creatinine elevation (baseline established)",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "creatinine 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026)",
+      "note": null,
+      "start": 155,
+      "end": 209
+     },
+     {
+      "id": "F14",
+      "condition": "No acute kidney injury (nephrology reassessment)",
+      "assertion": "negated",
+      "doc_id": "d3",
+      "quote": "No AKI. Creatinine 1.5 is at his established baseline",
+      "note": null,
+      "start": 456,
+      "end": 509
+     },
+     {
+      "id": "F15",
+      "condition": "Dry mucous membranes",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Exam: Dry mucous membranes",
+      "note": null,
+      "start": 426,
+      "end": 452
+     },
+     {
+      "id": "F16",
+      "condition": "Abdominal tenderness, mild diffuse",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Abd soft, mild diffuse tenderness, no rebound",
+      "note": null,
+      "start": 454,
+      "end": 499
+     },
+     {
+      "id": "F17",
+      "condition": "Sodium 137 mEq/L",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Labs: Na 137, K 4.6, Cl 101",
+      "note": null,
+      "start": 514,
+      "end": 541
+     },
+     {
+      "id": "F18",
+      "condition": "Potassium 4.6 mEq/L",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "K 4.6, Cl 101, HCO3 23",
+      "note": null,
+      "start": 528,
+      "end": 550
+     },
+     {
+      "id": "F19",
+      "condition": "BUN 34 mg/dL",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "BUN 34, Cr 1.5, glucose 211",
+      "note": null,
+      "start": 552,
+      "end": 579
+     },
+     {
+      "id": "F20",
+      "condition": "Creatinine 1.5 mg/dL",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "BUN 34, Cr 1.5, glucose 211",
+      "note": null,
+      "start": 552,
+      "end": 579
+     },
+     {
+      "id": "F21",
+      "condition": "Glucose 211 mg/dL",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "BUN 34, Cr 1.5, glucose 211",
+      "note": null,
+      "start": 552,
+      "end": 579
+     },
+     {
+      "id": "F22",
+      "condition": "Urine specific gravity elevated at 1.025",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "UA: SG 1.025, trace protein, no blood",
+      "note": null,
+      "start": 601,
+      "end": 638
+     },
+     {
+      "id": "F23",
+      "condition": "Trace urine protein",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "UA: SG 1.025, trace protein, no blood",
+      "note": null,
+      "start": 601,
+      "end": 638
+     },
+     {
+      "id": "F24",
+      "condition": "Microalbuminuria or albuminuria (UACR 180 mg/g)",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "UACR 180 mg/g (05/2026)",
+      "note": null,
+      "start": 308,
+      "end": 331
+     },
+     {
+      "id": "F25",
+      "condition": "Reduced urine output 1.6 L/24 h",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "Today: Cr 1.5 -> 1.5 (AM). UOP 1.6 L/24 h",
+      "note": null,
+      "start": 333,
+      "end": 374
+     },
+     {
+      "id": "F26",
+      "condition": "Creatinine improved from 1.5 to 1.4",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "Creatinine trend: 09/08 15:00 1.5; 09/09 05:30 1.5; 09/10 05:40 1.4",
+      "note": null,
+      "start": 0,
+      "end": 67
+     },
+     {
+      "id": "F27",
+      "condition": "BUN trending downward 34 to 19",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "BUN: 34 -> 25 -> 19",
+      "note": null,
+      "start": 69,
+      "end": 88
+     },
+     {
+      "id": "F28",
+      "condition": "Potassium trending downward 4.6 to 4.2",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "K 4.6 -> 4.3 -> 4.2",
+      "note": null,
+      "start": 90,
+      "end": 109
+     },
+     {
+      "id": "F29",
+      "condition": "HCO3 normalized from 23 to 25",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "HCO3 23 -> 24 -> 25",
+      "note": null,
+      "start": 111,
+      "end": 130
+     },
+     {
+      "id": "F30",
+      "condition": "Fingerstick glucose range 132-244",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "Glucose (fingerstick) range 132-244",
+      "note": null,
+      "start": 132,
+      "end": 167
+     },
+     {
+      "id": "F31",
+      "condition": "Emesis 2 episodes on day 1",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "2 episodes of emesis day 1, none since",
+      "note": null,
+      "start": 203,
+      "end": 241
+     },
+     {
+      "id": "F32",
+      "condition": "No diarrhea for 24 hours",
+      "assertion": "negated",
+      "doc_id": "d1",
+      "quote": "No diarrhea x 24 h",
+      "note": null,
+      "start": 243,
+      "end": 261
+     },
+     {
+      "id": "F33",
+      "condition": "Lightheadedness on standing",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Lightheaded on standing this AM",
+      "note": null,
+      "start": 263,
+      "end": 294
+     },
+     {
+      "id": "F34",
+      "condition": "Nausea resolved",
+      "assertion": "resolved",
+      "doc_id": "d5",
+      "quote": "S: Nausea resolved, tolerating regular diet",
+      "note": null,
+      "start": 0,
+      "end": 43
+     },
+     {
+      "id": "F35",
+      "condition": "Dehydration resolved",
+      "assertion": "resolved",
+      "doc_id": "d5",
+      "quote": "2. Dehydration due to viral gastroenteritis - resolved",
+      "note": null,
+      "start": 257,
+      "end": 311
+     },
+     {
+      "id": "F36",
+      "condition": "Negative orthostatic vital signs",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "orthostatics negative",
+      "note": null,
+      "start": 110,
+      "end": 131
+     },
+     {
+      "id": "F37",
+      "condition": "Insulin-dependent diabetes management",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "insulin glargine 24 u qHS, lispro SSI",
+      "note": null,
+      "start": 319,
+      "end": 356
+     },
+     {
+      "id": "F38",
+      "condition": "On ACE inhibitor (lisinopril 20 mg daily)",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "lisinopril 20 mg daily, HCTZ 25 mg daily",
+      "note": null,
+      "start": 358,
+      "end": 398
+     },
+     {
+      "id": "F39",
+      "condition": "On thiazide diuretic (HCTZ 25 mg daily)",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "lisinopril 20 mg daily, HCTZ 25 mg daily",
+      "note": null,
+      "start": 358,
+      "end": 398
+     }
+    ]
+   },
+   {
+    "t": 16878,
+    "stage": "coder",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "thinking",
+    "text": "There's a conflict here\u2014the attending's discharge summary documents AKI while nephrology's consult says no AKI. Since the documentation isn't consistent, I shouldn't just pick one; I need to flag this as a query-worthy conflict and instead code the principal diagnosis as dehydration due to viral gastroenteritis, which both sources support.\n\nSince admission was for dehydration treated with IV fluids, I'll set E86.0 as principal with A08.4 gastroenteritis secondary. For the remaining conditions I'm working through codes: E11.22 and N18.31 for diabetic CKD, I12.9 for hypertensive CKD, Z79.4 for i"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E86.0"
+    },
+    "id": "toolu_01JFtiY5pmhfJTBsFh2afeCz"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "A08.4"
+    },
+    "id": "toolu_016buGhfRau5QitQxokp3FNz"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E11.22"
+    },
+    "id": "toolu_011sfNTJLYf9zfgGdDGqbTAY"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "I12.9"
+    },
+    "id": "toolu_013g6cvBHvmmmuzZh38nFKWp"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "N18.31"
+    },
+    "id": "toolu_01MZrB2N1cV233tMeZUTYJfG"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "Z79.4"
+    },
+    "id": "toolu_01QuJiKwSmqYTo3YSK7KmHyp"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E78.5"
+    },
+    "id": "toolu_01QU7Z6ZnsuGBfZQziyF5ope"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "G47.33"
+    },
+    "id": "toolu_013eKdxPSXMbRL1J95xFmZjZ"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01JFtiY5pmhfJTBsFh2afeCz",
+    "result": "E86.0: Dehydration (billable)"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_016buGhfRau5QitQxokp3FNz",
+    "result": "A08.4: Viral intestinal infection, unspecified (billable)"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_011sfNTJLYf9zfgGdDGqbTAY",
+    "result": "E11.22: Type 2 diabetes mellitus with diabetic chronic kidney disease (billable)"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_013g6cvBHvmmmuzZh38nFKWp",
+    "result": "I12.9: Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease (billable)"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01MZrB2N1cV233tMeZUTYJfG",
+    "result": "N18.31: Chronic kidney disease, stage 3a (billable)"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01QuJiKwSmqYTo3YSK7KmHyp",
+    "result": "Z79.4: Long term (current) use of insulin (billable)"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01QU7Z6ZnsuGBfZQziyF5ope",
+    "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_013eKdxPSXMbRL1J95xFmZjZ",
+    "result": "G47.33: Obstructive sleep apnea (adult) (pediatric) (billable)"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "text",
+    "text": "{\"pdx\":{\"code\":\"E86.0\",\"poa\":\"Y\",\"finding_ids\":[\"F10\",\"F35\",\"F15\",\"F9\"],\"confidence\":0.5,\"rationale\":\"The attending and nephrology disagree on AKI, so I coded the consistently documented dehydration, which was treated with IV fluids, as principal (OCG Section II, conflicting documentation).\"},\"secondary\":[{\"code\":\"A08.4\",\"poa\":\"Y\",\"finding_ids\":[\"F8\",\"F35\"],\"confidence\":0.85,\"rationale\":\"Dehydration was documented as due to viral gastroenteritis, and nausea and emesis are integral to it.\"},{\"code\":\"E11.22\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F4\",\"F3\"],\"confidence\":0.9,\"rationale\":\"The provider docu"
+   },
+   {
+    "t": 32605,
+    "stage": "coder",
+    "type": "output",
+    "draft": {
+     "pdx": {
+      "code": "E86.0",
+      "poa": "Y",
+      "finding_ids": [
+       "F10",
+       "F35",
+       "F15",
+       "F9"
+      ],
+      "confidence": 0.5,
+      "rationale": "The attending and nephrology disagree on AKI, so I coded the consistently documented dehydration, which was treated with IV fluids, as principal (OCG Section II, conflicting documentation)."
+     },
+     "secondary": [
+      {
+       "code": "A08.4",
+       "poa": "Y",
+       "finding_ids": [
+        "F8",
+        "F35"
+       ],
+       "confidence": 0.85,
+       "rationale": "Dehydration was documented as due to viral gastroenteritis, and nausea and emesis are integral to it."
+      },
+      {
+       "code": "E11.22",
+       "poa": "Y",
+       "finding_ids": [
+        "F1",
+        "F4",
+        "F3"
+       ],
+       "confidence": 0.9,
+       "rationale": "The provider documented T2DM with diabetic CKD, which is a combination code assumed to be linked."
+      },
+      {
+       "code": "I12.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F2",
+        "F3"
+       ],
+       "confidence": 0.88,
+       "rationale": "HTN with CKD is presumed related and nephrology confirms an HTN contribution to the CKD (OCG I.C.9.a)."
+      },
+      {
+       "code": "N18.31",
+       "poa": "Y",
+       "finding_ids": [
+        "F3"
+       ],
+       "confidence": 0.92,
+       "rationale": "CKD stage 3a is documented and is coded with E11.22 and I12.9."
+      },
+      {
+       "code": "Z79.4",
+       "poa": "Y",
+       "finding_ids": [
+        "F37",
+        "F1"
+       ],
+       "confidence": 0.9,
+       "rationale": "The patient is on long-term insulin."
+      },
+      {
+       "code": "E78.5",
+       "poa": "Y",
+       "finding_ids": [
+        "F5"
+       ],
+       "confidence": 0.85,
+       "rationale": "Hyperlipidemia is documented and treated with atorvastatin."
+      },
+      {
+       "code": "G47.33",
+       "poa": "Y",
+       "finding_ids": [
+        "F6"
+       ],
+       "confidence": 0.85,
+       "rationale": "OSA is documented and managed with CPAP."
+      }
+     ],
+     "issues": [
+      {
+       "kind": "conflicting_documentation",
+       "summary": "The attending lists AKI on CKD 3a as the principal diagnosis, but nephrology documents 'No AKI' because Cr 1.5 is at his baseline of 1.4-1.6 and KDIGO criteria are not met. Query the attending to resolve this. If AKI is confirmed, N17.9 would be a CC and could become principal. If it is not, dehydration stays principal.",
+       "finding_ids": [
+        "F11",
+        "F12",
+        "F14",
+        "F13",
+        "F26"
+       ],
+       "guideline": "OCG Section II / AHIMA-ACDIS query practice",
+       "impact": "principal",
+       "codes": [
+        "N17.9",
+        "E86.0"
+       ]
+      },
+      {
+       "kind": "clinical_validation",
+       "summary": "The AKI diagnosis lacks clinical support. Cr is stable at 1.5 to 1.4 against an established outside baseline, and the comparison value of 1.1 dates from 2022.",
+       "finding_ids": [
+        "F11",
+        "F12",
+        "F13",
+        "F26"
+       ],
+       "guideline": "AHIMA/ACDIS clinical validation",
+       "impact": "severity",
+       "codes": [
+        "N17.9"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "t": 32605,
+    "stage": "critic",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 39767,
+    "stage": "critic",
+    "type": "text",
+    "text": "{\"reviews\":[{\"code\":\"E86.0\",\"verdict\":\"needs_query\",\"confidence\":0.45,\"reason\":\"Dehydration is documented consistently and treated with IVF, but PDX depends on resolving the AKI conflict. Also, A08.4 with dehydration: dehydration is coded additionally, so E86.0 is codable, but sequencing is pending the query.\"},{\"code\":\"A08.4\",\"verdict\":\"supported\",\"confidence\":0.85,\"reason\":\"Viral gastroenteritis documented by the attending with dehydration due to it. If AKI is not confirmed, A08.4 may be better sequenced as principal with E86.0 secondary, since the dehydration was due to gastroenteritis (OCG"
+   },
+   {
+    "t": 39767,
+    "stage": "critic",
+    "type": "output",
+    "critique": {
+     "reviews": [
+      {
+       "code": "E86.0",
+       "verdict": "needs_query",
+       "confidence": 0.45,
+       "reason": "Dehydration is documented consistently and treated with IVF, but PDX depends on resolving the AKI conflict. Also, A08.4 with dehydration: dehydration is coded additionally, so E86.0 is codable, but sequencing is pending the query."
+      },
+      {
+       "code": "A08.4",
+       "verdict": "supported",
+       "confidence": 0.85,
+       "reason": "Viral gastroenteritis documented by the attending with dehydration due to it. If AKI is not confirmed, A08.4 may be better sequenced as principal with E86.0 secondary, since the dehydration was due to gastroenteritis (OCG II)."
+      },
+      {
+       "code": "E11.22",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "Provider documents diabetic nephropathy/diabetic CKD with CKD 3a; nephrology confirms CKD due to diabetic nephropathy."
+      },
+      {
+       "code": "I12.9",
+       "verdict": "needs_query",
+       "confidence": 0.5,
+       "reason": "HTN with CKD is presumed linked and nephrology confirms HTN contribution, so I12.9 is the right combination. However, with I12.9, N18.31 is required, which is present. Low risk, but the discharge summary lists HTN separately; supported by guideline presumption."
+      },
+      {
+       "code": "N18.31",
+       "verdict": "supported",
+       "confidence": 0.93,
+       "reason": "CKD 3a documented consistently by attending and nephrology, with eGFR 46-54 supporting it."
+      },
+      {
+       "code": "Z79.4",
+       "verdict": "supported",
+       "confidence": 0.92,
+       "reason": "Long-term insulin use is documented in the meds and plan."
+      },
+      {
+       "code": "E78.5",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "Hyperlipidemia documented and treated with atorvastatin."
+      },
+      {
+       "code": "G47.33",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "OSA documented and managed with CPAP."
+      }
+     ],
+     "pdx_ok": false,
+     "pdx_alternative": "A08.4",
+     "missed": [
+      {
+       "kind": "conflicting_documentation",
+       "summary": "Sequencing: if AKI is not validated, the reason for admission was dehydration due to viral gastroenteritis, so A08.4 would likely be sequenced before E86.0 rather than E86.0 as principal; confirm after the AKI query.",
+       "finding_ids": [
+        "F8",
+        "F10",
+        "F35"
+       ],
+       "guideline": "OCG Section II / I.C.1.a",
+       "impact": "principal",
+       "codes": [
+        "A08.4",
+        "E86.0"
+       ]
+      },
+      {
+       "kind": "other",
+       "summary": "Hyperglycemia: glucose 211-244 on insulin; no provider documentation of E11.65, so no action unless documented.",
+       "finding_ids": [
+        "F21",
+        "F30"
+       ],
+       "guideline": null,
+       "impact": "none",
+       "codes": [
+        "E11.65"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "t": 39767,
+    "stage": "grouper",
+    "type": "output",
+    "family": null,
+    "drg": null,
+    "title": null,
+    "weight": null,
+    "tier": "none",
+    "drivers": []
+   },
+   {
+    "t": 39767,
+    "stage": "router",
+    "type": "output",
+    "base": 0.45,
+    "blocking": 4,
+    "reasons": [
+     "conflicting_documentation: The attending lists AKI on CKD 3a as the principal diagnosis, but nephrology documents 'No AKI' because Cr 1.5 is at his baseline of 1.4-1.6 and KDIGO criteria are not met. Query the attending to resolve this. If AKI is confirmed, N17.9 would be a CC and could become principal. If it is not, dehydration stays principal.",
+     "clinical_validation: The AKI diagnosis lacks clinical support. Cr is stable at 1.5 to 1.4 against an established outside baseline, and the comparison value of 1.1 dates from 2022.",
+     "conflicting_documentation: Sequencing: if AKI is not validated, the reason for admission was dehydration due to viral gastroenteritis, so A08.4 would likely be sequenced before E86.0 rather than E86.0 as principal; confirm after the AKI query.",
+     "critic wants a query on claim code E86.0"
+    ],
+    "confidence": 0.225
+   },
+   {
+    "t": 39767,
+    "stage": "query",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5",
+    "issue": "The attending lists AKI on CKD 3a as the principal diagnosis, but nephrology documents 'No AKI' because Cr 1.5 is at his baseline of 1.4-1.6 and KDIGO criteria are not met. Query the attending to resolve this. If AKI is confirmed, N17.9 would be a CC and could become principal. If it is not, dehydration stays principal."
+   },
+   {
+    "t": 43899,
+    "stage": "query",
+    "type": "text",
+    "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"Attending progress note (day 2): 'AKI on CKD 3a - Cr 1.5 from 1.1'\",\"finding_id\":\"F11\"},{\"text\":\"Attending discharge documentation (day 6): 'Principal diagnosis: Acute kidney injury on CKD stage 3a, prerenal, resolved'\",\"finding_id\":\"F12\"},{\"text\":\"Outpatient creatinine history: 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026)\",\"finding_id\":\"F13\"},{\"text\":\"Nephrology consultation (day 3): 'No AKI. Creatinine 1.5 is at his established baseline'\",\"finding_id\":\"F14\"},{\"text\":\"Inpatient creatinine trend: 09/08 15:00 1.5; 09/09 05:30 1.5; 09/10"
+   },
+   {
+    "t": 43899,
+    "stage": "query",
+    "type": "output",
+    "query": {
+     "issue": "The attending lists AKI on CKD 3a as the principal diagnosis, but nephrology documents 'No AKI' because Cr 1.5 is at his baseline of 1.4-1.6 and KDIGO criteria are not met. Query the attending to resolve this. If AKI is confirmed, N17.9 would be a CC and could become principal. If it is not, dehydration stays principal.",
+     "to": "Attending physician",
+     "clinical_indicators": [
+      {
+       "text": "Attending progress note (day 2): 'AKI on CKD 3a - Cr 1.5 from 1.1'",
+       "finding_id": "F11"
+      },
+      {
+       "text": "Attending discharge documentation (day 6): 'Principal diagnosis: Acute kidney injury on CKD stage 3a, prerenal, resolved'",
+       "finding_id": "F12"
+      },
+      {
+       "text": "Outpatient creatinine history: 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026)",
+       "finding_id": "F13"
+      },
+      {
+       "text": "Nephrology consultation (day 3): 'No AKI. Creatinine 1.5 is at his established baseline'",
+       "finding_id": "F14"
+      },
+      {
+       "text": "Inpatient creatinine trend: 09/08 15:00 1.5; 09/09 05:30 1.5; 09/10 05:40 1.4",
+       "finding_id": "F26"
+      }
+     ],
+     "question": "There is conflicting documentation regarding the patient's renal status during this admission. Based on your clinical judgment and the indicators above, please clarify the diagnosis that best describes the patient's renal condition and the condition established after study to be chiefly responsible for the admission.",
+     "options": [
+      "Acute kidney injury on chronic kidney disease stage 3a",
+      "Chronic kidney disease stage 3a at baseline renal function, without acute kidney injury",
+      "Other (please specify)",
+      "Clinically undetermined"
+     ],
+     "lint": []
+    }
+   },
+   {
+    "t": 43899,
+    "stage": "query",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5",
+    "issue": "The AKI diagnosis lacks clinical support. Cr is stable at 1.5 to 1.4 against an established outside baseline, and the comparison value of 1.1 dates from 2022."
+   },
+   {
+    "t": 48404,
+    "stage": "query",
+    "type": "text",
+    "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"Progress note (day 2): '1. AKI on CKD 3a - Cr 1.5 from 1.1'\",\"finding_id\":\"F11\"},{\"text\":\"Outside creatinine history: 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026)\",\"finding_id\":\"F13\"},{\"text\":\"Inpatient creatinine trend: 1.5 (09/08 15:00), 1.5 (09/09 05:30), 1.4 (09/10 05:40)\",\"finding_id\":\"F26\"},{\"text\":\"Discharge documentation (day 6): 'Principal diagnosis: Acute kidney injury on CKD stage 3a, prerenal, resolved'\",\"finding_id\":\"F12\"}],\"question\":\"Based on your clinical judgment and the creatinine values above, please clarify the diag"
+   },
+   {
+    "t": 48404,
+    "stage": "query",
+    "type": "output",
+    "query": {
+     "issue": "The AKI diagnosis lacks clinical support. Cr is stable at 1.5 to 1.4 against an established outside baseline, and the comparison value of 1.1 dates from 2022.",
+     "to": "Attending physician",
+     "clinical_indicators": [
+      {
+       "text": "Progress note (day 2): '1. AKI on CKD 3a - Cr 1.5 from 1.1'",
+       "finding_id": "F11"
+      },
+      {
+       "text": "Outside creatinine history: 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026)",
+       "finding_id": "F13"
+      },
+      {
+       "text": "Inpatient creatinine trend: 1.5 (09/08 15:00), 1.5 (09/09 05:30), 1.4 (09/10 05:40)",
+       "finding_id": "F26"
+      },
+      {
+       "text": "Discharge documentation (day 6): 'Principal diagnosis: Acute kidney injury on CKD stage 3a, prerenal, resolved'",
+       "finding_id": "F12"
+      }
+     ],
+     "question": "Based on your clinical judgment and the creatinine values above, please clarify the diagnosis that best describes the patient's renal status during this admission.",
+     "options": [
+      "Acute kidney injury on CKD stage 3a (please document the clinical basis, including the baseline creatinine used for comparison)",
+      "CKD stage 3a at baseline, without acute kidney injury",
+      "Other (please specify)",
+      "Clinically undetermined"
+     ],
+     "lint": []
+    }
+   }
+  ],
+  "ms": 48404,
+  "cost_usd": 0.10626
+ },
+ "baseline": {
+  "case_id": "enc-18",
+  "codes": [
+   {
+    "code": "E86.0",
+    "poa": "Y",
+    "role": "pdx",
+    "valid": true,
+    "description": "Dehydration",
+    "confidence": 0.72
+   },
+   {
+    "code": "A08.4",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Viral intestinal infection, unspecified",
+    "confidence": 0.72
+   },
+   {
+    "code": "E11.22",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease",
+    "confidence": 0.72
+   },
+   {
+    "code": "I12.9",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",
+    "confidence": 0.72
+   },
+   {
+    "code": "N18.31",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Chronic kidney disease, stage 3a",
+    "confidence": 0.72
+   },
+   {
+    "code": "Z79.4",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Long term (current) use of insulin",
+    "confidence": 0.72
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Hyperlipidemia, unspecified",
+    "confidence": 0.72
+   },
+   {
+    "code": "G47.33",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Obstructive sleep apnea (adult) (pediatric)",
+    "confidence": 0.72
+   },
+   {
+    "code": "Z79.899",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Other long term (current) drug therapy",
+    "confidence": 0.72
+   }
+  ],
+  "drg": {
+   "family": null,
+   "number": null,
+   "weight": null,
+   "tier": "none",
+   "drivers": []
+  },
+  "confidence": 0.36,
+  "needs_human": true,
+  "reason": "Conflicting documentation: attending/discharge summary lists AKI on CKD 3a as principal, but nephrology consultant documents no AKI (Cr 1.5 at established baseline 1.4-1.6; KDIGO not met) and clinical indicators support nephrology. Coded without N17.9 and with dehydration (E86.0) as principal, with viral gastroenteritis A08.4 secondary. Attending query is recommended to resolve the AKI diagnosis; if AKI is confirmed, N17.9 would be principal. Also, ED/H&P sequencing of dehydration vs gastroenteritis could affect PDX (A08.4 could be considered principal per guidelines for dehydration with gastroenteritis\u2014both treated, either may be sequenced depending on circumstances of admission, since admission was for dehydration, E86.0 chosen). Z79.899 is optional.",
+  "ms": 5237,
+  "cost_usd": 0.01141,
+  "input_tokens": 3300,
+  "output_tokens": 481
+ },
+ "score": {
+  "id": "enc-18",
+  "title": "AKI vs. baseline CKD, consultant disagrees",
+  "summary": "The hospitalist calls it acute kidney injury, but the kidney specialist says the creatinine is just the patient's usual level, so the attending must be asked to resolve the conflict.",
+  "family": "aki",
+  "hero": false,
+  "traps": [
+   "conflicting_notes"
+  ],
+  "gold_route": "coder",
+  "gold_drg": "684",
+  "pred_drg": null,
+  "gold_weight": 0.62,
+  "pred_weight": null,
+  "confidence": 0.225,
+  "tp": 8,
+  "fp": 0,
+  "fn": 1,
+  "fp_codes": [],
+  "fn_codes": [
+   "N17.9"
+  ],
+  "cc_tp": 0,
+  "cc_fp": 0,
+  "cc_fn": 0,
+  "pdx_ok": false,
+  "drg_ok": false,
+  "overcoded": false,
+  "undercoded": false,
+  "invalid_codes": [],
+  "citations": 39,
+  "citations_located": 39,
+  "queries": 2,
+  "queries_lint_clean": 2,
+  "cost_usd": 0.10626,
+  "ms": 48404
+ }
+}

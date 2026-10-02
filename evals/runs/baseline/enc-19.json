@@ -1,0 +1,93 @@
+{
+ "case_id": "enc-19",
+ "codes": [
+  {
+   "code": "J10.00",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Influenza due to other identified influenza virus with unspecified type of pneumonia",
+   "confidence": 0.6
+  },
+  {
+   "code": "E87.1",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypo-osmolality and hyponatremia",
+   "confidence": 0.6
+  },
+  {
+   "code": "E86.1",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypovolemia",
+   "confidence": 0.6
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.6
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.6
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypothyroidism, unspecified",
+   "confidence": 0.6
+  },
+  {
+   "code": "E66.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Obesity, unspecified",
+   "confidence": 0.6
+  },
+  {
+   "code": "Z68.33",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Body mass index [BMI] 33.0-33.9, adult",
+   "confidence": 0.6
+  },
+  {
+   "code": "Z28.310",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Unvaccinated for COVID-19",
+   "confidence": 0.6
+  }
+ ],
+ "drg": {
+  "family": "pneumonia",
+  "number": "194",
+  "weight": 0.89,
+  "tier": "CC",
+  "drivers": [
+   "E87.1"
+  ]
+ },
+ "confidence": 0.3,
+ "needs_human": true,
+ "reason": "Influenza A is a PCR-confirmed seasonal influenza, so J10.00 (influenza due to other identified influenza virus with unspecified type of pneumonia) was chosen for 'influenza with pneumonia, viral'. A coder may prefer J10.08 or another more specific pneumonia code; this needs review. Hypoxemia (R09.02) was mentioned in the discharge summary but is integral to the pneumonia, so it was not coded. Hypovolemia was documented as the cause of the hyponatremia, so E86.1 was added (E86.1 hypovolemia); this should be verified. Obesity E66.9 was coded with BMI Z68.33. Under FY2025+ guidelines obesity may be reported as E66.811 (class 1) if class is documented, but it is not, so E66.9 stands. Z28.310 (unvaccinated for influenza) is optional.",
+ "ms": 5735,
+ "cost_usd": 0.01125,
+ "input_tokens": 3221,
+ "output_tokens": 481
+}

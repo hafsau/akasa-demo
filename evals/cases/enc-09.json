@@ -1,0 +1,100 @@
+{
+  "id": "enc-09",
+  "title": "Probable sepsis from pneumonia",
+  "summary": "An older woman with lung infection and signs of sepsis; the doctor still calls sepsis only 'probable' at discharge, which inpatient rules treat as confirmed.",
+  "family": "sepsis",
+  "patient": {
+    "age": 74,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-03",
+  "discharge_date": "2026-09-07",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "L. Okafor, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-03T14:20",
+      "text": "CC: fever, productive cough x3 days.\nHPI: 74F with HTN, T2DM (metformin), HLD, GERD presents with 3 days of cough productive of rust-colored sputum, fevers to 102F at home, R-sided pleuritic chest pain, and generalized weakness. Decreased PO intake x2 days. No sick contacts. No recent hospitalization or antibiotics.\nROS: + fever, chills, cough, pleuritic CP, fatigue. Denies hemoptysis, abd pain, dysuria, diarrhea, rash.\nVitals: T 39.0C, HR 114, RR 24, BP 112/66, SpO2 93% RA.\nExam: Ill-appearing, dry MM. Crackles and bronchial breath sounds R base. RRR, tachycardic. Abd soft, NT. No CVA tenderness. Skin warm, no mottling. A&O x3.\nLabs: WBC 17.6 (88% PMN, 9% bands), Hgb 12.8, Plt 241. Na 136, K 4.1, Cr 0.9 (baseline 0.8), BUN 22, glucose 214. Lactate 2.3. Procalcitonin 4.1. UA negative.\nCXR (my read): RLL consolidation.\nMDM: Meets SIRS (fever, HR, RR, WBC) with clear pulmonary source. Concern for sepsis due to RLL CAP. No hypotension, mentating normally. 30 mL/kg LR bolus started, blood cx x2, sputum cx, urine Legionella/pneumococcal Ag. Ceftriaxone 1 g + azithromycin 500 mg IV given.\nDispo: Admit to medicine."
+    },
+    {
+      "id": "d2",
+      "type": "Radiology",
+      "author": "S. Brandt, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-03T15:05",
+      "text": "EXAM: XR chest PA/lateral.\nINDICATION: Fever, cough.\nFINDINGS: Dense airspace consolidation in the right lower lobe with air bronchograms. No pleural effusion. No pneumothorax. Heart size normal. Mild degenerative changes of the thoracic spine.\nIMPRESSION: Right lower lobe consolidation compatible with pneumonia in the appropriate clinical setting."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "M. Haddad, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-03T19:10",
+      "text": "HPI: As per ED. 74F with 3d productive cough, fever, R pleuritic pain. In ED febrile 39.0, HR 114, RR 24, WBC 17.6 with bandemia, lactate 2.3. Received 30 mL/kg LR; repeat lactate 1.4, HR now 96, BP 118/70.\nPMH: HTN, T2DM, HLD, GERD.\nMeds: lisinopril 20 mg daily, metformin 1000 mg BID, atorvastatin 40 mg qHS, omeprazole 20 mg daily.\nAllergies: NKDA. Social: never smoker, lives with husband, independent.\nExam: T 38.4, HR 96, RR 20, BP 118/70, SpO2 94% RA. Crackles R base. Otherwise unremarkable.\nAssessment/Plan:\n1. Sepsis, suspected, secondary to RLL community-acquired pneumonia, POA. SIRS 4/4, lactate 2.3 cleared with fluids. No end-organ dysfunction: Cr at baseline, mentation intact, normotensive. Continue ceftriaxone + azithromycin. F/u blood/sputum cx.\n2. RLL CAP - as above. Incentive spirometry. No O2 requirement.\n3. HTN - hold lisinopril tonight given sepsis/fluids, resume when stable.\n4. T2DM - hold metformin, SSI. A1c 7.4.\n5. HLD - continue atorvastatin.\n6. GERD - continue PPI.\nDVT ppx: enoxaparin. Code: Full."
+    },
+    {
+      "id": "d4",
+      "type": "Progress note",
+      "author": "M. Haddad, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-04T09:30",
+      "text": "S: Feels somewhat better, still coughing. Tmax 38.3 overnight.\nO: HR 92, RR 18, BP 124/72, SpO2 95% RA. Crackles R base, improved. WBC 14.1, Cr 0.8, lactate 1.1. Blood cx NGTD at 18h. Urine pneumococcal and Legionella Ag negative.\nA/P:\n1. Possible sepsis secondary to RLL CAP - hemodynamically improving, lactate normalized. Cultures NGTD; continue IV ceftriaxone/azithro.\n2. RLL CAP - as above.\n3. HTN - resume lisinopril.\n4. T2DM - SSI, glucose 160-190.\n5. HLD, GERD - home meds."
+    },
+    {
+      "id": "d5",
+      "type": "Progress note",
+      "author": "M. Haddad, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-06T08:50",
+      "text": "S: Afebrile x36h, eating well, ambulating in halls.\nO: T 37.1, HR 84, RR 16, BP 128/74, SpO2 96% RA. Few crackles R base. WBC 9.8. Blood cx no growth at 72h. Sputum cx normal oropharyngeal flora.\nA/P:\n1. Sepsis, likely, due to RLL CAP - resolved physiology. Transition to PO cefpodoxime; azithro course complete.\n2. T2DM - resume metformin.\n3. HTN, HLD, GERD - stable.\nAnticipate discharge tomorrow."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "M. Haddad, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-07T11:15",
+      "text": "Admit: 09/03/2026  Discharge: 09/07/2026\nDischarge diagnoses:\n1. Probable sepsis secondary to right lower lobe pneumonia, present on admission\n2. Right lower lobe community-acquired pneumonia\n3. Hypertension\n4. Type 2 diabetes mellitus without complications, on metformin\n5. Hyperlipidemia\n6. GERD\nHospital course: 74F admitted with fever 39.0, HR 114, RR 24, WBC 17.6 with bandemia, lactate 2.3 and RLL consolidation. Treated with 30 mL/kg fluids and IV ceftriaxone/azithromycin with prompt improvement; lactate cleared. No hypotension or organ dysfunction at any point. Blood cultures no growth (final pending at discharge); sputum normal flora; urinary antigens negative. Clinical picture felt most consistent with sepsis from pneumonia, although organism not identified. Transitioned to PO cefpodoxime on day 4.\nDischarge meds: cefpodoxime 200 mg BID x3 more days; resume lisinopril, metformin, atorvastatin, omeprazole.\nFollow-up: PCP in 1 week; repeat CXR in 6-8 weeks.\nCondition: stable, home with husband."
+    }
+  ],
+  "gold": {
+    "pdx": "A41.9",
+    "secondary": [
+      {
+        "code": "J18.9",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E11.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.84",
+        "poa": "1"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "K21.9",
+        "poa": "Y"
+      }
+    ],
+    "drg": "871",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [
+      "uncertain_at_discharge"
+    ],
+    "explanation": "The discharge summary still hedges ('probable sepsis'), and the progress notes say 'suspected', 'possible' and 'likely'. Under the inpatient uncertain-diagnosis rule (OCG Section II.H / III.C), a condition still described as probable at discharge is coded as if confirmed, so sepsis (A41.9, organism unspecified) is sequenced as principal with the pneumonia (J18.9) as secondary per OCG I.C.1.d.4. No organ dysfunction was documented, so no severe sepsis code. A naive system that only codes certain diagnoses, or that is swayed by negative blood cultures, drops sepsis and makes pneumonia principal."
+  },
+  "hero": false
+}

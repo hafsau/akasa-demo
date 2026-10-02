@@ -1,0 +1,1752 @@
+{
+ "case": {
+  "id": "enc-03",
+  "title": "Heart failure, cardiology specificity, unnamed creatinine rise",
+  "summary": "A man with a weak heart and kidney disease was admitted for fluid overload; only the cardiologist spelled out the type of heart failure, and his kidney numbers rose mid-stay without any doctor naming a diagnosis.",
+  "hero": true,
+  "family": "hf",
+  "patient": {
+   "age": 66,
+   "sex": "M"
+  },
+  "admit_date": "2026-09-20",
+  "discharge_date": "2026-09-24",
+  "documents": [
+   {
+    "id": "d1",
+    "type": "ED note",
+    "author": "D. Kaplan, MD (Emergency Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-20T09:05",
+    "text": "CC: Shortness of breath.\n\nHPI: 66M with HFrEF (EF 25%), CKD 3b, HTN, insulin-treated T2DM and OSA presents with 1 week of progressive DOE, now SOB walking to the mailbox, 3-pillow orthopnea, PND and leg swelling. Home scale up 10 lb (4.5 kg). Reports taking all meds; no clear dietary change. No chest pain, fever or cough.\n\nVitals: T 36.8, HR 96, BP 152/88, RR 24, SpO2 93% RA -> 96% on 2 L NC.\nExam: Uncomfortable, speaking in short sentences. JVD to angle of jaw. Bibasilar crackles halfway up. S3. 3+ pitting edema to knees.\n\nLabs: BNP 2,900. Troponin <0.01 x2. Na 137, K 4.6, BUN 38, Cr 1.6, Glu 214. Hgb 13.4.\nECG: sinus rhythm 94, no acute ST changes. CXR: cardiomegaly, pulmonary vascular congestion, small bilateral effusions.\n\nAssessment/Plan:\n1. CHF exacerbation - furosemide 80 mg IV now, O2, upright positioning.\nDispo: Admit to hospital medicine, telemetry."
+   },
+   {
+    "id": "d2",
+    "type": "H&P",
+    "author": "P. Sandoval, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-20T13:15",
+    "text": "HISTORY AND PHYSICAL\n\nHPI: 66M admitted with 1 week of worsening dyspnea, orthopnea and edema; see ED note. Diuresed ~900 mL after first IV furosemide dose.\n\nPMH: HFrEF, EF 25% (TTE 03/2026). CKD stage 3b (baseline Cr 1.5-1.7, eGFR ~40), attributed to diabetes and hypertension. T2DM with diabetic CKD, on insulin (A1c 7.9% 08/2026). HTN. Hyperlipidemia. OSA on CPAP.\nMeds: torsemide 40 mg daily, sacubitril/valsartan 24/26 mg BID, carvedilol 12.5 mg BID, spironolactone 12.5 mg daily, empagliflozin 10 mg daily, insulin glargine 24 units qHS, atorvastatin 40 mg daily.\nSocial: Retired bus mechanic, lives with wife. Never smoker. No EtOH.\n\nExam: HR 90, BP 144/84, RR 20, SpO2 96% 2 L. Weight 97.3 kg (dry weight ~92 kg). JVP 14 cm. Crackles bilateral bases. 3+ edema to knees.\n\nAssessment/Plan:\n1. CHF exacerbation - no clear precipitant. Furosemide 80 mg IV BID, strict I/O, daily weights, 2 g Na diet, 1.5 L fluid restriction. Continue carvedilol and sacubitril/valsartan. Cardiology consult.\n2. CKD stage 3b - Cr 1.6, at baseline. Daily BMP while diuresing.\n3. T2DM with diabetic CKD - glargine 20 units + correction scale. Hold empagliflozin while inpatient, resume at discharge.\n4. HTN - on GDMT as above.\n5. Hyperlipidemia - atorvastatin.\n6. OSA - CPAP qHS, home settings.\nVTE ppx: heparin 5,000 units SC q8h. Code: Full."
+   },
+   {
+    "id": "d3",
+    "type": "Consult",
+    "author": "N. Abernathy, MD (Cardiology)",
+    "author_role": "consultant",
+    "timestamp": "2026-09-21T10:30",
+    "text": "CARDIOLOGY CONSULTATION\nRequested by: Dr. P. Sandoval. Reason: heart failure management.\n\nHPI: 66M with known HFrEF followed in our HF clinic, admitted with volume overload. Last clinic visit 06/2026 euvolemic at 92 kg, NYHA II. Now NYHA III-IV symptoms for 1 week.\n\nData: TTE 03/2026: LVEF 25%, global hypokinesis, LV dilated, normal RV function. BNP 2,900 on admission. Net -2.4 L in first 24 h. Cr 1.9 today (1.6 on admission).\n\nExam: JVP 12 cm, crackles at bases, 2+ edema.\n\nIMPRESSION:\n1. Acute on chronic systolic heart failure (HFrEF), EF 25%, NYHA class III, volume overloaded ~5 kg above dry weight.\n2. CKD stage 3b.\n3. Hypertension.\n\nRECOMMENDATIONS:\n- Continue furosemide 80 mg IV BID; goal net negative 1.5-2 L/day.\n- Continue carvedilol 12.5 mg BID and sacubitril/valsartan; continue spironolactone if K <5.0.\n- Resume empagliflozin at discharge.\n- Transition to torsemide 40 mg BID when near dry weight.\n- HF clinic follow-up within 7 days; repeat TTE in 3 months after GDMT optimization."
+   },
+   {
+    "id": "d4",
+    "type": "Progress note",
+    "author": "P. Sandoval, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-22T11:40",
+    "text": "HOSPITAL DAY 3\n\nS: Breathing much better, slept with 1 pillow. No dizziness.\nO: HR 82, BP 112/68, RR 16, SpO2 96% RA. Weight 94.1 kg. Net -4.6 L since admission. JVP 9 cm, trace edema.\nLabs: Cr 2.5 (1.9 yesterday, 1.6 on admission), BUN 58, K 4.9, Na 136.\n\nAssessment/Plan:\n1. CHF exacerbation - diuresing well, near euvolemic. Hold furosemide and spironolactone today; hold sacubitril/valsartan x24 h. Recheck BMP in AM.\n2. CKD stage 3b - see above. Monitor BMP, avoid nephrotoxins.\n3. T2DM - BG 140-190 on glargine + correction.\n4. HTN - controlled.\n5. OSA - CPAP."
+   },
+   {
+    "id": "d5",
+    "type": "Lab summary",
+    "author": "Clinical Laboratory",
+    "author_role": "lab",
+    "timestamp": "2026-09-24T06:30",
+    "text": "RENAL FUNCTION TREND\nDate        Cr (mg/dL)  BUN  K    eGFR\n06/12/2026  1.6         30   4.4  46  (outpatient)\n09/20/2026  1.6         38   4.6  46\n09/21/2026  1.9         45   4.7  38\n09/22/2026  2.5         58   4.9  28\n09/23/2026  2.1         52   4.6  34\n09/24/2026  1.8         44   4.4  40\n\nBNP: 09/20 2,900 pg/mL; 09/23 1,180 pg/mL\nHemoglobin A1c (08/2026): 7.9%"
+   },
+   {
+    "id": "d6",
+    "type": "Discharge summary",
+    "author": "P. Sandoval, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-24T12:20",
+    "text": "DISCHARGE SUMMARY\nAdmit: 09/20/2026   Discharge: 09/24/2026   Disposition: Home\n\nDISCHARGE DIAGNOSES:\n1. CHF exacerbation\n2. CKD stage 3b\n3. Type 2 diabetes mellitus with diabetic CKD, on insulin\n4. Hypertension\n5. Hyperlipidemia\n6. Obstructive sleep apnea\n\nHOSPITAL COURSE:\n66M with HFrEF (EF 25%) admitted with volume overload. Diuresed with IV furosemide, net -5.8 L, weight 97.3 -> 92.6 kg. Cardiology followed and agreed with plan. Creatinine rose to 2.5 on HD3 with diuresis; furosemide, spironolactone and sacubitril/valsartan were held for 24 h and creatinine improved to 1.8 by discharge. Transitioned to torsemide 40 mg BID. Off O2 since HD2.\n\nDISCHARGE MEDICATIONS: torsemide 40 mg BID (increased), sacubitril/valsartan 24/26 mg BID, carvedilol 12.5 mg BID, spironolactone 12.5 mg daily, empagliflozin 10 mg daily (resume), insulin glargine 24 units qHS, atorvastatin 40 mg daily.\n\nFOLLOW-UP: HF clinic (Dr. Abernathy) in 7 days. BMP in 3 days. Daily weights; call for gain >2 lb/day or 5 lb/week."
+   }
+  ],
+  "gold": {
+   "pdx": "I13.0",
+   "secondary": [
+    {
+     "code": "I50.23",
+     "poa": "Y"
+    },
+    {
+     "code": "N18.32",
+     "poa": "Y"
+    },
+    {
+     "code": "E11.22",
+     "poa": "Y"
+    },
+    {
+     "code": "Z79.4",
+     "poa": "Y"
+    },
+    {
+     "code": "Z79.84",
+     "poa": "Y"
+    },
+    {
+     "code": "E78.5",
+     "poa": "Y"
+    },
+    {
+     "code": "G47.33",
+     "poa": "Y"
+    }
+   ],
+   "drg": "291",
+   "route": "coder",
+   "hold_reasons": [
+    "Possible acute kidney injury documented only by laboratory values: creatinine 1.6 -> 2.5 mg/dL within 48 h during IV diuresis, back to 1.8 at discharge; diuretics and ARNI were held, but no provider named a diagnosis. Laboratory findings alone are not codable; query attending before final coding."
+   ],
+   "query": {
+    "topic": "Clinical significance of rising creatinine during diuresis. Clinical indicators: CKD stage 3b with baseline creatinine 1.5-1.7 mg/dL; creatinine 1.6 on admission (09/20), 1.9 (09/21), 2.5 (09/22) and 1.8 at discharge (09/24) while on furosemide 80 mg IV BID; BUN 38 -> 58; furosemide, spironolactone and sacubitril/valsartan held for 24 h on 09/22. Based on your clinical judgment, please clarify whether this represents a diagnosis.",
+    "options": [
+     "Acute kidney injury",
+     "Expected fluctuation of chronic kidney disease",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ]
+   },
+   "traps": [
+    "consultant_specificity",
+    "combination_code",
+    "lab_only"
+   ],
+   "explanation": "Hypertension, CKD and heart failure together take the combination code I13.0 as principal (OCG I.C.9.a.3), with the heart failure type from cardiology's 'acute on chronic systolic heart failure (HFrEF)' (I50.23, MCC), since the hospitalist only says 'CHF exacerbation' and nothing conflicts. Add N18.32 for stage 3b and E11.22 for diabetic CKD, which gives DRG 291. The creatinine rise meets KDIGO AKI criteria, but no provider named it, so it goes to a query rather than becoming N17.9 from labs. A naive system codes I50.9 or I11.0 and misses the combination code, or codes AKI straight from the lab trend."
+  }
+ },
+ "run": {
+  "case_id": "enc-03",
+  "prompt_version": "2026-10-02.4-router-v2",
+  "models": {
+   "fast": "anthropic:claude-haiku-4-5",
+   "reason": "anthropic:claude-sonnet-5-5"
+  },
+  "findings": [
+   {
+    "id": "F1",
+    "condition": "Heart failure with reduced ejection fraction (HFrEF)",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "66M with HFrEF (EF 25%)",
+    "note": null,
+    "start": 31,
+    "end": 54
+   },
+   {
+    "id": "F2",
+    "condition": "Left ventricular ejection fraction (LVEF) 25%",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "HFrEF (EF 25%)",
+    "note": null,
+    "start": 40,
+    "end": 54
+   },
+   {
+    "id": "F3",
+    "condition": "Chronic kidney disease stage 3b",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "CKD 3b",
+    "note": null,
+    "start": 56,
+    "end": 62
+   },
+   {
+    "id": "F4",
+    "condition": "Hypertension",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "HTN",
+    "note": null,
+    "start": 64,
+    "end": 67
+   },
+   {
+    "id": "F5",
+    "condition": "Type 2 diabetes mellitus, insulin-treated",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "insulin-treated T2DM",
+    "note": null,
+    "start": 69,
+    "end": 89
+   },
+   {
+    "id": "F6",
+    "condition": "Obstructive sleep apnea",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "OSA",
+    "note": null,
+    "start": 94,
+    "end": 97
+   },
+   {
+    "id": "F7",
+    "condition": "Dyspnea on exertion, progressive over 1 week",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "1 week of progressive DOE, now SOB walking to the mailbox",
+    "note": null,
+    "start": 112,
+    "end": 169
+   },
+   {
+    "id": "F8",
+    "condition": "Orthopnea, 3-pillow",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "3-pillow orthopnea",
+    "note": null,
+    "start": 171,
+    "end": 189
+   },
+   {
+    "id": "F9",
+    "condition": "Paroxysmal nocturnal dyspnea",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "PND",
+    "note": null,
+    "start": 191,
+    "end": 194
+   },
+   {
+    "id": "F10",
+    "condition": "Lower extremity edema with 10 lb weight gain",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "leg swelling. Home scale up 10 lb",
+    "note": null,
+    "start": 199,
+    "end": 232
+   },
+   {
+    "id": "F11",
+    "condition": "Jugular venous distention to angle of jaw",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "JVD to angle of jaw",
+    "note": null,
+    "start": 446,
+    "end": 465
+   },
+   {
+    "id": "F12",
+    "condition": "Bibasilar crackles",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Bibasilar crackles halfway up",
+    "note": null,
+    "start": 467,
+    "end": 496
+   },
+   {
+    "id": "F13",
+    "condition": "S3 gallop",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "S3",
+    "note": null,
+    "start": 498,
+    "end": 500
+   },
+   {
+    "id": "F14",
+    "condition": "3+ pitting edema to knees",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "3+ pitting edema to knees",
+    "note": null,
+    "start": 502,
+    "end": 527
+   },
+   {
+    "id": "F15",
+    "condition": "BNP 2,900 pg/mL",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "BNP 2,900",
+    "note": null,
+    "start": 536,
+    "end": 545
+   },
+   {
+    "id": "F16",
+    "condition": "Hypoxemia on room air (SpO2 93%), improved with supplemental oxygen",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "SpO2 93% RA -> 96% on 2 L NC",
+    "note": null,
+    "start": 366,
+    "end": 394
+   },
+   {
+    "id": "F17",
+    "condition": "Elevated creatinine 1.6 mg/dL on admission",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Cr 1.6",
+    "note": null,
+    "start": 589,
+    "end": 595
+   },
+   {
+    "id": "F18",
+    "condition": "Hyperglycemia with glucose 214 mg/dL",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Glu 214",
+    "note": null,
+    "start": 597,
+    "end": 604
+   },
+   {
+    "id": "F19",
+    "condition": "Cardiomegaly",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "CXR: cardiomegaly",
+    "note": null,
+    "start": 659,
+    "end": 676
+   },
+   {
+    "id": "F20",
+    "condition": "Pulmonary vascular congestion",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "pulmonary vascular congestion",
+    "note": null,
+    "start": 678,
+    "end": 707
+   },
+   {
+    "id": "F21",
+    "condition": "Small bilateral pleural effusions",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "small bilateral effusions",
+    "note": null,
+    "start": 709,
+    "end": 734
+   },
+   {
+    "id": "F22",
+    "condition": "CHF exacerbation (acute decompensation)",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "CHF exacerbation",
+    "note": null,
+    "start": 757,
+    "end": 773
+   },
+   {
+    "id": "F23",
+    "condition": "Diabetic chronic kidney disease",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "CKD stage 3b (baseline Cr 1.5-1.7, eGFR ~40), attributed to diabetes and hypertension. T2DM with diabetic CKD",
+    "note": null,
+    "start": 192,
+    "end": 301
+   },
+   {
+    "id": "F24",
+    "condition": "Hemoglobin A1c 7.9% (08/2026)",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "A1c 7.9% 08/2026",
+    "note": null,
+    "start": 315,
+    "end": 331
+   },
+   {
+    "id": "F25",
+    "condition": "Hyperlipidemia",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Hyperlipidemia",
+    "note": null,
+    "start": 339,
+    "end": 353
+   },
+   {
+    "id": "F26",
+    "condition": "NYHA Class III-IV heart failure symptoms",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "NYHA III-IV symptoms for 1 week",
+    "note": null,
+    "start": 233,
+    "end": 264
+   },
+   {
+    "id": "F27",
+    "condition": "Global left ventricular hypokinesis with dilated LV",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "LVEF 25%, global hypokinesis, LV dilated",
+    "note": null,
+    "start": 286,
+    "end": 326
+   },
+   {
+    "id": "F28",
+    "condition": "Normal right ventricular function",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "normal RV function",
+    "note": null,
+    "start": 328,
+    "end": 346
+   },
+   {
+    "id": "F29",
+    "condition": "Volume overload approximately 5 kg above dry weight",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "volume overloaded ~5 kg above dry weight",
+    "note": null,
+    "start": 567,
+    "end": 607
+   },
+   {
+    "id": "F30",
+    "condition": "Acute kidney injury (worsening creatinine during diuresis)",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "Cr 2.5 (1.9 yesterday, 1.6 on admission)",
+    "note": null,
+    "start": 191,
+    "end": 231
+   },
+   {
+    "id": "F31",
+    "condition": "Elevated BUN 58 mg/dL on hospital day 3",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "BUN 58",
+    "note": null,
+    "start": 233,
+    "end": 239
+   },
+   {
+    "id": "F32",
+    "condition": "Potassium 4.9 mEq/L (high-normal)",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "K 4.9",
+    "note": null,
+    "start": 241,
+    "end": 246
+   },
+   {
+    "id": "F33",
+    "condition": "BNP 1,180 pg/mL on hospital day 4",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "09/23 1,180 pg/mL",
+    "note": null,
+    "start": 321,
+    "end": 338
+   },
+   {
+    "id": "F34",
+    "condition": "Creatinine peaked at 2.5 mg/dL on hospital day 3, improved to 1.8 by discharge",
+    "assertion": "affirmed",
+    "doc_id": "d6",
+    "quote": "Creatinine rose to 2.5 on HD3 with diuresis; furosemide, spironolactone and sacubitril/valsartan were held for 24 h and creatinine improved to 1.8",
+    "note": null,
+    "start": 437,
+    "end": 583
+   },
+   {
+    "id": "F35",
+    "condition": "Diuresis achieved net -5.8 L over hospitalization",
+    "assertion": "affirmed",
+    "doc_id": "d6",
+    "quote": "Diuresed with IV furosemide, net -5.8 L",
+    "note": null,
+    "start": 330,
+    "end": 369
+   },
+   {
+    "id": "F36",
+    "condition": "Weight reduction from 97.3 kg to 92.6 kg",
+    "assertion": "affirmed",
+    "doc_id": "d6",
+    "quote": "weight 97.3 -> 92.6 kg",
+    "note": null,
+    "start": 371,
+    "end": 393
+   },
+   {
+    "id": "F37",
+    "condition": "Off supplemental oxygen since hospital day 2",
+    "assertion": "affirmed",
+    "doc_id": "d6",
+    "quote": "Off O2 since HD2",
+    "note": null,
+    "start": 635,
+    "end": 651
+   }
+  ],
+  "codes": [
+   {
+    "code": "I13.0",
+    "poa": "Y",
+    "finding_ids": [
+     "F1",
+     "F3",
+     "F4",
+     "F22"
+    ],
+    "confidence": 0.88,
+    "rationale": "Hypertension, heart failure and CKD are presumed related (OCG I.C.9.a), so the combination code I13.0 is sequenced first as the reason for admission.",
+    "role": "pdx",
+    "verdict": "supported",
+    "critic_reason": "HTN, HF and CKD stage 3b are all documented and presumed related per OCG I.C.9.a, with no provider documentation of another cause. Admission was for HF exacerbation, so I13.0 is the correct principal.",
+    "severity": null,
+    "description": "Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease"
+   },
+   {
+    "code": "I50.23",
+    "poa": "Y",
+    "finding_ids": [
+     "F1",
+     "F22",
+     "F26",
+     "F29"
+    ],
+    "confidence": 0.88,
+    "rationale": "The cardiology consult documents acute on chronic systolic HF (HFrEF). I13.0 requires an additional code for the HF type.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Cardiology documents acute on chronic systolic HF (HFrEF, EF 25%). The attending's 'CHF exacerbation' is consistent with this and the discharge summary does not conflict.",
+    "severity": "MCC",
+    "description": "Acute on chronic systolic (congestive) heart failure"
+   },
+   {
+    "code": "N18.32",
+    "poa": "Y",
+    "finding_ids": [
+     "F3",
+     "F23"
+    ],
+    "confidence": 0.93,
+    "rationale": "CKD stage 3b is documented. I13.0 requires an additional code for the CKD stage.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "CKD stage 3b is documented consistently in the H&P, consult, progress note and discharge summary.",
+    "severity": "none",
+    "description": "Chronic kidney disease, stage 3b"
+   },
+   {
+    "code": "E11.22",
+    "poa": "Y",
+    "finding_ids": [
+     "F5",
+     "F23"
+    ],
+    "confidence": 0.92,
+    "rationale": "The provider documents T2DM with diabetic CKD.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "The attending explicitly documents T2DM with diabetic CKD, and the discharge summary carries it forward.",
+    "severity": "none",
+    "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease"
+   },
+   {
+    "code": "Z79.4",
+    "poa": "Y",
+    "finding_ids": [
+     "F5"
+    ],
+    "confidence": 0.92,
+    "rationale": "The patient is on long-term insulin (glargine).",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Long-term insulin use is documented (glargine at home and at discharge).",
+    "severity": "none",
+    "description": "Long term (current) use of insulin"
+   },
+   {
+    "code": "Z79.84",
+    "poa": "Y",
+    "finding_ids": [
+     "F5"
+    ],
+    "confidence": 0.65,
+    "rationale": "The patient takes empagliflozin, an oral hypoglycemic, along with insulin.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Empagliflozin is a home medication and was resumed at discharge. Per OCG I.C.4.a.3, Z79.84 may be reported with Z79.4 when the patient also takes an oral hypoglycemic. Empagliflozin is also used for HF, but it is listed under diabetes management here, so this is a minor point.",
+    "severity": "none",
+    "description": "Long term (current) use of oral hypoglycemic drugs"
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "finding_ids": [
+     "F25"
+    ],
+    "confidence": 0.9,
+    "rationale": "Hyperlipidemia is documented and treated with atorvastatin.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Hyperlipidemia is documented by the provider and treated with atorvastatin.",
+    "severity": "none",
+    "description": "Hyperlipidemia, unspecified"
+   },
+   {
+    "code": "G47.33",
+    "poa": "Y",
+    "finding_ids": [
+     "F6"
+    ],
+    "confidence": 0.92,
+    "rationale": "OSA is documented and treated with CPAP.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "OSA is documented and treated with CPAP.",
+    "severity": "none",
+    "description": "Obstructive sleep apnea (adult) (pediatric)"
+   }
+  ],
+  "removed": [],
+  "issues": [
+   {
+    "kind": "query_opportunity",
+    "summary": "Creatinine rose from 1.6 to 2.5 during diuresis, and diuretics and ARNI were held. No provider documents AKI or a cause such as diuresis-related renal insufficiency. Query whether AKI (N17.9) was present.",
+    "finding_ids": [
+     "F30",
+     "F34",
+     "F17"
+    ],
+    "guideline": "AHIMA/ACDIS query practice",
+    "impact": "severity",
+    "codes": [
+     "N17.9"
+    ],
+    "blocks_autonomy": true
+   },
+   {
+    "kind": "query_opportunity",
+    "summary": "Cr rose 1.6 to 2.5 (about 1.56x baseline) with diuretic and ARNI holds and monitoring, but no provider documents AKI; query for the clinical significance and diagnosis. The coder correctly flagged this and did not code N17.9 from the labs alone.",
+    "finding_ids": [
+     "F30",
+     "F34"
+    ],
+    "guideline": "AHIMA/ACDIS query practice",
+    "impact": "severity",
+    "codes": [
+     "N17.9"
+    ],
+    "blocks_autonomy": true
+   }
+  ],
+  "queries": [
+   {
+    "issue": "Creatinine rose from 1.6 to 2.5 during diuresis, and diuretics and ARNI were held. No provider documents AKI or a cause such as diuresis-related renal insufficiency. Query whether AKI (N17.9) was present.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "Cr 1.6 on admission (day 1)",
+      "finding_id": "F17"
+     },
+     {
+      "text": "Cr 2.5 on day 4, up from 1.9 the previous day and 1.6 on admission",
+      "finding_id": "F30"
+     },
+     {
+      "text": "Creatinine rose to 2.5 on HD3 with diuresis; furosemide, spironolactone and sacubitril/valsartan were held for 24 h and creatinine improved to 1.8",
+      "finding_id": "F34"
+     }
+    ],
+    "question": "Based on your clinical judgment and the indicators above, please clarify the diagnosis, if any, that best describes the change in this patient's renal function during the hospital stay.",
+    "options": [
+     "Acute kidney injury (please specify suspected cause or etiology, if known)",
+     "Expected fluctuation in creatinine related to diuresis, without acute kidney injury",
+     "Chronic kidney disease with expected variation (please specify stage, if known)",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  ],
+  "drg": {
+   "family": "hf",
+   "number": "291",
+   "title": "Heart failure and shock w MCC",
+   "weight": 1.34,
+   "tier": "MCC",
+   "drivers": [
+    "I50.23"
+   ]
+  },
+  "confidence": 0.44,
+  "confidence_base": 0.88,
+  "blocking_issues": 2,
+  "blocking_reasons": [
+   "query_opportunity: Creatinine rose from 1.6 to 2.5 during diuresis, and diuretics and ARNI were held. No provider documents AKI or a cause such as diuresis-related renal insufficiency. Query whether AKI (N17.9) was present.",
+   "query_opportunity: Cr rose 1.6 to 2.5 (about 1.56x baseline) with diuretic and ARNI holds and monitoring, but no provider documents AKI; query for the clinical significance and diagnosis. The coder correctly flagged this and did not code N17.9 from the labs alone."
+  ],
+  "stages": [
+   {
+    "stage": "triage",
+    "model": null,
+    "started": 0,
+    "ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cost_usd": 0
+   },
+   {
+    "stage": "evidence",
+    "model": "claude-haiku-4-5",
+    "started": 0,
+    "ms": 21119,
+    "input_tokens": 3630,
+    "output_tokens": 2709,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01717
+   },
+   {
+    "stage": "coder",
+    "model": "claude-sonnet-5-5",
+    "started": 21119,
+    "ms": 12332,
+    "input_tokens": 16246,
+    "output_tokens": 1494,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.04743
+   },
+   {
+    "stage": "critic",
+    "model": "claude-sonnet-5-5",
+    "started": 33451,
+    "ms": 7602,
+    "input_tokens": 7491,
+    "output_tokens": 832,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.0233
+   },
+   {
+    "stage": "query",
+    "model": "claude-sonnet-5-5",
+    "started": 41053,
+    "ms": 3455,
+    "input_tokens": 974,
+    "output_tokens": 344,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.00539
+   }
+  ],
+  "events": [
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "stage_start"
+   },
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "output",
+    "documents": [
+     {
+      "id": "d1",
+      "type": "ED note",
+      "author_role": "provider",
+      "timestamp": "2026-09-20T09:05",
+      "words": 149,
+      "flags": []
+     },
+     {
+      "id": "d2",
+      "type": "H&P",
+      "author_role": "provider",
+      "timestamp": "2026-09-20T13:15",
+      "words": 218,
+      "flags": []
+     },
+     {
+      "id": "d3",
+      "type": "Consult",
+      "author_role": "consultant",
+      "timestamp": "2026-09-21T10:30",
+      "words": 164,
+      "flags": []
+     },
+     {
+      "id": "d4",
+      "type": "Progress note",
+      "author_role": "provider",
+      "timestamp": "2026-09-22T11:40",
+      "words": 100,
+      "flags": []
+     },
+     {
+      "id": "d5",
+      "type": "Lab summary",
+      "author_role": "lab",
+      "timestamp": "2026-09-24T06:30",
+      "words": 51,
+      "flags": []
+     },
+     {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author_role": "provider",
+      "timestamp": "2026-09-24T12:20",
+      "words": 153,
+      "flags": [
+       "discharge"
+      ]
+     }
+    ]
+   },
+   {
+    "t": 0,
+    "stage": "evidence",
+    "type": "stage_start",
+    "model": "anthropic:claude-haiku-4-5"
+   },
+   {
+    "t": 21119,
+    "stage": "evidence",
+    "type": "output",
+    "findings": [
+     {
+      "id": "F1",
+      "condition": "Heart failure with reduced ejection fraction (HFrEF)",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "66M with HFrEF (EF 25%)",
+      "note": null,
+      "start": 31,
+      "end": 54
+     },
+     {
+      "id": "F2",
+      "condition": "Left ventricular ejection fraction (LVEF) 25%",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "HFrEF (EF 25%)",
+      "note": null,
+      "start": 40,
+      "end": 54
+     },
+     {
+      "id": "F3",
+      "condition": "Chronic kidney disease stage 3b",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "CKD 3b",
+      "note": null,
+      "start": 56,
+      "end": 62
+     },
+     {
+      "id": "F4",
+      "condition": "Hypertension",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "HTN",
+      "note": null,
+      "start": 64,
+      "end": 67
+     },
+     {
+      "id": "F5",
+      "condition": "Type 2 diabetes mellitus, insulin-treated",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "insulin-treated T2DM",
+      "note": null,
+      "start": 69,
+      "end": 89
+     },
+     {
+      "id": "F6",
+      "condition": "Obstructive sleep apnea",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "OSA",
+      "note": null,
+      "start": 94,
+      "end": 97
+     },
+     {
+      "id": "F7",
+      "condition": "Dyspnea on exertion, progressive over 1 week",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "1 week of progressive DOE, now SOB walking to the mailbox",
+      "note": null,
+      "start": 112,
+      "end": 169
+     },
+     {
+      "id": "F8",
+      "condition": "Orthopnea, 3-pillow",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "3-pillow orthopnea",
+      "note": null,
+      "start": 171,
+      "end": 189
+     },
+     {
+      "id": "F9",
+      "condition": "Paroxysmal nocturnal dyspnea",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "PND",
+      "note": null,
+      "start": 191,
+      "end": 194
+     },
+     {
+      "id": "F10",
+      "condition": "Lower extremity edema with 10 lb weight gain",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "leg swelling. Home scale up 10 lb",
+      "note": null,
+      "start": 199,
+      "end": 232
+     },
+     {
+      "id": "F11",
+      "condition": "Jugular venous distention to angle of jaw",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "JVD to angle of jaw",
+      "note": null,
+      "start": 446,
+      "end": 465
+     },
+     {
+      "id": "F12",
+      "condition": "Bibasilar crackles",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Bibasilar crackles halfway up",
+      "note": null,
+      "start": 467,
+      "end": 496
+     },
+     {
+      "id": "F13",
+      "condition": "S3 gallop",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "S3",
+      "note": null,
+      "start": 498,
+      "end": 500
+     },
+     {
+      "id": "F14",
+      "condition": "3+ pitting edema to knees",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "3+ pitting edema to knees",
+      "note": null,
+      "start": 502,
+      "end": 527
+     },
+     {
+      "id": "F15",
+      "condition": "BNP 2,900 pg/mL",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "BNP 2,900",
+      "note": null,
+      "start": 536,
+      "end": 545
+     },
+     {
+      "id": "F16",
+      "condition": "Hypoxemia on room air (SpO2 93%), improved with supplemental oxygen",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "SpO2 93% RA -> 96% on 2 L NC",
+      "note": null,
+      "start": 366,
+      "end": 394
+     },
+     {
+      "id": "F17",
+      "condition": "Elevated creatinine 1.6 mg/dL on admission",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Cr 1.6",
+      "note": null,
+      "start": 589,
+      "end": 595
+     },
+     {
+      "id": "F18",
+      "condition": "Hyperglycemia with glucose 214 mg/dL",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Glu 214",
+      "note": null,
+      "start": 597,
+      "end": 604
+     },
+     {
+      "id": "F19",
+      "condition": "Cardiomegaly",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "CXR: cardiomegaly",
+      "note": null,
+      "start": 659,
+      "end": 676
+     },
+     {
+      "id": "F20",
+      "condition": "Pulmonary vascular congestion",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "pulmonary vascular congestion",
+      "note": null,
+      "start": 678,
+      "end": 707
+     },
+     {
+      "id": "F21",
+      "condition": "Small bilateral pleural effusions",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "small bilateral effusions",
+      "note": null,
+      "start": 709,
+      "end": 734
+     },
+     {
+      "id": "F22",
+      "condition": "CHF exacerbation (acute decompensation)",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "CHF exacerbation",
+      "note": null,
+      "start": 757,
+      "end": 773
+     },
+     {
+      "id": "F23",
+      "condition": "Diabetic chronic kidney disease",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "CKD stage 3b (baseline Cr 1.5-1.7, eGFR ~40), attributed to diabetes and hypertension. T2DM with diabetic CKD",
+      "note": null,
+      "start": 192,
+      "end": 301
+     },
+     {
+      "id": "F24",
+      "condition": "Hemoglobin A1c 7.9% (08/2026)",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "A1c 7.9% 08/2026",
+      "note": null,
+      "start": 315,
+      "end": 331
+     },
+     {
+      "id": "F25",
+      "condition": "Hyperlipidemia",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Hyperlipidemia",
+      "note": null,
+      "start": 339,
+      "end": 353
+     },
+     {
+      "id": "F26",
+      "condition": "NYHA Class III-IV heart failure symptoms",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "NYHA III-IV symptoms for 1 week",
+      "note": null,
+      "start": 233,
+      "end": 264
+     },
+     {
+      "id": "F27",
+      "condition": "Global left ventricular hypokinesis with dilated LV",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "LVEF 25%, global hypokinesis, LV dilated",
+      "note": null,
+      "start": 286,
+      "end": 326
+     },
+     {
+      "id": "F28",
+      "condition": "Normal right ventricular function",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "normal RV function",
+      "note": null,
+      "start": 328,
+      "end": 346
+     },
+     {
+      "id": "F29",
+      "condition": "Volume overload approximately 5 kg above dry weight",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "volume overloaded ~5 kg above dry weight",
+      "note": null,
+      "start": 567,
+      "end": 607
+     },
+     {
+      "id": "F30",
+      "condition": "Acute kidney injury (worsening creatinine during diuresis)",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "Cr 2.5 (1.9 yesterday, 1.6 on admission)",
+      "note": null,
+      "start": 191,
+      "end": 231
+     },
+     {
+      "id": "F31",
+      "condition": "Elevated BUN 58 mg/dL on hospital day 3",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "BUN 58",
+      "note": null,
+      "start": 233,
+      "end": 239
+     },
+     {
+      "id": "F32",
+      "condition": "Potassium 4.9 mEq/L (high-normal)",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "K 4.9",
+      "note": null,
+      "start": 241,
+      "end": 246
+     },
+     {
+      "id": "F33",
+      "condition": "BNP 1,180 pg/mL on hospital day 4",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "09/23 1,180 pg/mL",
+      "note": null,
+      "start": 321,
+      "end": 338
+     },
+     {
+      "id": "F34",
+      "condition": "Creatinine peaked at 2.5 mg/dL on hospital day 3, improved to 1.8 by discharge",
+      "assertion": "affirmed",
+      "doc_id": "d6",
+      "quote": "Creatinine rose to 2.5 on HD3 with diuresis; furosemide, spironolactone and sacubitril/valsartan were held for 24 h and creatinine improved to 1.8",
+      "note": null,
+      "start": 437,
+      "end": 583
+     },
+     {
+      "id": "F35",
+      "condition": "Diuresis achieved net -5.8 L over hospitalization",
+      "assertion": "affirmed",
+      "doc_id": "d6",
+      "quote": "Diuresed with IV furosemide, net -5.8 L",
+      "note": null,
+      "start": 330,
+      "end": 369
+     },
+     {
+      "id": "F36",
+      "condition": "Weight reduction from 97.3 kg to 92.6 kg",
+      "assertion": "affirmed",
+      "doc_id": "d6",
+      "quote": "weight 97.3 -> 92.6 kg",
+      "note": null,
+      "start": 371,
+      "end": 393
+     },
+     {
+      "id": "F37",
+      "condition": "Off supplemental oxygen since hospital day 2",
+      "assertion": "affirmed",
+      "doc_id": "d6",
+      "quote": "Off O2 since HD2",
+      "note": null,
+      "start": 635,
+      "end": 651
+     }
+    ]
+   },
+   {
+    "t": 21119,
+    "stage": "coder",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "thinking",
+    "text": "I'm working through the coding: principal diagnosis as hypertensive heart and CKD with heart failure (I13.0), then acute on chronic systolic HF (I50.23), CKD stage (N18.32), diabetes with CKD (E11.22) plus insulin use (Z79.4), hyperlipidemia (E78.5), and OSA (G47.33) \u2014 noting AKI isn't documented by the provider as a diagnosis.\n\nAcute kidney injury shows up only as a lab finding, not a physician diagnosis, so that's a query opportunity rather than something codeable. I'm also considering whether both Z79.4 and Z79.84 apply given the combination of insulin and oral hypoglycemic/empagliflozin us"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "I13.0"
+    },
+    "id": "toolu_01KcZMr7cXRFVyJb7uZEpgcF"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "I50.23"
+    },
+    "id": "toolu_01K4XLhjavGeDFV4uaZtFU63"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "N18.32"
+    },
+    "id": "toolu_018PmRbXxWifokLiMjszt25m"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E11.22"
+    },
+    "id": "toolu_016YpqrUUguUnJ5JL374Fja8"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "Z79.4"
+    },
+    "id": "toolu_015pwtqpZhinqqcC3Z9YKkdT"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E78.5"
+    },
+    "id": "toolu_01EMaVgTBK11AbsvJVSoHFYp"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "G47.33"
+    },
+    "id": "toolu_01EzmU6UTurtuYVNxSRZqSzq"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "Z79.84"
+    },
+    "id": "toolu_01UaZdWiZD3JtUhGG7iAL7Xf"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01KcZMr7cXRFVyJb7uZEpgcF",
+    "result": "I13.0: Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease (billable)"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01K4XLhjavGeDFV4uaZtFU63",
+    "result": "I50.23: Acute on chronic systolic (congestive) heart failure (billable)"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_018PmRbXxWifokLiMjszt25m",
+    "result": "N18.32: Chronic kidney disease, stage 3b (billable)"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_016YpqrUUguUnJ5JL374Fja8",
+    "result": "E11.22: Type 2 diabetes mellitus with diabetic chronic kidney disease (billable)"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_015pwtqpZhinqqcC3Z9YKkdT",
+    "result": "Z79.4: Long term (current) use of insulin (billable)"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01EMaVgTBK11AbsvJVSoHFYp",
+    "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01EzmU6UTurtuYVNxSRZqSzq",
+    "result": "G47.33: Obstructive sleep apnea (adult) (pediatric) (billable)"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01UaZdWiZD3JtUhGG7iAL7Xf",
+    "result": "Z79.84: Long term (current) use of oral hypoglycemic drugs (billable)"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "text",
+    "text": "{\"pdx\":{\"code\":\"I13.0\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F3\",\"F4\",\"F22\"],\"confidence\":0.85,\"rationale\":\"Hypertension, heart failure and CKD are presumed related (OCG I.C.9.a), so the combination code I13.0 is sequenced first as the reason for admission.\"},\"secondary\":[{\"code\":\"I50.23\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F22\",\"F26\",\"F29\"],\"confidence\":0.9,\"rationale\":\"The cardiology consult documents acute on chronic systolic HF (HFrEF). I13.0 requires an additional code for the HF type.\"},{\"code\":\"N18.32\",\"poa\":\"Y\",\"finding_ids\":[\"F3\",\"F23\"],\"confidence\":0.92,\"rationale\":\"CKD stage 3b is documented. I"
+   },
+   {
+    "t": 33451,
+    "stage": "coder",
+    "type": "output",
+    "draft": {
+     "pdx": {
+      "code": "I13.0",
+      "poa": "Y",
+      "finding_ids": [
+       "F1",
+       "F3",
+       "F4",
+       "F22"
+      ],
+      "confidence": 0.85,
+      "rationale": "Hypertension, heart failure and CKD are presumed related (OCG I.C.9.a), so the combination code I13.0 is sequenced first as the reason for admission."
+     },
+     "secondary": [
+      {
+       "code": "I50.23",
+       "poa": "Y",
+       "finding_ids": [
+        "F1",
+        "F22",
+        "F26",
+        "F29"
+       ],
+       "confidence": 0.9,
+       "rationale": "The cardiology consult documents acute on chronic systolic HF (HFrEF). I13.0 requires an additional code for the HF type."
+      },
+      {
+       "code": "N18.32",
+       "poa": "Y",
+       "finding_ids": [
+        "F3",
+        "F23"
+       ],
+       "confidence": 0.92,
+       "rationale": "CKD stage 3b is documented. I13.0 requires an additional code for the CKD stage."
+      },
+      {
+       "code": "E11.22",
+       "poa": "Y",
+       "finding_ids": [
+        "F5",
+        "F23"
+       ],
+       "confidence": 0.9,
+       "rationale": "The provider documents T2DM with diabetic CKD."
+      },
+      {
+       "code": "Z79.4",
+       "poa": "Y",
+       "finding_ids": [
+        "F5"
+       ],
+       "confidence": 0.9,
+       "rationale": "The patient is on long-term insulin (glargine)."
+      },
+      {
+       "code": "Z79.84",
+       "poa": "Y",
+       "finding_ids": [
+        "F5"
+       ],
+       "confidence": 0.6,
+       "rationale": "The patient takes empagliflozin, an oral hypoglycemic, along with insulin."
+      },
+      {
+       "code": "E78.5",
+       "poa": "Y",
+       "finding_ids": [
+        "F25"
+       ],
+       "confidence": 0.9,
+       "rationale": "Hyperlipidemia is documented and treated with atorvastatin."
+      },
+      {
+       "code": "G47.33",
+       "poa": "Y",
+       "finding_ids": [
+        "F6"
+       ],
+       "confidence": 0.9,
+       "rationale": "OSA is documented and treated with CPAP."
+      }
+     ],
+     "issues": [
+      {
+       "kind": "query_opportunity",
+       "summary": "Creatinine rose from 1.6 to 2.5 during diuresis, and diuretics and ARNI were held. No provider documents AKI or a cause such as diuresis-related renal insufficiency. Query whether AKI (N17.9) was present.",
+       "finding_ids": [
+        "F30",
+        "F34",
+        "F17"
+       ],
+       "guideline": "AHIMA/ACDIS query practice",
+       "impact": "severity",
+       "codes": [
+        "N17.9"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "t": 33451,
+    "stage": "critic",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 41053,
+    "stage": "critic",
+    "type": "text",
+    "text": "{\"reviews\":[{\"code\":\"I13.0\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"HTN, HF and CKD stage 3b are all documented and presumed related per OCG I.C.9.a, with no provider documentation of another cause. Admission was for HF exacerbation, so I13.0 is the correct principal.\"},{\"code\":\"I50.23\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"Cardiology documents acute on chronic systolic HF (HFrEF, EF 25%). The attending's 'CHF exacerbation' is consistent with this and the discharge summary does not conflict.\"},{\"code\":\"N18.32\",\"verdict\":\"supported\",\"confidence\":0.93,\"reason\":\"CKD stage 3b"
+   },
+   {
+    "t": 41053,
+    "stage": "critic",
+    "type": "output",
+    "critique": {
+     "reviews": [
+      {
+       "code": "I13.0",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "HTN, HF and CKD stage 3b are all documented and presumed related per OCG I.C.9.a, with no provider documentation of another cause. Admission was for HF exacerbation, so I13.0 is the correct principal."
+      },
+      {
+       "code": "I50.23",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "Cardiology documents acute on chronic systolic HF (HFrEF, EF 25%). The attending's 'CHF exacerbation' is consistent with this and the discharge summary does not conflict."
+      },
+      {
+       "code": "N18.32",
+       "verdict": "supported",
+       "confidence": 0.93,
+       "reason": "CKD stage 3b is documented consistently in the H&P, consult, progress note and discharge summary."
+      },
+      {
+       "code": "E11.22",
+       "verdict": "supported",
+       "confidence": 0.92,
+       "reason": "The attending explicitly documents T2DM with diabetic CKD, and the discharge summary carries it forward."
+      },
+      {
+       "code": "Z79.4",
+       "verdict": "supported",
+       "confidence": 0.92,
+       "reason": "Long-term insulin use is documented (glargine at home and at discharge)."
+      },
+      {
+       "code": "Z79.84",
+       "verdict": "supported",
+       "confidence": 0.8,
+       "reason": "Empagliflozin is a home medication and was resumed at discharge. Per OCG I.C.4.a.3, Z79.84 may be reported with Z79.4 when the patient also takes an oral hypoglycemic. Empagliflozin is also used for HF, but it is listed under diabetes management here, so this is a minor point."
+      },
+      {
+       "code": "E78.5",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "Hyperlipidemia is documented by the provider and treated with atorvastatin."
+      },
+      {
+       "code": "G47.33",
+       "verdict": "supported",
+       "confidence": 0.92,
+       "reason": "OSA is documented and treated with CPAP."
+      }
+     ],
+     "pdx_ok": true,
+     "pdx_alternative": null,
+     "missed": [
+      {
+       "kind": "query_opportunity",
+       "summary": "Cr rose 1.6 to 2.5 (about 1.56x baseline) with diuretic and ARNI holds and monitoring, but no provider documents AKI; query for the clinical significance and diagnosis. The coder correctly flagged this and did not code N17.9 from the labs alone.",
+       "finding_ids": [
+        "F30",
+        "F34"
+       ],
+       "guideline": "AHIMA/ACDIS query practice",
+       "impact": "severity",
+       "codes": [
+        "N17.9"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "t": 41053,
+    "stage": "grouper",
+    "type": "output",
+    "family": "hf",
+    "drg": "291",
+    "title": "Heart failure and shock w MCC",
+    "weight": 1.34,
+    "tier": "MCC",
+    "drivers": [
+     "I50.23"
+    ]
+   },
+   {
+    "t": 41053,
+    "stage": "router",
+    "type": "output",
+    "base": 0.88,
+    "blocking": 2,
+    "reasons": [
+     "query_opportunity: Creatinine rose from 1.6 to 2.5 during diuresis, and diuretics and ARNI were held. No provider documents AKI or a cause such as diuresis-related renal insufficiency. Query whether AKI (N17.9) was present.",
+     "query_opportunity: Cr rose 1.6 to 2.5 (about 1.56x baseline) with diuretic and ARNI holds and monitoring, but no provider documents AKI; query for the clinical significance and diagnosis. The coder correctly flagged this and did not code N17.9 from the labs alone."
+    ],
+    "confidence": 0.44
+   },
+   {
+    "t": 41053,
+    "stage": "query",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5",
+    "issue": "Creatinine rose from 1.6 to 2.5 during diuresis, and diuretics and ARNI were held. No provider documents AKI or a cause such as diuresis-related renal insufficiency. Query whether AKI (N17.9) was present."
+   },
+   {
+    "t": 44508,
+    "stage": "query",
+    "type": "text",
+    "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"Cr 1.6 on admission (day 1)\",\"finding_id\":\"F17\"},{\"text\":\"Cr 2.5 on day 4, up from 1.9 the previous day and 1.6 on admission\",\"finding_id\":\"F30\"},{\"text\":\"Creatinine rose to 2.5 on HD3 with diuresis; furosemide, spironolactone and sacubitril/valsartan were held for 24 h and creatinine improved to 1.8\",\"finding_id\":\"F34\"}],\"question\":\"Based on your clinical judgment and the indicators above, please clarify the diagnosis, if any, that best describes the change in this patient's renal function during the hospital stay.\",\"options\":[\"Acute"
+   },
+   {
+    "t": 44508,
+    "stage": "query",
+    "type": "output",
+    "query": {
+     "issue": "Creatinine rose from 1.6 to 2.5 during diuresis, and diuretics and ARNI were held. No provider documents AKI or a cause such as diuresis-related renal insufficiency. Query whether AKI (N17.9) was present.",
+     "to": "Attending physician",
+     "clinical_indicators": [
+      {
+       "text": "Cr 1.6 on admission (day 1)",
+       "finding_id": "F17"
+      },
+      {
+       "text": "Cr 2.5 on day 4, up from 1.9 the previous day and 1.6 on admission",
+       "finding_id": "F30"
+      },
+      {
+       "text": "Creatinine rose to 2.5 on HD3 with diuresis; furosemide, spironolactone and sacubitril/valsartan were held for 24 h and creatinine improved to 1.8",
+       "finding_id": "F34"
+      }
+     ],
+     "question": "Based on your clinical judgment and the indicators above, please clarify the diagnosis, if any, that best describes the change in this patient's renal function during the hospital stay.",
+     "options": [
+      "Acute kidney injury (please specify suspected cause or etiology, if known)",
+      "Expected fluctuation in creatinine related to diuresis, without acute kidney injury",
+      "Chronic kidney disease with expected variation (please specify stage, if known)",
+      "Other (please specify)",
+      "Clinically undetermined"
+     ],
+     "lint": []
+    }
+   }
+  ],
+  "ms": 44508,
+  "cost_usd": 0.09329
+ },
+ "baseline": {
+  "case_id": "enc-03",
+  "codes": [
+   {
+    "code": "I13.0",
+    "poa": "Y",
+    "role": "pdx",
+    "valid": true,
+    "description": "Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",
+    "confidence": 0.6
+   },
+   {
+    "code": "I50.23",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Acute on chronic systolic (congestive) heart failure",
+    "confidence": 0.6
+   },
+   {
+    "code": "N18.32",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Chronic kidney disease, stage 3b",
+    "confidence": 0.6
+   },
+   {
+    "code": "E11.22",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease",
+    "confidence": 0.6
+   },
+   {
+    "code": "Z79.4",
+    "poa": "exempt",
+    "role": "secondary",
+    "valid": true,
+    "description": "Long term (current) use of insulin",
+    "confidence": 0.6
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Hyperlipidemia, unspecified",
+    "confidence": 0.6
+   },
+   {
+    "code": "G47.33",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Obstructive sleep apnea (adult) (pediatric)",
+    "confidence": 0.6
+   },
+   {
+    "code": "E11.65",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Type 2 diabetes mellitus with hyperglycemia",
+    "confidence": 0.6
+   },
+   {
+    "code": "Z79.899",
+    "poa": "exempt",
+    "role": "secondary",
+    "valid": true,
+    "description": "Other long term (current) drug therapy",
+    "confidence": 0.6
+   }
+  ],
+  "drg": {
+   "family": "hf",
+   "number": "291",
+   "weight": 1.34,
+   "tier": "MCC",
+   "drivers": [
+    "I50.23"
+   ]
+  },
+  "confidence": 0.3,
+  "needs_human": true,
+  "reason": "Cr rose from 1.6 to 2.5 (about 1.56x baseline, +0.9 mg/dL) during diuresis, meeting KDIGO AKI criteria, but no provider documented AKI, so N17.9 was not coded. A query is recommended. Documentation of E11.65 hyperglycemia is also weak (glucose 214 with no provider diagnosis), so consider removing it. The heart failure type is documented only by cardiology (acute on chronic systolic), while the attending says only 'CHF exacerbation'; this is acceptable for I50.23 but worth confirming. Also confirm the Z-code POA exempt handling.",
+  "ms": 3898,
+  "cost_usd": 0.0115,
+  "input_tokens": 3725,
+  "output_tokens": 405
+ },
+ "score": {
+  "id": "enc-03",
+  "title": "Heart failure, cardiology specificity, unnamed creatinine rise",
+  "summary": "A man with a weak heart and kidney disease was admitted for fluid overload; only the cardiologist spelled out the type of heart failure, and his kidney numbers rose mid-stay without any doctor naming a diagnosis.",
+  "family": "hf",
+  "hero": true,
+  "traps": [
+   "consultant_specificity",
+   "combination_code",
+   "lab_only"
+  ],
+  "gold_route": "coder",
+  "gold_drg": "291",
+  "pred_drg": "291",
+  "gold_weight": 1.34,
+  "pred_weight": 1.34,
+  "confidence": 0.44,
+  "tp": 8,
+  "fp": 0,
+  "fn": 0,
+  "fp_codes": [],
+  "fn_codes": [],
+  "cc_tp": 1,
+  "cc_fp": 0,
+  "cc_fn": 0,
+  "pdx_ok": true,
+  "drg_ok": true,
+  "overcoded": false,
+  "undercoded": false,
+  "invalid_codes": [],
+  "citations": 37,
+  "citations_located": 37,
+  "queries": 1,
+  "queries_lint_clean": 1,
+  "cost_usd": 0.09329,
+  "ms": 44508
+ }
+}

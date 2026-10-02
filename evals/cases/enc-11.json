@@ -1,0 +1,101 @@
+{
+  "id": "enc-11",
+  "title": "Pneumonia, consultant names respiratory failure",
+  "summary": "Pneumonia where the admitting doctor wrote only 'hypoxia', but the lung specialist and later notes diagnose acute respiratory failure, which is the more specific diagnosis to code.",
+  "family": "pneumonia",
+  "patient": {
+    "age": 68,
+    "sex": "M"
+  },
+  "admit_date": "2026-09-10",
+  "discharge_date": "2026-09-14",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "C. Romero, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-10T07:45",
+      "text": "CC: SOB, cough, fever.\nHPI: 68M with HTN, HLD, BPH, R knee OA, former smoker (35 pk-yr, quit 2014) presents with 4 days of cough with yellow sputum, fevers, and worsening SOB since last night; now dyspneic speaking in short phrases.\nROS: + fever, chills, cough, dyspnea. Denies CP, hemoptysis, leg swelling, recent travel.\nVitals: T 38.8C, HR 108, RR 30, BP 138/82, SpO2 84% RA.\nExam: Tachypneic, using accessory muscles (SCM retractions). Crackles L base with egophony. RRR. No edema.\nLabs: WBC 15.9, Hgb 14.2, Plt 288. BMP: Na 137, K 3.9, Cr 1.0, glucose 128. Lactate 1.6. Procalcitonin 1.8. Flu/COVID/RSV PCR negative.\nCXR (my read): LLL consolidation.\nMDM: CAP, LLL. Hypoxic on RA, placed on 4L NC with SpO2 90%. Ceftriaxone + azithromycin. Admit to medicine, step-down level."
+    },
+    {
+      "id": "d2",
+      "type": "Radiology",
+      "author": "P. Iversen, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-10T08:30",
+      "text": "EXAM: XR chest portable AP.\nFINDINGS: Lobar consolidation left lower lobe with air bronchograms. No pleural effusion or pneumothorax. Right lung clear. Cardiomediastinal silhouette normal. Emphysematous changes not well evaluated on portable technique.\nIMPRESSION: Left lower lobe pneumonia."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "T. Nakamura, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-10T10:20",
+      "text": "HPI: As per ED. 68M with 4d productive cough and fever, now with SOB. SpO2 84% RA in ED, 90% on 4L NC.\nPMH: HTN, HLD, BPH, OA R knee. Former smoker, quit 2014.\nMeds: amlodipine 10 mg, atorvastatin 40 mg, tamsulosin 0.4 mg qHS, acetaminophen PRN knee pain.\nExam: T 38.5, HR 104, RR 26, BP 134/80, SpO2 91% 4L NC. Crackles LLL.\nAssessment/Plan:\n1. LLL community-acquired pneumonia - ceftriaxone 1 g daily + azithromycin 500 mg daily. Sputum/blood cx. Legionella/pneumococcal Ag.\n2. Hypoxia - on 4L NC, titrate to SpO2 > 90%, wean as tolerated.\n3. HTN - continue amlodipine.\n4. HLD - continue atorvastatin.\n5. BPH - continue tamsulosin; no LUTS currently.\n6. OA R knee - acetaminophen PRN.\nDVT ppx: enoxaparin. Code: Full."
+    },
+    {
+      "id": "d4",
+      "type": "Consult",
+      "author": "R. Desai, MD (Pulmonology)",
+      "author_role": "consultant",
+      "timestamp": "2026-09-10T16:50",
+      "text": "Reason for consult: worsening oxygenation.\nHPI: 68M admitted this AM with LLL CAP. Rapid response called 15:30 for SpO2 86% on 4L NC, RR 32, increased work of breathing.\nExam: Anxious, speaking 3-4 word sentences, accessory muscle use with intercostal retractions. RR 30. Bronchial breath sounds LLL. No wheeze. No stridor.\nABG on 4L NC: pH 7.46 / pCO2 33 / pO2 54 / HCO3 23. P/F approx 150.\nBedside US: A-lines R, consolidation with dynamic air bronchograms LLL, no effusion.\nAssessment:\n1. Acute hypoxic respiratory failure secondary to LLL community-acquired pneumonia. SpO2 84% RA on presentation, RR 30, accessory muscle use, pO2 54 on 4L NC.\n2. LLL CAP - agree with current antibiotics.\n3. Remote tobacco use; no prior PFTs. No clinical evidence of obstructive lung disease on exam; will not label COPD without spirometry.\nRecommendations:\n- Escalate to high-flow nasal cannula 40 L/min, FiO2 50%, goal SpO2 92-96%.\n- Continue ceftriaxone/azithro.\n- Low threshold for ICU transfer / BiPAP if worsening; not currently requiring intubation.\n- Outpatient PFTs after recovery."
+    },
+    {
+      "id": "d5",
+      "type": "Progress note",
+      "author": "T. Nakamura, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-11T09:05",
+      "text": "S: Overnight on HFNC, work of breathing improved. Still coughing.\nO: T 37.9, HR 94, RR 22, BP 128/76. SpO2 94% on HFNC 30 L/40%. Crackles LLL. WBC 13.2. Blood cx NGTD. Urine Ag negative.\nA/P:\n1. Acute hypoxic respiratory failure due to LLL pneumonia - agree with pulmonology. Improving; weaning HFNC, goal transition to NC today.\n2. LLL CAP - continue ceftriaxone/azithro.\n3. HTN, HLD, BPH, OA - home meds."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "T. Nakamura, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-14T10:40",
+      "text": "Admit: 09/10/2026  Discharge: 09/14/2026\nDischarge diagnoses:\n1. Left lower lobe community-acquired pneumonia, organism not identified\n2. Acute hypoxic respiratory failure secondary to #1, resolved\n3. Hypertension\n4. Hyperlipidemia\n5. BPH\n6. Osteoarthritis, right knee\nHospital course: Presented with fever, productive cough and SpO2 84% RA. Required escalation to HFNC (max 40 L/50%) on day 1 per pulmonology for acute hypoxic respiratory failure; weaned to 2L NC on day 2 and to room air on day 3 (SpO2 94% RA at rest and ambulation). Treated with ceftriaxone/azithromycin, transitioned to PO amoxicillin-clavulanate. Cultures negative.\nDischarge meds: amoxicillin-clavulanate 875 mg BID x4 days; home amlodipine, atorvastatin, tamsulosin.\nFollow-up: PCP 1 week; pulmonology with PFTs and repeat CXR in 6-8 weeks."
+    }
+  ],
+  "gold": {
+    "pdx": "J18.9",
+    "secondary": [
+      {
+        "code": "J96.01",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "N40.0",
+        "poa": "Y"
+      },
+      {
+        "code": "M17.11",
+        "poa": "Y"
+      },
+      {
+        "code": "Z87.891",
+        "poa": "1"
+      }
+    ],
+    "drg": "193",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [
+      "consultant_specificity",
+      "symptom_integral"
+    ],
+    "explanation": "The attending's H&P lists only 'hypoxia', but the pulmonology consult documents acute hypoxic respiratory failure with clinical support (SpO2 84% RA, RR 30, accessory muscles, pO2 54, HFNC), and the attending's next progress note and discharge summary agree. Consultant documentation is codable when it doesn't conflict with the attending, so J96.01 is assigned and hypoxia (R09.02), dyspnea and cough are not coded as they are integral to the respiratory failure and pneumonia. A naive system codes R09.02 from the H&P and misses the MCC; it also should not code COPD, which the pulmonologist explicitly declined to diagnose."
+  },
+  "hero": false
+}

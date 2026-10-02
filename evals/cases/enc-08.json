@@ -1,0 +1,110 @@
+{
+  "id": "enc-08",
+  "title": "Kidney injury from dehydration after a stomach bug",
+  "summary": "An older woman became dehydrated from a stomach virus, which strained her kidneys and dropped her sodium; she recovered with IV fluids.",
+  "hero": false,
+  "family": "aki",
+  "patient": {
+    "age": 74,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-25",
+  "discharge_date": "2026-09-28",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "H. Castillo, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-25T12:50",
+      "text": "CC: Vomiting, diarrhea, lightheaded.\n\nHPI: 74F with HTN, T2DM and HLD with 3 days of nonbloody watery diarrhea (6-8/day) and vomiting, unable to keep fluids down x24 h. Husband had the same illness last week, now recovered. Lightheaded on standing. No abd pain, fever, or recent antibiotics.\n\nVitals: T 37.4, HR 104, BP 102/58 (orthostatic drop to 84/50 standing), RR 18, SpO2 98% RA.\nExam: Dry mucous membranes, poor skin turgor. Abd soft, hyperactive BS, nontender.\n\nLabs: Na 128, K 3.7, Cl 94, HCO3 20, BUN 52, Cr 2.3 (baseline 0.8, 04/2026), Glu 162. WBC 9.1. Lipase normal. UA: SG 1.030, no infection.\n\nAssessment/Plan:\n1. AKI, likely prerenal from dehydration due to gastroenteritis. 2 L NS bolus, ondansetron.\n2. Hyponatremia.\nDispo: Admit to medicine."
+    },
+    {
+      "id": "d2",
+      "type": "H&P",
+      "author": "R. Iqbal, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-25T17:20",
+      "text": "HISTORY AND PHYSICAL\n\nHPI: See ED. Tolerating sips after ondansetron.\n\nPMH: HTN. T2DM (A1c 6.9%, no complications). HLD.\nMeds: lisinopril/HCTZ 20/12.5 mg daily, metformin 500 mg BID, simvastatin 20 mg qHS.\n\nExam: HR 96, BP 112/64, mucosa dry. Abd benign.\n\nAssessment/Plan:\n1. Acute kidney injury - prerenal, due to dehydration from viral gastroenteritis. Cr 2.3 from baseline 0.8. NS at 125 mL/h, hold lisinopril/HCTZ and metformin, strict I/O, BMP q12h.\n2. Dehydration - IV fluids as above.\n3. Hyponatremia, hypovolemic - Na 128 from GI losses; isotonic fluids, goal correction <8 mEq/L per 24 h.\n4. Viral gastroenteritis - likely norovirus given sick contact; supportive care, ondansetron PRN, advance diet. Stool studies not indicated.\n5. T2DM - hold metformin; correction scale insulin.\n6. HTN - hold antihypertensives while hypovolemic.\n7. HLD - continue simvastatin."
+    },
+    {
+      "id": "d3",
+      "type": "Nursing note",
+      "author": "K. Osborne, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-25T22:40",
+      "text": "Pt resting, husband at bedside. NS infusing at 125 mL/h. No emesis since arrival on unit; one loose watery stool at 20:15. Tolerating clear liquids and crackers. Orthostatic vitals: lying BP 118/66 HR 88, standing BP 104/60 HR 102, mildly lightheaded on standing; fall precautions and call light within reach. Voided 300 mL concentrated urine."
+    },
+    {
+      "id": "d4",
+      "type": "Dietitian note",
+      "author": "S. Mahmoud, RD",
+      "author_role": "dietitian",
+      "timestamp": "2026-09-26T13:15",
+      "text": "Nutrition screen triggered by poor PO intake x3 days. Ht 160 cm, Wt 69 kg, BMI 27.0; usual weight 70 kg (1.4% loss, acute, from fluid losses). Eating 50-75% of soft diet today, no further nausea. Does not meet ASPEN criteria for malnutrition. Recommend advance to consistent-carbohydrate diet as tolerated, encourage oral fluids 2 L/day once home, oral rehydration education provided."
+    },
+    {
+      "id": "d5",
+      "type": "Lab summary",
+      "author": "Clinical Laboratory",
+      "author_role": "lab",
+      "timestamp": "2026-09-27T06:30",
+      "text": "Date      Na   K    BUN  Cr\n09/25     128  3.7  52   2.3\n09/26 AM  132  3.9  38   1.6\n09/26 PM  134  4.0  30   1.3\n09/27     137  4.1  19   1.0"
+    },
+    {
+      "id": "d6",
+      "type": "Progress note",
+      "author": "R. Iqbal, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-27T10:10",
+      "text": "HOSPITAL DAY 3\n\nS: No vomiting since admission, one loose stool yesterday. Eating soft diet.\nO: HR 78, BP 132/76, orthostatics negative. Mucosa moist.\n\nAssessment/Plan:\n1. AKI - prerenal, resolving, Cr 1.0.\n2. Hyponatremia - corrected, Na 137.\n3. Viral gastroenteritis - resolving.\n4. T2DM, HTN - resume home meds at discharge if Cr stable."
+    },
+    {
+      "id": "d7",
+      "type": "Discharge summary",
+      "author": "R. Iqbal, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-28T09:40",
+      "text": "DISCHARGE SUMMARY\nAdmit: 09/25/2026   Discharge: 09/28/2026   Disposition: Home with husband\n\nDISCHARGE DIAGNOSES:\n1. Acute kidney injury, prerenal, due to dehydration from viral gastroenteritis - resolved\n2. Hypovolemic hyponatremia - resolved\n3. Viral gastroenteritis\n4. Type 2 diabetes mellitus\n5. Hypertension\n6. Hyperlipidemia\n\nHOSPITAL COURSE: IV normal saline with steady improvement; Cr 2.3 -> 0.9, Na 128 -> 138. GI symptoms resolved by HD2. Metformin and lisinopril/HCTZ resumed at discharge.\n\nFOLLOW-UP: PCP in 1 week with BMP."
+    }
+  ],
+  "gold": {
+    "pdx": "N17.9",
+    "secondary": [
+      {
+        "code": "E86.0",
+        "poa": "Y"
+      },
+      {
+        "code": "E87.1",
+        "poa": "Y"
+      },
+      {
+        "code": "A08.4",
+        "poa": "Y"
+      },
+      {
+        "code": "E11.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.84",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      }
+    ],
+    "drg": "683",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [],
+    "explanation": "AKI was the reason for admission and is documented consistently, so N17.9 is principal, with E86.0 for dehydration and A08.4 for viral gastroenteritis (norovirus was suspected but never confirmed). The provider documents hyponatremia (E87.1, a CC), which gives DRG 683. Vomiting, diarrhea and orthostasis are integral to the gastroenteritis and dehydration and aren't coded."
+  }
+}

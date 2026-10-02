@@ -1,0 +1,1451 @@
+{
+ "case_id": "enc-20",
+ "prompt_version": "2026-10-02.4-router-v2",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "with HTN, HLD, hypothyroidism",
+   "note": null,
+   "start": 86,
+   "end": 115
+  },
+  {
+   "id": "F2",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "with HTN, HLD, hypothyroidism",
+   "note": null,
+   "start": 86,
+   "end": 115
+  },
+  {
+   "id": "F3",
+   "condition": "Hypothyroidism",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "with HTN, HLD, hypothyroidism",
+   "note": null,
+   "start": 86,
+   "end": 115
+  },
+  {
+   "id": "F4",
+   "condition": "Viral gastroenteritis (norovirus GII)",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "GI pathogen panel: norovirus GII detected",
+   "note": null,
+   "start": 679,
+   "end": 720
+  },
+  {
+   "id": "F5",
+   "condition": "Nonbloody watery diarrhea",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "3 days of nonbloody watery diarrhea (6-8/day)",
+   "note": null,
+   "start": 131,
+   "end": 176
+  },
+  {
+   "id": "F6",
+   "condition": "Vomiting",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "vomiting and diarrhea, weakness",
+   "note": null,
+   "start": 25,
+   "end": 56
+  },
+  {
+   "id": "F7",
+   "condition": "Generalized weakness",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Generalized weakness, near-fall at home",
+   "note": null,
+   "start": 282,
+   "end": 321
+  },
+  {
+   "id": "F8",
+   "condition": "Near-fall",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "near-fall at home this AM",
+   "note": null,
+   "start": 304,
+   "end": 329
+  },
+  {
+   "id": "F9",
+   "condition": "Dehydration",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Unable to keep fluids down x 24 h",
+   "note": null,
+   "start": 247,
+   "end": 280
+  },
+  {
+   "id": "F10",
+   "condition": "Acute kidney injury, prerenal",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "AKI, prerenal - Cr 2.1 from baseline 0.9",
+   "note": null,
+   "start": 742,
+   "end": 782
+  },
+  {
+   "id": "F11",
+   "condition": "Elevated creatinine",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Cr 2.1 (baseline 0.9, 06/2026)",
+   "note": null,
+   "start": 579,
+   "end": 609
+  },
+  {
+   "id": "F12",
+   "condition": "Elevated BUN",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "BUN 48",
+   "note": null,
+   "start": 611,
+   "end": 617
+  },
+  {
+   "id": "F13",
+   "condition": "Hypokalemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "K 3.1 from GI losses",
+   "note": null,
+   "start": 1042,
+   "end": 1062
+  },
+  {
+   "id": "F14",
+   "condition": "Metabolic acidosis",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HCO3 19",
+   "note": null,
+   "start": 634,
+   "end": 641
+  },
+  {
+   "id": "F15",
+   "condition": "Dry mucous membranes",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Frail, dry MM, poor skin turgor",
+   "note": null,
+   "start": 482,
+   "end": 513
+  },
+  {
+   "id": "F16",
+   "condition": "Poor skin turgor",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Frail, dry MM, poor skin turgor",
+   "note": null,
+   "start": 482,
+   "end": 513
+  },
+  {
+   "id": "F17",
+   "condition": "Hyperactive bowel sounds",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Abd soft, hyperactive BS, mild diffuse tenderness",
+   "note": null,
+   "start": 515,
+   "end": 564
+  },
+  {
+   "id": "F18",
+   "condition": "Mild diffuse abdominal tenderness",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Abd soft, hyperactive BS, mild diffuse tenderness",
+   "note": null,
+   "start": 515,
+   "end": 564
+  },
+  {
+   "id": "F19",
+   "condition": "Tachycardia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HR 104",
+   "note": null,
+   "start": 437,
+   "end": 443
+  },
+  {
+   "id": "F20",
+   "condition": "Hypotension",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "BP 102/58",
+   "note": null,
+   "start": 445,
+   "end": 454
+  },
+  {
+   "id": "F21",
+   "condition": "C. difficile infection",
+   "assertion": "ruled_out",
+   "doc_id": "d2",
+   "quote": "C. diff PCR negative",
+   "note": null,
+   "start": 167,
+   "end": 187
+  },
+  {
+   "id": "F22",
+   "condition": "Acute kidney injury, prerenal",
+   "assertion": "resolved",
+   "doc_id": "d2",
+   "quote": "AKI, prerenal - resolved with IV fluids, Cr 1.0",
+   "note": null,
+   "start": 197,
+   "end": 244
+  },
+  {
+   "id": "F23",
+   "condition": "Acute kidney injury",
+   "assertion": "probable",
+   "doc_id": "d3",
+   "quote": "AKI - worsening, Cr trending up",
+   "note": null,
+   "start": 130,
+   "end": 161
+  },
+  {
+   "id": "F24",
+   "condition": "Unsteady gait",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Deconditioning/unsteady gait - SNF referral",
+   "note": null,
+   "start": 447,
+   "end": 490
+  },
+  {
+   "id": "F25",
+   "condition": "Deconditioning",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Deconditioning/unsteady gait - SNF referral sent",
+   "note": null,
+   "start": 447,
+   "end": 495
+  },
+  {
+   "id": "F26",
+   "condition": "Fall risk",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Bed alarm on, fall precautions maintained",
+   "note": null,
+   "start": 182,
+   "end": 223
+  },
+  {
+   "id": "F27",
+   "condition": "Diarrhea resolution",
+   "assertion": "resolved",
+   "doc_id": "d5",
+   "quote": "Dehydration/norovirus gastroenteritis - resolved",
+   "note": null,
+   "start": 271,
+   "end": 319
+  },
+  {
+   "id": "F28",
+   "condition": "Hypokalemia",
+   "assertion": "resolved",
+   "doc_id": "d5",
+   "quote": "Hypokalemia - resolved",
+   "note": null,
+   "start": 324,
+   "end": 346
+  },
+  {
+   "id": "F29",
+   "condition": "Acute kidney injury, prerenal, due to dehydration",
+   "assertion": "resolved",
+   "doc_id": "d6",
+   "quote": "Principal diagnosis: Acute kidney injury, prerenal, due to dehydration - resolved",
+   "note": null,
+   "start": 97,
+   "end": 178
+  },
+  {
+   "id": "F30",
+   "condition": "Dehydration due to norovirus gastroenteritis",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Secondary diagnoses: Dehydration due to norovirus gastroenteritis",
+   "note": null,
+   "start": 180,
+   "end": 245
+  }
+ ],
+ "codes": [
+  {
+   "code": "N17.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F10",
+    "F22",
+    "F29"
+   ],
+   "confidence": 0.65,
+   "rationale": "The attending lists prerenal AKI due to dehydration as the principal diagnosis. It was present on admission with Cr 2.1 against a baseline of 0.9, and it was the main focus of treatment.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "Provider-documented AKI (Cr 2.1 vs baseline 0.9, 2.3x), POA, treated with IVF, resolved by HD2; the discharge summary confirms it. The HD3/HD4 'worsening' text conflicts with the labs and is likely copy-forward. Nephrology consult and renal US are noted but not otherwise documented.",
+   "severity": null,
+   "description": "Acute kidney failure, unspecified"
+  },
+  {
+   "code": "A08.11",
+   "poa": "Y",
+   "finding_ids": [
+    "F4",
+    "F30"
+   ],
+   "confidence": 0.88,
+   "rationale": "Norovirus gastroenteritis is confirmed on the GI panel and documented by the provider. Diarrhea and vomiting are integral to it.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documented norovirus gastroenteritis with a positive panel, in the H&P and discharge summary. Diarrhea and vomiting are integral.",
+   "severity": "none",
+   "description": "Acute gastroenteropathy due to Norwalk agent"
+  },
+  {
+   "code": "E86.0",
+   "poa": "Y",
+   "finding_ids": [
+    "F9",
+    "F30"
+   ],
+   "confidence": 0.85,
+   "rationale": "The provider documented dehydration due to norovirus gastroenteritis.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documented dehydration with exam findings and IVF. Dehydration is not integral to gastroenteritis and may be coded with AKI.",
+   "severity": "none",
+   "description": "Dehydration"
+  },
+  {
+   "code": "E87.6",
+   "poa": "Y",
+   "finding_ids": [
+    "F13",
+    "F28"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hypokalemia was documented, treated with KCl, and present on admission.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider-documented hypokalemia (K 3.1), treated with KCl, POA.",
+   "severity": "none",
+   "description": "Hypokalemia"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F1"
+   ],
+   "confidence": 0.9,
+   "rationale": "Chronic hypertension was managed by holding and then restarting losartan.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Chronic HTN is documented, with losartan held and restarted.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F2"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hyperlipidemia was treated with a statin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is documented and treated with a statin.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F3"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hypothyroidism was treated with levothyroxine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypothyroidism is documented and treated with levothyroxine.",
+   "severity": "none",
+   "description": "Hypothyroidism, unspecified"
+  },
+  {
+   "code": "R26.81",
+   "poa": "Y",
+   "finding_ids": [
+    "F24"
+   ],
+   "confidence": 0.65,
+   "rationale": "Unsteady gait was documented and was the reason for the SNF stay.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider-documented unsteady gait, evaluated by PT and the reason for SNF placement. It is not integral to the other diagnoses.",
+   "severity": "none",
+   "description": "Unsteadiness on feet"
+  },
+  {
+   "code": "R53.81",
+   "poa": "Y",
+   "finding_ids": [
+    "F25"
+   ],
+   "confidence": 0.6,
+   "rationale": "Deconditioning was documented in the discharge summary.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Deconditioning appears in the discharge summary and provider notes, and the SNF rehab need supports it. The code overlaps with the gait finding but is separately documented.",
+   "severity": "none",
+   "description": "Other malaise"
+  }
+ ],
+ "removed": [],
+ "issues": [
+  {
+   "kind": "copy_forward",
+   "summary": "The HD3 and HD4 notes say 'AKI - worsening, Cr trending up', but Cr was 0.9 on both days and the discharge summary says resolved. This looks like stale copy-forward text, so no new AKI episode was coded.",
+   "finding_ids": [
+    "F23",
+    "F22",
+    "F29"
+   ],
+   "guideline": "Copy-forward text superseded by newer documentation",
+   "impact": "none",
+   "codes": [
+    "N17.9"
+   ],
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Both the AKI and the norovirus gastroenteritis with dehydration were present on admission and treated with IV fluids. The attending designated AKI as principal, but sequencing norovirus gastroenteritis (A08.11) first would also be defensible.",
+   "finding_ids": [
+    "F29",
+    "F30",
+    "F4"
+   ],
+   "guideline": "OCG Section II.C",
+   "impact": "principal",
+   "codes": [
+    "N17.9",
+    "A08.11"
+   ],
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "The H&P records HCO3 19 and lists 'metabolic acidosis' only as a finding, with no provider diagnosis. Query the provider if clinically significant. No code assigned.",
+   "finding_ids": [
+    "F14"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "impact": "severity",
+   "codes": [
+    "E87.20"
+   ],
+   "blocks_autonomy": true
+  },
+  {
+   "kind": "copy_forward",
+   "summary": "The HD3 and HD4 notes carry identical 'AKI - worsening, Cr trending up; nephrology consulted, renal US ordered' text, despite Cr 0.9 and no other nephrology or imaging documentation. Confirm with the provider that there was no recurrent AKI and no consult.",
+   "finding_ids": [
+    "F23",
+    "F22",
+    "F29"
+   ],
+   "guideline": null,
+   "impact": "none",
+   "codes": [
+    "N17.9"
+   ],
+   "blocks_autonomy": false
+  }
+ ],
+ "queries": [
+  {
+   "issue": "The H&P records HCO3 19 and lists 'metabolic acidosis' only as a finding, with no provider diagnosis. Query the provider if clinically significant. No code assigned.",
+   "to": "Attending physician",
+   "clinical_indicators": [
+    {
+     "text": "HCO3 19 on admission labs (day 1)",
+     "finding_id": "F14"
+    },
+    {
+     "text": "H&P lists 'metabolic acidosis' as a finding without an associated provider diagnosis or documented clinical significance",
+     "finding_id": null
+    }
+   ],
+   "question": "Based on your clinical judgment, please clarify the clinical significance, if any, of the HCO3 of 19 and the documented 'metabolic acidosis' finding by documenting the diagnosis or condition being evaluated, monitored, or treated.",
+   "options": [
+    "Metabolic acidosis due to a specific underlying cause (please specify the cause)",
+    "Lactic acidosis",
+    "Non-anion gap metabolic acidosis (please specify the cause)",
+    "Laboratory finding without clinical significance",
+    "Other (please specify)",
+    "Clinically undetermined"
+   ],
+   "lint": []
+  }
+ ],
+ "drg": {
+  "family": "aki",
+  "number": "684",
+  "title": "Renal failure w/o CC/MCC",
+  "weight": 0.62,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.325,
+ "confidence_base": 0.65,
+ "blocking_issues": 1,
+ "blocking_reasons": [
+  "query_opportunity: The H&P records HCO3 19 and lists 'metabolic acidosis' only as a finding, with no provider diagnosis. Query the provider if clinically significant. No code assigned."
+ ],
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 15284,
+   "input_tokens": 2997,
+   "output_tokens": 2039,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01319
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 15284,
+   "ms": 15351,
+   "input_tokens": 13993,
+   "output_tokens": 2083,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.04882
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 30635,
+   "ms": 6240,
+   "input_tokens": 6683,
+   "output_tokens": 869,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.02206
+  },
+  {
+   "stage": "query",
+   "model": "claude-sonnet-5-5",
+   "started": 36876,
+   "ms": 3424,
+   "input_tokens": 840,
+   "output_tokens": 290,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.00458
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-10T16:20",
+     "words": 214,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-11T09:15",
+     "words": 99,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-12T10:02",
+     "words": 86,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-13T03:30",
+     "words": 34,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-13T09:48",
+     "words": 78,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-15T10:30",
+     "words": 116,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 15284,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "with HTN, HLD, hypothyroidism",
+     "note": null,
+     "start": 86,
+     "end": 115
+    },
+    {
+     "id": "F2",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "with HTN, HLD, hypothyroidism",
+     "note": null,
+     "start": 86,
+     "end": 115
+    },
+    {
+     "id": "F3",
+     "condition": "Hypothyroidism",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "with HTN, HLD, hypothyroidism",
+     "note": null,
+     "start": 86,
+     "end": 115
+    },
+    {
+     "id": "F4",
+     "condition": "Viral gastroenteritis (norovirus GII)",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "GI pathogen panel: norovirus GII detected",
+     "note": null,
+     "start": 679,
+     "end": 720
+    },
+    {
+     "id": "F5",
+     "condition": "Nonbloody watery diarrhea",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "3 days of nonbloody watery diarrhea (6-8/day)",
+     "note": null,
+     "start": 131,
+     "end": 176
+    },
+    {
+     "id": "F6",
+     "condition": "Vomiting",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "vomiting and diarrhea, weakness",
+     "note": null,
+     "start": 25,
+     "end": 56
+    },
+    {
+     "id": "F7",
+     "condition": "Generalized weakness",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Generalized weakness, near-fall at home",
+     "note": null,
+     "start": 282,
+     "end": 321
+    },
+    {
+     "id": "F8",
+     "condition": "Near-fall",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "near-fall at home this AM",
+     "note": null,
+     "start": 304,
+     "end": 329
+    },
+    {
+     "id": "F9",
+     "condition": "Dehydration",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Unable to keep fluids down x 24 h",
+     "note": null,
+     "start": 247,
+     "end": 280
+    },
+    {
+     "id": "F10",
+     "condition": "Acute kidney injury, prerenal",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "AKI, prerenal - Cr 2.1 from baseline 0.9",
+     "note": null,
+     "start": 742,
+     "end": 782
+    },
+    {
+     "id": "F11",
+     "condition": "Elevated creatinine",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Cr 2.1 (baseline 0.9, 06/2026)",
+     "note": null,
+     "start": 579,
+     "end": 609
+    },
+    {
+     "id": "F12",
+     "condition": "Elevated BUN",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "BUN 48",
+     "note": null,
+     "start": 611,
+     "end": 617
+    },
+    {
+     "id": "F13",
+     "condition": "Hypokalemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "K 3.1 from GI losses",
+     "note": null,
+     "start": 1042,
+     "end": 1062
+    },
+    {
+     "id": "F14",
+     "condition": "Metabolic acidosis",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HCO3 19",
+     "note": null,
+     "start": 634,
+     "end": 641
+    },
+    {
+     "id": "F15",
+     "condition": "Dry mucous membranes",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Frail, dry MM, poor skin turgor",
+     "note": null,
+     "start": 482,
+     "end": 513
+    },
+    {
+     "id": "F16",
+     "condition": "Poor skin turgor",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Frail, dry MM, poor skin turgor",
+     "note": null,
+     "start": 482,
+     "end": 513
+    },
+    {
+     "id": "F17",
+     "condition": "Hyperactive bowel sounds",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Abd soft, hyperactive BS, mild diffuse tenderness",
+     "note": null,
+     "start": 515,
+     "end": 564
+    },
+    {
+     "id": "F18",
+     "condition": "Mild diffuse abdominal tenderness",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Abd soft, hyperactive BS, mild diffuse tenderness",
+     "note": null,
+     "start": 515,
+     "end": 564
+    },
+    {
+     "id": "F19",
+     "condition": "Tachycardia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HR 104",
+     "note": null,
+     "start": 437,
+     "end": 443
+    },
+    {
+     "id": "F20",
+     "condition": "Hypotension",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "BP 102/58",
+     "note": null,
+     "start": 445,
+     "end": 454
+    },
+    {
+     "id": "F21",
+     "condition": "C. difficile infection",
+     "assertion": "ruled_out",
+     "doc_id": "d2",
+     "quote": "C. diff PCR negative",
+     "note": null,
+     "start": 167,
+     "end": 187
+    },
+    {
+     "id": "F22",
+     "condition": "Acute kidney injury, prerenal",
+     "assertion": "resolved",
+     "doc_id": "d2",
+     "quote": "AKI, prerenal - resolved with IV fluids, Cr 1.0",
+     "note": null,
+     "start": 197,
+     "end": 244
+    },
+    {
+     "id": "F23",
+     "condition": "Acute kidney injury",
+     "assertion": "probable",
+     "doc_id": "d3",
+     "quote": "AKI - worsening, Cr trending up",
+     "note": null,
+     "start": 130,
+     "end": 161
+    },
+    {
+     "id": "F24",
+     "condition": "Unsteady gait",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Deconditioning/unsteady gait - SNF referral",
+     "note": null,
+     "start": 447,
+     "end": 490
+    },
+    {
+     "id": "F25",
+     "condition": "Deconditioning",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Deconditioning/unsteady gait - SNF referral sent",
+     "note": null,
+     "start": 447,
+     "end": 495
+    },
+    {
+     "id": "F26",
+     "condition": "Fall risk",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Bed alarm on, fall precautions maintained",
+     "note": null,
+     "start": 182,
+     "end": 223
+    },
+    {
+     "id": "F27",
+     "condition": "Diarrhea resolution",
+     "assertion": "resolved",
+     "doc_id": "d5",
+     "quote": "Dehydration/norovirus gastroenteritis - resolved",
+     "note": null,
+     "start": 271,
+     "end": 319
+    },
+    {
+     "id": "F28",
+     "condition": "Hypokalemia",
+     "assertion": "resolved",
+     "doc_id": "d5",
+     "quote": "Hypokalemia - resolved",
+     "note": null,
+     "start": 324,
+     "end": 346
+    },
+    {
+     "id": "F29",
+     "condition": "Acute kidney injury, prerenal, due to dehydration",
+     "assertion": "resolved",
+     "doc_id": "d6",
+     "quote": "Principal diagnosis: Acute kidney injury, prerenal, due to dehydration - resolved",
+     "note": null,
+     "start": 97,
+     "end": 178
+    },
+    {
+     "id": "F30",
+     "condition": "Dehydration due to norovirus gastroenteritis",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Secondary diagnoses: Dehydration due to norovirus gastroenteritis",
+     "note": null,
+     "start": 180,
+     "end": 245
+    }
+   ]
+  },
+  {
+   "t": 15284,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "I'm weighing whether AKI or norovirus gastroenteritis should be the principal diagnosis, since the AKI resulted from dehydration caused by the gastroenteritis, even though the discharge summary lists AKI first. The underlying cause\u2014gastroenteritis\u2014seems like the more appropriate choice given coding guidelines about conditions that precipitate hospitalization.\n\nI'm also compiling a working code list: N17.9, A08.11, E86.0, E87.6, I10, E03.9, R26.81, R53.81, while noting metabolic acidosis and weakness aren't separately codable since they're either lab findings or integral symptoms. I want to qui"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "N17.9"
+   },
+   "id": "toolu_0176fXPCo9hnn1WmD7JCq7Tz"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "A08.11"
+   },
+   "id": "toolu_011xmdrAYxC4AqdWNXPKaUwo"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E86.0"
+   },
+   "id": "toolu_01DhVfqExBd12uoTrjJkaf2T"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E87.6"
+   },
+   "id": "toolu_01X6VJtUAi6EJoVWRjr4DyCq"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I10"
+   },
+   "id": "toolu_01Bmkz8HV9PQ1c2DQVnKLJDr"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_01PvbWQAFJ3SuTw2wicF7wiY"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E03.9"
+   },
+   "id": "toolu_016EqqYSb3EZ5A7RinTsnCv3"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "R26.81"
+   },
+   "id": "toolu_01YcTwGAtVxVTQZ6S3gmZ6Kq"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "R53.81"
+   },
+   "id": "toolu_01BsC7QRxhGFxWHYD7hTQAN9"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_0176fXPCo9hnn1WmD7JCq7Tz",
+   "result": "N17.9: Acute kidney failure, unspecified (billable)"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_011xmdrAYxC4AqdWNXPKaUwo",
+   "result": "A08.11: Acute gastroenteropathy due to Norwalk agent (billable)"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01DhVfqExBd12uoTrjJkaf2T",
+   "result": "E86.0: Dehydration (billable)"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01X6VJtUAi6EJoVWRjr4DyCq",
+   "result": "E87.6: Hypokalemia (billable)"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01Bmkz8HV9PQ1c2DQVnKLJDr",
+   "result": "I10: Essential (primary) hypertension (billable)"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01PvbWQAFJ3SuTw2wicF7wiY",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_016EqqYSb3EZ5A7RinTsnCv3",
+   "result": "E03.9: Hypothyroidism, unspecified (billable)"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01YcTwGAtVxVTQZ6S3gmZ6Kq",
+   "result": "R26.81: Unsteadiness on feet (billable)"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01BsC7QRxhGFxWHYD7hTQAN9",
+   "result": "R53.81: Other malaise (billable)"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"N17.9\",\"poa\":\"Y\",\"finding_ids\":[\"F10\",\"F22\",\"F29\"],\"confidence\":0.6,\"rationale\":\"The attending lists prerenal AKI due to dehydration as the principal diagnosis. It was present on admission with Cr 2.1 against a baseline of 0.9, and it was the main focus of treatment.\"},\"secondary\":[{\"code\":\"A08.11\",\"poa\":\"Y\",\"finding_ids\":[\"F4\",\"F30\"],\"confidence\":0.85,\"rationale\":\"Norovirus gastroenteritis is confirmed on the GI panel and documented by the provider. Diarrhea and vomiting are integral to it.\"},{\"code\":\"E86.0\",\"poa\":\"Y\",\"finding_ids\":[\"F9\",\"F30\"],\"confidence\":0.9,\"rationale\":\"Th"
+  },
+  {
+   "t": 30635,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "N17.9",
+     "poa": "Y",
+     "finding_ids": [
+      "F10",
+      "F22",
+      "F29"
+     ],
+     "confidence": 0.6,
+     "rationale": "The attending lists prerenal AKI due to dehydration as the principal diagnosis. It was present on admission with Cr 2.1 against a baseline of 0.9, and it was the main focus of treatment."
+    },
+    "secondary": [
+     {
+      "code": "A08.11",
+      "poa": "Y",
+      "finding_ids": [
+       "F4",
+       "F30"
+      ],
+      "confidence": 0.85,
+      "rationale": "Norovirus gastroenteritis is confirmed on the GI panel and documented by the provider. Diarrhea and vomiting are integral to it."
+     },
+     {
+      "code": "E86.0",
+      "poa": "Y",
+      "finding_ids": [
+       "F9",
+       "F30"
+      ],
+      "confidence": 0.9,
+      "rationale": "The provider documented dehydration due to norovirus gastroenteritis."
+     },
+     {
+      "code": "E87.6",
+      "poa": "Y",
+      "finding_ids": [
+       "F13",
+       "F28"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hypokalemia was documented, treated with KCl, and present on admission."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Chronic hypertension was managed by holding and then restarting losartan."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F2"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hyperlipidemia was treated with a statin."
+     },
+     {
+      "code": "E03.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F3"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hypothyroidism was treated with levothyroxine."
+     },
+     {
+      "code": "R26.81",
+      "poa": "Y",
+      "finding_ids": [
+       "F24"
+      ],
+      "confidence": 0.6,
+      "rationale": "Unsteady gait was documented and was the reason for the SNF stay."
+     },
+     {
+      "code": "R53.81",
+      "poa": "Y",
+      "finding_ids": [
+       "F25"
+      ],
+      "confidence": 0.55,
+      "rationale": "Deconditioning was documented in the discharge summary."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "copy_forward",
+      "summary": "The HD3 and HD4 notes say 'AKI - worsening, Cr trending up', but Cr was 0.9 on both days and the discharge summary says resolved. This looks like stale copy-forward text, so no new AKI episode was coded.",
+      "finding_ids": [
+       "F23",
+       "F22",
+       "F29"
+      ],
+      "guideline": "Copy-forward text superseded by newer documentation",
+      "impact": "none",
+      "codes": [
+       "N17.9"
+      ]
+     },
+     {
+      "kind": "other",
+      "summary": "Both the AKI and the norovirus gastroenteritis with dehydration were present on admission and treated with IV fluids. The attending designated AKI as principal, but sequencing norovirus gastroenteritis (A08.11) first would also be defensible.",
+      "finding_ids": [
+       "F29",
+       "F30",
+       "F4"
+      ],
+      "guideline": "OCG Section II.C",
+      "impact": "principal",
+      "codes": [
+       "N17.9",
+       "A08.11"
+      ]
+     },
+     {
+      "kind": "query_opportunity",
+      "summary": "The H&P records HCO3 19 and lists 'metabolic acidosis' only as a finding, with no provider diagnosis. Query the provider if clinically significant. No code assigned.",
+      "finding_ids": [
+       "F14"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "impact": "severity",
+      "codes": [
+       "E87.20"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "t": 30635,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 36875,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"N17.9\",\"verdict\":\"supported\",\"confidence\":0.8,\"reason\":\"Provider-documented AKI (Cr 2.1 vs baseline 0.9, 2.3x), POA, treated with IVF, resolved by HD2; the discharge summary confirms it. The HD3/HD4 'worsening' text conflicts with the labs and is likely copy-forward. Nephrology consult and renal US are noted but not otherwise documented.\"},{\"code\":\"A08.11\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"Provider documented norovirus gastroenteritis with a positive panel, in the H&P and discharge summary. Diarrhea and vomiting are integral.\"},{\"code\":\"E86.0\",\"verdict\":\"su"
+  },
+  {
+   "t": 36875,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "N17.9",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "Provider-documented AKI (Cr 2.1 vs baseline 0.9, 2.3x), POA, treated with IVF, resolved by HD2; the discharge summary confirms it. The HD3/HD4 'worsening' text conflicts with the labs and is likely copy-forward. Nephrology consult and renal US are noted but not otherwise documented."
+     },
+     {
+      "code": "A08.11",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "Provider documented norovirus gastroenteritis with a positive panel, in the H&P and discharge summary. Diarrhea and vomiting are integral."
+     },
+     {
+      "code": "E86.0",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Provider documented dehydration with exam findings and IVF. Dehydration is not integral to gastroenteritis and may be coded with AKI."
+     },
+     {
+      "code": "E87.6",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Provider-documented hypokalemia (K 3.1), treated with KCl, POA."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Chronic HTN is documented, with losartan held and restarted."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hyperlipidemia is documented and treated with a statin."
+     },
+     {
+      "code": "E03.9",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hypothyroidism is documented and treated with levothyroxine."
+     },
+     {
+      "code": "R26.81",
+      "verdict": "supported",
+      "confidence": 0.75,
+      "reason": "Provider-documented unsteady gait, evaluated by PT and the reason for SNF placement. It is not integral to the other diagnoses."
+     },
+     {
+      "code": "R53.81",
+      "verdict": "supported",
+      "confidence": 0.65,
+      "reason": "Deconditioning appears in the discharge summary and provider notes, and the SNF rehab need supports it. The code overlaps with the gait finding but is separately documented."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": [
+     {
+      "kind": "copy_forward",
+      "summary": "The HD3 and HD4 notes carry identical 'AKI - worsening, Cr trending up; nephrology consulted, renal US ordered' text, despite Cr 0.9 and no other nephrology or imaging documentation. Confirm with the provider that there was no recurrent AKI and no consult.",
+      "finding_ids": [
+       "F23",
+       "F22",
+       "F29"
+      ],
+      "guideline": null,
+      "impact": "none",
+      "codes": [
+       "N17.9"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "t": 36876,
+   "stage": "grouper",
+   "type": "output",
+   "family": "aki",
+   "drg": "684",
+   "title": "Renal failure w/o CC/MCC",
+   "weight": 0.62,
+   "tier": "none",
+   "drivers": []
+  },
+  {
+   "t": 36876,
+   "stage": "router",
+   "type": "output",
+   "base": 0.65,
+   "blocking": 1,
+   "reasons": [
+    "query_opportunity: The H&P records HCO3 19 and lists 'metabolic acidosis' only as a finding, with no provider diagnosis. Query the provider if clinically significant. No code assigned."
+   ],
+   "confidence": 0.325
+  },
+  {
+   "t": 36876,
+   "stage": "query",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5",
+   "issue": "The H&P records HCO3 19 and lists 'metabolic acidosis' only as a finding, with no provider diagnosis. Query the provider if clinically significant. No code assigned."
+  },
+  {
+   "t": 40300,
+   "stage": "query",
+   "type": "text",
+   "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"HCO3 19 on admission labs (day 1)\",\"finding_id\":\"F14\"},{\"text\":\"H&P lists 'metabolic acidosis' as a finding without an associated provider diagnosis or documented clinical significance\",\"finding_id\":null}],\"question\":\"Based on your clinical judgment, please clarify the clinical significance, if any, of the HCO3 of 19 and the documented 'metabolic acidosis' finding by documenting the diagnosis or condition being evaluated, monitored, or treated.\",\"options\":[\"Metabolic acidosis due to a specific underlying cause (please specify the caus"
+  },
+  {
+   "t": 40301,
+   "stage": "query",
+   "type": "output",
+   "query": {
+    "issue": "The H&P records HCO3 19 and lists 'metabolic acidosis' only as a finding, with no provider diagnosis. Query the provider if clinically significant. No code assigned.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "HCO3 19 on admission labs (day 1)",
+      "finding_id": "F14"
+     },
+     {
+      "text": "H&P lists 'metabolic acidosis' as a finding without an associated provider diagnosis or documented clinical significance",
+      "finding_id": null
+     }
+    ],
+    "question": "Based on your clinical judgment, please clarify the clinical significance, if any, of the HCO3 of 19 and the documented 'metabolic acidosis' finding by documenting the diagnosis or condition being evaluated, monitored, or treated.",
+    "options": [
+     "Metabolic acidosis due to a specific underlying cause (please specify the cause)",
+     "Lactic acidosis",
+     "Non-anion gap metabolic acidosis (please specify the cause)",
+     "Laboratory finding without clinical significance",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  }
+ ],
+ "ms": 40301,
+ "cost_usd": 0.08865
+}

@@ -1,0 +1,83 @@
+{
+ "case_id": "enc-14",
+ "codes": [
+  {
+   "code": "N39.0",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Urinary tract infection, site not specified",
+   "confidence": 0.8
+  },
+  {
+   "code": "B96.20",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere",
+   "confidence": 0.8
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.8
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypothyroidism, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "M81.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Age-related osteoporosis without current pathological fracture",
+   "confidence": 0.8
+  },
+  {
+   "code": "F32.A",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Depression, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Gastro-esophageal reflux disease without esophagitis",
+   "confidence": 0.8
+  }
+ ],
+ "drg": {
+  "family": "uti",
+  "number": "690",
+  "weight": 0.79,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.8,
+ "needs_human": false,
+ "reason": "UTI with E. coli documented as the cause; N39.0 with B96.20 is appropriate. Cystitis is only a radiology possibility and was not diagnosed by a provider, so N30.00 is not coded. Depression is unspecified, so F32.A. Sepsis, pyelonephritis, and AKI were explicitly ruled out.",
+ "ms": 3993,
+ "cost_usd": 0.00894,
+ "input_tokens": 3071,
+ "output_tokens": 280
+}

@@ -1,0 +1,123 @@
+{
+ "case_id": "enc-23",
+ "codes": [
+  {
+   "code": "N17.9",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Acute kidney failure, unspecified",
+   "confidence": 0.5
+  },
+  {
+   "code": "E86.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Dehydration",
+   "confidence": 0.5
+  },
+  {
+   "code": "F32.A",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Depression, unspecified",
+   "confidence": 0.5
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.5
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.5
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypothyroidism, unspecified",
+   "confidence": 0.5
+  },
+  {
+   "code": "M81.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Age-related osteoporosis without current pathological fracture",
+   "confidence": 0.5
+  },
+  {
+   "code": "R63.4",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Abnormal weight loss",
+   "confidence": 0.5
+  },
+  {
+   "code": "R63.8",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Other symptoms and signs concerning food and fluid intake",
+   "confidence": 0.5
+  },
+  {
+   "code": "Z63.4",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Disappearance and death of family member",
+   "confidence": 0.5
+  },
+  {
+   "code": "T50.2X5A",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Adverse effect of carbonic-anhydrase inhibitors, benzothiadiazides and other diuretics, initial encounter",
+   "confidence": 0.5
+  },
+  {
+   "code": "T46.4X5A",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Adverse effect of angiotensin-converting-enzyme inhibitors, initial encounter",
+   "confidence": 0.5
+  },
+  {
+   "code": "Z68.1",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": false,
+   "description": "Body mass index [BMI] 19.9 or less, adult",
+   "confidence": 0.5
+  }
+ ],
+ "drg": {
+  "family": "aki",
+  "number": "684",
+  "weight": 0.62,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.25,
+ "needs_human": true,
+ "reason": "Severe protein-calorie malnutrition (E43) was diagnosed only by the dietitian; the physician documented only poor PO intake/weight loss and BMI 18.6, and never confirmed the malnutrition diagnosis. A provider query is needed before E43 can be coded. Without it, R63.8/R63.4 and Z68.1 are used (BMI code requires an associated provider-documented diagnosis, which is questionable). Adverse effect codes for HCTZ (T50.2X5A) and lisinopril (T46.4X5A) are supported by the 'due to dehydration plus ACEi/thiazide' statement, but the attribution is weak. Depression is unspecified (F32.A). Z63.4 reflects bereavement.",
+ "ms": 5595,
+ "cost_usd": 0.01116,
+ "input_tokens": 3029,
+ "output_tokens": 510
+}

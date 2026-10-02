@@ -1,0 +1,1354 @@
+{
+ "case_id": "enc-06",
+ "prompt_version": "2026-10-02.3",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Left lower lobe pneumonia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Left lower lobe pneumonia.",
+   "note": null,
+   "start": 198,
+   "end": 224
+  },
+  {
+   "id": "F2",
+   "condition": "Airspace opacity in the left lower lobe",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Airspace opacity in the left lower lobe.",
+   "note": null,
+   "start": 75,
+   "end": 115
+  },
+  {
+   "id": "F3",
+   "condition": "Pleural effusion",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "No pleural effusion.",
+   "note": null,
+   "start": 116,
+   "end": 136
+  },
+  {
+   "id": "F4",
+   "condition": "Community-acquired pneumonia, left lower lobe",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Community-acquired pneumonia, LLL",
+   "note": null,
+   "start": 736,
+   "end": 769
+  },
+  {
+   "id": "F5",
+   "condition": "Fever",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "fever to 38.9 C",
+   "note": null,
+   "start": 129,
+   "end": 144
+  },
+  {
+   "id": "F6",
+   "condition": "Productive cough",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "productive cough",
+   "note": null,
+   "start": 111,
+   "end": 127
+  },
+  {
+   "id": "F7",
+   "condition": "Malaise",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "malaise",
+   "note": null,
+   "start": 149,
+   "end": 156
+  },
+  {
+   "id": "F8",
+   "condition": "Dyspnea on exertion",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Mild DOE.",
+   "note": null,
+   "start": 158,
+   "end": 167
+  },
+  {
+   "id": "F9",
+   "condition": "Hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "HTN",
+   "note": null,
+   "start": 44,
+   "end": 47
+  },
+  {
+   "id": "F10",
+   "condition": "Hypothyroidism",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "hypothyroidism",
+   "note": null,
+   "start": 49,
+   "end": 63
+  },
+  {
+   "id": "F11",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "HLD",
+   "note": null,
+   "start": 65,
+   "end": 68
+  },
+  {
+   "id": "F12",
+   "condition": "GERD",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "GERD",
+   "note": null,
+   "start": 70,
+   "end": 74
+  },
+  {
+   "id": "F13",
+   "condition": "History of right femoral DVT",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "History of R femoral DVT and bilateral PE",
+   "note": null,
+   "start": 212,
+   "end": 253
+  },
+  {
+   "id": "F14",
+   "condition": "History of bilateral pulmonary embolism",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "History of R femoral DVT and bilateral PE",
+   "note": null,
+   "start": 212,
+   "end": 253
+  },
+  {
+   "id": "F15",
+   "condition": "DVT/PE provoked by total knee replacement",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "R total knee replacement in 2022",
+   "note": null,
+   "start": 260,
+   "end": 292
+  },
+  {
+   "id": "F16",
+   "condition": "Completed anticoagulation in 2023",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "completed anticoagulation 2023",
+   "note": null,
+   "start": 294,
+   "end": 324
+  },
+  {
+   "id": "F17",
+   "condition": "Elevated white blood cell count",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "WBC 14.9",
+   "note": null,
+   "start": 476,
+   "end": 484
+  },
+  {
+   "id": "F18",
+   "condition": "Crackles at left base",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Crackles LLL",
+   "note": null,
+   "start": 478,
+   "end": 490
+  },
+  {
+   "id": "F19",
+   "condition": "Status post right total knee arthroplasty",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "S/p R TKA 11/2022",
+   "note": null,
+   "start": 305,
+   "end": 322
+  },
+  {
+   "id": "F20",
+   "condition": "Right femoral DVT provoked, post-operative",
+   "assertion": "history",
+   "doc_id": "d3",
+   "quote": "History of R femoral DVT and bilateral PE (provoked, post-op, 11/2022)",
+   "note": null,
+   "start": 144,
+   "end": 214
+  },
+  {
+   "id": "F21",
+   "condition": "Bilateral PE post-operative",
+   "assertion": "history",
+   "doc_id": "d3",
+   "quote": "History of R femoral DVT and bilateral PE (provoked, post-op, 11/2022)",
+   "note": null,
+   "start": 144,
+   "end": 214
+  },
+  {
+   "id": "F22",
+   "condition": "Completed 6 months of rivaroxaban anticoagulation",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "completed 6 months of rivaroxaban 05/2023",
+   "note": null,
+   "start": 217,
+   "end": 258
+  },
+  {
+   "id": "F23",
+   "condition": "No current VTE",
+   "assertion": "negated",
+   "doc_id": "d3",
+   "quote": "no signs of current VTE",
+   "note": null,
+   "start": 687,
+   "end": 710
+  },
+  {
+   "id": "F24",
+   "condition": "Productive cough with yellow sputum",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "cough productive of small amounts of yellow sputum",
+   "note": null,
+   "start": 12,
+   "end": 62
+  },
+  {
+   "id": "F25",
+   "condition": "Afebrile",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Afebrile this shift",
+   "note": null,
+   "start": 64,
+   "end": 83
+  },
+  {
+   "id": "F26",
+   "condition": "Receiving enoxaparin prophylaxis for VTE",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Enoxaparin 40 mg SC given at 21:00 for VTE prophylaxis",
+   "note": null,
+   "start": 98,
+   "end": 152
+  },
+  {
+   "id": "F27",
+   "condition": "Calves soft with no swelling or pain",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Calves soft, no swelling or pain",
+   "note": null,
+   "start": 363,
+   "end": 395
+  },
+  {
+   "id": "F28",
+   "condition": "Improving cough",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "cough improving",
+   "note": null,
+   "start": 48,
+   "end": 63
+  },
+  {
+   "id": "F29",
+   "condition": "Afebrile since hospital day 2",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Afebrile since yesterday AM",
+   "note": null,
+   "start": 19,
+   "end": 46
+  },
+  {
+   "id": "F30",
+   "condition": "Eating well",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "eating well",
+   "note": null,
+   "start": 65,
+   "end": 76
+  },
+  {
+   "id": "F31",
+   "condition": "Few crackles at left base",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Few crackles L base.",
+   "note": null,
+   "start": 120,
+   "end": 140
+  },
+  {
+   "id": "F32",
+   "condition": "WBC normalized to 9.8",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "WBC 9.8",
+   "note": null,
+   "start": 147,
+   "end": 154
+  },
+  {
+   "id": "F33",
+   "condition": "Blood culture no growth at 48 hours",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Blood cx no growth at 48 h.",
+   "note": null,
+   "start": 156,
+   "end": 183
+  },
+  {
+   "id": "F34",
+   "condition": "Never needed supplemental oxygen during hospitalization",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "never needed oxygen",
+   "note": null,
+   "start": 391,
+   "end": 410
+  },
+  {
+   "id": "F35",
+   "condition": "No anticoagulation indicated at discharge",
+   "assertion": "negated",
+   "doc_id": "d6",
+   "quote": "no anticoagulation indicated at discharge",
+   "note": null,
+   "start": 509,
+   "end": 550
+  }
+ ],
+ "codes": [
+  {
+   "code": "J18.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F4",
+    "F1"
+   ],
+   "confidence": 0.85,
+   "rationale": "The provider documented community-acquired pneumonia of the LLL with no organism. Naming a lobe is not the same as documenting lobar pneumonia, so J18.9 is used instead of J18.1.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "CAP of the LLL is documented by the ED physician, hospitalist and discharge summary, and was treated with antibiotics. The radiology impression matches. No organism is documented and 'lobar pneumonia' is not documented, so J18.9 is correct. POA Y is appropriate.",
+   "severity": null,
+   "description": "Pneumonia, unspecified organism"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F9"
+   ],
+   "confidence": 0.96,
+   "rationale": "Hypertension is documented, is chronic, and is treated with losartan.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "HTN is documented in the H&P and discharge diagnoses, and losartan is continued. It is chronic and POA.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F10"
+   ],
+   "confidence": 0.96,
+   "rationale": "Hypothyroidism is documented and treated with levothyroxine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypothyroidism is documented through discharge and treated with levothyroxine.",
+   "severity": "none",
+   "description": "Hypothyroidism, unspecified"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F11"
+   ],
+   "confidence": 0.94,
+   "rationale": "Hyperlipidemia is documented and treated with pravastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is documented through discharge and treated with pravastatin.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F12"
+   ],
+   "confidence": 0.94,
+   "rationale": "GERD is documented and treated with pantoprazole.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "GERD is documented through discharge and treated with pantoprazole.",
+   "severity": "none",
+   "description": "Gastro-esophageal reflux disease without esophagitis"
+  },
+  {
+   "code": "Z86.711",
+   "poa": "Y",
+   "finding_ids": [
+    "F14",
+    "F21"
+   ],
+   "confidence": 0.93,
+   "rationale": "The patient has a history of PE with no current disease and anticoagulation completed.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documents a history of PE (provoked, 2022) with anticoagulation completed in 2023, no recurrence, and no current VTE. The ED differential for PE was not pursued. Z86.711 is correct, with no active PE code.",
+   "severity": "none",
+   "description": "Personal history of pulmonary embolism"
+  },
+  {
+   "code": "Z86.718",
+   "poa": "Y",
+   "finding_ids": [
+    "F13",
+    "F20"
+   ],
+   "confidence": 0.93,
+   "rationale": "The patient has a history of DVT with no current disease.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documents a history of R femoral DVT with anticoagulation completed and no current signs of VTE. The calf exams are benign. Z86.718 is correct, with no active DVT code.",
+   "severity": "none",
+   "description": "Personal history of other venous thrombosis and embolism"
+  },
+  {
+   "code": "Z96.651",
+   "poa": "Y",
+   "finding_ids": [
+    "F19"
+   ],
+   "confidence": 0.88,
+   "rationale": "The patient is status post right TKA, so a right knee joint prosthesis is present.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "S/p R TKA is documented by the provider in the H&P and discharge summary. The R knee scar is noted and the patient is ambulating. The prosthesis is presumed present, so Z96.651 fits. The documentation does not mention complications, and none are coded.",
+   "severity": "none",
+   "description": "Presence of right artificial knee joint"
+  }
+ ],
+ "removed": [],
+ "issues": [],
+ "queries": [],
+ "drg": {
+  "family": "pneumonia",
+  "number": "195",
+  "title": "Simple pneumonia and pleurisy w/o CC/MCC",
+  "weight": 0.68,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.85,
+ "confidence_base": 0.85,
+ "blocking_issues": 0,
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 13006,
+   "input_tokens": 2703,
+   "output_tokens": 2287,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01414
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 13006,
+   "ms": 14227,
+   "input_tokens": 26877,
+   "output_tokens": 1328,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.06703
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 27233,
+   "ms": 5605,
+   "input_tokens": 5515,
+   "output_tokens": 710,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01813
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "Radiology",
+     "author_role": "radiology",
+     "timestamp": "2026-09-21T14:40",
+     "words": 31,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-21T15:10",
+     "words": 130,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-21T19:30",
+     "words": 144,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-22T22:05",
+     "words": 74,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-23T09:45",
+     "words": 69,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-24T10:20",
+     "words": 83,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 13006,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Left lower lobe pneumonia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Left lower lobe pneumonia.",
+     "note": null,
+     "start": 198,
+     "end": 224
+    },
+    {
+     "id": "F2",
+     "condition": "Airspace opacity in the left lower lobe",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Airspace opacity in the left lower lobe.",
+     "note": null,
+     "start": 75,
+     "end": 115
+    },
+    {
+     "id": "F3",
+     "condition": "Pleural effusion",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "No pleural effusion.",
+     "note": null,
+     "start": 116,
+     "end": 136
+    },
+    {
+     "id": "F4",
+     "condition": "Community-acquired pneumonia, left lower lobe",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Community-acquired pneumonia, LLL",
+     "note": null,
+     "start": 736,
+     "end": 769
+    },
+    {
+     "id": "F5",
+     "condition": "Fever",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "fever to 38.9 C",
+     "note": null,
+     "start": 129,
+     "end": 144
+    },
+    {
+     "id": "F6",
+     "condition": "Productive cough",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "productive cough",
+     "note": null,
+     "start": 111,
+     "end": 127
+    },
+    {
+     "id": "F7",
+     "condition": "Malaise",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "malaise",
+     "note": null,
+     "start": 149,
+     "end": 156
+    },
+    {
+     "id": "F8",
+     "condition": "Dyspnea on exertion",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Mild DOE.",
+     "note": null,
+     "start": 158,
+     "end": 167
+    },
+    {
+     "id": "F9",
+     "condition": "Hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "HTN",
+     "note": null,
+     "start": 44,
+     "end": 47
+    },
+    {
+     "id": "F10",
+     "condition": "Hypothyroidism",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "hypothyroidism",
+     "note": null,
+     "start": 49,
+     "end": 63
+    },
+    {
+     "id": "F11",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "HLD",
+     "note": null,
+     "start": 65,
+     "end": 68
+    },
+    {
+     "id": "F12",
+     "condition": "GERD",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "GERD",
+     "note": null,
+     "start": 70,
+     "end": 74
+    },
+    {
+     "id": "F13",
+     "condition": "History of right femoral DVT",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "History of R femoral DVT and bilateral PE",
+     "note": null,
+     "start": 212,
+     "end": 253
+    },
+    {
+     "id": "F14",
+     "condition": "History of bilateral pulmonary embolism",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "History of R femoral DVT and bilateral PE",
+     "note": null,
+     "start": 212,
+     "end": 253
+    },
+    {
+     "id": "F15",
+     "condition": "DVT/PE provoked by total knee replacement",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "R total knee replacement in 2022",
+     "note": null,
+     "start": 260,
+     "end": 292
+    },
+    {
+     "id": "F16",
+     "condition": "Completed anticoagulation in 2023",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "completed anticoagulation 2023",
+     "note": null,
+     "start": 294,
+     "end": 324
+    },
+    {
+     "id": "F17",
+     "condition": "Elevated white blood cell count",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "WBC 14.9",
+     "note": null,
+     "start": 476,
+     "end": 484
+    },
+    {
+     "id": "F18",
+     "condition": "Crackles at left base",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Crackles LLL",
+     "note": null,
+     "start": 478,
+     "end": 490
+    },
+    {
+     "id": "F19",
+     "condition": "Status post right total knee arthroplasty",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "S/p R TKA 11/2022",
+     "note": null,
+     "start": 305,
+     "end": 322
+    },
+    {
+     "id": "F20",
+     "condition": "Right femoral DVT provoked, post-operative",
+     "assertion": "history",
+     "doc_id": "d3",
+     "quote": "History of R femoral DVT and bilateral PE (provoked, post-op, 11/2022)",
+     "note": null,
+     "start": 144,
+     "end": 214
+    },
+    {
+     "id": "F21",
+     "condition": "Bilateral PE post-operative",
+     "assertion": "history",
+     "doc_id": "d3",
+     "quote": "History of R femoral DVT and bilateral PE (provoked, post-op, 11/2022)",
+     "note": null,
+     "start": 144,
+     "end": 214
+    },
+    {
+     "id": "F22",
+     "condition": "Completed 6 months of rivaroxaban anticoagulation",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "completed 6 months of rivaroxaban 05/2023",
+     "note": null,
+     "start": 217,
+     "end": 258
+    },
+    {
+     "id": "F23",
+     "condition": "No current VTE",
+     "assertion": "negated",
+     "doc_id": "d3",
+     "quote": "no signs of current VTE",
+     "note": null,
+     "start": 687,
+     "end": 710
+    },
+    {
+     "id": "F24",
+     "condition": "Productive cough with yellow sputum",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "cough productive of small amounts of yellow sputum",
+     "note": null,
+     "start": 12,
+     "end": 62
+    },
+    {
+     "id": "F25",
+     "condition": "Afebrile",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Afebrile this shift",
+     "note": null,
+     "start": 64,
+     "end": 83
+    },
+    {
+     "id": "F26",
+     "condition": "Receiving enoxaparin prophylaxis for VTE",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Enoxaparin 40 mg SC given at 21:00 for VTE prophylaxis",
+     "note": null,
+     "start": 98,
+     "end": 152
+    },
+    {
+     "id": "F27",
+     "condition": "Calves soft with no swelling or pain",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Calves soft, no swelling or pain",
+     "note": null,
+     "start": 363,
+     "end": 395
+    },
+    {
+     "id": "F28",
+     "condition": "Improving cough",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "cough improving",
+     "note": null,
+     "start": 48,
+     "end": 63
+    },
+    {
+     "id": "F29",
+     "condition": "Afebrile since hospital day 2",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Afebrile since yesterday AM",
+     "note": null,
+     "start": 19,
+     "end": 46
+    },
+    {
+     "id": "F30",
+     "condition": "Eating well",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "eating well",
+     "note": null,
+     "start": 65,
+     "end": 76
+    },
+    {
+     "id": "F31",
+     "condition": "Few crackles at left base",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Few crackles L base.",
+     "note": null,
+     "start": 120,
+     "end": 140
+    },
+    {
+     "id": "F32",
+     "condition": "WBC normalized to 9.8",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "WBC 9.8",
+     "note": null,
+     "start": 147,
+     "end": 154
+    },
+    {
+     "id": "F33",
+     "condition": "Blood culture no growth at 48 hours",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Blood cx no growth at 48 h.",
+     "note": null,
+     "start": 156,
+     "end": 183
+    },
+    {
+     "id": "F34",
+     "condition": "Never needed supplemental oxygen during hospitalization",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "never needed oxygen",
+     "note": null,
+     "start": 391,
+     "end": 410
+    },
+    {
+     "id": "F35",
+     "condition": "No anticoagulation indicated at discharge",
+     "assertion": "negated",
+     "doc_id": "d6",
+     "quote": "no anticoagulation indicated at discharge",
+     "note": null,
+     "start": 509,
+     "end": 550
+    }
+   ]
+  },
+  {
+   "t": 13006,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "pneumonia lower lobe community-acquired"
+   },
+   "id": "toolu_01Uca2c3jKjJAEf7e2Zb9tcc"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "personal history of pulmonary embolism"
+   },
+   "id": "toolu_01RYJV2j5xZgLFK3r1VSc4VB"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "hypertension essential"
+   },
+   "id": "toolu_0191fApCPwUdUPSF8Xzb8eA1"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "hypothyroidism unspecified"
+   },
+   "id": "toolu_01BdU53maQ1wCNwuUijUuGLV"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "hyperlipidemia unspecified"
+   },
+   "id": "toolu_01BrV5NSyUAY3kXmGXfcnVvZ"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "GERD without esophagitis"
+   },
+   "id": "toolu_01S82gwfCWFNSC3GU74CiXbA"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "presence of right artificial knee joint"
+   },
+   "id": "toolu_014hBVuWdZywDK48bxYxaRQZ"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01Uca2c3jKjJAEf7e2Zb9tcc",
+   "result": "[\"no matches; try different terms\"]"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01RYJV2j5xZgLFK3r1VSc4VB",
+   "result": "[\"Z86.711  Personal history of pulmonary embolism\"]"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_0191fApCPwUdUPSF8Xzb8eA1",
+   "result": "[\"I10  Essential (primary) hypertension\", \"O10.02  Pre-existing essential hypertension complicating childbirth\", \"O10.03  Pre-existing essential hypertension complicating the puerperium\", \"O10.011  Pre-existing essential hypertension complicating pregnancy, first trimester\", \"O10.012  Pre-existing essential hypertension complicating pregnancy, second trimester\", \"O10.013  Pre-existing essential hypertension complicating pregnancy, third trimester\", \"O10.019  Pre-existing essential hypertension complicating pregnancy, unspecified trimester\"]"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01BdU53maQ1wCNwuUijUuGLV",
+   "result": "[\"E03.9  Hypothyroidism, unspecified\"]"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01BrV5NSyUAY3kXmGXfcnVvZ",
+   "result": "[\"E78.5  Hyperlipidemia, unspecified\"]"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01S82gwfCWFNSC3GU74CiXbA",
+   "result": "[\"no matches; try different terms\"]"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_014hBVuWdZywDK48bxYxaRQZ",
+   "result": "[\"Z96.651  Presence of right artificial knee joint\"]"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "pneumonia, lobar / unspecified organism"
+   },
+   "id": "toolu_01HR5vpBPz2yLmKtpPE9LMRM"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "gastro-esophageal reflux disease"
+   },
+   "id": "toolu_017kCcLQP4B6jxdjaopg8bkM"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "personal history of venous thrombosis"
+   },
+   "id": "toolu_011QShvdjcWkR9CMKc8wfv5i"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01HR5vpBPz2yLmKtpPE9LMRM",
+   "result": "[\"J18.1  Lobar pneumonia, unspecified organism\"]"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_017kCcLQP4B6jxdjaopg8bkM",
+   "result": "[\"K21.9  Gastro-esophageal reflux disease without esophagitis\", \"K21.00  Gastro-esophageal reflux disease with esophagitis, without bleeding\", \"K21.01  Gastro-esophageal reflux disease with esophagitis, with bleeding\"]"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_011QShvdjcWkR9CMKc8wfv5i",
+   "result": "[\"Z86.718  Personal history of other venous thrombosis and embolism\"]"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "For pneumonia specified by lobe but without the word \"lobar,\" I recall that coding guidance points to J18.9 rather than J18.1, since \"lobar\" is a specific histologic/clinical term distinct from anatomic lobe location.\n\n"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "J18.9"
+   },
+   "id": "toolu_01EwvBLHEk3xvydMHnZPJMZt"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01EwvBLHEk3xvydMHnZPJMZt",
+   "result": "J18.9: Pneumonia, unspecified organism (billable)"
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"J18.9\",\"poa\":\"Y\",\"finding_ids\":[\"F4\",\"F1\"],\"confidence\":0.8,\"rationale\":\"The provider documented community-acquired pneumonia of the LLL with no organism. Naming a lobe is not the same as documenting lobar pneumonia, so J18.9 is used instead of J18.1.\"},\"secondary\":[{\"code\":\"I10\",\"poa\":\"Y\",\"finding_ids\":[\"F9\"],\"confidence\":0.95,\"rationale\":\"Hypertension is documented, is chronic, and is treated with losartan.\"},{\"code\":\"E03.9\",\"poa\":\"Y\",\"finding_ids\":[\"F10\"],\"confidence\":0.95,\"rationale\":\"Hypothyroidism is documented and treated with levothyroxine.\"},{\"code\":\"E78.5\",\"poa\":\"Y\",\""
+  },
+  {
+   "t": 27233,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "J18.9",
+     "poa": "Y",
+     "finding_ids": [
+      "F4",
+      "F1"
+     ],
+     "confidence": 0.8,
+     "rationale": "The provider documented community-acquired pneumonia of the LLL with no organism. Naming a lobe is not the same as documenting lobar pneumonia, so J18.9 is used instead of J18.1."
+    },
+    "secondary": [
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F9"
+      ],
+      "confidence": 0.95,
+      "rationale": "Hypertension is documented, is chronic, and is treated with losartan."
+     },
+     {
+      "code": "E03.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F10"
+      ],
+      "confidence": 0.95,
+      "rationale": "Hypothyroidism is documented and treated with levothyroxine."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F11"
+      ],
+      "confidence": 0.93,
+      "rationale": "Hyperlipidemia is documented and treated with pravastatin."
+     },
+     {
+      "code": "K21.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F12"
+      ],
+      "confidence": 0.93,
+      "rationale": "GERD is documented and treated with pantoprazole."
+     },
+     {
+      "code": "Z86.711",
+      "poa": "Y",
+      "finding_ids": [
+       "F14",
+       "F21"
+      ],
+      "confidence": 0.9,
+      "rationale": "The patient has a history of PE with no current disease and anticoagulation completed."
+     },
+     {
+      "code": "Z86.718",
+      "poa": "Y",
+      "finding_ids": [
+       "F13",
+       "F20"
+      ],
+      "confidence": 0.9,
+      "rationale": "The patient has a history of DVT with no current disease."
+     },
+     {
+      "code": "Z96.651",
+      "poa": "Y",
+      "finding_ids": [
+       "F19"
+      ],
+      "confidence": 0.85,
+      "rationale": "The patient is status post right TKA, so a right knee joint prosthesis is present."
+     }
+    ],
+    "issues": []
+   }
+  },
+  {
+   "t": 27233,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 32838,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"J18.9\",\"verdict\":\"supported\",\"confidence\":0.92,\"reason\":\"CAP of the LLL is documented by the ED physician, hospitalist and discharge summary, and was treated with antibiotics. The radiology impression matches. No organism is documented and 'lobar pneumonia' is not documented, so J18.9 is correct. POA Y is appropriate.\"},{\"code\":\"I10\",\"verdict\":\"supported\",\"confidence\":0.96,\"reason\":\"HTN is documented in the H&P and discharge diagnoses, and losartan is continued. It is chronic and POA.\"},{\"code\":\"E03.9\",\"verdict\":\"supported\",\"confidence\":0.96,\"reason\":\"Hypothyroidism is doc"
+  },
+  {
+   "t": 32838,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "J18.9",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "reason": "CAP of the LLL is documented by the ED physician, hospitalist and discharge summary, and was treated with antibiotics. The radiology impression matches. No organism is documented and 'lobar pneumonia' is not documented, so J18.9 is correct. POA Y is appropriate."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.96,
+      "reason": "HTN is documented in the H&P and discharge diagnoses, and losartan is continued. It is chronic and POA."
+     },
+     {
+      "code": "E03.9",
+      "verdict": "supported",
+      "confidence": 0.96,
+      "reason": "Hypothyroidism is documented through discharge and treated with levothyroxine."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.94,
+      "reason": "Hyperlipidemia is documented through discharge and treated with pravastatin."
+     },
+     {
+      "code": "K21.9",
+      "verdict": "supported",
+      "confidence": 0.94,
+      "reason": "GERD is documented through discharge and treated with pantoprazole."
+     },
+     {
+      "code": "Z86.711",
+      "verdict": "supported",
+      "confidence": 0.93,
+      "reason": "Provider documents a history of PE (provoked, 2022) with anticoagulation completed in 2023, no recurrence, and no current VTE. The ED differential for PE was not pursued. Z86.711 is correct, with no active PE code."
+     },
+     {
+      "code": "Z86.718",
+      "verdict": "supported",
+      "confidence": 0.93,
+      "reason": "Provider documents a history of R femoral DVT with anticoagulation completed and no current signs of VTE. The calf exams are benign. Z86.718 is correct, with no active DVT code."
+     },
+     {
+      "code": "Z96.651",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "S/p R TKA is documented by the provider in the H&P and discharge summary. The R knee scar is noted and the patient is ambulating. The prosthesis is presumed present, so Z96.651 fits. The documentation does not mention complications, and none are coded."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": []
+   }
+  },
+  {
+   "t": 32838,
+   "stage": "grouper",
+   "type": "output",
+   "family": "pneumonia",
+   "drg": "195",
+   "title": "Simple pneumonia and pleurisy w/o CC/MCC",
+   "weight": 0.68,
+   "tier": "none",
+   "drivers": []
+  },
+  {
+   "t": 32838,
+   "stage": "router",
+   "type": "output",
+   "base": 0.85,
+   "blocking": 0,
+   "confidence": 0.85
+  }
+ ],
+ "ms": 32838,
+ "cost_usd": 0.0993
+}

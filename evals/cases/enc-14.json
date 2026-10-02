@@ -1,0 +1,104 @@
+{
+  "id": "enc-14",
+  "title": "E. coli UTI, many negatives",
+  "summary": "A urinary tract infection caused by E. coli, in a chart full of statements about what the patient does not have, none of which should be coded.",
+  "family": "uti",
+  "patient": {
+    "age": 79,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-19",
+  "discharge_date": "2026-09-22",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "N. Szabo, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-19T16:30",
+      "text": "CC: burning with urination, weakness.\nHPI: 79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD, brought by daughter for 5 days of dysuria, frequency and suprapubic discomfort. PCP started nitrofurantoin 3 days ago; symptoms worse despite adherence, now with low-grade temps and generalized weakness. Daughter reports she is at her cognitive baseline, no acute confusion. Denies hematuria. Denies flank pain. No history of UTIs. No catheter.\nROS: + dysuria, frequency, suprapubic pain, weakness. Denies nausea, vomiting, diarrhea, chest pain, SOB, cough, back pain.\nVitals: T 37.8, HR 92, RR 16, BP 134/76, SpO2 97% RA.\nExam: MMM. Mild suprapubic tenderness. No CVA tenderness bilaterally. Lungs clear. A&O x3.\nLabs: WBC 11.2. Hgb 12.4. Na 138, K 3.7, BUN 24, Cr 0.9 (baseline 0.9). Lactate 1.2. UA: LE 3+, nitrite +, WBC >50/hpf, RBC 3-5/hpf, bacteria many, no WBC casts.\nMDM: UTI failing outpatient oral therapy in a frail 79F. Does not meet SIRS; sepsis not suspected. No evidence of pyelonephritis clinically. Urine cx sent. Ceftriaxone 1 g IV. Admit for IV abx pending culture."
+    },
+    {
+      "id": "d2",
+      "type": "H&P",
+      "author": "Y. Abramov, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-19T20:15",
+      "text": "HPI: As per ED. 79F with 5 days of dysuria/frequency, worse despite 3 days of outpatient nitrofurantoin.\nPMH: HTN, HLD, hypothyroidism, osteoporosis, depression, GERD. No diabetes. No kidney disease.\nMeds: hydrochlorothiazide 12.5 mg, simvastatin 20 mg, levothyroxine 75 mcg, alendronate 70 mg weekly, sertraline 50 mg, famotidine 20 mg BID.\nAllergies: NKDA.\nSocial: lives with daughter, ambulates with cane, no tobacco.\nExam: T 37.6, HR 86, BP 130/72. Mild suprapubic TTP. No CVA tenderness. No focal neuro deficits. Mood euthymic.\nAssessment/Plan:\n1. Urinary tract infection - ceftriaxone 1 g IV daily, f/u urine culture. No evidence of pyelonephritis (afebrile, no flank pain, no CVA tenderness). Sepsis not suspected - vitals stable, lactate normal. No evidence of AKI - Cr at baseline. Renal US to exclude obstruction given failure of outpatient therapy.\n2. HTN - continue HCTZ.\n3. HLD - continue simvastatin.\n4. Hypothyroidism - continue levothyroxine.\n5. Osteoporosis - hold alendronate inpatient, resume at discharge.\n6. Depression - continue sertraline; stable.\n7. GERD - continue famotidine.\nDVT ppx: enoxaparin. Code: Full."
+    },
+    {
+      "id": "d3",
+      "type": "Radiology",
+      "author": "V. Lund, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-20T10:05",
+      "text": "EXAM: US renal, complete.\nFINDINGS: Right kidney 10.2 cm, left kidney 10.6 cm. Normal cortical echogenicity. No hydronephrosis. No calculi. No perinephric fluid. Bladder partially distended with mild diffuse wall thickening, no intraluminal mass.\nIMPRESSION: No hydronephrosis or renal abscess. Mild bladder wall thickening, which may be related to underdistension or cystitis."
+    },
+    {
+      "id": "d4",
+      "type": "Progress note",
+      "author": "Y. Abramov, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-21T09:00",
+      "text": "S: Dysuria improving, feels stronger, walked with PT.\nO: T 37.1, HR 78, BP 138/78. No CVA tenderness. WBC 8.4, Cr 0.8.\nUrine culture: >100,000 CFU/mL Escherichia coli, susceptible to ceftriaxone, cefazolin, nitrofurantoin, ciprofloxacin; no resistance identified.\nRenal US: no hydronephrosis.\nA/P:\n1. E. coli UTI - improving on ceftriaxone; transition to PO cephalexin tomorrow if continues to do well. No evidence of upper tract involvement.\n2. HTN - controlled on HCTZ.\n3. HLD, hypothyroidism, osteoporosis, depression, GERD - stable."
+    },
+    {
+      "id": "d5",
+      "type": "Nursing note",
+      "author": "M. Oduya, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-21T19:40",
+      "text": "Shift summary: Afebrile, VSS (T 36.9, HR 76, BP 132/74). Voiding without difficulty, reports burning \"much better\", urine clear yellow, no visible blood. No flank or back pain reported. Ambulated in hall x2 with cane and standby assist, steady gait. Fall precautions maintained, bed alarm on. Taking PO well, ate 75% of dinner. Daughter at bedside, updated on plan to switch to oral antibiotic tomorrow."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "Y. Abramov, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-22T11:20",
+      "text": "Admit: 09/19/2026  Discharge: 09/22/2026\nDischarge diagnoses:\n1. Urinary tract infection due to E. coli (pan-susceptible)\n2. Hypertension\n3. Hyperlipidemia\n4. Hypothyroidism\n5. Age-related osteoporosis\n6. Depression\n7. GERD\nPertinent negatives: no evidence of pyelonephritis; no CVA tenderness; denies hematuria; sepsis not suspected; no AKI; no hydronephrosis on US.\nHospital course: 79F admitted with dysuria and frequency failing outpatient nitrofurantoin. UA consistent with infection; urine culture grew pan-susceptible E. coli. Treated with IV ceftriaxone x3 days with resolution of symptoms, transitioned to cephalexin. Ambulating at baseline with cane at discharge.\nDischarge meds: cephalexin 500 mg BID x4 days; resume alendronate; continue HCTZ, simvastatin, levothyroxine, sertraline, famotidine.\nFollow-up: PCP 1 week."
+    }
+  ],
+  "gold": {
+    "pdx": "N39.0",
+    "secondary": [
+      {
+        "code": "B96.20",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "E03.9",
+        "poa": "Y"
+      },
+      {
+        "code": "M81.0",
+        "poa": "Y"
+      },
+      {
+        "code": "F32.A",
+        "poa": "Y"
+      },
+      {
+        "code": "K21.9",
+        "poa": "Y"
+      }
+    ],
+    "drg": "690",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [
+      "negation"
+    ],
+    "explanation": "The provider consistently documents 'UTI' due to E. coli, so N39.0 is principal with B96.20 for the organism. The chart repeatedly negates pyelonephritis, sepsis, AKI, hematuria and hydronephrosis, and none of those may be coded. The radiologist's 'may be related to cystitis' isn't a provider diagnosis and doesn't change N39.0 to a cystitis code. A naive keyword system picks up N10, A41.51 or R31.9 from the negated phrases and wrongly inflates the DRG."
+  },
+  "hero": false
+}

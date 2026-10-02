@@ -1,0 +1,2007 @@
+{
+ "case": {
+  "id": "enc-21",
+  "title": "Severe E. coli sepsis, shock explicitly absent",
+  "summary": "Severe sepsis from an E. coli urinary infection with kidney injury and confusion; the doctors clearly state there was no septic shock.",
+  "hero": false,
+  "family": "sepsis",
+  "patient": {
+   "age": 77,
+   "sex": "F"
+  },
+  "admit_date": "2026-09-12",
+  "discharge_date": "2026-09-17",
+  "documents": [
+   {
+    "id": "d1",
+    "type": "ED note",
+    "author": "C. Delacroix, MD (Emergency Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-12T07:40",
+    "text": "CC: confusion, fever.\nHPI: 77 y/o F with T2DM, HTN, HLD brought by daughter for 1 day of confusion and fever after 3 days of dysuria and frequency. Daughter reports she was \"talking nonsense\" this AM and did not recognize her granddaughter. Decreased PO intake x 2 days.\nVitals on arrival: T 39.2 C, HR 118, RR 24, BP 98/56 (MAP 70), SpO2 95% RA.\nExam: Ill-appearing, oriented to self only, inattentive. Dry MM. Suprapubic tenderness, + R CVA tenderness. Lungs clear.\nLabs: WBC 18.6 (bands 12%), Hgb 12.4, Plt 162. Na 136, K 4.4, HCO3 17, BUN 41, Cr 2.3 (baseline 0.8, 04/2026). Lactate 4.2. Glucose 248. UA: large LE, nitrite +, > 100 WBC/hpf, many bacteria.\nED course: Sepsis alert. Blood cx x2, urine cx. 30 mL/kg LR (2 L) over 1 h. Ceftriaxone 2 g IV. Concern for septic shock on arrival; after fluids MAP 74-78, never < 65, no vasopressors required.\nImpression: Severe sepsis, UTI source. Admit to step-down."
+   },
+   {
+    "id": "d2",
+    "type": "H&P",
+    "author": "N. Achterberg, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-12T11:10",
+    "text": "HISTORY AND PHYSICAL\nHPI: 77F with T2DM (metformin), HTN, HLD with 3 days dysuria, 1 day fever and acute confusion. Met sepsis criteria in ED with lactate 4.2, Cr 2.3 from baseline 0.8, and acute encephalopathy. Received 30 mL/kg LR.\nPMH: T2DM (A1c 7.6%), HTN, HLD. Meds: metformin 500 mg BID, losartan 50 mg, atorvastatin 20 mg.\nExam: T 38.4, HR 102, BP 108/62 (MAP 77), RR 20. Oriented to self and place only, inattentive on months-backward test. No focal deficits, no meningismus. + R CVA tenderness.\nASSESSMENT/PLAN:\n1. Severe sepsis due to UTI (likely early pyelonephritis), with acute organ dysfunction (AKI, lactic acidosis, encephalopathy). No signs of septic shock - MAP > 65 after initial fluid resuscitation without pressors. Ceftriaxone 2 g daily; f/u cultures. Repeat lactate in 4 h. Additional LR 500 mL boluses PRN MAP < 65.\n2. AKI due to sepsis/volume depletion - Cr 2.3 from 0.8. Hold losartan and metformin. IVF, strict I/O, renally dose meds.\n3. Acute metabolic encephalopathy due to sepsis/UTI - no sedating meds, delirium precautions, frequent reorientation. CT head not indicated (nonfocal, clear infectious source).\n4. T2DM - hold metformin; basal-bolus insulin while inpatient.\n5. HTN - hold losartan given soft BP.\n6. HLD - continue statin.\nCode: Full. Step-down."
+   },
+   {
+    "id": "d3",
+    "type": "Lab summary",
+    "author": "Clinical Laboratory",
+    "author_role": "lab",
+    "timestamp": "2026-09-13T06:30",
+    "text": "Lactate: 09/12 07:10 4.2; 09/12 12:05 2.4; 09/12 18:00 1.9; 09/13 05:50 1.3.\nCreatinine: 2.3 -> 1.9 -> 1.4 (09/13).\nWBC 18.6 -> 14.2. Plt 162 -> 151.\nUrine culture (09/12): > 100,000 CFU/mL Escherichia coli, susceptible to ceftriaxone, cefazolin, TMP-SMX; resistant to ampicillin.\nBlood cultures (09/12): 2/2 bottles Escherichia coli (same susceptibility pattern)."
+   },
+   {
+    "id": "d4",
+    "type": "Progress note",
+    "author": "N. Achterberg, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-13T10:20",
+    "text": "S: More alert, knows she is in hospital, still mildly inattentive. Eating some breakfast.\nO: Tmax 38.0, HR 90, BP 122/68, MAP 86 off fluids. Lactate cleared 1.3. Cr 1.4. Blood and urine cx: E. coli.\nA/P:\n1. Severe sepsis due to E. coli UTI with E. coli bacteremia - no septic shock at any point; never required vasopressors. Continue ceftriaxone; plan 10-14 day total course for bacteremic UTI. Transfer to med-surg.\n2. AKI - improving, Cr 2.3 -> 1.4.\n3. Acute metabolic encephalopathy - improving with treatment of infection.\n4. T2DM - BG 160-220, titrate insulin.\n5. HTN - continue holding losartan. 6. HLD - statin."
+   },
+   {
+    "id": "d5",
+    "type": "Discharge summary",
+    "author": "N. Achterberg, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-17T11:45",
+    "text": "DISCHARGE SUMMARY\nAdmit 09/12/2026 - Discharge 09/17/2026. Home with daughter, home health RN.\nPrincipal diagnosis: Sepsis due to E. coli (blood and urine cultures), urinary source.\nSecondary diagnoses: Severe sepsis with acute organ dysfunction (AKI, acute metabolic encephalopathy) - without septic shock. Urinary tract infection, E. coli. Acute kidney injury, resolved. Acute metabolic encephalopathy, resolved. Type 2 diabetes mellitus. Hypertension. Hyperlipidemia.\nHospital course: Presented with fever, confusion, dysuria, lactate 4.2 and Cr 2.3. Fluid resuscitated with prompt MAP response; no septic shock, no vasopressors. Treated with IV ceftriaxone, transitioned to PO cefpodoxime 09/16 per susceptibilities. Lactate normalized within 24 h; Cr 0.9 at discharge. Mental status back to baseline per daughter by HD3.\nDischarge meds: cefpodoxime 200 mg BID to complete 14 days total; resume metformin 09/19 if PO intake good; resume losartan at PCP visit; atorvastatin 20 mg.\nFollow-up: PCP 1 week with BMP."
+   }
+  ],
+  "gold": {
+   "pdx": "A41.51",
+   "secondary": [
+    {
+     "code": "R65.20",
+     "poa": "Y"
+    },
+    {
+     "code": "N39.0",
+     "poa": "Y"
+    },
+    {
+     "code": "N17.9",
+     "poa": "Y"
+    },
+    {
+     "code": "G93.41",
+     "poa": "Y"
+    },
+    {
+     "code": "E11.9",
+     "poa": "Y"
+    },
+    {
+     "code": "Z79.84",
+     "poa": "Y"
+    },
+    {
+     "code": "I10",
+     "poa": "Y"
+    },
+    {
+     "code": "E78.5",
+     "poa": "Y"
+    }
+   ],
+   "drg": "871",
+   "route": "autonomous",
+   "hold_reasons": [],
+   "query": null,
+   "traps": [
+    "negation"
+   ],
+   "explanation": "Sepsis due to E. coli is PDx A41.51. Severe sepsis with acute organ dysfunction (AKI, metabolic encephalopathy) adds R65.20, and the localized infection N39.0 and each organ dysfunction (N17.9, G93.41) are coded separately. Septic shock is explicitly negated in several notes ('no signs of septic shock', 'never required vasopressors'), so R65.21 is wrong. A naive system latches onto the ED's 'concern for septic shock' or the initial BP 98/56. G93.41 is the MCC, giving DRG 871."
+  }
+ },
+ "run": {
+  "case_id": "enc-21",
+  "prompt_version": "2026-10-02.4-router-v2",
+  "models": {
+   "fast": "anthropic:claude-haiku-4-5",
+   "reason": "anthropic:claude-sonnet-5-5"
+  },
+  "findings": [
+   {
+    "id": "F1",
+    "condition": "Type 2 diabetes mellitus",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "77 y/o F with T2DM",
+    "note": null,
+    "start": 27,
+    "end": 45
+   },
+   {
+    "id": "F2",
+    "condition": "Hypertension",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "77 y/o F with T2DM, HTN",
+    "note": null,
+    "start": 27,
+    "end": 50
+   },
+   {
+    "id": "F3",
+    "condition": "Hyperlipidemia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "T2DM, HTN, HLD",
+    "note": null,
+    "start": 41,
+    "end": 55
+   },
+   {
+    "id": "F4",
+    "condition": "Dysuria",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "after 3 days of dysuria and frequency",
+    "note": null,
+    "start": 109,
+    "end": 146
+   },
+   {
+    "id": "F5",
+    "condition": "Confusion",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "1 day of confusion and fever",
+    "note": null,
+    "start": 80,
+    "end": 108
+   },
+   {
+    "id": "F6",
+    "condition": "Fever",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "1 day of confusion and fever",
+    "note": null,
+    "start": 80,
+    "end": 108
+   },
+   {
+    "id": "F7",
+    "condition": "Decreased oral intake",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Decreased PO intake x 2 days",
+    "note": null,
+    "start": 241,
+    "end": 269
+   },
+   {
+    "id": "F8",
+    "condition": "High fever, temperature 39.2\u00b0C",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "T 39.2 C",
+    "note": null,
+    "start": 290,
+    "end": 298
+   },
+   {
+    "id": "F9",
+    "condition": "Tachycardia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "HR 118",
+    "note": null,
+    "start": 300,
+    "end": 306
+   },
+   {
+    "id": "F10",
+    "condition": "Hypotension",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "BP 98/56 (MAP 70)",
+    "note": null,
+    "start": 315,
+    "end": 332
+   },
+   {
+    "id": "F11",
+    "condition": "Tachypnea",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "RR 24",
+    "note": null,
+    "start": 308,
+    "end": 313
+   },
+   {
+    "id": "F12",
+    "condition": "Altered mental status",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "oriented to self only, inattentive",
+    "note": null,
+    "start": 368,
+    "end": 402
+   },
+   {
+    "id": "F13",
+    "condition": "Suprapubic tenderness",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Suprapubic tenderness, + R CVA tenderness",
+    "note": null,
+    "start": 412,
+    "end": 453
+   },
+   {
+    "id": "F14",
+    "condition": "Right costovertebral angle tenderness",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "+ R CVA tenderness",
+    "note": null,
+    "start": 435,
+    "end": 453
+   },
+   {
+    "id": "F15",
+    "condition": "Elevated white blood cell count",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "WBC 18.6 (bands 12%)",
+    "note": null,
+    "start": 474,
+    "end": 494
+   },
+   {
+    "id": "F16",
+    "condition": "Elevated lactate level",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Lactate 4.2",
+    "note": null,
+    "start": 579,
+    "end": 590
+   },
+   {
+    "id": "F17",
+    "condition": "Acute kidney injury",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Cr 2.3 (baseline 0.8, 04/2026)",
+    "note": null,
+    "start": 547,
+    "end": 577
+   },
+   {
+    "id": "F18",
+    "condition": "Hyponatremia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Na 136",
+    "note": null,
+    "start": 515,
+    "end": 521
+   },
+   {
+    "id": "F19",
+    "condition": "Metabolic acidosis",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "HCO3 17",
+    "note": null,
+    "start": 530,
+    "end": 537
+   },
+   {
+    "id": "F20",
+    "condition": "Elevated blood glucose",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Glucose 248",
+    "note": null,
+    "start": 592,
+    "end": 603
+   },
+   {
+    "id": "F21",
+    "condition": "Urinary tract infection with E. coli",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "UA: large LE, nitrite +, > 100 WBC/hpf, many bacteria",
+    "note": null,
+    "start": 605,
+    "end": 658
+   },
+   {
+    "id": "F22",
+    "condition": "Severe sepsis",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Sepsis alert",
+    "note": null,
+    "start": 671,
+    "end": 683
+   },
+   {
+    "id": "F23",
+    "condition": "Septic shock (concern)",
+    "assertion": "ruled_out",
+    "doc_id": "d1",
+    "quote": "Concern for septic shock on arrival; after fluids MAP 74-78, never < 65, no vasopressors required",
+    "note": null,
+    "start": 756,
+    "end": 853
+   },
+   {
+    "id": "F24",
+    "condition": "E. coli bacteremia",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "2/2 bottles Escherichia coli",
+    "note": null,
+    "start": 305,
+    "end": 333
+   },
+   {
+    "id": "F25",
+    "condition": "E. coli UTI with susceptibility patterns",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "> 100,000 CFU/mL Escherichia coli, susceptible to ceftriaxone, cefazolin, TMP-SMX; resistant to ampicillin",
+    "note": null,
+    "start": 173,
+    "end": 279
+   },
+   {
+    "id": "F26",
+    "condition": "Acute metabolic encephalopathy",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Met sepsis criteria in ED with lactate 4.2, Cr 2.3 from baseline 0.8, and acute encephalopathy",
+    "note": null,
+    "start": 116,
+    "end": 210
+   },
+   {
+    "id": "F27",
+    "condition": "Lactic acidosis",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "acute encephalopathy. Received 30 mL/kg LR",
+    "note": null,
+    "start": 190,
+    "end": 232
+   },
+   {
+    "id": "F28",
+    "condition": "Pyelonephritis (suspected early)",
+    "assertion": "probable",
+    "doc_id": "d2",
+    "quote": "Severe sepsis due to UTI (likely early pyelonephritis)",
+    "note": null,
+    "start": 524,
+    "end": 578
+   },
+   {
+    "id": "F29",
+    "condition": "Acute kidney injury resolved",
+    "assertion": "resolved",
+    "doc_id": "d5",
+    "quote": "Acute kidney injury, resolved",
+    "note": null,
+    "start": 342,
+    "end": 371
+   },
+   {
+    "id": "F30",
+    "condition": "Acute metabolic encephalopathy resolved",
+    "assertion": "resolved",
+    "doc_id": "d5",
+    "quote": "Acute metabolic encephalopathy, resolved",
+    "note": null,
+    "start": 373,
+    "end": 413
+   },
+   {
+    "id": "F31",
+    "condition": "Creatinine improvement from 2.3 to 0.9",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "Lactate normalized within 24 h; Cr 0.9 at discharge",
+    "note": null,
+    "start": 721,
+    "end": 772
+   },
+   {
+    "id": "F32",
+    "condition": "Mental status return to baseline",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "Mental status back to baseline per daughter by HD3",
+    "note": null,
+    "start": 774,
+    "end": 824
+   },
+   {
+    "id": "F33",
+    "condition": "Sepsis without septic shock",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "Severe sepsis with acute organ dysfunction (AKI, acute metabolic encephalopathy) - without septic shock",
+    "note": null,
+    "start": 203,
+    "end": 306
+   },
+   {
+    "id": "F34",
+    "condition": "No vasopressor requirement",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "no septic shock at any point; never required vasopressors",
+    "note": null,
+    "start": 266,
+    "end": 323
+   },
+   {
+    "id": "F35",
+    "condition": "Ceftriaxone treatment for bacteremic UTI",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "Continue ceftriaxone; plan 10-14 day total course for bacteremic UTI",
+    "note": null,
+    "start": 325,
+    "end": 393
+   },
+   {
+    "id": "F36",
+    "condition": "Transition to cefpodoxime on hospital day 5",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "Treated with IV ceftriaxone, transitioned to PO cefpodoxime 09/16",
+    "note": null,
+    "start": 633,
+    "end": 698
+   },
+   {
+    "id": "F37",
+    "condition": "A1c 7.6% indicating diabetes control",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "T2DM (A1c 7.6%)",
+    "note": null,
+    "start": 239,
+    "end": 254
+   }
+  ],
+  "codes": [
+   {
+    "code": "A41.51",
+    "poa": "Y",
+    "finding_ids": [
+     "F24",
+     "F33"
+    ],
+    "confidence": 0.93,
+    "rationale": "The discharge summary gives sepsis due to E. coli (blood and urine cultures positive) as the principal diagnosis, and the sepsis was present on admission (I.C.1.d).",
+    "role": "pdx",
+    "verdict": "supported",
+    "critic_reason": "Discharge summary lists E. coli sepsis as principal; blood cultures 2/2 E. coli and POA.",
+    "severity": null,
+    "description": "Sepsis due to Escherichia coli [E. coli]"
+   },
+   {
+    "code": "R65.20",
+    "poa": "Y",
+    "finding_ids": [
+     "F33",
+     "F34",
+     "F23"
+    ],
+    "confidence": 0.92,
+    "rationale": "Severe sepsis with acute organ dysfunction is documented, and septic shock was ruled out.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Severe sepsis with organ dysfunction documented through discharge; septic shock explicitly ruled out.",
+    "severity": "MCC",
+    "description": "Severe sepsis without septic shock"
+   },
+   {
+    "code": "N39.0",
+    "poa": "Y",
+    "finding_ids": [
+     "F21",
+     "F25",
+     "F35"
+    ],
+    "confidence": 0.8,
+    "rationale": "E. coli UTI is the documented source of the sepsis. Pyelonephritis was only 'likely' in the H&P and is not in the discharge summary, so site-unspecified UTI is coded.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Discharge summary documents E. coli UTI as source. 'Likely' pyelonephritis appears only in the H&P and was not carried forward. The site query is advisory and unlikely to change the DRG.",
+    "severity": "CC",
+    "description": "Urinary tract infection, site not specified"
+   },
+   {
+    "code": "B96.20",
+    "poa": "Y",
+    "finding_ids": [
+     "F25"
+    ],
+    "confidence": 0.88,
+    "rationale": "An additional code identifies E. coli as the organism causing the UTI.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "E. coli UTI is documented by the provider and confirmed by culture.",
+    "severity": "none",
+    "description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere"
+   },
+   {
+    "code": "N17.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F17",
+     "F29"
+    ],
+    "confidence": 0.9,
+    "rationale": "Provider documents AKI as sepsis-related organ dysfunction, with creatinine 2.3 against a baseline of 0.8.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "AKI is documented by the provider as sepsis organ dysfunction, with creatinine 2.3 from a baseline of 0.8 and improvement with treatment, and it is in the discharge summary.",
+    "severity": "CC",
+    "description": "Acute kidney failure, unspecified"
+   },
+   {
+    "code": "G93.41",
+    "poa": "Y",
+    "finding_ids": [
+     "F26",
+     "F30"
+    ],
+    "confidence": 0.9,
+    "rationale": "Acute metabolic encephalopathy is documented as sepsis-related organ dysfunction.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Acute metabolic encephalopathy is documented throughout and in the discharge summary, with clinical indicators of acute confusion and inattention.",
+    "severity": "MCC",
+    "description": "Metabolic encephalopathy"
+   },
+   {
+    "code": "E87.29",
+    "poa": "Y",
+    "finding_ids": [
+     "F27",
+     "F16"
+    ],
+    "confidence": 0.45,
+    "rationale": "The H&P lists lactic acidosis as an organ dysfunction, with lactate 4.2 and HCO3 17. It is not in the discharge summary.",
+    "role": "secondary",
+    "verdict": "needs_query",
+    "critic_reason": "Lactic acidosis is documented only in the H&P assessment and is absent from progress notes and the discharge summary. Hyperlactatemia may be integral to sepsis, and HCO3 17 is mildly low. Clinical validity is weak and the code is a CC.",
+    "severity": "CC",
+    "description": "Other acidosis"
+   },
+   {
+    "code": "E11.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F1",
+     "F37"
+    ],
+    "confidence": 0.75,
+    "rationale": "Type 2 diabetes is documented with no linked complication. Hyperglycemia was not diagnosed by a provider.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "T2DM is documented. Hyperglycemia was not diagnosed by a provider, so E11.65 cannot be assigned, and E11.9 is acceptable as documented.",
+    "severity": "none",
+    "description": "Type 2 diabetes mellitus without complications"
+   },
+   {
+    "code": "Z79.84",
+    "poa": "Y",
+    "finding_ids": [
+     "F1"
+    ],
+    "confidence": 0.75,
+    "rationale": "She takes metformin at home, which is long-term oral hypoglycemic use.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Home metformin is documented. It was held inpatient, but long-term use still applies.",
+    "severity": "none",
+    "description": "Long term (current) use of oral hypoglycemic drugs"
+   },
+   {
+    "code": "I10",
+    "poa": "Y",
+    "finding_ids": [
+     "F2"
+    ],
+    "confidence": 0.88,
+    "rationale": "Hypertension is documented, and there is no CKD or heart disease to link it to.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Hypertension is documented, with losartan held and resumed after discharge; no CKD is documented.",
+    "severity": "none",
+    "description": "Essential (primary) hypertension"
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "finding_ids": [
+     "F3"
+    ],
+    "confidence": 0.88,
+    "rationale": "Hyperlipidemia is documented and treated with a statin.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Hyperlipidemia is documented and treated with a statin.",
+    "severity": "none",
+    "description": "Hyperlipidemia, unspecified"
+   }
+  ],
+  "removed": [],
+  "issues": [
+   {
+    "kind": "query_opportunity",
+    "summary": "The H&P says 'likely early pyelonephritis' (R CVA tenderness) but the discharge summary only says UTI. Query for the UTI site, because acute pyelonephritis (N10) would replace N39.0.",
+    "finding_ids": [
+     "F28",
+     "F14"
+    ],
+    "guideline": "AHIMA/ACDIS query practice",
+    "impact": "none",
+    "codes": [
+     "N10",
+     "N39.0"
+    ],
+    "blocks_autonomy": false
+   },
+   {
+    "kind": "clinical_validation",
+    "summary": "Lactic acidosis appears only in the H&P and not in the progress notes or discharge summary. Confirm the diagnosis is supported before reporting it.",
+    "finding_ids": [
+     "F27",
+     "F16",
+     "F19"
+    ],
+    "guideline": "AHIMA/ACDIS query practice",
+    "impact": "none",
+    "codes": [
+     "E87.29"
+    ],
+    "blocks_autonomy": false
+   },
+   {
+    "kind": "clinical_validation",
+    "summary": "Lactic acidosis (E87.29) appears only in the H&P, is not in the discharge summary, and may be integral to sepsis or hypoperfusion. Query or clinically validate it before reporting, because it is a CC.",
+    "finding_ids": [
+     "F27",
+     "F16",
+     "F19"
+    ],
+    "guideline": "AHIMA/ACDIS query practice",
+    "impact": "severity",
+    "codes": [
+     "E87.29"
+    ],
+    "blocks_autonomy": true
+   }
+  ],
+  "queries": [
+   {
+    "issue": "Lactic acidosis (E87.29) appears only in the H&P, is not in the discharge summary, and may be integral to sepsis or hypoperfusion. Query or clinically validate it before reporting, because it is a CC.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "Lactate 4.2 on hospital day 1",
+      "finding_id": "F16"
+     },
+     {
+      "text": "Bicarbonate (HCO3) 17 on hospital day 1",
+      "finding_id": "F19"
+     },
+     {
+      "text": "Documentation of acute encephalopathy; received 30 mL/kg lactated Ringer's on hospital day 2",
+      "finding_id": "F27"
+     },
+     {
+      "text": "Lactic acidosis is documented in the H&P but is not carried into the discharge summary",
+      "finding_id": null
+     }
+    ],
+    "question": "Based on your clinical judgment, please clarify the clinical significance and underlying cause of the elevated lactate and low bicarbonate noted on day 1, and whether this represents a separate diagnosis that was evaluated, monitored, or treated during this admission.",
+    "options": [
+     "Lactic acidosis due to sepsis-related hypoperfusion",
+     "Lactic acidosis due to another cause (please specify cause)",
+     "Elevated lactate without a clinically significant acid-base disorder",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  ],
+  "drg": {
+   "family": "sepsis",
+   "number": "871",
+   "title": "Septicemia or severe sepsis w/o MV >96 hours w MCC",
+   "weight": 1.86,
+   "tier": "MCC",
+   "drivers": [
+    "G93.41"
+   ]
+  },
+  "confidence": 0.45,
+  "confidence_base": 0.9,
+  "blocking_issues": 1,
+  "blocking_reasons": [
+   "clinical_validation: Lactic acidosis (E87.29) appears only in the H&P, is not in the discharge summary, and may be integral to sepsis or hypoperfusion. Query or clinically validate it before reporting, because it is a CC."
+  ],
+  "stages": [
+   {
+    "stage": "triage",
+    "model": null,
+    "started": 0,
+    "ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cost_usd": 0
+   },
+   {
+    "stage": "evidence",
+    "model": "claude-haiku-4-5",
+    "started": 0,
+    "ms": 15982,
+    "input_tokens": 3037,
+    "output_tokens": 2591,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01599
+   },
+   {
+    "stage": "coder",
+    "model": "claude-sonnet-5-5",
+    "started": 15982,
+    "ms": 22705,
+    "input_tokens": 32543,
+    "output_tokens": 2316,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.08825
+   },
+   {
+    "stage": "critic",
+    "model": "claude-sonnet-5-5",
+    "started": 38687,
+    "ms": 6844,
+    "input_tokens": 7231,
+    "output_tokens": 1020,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02466
+   },
+   {
+    "stage": "query",
+    "model": "claude-sonnet-5-5",
+    "started": 45531,
+    "ms": 3385,
+    "input_tokens": 902,
+    "output_tokens": 366,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.00546
+   }
+  ],
+  "events": [
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "stage_start"
+   },
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "output",
+    "documents": [
+     {
+      "id": "d1",
+      "type": "ED note",
+      "author_role": "provider",
+      "timestamp": "2026-09-12T07:40",
+      "words": 163,
+      "flags": []
+     },
+     {
+      "id": "d2",
+      "type": "H&P",
+      "author_role": "provider",
+      "timestamp": "2026-09-12T11:10",
+      "words": 209,
+      "flags": []
+     },
+     {
+      "id": "d3",
+      "type": "Lab summary",
+      "author_role": "lab",
+      "timestamp": "2026-09-13T06:30",
+      "words": 54,
+      "flags": []
+     },
+     {
+      "id": "d4",
+      "type": "Progress note",
+      "author_role": "provider",
+      "timestamp": "2026-09-13T10:20",
+      "words": 107,
+      "flags": []
+     },
+     {
+      "id": "d5",
+      "type": "Discharge summary",
+      "author_role": "provider",
+      "timestamp": "2026-09-17T11:45",
+      "words": 145,
+      "flags": [
+       "discharge"
+      ]
+     }
+    ]
+   },
+   {
+    "t": 0,
+    "stage": "evidence",
+    "type": "stage_start",
+    "model": "anthropic:claude-haiku-4-5"
+   },
+   {
+    "t": 15982,
+    "stage": "evidence",
+    "type": "output",
+    "findings": [
+     {
+      "id": "F1",
+      "condition": "Type 2 diabetes mellitus",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "77 y/o F with T2DM",
+      "note": null,
+      "start": 27,
+      "end": 45
+     },
+     {
+      "id": "F2",
+      "condition": "Hypertension",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "77 y/o F with T2DM, HTN",
+      "note": null,
+      "start": 27,
+      "end": 50
+     },
+     {
+      "id": "F3",
+      "condition": "Hyperlipidemia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "T2DM, HTN, HLD",
+      "note": null,
+      "start": 41,
+      "end": 55
+     },
+     {
+      "id": "F4",
+      "condition": "Dysuria",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "after 3 days of dysuria and frequency",
+      "note": null,
+      "start": 109,
+      "end": 146
+     },
+     {
+      "id": "F5",
+      "condition": "Confusion",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "1 day of confusion and fever",
+      "note": null,
+      "start": 80,
+      "end": 108
+     },
+     {
+      "id": "F6",
+      "condition": "Fever",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "1 day of confusion and fever",
+      "note": null,
+      "start": 80,
+      "end": 108
+     },
+     {
+      "id": "F7",
+      "condition": "Decreased oral intake",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Decreased PO intake x 2 days",
+      "note": null,
+      "start": 241,
+      "end": 269
+     },
+     {
+      "id": "F8",
+      "condition": "High fever, temperature 39.2\u00b0C",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "T 39.2 C",
+      "note": null,
+      "start": 290,
+      "end": 298
+     },
+     {
+      "id": "F9",
+      "condition": "Tachycardia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "HR 118",
+      "note": null,
+      "start": 300,
+      "end": 306
+     },
+     {
+      "id": "F10",
+      "condition": "Hypotension",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "BP 98/56 (MAP 70)",
+      "note": null,
+      "start": 315,
+      "end": 332
+     },
+     {
+      "id": "F11",
+      "condition": "Tachypnea",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "RR 24",
+      "note": null,
+      "start": 308,
+      "end": 313
+     },
+     {
+      "id": "F12",
+      "condition": "Altered mental status",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "oriented to self only, inattentive",
+      "note": null,
+      "start": 368,
+      "end": 402
+     },
+     {
+      "id": "F13",
+      "condition": "Suprapubic tenderness",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Suprapubic tenderness, + R CVA tenderness",
+      "note": null,
+      "start": 412,
+      "end": 453
+     },
+     {
+      "id": "F14",
+      "condition": "Right costovertebral angle tenderness",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "+ R CVA tenderness",
+      "note": null,
+      "start": 435,
+      "end": 453
+     },
+     {
+      "id": "F15",
+      "condition": "Elevated white blood cell count",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "WBC 18.6 (bands 12%)",
+      "note": null,
+      "start": 474,
+      "end": 494
+     },
+     {
+      "id": "F16",
+      "condition": "Elevated lactate level",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Lactate 4.2",
+      "note": null,
+      "start": 579,
+      "end": 590
+     },
+     {
+      "id": "F17",
+      "condition": "Acute kidney injury",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Cr 2.3 (baseline 0.8, 04/2026)",
+      "note": null,
+      "start": 547,
+      "end": 577
+     },
+     {
+      "id": "F18",
+      "condition": "Hyponatremia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Na 136",
+      "note": null,
+      "start": 515,
+      "end": 521
+     },
+     {
+      "id": "F19",
+      "condition": "Metabolic acidosis",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "HCO3 17",
+      "note": null,
+      "start": 530,
+      "end": 537
+     },
+     {
+      "id": "F20",
+      "condition": "Elevated blood glucose",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Glucose 248",
+      "note": null,
+      "start": 592,
+      "end": 603
+     },
+     {
+      "id": "F21",
+      "condition": "Urinary tract infection with E. coli",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "UA: large LE, nitrite +, > 100 WBC/hpf, many bacteria",
+      "note": null,
+      "start": 605,
+      "end": 658
+     },
+     {
+      "id": "F22",
+      "condition": "Severe sepsis",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Sepsis alert",
+      "note": null,
+      "start": 671,
+      "end": 683
+     },
+     {
+      "id": "F23",
+      "condition": "Septic shock (concern)",
+      "assertion": "ruled_out",
+      "doc_id": "d1",
+      "quote": "Concern for septic shock on arrival; after fluids MAP 74-78, never < 65, no vasopressors required",
+      "note": null,
+      "start": 756,
+      "end": 853
+     },
+     {
+      "id": "F24",
+      "condition": "E. coli bacteremia",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "2/2 bottles Escherichia coli",
+      "note": null,
+      "start": 305,
+      "end": 333
+     },
+     {
+      "id": "F25",
+      "condition": "E. coli UTI with susceptibility patterns",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "> 100,000 CFU/mL Escherichia coli, susceptible to ceftriaxone, cefazolin, TMP-SMX; resistant to ampicillin",
+      "note": null,
+      "start": 173,
+      "end": 279
+     },
+     {
+      "id": "F26",
+      "condition": "Acute metabolic encephalopathy",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Met sepsis criteria in ED with lactate 4.2, Cr 2.3 from baseline 0.8, and acute encephalopathy",
+      "note": null,
+      "start": 116,
+      "end": 210
+     },
+     {
+      "id": "F27",
+      "condition": "Lactic acidosis",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "acute encephalopathy. Received 30 mL/kg LR",
+      "note": null,
+      "start": 190,
+      "end": 232
+     },
+     {
+      "id": "F28",
+      "condition": "Pyelonephritis (suspected early)",
+      "assertion": "probable",
+      "doc_id": "d2",
+      "quote": "Severe sepsis due to UTI (likely early pyelonephritis)",
+      "note": null,
+      "start": 524,
+      "end": 578
+     },
+     {
+      "id": "F29",
+      "condition": "Acute kidney injury resolved",
+      "assertion": "resolved",
+      "doc_id": "d5",
+      "quote": "Acute kidney injury, resolved",
+      "note": null,
+      "start": 342,
+      "end": 371
+     },
+     {
+      "id": "F30",
+      "condition": "Acute metabolic encephalopathy resolved",
+      "assertion": "resolved",
+      "doc_id": "d5",
+      "quote": "Acute metabolic encephalopathy, resolved",
+      "note": null,
+      "start": 373,
+      "end": 413
+     },
+     {
+      "id": "F31",
+      "condition": "Creatinine improvement from 2.3 to 0.9",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "Lactate normalized within 24 h; Cr 0.9 at discharge",
+      "note": null,
+      "start": 721,
+      "end": 772
+     },
+     {
+      "id": "F32",
+      "condition": "Mental status return to baseline",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "Mental status back to baseline per daughter by HD3",
+      "note": null,
+      "start": 774,
+      "end": 824
+     },
+     {
+      "id": "F33",
+      "condition": "Sepsis without septic shock",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "Severe sepsis with acute organ dysfunction (AKI, acute metabolic encephalopathy) - without septic shock",
+      "note": null,
+      "start": 203,
+      "end": 306
+     },
+     {
+      "id": "F34",
+      "condition": "No vasopressor requirement",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "no septic shock at any point; never required vasopressors",
+      "note": null,
+      "start": 266,
+      "end": 323
+     },
+     {
+      "id": "F35",
+      "condition": "Ceftriaxone treatment for bacteremic UTI",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "Continue ceftriaxone; plan 10-14 day total course for bacteremic UTI",
+      "note": null,
+      "start": 325,
+      "end": 393
+     },
+     {
+      "id": "F36",
+      "condition": "Transition to cefpodoxime on hospital day 5",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "Treated with IV ceftriaxone, transitioned to PO cefpodoxime 09/16",
+      "note": null,
+      "start": 633,
+      "end": 698
+     },
+     {
+      "id": "F37",
+      "condition": "A1c 7.6% indicating diabetes control",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "T2DM (A1c 7.6%)",
+      "note": null,
+      "start": 239,
+      "end": 254
+     }
+    ]
+   },
+   {
+    "t": 15982,
+    "stage": "coder",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "sepsis due to Escherichia coli"
+    },
+    "id": "toolu_01HGnTqferCcMnGAXXkw6D84"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "severe sepsis with acute organ dysfunction"
+    },
+    "id": "toolu_016nK8AoUXWbbKDcwNipM34W"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "urinary tract infection Escherichia coli"
+    },
+    "id": "toolu_011EJurdrHJ2MuxFLwjqDJtn"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "acute kidney injury"
+    },
+    "id": "toolu_01V9oChPSDGy7niMV3kbFXRJ"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "metabolic encephalopathy"
+    },
+    "id": "toolu_01NFQJZLL9LRporRvBka6BR9"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "type 2 diabetes mellitus with hyperglycemia"
+    },
+    "id": "toolu_01FdLGLejoBGTaoabZkwjswz"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "lactic acidosis"
+    },
+    "id": "toolu_011YcHhYA7TGCY6BZtUf6iHV"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01HGnTqferCcMnGAXXkw6D84",
+    "result": "[\"A41.51  Sepsis due to Escherichia coli [E. coli]\", \"P36.4  Sepsis of newborn due to Escherichia coli\"]"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_016nK8AoUXWbbKDcwNipM34W",
+    "result": "[\"R65.20  Severe sepsis without septic shock\", \"R65.21  Severe sepsis with septic shock\"]"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_011EJurdrHJ2MuxFLwjqDJtn",
+    "result": "[\"P39.3  Neonatal urinary tract infection\", \"N21.8  Other lower urinary tract calculus\", \"N21.9  Calculus of lower urinary tract, unspecified\", \"N39.0  Urinary tract infection, site not specified\", \"N82.1  Other female urinary-genital tract fistulae\", \"O86.20  Urinary tract infection following delivery, unspecified\", \"O86.29  Other urinary tract infection following delivery\", \"Z87.440  Personal history of urinary (tract) infections\", \"N40.2  Nodular prostate without lower urinary tract symptoms\", \"N40.3  Nodular prostate with lower urinary tract symptoms\", \"N99.523  Herniation of incontinent stoma of urinary tract\", \"N99.524  Stenosis of incontinent stoma of urinary tract\"]"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01V9oChPSDGy7niMV3kbFXRJ",
+    "result": "[\"N17.8  Other acute kidney failure\", \"N17.9  Acute kidney failure, unspecified\", \"N17.1  Acute kidney failure with acute cortical necrosis\", \"N99.0  Postprocedural (acute) (chronic) kidney failure\", \"O90.49  Other postpartum acute kidney failure\", \"N17.0  Acute kidney failure with tubular necrosis\", \"N17.2  Acute kidney failure with medullary necrosis\"]"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01NFQJZLL9LRporRvBka6BR9",
+    "result": "[\"G93.41  Metabolic encephalopathy\"]"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01FdLGLejoBGTaoabZkwjswz",
+    "result": "[\"E10.65  Type 1 diabetes mellitus with hyperglycemia\", \"E11.65  Type 2 diabetes mellitus with hyperglycemia\"]"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_011YcHhYA7TGCY6BZtUf6iHV",
+    "result": "[\"no matches; try different terms\"]"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "thinking",
+    "text": "I'm working through the coding details: B96.20 for E. coli UTI, checking lactic acidosis codes under E87.20/E87.21, and sorting out the comorbidities\u2014HTN as I10, hyperlipidemia as E78.5, and diabetes as E11.9 given the AKI rather than CKD. For the elevated glucose of 248, I'm leaning toward E11.9 without a separate hyperglycemia code, plus Z79.84 for long-term oral hypoglycemic use alongside insulin.\n\n"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "B96.20"
+    },
+    "id": "toolu_0143Nn4s2etUK3q96XxmMoLz"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E87.20"
+    },
+    "id": "toolu_01PTphFxbwYyrpkzMkD4jsk7"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E11.9"
+    },
+    "id": "toolu_01RrSGFn7vgigbb5wAzNNqQ3"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "I10"
+    },
+    "id": "toolu_01338Qt8AxRLLzzwDPdVc2sr"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E78.5"
+    },
+    "id": "toolu_018J5QEC3WEKHzNHziG3usYx"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "Z79.84"
+    },
+    "id": "toolu_016zYDeuPikA2XKiXFPwCA5g"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_0143Nn4s2etUK3q96XxmMoLz",
+    "result": "B96.20: Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere (billable)"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01PTphFxbwYyrpkzMkD4jsk7",
+    "result": "E87.20: Acidosis, unspecified (billable)"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01RrSGFn7vgigbb5wAzNNqQ3",
+    "result": "E11.9: Type 2 diabetes mellitus without complications (billable)"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01338Qt8AxRLLzzwDPdVc2sr",
+    "result": "I10: Essential (primary) hypertension (billable)"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_018J5QEC3WEKHzNHziG3usYx",
+    "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_016zYDeuPikA2XKiXFPwCA5g",
+    "result": "Z79.84: Long term (current) use of oral hypoglycemic drugs (billable)"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "thinking",
+    "text": "For lactic acidosis specifically, I should look at E87.29 (other acidosis) rather than the unspecified or acute/chronic metabolic acidosis codes, since lactic acidosis falls under that \"other\" category.\n\n"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E87.29"
+    },
+    "id": "toolu_014eRMzhjtPt47Eg29z6xTGZ"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_014eRMzhjtPt47Eg29z6xTGZ",
+    "result": "E87.29: Other acidosis (billable)"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "thinking",
+    "text": "I'm noting that lactic acidosis is only documented in the H&P as organ dysfunction, so I'll include E87.29 with moderate confidence. For pyelonephritis, it's only noted as \"likely\" in the H&P and not carried into the discharge summary while N39.0 was coded\u2014so I should skip it and flag this as a query issue rather than include it.\n\n"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "text",
+    "text": "{\"pdx\":{\"code\":\"A41.51\",\"poa\":\"Y\",\"finding_ids\":[\"F24\",\"F33\"],\"confidence\":0.93,\"rationale\":\"The discharge summary gives sepsis due to E. coli (blood and urine cultures positive) as the principal diagnosis, and the sepsis was present on admission (I.C.1.d).\"},\"secondary\":[{\"code\":\"R65.20\",\"poa\":\"Y\",\"finding_ids\":[\"F33\",\"F34\",\"F23\"],\"confidence\":0.9,\"rationale\":\"Severe sepsis with acute organ dysfunction is documented, and septic shock was ruled out.\"},{\"code\":\"N39.0\",\"poa\":\"Y\",\"finding_ids\":[\"F21\",\"F25\",\"F35\"],\"confidence\":0.88,\"rationale\":\"E. coli UTI is the documented source of the sepsis. P"
+   },
+   {
+    "t": 38687,
+    "stage": "coder",
+    "type": "output",
+    "draft": {
+     "pdx": {
+      "code": "A41.51",
+      "poa": "Y",
+      "finding_ids": [
+       "F24",
+       "F33"
+      ],
+      "confidence": 0.93,
+      "rationale": "The discharge summary gives sepsis due to E. coli (blood and urine cultures positive) as the principal diagnosis, and the sepsis was present on admission (I.C.1.d)."
+     },
+     "secondary": [
+      {
+       "code": "R65.20",
+       "poa": "Y",
+       "finding_ids": [
+        "F33",
+        "F34",
+        "F23"
+       ],
+       "confidence": 0.9,
+       "rationale": "Severe sepsis with acute organ dysfunction is documented, and septic shock was ruled out."
+      },
+      {
+       "code": "N39.0",
+       "poa": "Y",
+       "finding_ids": [
+        "F21",
+        "F25",
+        "F35"
+       ],
+       "confidence": 0.88,
+       "rationale": "E. coli UTI is the documented source of the sepsis. Pyelonephritis was only 'likely' in the H&P and is not in the discharge summary, so site-unspecified UTI is coded."
+      },
+      {
+       "code": "B96.20",
+       "poa": "Y",
+       "finding_ids": [
+        "F25"
+       ],
+       "confidence": 0.85,
+       "rationale": "An additional code identifies E. coli as the organism causing the UTI."
+      },
+      {
+       "code": "N17.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F17",
+        "F29"
+       ],
+       "confidence": 0.9,
+       "rationale": "Provider documents AKI as sepsis-related organ dysfunction, with creatinine 2.3 against a baseline of 0.8."
+      },
+      {
+       "code": "G93.41",
+       "poa": "Y",
+       "finding_ids": [
+        "F26",
+        "F30"
+       ],
+       "confidence": 0.9,
+       "rationale": "Acute metabolic encephalopathy is documented as sepsis-related organ dysfunction."
+      },
+      {
+       "code": "E87.29",
+       "poa": "Y",
+       "finding_ids": [
+        "F27",
+        "F16"
+       ],
+       "confidence": 0.55,
+       "rationale": "The H&P lists lactic acidosis as an organ dysfunction, with lactate 4.2 and HCO3 17. It is not in the discharge summary."
+      },
+      {
+       "code": "E11.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F1",
+        "F37"
+       ],
+       "confidence": 0.8,
+       "rationale": "Type 2 diabetes is documented with no linked complication. Hyperglycemia was not diagnosed by a provider."
+      },
+      {
+       "code": "Z79.84",
+       "poa": "Y",
+       "finding_ids": [
+        "F1"
+       ],
+       "confidence": 0.7,
+       "rationale": "She takes metformin at home, which is long-term oral hypoglycemic use."
+      },
+      {
+       "code": "I10",
+       "poa": "Y",
+       "finding_ids": [
+        "F2"
+       ],
+       "confidence": 0.85,
+       "rationale": "Hypertension is documented, and there is no CKD or heart disease to link it to."
+      },
+      {
+       "code": "E78.5",
+       "poa": "Y",
+       "finding_ids": [
+        "F3"
+       ],
+       "confidence": 0.85,
+       "rationale": "Hyperlipidemia is documented and treated with a statin."
+      }
+     ],
+     "issues": [
+      {
+       "kind": "query_opportunity",
+       "summary": "The H&P says 'likely early pyelonephritis' (R CVA tenderness) but the discharge summary only says UTI. Query for the UTI site, because acute pyelonephritis (N10) would replace N39.0.",
+       "finding_ids": [
+        "F28",
+        "F14"
+       ],
+       "guideline": "AHIMA/ACDIS query practice",
+       "impact": "none",
+       "codes": [
+        "N10",
+        "N39.0"
+       ]
+      },
+      {
+       "kind": "clinical_validation",
+       "summary": "Lactic acidosis appears only in the H&P and not in the progress notes or discharge summary. Confirm the diagnosis is supported before reporting it.",
+       "finding_ids": [
+        "F27",
+        "F16",
+        "F19"
+       ],
+       "guideline": "AHIMA/ACDIS query practice",
+       "impact": "none",
+       "codes": [
+        "E87.29"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "t": 38687,
+    "stage": "critic",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 45531,
+    "stage": "critic",
+    "type": "text",
+    "text": "{\"reviews\":[{\"code\":\"A41.51\",\"verdict\":\"supported\",\"confidence\":0.93,\"reason\":\"Discharge summary lists E. coli sepsis as principal; blood cultures 2/2 E. coli and POA.\"},{\"code\":\"R65.20\",\"verdict\":\"supported\",\"confidence\":0.92,\"reason\":\"Severe sepsis with organ dysfunction documented through discharge; septic shock explicitly ruled out.\"},{\"code\":\"N39.0\",\"verdict\":\"supported\",\"confidence\":0.8,\"reason\":\"Discharge summary documents E. coli UTI as source. 'Likely' pyelonephritis appears only in the H&P and was not carried forward. The site query is advisory and unlikely to change the DRG.\"},{\"cod"
+   },
+   {
+    "t": 45531,
+    "stage": "critic",
+    "type": "output",
+    "critique": {
+     "reviews": [
+      {
+       "code": "A41.51",
+       "verdict": "supported",
+       "confidence": 0.93,
+       "reason": "Discharge summary lists E. coli sepsis as principal; blood cultures 2/2 E. coli and POA."
+      },
+      {
+       "code": "R65.20",
+       "verdict": "supported",
+       "confidence": 0.92,
+       "reason": "Severe sepsis with organ dysfunction documented through discharge; septic shock explicitly ruled out."
+      },
+      {
+       "code": "N39.0",
+       "verdict": "supported",
+       "confidence": 0.8,
+       "reason": "Discharge summary documents E. coli UTI as source. 'Likely' pyelonephritis appears only in the H&P and was not carried forward. The site query is advisory and unlikely to change the DRG."
+      },
+      {
+       "code": "B96.20",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "E. coli UTI is documented by the provider and confirmed by culture."
+      },
+      {
+       "code": "N17.9",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "AKI is documented by the provider as sepsis organ dysfunction, with creatinine 2.3 from a baseline of 0.8 and improvement with treatment, and it is in the discharge summary."
+      },
+      {
+       "code": "G93.41",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "Acute metabolic encephalopathy is documented throughout and in the discharge summary, with clinical indicators of acute confusion and inattention."
+      },
+      {
+       "code": "E87.29",
+       "verdict": "needs_query",
+       "confidence": 0.45,
+       "reason": "Lactic acidosis is documented only in the H&P assessment and is absent from progress notes and the discharge summary. Hyperlactatemia may be integral to sepsis, and HCO3 17 is mildly low. Clinical validity is weak and the code is a CC."
+      },
+      {
+       "code": "E11.9",
+       "verdict": "supported",
+       "confidence": 0.75,
+       "reason": "T2DM is documented. Hyperglycemia was not diagnosed by a provider, so E11.65 cannot be assigned, and E11.9 is acceptable as documented."
+      },
+      {
+       "code": "Z79.84",
+       "verdict": "supported",
+       "confidence": 0.8,
+       "reason": "Home metformin is documented. It was held inpatient, but long-term use still applies."
+      },
+      {
+       "code": "I10",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "Hypertension is documented, with losartan held and resumed after discharge; no CKD is documented."
+      },
+      {
+       "code": "E78.5",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "Hyperlipidemia is documented and treated with a statin."
+      }
+     ],
+     "pdx_ok": true,
+     "pdx_alternative": null,
+     "missed": [
+      {
+       "kind": "clinical_validation",
+       "summary": "Lactic acidosis (E87.29) appears only in the H&P, is not in the discharge summary, and may be integral to sepsis or hypoperfusion. Query or clinically validate it before reporting, because it is a CC.",
+       "finding_ids": [
+        "F27",
+        "F16",
+        "F19"
+       ],
+       "guideline": "AHIMA/ACDIS query practice",
+       "impact": "severity",
+       "codes": [
+        "E87.29"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "t": 45531,
+    "stage": "grouper",
+    "type": "output",
+    "family": "sepsis",
+    "drg": "871",
+    "title": "Septicemia or severe sepsis w/o MV >96 hours w MCC",
+    "weight": 1.86,
+    "tier": "MCC",
+    "drivers": [
+     "G93.41"
+    ]
+   },
+   {
+    "t": 45531,
+    "stage": "router",
+    "type": "output",
+    "base": 0.9,
+    "blocking": 1,
+    "reasons": [
+     "clinical_validation: Lactic acidosis (E87.29) appears only in the H&P, is not in the discharge summary, and may be integral to sepsis or hypoperfusion. Query or clinically validate it before reporting, because it is a CC."
+    ],
+    "confidence": 0.45
+   },
+   {
+    "t": 45531,
+    "stage": "query",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5",
+    "issue": "Lactic acidosis (E87.29) appears only in the H&P, is not in the discharge summary, and may be integral to sepsis or hypoperfusion. Query or clinically validate it before reporting, because it is a CC."
+   },
+   {
+    "t": 48916,
+    "stage": "query",
+    "type": "text",
+    "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"Lactate 4.2 on hospital day 1\",\"finding_id\":\"F16\"},{\"text\":\"Bicarbonate (HCO3) 17 on hospital day 1\",\"finding_id\":\"F19\"},{\"text\":\"Documentation of acute encephalopathy; received 30 mL/kg lactated Ringer's on hospital day 2\",\"finding_id\":\"F27\"},{\"text\":\"Lactic acidosis is documented in the H&P but is not carried into the discharge summary\",\"finding_id\":null}],\"question\":\"Based on your clinical judgment, please clarify the clinical significance and underlying cause of the elevated lactate and low bicarbonate noted on day 1, and whether "
+   },
+   {
+    "t": 48916,
+    "stage": "query",
+    "type": "output",
+    "query": {
+     "issue": "Lactic acidosis (E87.29) appears only in the H&P, is not in the discharge summary, and may be integral to sepsis or hypoperfusion. Query or clinically validate it before reporting, because it is a CC.",
+     "to": "Attending physician",
+     "clinical_indicators": [
+      {
+       "text": "Lactate 4.2 on hospital day 1",
+       "finding_id": "F16"
+      },
+      {
+       "text": "Bicarbonate (HCO3) 17 on hospital day 1",
+       "finding_id": "F19"
+      },
+      {
+       "text": "Documentation of acute encephalopathy; received 30 mL/kg lactated Ringer's on hospital day 2",
+       "finding_id": "F27"
+      },
+      {
+       "text": "Lactic acidosis is documented in the H&P but is not carried into the discharge summary",
+       "finding_id": null
+      }
+     ],
+     "question": "Based on your clinical judgment, please clarify the clinical significance and underlying cause of the elevated lactate and low bicarbonate noted on day 1, and whether this represents a separate diagnosis that was evaluated, monitored, or treated during this admission.",
+     "options": [
+      "Lactic acidosis due to sepsis-related hypoperfusion",
+      "Lactic acidosis due to another cause (please specify cause)",
+      "Elevated lactate without a clinically significant acid-base disorder",
+      "Other (please specify)",
+      "Clinically undetermined"
+     ],
+     "lint": []
+    }
+   }
+  ],
+  "ms": 48916,
+  "cost_usd": 0.13436
+ },
+ "baseline": {
+  "case_id": "enc-21",
+  "codes": [
+   {
+    "code": "A41.51",
+    "poa": "Y",
+    "role": "pdx",
+    "valid": true,
+    "description": "Sepsis due to Escherichia coli [E. coli]",
+    "confidence": 0.55
+   },
+   {
+    "code": "R65.20",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Severe sepsis without septic shock",
+    "confidence": 0.55
+   },
+   {
+    "code": "N17.9",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Acute kidney failure, unspecified",
+    "confidence": 0.55
+   },
+   {
+    "code": "G93.41",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Metabolic encephalopathy",
+    "confidence": 0.55
+   },
+   {
+    "code": "N39.0",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Urinary tract infection, site not specified",
+    "confidence": 0.55
+   },
+   {
+    "code": "B96.20",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere",
+    "confidence": 0.55
+   },
+   {
+    "code": "E87.20",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Acidosis, unspecified",
+    "confidence": 0.55
+   },
+   {
+    "code": "E11.65",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Type 2 diabetes mellitus with hyperglycemia",
+    "confidence": 0.55
+   },
+   {
+    "code": "E11.22",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease",
+    "confidence": 0.55
+   },
+   {
+    "code": "I12.9",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",
+    "confidence": 0.55
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Hyperlipidemia, unspecified",
+    "confidence": 0.55
+   },
+   {
+    "code": "E86.0",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Dehydration",
+    "confidence": 0.55
+   },
+   {
+    "code": "Z79.84",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Long term (current) use of oral hypoglycemic drugs",
+    "confidence": 0.55
+   }
+  ],
+  "drg": {
+   "family": "sepsis",
+   "number": "871",
+   "weight": 1.86,
+   "tier": "MCC",
+   "drivers": [
+    "G93.41"
+   ]
+  },
+  "confidence": 0.275,
+  "needs_human": true,
+  "reason": "Key uncertainties: (1) E11.22/I12.9 not documented by provider - diabetes with CKD or hypertensive CKD cannot be assumed; AKI is acute, no CKD documented, so these should likely be removed and replaced with E11.9 or E11.65 plus I10. (2) E11.65 hyperglycemia: glucose 248 but 'hyperglycemia' not documented by provider, so E11.65 may be unsupported, use E11.9. (3) E87.20 lactic acidosis: provider documented lactic acidosis in H&P as organ dysfunction, acceptable but E87.20 vs E87.29 should be verified for FY2027 code set. (4) Dehydration/volume depletion documented in H&P; E86.0 acceptable. (5) Pyelonephritis was only 'likely early' and not carried to discharge, so N39.0 retained. (6) Z79.84 long-term oral hypoglycemic use reasonable, insulin inpatient only. Recommend coder review of diabetes/hypertension code assignment.",
+  "ms": 7140,
+  "cost_usd": 0.01218,
+  "input_tokens": 3034,
+  "output_tokens": 611
+ },
+ "score": {
+  "id": "enc-21",
+  "title": "Severe E. coli sepsis, shock explicitly absent",
+  "summary": "Severe sepsis from an E. coli urinary infection with kidney injury and confusion; the doctors clearly state there was no septic shock.",
+  "family": "sepsis",
+  "hero": false,
+  "traps": [
+   "negation"
+  ],
+  "gold_route": "autonomous",
+  "gold_drg": "871",
+  "pred_drg": "871",
+  "gold_weight": 1.86,
+  "pred_weight": 1.86,
+  "confidence": 0.45,
+  "tp": 9,
+  "fp": 2,
+  "fn": 0,
+  "fp_codes": [
+   "B96.20",
+   "E87.29"
+  ],
+  "fn_codes": [],
+  "cc_tp": 4,
+  "cc_fp": 1,
+  "cc_fn": 0,
+  "pdx_ok": true,
+  "drg_ok": true,
+  "overcoded": false,
+  "undercoded": false,
+  "invalid_codes": [],
+  "citations": 37,
+  "citations_located": 37,
+  "queries": 1,
+  "queries_lint_clean": 1,
+  "cost_usd": 0.13436,
+  "ms": 48916
+ }
+}

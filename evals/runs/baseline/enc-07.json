@@ -1,0 +1,59 @@
+{
+ "case_id": "enc-07",
+ "codes": [
+  {
+   "code": "J44.1",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Chronic obstructive pulmonary disease with (acute) exacerbation",
+   "confidence": 0.85
+  },
+  {
+   "code": "F17.210",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Nicotine dependence, cigarettes, uncomplicated",
+   "confidence": 0.85
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.85
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.85
+  },
+  {
+   "code": "F32.A",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Depression, unspecified",
+   "confidence": 0.85
+  }
+ ],
+ "drg": {
+  "family": "copd",
+  "number": "192",
+  "weight": 0.69,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.85,
+ "needs_human": false,
+ "reason": "COPD with acute exacerbation is the principal diagnosis. Acute hypoxic respiratory failure was queried in the ED but the attending documented it was ruled out, so J96.01 is not coded. The ED SpO2 of 87% is not coded separately because the symptom is integral to the exacerbation. Depression is unspecified, so F32.A applies. Hypertension and hyperlipidemia are coded as documented.",
+ "ms": 2560,
+ "cost_usd": 0.00811,
+ "input_tokens": 2802,
+ "output_tokens": 251
+}

@@ -1,0 +1,106 @@
+{
+  "id": "enc-24",
+  "title": "E. coli UTI with metabolic encephalopathy",
+  "summary": "A urinary infection caused by E. coli led to acute confusion that the attending clearly diagnosed as metabolic encephalopathy and carried through to discharge.",
+  "hero": false,
+  "family": "uti",
+  "patient": {
+    "age": 79,
+    "sex": "M"
+  },
+  "admit_date": "2026-09-18",
+  "discharge_date": "2026-09-21",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "W. Fitzgerald, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-18T19:30",
+      "text": "CC: confusion.\nHPI: 79 y/o M with HTN, T2DM, HLD, CAD (s/p PCI 2019) brought by wife for 1 day of new confusion, sleepiness, and garbled speech; also 2 days of urinary frequency and burning. At baseline he is fully independent, manages his own finances, and drives. No falls, head trauma, new meds, or EtOH.\nVitals: T 38.1, HR 92, BP 146/82, RR 18, SpO2 96% RA.\nExam: Drowsy but arousable, oriented to self only, inattentive, intermittently follows commands. No focal weakness, face symmetric, no meningismus. Mild suprapubic tenderness.\nLabs: WBC 13.1, Hgb 13.8, Plt 210. Na 138, K 4.3, Cr 1.0 (baseline 1.0), glucose 188. Lactate 1.3. Ammonia 22. TSH 1.9. UA: + nitrite, large LE, > 50 WBC/hpf.\nCT head w/o contrast: no acute intracranial process.\nED course: ceftriaxone 1 g IV, urine cx sent.\nImpression: UTI with acute altered mental status. Admit."
+    },
+    {
+      "id": "d2",
+      "type": "H&P",
+      "author": "Y. Takahashi, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-18T23:15",
+      "text": "HISTORY AND PHYSICAL\nHPI: 79M, independent at baseline, with 2 days dysuria/frequency and 1 day acute confusion and somnolence. UA consistent with UTI. CT head negative. Ammonia, TSH, glucose not explanatory.\nPMH: HTN, T2DM (A1c 6.9%), HLD, CAD s/p PCI to LAD 2019, no angina since. Meds: metformin 1000 mg BID, lisinopril 10 mg, atorvastatin 80 mg, aspirin 81 mg.\nExam: T 37.9, HR 88, BP 142/80. Somnolent, oriented to self only, inattentive (cannot say days of week backward). No asterixis. Nonfocal neuro exam.\nASSESSMENT/PLAN:\n1. Acute metabolic encephalopathy due to UTI - acute global change in mental status from fully independent baseline, nonfocal exam, negative CT head, alternative toxic-metabolic causes excluded. Treat infection, delirium precautions, avoid sedatives/anticholinergics, sleep hygiene, hold home meds that could contribute (none).\n2. UTI (acute cystitis vs early pyelo) - ceftriaxone 1 g daily, f/u urine cx. No evidence of sepsis: hemodynamically stable, lactate 1.3, no other organ dysfunction.\n3. T2DM - hold metformin; SSI.\n4. HTN - continue lisinopril.\n5. CAD s/p PCI - asymptomatic; continue aspirin, statin.\n6. HLD - atorvastatin 80 mg.\nDVT ppx enoxaparin. Full code."
+    },
+    {
+      "id": "d3",
+      "type": "Nursing note",
+      "author": "M. Oduya, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-19T04:10",
+      "text": "Pt restless overnight, pulling at IV x1, redirectable. Oriented to self only. CAM positive. Wife at bedside until 22:00. Bed alarm on, low bed, fall precautions. Voided 350 mL, cloudy, foul-smelling."
+    },
+    {
+      "id": "d4",
+      "type": "Progress note",
+      "author": "Y. Takahashi, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-19T10:00",
+      "text": "S: Per RN restless overnight, CAM +. This AM more awake.\nO: Tmax 37.6, HR 80, BP 138/76. Oriented to self and hospital, not date. Follows commands. Urine cx: > 100,000 CFU/mL E. coli, pan-sensitive except ampicillin.\nA/P:\n1. Acute metabolic encephalopathy due to E. coli UTI - improving but not at baseline. Continue delirium precautions.\n2. E. coli UTI - continue ceftriaxone; transition to PO when mentation allows reliable PO.\n3. T2DM - BG 140-190 on SSI.\n4. HTN, CAD, HLD - home meds."
+    },
+    {
+      "id": "d5",
+      "type": "Lab summary",
+      "author": "Clinical Laboratory",
+      "author_role": "lab",
+      "timestamp": "2026-09-20T06:15",
+      "text": "Urine culture (09/18): > 100,000 CFU/mL Escherichia coli. Susceptible: ceftriaxone, cefazolin, cephalexin, nitrofurantoin, TMP-SMX, ciprofloxacin. Resistant: ampicillin.\nBlood cultures x2 (09/18): no growth at 48 h.\nWBC 13.1 -> 10.4 -> 8.2. Cr 1.0 -> 0.9. Na 138 -> 139. Lactate (09/18) 1.3.\nFingerstick glucose range 09/19-09/20: 132-191.\nCAM (nursing flowsheet): positive 09/19 04:00; positive 09/19 20:00; negative 09/20 08:00 and 20:00."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "Y. Takahashi, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-21T11:30",
+      "text": "DISCHARGE SUMMARY\nAdmit 09/18/2026 - Discharge 09/21/2026. Home with wife.\nPrincipal diagnosis: Urinary tract infection due to E. coli.\nSecondary diagnoses: Acute metabolic encephalopathy due to E. coli UTI, resolved. Type 2 diabetes mellitus. Hypertension. Coronary artery disease s/p PCI. Hyperlipidemia.\nHospital course: 79M presented with dysuria and acute confusion/somnolence; workup for other causes (CT head, ammonia, TSH, glucose) unrevealing. Diagnosed with acute metabolic encephalopathy secondary to E. coli UTI. Mental status improved steadily with antibiotics and returned to baseline by HD3 per wife (oriented x3, CAM negative). Transitioned to PO cephalexin HD3.\nDischarge meds: cephalexin 500 mg QID x 4 days; resume metformin, lisinopril, atorvastatin, aspirin.\nFollow-up: PCP 1 week."
+    }
+  ],
+  "gold": {
+    "pdx": "N39.0",
+    "secondary": [
+      {
+        "code": "B96.20",
+        "poa": "Y"
+      },
+      {
+        "code": "G93.41",
+        "poa": "Y"
+      },
+      {
+        "code": "E11.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.84",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "I25.10",
+        "poa": "Y"
+      },
+      {
+        "code": "Z95.5",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      }
+    ],
+    "drg": "689",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [],
+    "explanation": "E. coli UTI is N39.0 with B96.20 for the organism. The attending clearly and consistently documents acute metabolic encephalopathy due to the UTI in the H&P, progress note and discharge summary, with supporting workup (CT head, ammonia, TSH all unrevealing), so G93.41 is coded and acts as the MCC, giving DRG 689. Sepsis is explicitly excluded by the attending and shouldn't be coded. Coding 'altered mental status' (R41.82) instead of the documented encephalopathy undercodes the case."
+  }
+}

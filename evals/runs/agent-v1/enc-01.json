@@ -1,0 +1,1859 @@
+{
+ "case_id": "enc-01",
+ "prompt_version": "2026-10-02.3",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Community-acquired pneumonia, right lower lobe",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Right lower lobe consolidation, consistent with pneumonia.",
+   "note": null,
+   "start": 565,
+   "end": 623
+  },
+  {
+   "id": "F2",
+   "condition": "Pulmonary embolism",
+   "assertion": "ruled_out",
+   "doc_id": "d1",
+   "quote": "No pulmonary embolism.",
+   "note": null,
+   "start": 627,
+   "end": 649
+  },
+  {
+   "id": "F3",
+   "condition": "Productive cough with rust-colored sputum",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "productive cough (rust-colored sputum)",
+   "note": null,
+   "start": 126,
+   "end": 164
+  },
+  {
+   "id": "F4",
+   "condition": "Fever",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "subjective fevers",
+   "note": null,
+   "start": 166,
+   "end": 183
+  },
+  {
+   "id": "F5",
+   "condition": "Right-sided pleuritic chest pain",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "R-sided pleuritic chest pain worse with deep inspiration",
+   "note": null,
+   "start": 196,
+   "end": 252
+  },
+  {
+   "id": "F6",
+   "condition": "Rigors",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "rigors",
+   "note": null,
+   "start": 185,
+   "end": 191
+  },
+  {
+   "id": "F7",
+   "condition": "Dyspnea on exertion (mild)",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Mild DOE.",
+   "note": null,
+   "start": 254,
+   "end": 263
+  },
+  {
+   "id": "F8",
+   "condition": "Hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "67F with HTN, HLD, hypothyroidism and obesity",
+   "note": null,
+   "start": 56,
+   "end": 101
+  },
+  {
+   "id": "F9",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "HTN, HLD, hypothyroidism and obesity",
+   "note": null,
+   "start": 65,
+   "end": 101
+  },
+  {
+   "id": "F10",
+   "condition": "Hypothyroidism",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "hypothyroidism",
+   "note": null,
+   "start": 75,
+   "end": 89
+  },
+  {
+   "id": "F11",
+   "condition": "Obesity",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "obesity",
+   "note": null,
+   "start": 94,
+   "end": 101
+  },
+  {
+   "id": "F12",
+   "condition": "Elevated D-dimer",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "D-dimer 2.40 (ref <0.50)",
+   "note": null,
+   "start": 834,
+   "end": 858
+  },
+  {
+   "id": "F13",
+   "condition": "Elevated white blood cell count",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "WBC 16.2 (88% PMN)",
+   "note": null,
+   "start": 707,
+   "end": 725
+  },
+  {
+   "id": "F14",
+   "condition": "Elevated procalcitonin",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Procalcitonin 1.8",
+   "note": null,
+   "start": 799,
+   "end": 816
+  },
+  {
+   "id": "F15",
+   "condition": "Tachycardia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "HR 108",
+   "note": null,
+   "start": 495,
+   "end": 501
+  },
+  {
+   "id": "F16",
+   "condition": "Tachypnea",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "RR 22",
+   "note": null,
+   "start": 514,
+   "end": 519
+  },
+  {
+   "id": "F17",
+   "condition": "Crackles and bronchial breath sounds at right base",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Crackles and bronchial breath sounds R base",
+   "note": null,
+   "start": 599,
+   "end": 642
+  },
+  {
+   "id": "F18",
+   "condition": "Right lower lobe airspace opacity on CXR",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "CXR: RLL airspace opacity",
+   "note": null,
+   "start": 878,
+   "end": 903
+  },
+  {
+   "id": "F19",
+   "condition": "Acute pulmonary embolism, segmental, right lower lobe",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "small eccentric filling defects within the segmental arteries of the right lower lobe posterior basal and lateral basal segments, consistent with acute pulmonary emboli",
+   "note": null,
+   "start": 148,
+   "end": 316
+  },
+  {
+   "id": "F20",
+   "condition": "Right ventricular strain",
+   "assertion": "negated",
+   "doc_id": "d4",
+   "quote": "RV/LV ratio 0.8; no CT evidence of right heart strain",
+   "note": null,
+   "start": 370,
+   "end": 423
+  },
+  {
+   "id": "F21",
+   "condition": "Egophony right lower lobe",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Crackles R base, egophony RLL.",
+   "note": null,
+   "start": 453,
+   "end": 483
+  },
+  {
+   "id": "F22",
+   "condition": "Normal troponin",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Troponin <0.01",
+   "note": null,
+   "start": 818,
+   "end": 832
+  },
+  {
+   "id": "F23",
+   "condition": "Normal troponin on hospital day 2",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Troponin <0.01, BNP 64",
+   "note": null,
+   "start": 256,
+   "end": 278
+  },
+  {
+   "id": "F24",
+   "condition": "Normal BNP",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Troponin <0.01, BNP 64",
+   "note": null,
+   "start": 256,
+   "end": 278
+  },
+  {
+   "id": "F25",
+   "condition": "Deep vein thrombosis",
+   "assertion": "ruled_out",
+   "doc_id": "d5",
+   "quote": "BLE venous duplex today: no DVT",
+   "note": null,
+   "start": 456,
+   "end": 487
+  },
+  {
+   "id": "F26",
+   "condition": "Negative blood cultures at 24 hours",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Blood cx NGTD x24 h",
+   "note": null,
+   "start": 280,
+   "end": 299
+  },
+  {
+   "id": "F27",
+   "condition": "Negative Legionella urinary antigen",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Urine Legionella and pneumococcal Ag negative",
+   "note": null,
+   "start": 301,
+   "end": 346
+  },
+  {
+   "id": "F28",
+   "condition": "Negative pneumococcal urinary antigen",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Urine Legionella and pneumococcal Ag negative",
+   "note": null,
+   "start": 301,
+   "end": 346
+  },
+  {
+   "id": "F29",
+   "condition": "Afebrile by hospital day 3",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "afebrile >48 h by HD3",
+   "note": null,
+   "start": 476,
+   "end": 497
+  },
+  {
+   "id": "F30",
+   "condition": "Weaned to room air",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "weaned to room air 09/17",
+   "note": null,
+   "start": 502,
+   "end": 526
+  },
+  {
+   "id": "F31",
+   "condition": "Normal respiratory flora in sputum",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Sputum: normal respiratory flora",
+   "note": null,
+   "start": 838,
+   "end": 870
+  },
+  {
+   "id": "F32",
+   "condition": "Normal blood cultures at 4 days",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Blood cultures 09/14: no growth at 4 days",
+   "note": null,
+   "start": 795,
+   "end": 836
+  },
+  {
+   "id": "F33",
+   "condition": "Obesity, BMI 33.4",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "BMI 33.4",
+   "note": null,
+   "start": 443,
+   "end": 451
+  },
+  {
+   "id": "F34",
+   "condition": "Risk factor for PE: prolonged car travel",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Drove 9 hrs each way to visit grandchildren 2 wks ago",
+   "note": null,
+   "start": 264,
+   "end": 317
+  },
+  {
+   "id": "F35",
+   "condition": "Fatigue",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "fatigue",
+   "note": null,
+   "start": 419,
+   "end": 426
+  },
+  {
+   "id": "F36",
+   "condition": "Poor appetite",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "poor appetite",
+   "note": null,
+   "start": 428,
+   "end": 441
+  },
+  {
+   "id": "F37",
+   "condition": "Mild hyponatremia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Na 137, K 4.0, BUN 18",
+   "note": null,
+   "start": 746,
+   "end": 767
+  },
+  {
+   "id": "F38",
+   "condition": "Normal potassium",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Na 137, K 4.0, BUN 18",
+   "note": null,
+   "start": 746,
+   "end": 767
+  },
+  {
+   "id": "F39",
+   "condition": "Normal lactate",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Lactate 1.6",
+   "note": null,
+   "start": 786,
+   "end": 797
+  },
+  {
+   "id": "F40",
+   "condition": "Fever, maximum 38.6\u00b0C on admission",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "T 38.6 C, HR 108, BP 138/82, RR 22",
+   "note": null,
+   "start": 485,
+   "end": 519
+  },
+  {
+   "id": "F41",
+   "condition": "Oxygen saturation 93% on room air at admission",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "SpO2 93% RA.",
+   "note": null,
+   "start": 521,
+   "end": 533
+  },
+  {
+   "id": "F42",
+   "condition": "Discrepancy in radiology interpretation: preliminary read missed PE",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "These were not described on the preliminary report.",
+   "note": "Final read on 09/15 identified acute pulmonary emboli missed by overnight teleradiology",
+   "start": 318,
+   "end": 369
+  },
+  {
+   "id": "F43",
+   "condition": "History of long car travel 2 weeks prior",
+   "assertion": "history",
+   "doc_id": "d5",
+   "quote": "Minor transient risk factor (prolonged car travel)",
+   "note": null,
+   "start": 762,
+   "end": 812
+  },
+  {
+   "id": "F44",
+   "condition": "Never smoker",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Never smoker.",
+   "note": null,
+   "start": 363,
+   "end": 376
+  },
+  {
+   "id": "F45",
+   "condition": "No recent hospitalization",
+   "assertion": "negated",
+   "doc_id": "d2",
+   "quote": "No recent hospitalization or abx.",
+   "note": null,
+   "start": 377,
+   "end": 410
+  },
+  {
+   "id": "F46",
+   "condition": "No recent antibiotic use",
+   "assertion": "negated",
+   "doc_id": "d2",
+   "quote": "No recent hospitalization or abx.",
+   "note": null,
+   "start": 377,
+   "end": 410
+  }
+ ],
+ "codes": [
+  {
+   "code": "J18.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F1",
+    "F17",
+    "F18"
+   ],
+   "confidence": 0.65,
+   "rationale": "CAP of the RLL was the reason for admission (IV antibiotics and O2). The PE was found later and also meets the PDx definition, so sequencing follows OCG II.C. Pneumonia is chosen because it prompted the admission.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "CAP RLL is documented by providers throughout and was the reason for admission, with IV antibiotics and O2. It is POA. J18.9 is acceptable, but sputum and blood cultures showed no organism and there is no specificity for lobar pneumonia, so unspecified is appropriate. Sequencing against the PE is a judgment call (see pdx note).",
+   "severity": null,
+   "description": "Pneumonia, unspecified organism"
+  },
+  {
+   "code": "I26.99",
+   "poa": "Y",
+   "finding_ids": [
+    "F19",
+    "F20",
+    "F25"
+   ],
+   "confidence": 0.6,
+   "rationale": "Acute segmental PE, documented by the attending in the progress note and discharge diagnoses. It was seen on the admission CTA, so it was present on admission. There is no cor pulmonale (no RV strain).",
+   "role": "secondary",
+   "verdict": "needs_query",
+   "critic_reason": "The PE is provider-documented in the progress note and discharge diagnoses, and the final radiology read supports it. However, the discharge summary imaging section still says 'No pulmonary embolism' for the CTA, which conflicts and is unresolved. The code choice also needs review: I26.9x is for PE without acute cor pulmonale, and segmental PE is commonly coded I26.93 (single subsegmental) or I26.99 (other). The documentation does not say whether it is single or multiple, so the laterality or number of emboli may need clarification. The segmental level, not subsegmental, supports I26.99. POA is Y because the PE was seen on the admission CTA. Recommend a query to correct the discharge summary imaging line.",
+   "severity": "MCC",
+   "description": "Other pulmonary embolism without acute cor pulmonale"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F8"
+   ],
+   "confidence": 0.95,
+   "rationale": "Chronic hypertension, treated with home lisinopril.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Chronic HTN is documented by the provider and treated with lisinopril.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F9"
+   ],
+   "confidence": 0.93,
+   "rationale": "Hyperlipidemia, treated with atorvastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is documented by the provider and treated with atorvastatin.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F10"
+   ],
+   "confidence": 0.93,
+   "rationale": "Hypothyroidism, treated with levothyroxine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypothyroidism is documented by the provider and treated with levothyroxine.",
+   "severity": "none",
+   "description": "Hypothyroidism, unspecified"
+  },
+  {
+   "code": "E66.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F11",
+    "F33"
+   ],
+   "confidence": 0.85,
+   "rationale": "Obesity is documented by the provider without a class or type, so it is coded as unspecified.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Obesity is documented by the provider in the H&P and discharge diagnoses, was counseled on, and BMI is 33.4. Obesity without a class is E66.9. Newer code sets may offer E66.811 for class 1 obesity, but this is only valid if the provider documents the class, which they did not.",
+   "severity": "none",
+   "description": "Obesity, unspecified"
+  },
+  {
+   "code": "Z68.33",
+   "poa": "Y",
+   "finding_ids": [
+    "F33"
+   ],
+   "confidence": 0.85,
+   "rationale": "BMI 33.4 is reported with the provider-documented obesity diagnosis (OCG I.B.14).",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "BMI 33.4 is documented and associated with a provider-documented obesity diagnosis. Z68.33 corresponds to BMI 33.0-33.9.",
+   "severity": "none",
+   "description": "Body mass index [BMI] 33.0-33.9, adult"
+  }
+ ],
+ "removed": [
+  {
+   "code": "Z79.01",
+   "poa": "Y",
+   "finding_ids": [
+    "F19"
+   ],
+   "confidence": 0.2,
+   "rationale": "Discharged on apixaban for at least 3 months of anticoagulation.",
+   "role": "secondary",
+   "verdict": "unsupported",
+   "critic_reason": "Z79.01 is for current long-term anticoagulant use, such as a patient on anticoagulation prior to admission. Apixaban was newly started this admission for acute PE treatment. Per guidelines, the status code is not assigned for a medication started during the stay for the acute condition being treated. It is also an apixaban (DOAC) start, and the finding cited (F19) is the PE, not a prior drug history.",
+   "severity": "none",
+   "description": "Long term (current) use of anticoagulants"
+  }
+ ],
+ "issues": [
+  {
+   "kind": "copy_forward",
+   "summary": "The discharge summary imaging section says the CTA showed 'No pulmonary embolism'. This is the stale preliminary read. The 09/15 radiology addendum, progress note and discharge diagnoses all confirm acute segmental PE, so PE is coded. Ask the provider to correct the summary.",
+   "finding_ids": [
+    "F2",
+    "F19",
+    "F42"
+   ],
+   "guideline": "A later addendum supersedes an earlier read",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "PE and pneumonia were both present on admission and could each be the principal diagnosis. Pneumonia is sequenced first because it prompted the admission. Confirm the sequencing, since PE as PDx would change the DRG.",
+   "finding_ids": [
+    "F1",
+    "F19"
+   ],
+   "guideline": "OCG Section II.C",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "conflicting_documentation",
+   "summary": "The discharge summary imaging section states the CTA showed 'No pulmonary embolism' while the diagnoses and the final radiology addendum state acute segmental PE; ask the attending to amend the discharge summary so the final record is internally consistent.",
+   "finding_ids": [
+    "F2",
+    "F19",
+    "F42"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": true
+  },
+  {
+   "kind": "other",
+   "summary": "Both CAP and PE were POA and both meet the PDx definition. PE was not recognized until HD2 but the admission workup, O2 and IV antibiotics targeted pneumonia, and the circumstances of admission support pneumonia as PDx per OCG II.C. The coder rationale is reasonable, but note that the PE as PDx would change the DRG, so a human should confirm the sequencing.",
+   "finding_ids": [
+    "F1",
+    "F19"
+   ],
+   "guideline": "OCG Section II.C",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Hypoxia: SpO2 93% RA and O2 started at 2 L NC, but no provider documented hypoxia or acute respiratory failure. Do not code from the SpO2 alone; clinical indicators are weak (93%), so a query is not strongly supported.",
+   "finding_ids": [
+    "F41",
+    "F30"
+   ],
+   "guideline": "OCG Section III.B",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Dated history of recent prolonged car travel was documented as a minor transient PE risk factor; no code is needed, and Z91.89 or similar is optional only if facility policy allows.",
+   "finding_ids": [
+    "F34",
+    "F43"
+   ],
+   "guideline": null,
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "clinical_validation",
+   "summary": "I26.99: The PE is provider-documented in the progress note and discharge diagnoses, and the final radiology read supports it. However, the discharge summary imaging section still says 'No pulmonary embolism' for the CTA, which conflicts and is unresolved. The code choice also needs review: I26.9x is for PE without acute cor pulmonale, and segmental PE is commonly coded I26.93 (single subsegmental) or I26.99 (other). The documentation does not say whether it is single or multiple, so the laterality or number of emboli may need clarification. The segmental level, not subsegmental, supports I26.99. POA is Y because the PE was seen on the admission CTA. Recommend a query to correct the discharge summary imaging line.",
+   "finding_ids": [
+    "F19",
+    "F20",
+    "F25"
+   ],
+   "guideline": null,
+   "blocks_autonomy": true
+  }
+ ],
+ "queries": [
+  {
+   "issue": "The discharge summary imaging section states the CTA showed 'No pulmonary embolism' while the diagnoses and the final radiology addendum state acute segmental PE; ask the attending to amend the discharge summary so the final record is internally consistent.",
+   "to": "Attending physician",
+   "clinical_indicators": [
+    {
+     "text": "Discharge summary imaging section documents the CTA result as: \"No pulmonary embolism.\"",
+     "finding_id": "F2"
+    },
+    {
+     "text": "Final radiology addendum: \"small eccentric filling defects within the segmental arteries of the right lower lobe posterior basal and lateral basal segments, consistent with acute pulmonary emboli.\"",
+     "finding_id": "F19"
+    },
+    {
+     "text": "Radiology addendum notes: \"These were not described on the preliminary report.\"",
+     "finding_id": "F42"
+    },
+    {
+     "text": "Discharge diagnoses list acute segmental pulmonary embolism, which differs from the imaging section of the discharge summary.",
+     "finding_id": null
+    }
+   ],
+   "question": "The discharge summary contains differing statements about the CTA pulmonary artery findings. Based on your clinical judgment and the final imaging report, please clarify the CTA result and the corresponding diagnosis so the discharge summary is internally consistent.",
+   "options": [
+    "CTA showed acute segmental pulmonary embolism per the final radiology report; the discharge summary imaging section will be amended accordingly",
+    "CTA showed no pulmonary embolism and the diagnosis of acute segmental pulmonary embolism is not supported (please clarify the diagnosis)",
+    "Other (please specify)",
+    "Clinically undetermined"
+   ],
+   "lint": []
+  },
+  {
+   "issue": "I26.99: The PE is provider-documented in the progress note and discharge diagnoses, and the final radiology read supports it. However, the discharge summary imaging section still says 'No pulmonary embolism' for the CTA, which conflicts and is unresolved. The code choice also needs review: I26.9x is for PE without acute cor pulmonale, and segmental PE is commonly coded I26.93 (single subsegmental) or I26.99 (other). The documentation does not say whether it is single or multiple, so the laterality or number of emboli may need clarification. The segmental level, not subsegmental, supports I26.99. POA is Y because the PE was seen on the admission CTA. Recommend a query to correct the discharge summary imaging line.",
+   "to": "Attending physician",
+   "clinical_indicators": [
+    {
+     "text": "Final CTA read: small eccentric filling defects within the segmental arteries of the right lower lobe posterior basal and lateral basal segments, consistent with acute pulmonary emboli",
+     "finding_id": "F19"
+    },
+    {
+     "text": "CTA: RV/LV ratio 0.8; no CT evidence of right heart strain",
+     "finding_id": "F20"
+    },
+    {
+     "text": "Bilateral lower extremity venous duplex: no DVT",
+     "finding_id": "F25"
+    },
+    {
+     "text": "Pulmonary embolism is documented in the progress note and discharge diagnoses, while the discharge summary imaging section states 'No pulmonary embolism' for the CTA",
+     "finding_id": null
+    }
+   ],
+   "question": "The discharge summary imaging section and the final CTA read describe the CTA findings differently. Based on your clinical judgment, please clarify the CTA result and the pulmonary finding being treated this admission.",
+   "options": [
+    "CTA showed acute pulmonary emboli in the right lower lobe segmental arteries (posterior basal and lateral basal segments); the discharge summary imaging line will be amended",
+    "CTA showed no pulmonary embolism; the diagnosis of pulmonary embolism is not supported",
+    "Other (please specify)",
+    "Clinically undetermined"
+   ],
+   "lint": []
+  }
+ ],
+ "drg": {
+  "family": "pneumonia",
+  "number": "193",
+  "title": "Simple pneumonia and pleurisy w MCC",
+  "weight": 1.31,
+  "tier": "MCC",
+  "drivers": [
+   "I26.99"
+  ]
+ },
+ "confidence": 0.3,
+ "confidence_base": 0.6,
+ "blocking_issues": 2,
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 31353,
+   "input_tokens": 9831,
+   "output_tokens": 5230,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.03598
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 31353,
+   "ms": 14749,
+   "input_tokens": 17047,
+   "output_tokens": 1920,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.05329
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 46102,
+   "ms": 12768,
+   "input_tokens": 7999,
+   "output_tokens": 1588,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.03188
+  },
+  {
+   "stage": "query",
+   "model": "claude-sonnet-5-5",
+   "started": 58870,
+   "ms": 4101,
+   "input_tokens": 946,
+   "output_tokens": 454,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.00643
+  },
+  {
+   "stage": "query",
+   "model": "claude-sonnet-5-5",
+   "started": 62971,
+   "ms": 5265,
+   "input_tokens": 1114,
+   "output_tokens": 434,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.00657
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "Radiology",
+     "author_role": "radiology",
+     "timestamp": "2026-09-14T06:58",
+     "words": 95,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-14T07:45",
+     "words": 219,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-14T11:30",
+     "words": 181,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Radiology",
+     "author_role": "radiology",
+     "timestamp": "2026-09-15T09:48",
+     "words": 104,
+     "flags": [
+      "addendum"
+     ]
+    },
+    {
+     "id": "d5",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-15T14:10",
+     "words": 177,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-18T10:40",
+     "words": 213,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 31353,
+   "stage": "evidence",
+   "type": "validation_retry",
+   "reason": "These quotes are not verbatim. Copy exact text from the document:\nF21: quote not found verbatim in d3: 'egophony RRL'"
+  },
+  {
+   "t": 31353,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Community-acquired pneumonia, right lower lobe",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Right lower lobe consolidation, consistent with pneumonia.",
+     "note": null,
+     "start": 565,
+     "end": 623
+    },
+    {
+     "id": "F2",
+     "condition": "Pulmonary embolism",
+     "assertion": "ruled_out",
+     "doc_id": "d1",
+     "quote": "No pulmonary embolism.",
+     "note": null,
+     "start": 627,
+     "end": 649
+    },
+    {
+     "id": "F3",
+     "condition": "Productive cough with rust-colored sputum",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "productive cough (rust-colored sputum)",
+     "note": null,
+     "start": 126,
+     "end": 164
+    },
+    {
+     "id": "F4",
+     "condition": "Fever",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "subjective fevers",
+     "note": null,
+     "start": 166,
+     "end": 183
+    },
+    {
+     "id": "F5",
+     "condition": "Right-sided pleuritic chest pain",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "R-sided pleuritic chest pain worse with deep inspiration",
+     "note": null,
+     "start": 196,
+     "end": 252
+    },
+    {
+     "id": "F6",
+     "condition": "Rigors",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "rigors",
+     "note": null,
+     "start": 185,
+     "end": 191
+    },
+    {
+     "id": "F7",
+     "condition": "Dyspnea on exertion (mild)",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Mild DOE.",
+     "note": null,
+     "start": 254,
+     "end": 263
+    },
+    {
+     "id": "F8",
+     "condition": "Hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "67F with HTN, HLD, hypothyroidism and obesity",
+     "note": null,
+     "start": 56,
+     "end": 101
+    },
+    {
+     "id": "F9",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "HTN, HLD, hypothyroidism and obesity",
+     "note": null,
+     "start": 65,
+     "end": 101
+    },
+    {
+     "id": "F10",
+     "condition": "Hypothyroidism",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "hypothyroidism",
+     "note": null,
+     "start": 75,
+     "end": 89
+    },
+    {
+     "id": "F11",
+     "condition": "Obesity",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "obesity",
+     "note": null,
+     "start": 94,
+     "end": 101
+    },
+    {
+     "id": "F12",
+     "condition": "Elevated D-dimer",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "D-dimer 2.40 (ref <0.50)",
+     "note": null,
+     "start": 834,
+     "end": 858
+    },
+    {
+     "id": "F13",
+     "condition": "Elevated white blood cell count",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "WBC 16.2 (88% PMN)",
+     "note": null,
+     "start": 707,
+     "end": 725
+    },
+    {
+     "id": "F14",
+     "condition": "Elevated procalcitonin",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Procalcitonin 1.8",
+     "note": null,
+     "start": 799,
+     "end": 816
+    },
+    {
+     "id": "F15",
+     "condition": "Tachycardia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "HR 108",
+     "note": null,
+     "start": 495,
+     "end": 501
+    },
+    {
+     "id": "F16",
+     "condition": "Tachypnea",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "RR 22",
+     "note": null,
+     "start": 514,
+     "end": 519
+    },
+    {
+     "id": "F17",
+     "condition": "Crackles and bronchial breath sounds at right base",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Crackles and bronchial breath sounds R base",
+     "note": null,
+     "start": 599,
+     "end": 642
+    },
+    {
+     "id": "F18",
+     "condition": "Right lower lobe airspace opacity on CXR",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "CXR: RLL airspace opacity",
+     "note": null,
+     "start": 878,
+     "end": 903
+    },
+    {
+     "id": "F19",
+     "condition": "Acute pulmonary embolism, segmental, right lower lobe",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "small eccentric filling defects within the segmental arteries of the right lower lobe posterior basal and lateral basal segments, consistent with acute pulmonary emboli",
+     "note": null,
+     "start": 148,
+     "end": 316
+    },
+    {
+     "id": "F20",
+     "condition": "Right ventricular strain",
+     "assertion": "negated",
+     "doc_id": "d4",
+     "quote": "RV/LV ratio 0.8; no CT evidence of right heart strain",
+     "note": null,
+     "start": 370,
+     "end": 423
+    },
+    {
+     "id": "F21",
+     "condition": "Egophony right lower lobe",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Crackles R base, egophony RLL.",
+     "note": null,
+     "start": 453,
+     "end": 483
+    },
+    {
+     "id": "F22",
+     "condition": "Normal troponin",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Troponin <0.01",
+     "note": null,
+     "start": 818,
+     "end": 832
+    },
+    {
+     "id": "F23",
+     "condition": "Normal troponin on hospital day 2",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Troponin <0.01, BNP 64",
+     "note": null,
+     "start": 256,
+     "end": 278
+    },
+    {
+     "id": "F24",
+     "condition": "Normal BNP",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Troponin <0.01, BNP 64",
+     "note": null,
+     "start": 256,
+     "end": 278
+    },
+    {
+     "id": "F25",
+     "condition": "Deep vein thrombosis",
+     "assertion": "ruled_out",
+     "doc_id": "d5",
+     "quote": "BLE venous duplex today: no DVT",
+     "note": null,
+     "start": 456,
+     "end": 487
+    },
+    {
+     "id": "F26",
+     "condition": "Negative blood cultures at 24 hours",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Blood cx NGTD x24 h",
+     "note": null,
+     "start": 280,
+     "end": 299
+    },
+    {
+     "id": "F27",
+     "condition": "Negative Legionella urinary antigen",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Urine Legionella and pneumococcal Ag negative",
+     "note": null,
+     "start": 301,
+     "end": 346
+    },
+    {
+     "id": "F28",
+     "condition": "Negative pneumococcal urinary antigen",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Urine Legionella and pneumococcal Ag negative",
+     "note": null,
+     "start": 301,
+     "end": 346
+    },
+    {
+     "id": "F29",
+     "condition": "Afebrile by hospital day 3",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "afebrile >48 h by HD3",
+     "note": null,
+     "start": 476,
+     "end": 497
+    },
+    {
+     "id": "F30",
+     "condition": "Weaned to room air",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "weaned to room air 09/17",
+     "note": null,
+     "start": 502,
+     "end": 526
+    },
+    {
+     "id": "F31",
+     "condition": "Normal respiratory flora in sputum",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Sputum: normal respiratory flora",
+     "note": null,
+     "start": 838,
+     "end": 870
+    },
+    {
+     "id": "F32",
+     "condition": "Normal blood cultures at 4 days",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Blood cultures 09/14: no growth at 4 days",
+     "note": null,
+     "start": 795,
+     "end": 836
+    },
+    {
+     "id": "F33",
+     "condition": "Obesity, BMI 33.4",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "BMI 33.4",
+     "note": null,
+     "start": 443,
+     "end": 451
+    },
+    {
+     "id": "F34",
+     "condition": "Risk factor for PE: prolonged car travel",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Drove 9 hrs each way to visit grandchildren 2 wks ago",
+     "note": null,
+     "start": 264,
+     "end": 317
+    },
+    {
+     "id": "F35",
+     "condition": "Fatigue",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "fatigue",
+     "note": null,
+     "start": 419,
+     "end": 426
+    },
+    {
+     "id": "F36",
+     "condition": "Poor appetite",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "poor appetite",
+     "note": null,
+     "start": 428,
+     "end": 441
+    },
+    {
+     "id": "F37",
+     "condition": "Mild hyponatremia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Na 137, K 4.0, BUN 18",
+     "note": null,
+     "start": 746,
+     "end": 767
+    },
+    {
+     "id": "F38",
+     "condition": "Normal potassium",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Na 137, K 4.0, BUN 18",
+     "note": null,
+     "start": 746,
+     "end": 767
+    },
+    {
+     "id": "F39",
+     "condition": "Normal lactate",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Lactate 1.6",
+     "note": null,
+     "start": 786,
+     "end": 797
+    },
+    {
+     "id": "F40",
+     "condition": "Fever, maximum 38.6\u00b0C on admission",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "T 38.6 C, HR 108, BP 138/82, RR 22",
+     "note": null,
+     "start": 485,
+     "end": 519
+    },
+    {
+     "id": "F41",
+     "condition": "Oxygen saturation 93% on room air at admission",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "SpO2 93% RA.",
+     "note": null,
+     "start": 521,
+     "end": 533
+    },
+    {
+     "id": "F42",
+     "condition": "Discrepancy in radiology interpretation: preliminary read missed PE",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "These were not described on the preliminary report.",
+     "note": "Final read on 09/15 identified acute pulmonary emboli missed by overnight teleradiology",
+     "start": 318,
+     "end": 369
+    },
+    {
+     "id": "F43",
+     "condition": "History of long car travel 2 weeks prior",
+     "assertion": "history",
+     "doc_id": "d5",
+     "quote": "Minor transient risk factor (prolonged car travel)",
+     "note": null,
+     "start": 762,
+     "end": 812
+    },
+    {
+     "id": "F44",
+     "condition": "Never smoker",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Never smoker.",
+     "note": null,
+     "start": 363,
+     "end": 376
+    },
+    {
+     "id": "F45",
+     "condition": "No recent hospitalization",
+     "assertion": "negated",
+     "doc_id": "d2",
+     "quote": "No recent hospitalization or abx.",
+     "note": null,
+     "start": 377,
+     "end": 410
+    },
+    {
+     "id": "F46",
+     "condition": "No recent antibiotic use",
+     "assertion": "negated",
+     "doc_id": "d2",
+     "quote": "No recent hospitalization or abx.",
+     "note": null,
+     "start": 377,
+     "end": 410
+    }
+   ]
+  },
+  {
+   "t": 31353,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "I'm weighing pneumonia versus PE as the principal diagnosis, noting both were present on admission. The imaging section of the discharge summary conflicts with the actual diagnosis\u2014CTA report says \"no PE\" but this looks like a stale copy-forward, while the provider's progress notes and discharge diagnoses consistently document PE as the active issue.\n\nPneumonia seems the stronger PDx choice since it was the primary reason for admission (treated with IV antibiotics), with PE found incidentally later, sequencing per guideline II.C. I'm working through codes: J18.9 for unspecified community-acqui"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "J18.9"
+   },
+   "id": "toolu_01P61zaCqXnhTDZ3m2JFrBaZ"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I26.99"
+   },
+   "id": "toolu_01HKwPRW3wguSspY9kth7foE"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E66.9"
+   },
+   "id": "toolu_01SajCgbM55zvy3MBSEY1oLa"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z68.33"
+   },
+   "id": "toolu_016i59oebi2kd3vvAHv4t1qz"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_01SkYXgSLRfvJ3Dm9zxkbbqb"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E03.9"
+   },
+   "id": "toolu_01W5JPDyjf4pPfAeBWjhqAXL"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I10"
+   },
+   "id": "toolu_01T5j7Nqcm51kckcykHbaLvE"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.01"
+   },
+   "id": "toolu_01JRqKASJrXCcwwiBXSLPoPo"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01P61zaCqXnhTDZ3m2JFrBaZ",
+   "result": "J18.9: Pneumonia, unspecified organism (billable)"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01HKwPRW3wguSspY9kth7foE",
+   "result": "I26.99: Other pulmonary embolism without acute cor pulmonale (billable)"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01SajCgbM55zvy3MBSEY1oLa",
+   "result": "E66.9: Obesity, unspecified (billable)"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_016i59oebi2kd3vvAHv4t1qz",
+   "result": "Z68.33: Body mass index [BMI] 33.0-33.9, adult (billable)"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01SkYXgSLRfvJ3Dm9zxkbbqb",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01W5JPDyjf4pPfAeBWjhqAXL",
+   "result": "E03.9: Hypothyroidism, unspecified (billable)"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01T5j7Nqcm51kckcykHbaLvE",
+   "result": "I10: Essential (primary) hypertension (billable)"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01JRqKASJrXCcwwiBXSLPoPo",
+   "result": "Z79.01: Long term (current) use of anticoagulants (billable)"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"J18.9\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F17\",\"F18\"],\"confidence\":0.6,\"rationale\":\"CAP of the RLL was the reason for admission (IV antibiotics and O2). The PE was found later and also meets the PDx definition, so sequencing follows OCG II.C. Pneumonia is chosen because it prompted the admission.\"},\"secondary\":[{\"code\":\"I26.99\",\"poa\":\"Y\",\"finding_ids\":[\"F19\",\"F20\",\"F25\"],\"confidence\":0.9,\"rationale\":\"Acute segmental PE, documented by the attending in the progress note and discharge diagnoses. It was seen on the admission CTA, so it was present on admission. There is no cor pulmonal"
+  },
+  {
+   "t": 46102,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "J18.9",
+     "poa": "Y",
+     "finding_ids": [
+      "F1",
+      "F17",
+      "F18"
+     ],
+     "confidence": 0.6,
+     "rationale": "CAP of the RLL was the reason for admission (IV antibiotics and O2). The PE was found later and also meets the PDx definition, so sequencing follows OCG II.C. Pneumonia is chosen because it prompted the admission."
+    },
+    "secondary": [
+     {
+      "code": "I26.99",
+      "poa": "Y",
+      "finding_ids": [
+       "F19",
+       "F20",
+       "F25"
+      ],
+      "confidence": 0.9,
+      "rationale": "Acute segmental PE, documented by the attending in the progress note and discharge diagnoses. It was seen on the admission CTA, so it was present on admission. There is no cor pulmonale (no RV strain)."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F8"
+      ],
+      "confidence": 0.95,
+      "rationale": "Chronic hypertension, treated with home lisinopril."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F9"
+      ],
+      "confidence": 0.93,
+      "rationale": "Hyperlipidemia, treated with atorvastatin."
+     },
+     {
+      "code": "E03.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F10"
+      ],
+      "confidence": 0.93,
+      "rationale": "Hypothyroidism, treated with levothyroxine."
+     },
+     {
+      "code": "E66.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F11",
+       "F33"
+      ],
+      "confidence": 0.85,
+      "rationale": "Obesity is documented by the provider without a class or type, so it is coded as unspecified."
+     },
+     {
+      "code": "Z68.33",
+      "poa": "Y",
+      "finding_ids": [
+       "F33"
+      ],
+      "confidence": 0.85,
+      "rationale": "BMI 33.4 is reported with the provider-documented obesity diagnosis (OCG I.B.14)."
+     },
+     {
+      "code": "Z79.01",
+      "poa": "Y",
+      "finding_ids": [
+       "F19"
+      ],
+      "confidence": 0.55,
+      "rationale": "Discharged on apixaban for at least 3 months of anticoagulation."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "copy_forward",
+      "summary": "The discharge summary imaging section says the CTA showed 'No pulmonary embolism'. This is the stale preliminary read. The 09/15 radiology addendum, progress note and discharge diagnoses all confirm acute segmental PE, so PE is coded. Ask the provider to correct the summary.",
+      "finding_ids": [
+       "F2",
+       "F19",
+       "F42"
+      ],
+      "guideline": "A later addendum supersedes an earlier read",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "PE and pneumonia were both present on admission and could each be the principal diagnosis. Pneumonia is sequenced first because it prompted the admission. Confirm the sequencing, since PE as PDx would change the DRG.",
+      "finding_ids": [
+       "F1",
+       "F19"
+      ],
+      "guideline": "OCG Section II.C",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 46102,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 58870,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"J18.9\",\"verdict\":\"supported\",\"confidence\":0.7,\"reason\":\"CAP RLL is documented by providers throughout and was the reason for admission, with IV antibiotics and O2. It is POA. J18.9 is acceptable, but sputum and blood cultures showed no organism and there is no specificity for lobar pneumonia, so unspecified is appropriate. Sequencing against the PE is a judgment call (see pdx note).\"},{\"code\":\"I26.99\",\"verdict\":\"needs_query\",\"confidence\":0.6,\"reason\":\"The PE is provider-documented in the progress note and discharge diagnoses, and the final radiology read supports it. Howev"
+  },
+  {
+   "t": 58870,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "J18.9",
+      "verdict": "supported",
+      "confidence": 0.7,
+      "reason": "CAP RLL is documented by providers throughout and was the reason for admission, with IV antibiotics and O2. It is POA. J18.9 is acceptable, but sputum and blood cultures showed no organism and there is no specificity for lobar pneumonia, so unspecified is appropriate. Sequencing against the PE is a judgment call (see pdx note)."
+     },
+     {
+      "code": "I26.99",
+      "verdict": "needs_query",
+      "confidence": 0.6,
+      "reason": "The PE is provider-documented in the progress note and discharge diagnoses, and the final radiology read supports it. However, the discharge summary imaging section still says 'No pulmonary embolism' for the CTA, which conflicts and is unresolved. The code choice also needs review: I26.9x is for PE without acute cor pulmonale, and segmental PE is commonly coded I26.93 (single subsegmental) or I26.99 (other). The documentation does not say whether it is single or multiple, so the laterality or number of emboli may need clarification. The segmental level, not subsegmental, supports I26.99. POA is Y because the PE was seen on the admission CTA. Recommend a query to correct the discharge summary imaging line."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "reason": "Chronic HTN is documented by the provider and treated with lisinopril."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.93,
+      "reason": "Hyperlipidemia is documented by the provider and treated with atorvastatin."
+     },
+     {
+      "code": "E03.9",
+      "verdict": "supported",
+      "confidence": 0.93,
+      "reason": "Hypothyroidism is documented by the provider and treated with levothyroxine."
+     },
+     {
+      "code": "E66.9",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Obesity is documented by the provider in the H&P and discharge diagnoses, was counseled on, and BMI is 33.4. Obesity without a class is E66.9. Newer code sets may offer E66.811 for class 1 obesity, but this is only valid if the provider documents the class, which they did not."
+     },
+     {
+      "code": "Z68.33",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "BMI 33.4 is documented and associated with a provider-documented obesity diagnosis. Z68.33 corresponds to BMI 33.0-33.9."
+     },
+     {
+      "code": "Z79.01",
+      "verdict": "unsupported",
+      "confidence": 0.2,
+      "reason": "Z79.01 is for current long-term anticoagulant use, such as a patient on anticoagulation prior to admission. Apixaban was newly started this admission for acute PE treatment. Per guidelines, the status code is not assigned for a medication started during the stay for the acute condition being treated. It is also an apixaban (DOAC) start, and the finding cited (F19) is the PE, not a prior drug history."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": [
+     {
+      "kind": "conflicting_documentation",
+      "summary": "The discharge summary imaging section states the CTA showed 'No pulmonary embolism' while the diagnoses and the final radiology addendum state acute segmental PE; ask the attending to amend the discharge summary so the final record is internally consistent.",
+      "finding_ids": [
+       "F2",
+       "F19",
+       "F42"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": true
+     },
+     {
+      "kind": "other",
+      "summary": "Both CAP and PE were POA and both meet the PDx definition. PE was not recognized until HD2 but the admission workup, O2 and IV antibiotics targeted pneumonia, and the circumstances of admission support pneumonia as PDx per OCG II.C. The coder rationale is reasonable, but note that the PE as PDx would change the DRG, so a human should confirm the sequencing.",
+      "finding_ids": [
+       "F1",
+       "F19"
+      ],
+      "guideline": "OCG Section II.C",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "Hypoxia: SpO2 93% RA and O2 started at 2 L NC, but no provider documented hypoxia or acute respiratory failure. Do not code from the SpO2 alone; clinical indicators are weak (93%), so a query is not strongly supported.",
+      "finding_ids": [
+       "F41",
+       "F30"
+      ],
+      "guideline": "OCG Section III.B",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "Dated history of recent prolonged car travel was documented as a minor transient PE risk factor; no code is needed, and Z91.89 or similar is optional only if facility policy allows.",
+      "finding_ids": [
+       "F34",
+       "F43"
+      ],
+      "guideline": null,
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 58870,
+   "stage": "critic",
+   "type": "removed",
+   "code": "Z79.01",
+   "reason": "Z79.01 is for current long-term anticoagulant use, such as a patient on anticoagulation prior to admission. Apixaban was newly started this admission for acute PE treatment. Per guidelines, the status code is not assigned for a medication started during the stay for the acute condition being treated. It is also an apixaban (DOAC) start, and the finding cited (F19) is the PE, not a prior drug history."
+  },
+  {
+   "t": 58870,
+   "stage": "grouper",
+   "type": "output",
+   "family": "pneumonia",
+   "drg": "193",
+   "title": "Simple pneumonia and pleurisy w MCC",
+   "weight": 1.31,
+   "tier": "MCC",
+   "drivers": [
+    "I26.99"
+   ]
+  },
+  {
+   "t": 58870,
+   "stage": "router",
+   "type": "output",
+   "base": 0.6,
+   "blocking": 2,
+   "confidence": 0.3
+  },
+  {
+   "t": 58870,
+   "stage": "query",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5",
+   "issue": "The discharge summary imaging section states the CTA showed 'No pulmonary embolism' while the diagnoses and the final radiology addendum state acute segmental PE; ask the attending to amend the discharge summary so the final record is internally consistent."
+  },
+  {
+   "t": 62971,
+   "stage": "query",
+   "type": "text",
+   "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"Discharge summary imaging section documents the CTA result as: \\\"No pulmonary embolism.\\\"\",\"finding_id\":\"F2\"},{\"text\":\"Final radiology addendum: \\\"small eccentric filling defects within the segmental arteries of the right lower lobe posterior basal and lateral basal segments, consistent with acute pulmonary emboli.\\\"\",\"finding_id\":\"F19\"},{\"text\":\"Radiology addendum notes: \\\"These were not described on the preliminary report.\\\"\",\"finding_id\":\"F42\"},{\"text\":\"Discharge diagnoses list acute segmental pulmonary embolism, which differs from"
+  },
+  {
+   "t": 62971,
+   "stage": "query",
+   "type": "output",
+   "query": {
+    "issue": "The discharge summary imaging section states the CTA showed 'No pulmonary embolism' while the diagnoses and the final radiology addendum state acute segmental PE; ask the attending to amend the discharge summary so the final record is internally consistent.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "Discharge summary imaging section documents the CTA result as: \"No pulmonary embolism.\"",
+      "finding_id": "F2"
+     },
+     {
+      "text": "Final radiology addendum: \"small eccentric filling defects within the segmental arteries of the right lower lobe posterior basal and lateral basal segments, consistent with acute pulmonary emboli.\"",
+      "finding_id": "F19"
+     },
+     {
+      "text": "Radiology addendum notes: \"These were not described on the preliminary report.\"",
+      "finding_id": "F42"
+     },
+     {
+      "text": "Discharge diagnoses list acute segmental pulmonary embolism, which differs from the imaging section of the discharge summary.",
+      "finding_id": null
+     }
+    ],
+    "question": "The discharge summary contains differing statements about the CTA pulmonary artery findings. Based on your clinical judgment and the final imaging report, please clarify the CTA result and the corresponding diagnosis so the discharge summary is internally consistent.",
+    "options": [
+     "CTA showed acute segmental pulmonary embolism per the final radiology report; the discharge summary imaging section will be amended accordingly",
+     "CTA showed no pulmonary embolism and the diagnosis of acute segmental pulmonary embolism is not supported (please clarify the diagnosis)",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  },
+  {
+   "t": 62971,
+   "stage": "query",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5",
+   "issue": "I26.99: The PE is provider-documented in the progress note and discharge diagnoses, and the final radiology read supports it. However, the discharge summary imaging section still says 'No pulmonary embolism' for the CTA, which conflicts and is unresolved. The code choice also needs review: I26.9x is for PE without acute cor pulmonale, and segmental PE is commonly coded I26.93 (single subsegmental) or I26.99 (other). The documentation does not say whether it is single or multiple, so the laterality or number of emboli may need clarification. The segmental level, not subsegmental, supports I26.99. POA is Y because the PE was seen on the admission CTA. Recommend a query to correct the discharge summary imaging line."
+  },
+  {
+   "t": 68236,
+   "stage": "query",
+   "type": "text",
+   "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"Final CTA read: small eccentric filling defects within the segmental arteries of the right lower lobe posterior basal and lateral basal segments, consistent with acute pulmonary emboli\",\"finding_id\":\"F19\"},{\"text\":\"CTA: RV/LV ratio 0.8; no CT evidence of right heart strain\",\"finding_id\":\"F20\"},{\"text\":\"Bilateral lower extremity venous duplex: no DVT\",\"finding_id\":\"F25\"},{\"text\":\"Pulmonary embolism is documented in the progress note and discharge diagnoses, while the discharge summary imaging section states 'No pulmonary embolism' for "
+  },
+  {
+   "t": 68237,
+   "stage": "query",
+   "type": "output",
+   "query": {
+    "issue": "I26.99: The PE is provider-documented in the progress note and discharge diagnoses, and the final radiology read supports it. However, the discharge summary imaging section still says 'No pulmonary embolism' for the CTA, which conflicts and is unresolved. The code choice also needs review: I26.9x is for PE without acute cor pulmonale, and segmental PE is commonly coded I26.93 (single subsegmental) or I26.99 (other). The documentation does not say whether it is single or multiple, so the laterality or number of emboli may need clarification. The segmental level, not subsegmental, supports I26.99. POA is Y because the PE was seen on the admission CTA. Recommend a query to correct the discharge summary imaging line.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "Final CTA read: small eccentric filling defects within the segmental arteries of the right lower lobe posterior basal and lateral basal segments, consistent with acute pulmonary emboli",
+      "finding_id": "F19"
+     },
+     {
+      "text": "CTA: RV/LV ratio 0.8; no CT evidence of right heart strain",
+      "finding_id": "F20"
+     },
+     {
+      "text": "Bilateral lower extremity venous duplex: no DVT",
+      "finding_id": "F25"
+     },
+     {
+      "text": "Pulmonary embolism is documented in the progress note and discharge diagnoses, while the discharge summary imaging section states 'No pulmonary embolism' for the CTA",
+      "finding_id": null
+     }
+    ],
+    "question": "The discharge summary imaging section and the final CTA read describe the CTA findings differently. Based on your clinical judgment, please clarify the CTA result and the pulmonary finding being treated this admission.",
+    "options": [
+     "CTA showed acute pulmonary emboli in the right lower lobe segmental arteries (posterior basal and lateral basal segments); the discharge summary imaging line will be amended",
+     "CTA showed no pulmonary embolism; the diagnosis of pulmonary embolism is not supported",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  }
+ ],
+ "ms": 68237,
+ "cost_usd": 0.13415
+}

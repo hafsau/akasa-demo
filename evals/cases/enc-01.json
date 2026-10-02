@@ -1,0 +1,102 @@
+{
+  "id": "enc-01",
+  "title": "Pneumonia with a late CT addendum",
+  "summary": "A woman admitted for pneumonia was first told her CT showed no blood clot; a radiologist's next-day addendum found one, but the discharge summary still repeats the old 'no clot' line.",
+  "hero": true,
+  "family": "pneumonia",
+  "patient": {
+    "age": 67,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-14",
+  "discharge_date": "2026-09-18",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "Radiology",
+      "author": "K. Osei, MD (Teleradiology, preliminary)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-14T06:58",
+      "text": "EXAM: CTA chest, PE protocol\nCLINICAL INDICATION: Pleuritic R chest pain, tachycardia, D-dimer 2.40.\nTECHNIQUE: Helical CT of the chest after 75 mL Omnipaque 350 IV, pulmonary arterial phase. Axial, coronal and sagittal reformats.\n\nPRELIMINARY REPORT (overnight teleradiology)\nFINDINGS: Dense airspace consolidation in the right lower lobe with air bronchograms. Remaining lungs clear. No pleural effusion. Main and lobar pulmonary arteries opacify well without filling defect. Heart size normal. No pericardial effusion. No mediastinal adenopathy.\n\nIMPRESSION:\n1. Right lower lobe consolidation, consistent with pneumonia.\n2. No pulmonary embolism.\n\nFinal interpretation to follow by staff radiologist."
+    },
+    {
+      "id": "d2",
+      "type": "ED note",
+      "author": "R. Patel, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-14T07:45",
+      "text": "CC: Cough, fever, right-sided chest pain x4 days.\n\nHPI: 67F with HTN, HLD, hypothyroidism and obesity presents with 4 days of productive cough (rust-colored sputum), subjective fevers, rigors and R-sided pleuritic chest pain worse with deep inspiration. Mild DOE. Drove 9 hrs each way to visit grandchildren 2 wks ago. Denies leg swelling, calf pain, hemoptysis. Never smoker. No recent hospitalization or abx.\n\nROS: + fatigue, poor appetite. Neg for abd pain, dysuria, rash.\n\nVitals: T 38.6 C, HR 108, BP 138/82, RR 22, SpO2 93% RA.\nExam: Ill-appearing, mildly tachypneic, speaking full sentences. Crackles and bronchial breath sounds R base. Tachycardic, regular. Calves soft, nontender, no edema.\n\nLabs: WBC 16.2 (88% PMN), Hgb 12.9, Plt 302. Na 137, K 4.0, BUN 18, Cr 0.9, Glu 128. Lactate 1.6. Procalcitonin 1.8. Troponin <0.01. D-dimer 2.40 (ref <0.50). Blood cx x2 sent.\nCXR: RLL airspace opacity.\n\nMDM: Pleuritic pain + tachycardia + long car trip + elevated D-dimer -> CTA chest obtained. Prelim read: RLL consolidation, no pulmonary embolism.\n\nAssessment/Plan:\n1. Community-acquired pneumonia, RLL. CURB-65 = 1. Ceftriaxone 1 g IV and azithromycin 500 mg IV given after cultures.\n2. Pleuritic chest pain - PE ruled out by CTA (prelim). Likely pleuritic from pneumonia.\n3. HTN - home meds.\nDispo: Admit to hospitalist service for IV abx and O2 monitoring."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "L. Moreno, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-14T11:30",
+      "text": "HISTORY AND PHYSICAL\n\nHPI: 67F admitted from ED with 4 days of productive cough, fever and R pleuritic chest pain. See ED note. Feels \"wiped out.\" No orthopnea.\n\nPMH: HTN, hyperlipidemia, hypothyroidism, obesity.\nMeds: lisinopril 20 mg daily, atorvastatin 40 mg qHS, levothyroxine 88 mcg daily.\nAllergies: NKDA.\nSocial: Retired teacher, lives with husband. Never smoker, rare EtOH.\n\nExam: T 38.1, HR 102, BP 132/78, RR 20, SpO2 94% on 2 L NC. BMI 33.4. Crackles R base, egophony RLL. RRR. Abd soft. No LE edema.\n\nData: WBC 16.2, procalcitonin 1.8, Cr 0.9. CXR RLL opacity. CTA chest (prelim): RLL consolidation, no PE.\n\nAssessment/Plan:\n1. Community-acquired pneumonia, RLL - continue ceftriaxone 1 g daily + azithromycin 500 mg daily. F/u blood cx, sputum cx, urine Legionella/strep Ag. O2 to keep SpO2 >92%.\n2. Pleuritic chest pain - attributed to pneumonia; PE excluded on CTA. Acetaminophen, incentive spirometry.\n3. Hypertension - continue lisinopril.\n4. Hyperlipidemia - continue atorvastatin.\n5. Hypothyroidism - continue levothyroxine; TSH 2.1 in 06/2026.\n6. Obesity, BMI 33.4 - counseled.\nVTE ppx: enoxaparin 40 mg SC daily. Code: Full."
+    },
+    {
+      "id": "d4",
+      "type": "Radiology",
+      "author": "S. Lindqvist, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-15T09:48",
+      "text": "ADDENDUM - CTA CHEST, PE PROTOCOL, 09/14/2026 (FINAL INTERPRETATION)\n\nOn staff over-read of the preliminary teleradiology interpretation, there are small eccentric filling defects within the segmental arteries of the right lower lobe posterior basal and lateral basal segments, consistent with acute pulmonary emboli. These were not described on the preliminary report. RV/LV ratio 0.8; no CT evidence of right heart strain. Remaining findings unchanged: right lower lobe consolidation consistent with pneumonia.\n\nREVISED IMPRESSION:\n1. Acute segmental pulmonary emboli, right lower lobe. No right heart strain.\n2. Right lower lobe pneumonia.\n\nDiscrepancy communicated by telephone to Dr. L. Moreno at 09:45 on 09/15/2026; read-back confirmed."
+    },
+    {
+      "id": "d5",
+      "type": "Progress note",
+      "author": "L. Moreno, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-15T14:10",
+      "text": "HOSPITAL DAY 2\n\nS: Breathing a little easier. Still pleuritic pain R side with deep breath. Tmax 37.9 overnight. Tolerating diet.\n\nO: T 37.4, HR 96, BP 128/76, RR 18, SpO2 95% on 1 L NC. Crackles R base, improved. Calves nontender.\nLabs: WBC 12.4. Cr 0.8. Troponin <0.01, BNP 64. Blood cx NGTD x24 h. Urine Legionella and pneumococcal Ag negative.\nRadiology called this AM with an addendum to the admission CTA: segmental filling defects RLL (see report). BLE venous duplex today: no DVT.\n\nAssessment/Plan:\n1. Acute segmental pulmonary embolism, right lower lobe - present on the admission CTA, missed on prelim read. Hemodynamically stable, no RV strain on CT, troponin/BNP normal; sPESI 0. Stop enoxaparin ppx. Start apixaban 10 mg BID x7 days, then 5 mg BID. Minor transient risk factor (prolonged car travel); plan at least 3 months anticoagulation. Discussed with patient and husband, questions answered.\n2. Community-acquired pneumonia, RLL - improving. Continue ceftriaxone/azithromycin (day 2).\n3. HTN, HLD, hypothyroidism - stable on home meds.\nDispo: anticipate d/c in 48-72 h once off O2."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "L. Moreno, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-18T10:40",
+      "text": "DISCHARGE SUMMARY\nAdmit: 09/14/2026   Discharge: 09/18/2026   Disposition: Home with husband\n\nDISCHARGE DIAGNOSES:\n1. Community-acquired pneumonia, right lower lobe\n2. Acute segmental pulmonary embolism, right lower lobe, on apixaban\n3. Hypertension\n4. Hyperlipidemia\n5. Hypothyroidism\n6. Obesity, BMI 33.4\n\nHOSPITAL COURSE:\n67F presented with 4 days of cough, fever and R pleuritic chest pain. CXR and CTA showed RLL consolidation. Treated with ceftriaxone and azithromycin; afebrile >48 h by HD3 and weaned to room air 09/17. Transitioned to oral cefpodoxime to complete 7 days total. On HD2, radiology issued an addendum to the admission CTA identifying acute segmental emboli in the RLL. LE duplex negative for DVT. Started apixaban 09/15 and tolerated without bleeding.\n\nPERTINENT RESULTS:\nBlood cultures 09/14: no growth at 4 days. Sputum: normal respiratory flora. Urine Legionella/pneumococcal Ag negative.\n\nIMAGING:\n- CXR 09/14: RLL airspace opacity.\n- CTA chest 09/14: RLL consolidation. No pulmonary embolism.\n- BLE venous duplex 09/15: No DVT.\n\nDISCHARGE MEDICATIONS:\n- Apixaban 10 mg BID through 09/21, then 5 mg BID\n- Cefpodoxime 200 mg BID x3 more days\n- Lisinopril 20 mg daily, atorvastatin 40 mg qHS, levothyroxine 88 mcg daily (unchanged)\n\nFOLLOW-UP: PCP in 1 week. Anticoagulation planned for at least 3 months; reassess at 3-month visit. Return for bleeding, worsening SOB or chest pain."
+    }
+  ],
+  "gold": {
+    "pdx": "J18.9",
+    "secondary": [
+      {
+        "code": "I26.99",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "E03.9",
+        "poa": "Y"
+      },
+      {
+        "code": "E66.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z68.33",
+        "poa": "Y"
+      }
+    ],
+    "drg": "193",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [
+      "late_addendum",
+      "copy_forward",
+      "negation"
+    ],
+    "explanation": "The preliminary CTA read said no PE, but the day-2 radiology addendum, the hospitalist's day-2 progress note and the discharge diagnosis list all document acute segmental PE of the right lower lobe, treated with apixaban. The 'No pulmonary embolism' line in the discharge summary's imaging section is copied forward from the superseded preliminary read. Code I26.99 (no acute cor pulmonale) with POA Y because the clot was on the admission scan; as an MCC it moves the case to DRG 193. A keyword system sees 'No pulmonary embolism' in four places, drops the PE, and lands on DRG 195."
+  }
+}

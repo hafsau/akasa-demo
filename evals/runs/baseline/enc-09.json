@@ -1,0 +1,77 @@
+{
+ "case_id": "enc-09",
+ "codes": [
+  {
+   "code": "A41.9",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Sepsis, unspecified organism",
+   "confidence": 0.72
+  },
+  {
+   "code": "J18.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Pneumonia, unspecified organism",
+   "confidence": 0.72
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.72
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus without complications",
+   "confidence": 0.72
+  },
+  {
+   "code": "Z79.84",
+   "poa": "N",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of oral hypoglycemic drugs",
+   "confidence": 0.72
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.72
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Gastro-esophageal reflux disease without esophagitis",
+   "confidence": 0.72
+  }
+ ],
+ "drg": {
+  "family": "sepsis",
+  "number": "871",
+  "weight": 1.86,
+  "tier": "MCC",
+  "drivers": [
+   "J18.9"
+  ]
+ },
+ "confidence": 0.36,
+ "needs_human": true,
+ "reason": "Sepsis is documented only as uncertain (suspected, possible, likely, probable) through discharge. For inpatient coding, uncertain diagnoses documented at discharge as probable or likely may be coded as if established, so A41.9 is sequenced as principal with J18.9 secondary. Clinical validity is questionable: there are no organ dysfunction signs, and the SIRS-only picture does not meet Sepsis-3. A clinical validation query is recommended. If sepsis is not supported, the principal diagnosis would change to J18.9 and A41.9 would be removed. The Z79.84 POA indicator should be exempt (blank) rather than N, and Z79.84 is a status code that a coder should verify. Metformin use is documented, but oral hypoglycemic use is not a POA-reportable code.",
+ "ms": 4462,
+ "cost_usd": 0.01053,
+ "input_tokens": 3193,
+ "output_tokens": 414
+}

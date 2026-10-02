@@ -1,0 +1,109 @@
+{
+ "case_id": "enc-02",
+ "codes": [
+  {
+   "code": "N39.0",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Urinary tract infection, site not specified",
+   "confidence": 0.55
+  },
+  {
+   "code": "B96.20",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere",
+   "confidence": 0.55
+  },
+  {
+   "code": "G93.41",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Metabolic encephalopathy",
+   "confidence": 0.55
+  },
+  {
+   "code": "F03.A0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Unspecified dementia, mild, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety",
+   "confidence": 0.55
+  },
+  {
+   "code": "I48.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Paroxysmal atrial fibrillation",
+   "confidence": 0.55
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.55
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypothyroidism, unspecified",
+   "confidence": 0.55
+  },
+  {
+   "code": "M17.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Bilateral primary osteoarthritis of knee",
+   "confidence": 0.55
+  },
+  {
+   "code": "Z79.01",
+   "poa": "1",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of anticoagulants",
+   "confidence": 0.55
+  },
+  {
+   "code": "Z66",
+   "poa": "1",
+   "role": "secondary",
+   "valid": true,
+   "description": "Do not resuscitate",
+   "confidence": 0.55
+  },
+  {
+   "code": "Z88.2",
+   "poa": "1",
+   "role": "secondary",
+   "valid": true,
+   "description": "Allergy status to sulfonamides",
+   "confidence": 0.55
+  }
+ ],
+ "drg": {
+  "family": "uti",
+  "number": "689",
+  "weight": 1.12,
+  "tier": "MCC",
+  "drivers": [
+   "G93.41"
+  ]
+ },
+ "confidence": 0.275,
+ "needs_human": true,
+ "reason": "Conflicting documentation on sepsis: ED and H&P/progress notes say suspected/confirmed sepsis due to E. coli UTI, but the discharging attending ruled sepsis out, so A41.51 and R65.x were not coded. UTI is the principal diagnosis. Acute metabolic encephalopathy (G93.41, an MCC) was documented by the attending on 09/08 and 09/09 but is missing from the discharge summary, which says mentation was at baseline. A query is needed to confirm G93.41 and the sepsis status. Z16 codes for resistance were not assigned because only the lab reported resistance, not a provider.",
+ "ms": 11249,
+ "cost_usd": 0.02032,
+ "input_tokens": 3515,
+ "output_tokens": 1329
+}

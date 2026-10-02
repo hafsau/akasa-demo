@@ -1,0 +1,1498 @@
+{
+ "case": {
+  "id": "enc-05",
+  "title": "Severe sepsis from pneumonia with kidney injury",
+  "summary": "A man with pneumonia developed a body-wide infection response that strained his kidneys; every note documents it the same way.",
+  "hero": false,
+  "family": "sepsis",
+  "patient": {
+   "age": 72,
+   "sex": "M"
+  },
+  "admit_date": "2026-09-10",
+  "discharge_date": "2026-09-15",
+  "documents": [
+   {
+    "id": "d1",
+    "type": "Radiology",
+    "author": "J. Whitcombe, MD (Radiology)",
+    "author_role": "radiology",
+    "timestamp": "2026-09-10T22:25",
+    "text": "EXAM: Chest radiograph, AP portable\nINDICATION: Fever, hypotension, cough.\nFINDINGS: Dense consolidation in the right lower lobe with air bronchograms. No pleural effusion or pneumothorax. Heart size within normal limits. Coronary stent noted.\nIMPRESSION: Right lower lobe pneumonia."
+   },
+   {
+    "id": "d2",
+    "type": "ED note",
+    "author": "B. Lindgren, MD (Emergency Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-10T22:40",
+    "text": "CC: Fever, cough, weakness.\n\nHPI: 72M with T2DM, HTN and CAD s/p PCI (2021) brought by wife for 3 days of cough with rusty sputum, fever, rigors and decreased oral intake; today too weak to stand. Urinating less. No chest pain.\n\nVitals: T 39.1 C, HR 124, BP 88/50, RR 28, SpO2 94% RA.\nExam: Ill-appearing, alert and oriented x3. Dry mucosa. Coarse crackles R base. Tachycardic. Cool extremities, cap refill 3 s.\n\nLabs: WBC 19.4 (bands 12%), Hgb 13.8, Plt 162. Na 135, K 4.8, HCO3 18, BUN 46, Cr 2.4 (baseline 0.9, 05/2026), Glu 246. Lactate 3.4. Procalcitonin 8.6.\nCXR: RLL consolidation.\n\nAssessment/Plan:\n1. Sepsis due to RLL pneumonia with hypotension, lactate 3.4 and AKI. Blood cx x2, then cefepime 2 g IV + azithromycin 500 mg IV. LR 30 mL/kg (2.4 L). BP 112/64 after bolus, no vasopressors needed. Repeat lactate.\nDispo: Admit to step-down."
+   },
+   {
+    "id": "d3",
+    "type": "H&P",
+    "author": "S. Haddad, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-11T02:15",
+    "text": "HISTORY AND PHYSICAL\n\nHPI: As per ED. After 2.4 L LR, MAP 78, HR 104, UOP 40 mL/h. Repeat lactate 2.1.\n\nPMH: T2DM (A1c 7.2%, no known complications). HTN. CAD s/p DES to LAD 2021, no angina since; on aspirin and high-intensity statin.\nMeds: metformin 1000 mg BID, lisinopril 10 mg daily, atorvastatin 80 mg daily, aspirin 81 mg daily.\nSocial: Retired machinist. Never smoker.\n\nExam: T 38.3, HR 104, BP 116/66, RR 22, SpO2 95% RA. Alert, oriented. Crackles R base. No edema.\n\nAssessment/Plan:\n1. Severe sepsis due to RLL community-acquired pneumonia, with acute organ dysfunction (AKI). No septic shock - BP fluid responsive, no vasopressors. Cefepime + azithromycin; f/u cultures; lactate q6h until normal.\n2. Acute kidney injury - Cr 2.4 from baseline 0.9, prerenal from sepsis and volume depletion. IV fluids, hold lisinopril and metformin, avoid nephrotoxins, strict I/O.\n3. T2DM - hold metformin; glargine 10 units + correction scale.\n4. HTN - hold lisinopril for AKI and soft BP.\n5. CAD s/p PCI - continue aspirin 81 mg daily and atorvastatin 80 mg."
+   },
+   {
+    "id": "d4",
+    "type": "Nursing note",
+    "author": "A. Sutherland, RN",
+    "author_role": "nursing",
+    "timestamp": "2026-09-11T06:10",
+    "text": "Step-down. Sepsis reassessment completed after 30 mL/kg bolus: MAP 76-82, HR 100-106, no vasopressors required. UOP 35-50 mL/h via urinal. A&O x3, follows commands. SpO2 95% RA. Febrile 38.4 at 04:00, acetaminophen given. Cefepime second dose hung on time. Fingerstick 212, correction insulin per scale. Wife updated by phone."
+   },
+   {
+    "id": "d5",
+    "type": "Lab summary",
+    "author": "Clinical Laboratory",
+    "author_role": "lab",
+    "timestamp": "2026-09-13T07:00",
+    "text": "Lactate: 09/10 22:30 3.4; 09/11 01:50 2.1; 09/11 08:00 1.4\nCreatinine: 09/10 2.4; 09/11 2.1; 09/12 1.6; 09/13 1.2\nWBC: 09/10 19.4; 09/12 13.0; 09/13 10.1\nBlood cultures x2 (09/10): no growth at 48 h.\nSputum culture: normal respiratory flora.\nUrine Legionella and pneumococcal antigens: negative."
+   },
+   {
+    "id": "d6",
+    "type": "Progress note",
+    "author": "S. Haddad, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-13T11:20",
+    "text": "HOSPITAL DAY 3\n\nS: Eating, walked with PT. Cough improving.\nO: T 37.2, HR 86, BP 128/74, SpO2 96% RA. UOP adequate.\n\nAssessment/Plan:\n1. Severe sepsis due to RLL pneumonia - resolving, lactate normal, cultures negative. Narrow to ceftriaxone; azithromycin completed.\n2. AKI - improving, Cr 1.2. Continue holding lisinopril and metformin until Cr at baseline.\n3. T2DM - BG 130-180 on basal/correction.\n4. CAD, HTN - stable.\nTransfer to med-surg."
+   },
+   {
+    "id": "d7",
+    "type": "Discharge summary",
+    "author": "S. Haddad, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-15T10:50",
+    "text": "DISCHARGE SUMMARY\nAdmit: 09/10/2026   Discharge: 09/15/2026   Disposition: Home with wife\n\nDISCHARGE DIAGNOSES:\n1. Severe sepsis due to RLL community-acquired pneumonia, without septic shock\n2. Acute kidney injury due to sepsis, resolved\n3. Type 2 diabetes mellitus\n4. Hypertension\n5. Coronary artery disease s/p PCI, on aspirin\n\nHOSPITAL COURSE: Presented with fever, hypotension responsive to fluids, lactate 3.4 and Cr 2.4 from RLL pneumonia. Treated with IV fluids and antibiotics; never required vasopressors. Lactate normalized within 10 h; Cr down to 1.0 by 09/15. Cultures negative. Transitioned to oral cefpodoxime to complete 7 days. Metformin and lisinopril resumed at discharge.\n\nFOLLOW-UP: PCP in 1 week with BMP."
+   }
+  ],
+  "gold": {
+   "pdx": "A41.9",
+   "secondary": [
+    {
+     "code": "R65.20",
+     "poa": "Y"
+    },
+    {
+     "code": "J18.9",
+     "poa": "Y"
+    },
+    {
+     "code": "N17.9",
+     "poa": "Y"
+    },
+    {
+     "code": "E11.9",
+     "poa": "Y"
+    },
+    {
+     "code": "Z79.84",
+     "poa": "Y"
+    },
+    {
+     "code": "I10",
+     "poa": "Y"
+    },
+    {
+     "code": "I25.10",
+     "poa": "Y"
+    },
+    {
+     "code": "Z95.5",
+     "poa": "Y"
+    },
+    {
+     "code": "Z79.82",
+     "poa": "Y"
+    }
+   ],
+   "drg": "871",
+   "route": "autonomous",
+   "hold_reasons": [],
+   "query": null,
+   "traps": [],
+   "explanation": "Sepsis was present on admission and documented the same way in every provider note, so A41.9 (no organism) is principal. R65.20 follows for severe sepsis without shock, with J18.9 for the localized infection and N17.9 for the associated organ dysfunction. J18.9 is an MCC, giving DRG 871. Chronic T2DM, HTN and CAD s/p PCI are coded along with their status and long-term medication Z codes; hypotension and lactate are integral to severe sepsis."
+  }
+ },
+ "run": {
+  "case_id": "enc-05",
+  "prompt_version": "2026-10-02.4-router-v2",
+  "models": {
+   "fast": "anthropic:claude-haiku-4-5",
+   "reason": "anthropic:claude-sonnet-5-5"
+  },
+  "findings": [
+   {
+    "id": "F1",
+    "condition": "Right lower lobe pneumonia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Dense consolidation in the right lower lobe with air bronchograms",
+    "note": null,
+    "start": 85,
+    "end": 150
+   },
+   {
+    "id": "F2",
+    "condition": "Coronary artery disease with stent",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Coronary stent noted",
+    "note": null,
+    "start": 222,
+    "end": 242
+   },
+   {
+    "id": "F3",
+    "condition": "Type 2 diabetes mellitus",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "72M with T2DM, HTN and CAD s/p PCI",
+    "note": null,
+    "start": 34,
+    "end": 68
+   },
+   {
+    "id": "F4",
+    "condition": "Hypertension",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "72M with T2DM, HTN and CAD s/p PCI",
+    "note": null,
+    "start": 34,
+    "end": 68
+   },
+   {
+    "id": "F5",
+    "condition": "Coronary artery disease status post PCI",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "CAD s/p PCI (2021)",
+    "note": null,
+    "start": 57,
+    "end": 75
+   },
+   {
+    "id": "F6",
+    "condition": "Fever",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "T 39.1 C",
+    "note": null,
+    "start": 237,
+    "end": 245
+   },
+   {
+    "id": "F7",
+    "condition": "Cough with rusty sputum",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "3 days of cough with rusty sputum",
+    "note": null,
+    "start": 96,
+    "end": 129
+   },
+   {
+    "id": "F8",
+    "condition": "Sepsis",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Sepsis due to RLL pneumonia with hypotension, lactate 3.4",
+    "note": null,
+    "start": 610,
+    "end": 667
+   },
+   {
+    "id": "F9",
+    "condition": "Hypotension",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "BP 88/50",
+    "note": null,
+    "start": 255,
+    "end": 263
+   },
+   {
+    "id": "F10",
+    "condition": "Acute kidney injury",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Sepsis due to RLL pneumonia with hypotension, lactate 3.4 and AKI",
+    "note": null,
+    "start": 610,
+    "end": 675
+   },
+   {
+    "id": "F11",
+    "condition": "Elevated creatinine",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Cr 2.4 (baseline 0.9, 05/2026)",
+    "note": null,
+    "start": 492,
+    "end": 522
+   },
+   {
+    "id": "F12",
+    "condition": "Elevated lactate",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Lactate 3.4",
+    "note": null,
+    "start": 533,
+    "end": 544
+   },
+   {
+    "id": "F13",
+    "condition": "Elevated white blood cell count",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "WBC 19.4 (bands 12%)",
+    "note": null,
+    "start": 419,
+    "end": 439
+   },
+   {
+    "id": "F14",
+    "condition": "Hyperglycemia",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Glu 246",
+    "note": null,
+    "start": 524,
+    "end": 531
+   },
+   {
+    "id": "F15",
+    "condition": "Community-acquired pneumonia",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "Severe sepsis due to RLL community-acquired pneumonia",
+    "note": null,
+    "start": 495,
+    "end": 548
+   },
+   {
+    "id": "F16",
+    "condition": "Severe sepsis with acute organ dysfunction",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "Severe sepsis due to RLL community-acquired pneumonia, with acute organ dysfunction (AKI)",
+    "note": null,
+    "start": 495,
+    "end": 584
+   },
+   {
+    "id": "F17",
+    "condition": "Septic shock",
+    "assertion": "negated",
+    "doc_id": "d3",
+    "quote": "No septic shock - BP fluid responsive, no vasopressors",
+    "note": null,
+    "start": 586,
+    "end": 640
+   },
+   {
+    "id": "F18",
+    "condition": "Acute kidney injury due to sepsis and volume depletion",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "Acute kidney injury - Cr 2.4 from baseline 0.9, prerenal from sepsis and volume depletion",
+    "note": null,
+    "start": 710,
+    "end": 799
+   },
+   {
+    "id": "F19",
+    "condition": "Pneumonia resolving",
+    "assertion": "resolved",
+    "doc_id": "d6",
+    "quote": "Severe sepsis due to RLL pneumonia - resolving, lactate normal, cultures negative",
+    "note": null,
+    "start": 137,
+    "end": 218
+   },
+   {
+    "id": "F20",
+    "condition": "Acute kidney injury resolved",
+    "assertion": "resolved",
+    "doc_id": "d6",
+    "quote": "AKI - improving, Cr 1.2",
+    "note": null,
+    "start": 270,
+    "end": 293
+   },
+   {
+    "id": "F21",
+    "condition": "Blood cultures negative",
+    "assertion": "negated",
+    "doc_id": "d5",
+    "quote": "Blood cultures x2 (09/10): no growth at 48 h",
+    "note": null,
+    "start": 154,
+    "end": 198
+   },
+   {
+    "id": "F22",
+    "condition": "Sputum culture with normal respiratory flora",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "Sputum culture: normal respiratory flora",
+    "note": null,
+    "start": 200,
+    "end": 240
+   },
+   {
+    "id": "F23",
+    "condition": "Legionella and pneumococcal antigens",
+    "assertion": "negated",
+    "doc_id": "d5",
+    "quote": "Urine Legionella and pneumococcal antigens: negative",
+    "note": null,
+    "start": 242,
+    "end": 294
+   },
+   {
+    "id": "F24",
+    "condition": "Normalization of lactate",
+    "assertion": "resolved",
+    "doc_id": "d7",
+    "quote": "Lactate normalized within 10 h",
+    "note": null,
+    "start": 515,
+    "end": 545
+   },
+   {
+    "id": "F25",
+    "condition": "Creatinine resolution to baseline",
+    "assertion": "resolved",
+    "doc_id": "d7",
+    "quote": "Cr down to 1.0 by 09/15",
+    "note": null,
+    "start": 547,
+    "end": 570
+   },
+   {
+    "id": "F26",
+    "condition": "Right lower lobe pneumonia, community-acquired",
+    "assertion": "affirmed",
+    "doc_id": "d7",
+    "quote": "Severe sepsis due to RLL community-acquired pneumonia, without septic shock",
+    "note": null,
+    "start": 115,
+    "end": 190
+   }
+  ],
+  "codes": [
+   {
+    "code": "A41.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F8",
+     "F16",
+     "F26"
+    ],
+    "confidence": 0.9,
+    "rationale": "Sepsis due to pneumonia is sequenced first under OCG I.C.1.d. All cultures were negative and no organism was identified.",
+    "role": "pdx",
+    "verdict": "supported",
+    "critic_reason": "Provider documents sepsis due to pneumonia consistently through discharge. Negative cultures do not exclude sepsis, and the clinical indicators (fever, tachycardia, hypotension, lactate 3.4, bands, procalcitonin, AKI) support it.",
+    "severity": null,
+    "description": "Sepsis, unspecified organism"
+   },
+   {
+    "code": "R65.20",
+    "poa": "Y",
+    "finding_ids": [
+     "F16",
+     "F17",
+     "F26"
+    ],
+    "confidence": 0.9,
+    "rationale": "The provider documented severe sepsis with acute organ dysfunction (AKI) and no septic shock.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Severe sepsis with AKI as the acute organ dysfunction is documented by the provider, and septic shock is explicitly negated. Dysfunction is linked to sepsis.",
+    "severity": "MCC",
+    "description": "Severe sepsis without septic shock"
+   },
+   {
+    "code": "J18.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F15",
+     "F26",
+     "F1"
+    ],
+    "confidence": 0.9,
+    "rationale": "The provider documented RLL community-acquired pneumonia. No organism or lobar pneumonia was documented.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "RLL community-acquired pneumonia is documented, imaging confirms it, and no organism or more specific type is documented.",
+    "severity": "MCC",
+    "description": "Pneumonia, unspecified organism"
+   },
+   {
+    "code": "N17.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F10",
+     "F18",
+     "F20"
+    ],
+    "confidence": 0.92,
+    "rationale": "The provider documented AKI due to sepsis. The creatinine of 2.4 against a baseline of 0.9 was present on admission.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "AKI is documented by the provider with Cr 2.4 from baseline 0.9, which meets KDIGO. It is linked to sepsis and was present on admission. ATN is not documented.",
+    "severity": "CC",
+    "description": "Acute kidney failure, unspecified"
+   },
+   {
+    "code": "E86.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F18"
+    ],
+    "confidence": 0.55,
+    "rationale": "The H&P documents volume depletion as a cause of the prerenal AKI, and it was treated with IV fluids.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Volume depletion is documented by the provider in the H&P as a contributor to the AKI and was treated with IV fluids. It is a minor code, so keep it.",
+    "severity": "none",
+    "description": "Volume depletion, unspecified"
+   },
+   {
+    "code": "E11.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F3"
+    ],
+    "confidence": 0.88,
+    "rationale": "The provider documented T2DM with no known complications.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "T2DM is documented with no known complications. Glucose was elevated, but hyperglycemia is not documented, so E11.65 is not supported.",
+    "severity": "none",
+    "description": "Type 2 diabetes mellitus without complications"
+   },
+   {
+    "code": "Z79.84",
+    "poa": "Y",
+    "finding_ids": [
+     "F3"
+    ],
+    "confidence": 0.85,
+    "rationale": "The patient takes metformin long term.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Home metformin is documented in the med list. Insulin was inpatient only.",
+    "severity": "none",
+    "description": "Long term (current) use of oral hypoglycemic drugs"
+   },
+   {
+    "code": "I10",
+    "poa": "Y",
+    "finding_ids": [
+     "F4"
+    ],
+    "confidence": 0.9,
+    "rationale": "The provider documented hypertension. There is no documented heart or kidney disease to link to it.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "HTN is documented. There is no heart disease or CKD to link to it, and AKI is acute.",
+    "severity": "none",
+    "description": "Essential (primary) hypertension"
+   },
+   {
+    "code": "I25.10",
+    "poa": "Y",
+    "finding_ids": [
+     "F5"
+    ],
+    "confidence": 0.88,
+    "rationale": "The provider documented CAD without angina.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "CAD is documented, with no angina since the PCI.",
+    "severity": "none",
+    "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris"
+   },
+   {
+    "code": "Z95.5",
+    "poa": "Y",
+    "finding_ids": [
+     "F2",
+     "F5"
+    ],
+    "confidence": 0.85,
+    "rationale": "The patient has a history of a coronary stent (DES to the LAD).",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "A DES to the LAD is documented as a status post PCI and confirmed on imaging.",
+    "severity": "none",
+    "description": "Presence of coronary angioplasty implant and graft"
+   }
+  ],
+  "removed": [],
+  "issues": [],
+  "queries": [],
+  "drg": {
+   "family": "sepsis",
+   "number": "871",
+   "title": "Septicemia or severe sepsis w/o MV >96 hours w MCC",
+   "weight": 1.86,
+   "tier": "MCC",
+   "drivers": [
+    "J18.9"
+   ]
+  },
+  "confidence": 0.9,
+  "confidence_base": 0.9,
+  "blocking_issues": 0,
+  "blocking_reasons": [],
+  "stages": [
+   {
+    "stage": "triage",
+    "model": null,
+    "started": 0,
+    "ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cost_usd": 0
+   },
+   {
+    "stage": "evidence",
+    "model": "claude-haiku-4-5",
+    "started": 0,
+    "ms": 11036,
+    "input_tokens": 3093,
+    "output_tokens": 1846,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01232
+   },
+   {
+    "stage": "coder",
+    "model": "claude-sonnet-5-5",
+    "started": 11036,
+    "ms": 15802,
+    "input_tokens": 14036,
+    "output_tokens": 1596,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.04403
+   },
+   {
+    "stage": "critic",
+    "model": "claude-sonnet-5-5",
+    "started": 26838,
+    "ms": 5764,
+    "input_tokens": 6295,
+    "output_tokens": 789,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02048
+   }
+  ],
+  "events": [
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "stage_start"
+   },
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "output",
+    "documents": [
+     {
+      "id": "d1",
+      "type": "Radiology",
+      "author_role": "radiology",
+      "timestamp": "2026-09-10T22:25",
+      "words": 38,
+      "flags": []
+     },
+     {
+      "id": "d2",
+      "type": "ED note",
+      "author_role": "provider",
+      "timestamp": "2026-09-10T22:40",
+      "words": 148,
+      "flags": []
+     },
+     {
+      "id": "d3",
+      "type": "H&P",
+      "author_role": "provider",
+      "timestamp": "2026-09-11T02:15",
+      "words": 177,
+      "flags": []
+     },
+     {
+      "id": "d4",
+      "type": "Nursing note",
+      "author_role": "nursing",
+      "timestamp": "2026-09-11T06:10",
+      "words": 49,
+      "flags": []
+     },
+     {
+      "id": "d5",
+      "type": "Lab summary",
+      "author_role": "lab",
+      "timestamp": "2026-09-13T07:00",
+      "words": 46,
+      "flags": []
+     },
+     {
+      "id": "d6",
+      "type": "Progress note",
+      "author_role": "provider",
+      "timestamp": "2026-09-13T11:20",
+      "words": 71,
+      "flags": []
+     },
+     {
+      "id": "d7",
+      "type": "Discharge summary",
+      "author_role": "provider",
+      "timestamp": "2026-09-15T10:50",
+      "words": 106,
+      "flags": [
+       "discharge"
+      ]
+     }
+    ]
+   },
+   {
+    "t": 0,
+    "stage": "evidence",
+    "type": "stage_start",
+    "model": "anthropic:claude-haiku-4-5"
+   },
+   {
+    "t": 11036,
+    "stage": "evidence",
+    "type": "output",
+    "findings": [
+     {
+      "id": "F1",
+      "condition": "Right lower lobe pneumonia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Dense consolidation in the right lower lobe with air bronchograms",
+      "note": null,
+      "start": 85,
+      "end": 150
+     },
+     {
+      "id": "F2",
+      "condition": "Coronary artery disease with stent",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Coronary stent noted",
+      "note": null,
+      "start": 222,
+      "end": 242
+     },
+     {
+      "id": "F3",
+      "condition": "Type 2 diabetes mellitus",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "72M with T2DM, HTN and CAD s/p PCI",
+      "note": null,
+      "start": 34,
+      "end": 68
+     },
+     {
+      "id": "F4",
+      "condition": "Hypertension",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "72M with T2DM, HTN and CAD s/p PCI",
+      "note": null,
+      "start": 34,
+      "end": 68
+     },
+     {
+      "id": "F5",
+      "condition": "Coronary artery disease status post PCI",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "CAD s/p PCI (2021)",
+      "note": null,
+      "start": 57,
+      "end": 75
+     },
+     {
+      "id": "F6",
+      "condition": "Fever",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "T 39.1 C",
+      "note": null,
+      "start": 237,
+      "end": 245
+     },
+     {
+      "id": "F7",
+      "condition": "Cough with rusty sputum",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "3 days of cough with rusty sputum",
+      "note": null,
+      "start": 96,
+      "end": 129
+     },
+     {
+      "id": "F8",
+      "condition": "Sepsis",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Sepsis due to RLL pneumonia with hypotension, lactate 3.4",
+      "note": null,
+      "start": 610,
+      "end": 667
+     },
+     {
+      "id": "F9",
+      "condition": "Hypotension",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "BP 88/50",
+      "note": null,
+      "start": 255,
+      "end": 263
+     },
+     {
+      "id": "F10",
+      "condition": "Acute kidney injury",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Sepsis due to RLL pneumonia with hypotension, lactate 3.4 and AKI",
+      "note": null,
+      "start": 610,
+      "end": 675
+     },
+     {
+      "id": "F11",
+      "condition": "Elevated creatinine",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Cr 2.4 (baseline 0.9, 05/2026)",
+      "note": null,
+      "start": 492,
+      "end": 522
+     },
+     {
+      "id": "F12",
+      "condition": "Elevated lactate",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Lactate 3.4",
+      "note": null,
+      "start": 533,
+      "end": 544
+     },
+     {
+      "id": "F13",
+      "condition": "Elevated white blood cell count",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "WBC 19.4 (bands 12%)",
+      "note": null,
+      "start": 419,
+      "end": 439
+     },
+     {
+      "id": "F14",
+      "condition": "Hyperglycemia",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Glu 246",
+      "note": null,
+      "start": 524,
+      "end": 531
+     },
+     {
+      "id": "F15",
+      "condition": "Community-acquired pneumonia",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "Severe sepsis due to RLL community-acquired pneumonia",
+      "note": null,
+      "start": 495,
+      "end": 548
+     },
+     {
+      "id": "F16",
+      "condition": "Severe sepsis with acute organ dysfunction",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "Severe sepsis due to RLL community-acquired pneumonia, with acute organ dysfunction (AKI)",
+      "note": null,
+      "start": 495,
+      "end": 584
+     },
+     {
+      "id": "F17",
+      "condition": "Septic shock",
+      "assertion": "negated",
+      "doc_id": "d3",
+      "quote": "No septic shock - BP fluid responsive, no vasopressors",
+      "note": null,
+      "start": 586,
+      "end": 640
+     },
+     {
+      "id": "F18",
+      "condition": "Acute kidney injury due to sepsis and volume depletion",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "Acute kidney injury - Cr 2.4 from baseline 0.9, prerenal from sepsis and volume depletion",
+      "note": null,
+      "start": 710,
+      "end": 799
+     },
+     {
+      "id": "F19",
+      "condition": "Pneumonia resolving",
+      "assertion": "resolved",
+      "doc_id": "d6",
+      "quote": "Severe sepsis due to RLL pneumonia - resolving, lactate normal, cultures negative",
+      "note": null,
+      "start": 137,
+      "end": 218
+     },
+     {
+      "id": "F20",
+      "condition": "Acute kidney injury resolved",
+      "assertion": "resolved",
+      "doc_id": "d6",
+      "quote": "AKI - improving, Cr 1.2",
+      "note": null,
+      "start": 270,
+      "end": 293
+     },
+     {
+      "id": "F21",
+      "condition": "Blood cultures negative",
+      "assertion": "negated",
+      "doc_id": "d5",
+      "quote": "Blood cultures x2 (09/10): no growth at 48 h",
+      "note": null,
+      "start": 154,
+      "end": 198
+     },
+     {
+      "id": "F22",
+      "condition": "Sputum culture with normal respiratory flora",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "Sputum culture: normal respiratory flora",
+      "note": null,
+      "start": 200,
+      "end": 240
+     },
+     {
+      "id": "F23",
+      "condition": "Legionella and pneumococcal antigens",
+      "assertion": "negated",
+      "doc_id": "d5",
+      "quote": "Urine Legionella and pneumococcal antigens: negative",
+      "note": null,
+      "start": 242,
+      "end": 294
+     },
+     {
+      "id": "F24",
+      "condition": "Normalization of lactate",
+      "assertion": "resolved",
+      "doc_id": "d7",
+      "quote": "Lactate normalized within 10 h",
+      "note": null,
+      "start": 515,
+      "end": 545
+     },
+     {
+      "id": "F25",
+      "condition": "Creatinine resolution to baseline",
+      "assertion": "resolved",
+      "doc_id": "d7",
+      "quote": "Cr down to 1.0 by 09/15",
+      "note": null,
+      "start": 547,
+      "end": 570
+     },
+     {
+      "id": "F26",
+      "condition": "Right lower lobe pneumonia, community-acquired",
+      "assertion": "affirmed",
+      "doc_id": "d7",
+      "quote": "Severe sepsis due to RLL community-acquired pneumonia, without septic shock",
+      "note": null,
+      "start": 115,
+      "end": 190
+     }
+    ]
+   },
+   {
+    "t": 11036,
+    "stage": "coder",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "thinking",
+    "text": "I'm working through the diagnosis codes: sepsis due to pneumonia with unspecified organism (A41.9), severe sepsis without shock (R65.20), pneumonia unspecified organism likely J18.9 since \"lobar\" isn't explicitly documented despite RLL involvement, and acute kidney injury (N17.9), while also checking whether diabetes needs its own code.\n\nFor the diabetes, I'm weighing E11.9 against whether the AKI is actually diabetes-related, then noting hypertension (I10), CAD (I25.10), coronary stent status (Z95.5), and metformin/aspirin long-term use codes (Z79.84, Z79.82, Z79.899). I'm also checking if ac"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "A41.9"
+    },
+    "id": "toolu_01CSaPwqyJLyvj5gq7VJH6T9"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "R65.20"
+    },
+    "id": "toolu_01SDSSdxV2MHJTWXAPMdpj9B"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "J18.9"
+    },
+    "id": "toolu_016BerjEB17h9cHhX6KonNrF"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "N17.9"
+    },
+    "id": "toolu_019fSaiBaH6SpXfHUfnCGh3b"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E11.9"
+    },
+    "id": "toolu_01Lp2PHc1Lf32gdphqRsbmyK"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "I10"
+    },
+    "id": "toolu_01Ru94wx9kWXn5iYnJr5dBg5"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "I25.10"
+    },
+    "id": "toolu_01E6eP2j4UB11nuNNJ5dTeKJ"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "Z95.5"
+    },
+    "id": "toolu_01SNLBDMMjmnxeqWc9R4C6wa"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E86.9"
+    },
+    "id": "toolu_019YqDhBrxD38Uj9xPYYkecH"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "Z79.84"
+    },
+    "id": "toolu_017XzvwuPSed9Xt2widaWXxx"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01CSaPwqyJLyvj5gq7VJH6T9",
+    "result": "A41.9: Sepsis, unspecified organism (billable)"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01SDSSdxV2MHJTWXAPMdpj9B",
+    "result": "R65.20: Severe sepsis without septic shock (billable)"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_016BerjEB17h9cHhX6KonNrF",
+    "result": "J18.9: Pneumonia, unspecified organism (billable)"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_019fSaiBaH6SpXfHUfnCGh3b",
+    "result": "N17.9: Acute kidney failure, unspecified (billable)"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01Lp2PHc1Lf32gdphqRsbmyK",
+    "result": "E11.9: Type 2 diabetes mellitus without complications (billable)"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01Ru94wx9kWXn5iYnJr5dBg5",
+    "result": "I10: Essential (primary) hypertension (billable)"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01E6eP2j4UB11nuNNJ5dTeKJ",
+    "result": "I25.10: Atherosclerotic heart disease of native coronary artery without angina pectoris (billable)"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01SNLBDMMjmnxeqWc9R4C6wa",
+    "result": "Z95.5: Presence of coronary angioplasty implant and graft (billable)"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_019YqDhBrxD38Uj9xPYYkecH",
+    "result": "E86.9: Volume depletion, unspecified (billable)"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_017XzvwuPSed9Xt2widaWXxx",
+    "result": "Z79.84: Long term (current) use of oral hypoglycemic drugs (billable)"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "text",
+    "text": "{\"pdx\":{\"code\":\"A41.9\",\"poa\":\"Y\",\"finding_ids\":[\"F8\",\"F16\",\"F26\"],\"confidence\":0.93,\"rationale\":\"Sepsis due to pneumonia is sequenced first under OCG I.C.1.d. All cultures were negative and no organism was identified.\"},\"secondary\":[{\"code\":\"R65.20\",\"poa\":\"Y\",\"finding_ids\":[\"F16\",\"F17\",\"F26\"],\"confidence\":0.92,\"rationale\":\"The provider documented severe sepsis with acute organ dysfunction (AKI) and no septic shock.\"},{\"code\":\"J18.9\",\"poa\":\"Y\",\"finding_ids\":[\"F15\",\"F26\",\"F1\"],\"confidence\":0.9,\"rationale\":\"The provider documented RLL community-acquired pneumonia. No organism or lobar pneumonia w"
+   },
+   {
+    "t": 26838,
+    "stage": "coder",
+    "type": "output",
+    "draft": {
+     "pdx": {
+      "code": "A41.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F8",
+       "F16",
+       "F26"
+      ],
+      "confidence": 0.93,
+      "rationale": "Sepsis due to pneumonia is sequenced first under OCG I.C.1.d. All cultures were negative and no organism was identified."
+     },
+     "secondary": [
+      {
+       "code": "R65.20",
+       "poa": "Y",
+       "finding_ids": [
+        "F16",
+        "F17",
+        "F26"
+       ],
+       "confidence": 0.92,
+       "rationale": "The provider documented severe sepsis with acute organ dysfunction (AKI) and no septic shock."
+      },
+      {
+       "code": "J18.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F15",
+        "F26",
+        "F1"
+       ],
+       "confidence": 0.9,
+       "rationale": "The provider documented RLL community-acquired pneumonia. No organism or lobar pneumonia was documented."
+      },
+      {
+       "code": "N17.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F10",
+        "F18",
+        "F20"
+       ],
+       "confidence": 0.92,
+       "rationale": "The provider documented AKI due to sepsis. The creatinine of 2.4 against a baseline of 0.9 was present on admission."
+      },
+      {
+       "code": "E86.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F18"
+       ],
+       "confidence": 0.5,
+       "rationale": "The H&P documents volume depletion as a cause of the prerenal AKI, and it was treated with IV fluids."
+      },
+      {
+       "code": "E11.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F3"
+       ],
+       "confidence": 0.88,
+       "rationale": "The provider documented T2DM with no known complications."
+      },
+      {
+       "code": "Z79.84",
+       "poa": "Y",
+       "finding_ids": [
+        "F3"
+       ],
+       "confidence": 0.8,
+       "rationale": "The patient takes metformin long term."
+      },
+      {
+       "code": "I10",
+       "poa": "Y",
+       "finding_ids": [
+        "F4"
+       ],
+       "confidence": 0.9,
+       "rationale": "The provider documented hypertension. There is no documented heart or kidney disease to link to it."
+      },
+      {
+       "code": "I25.10",
+       "poa": "Y",
+       "finding_ids": [
+        "F5"
+       ],
+       "confidence": 0.88,
+       "rationale": "The provider documented CAD without angina."
+      },
+      {
+       "code": "Z95.5",
+       "poa": "Y",
+       "finding_ids": [
+        "F2",
+        "F5"
+       ],
+       "confidence": 0.85,
+       "rationale": "The patient has a history of a coronary stent (DES to the LAD)."
+      }
+     ],
+     "issues": []
+    }
+   },
+   {
+    "t": 26838,
+    "stage": "critic",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 32602,
+    "stage": "critic",
+    "type": "text",
+    "text": "{\"reviews\":[{\"code\":\"A41.9\",\"verdict\":\"supported\",\"confidence\":0.9,\"reason\":\"Provider documents sepsis due to pneumonia consistently through discharge. Negative cultures do not exclude sepsis, and the clinical indicators (fever, tachycardia, hypotension, lactate 3.4, bands, procalcitonin, AKI) support it.\"},{\"code\":\"R65.20\",\"verdict\":\"supported\",\"confidence\":0.9,\"reason\":\"Severe sepsis with AKI as the acute organ dysfunction is documented by the provider, and septic shock is explicitly negated. Dysfunction is linked to sepsis.\"},{\"code\":\"J18.9\",\"verdict\":\"supported\",\"confidence\":0.9,\"reason\":\""
+   },
+   {
+    "t": 32602,
+    "stage": "critic",
+    "type": "output",
+    "critique": {
+     "reviews": [
+      {
+       "code": "A41.9",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "Provider documents sepsis due to pneumonia consistently through discharge. Negative cultures do not exclude sepsis, and the clinical indicators (fever, tachycardia, hypotension, lactate 3.4, bands, procalcitonin, AKI) support it."
+      },
+      {
+       "code": "R65.20",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "Severe sepsis with AKI as the acute organ dysfunction is documented by the provider, and septic shock is explicitly negated. Dysfunction is linked to sepsis."
+      },
+      {
+       "code": "J18.9",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "RLL community-acquired pneumonia is documented, imaging confirms it, and no organism or more specific type is documented."
+      },
+      {
+       "code": "N17.9",
+       "verdict": "supported",
+       "confidence": 0.92,
+       "reason": "AKI is documented by the provider with Cr 2.4 from baseline 0.9, which meets KDIGO. It is linked to sepsis and was present on admission. ATN is not documented."
+      },
+      {
+       "code": "E86.9",
+       "verdict": "supported",
+       "confidence": 0.7,
+       "reason": "Volume depletion is documented by the provider in the H&P as a contributor to the AKI and was treated with IV fluids. It is a minor code, so keep it."
+      },
+      {
+       "code": "E11.9",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "T2DM is documented with no known complications. Glucose was elevated, but hyperglycemia is not documented, so E11.65 is not supported."
+      },
+      {
+       "code": "Z79.84",
+       "verdict": "supported",
+       "confidence": 0.85,
+       "reason": "Home metformin is documented in the med list. Insulin was inpatient only."
+      },
+      {
+       "code": "I10",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "HTN is documented. There is no heart disease or CKD to link to it, and AKI is acute."
+      },
+      {
+       "code": "I25.10",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "CAD is documented, with no angina since the PCI."
+      },
+      {
+       "code": "Z95.5",
+       "verdict": "supported",
+       "confidence": 0.85,
+       "reason": "A DES to the LAD is documented as a status post PCI and confirmed on imaging."
+      }
+     ],
+     "pdx_ok": true,
+     "pdx_alternative": null,
+     "missed": []
+    }
+   },
+   {
+    "t": 32602,
+    "stage": "grouper",
+    "type": "output",
+    "family": "sepsis",
+    "drg": "871",
+    "title": "Septicemia or severe sepsis w/o MV >96 hours w MCC",
+    "weight": 1.86,
+    "tier": "MCC",
+    "drivers": [
+     "J18.9"
+    ]
+   },
+   {
+    "t": 32602,
+    "stage": "router",
+    "type": "output",
+    "base": 0.9,
+    "blocking": 0,
+    "reasons": [],
+    "confidence": 0.9
+   }
+  ],
+  "ms": 32602,
+  "cost_usd": 0.07683
+ },
+ "baseline": {
+  "case_id": "enc-05",
+  "codes": [
+   {
+    "code": "A41.9",
+    "poa": "Y",
+    "role": "pdx",
+    "valid": true,
+    "description": "Sepsis, unspecified organism",
+    "confidence": 0.6
+   },
+   {
+    "code": "J18.1",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Lobar pneumonia, unspecified organism",
+    "confidence": 0.6
+   },
+   {
+    "code": "R65.20",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Severe sepsis without septic shock",
+    "confidence": 0.6
+   },
+   {
+    "code": "N17.9",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Acute kidney failure, unspecified",
+    "confidence": 0.6
+   },
+   {
+    "code": "E11.65",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Type 2 diabetes mellitus with hyperglycemia",
+    "confidence": 0.6
+   },
+   {
+    "code": "I10",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Essential (primary) hypertension",
+    "confidence": 0.6
+   },
+   {
+    "code": "I25.10",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+    "confidence": 0.6
+   },
+   {
+    "code": "Z95.5",
+    "poa": "Exempt",
+    "role": "secondary",
+    "valid": true,
+    "description": "Presence of coronary angioplasty implant and graft",
+    "confidence": 0.6
+   },
+   {
+    "code": "Z79.84",
+    "poa": "Exempt",
+    "role": "secondary",
+    "valid": true,
+    "description": "Long term (current) use of oral hypoglycemic drugs",
+    "confidence": 0.6
+   },
+   {
+    "code": "Z79.82",
+    "poa": "Exempt",
+    "role": "secondary",
+    "valid": true,
+    "description": "Long term (current) use of aspirin",
+    "confidence": 0.6
+   }
+  ],
+  "drg": {
+   "family": "sepsis",
+   "number": "872",
+   "weight": 1.03,
+   "tier": "CC",
+   "drivers": [
+    "N17.9"
+   ]
+  },
+  "confidence": 0.3,
+  "needs_human": true,
+  "reason": "Several judgment calls. E11.65 (hyperglycemia) is not documented by the provider; glucose 246 and the sliding-scale insulin are not a diagnosis, so it should likely be E11.9 or E11.22-free only. Also, N17.9 is documented as AKI. Dehydration/volume depletion (E86.0/E86.9) was documented as a contributing cause and may be added. Lactic acidosis was not documented. Insulin use (Z79.4) vs oral hypoglycemic (Z79.84) is uncertain, since glargine was given only inpatient. Hypertension with AKI does not imply CKD, so I10 is fine.",
+  "ms": 4326,
+  "cost_usd": 0.01045,
+  "input_tokens": 3087,
+  "output_tokens": 428
+ },
+ "score": {
+  "id": "enc-05",
+  "title": "Severe sepsis from pneumonia with kidney injury",
+  "summary": "A man with pneumonia developed a body-wide infection response that strained his kidneys; every note documents it the same way.",
+  "family": "sepsis",
+  "hero": false,
+  "traps": [],
+  "gold_route": "autonomous",
+  "gold_drg": "871",
+  "pred_drg": "871",
+  "gold_weight": 1.86,
+  "pred_weight": 1.86,
+  "confidence": 0.9,
+  "tp": 9,
+  "fp": 1,
+  "fn": 1,
+  "fp_codes": [
+   "E86.9"
+  ],
+  "fn_codes": [
+   "Z79.82"
+  ],
+  "cc_tp": 3,
+  "cc_fp": 0,
+  "cc_fn": 0,
+  "pdx_ok": true,
+  "drg_ok": true,
+  "overcoded": false,
+  "undercoded": false,
+  "invalid_codes": [],
+  "citations": 26,
+  "citations_located": 26,
+  "queries": 0,
+  "queries_lint_clean": 0,
+  "cost_usd": 0.07683,
+  "ms": 32602
+ }
+}

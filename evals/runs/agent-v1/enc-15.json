@@ -1,0 +1,1342 @@
+{
+ "case_id": "enc-15",
+ "prompt_version": "2026-10-02.3",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "COPD, severe",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "71M with severe COPD (FEV1 38%)",
+   "note": null,
+   "start": 37,
+   "end": 68
+  },
+  {
+   "id": "F2",
+   "condition": "COPD, GOLD stage 3",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "COPD (GOLD 3)",
+   "note": null,
+   "start": 100,
+   "end": 113
+  },
+  {
+   "id": "F3",
+   "condition": "Acute exacerbation of COPD",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "COPD exacerbation",
+   "note": null,
+   "start": 898,
+   "end": 915
+  },
+  {
+   "id": "F4",
+   "condition": "COPD exacerbation, viral-triggered",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "viral-triggered exacerbation",
+   "note": null,
+   "start": 65,
+   "end": 93
+  },
+  {
+   "id": "F5",
+   "condition": "Hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HTN",
+   "note": null,
+   "start": 84,
+   "end": 87
+  },
+  {
+   "id": "F6",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HLD",
+   "note": null,
+   "start": 89,
+   "end": 92
+  },
+  {
+   "id": "F7",
+   "condition": "GERD",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "GERD",
+   "note": null,
+   "start": 94,
+   "end": 98
+  },
+  {
+   "id": "F8",
+   "condition": "Tobacco dependence, current smoker",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "current smoker (1/2 ppd, 50 pk-yr)",
+   "note": null,
+   "start": 100,
+   "end": 134
+  },
+  {
+   "id": "F9",
+   "condition": "Dependence on home oxygen",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "COPD (GOLD 3) on 2L continuous home O2 since 2023",
+   "note": null,
+   "start": 100,
+   "end": 149
+  },
+  {
+   "id": "F10",
+   "condition": "Dyspnea, increased",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "4 days of increased dyspnea",
+   "note": null,
+   "start": 140,
+   "end": 167
+  },
+  {
+   "id": "F11",
+   "condition": "Wheezing",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "wheezing, and cough with increased green sputum",
+   "note": null,
+   "start": 169,
+   "end": 216
+  },
+  {
+   "id": "F12",
+   "condition": "Productive cough with green sputum",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "cough with increased green sputum",
+   "note": null,
+   "start": 183,
+   "end": 216
+  },
+  {
+   "id": "F13",
+   "condition": "Hyponatremia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Low sodium noted",
+   "note": null,
+   "start": 973,
+   "end": 989
+  },
+  {
+   "id": "F14",
+   "condition": "Hyponatremia, sodium 129",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Hyponatremia - Na 129",
+   "note": null,
+   "start": 712,
+   "end": 733
+  },
+  {
+   "id": "F15",
+   "condition": "Hyponatremia, hypovolemic type",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "likely hypovolemic from poor solute intake",
+   "note": null,
+   "start": 735,
+   "end": 777
+  },
+  {
+   "id": "F16",
+   "condition": "Hyponatremia, resolved",
+   "assertion": "resolved",
+   "doc_id": "d4",
+   "quote": "Hyponatremia - resolved with IVF and diet",
+   "note": null,
+   "start": 258,
+   "end": 299
+  },
+  {
+   "id": "F17",
+   "condition": "Fever",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "Denies fever",
+   "note": null,
+   "start": 375,
+   "end": 387
+  },
+  {
+   "id": "F18",
+   "condition": "Chest pain",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "Denies fever, CP",
+   "note": null,
+   "start": 375,
+   "end": 391
+  },
+  {
+   "id": "F19",
+   "condition": "Leg swelling",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "Denies fever, CP, leg swelling",
+   "note": null,
+   "start": 375,
+   "end": 405
+  },
+  {
+   "id": "F20",
+   "condition": "Hemoptysis",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "Denies fever, CP, leg swelling, hemoptysis",
+   "note": null,
+   "start": 375,
+   "end": 417
+  },
+  {
+   "id": "F21",
+   "condition": "Tachycardia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HR 102",
+   "note": null,
+   "start": 435,
+   "end": 441
+  },
+  {
+   "id": "F22",
+   "condition": "Tachypnea",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "RR 24",
+   "note": null,
+   "start": 443,
+   "end": 448
+  },
+  {
+   "id": "F23",
+   "condition": "Hypoxemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "SpO2 90% on his home 2L (baseline 91-93% on 2L)",
+   "note": null,
+   "start": 461,
+   "end": 508
+  },
+  {
+   "id": "F24",
+   "condition": "Leukocytosis",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "WBC 10.8",
+   "note": null,
+   "start": 724,
+   "end": 732
+  },
+  {
+   "id": "F25",
+   "condition": "Hypokalemia",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "K 4.2",
+   "note": null,
+   "start": 742,
+   "end": 747
+  },
+  {
+   "id": "F26",
+   "condition": "Hypochloremia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Cl 92",
+   "note": null,
+   "start": 749,
+   "end": 754
+  },
+  {
+   "id": "F27",
+   "condition": "Elevated BUN",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "BUN 22",
+   "note": null,
+   "start": 764,
+   "end": 770
+  },
+  {
+   "id": "F28",
+   "condition": "Hyperglycemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "glucose 118",
+   "note": null,
+   "start": 780,
+   "end": 791
+  },
+  {
+   "id": "F29",
+   "condition": "Hypercapnia at baseline",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "baseline pCO2 ~50",
+   "note": null,
+   "start": 806,
+   "end": 823
+  },
+  {
+   "id": "F30",
+   "condition": "Pneumonia",
+   "assertion": "negated",
+   "doc_id": "d5",
+   "quote": "CXR without pneumonia",
+   "note": null,
+   "start": 378,
+   "end": 399
+  },
+  {
+   "id": "F31",
+   "condition": "Acute respiratory failure",
+   "assertion": "negated",
+   "doc_id": "d2",
+   "quote": "no acute respiratory failure",
+   "note": null,
+   "start": 590,
+   "end": 618
+  },
+  {
+   "id": "F32",
+   "condition": "Influenza",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "Flu/COVID neg",
+   "note": null,
+   "start": 826,
+   "end": 839
+  },
+  {
+   "id": "F33",
+   "condition": "COVID-19",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "Flu/COVID neg",
+   "note": null,
+   "start": 826,
+   "end": 839
+  },
+  {
+   "id": "F34",
+   "condition": "CXR with hyperinflation",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "hyperinflation",
+   "note": null,
+   "start": 846,
+   "end": 860
+  },
+  {
+   "id": "F35",
+   "condition": "FEV1 38%",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "FEV1 38%",
+   "note": null,
+   "start": 59,
+   "end": 67
+  },
+  {
+   "id": "F36",
+   "condition": "Diffuse expiratory wheezes",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Diffuse wheezes, prolonged expiration",
+   "note": null,
+   "start": 405,
+   "end": 442
+  },
+  {
+   "id": "F37",
+   "condition": "Poor appetite",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Poor appetite, drinking mostly water and tea",
+   "note": null,
+   "start": 285,
+   "end": 329
+  }
+ ],
+ "codes": [
+  {
+   "code": "J44.1",
+   "poa": "Y",
+   "finding_ids": [
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+   ],
+   "confidence": 0.9,
+   "rationale": "COPD exacerbation was the reason for admission. No lower respiratory infection such as pneumonia or bronchitis is documented, so J44.0 does not apply.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "Acute exacerbation of COPD is documented consistently from the ED note through the discharge summary. It was the reason for admission and was treated with steroids, antibiotics and nebulizers. No pneumonia or bronchitis is documented, so J44.0 is not supported.",
+   "severity": null,
+   "description": "Chronic obstructive pulmonary disease with (acute) exacerbation"
+  },
+  {
+   "code": "E87.1",
+   "poa": "Y",
+   "finding_ids": [
+    "F13",
+    "F14",
+    "F15",
+    "F16"
+   ],
+   "confidence": 0.88,
+   "rationale": "Hyponatremia (Na 129) was present on admission, evaluated, and treated with IV fluids.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "The provider documented hypovolemic hyponatremia, evaluated it (Na 129, urine Na, serum osm) and treated it with NS, serial BMPs and diet, through to resolution. It meets secondary diagnosis criteria and was present on admission. Hypovolemia as a separate diagnosis is not coded because it was documented only as the cause of the hyponatremia. E87.1 covers the hypo-osmolality and hyponatremia. The clinical picture is consistent.",
+   "severity": "CC",
+   "description": "Hypo-osmolality and hyponatremia"
+  },
+  {
+   "code": "Z99.81",
+   "poa": "Y",
+   "finding_ids": [
+    "F9"
+   ],
+   "confidence": 0.92,
+   "rationale": "The patient is dependent on 2L home oxygen, documented as a discharge diagnosis.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Dependence on 2L continuous home O2 is documented in the H&P and listed as a discharge diagnosis. O2 use was at baseline with no acute respiratory failure, so the status code is appropriate.",
+   "severity": "none",
+   "description": "Dependence on supplemental oxygen"
+  },
+  {
+   "code": "F17.210",
+   "poa": "Y",
+   "finding_ids": [
+    "F8"
+   ],
+   "confidence": 0.92,
+   "rationale": "The patient is a current cigarette smoker with documented tobacco dependence and was counseled and given a nicotine patch.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "The provider documented tobacco dependence, cigarettes, in the H&P, progress notes and discharge summary. Counseling and a nicotine patch were provided. The patient is a current smoker, not in remission.",
+   "severity": "none",
+   "description": "Nicotine dependence, cigarettes, uncomplicated"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F5"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hypertension is a chronic condition treated with amlodipine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypertension is documented as a discharge diagnosis and treated with amlodipine. No heart or kidney disease is documented, so I10 is correct.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F6"
+   ],
+   "confidence": 0.88,
+   "rationale": "Hyperlipidemia is a chronic condition treated with pravastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is documented as a discharge diagnosis and treated with pravastatin. It is unspecified type, so E78.5 is appropriate.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F7"
+   ],
+   "confidence": 0.88,
+   "rationale": "GERD is a chronic condition treated with a PPI.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "GERD is documented as a discharge diagnosis and treated with omeprazole. No esophagitis is documented, so K21.9 is appropriate.",
+   "severity": "none",
+   "description": "Gastro-esophageal reflux disease without esophagitis"
+  }
+ ],
+ "removed": [],
+ "issues": [
+  {
+   "kind": "query_opportunity",
+   "summary": "The exacerbation is called 'viral-triggered' after a cold, but no specific viral infection or lower respiratory infection is documented. Flu and COVID tests were negative. Consider a query about the type of infection (for example, viral URI or bronchitis), which would change the coding.",
+   "finding_ids": [
+    "F4",
+    "F32",
+    "F33"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "J44.1 is correct for COPD exacerbation, but the documented severe, GOLD 3 COPD with chronic hypercapnia and home O2 adds no separate code. Do not add chronic respiratory failure unless the provider documents it. The pCO2 of ~50 at baseline and continuous home O2 could prompt a query about chronic respiratory failure, though this is clinically soft.",
+   "finding_ids": [
+    "F9",
+    "F29",
+    "F31"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": false
+  }
+ ],
+ "queries": [],
+ "drg": {
+  "family": "copd",
+  "number": "191",
+  "title": "Chronic obstructive pulmonary disease w CC",
+  "weight": 0.86,
+  "tier": "CC",
+  "drivers": [
+   "E87.1"
+  ]
+ },
+ "confidence": 0.88,
+ "confidence_base": 0.88,
+ "blocking_issues": 0,
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 13524,
+   "input_tokens": 2920,
+   "output_tokens": 2364,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01474
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 13524,
+   "ms": 12130,
+   "input_tokens": 13092,
+   "output_tokens": 1497,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.04115
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 25654,
+   "ms": 6828,
+   "input_tokens": 5832,
+   "output_tokens": 968,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.02134
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-21T11:25",
+     "words": 161,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-21T15:00",
+     "words": 186,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-22T09:10",
+     "words": 79,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-24T08:50",
+     "words": 57,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-25T10:30",
+     "words": 125,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 13524,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "COPD, severe",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "71M with severe COPD (FEV1 38%)",
+     "note": null,
+     "start": 37,
+     "end": 68
+    },
+    {
+     "id": "F2",
+     "condition": "COPD, GOLD stage 3",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "COPD (GOLD 3)",
+     "note": null,
+     "start": 100,
+     "end": 113
+    },
+    {
+     "id": "F3",
+     "condition": "Acute exacerbation of COPD",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "COPD exacerbation",
+     "note": null,
+     "start": 898,
+     "end": 915
+    },
+    {
+     "id": "F4",
+     "condition": "COPD exacerbation, viral-triggered",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "viral-triggered exacerbation",
+     "note": null,
+     "start": 65,
+     "end": 93
+    },
+    {
+     "id": "F5",
+     "condition": "Hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HTN",
+     "note": null,
+     "start": 84,
+     "end": 87
+    },
+    {
+     "id": "F6",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HLD",
+     "note": null,
+     "start": 89,
+     "end": 92
+    },
+    {
+     "id": "F7",
+     "condition": "GERD",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "GERD",
+     "note": null,
+     "start": 94,
+     "end": 98
+    },
+    {
+     "id": "F8",
+     "condition": "Tobacco dependence, current smoker",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "current smoker (1/2 ppd, 50 pk-yr)",
+     "note": null,
+     "start": 100,
+     "end": 134
+    },
+    {
+     "id": "F9",
+     "condition": "Dependence on home oxygen",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "COPD (GOLD 3) on 2L continuous home O2 since 2023",
+     "note": null,
+     "start": 100,
+     "end": 149
+    },
+    {
+     "id": "F10",
+     "condition": "Dyspnea, increased",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "4 days of increased dyspnea",
+     "note": null,
+     "start": 140,
+     "end": 167
+    },
+    {
+     "id": "F11",
+     "condition": "Wheezing",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "wheezing, and cough with increased green sputum",
+     "note": null,
+     "start": 169,
+     "end": 216
+    },
+    {
+     "id": "F12",
+     "condition": "Productive cough with green sputum",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "cough with increased green sputum",
+     "note": null,
+     "start": 183,
+     "end": 216
+    },
+    {
+     "id": "F13",
+     "condition": "Hyponatremia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Low sodium noted",
+     "note": null,
+     "start": 973,
+     "end": 989
+    },
+    {
+     "id": "F14",
+     "condition": "Hyponatremia, sodium 129",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Hyponatremia - Na 129",
+     "note": null,
+     "start": 712,
+     "end": 733
+    },
+    {
+     "id": "F15",
+     "condition": "Hyponatremia, hypovolemic type",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "likely hypovolemic from poor solute intake",
+     "note": null,
+     "start": 735,
+     "end": 777
+    },
+    {
+     "id": "F16",
+     "condition": "Hyponatremia, resolved",
+     "assertion": "resolved",
+     "doc_id": "d4",
+     "quote": "Hyponatremia - resolved with IVF and diet",
+     "note": null,
+     "start": 258,
+     "end": 299
+    },
+    {
+     "id": "F17",
+     "condition": "Fever",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "Denies fever",
+     "note": null,
+     "start": 375,
+     "end": 387
+    },
+    {
+     "id": "F18",
+     "condition": "Chest pain",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "Denies fever, CP",
+     "note": null,
+     "start": 375,
+     "end": 391
+    },
+    {
+     "id": "F19",
+     "condition": "Leg swelling",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "Denies fever, CP, leg swelling",
+     "note": null,
+     "start": 375,
+     "end": 405
+    },
+    {
+     "id": "F20",
+     "condition": "Hemoptysis",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "Denies fever, CP, leg swelling, hemoptysis",
+     "note": null,
+     "start": 375,
+     "end": 417
+    },
+    {
+     "id": "F21",
+     "condition": "Tachycardia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HR 102",
+     "note": null,
+     "start": 435,
+     "end": 441
+    },
+    {
+     "id": "F22",
+     "condition": "Tachypnea",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "RR 24",
+     "note": null,
+     "start": 443,
+     "end": 448
+    },
+    {
+     "id": "F23",
+     "condition": "Hypoxemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "SpO2 90% on his home 2L (baseline 91-93% on 2L)",
+     "note": null,
+     "start": 461,
+     "end": 508
+    },
+    {
+     "id": "F24",
+     "condition": "Leukocytosis",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "WBC 10.8",
+     "note": null,
+     "start": 724,
+     "end": 732
+    },
+    {
+     "id": "F25",
+     "condition": "Hypokalemia",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "K 4.2",
+     "note": null,
+     "start": 742,
+     "end": 747
+    },
+    {
+     "id": "F26",
+     "condition": "Hypochloremia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Cl 92",
+     "note": null,
+     "start": 749,
+     "end": 754
+    },
+    {
+     "id": "F27",
+     "condition": "Elevated BUN",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "BUN 22",
+     "note": null,
+     "start": 764,
+     "end": 770
+    },
+    {
+     "id": "F28",
+     "condition": "Hyperglycemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "glucose 118",
+     "note": null,
+     "start": 780,
+     "end": 791
+    },
+    {
+     "id": "F29",
+     "condition": "Hypercapnia at baseline",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "baseline pCO2 ~50",
+     "note": null,
+     "start": 806,
+     "end": 823
+    },
+    {
+     "id": "F30",
+     "condition": "Pneumonia",
+     "assertion": "negated",
+     "doc_id": "d5",
+     "quote": "CXR without pneumonia",
+     "note": null,
+     "start": 378,
+     "end": 399
+    },
+    {
+     "id": "F31",
+     "condition": "Acute respiratory failure",
+     "assertion": "negated",
+     "doc_id": "d2",
+     "quote": "no acute respiratory failure",
+     "note": null,
+     "start": 590,
+     "end": 618
+    },
+    {
+     "id": "F32",
+     "condition": "Influenza",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "Flu/COVID neg",
+     "note": null,
+     "start": 826,
+     "end": 839
+    },
+    {
+     "id": "F33",
+     "condition": "COVID-19",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "Flu/COVID neg",
+     "note": null,
+     "start": 826,
+     "end": 839
+    },
+    {
+     "id": "F34",
+     "condition": "CXR with hyperinflation",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "hyperinflation",
+     "note": null,
+     "start": 846,
+     "end": 860
+    },
+    {
+     "id": "F35",
+     "condition": "FEV1 38%",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "FEV1 38%",
+     "note": null,
+     "start": 59,
+     "end": 67
+    },
+    {
+     "id": "F36",
+     "condition": "Diffuse expiratory wheezes",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Diffuse wheezes, prolonged expiration",
+     "note": null,
+     "start": 405,
+     "end": 442
+    },
+    {
+     "id": "F37",
+     "condition": "Poor appetite",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Poor appetite, drinking mostly water and tea",
+     "note": null,
+     "start": 285,
+     "end": 329
+    }
+   ]
+  },
+  {
+   "t": 13524,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "I'm weighing COPD exacerbation codes \u2014 J44.0 needs a documented lower respiratory infection, which isn't specified here beyond a viral-triggered cold, so J44.1 fits better. I'm considering whether to add a separate code for the viral infection itself.\n\nFor hyponatremia, I'm debating E87.1 versus coding the hypovolemia separately with E86.1 since it was documented as hypovolemic \u2014 leaning toward just E87.1 and noting the discrepancy. I'm also lining up the remaining codes: HTN I10, HLD E78.5, GERD K21.9, F17.210 for smoking, Z99.81, and checking whether short-term steroid or antibiotic status c"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "J44.1"
+   },
+   "id": "toolu_01NGrs8WNwV2o9LKFPDXuwQB"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E87.1"
+   },
+   "id": "toolu_01LqatdJWPQF6yeYNV2jCYZR"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "F17.210"
+   },
+   "id": "toolu_01SMJtrbn7NtP5MYMLC8hHoD"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z99.81"
+   },
+   "id": "toolu_01CnzfDbHod5hehFYb75YbQB"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I10"
+   },
+   "id": "toolu_0118SJ5CgcVbhP3QCRWDkiMM"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_01U9RpxQvkpXJr9FAR9Sh4sc"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "K21.9"
+   },
+   "id": "toolu_01Cv3ieQL9PR7vjC1iJyYpg3"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01NGrs8WNwV2o9LKFPDXuwQB",
+   "result": "J44.1: Chronic obstructive pulmonary disease with (acute) exacerbation (billable)"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01LqatdJWPQF6yeYNV2jCYZR",
+   "result": "E87.1: Hypo-osmolality and hyponatremia (billable)"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01SMJtrbn7NtP5MYMLC8hHoD",
+   "result": "F17.210: Nicotine dependence, cigarettes, uncomplicated (billable)"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01CnzfDbHod5hehFYb75YbQB",
+   "result": "Z99.81: Dependence on supplemental oxygen (billable)"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_0118SJ5CgcVbhP3QCRWDkiMM",
+   "result": "I10: Essential (primary) hypertension (billable)"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01U9RpxQvkpXJr9FAR9Sh4sc",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01Cv3ieQL9PR7vjC1iJyYpg3",
+   "result": "K21.9: Gastro-esophageal reflux disease without esophagitis (billable)"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"J44.1\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F2\",\"F3\",\"F4\"],\"confidence\":0.9,\"rationale\":\"COPD exacerbation was the reason for admission. No lower respiratory infection such as pneumonia or bronchitis is documented, so J44.0 does not apply.\"},\"secondary\":[{\"code\":\"E87.1\",\"poa\":\"Y\",\"finding_ids\":[\"F13\",\"F14\",\"F15\",\"F16\"],\"confidence\":0.9,\"rationale\":\"Hyponatremia (Na 129) was present on admission, evaluated, and treated with IV fluids.\"},{\"code\":\"Z99.81\",\"poa\":\"Y\",\"finding_ids\":[\"F9\"],\"confidence\":0.9,\"rationale\":\"The patient is dependent on 2L home oxygen, documented as a discharge di"
+  },
+  {
+   "t": 25654,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "J44.1",
+     "poa": "Y",
+     "finding_ids": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+     ],
+     "confidence": 0.9,
+     "rationale": "COPD exacerbation was the reason for admission. No lower respiratory infection such as pneumonia or bronchitis is documented, so J44.0 does not apply."
+    },
+    "secondary": [
+     {
+      "code": "E87.1",
+      "poa": "Y",
+      "finding_ids": [
+       "F13",
+       "F14",
+       "F15",
+       "F16"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hyponatremia (Na 129) was present on admission, evaluated, and treated with IV fluids."
+     },
+     {
+      "code": "Z99.81",
+      "poa": "Y",
+      "finding_ids": [
+       "F9"
+      ],
+      "confidence": 0.9,
+      "rationale": "The patient is dependent on 2L home oxygen, documented as a discharge diagnosis."
+     },
+     {
+      "code": "F17.210",
+      "poa": "Y",
+      "finding_ids": [
+       "F8"
+      ],
+      "confidence": 0.9,
+      "rationale": "The patient is a current cigarette smoker with documented tobacco dependence and was counseled and given a nicotine patch."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F5"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hypertension is a chronic condition treated with amlodipine."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F6"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hyperlipidemia is a chronic condition treated with pravastatin."
+     },
+     {
+      "code": "K21.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F7"
+      ],
+      "confidence": 0.9,
+      "rationale": "GERD is a chronic condition treated with a PPI."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "query_opportunity",
+      "summary": "The exacerbation is called 'viral-triggered' after a cold, but no specific viral infection or lower respiratory infection is documented. Flu and COVID tests were negative. Consider a query about the type of infection (for example, viral URI or bronchitis), which would change the coding.",
+      "finding_ids": [
+       "F4",
+       "F32",
+       "F33"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 25654,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 32482,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"J44.1\",\"verdict\":\"supported\",\"confidence\":0.9,\"reason\":\"Acute exacerbation of COPD is documented consistently from the ED note through the discharge summary. It was the reason for admission and was treated with steroids, antibiotics and nebulizers. No pneumonia or bronchitis is documented, so J44.0 is not supported.\"},{\"code\":\"E87.1\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"The provider documented hypovolemic hyponatremia, evaluated it (Na 129, urine Na, serum osm) and treated it with NS, serial BMPs and diet, through to resolution. It meets secondary diagnosis cr"
+  },
+  {
+   "t": 32482,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "J44.1",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Acute exacerbation of COPD is documented consistently from the ED note through the discharge summary. It was the reason for admission and was treated with steroids, antibiotics and nebulizers. No pneumonia or bronchitis is documented, so J44.0 is not supported."
+     },
+     {
+      "code": "E87.1",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "The provider documented hypovolemic hyponatremia, evaluated it (Na 129, urine Na, serum osm) and treated it with NS, serial BMPs and diet, through to resolution. It meets secondary diagnosis criteria and was present on admission. Hypovolemia as a separate diagnosis is not coded because it was documented only as the cause of the hyponatremia. E87.1 covers the hypo-osmolality and hyponatremia. The clinical picture is consistent."
+     },
+     {
+      "code": "Z99.81",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "reason": "Dependence on 2L continuous home O2 is documented in the H&P and listed as a discharge diagnosis. O2 use was at baseline with no acute respiratory failure, so the status code is appropriate."
+     },
+     {
+      "code": "F17.210",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "reason": "The provider documented tobacco dependence, cigarettes, in the H&P, progress notes and discharge summary. Counseling and a nicotine patch were provided. The patient is a current smoker, not in remission."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hypertension is documented as a discharge diagnosis and treated with amlodipine. No heart or kidney disease is documented, so I10 is correct."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "Hyperlipidemia is documented as a discharge diagnosis and treated with pravastatin. It is unspecified type, so E78.5 is appropriate."
+     },
+     {
+      "code": "K21.9",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "GERD is documented as a discharge diagnosis and treated with omeprazole. No esophagitis is documented, so K21.9 is appropriate."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": [
+     {
+      "kind": "other",
+      "summary": "J44.1 is correct for COPD exacerbation, but the documented severe, GOLD 3 COPD with chronic hypercapnia and home O2 adds no separate code. Do not add chronic respiratory failure unless the provider documents it. The pCO2 of ~50 at baseline and continuous home O2 could prompt a query about chronic respiratory failure, though this is clinically soft.",
+      "finding_ids": [
+       "F9",
+       "F29",
+       "F31"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 32483,
+   "stage": "grouper",
+   "type": "output",
+   "family": "copd",
+   "drg": "191",
+   "title": "Chronic obstructive pulmonary disease w CC",
+   "weight": 0.86,
+   "tier": "CC",
+   "drivers": [
+    "E87.1"
+   ]
+  },
+  {
+   "t": 32483,
+   "stage": "router",
+   "type": "output",
+   "base": 0.88,
+   "blocking": 0,
+   "confidence": 0.88
+  }
+ ],
+ "ms": 32483,
+ "cost_usd": 0.07723
+}

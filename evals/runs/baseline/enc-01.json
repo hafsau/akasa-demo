@@ -1,0 +1,85 @@
+{
+ "case_id": "enc-01",
+ "codes": [
+  {
+   "code": "J18.9",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Pneumonia, unspecified organism",
+   "confidence": 0.45
+  },
+  {
+   "code": "I26.99",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Other pulmonary embolism without acute cor pulmonale",
+   "confidence": 0.45
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.45
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.45
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypothyroidism, unspecified",
+   "confidence": 0.45
+  },
+  {
+   "code": "E66.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Obesity, unspecified",
+   "confidence": 0.45
+  },
+  {
+   "code": "Z68.33",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Body mass index [BMI] 33.0-33.9, adult",
+   "confidence": 0.45
+  },
+  {
+   "code": "Z79.01",
+   "poa": "exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of anticoagulants",
+   "confidence": 0.45
+  }
+ ],
+ "drg": {
+  "family": "pneumonia",
+  "number": "193",
+  "weight": 1.31,
+  "tier": "MCC",
+  "drivers": [
+   "I26.99"
+  ]
+ },
+ "confidence": 0.225,
+ "needs_human": true,
+ "reason": "Both CAP and acute PE were present on admission and both were treated, so either could be sequenced first under the two-diagnoses-equally-meeting-definition guideline. CAP is chosen as principal because it was the presenting illness and was the main focus of admission workup and treatment, but PE (I26.99, segmental, no acute cor pulmonale) is a reasonable alternative and would change the DRG. The discharge summary also contradicts itself: the imaging section still says CTA showed no PE, although the final addendum and the attending's progress note confirm PE. The PE is accepted based on the attending's documentation. Pneumonia is coded J18.9 because the organism is unspecified: cultures were negative, and sputum showed normal flora. Pleuritic chest pain is integral to the pneumonia and PE and is not coded separately. Obesity is coded E66.9 with Z68.33 for BMI 33.4. Z79.01 is added for the apixaban started this stay, but it is debatable for inpatient initiation, and E66.9 may need to become E66.811 if class-specific obesity codes apply under FY2027 rules. A coder should verify the sequencing and the code set.",
+ "ms": 6215,
+ "cost_usd": 0.01381,
+ "input_tokens": 4140,
+ "output_tokens": 553
+}

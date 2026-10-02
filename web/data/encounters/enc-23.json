@@ -1,0 +1,1868 @@
+{
+ "case": {
+  "id": "enc-23",
+  "title": "AKI with malnutrition only in dietitian note",
+  "summary": "Kidney injury from dehydration; the dietitian found severe malnutrition but no doctor diagnosed it, so the doctor needs to be asked before it can be coded.",
+  "hero": false,
+  "family": "aki",
+  "patient": {
+   "age": 84,
+   "sex": "F"
+  },
+  "admit_date": "2026-09-06",
+  "discharge_date": "2026-09-10",
+  "documents": [
+   {
+    "id": "d1",
+    "type": "ED note",
+    "author": "G. Halvorsen, MD (Emergency Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-06T12:10",
+    "text": "CC: weakness, not eating.\nHPI: 84 y/o F with HTN, HLD, hypothyroidism, osteoporosis, depression brought by son for progressive weakness and poor oral intake. Husband died in June; since then son notes she \"barely eats,\" drinks little, has lost weight, and stays in bed most of the day. No vomiting, diarrhea, fever, or urinary symptoms. Continued her HCTZ/lisinopril.\nVitals: T 36.5, HR 102, BP 104/60, RR 16, SpO2 97% RA. Wt 45.8 kg.\nExam: Thin, frail, dry MM, temporal hollowing. Abd scaphoid, soft. A&Ox3, flat affect.\nLabs: Na 144, K 3.6, HCO3 26, BUN 62, Cr 2.4 (baseline 0.8, 02/2026), glucose 92. Albumin 3.0. WBC 7.2, Hgb 11.6. UA concentrated, otherwise bland. TSH 3.4.\nED course: 1 L NS.\nImpression: AKI, dehydration. Admit."
+   },
+   {
+    "id": "d2",
+    "type": "H&P",
+    "author": "V. Szabo, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-06T15:45",
+    "text": "HISTORY AND PHYSICAL\nHPI: 84F with HTN, HLD, hypothyroidism, osteoporosis, depression (worse since husband's death 3 months ago) presenting with weakness, poor PO intake, Cr 2.4 from baseline 0.8, BUN 62.\nMeds: lisinopril 10 mg, HCTZ 12.5 mg, atorvastatin 10 mg, levothyroxine 50 mcg, sertraline 50 mg, alendronate 70 mg weekly, vitamin D.\nExam: T 36.6, HR 96, BP 108/62. Thin, dry MM. RRR. Lungs clear. No edema. A&Ox3.\nASSESSMENT/PLAN:\n1. AKI, prerenal - due to dehydration from poor PO intake plus ACEi/thiazide. Hold lisinopril, HCTZ. NS 100 mL/h, BMP in AM, I/O. Avoid nephrotoxins.\n2. Dehydration - IVF as above, encourage PO.\n3. Poor PO intake / weight loss - dietitian consult. Calorie counts.\n4. Depression - continue sertraline; SW consult for bereavement support.\n5. HTN - holding antihypertensives.\n6. HLD - continue statin. 7. Hypothyroidism - continue levothyroxine, TSH nl.\n8. Osteoporosis - hold alendronate inpatient.\nDVT ppx heparin SQ. Full code."
+   },
+   {
+    "id": "d3",
+    "type": "Dietitian note",
+    "author": "S. Kowalczyk, RD, LDN",
+    "author_role": "dietitian",
+    "timestamp": "2026-09-07T10:30",
+    "text": "NUTRITION ASSESSMENT\nReason: MD consult, poor PO intake/weight loss.\nAnthropometrics: Ht 157 cm, Wt 45.8 kg, BMI 18.6. Usual body weight 52 kg (06/2026 PCP visit) -> 12% loss in 3 months.\nIntake: Per son and pt, eating < 50% of estimated needs for > 3 weeks (since early August); mostly tea and toast.\nNFPE: Severe temporal wasting, moderate-severe clavicular and acromial muscle loss, moderate orbital fat loss. Hand grip weak. No edema.\nEstimated needs: 1400-1550 kcal, 55-65 g protein.\nNutrition diagnosis: Severe protein-calorie malnutrition in the context of social/environmental circumstances (bereavement, depression), as evidenced by 12% weight loss in 3 months, energy intake < 50% of estimated needs for > 7 days, and severe muscle and fat loss on NFPE. Meets ASPEN/AND criteria.\nInterventions: Ensure Plus BID, liberalized diet, MVI with minerals daily, monitor refeeding labs (Phos, Mg, K) x 3 days, weekly weights.\nRecommend MD document nutrition diagnosis if in agreement."
+   },
+   {
+    "id": "d4",
+    "type": "Progress note",
+    "author": "V. Szabo, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-08T09:35",
+    "text": "S: Feels a bit stronger. Ate 40% of breakfast, drank 1 Ensure.\nO: T 36.7, HR 82, BP 126/70. Cr 2.4 -> 1.7 -> 1.2. BUN 31. Phos 2.9, Mg 1.9, K 3.9.\nA/P:\n1. AKI, prerenal - improving with IVF, Cr 1.2. Decrease IVF to 50 mL/h, stop tomorrow if PO OK.\n2. Dehydration - improving.\n3. Poor PO intake / weight loss - appreciate dietitian recs; Ensure Plus BID, MVI. Refeeding labs stable.\n4. Depression/bereavement - SW saw pt, outpatient grief counseling info given; continue sertraline, discuss dose increase with PCP.\n5. HTN - BP 120s off meds, continue holding.\n6. HLD, hypothyroidism, osteoporosis - stable."
+   },
+   {
+    "id": "d5",
+    "type": "Discharge summary",
+    "author": "V. Szabo, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-10T11:00",
+    "text": "DISCHARGE SUMMARY\nAdmit 09/06/2026 - Discharge 09/10/2026. Home with son; home health PT/RN.\nPrincipal diagnosis: Acute kidney injury, prerenal, due to dehydration.\nSecondary diagnoses: Dehydration. Depression. Hypertension. Hyperlipidemia. Hypothyroidism. Osteoporosis.\nHospital course: 84F with weakness and poor oral intake in the setting of bereavement, Cr 2.4 from baseline 0.8. Treated with IV fluids and holding of lisinopril/HCTZ; Cr 0.9 at discharge. Seen by dietitian for poor intake and weight loss (BMI 18.6); started on oral supplements, intake improved to ~50-60% of meals. Social work provided bereavement resources.\nDischarge meds: Ensure Plus BID, multivitamin daily, sertraline 50 mg, levothyroxine 50 mcg, atorvastatin 10 mg, alendronate weekly, vitamin D. HOLD lisinopril and HCTZ until PCP visit.\nFollow-up: PCP 1 week with BMP and weight check."
+   }
+  ],
+  "gold": {
+   "pdx": "N17.9",
+   "secondary": [
+    {
+     "code": "E86.0",
+     "poa": "Y"
+    },
+    {
+     "code": "F32.A",
+     "poa": "Y"
+    },
+    {
+     "code": "I10",
+     "poa": "Y"
+    },
+    {
+     "code": "E78.5",
+     "poa": "Y"
+    },
+    {
+     "code": "E03.9",
+     "poa": "Y"
+    },
+    {
+     "code": "M81.0",
+     "poa": "Y"
+    }
+   ],
+   "drg": "684",
+   "route": "coder",
+   "hold_reasons": [
+    "Malnutrition documented only by the dietitian: the RD note diagnoses severe protein-calorie malnutrition meeting ASPEN/AND criteria (12% weight loss in 3 months, intake < 50% of needs for > 3 weeks, severe temporal and clavicular wasting). No provider documents malnutrition; the H&P, progress note and discharge summary say only 'poor PO intake / weight loss' and order supplements. Malnutrition can't be coded from dietitian documentation, so query the attending (OCG I.B.14)."
+   ],
+   "query": {
+    "topic": "Nutritional status. Dietitian assessment 09/07: weight 45.8 kg (BMI 18.6), down from usual 52 kg in 06/2026 (12% loss in 3 months); oral intake < 50% of estimated needs for > 3 weeks; NFPE with severe temporal wasting, moderate-severe clavicular/acromial muscle loss and moderate orbital fat loss; albumin 3.0. Treatment: Ensure Plus BID, multivitamin, refeeding lab monitoring. Provider notes document 'poor PO intake / weight loss.' Based on your clinical judgment, can you clarify the patient's nutritional status?",
+    "options": [
+     "Severe protein-calorie malnutrition",
+     "Moderate protein-calorie malnutrition",
+     "Mild protein-calorie malnutrition",
+     "Poor oral intake and weight loss without malnutrition",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ]
+   },
+   "traps": [
+    "lab_only"
+   ],
+   "explanation": "The AKI from dehydration (N17.9 PDx, E86.0) and the chronic conditions are straightforward. The nuance is the dietitian note, which documents severe protein-calorie malnutrition with strong ASPEN criteria, while the providers only write 'poor PO intake / weight loss'. Per OCG I.B.14, a diagnosis like malnutrition has to come from a provider, so E43 can't be coded and the BMI code (which depends on a provider-documented associated condition) isn't reported either. A careful coder holds the account and sends a compliant query. A naive system codes E43 from the RD note, which would also wrongly raise the DRG to 682."
+  }
+ },
+ "run": {
+  "case_id": "enc-23",
+  "prompt_version": "2026-10-02.4-router-v2",
+  "models": {
+   "fast": "anthropic:claude-haiku-4-5",
+   "reason": "anthropic:claude-sonnet-5-5"
+  },
+  "findings": [
+   {
+    "id": "F1",
+    "condition": "Acute kidney injury",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "AKI, dehydration. Admit.",
+    "note": null,
+    "start": 710,
+    "end": 734
+   },
+   {
+    "id": "F2",
+    "condition": "Acute kidney injury, prerenal",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "AKI, prerenal - due to dehydration",
+    "note": null,
+    "start": 441,
+    "end": 475
+   },
+   {
+    "id": "F3",
+    "condition": "Acute kidney injury, prerenal, improving",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "AKI, prerenal - improving with IVF, Cr 1.2",
+    "note": null,
+    "start": 155,
+    "end": 197
+   },
+   {
+    "id": "F4",
+    "condition": "Acute kidney injury, prerenal, due to dehydration",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "Principal diagnosis: Acute kidney injury, prerenal, due to dehydration.",
+    "note": null,
+    "start": 93,
+    "end": 164
+   },
+   {
+    "id": "F5",
+    "condition": "Dehydration",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "AKI, dehydration. Admit.",
+    "note": null,
+    "start": 710,
+    "end": 734
+   },
+   {
+    "id": "F6",
+    "condition": "Dehydration",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Dehydration - IVF as above, encourage PO.",
+    "note": null,
+    "start": 591,
+    "end": 632
+   },
+   {
+    "id": "F7",
+    "condition": "Creatinine elevation from baseline",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Cr 2.4 (baseline 0.8, 02/2026)",
+    "note": null,
+    "start": 560,
+    "end": 590
+   },
+   {
+    "id": "F8",
+    "condition": "Creatinine improvement",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "Cr 2.4 -> 1.7 -> 1.2",
+    "note": null,
+    "start": 92,
+    "end": 112
+   },
+   {
+    "id": "F9",
+    "condition": "Creatinine normalized at discharge",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "Cr 0.9 at discharge",
+    "note": null,
+    "start": 439,
+    "end": 458
+   },
+   {
+    "id": "F10",
+    "condition": "Hypernatremia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Na 144",
+    "note": null,
+    "start": 528,
+    "end": 534
+   },
+   {
+    "id": "F11",
+    "condition": "BUN elevation",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "BUN 62",
+    "note": null,
+    "start": 552,
+    "end": 558
+   },
+   {
+    "id": "F12",
+    "condition": "BUN improvement",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "BUN 31",
+    "note": null,
+    "start": 114,
+    "end": 120
+   },
+   {
+    "id": "F13",
+    "condition": "Hypokalemia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "K 3.6",
+    "note": null,
+    "start": 536,
+    "end": 541
+   },
+   {
+    "id": "F14",
+    "condition": "Low albumin",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Albumin 3.0",
+    "note": null,
+    "start": 604,
+    "end": 615
+   },
+   {
+    "id": "F15",
+    "condition": "Anemia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Hgb 11.6",
+    "note": null,
+    "start": 626,
+    "end": 634
+   },
+   {
+    "id": "F16",
+    "condition": "Concentrated urine",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "UA concentrated, otherwise bland",
+    "note": null,
+    "start": 636,
+    "end": 668
+   },
+   {
+    "id": "F17",
+    "condition": "Weakness",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "progressive weakness and poor oral intake",
+    "note": null,
+    "start": 115,
+    "end": 156
+   },
+   {
+    "id": "F18",
+    "condition": "Poor oral intake / weight loss",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Poor PO intake / weight loss - dietitian consult",
+    "note": null,
+    "start": 636,
+    "end": 684
+   },
+   {
+    "id": "F19",
+    "condition": "Severe protein-calorie malnutrition",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "Severe protein-calorie malnutrition in the context of social/environmental circumstances",
+    "note": null,
+    "start": 510,
+    "end": 598
+   },
+   {
+    "id": "F20",
+    "condition": "Weight loss, 12% in 3 months",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "Usual body weight 52 kg (06/2026 PCP visit) -> 12% loss in 3 months",
+    "note": null,
+    "start": 119,
+    "end": 186
+   },
+   {
+    "id": "F21",
+    "condition": "Severe temporal wasting",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "Severe temporal wasting, moderate-severe clavicular and acromial muscle loss",
+    "note": null,
+    "start": 308,
+    "end": 384
+   },
+   {
+    "id": "F22",
+    "condition": "Moderate orbital fat loss",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "moderate orbital fat loss",
+    "note": null,
+    "start": 386,
+    "end": 411
+   },
+   {
+    "id": "F23",
+    "condition": "Weak hand grip strength",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "Hand grip weak",
+    "note": null,
+    "start": 413,
+    "end": 427
+   },
+   {
+    "id": "F24",
+    "condition": "Depression",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "depression (worse since husband's death 3 months ago)",
+    "note": null,
+    "start": 75,
+    "end": 128
+   },
+   {
+    "id": "F25",
+    "condition": "Bereavement stress",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Husband died in June; since then son notes she \"barely eats,\"",
+    "note": null,
+    "start": 158,
+    "end": 219
+   },
+   {
+    "id": "F26",
+    "condition": "Hypertension",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "84 y/o F with HTN, HLD, hypothyroidism",
+    "note": null,
+    "start": 31,
+    "end": 69
+   },
+   {
+    "id": "F27",
+    "condition": "Hyperlipidemia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "84 y/o F with HTN, HLD, hypothyroidism",
+    "note": null,
+    "start": 31,
+    "end": 69
+   },
+   {
+    "id": "F28",
+    "condition": "Hypothyroidism",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "84 y/o F with HTN, HLD, hypothyroidism, osteoporosis, depression",
+    "note": null,
+    "start": 31,
+    "end": 95
+   },
+   {
+    "id": "F29",
+    "condition": "Osteoporosis",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "osteoporosis, depression brought by son",
+    "note": null,
+    "start": 71,
+    "end": 110
+   },
+   {
+    "id": "F30",
+    "condition": "Tachycardia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "HR 102",
+    "note": null,
+    "start": 384,
+    "end": 390
+   },
+   {
+    "id": "F31",
+    "condition": "Hypotension",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "BP 104/60",
+    "note": null,
+    "start": 392,
+    "end": 401
+   },
+   {
+    "id": "F32",
+    "condition": "Dry mucous membranes",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Thin, frail, dry MM, temporal hollowing",
+    "note": null,
+    "start": 441,
+    "end": 480
+   },
+   {
+    "id": "F33",
+    "condition": "Flat affect",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "A&Ox3, flat affect",
+    "note": null,
+    "start": 502,
+    "end": 520
+   },
+   {
+    "id": "F34",
+    "condition": "Phosphate depletion",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "Phos 2.9",
+    "note": null,
+    "start": 122,
+    "end": 130
+   },
+   {
+    "id": "F35",
+    "condition": "Magnesium depletion",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "Mg 1.9",
+    "note": null,
+    "start": 132,
+    "end": 138
+   },
+   {
+    "id": "F36",
+    "condition": "Poor oral intake improving",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "intake improved to ~50-60% of meals",
+    "note": null,
+    "start": 551,
+    "end": 586
+   },
+   {
+    "id": "F37",
+    "condition": "ACE inhibitor/thiazide held as treatment for AKI",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Hold lisinopril, HCTZ",
+    "note": null,
+    "start": 516,
+    "end": 537
+   }
+  ],
+  "codes": [
+   {
+    "code": "N17.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F2",
+     "F4"
+    ],
+    "confidence": 0.88,
+    "rationale": "The attending documents prerenal AKI due to dehydration as the principal diagnosis. Cr went from 2.4 to 0.9 with IV fluids.",
+    "role": "pdx",
+    "verdict": "supported",
+    "critic_reason": "Provider-documented AKI with Cr 2.4 from baseline 0.8, clinically valid (KDIGO >=3x baseline), consistent through the discharge summary. Prerenal AKI is indexed to N17.9.",
+    "severity": null,
+    "description": "Acute kidney failure, unspecified"
+   },
+   {
+    "code": "E86.0",
+    "poa": "Y",
+    "finding_ids": [
+     "F5",
+     "F6"
+    ],
+    "confidence": 0.88,
+    "rationale": "The provider documents dehydration, which was treated with IV fluids.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Dehydration is documented by the provider throughout, treated with IV fluids, and is not integral to AKI.",
+    "severity": "none",
+    "description": "Dehydration"
+   },
+   {
+    "code": "F32.A",
+    "poa": "Y",
+    "finding_ids": [
+     "F24"
+    ],
+    "confidence": 0.8,
+    "rationale": "The provider documents depression, treated with sertraline and social work support.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Depression is documented, monitored and treated with sertraline. F32.A is the correct unspecified code. A specificity query is optional and not a billing risk.",
+    "severity": "none",
+    "description": "Depression, unspecified"
+   },
+   {
+    "code": "I10",
+    "poa": "Y",
+    "finding_ids": [
+     "F26"
+    ],
+    "confidence": 0.88,
+    "rationale": "The provider documents hypertension. Antihypertensives were held and there is no CKD or heart disease.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "HTN is documented, and antihypertensives were held and monitored. No CKD or heart disease is documented. AKI is not CKD.",
+    "severity": "none",
+    "description": "Essential (primary) hypertension"
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "finding_ids": [
+     "F27"
+    ],
+    "confidence": 0.88,
+    "rationale": "Hyperlipidemia is documented and the statin was continued.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "HLD is documented and the statin was continued.",
+    "severity": "none",
+    "description": "Hyperlipidemia, unspecified"
+   },
+   {
+    "code": "E03.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F28"
+    ],
+    "confidence": 0.88,
+    "rationale": "Hypothyroidism is documented and levothyroxine was continued.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Hypothyroidism is documented, with levothyroxine continued and TSH checked.",
+    "severity": "none",
+    "description": "Hypothyroidism, unspecified"
+   },
+   {
+    "code": "M81.0",
+    "poa": "Y",
+    "finding_ids": [
+     "F29"
+    ],
+    "confidence": 0.82,
+    "rationale": "Osteoporosis is documented without fracture, and alendronate was held during the stay.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Osteoporosis is documented without fracture, and the alendronate was managed, which meets reporting criteria.",
+    "severity": "none",
+    "description": "Age-related osteoporosis without current pathological fracture"
+   },
+   {
+    "code": "R63.4",
+    "poa": "Y",
+    "finding_ids": [
+     "F18",
+     "F20"
+    ],
+    "confidence": 0.65,
+    "rationale": "The physician documents weight loss and it was evaluated by the dietitian. No malnutrition diagnosis is documented by a provider.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "The physician documents weight loss, which was evaluated by the dietitian and monitored. It is a symptom code that would be superseded if a provider diagnoses malnutrition after the query.",
+    "severity": "none",
+    "description": "Abnormal weight loss"
+   },
+   {
+    "code": "Z63.4",
+    "poa": "Y",
+    "finding_ids": [
+     "F25"
+    ],
+    "confidence": 0.65,
+    "rationale": "The provider documents bereavement after the husband's death, and social work provided support.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "The bereavement is documented by the provider in the H&P and discharge summary, and social work was involved. The code is appropriate as a social-circumstance code.",
+    "severity": "none",
+    "description": "Disappearance and death of family member"
+   }
+  ],
+  "removed": [],
+  "issues": [
+   {
+    "kind": "query_opportunity",
+    "summary": "The dietitian documents severe protein-calorie malnutrition (12% weight loss, severe wasting, BMI 18.6) but no provider diagnoses it. Query the attending for a clinical diagnosis. Without one, malnutrition and BMI cannot be coded.",
+    "finding_ids": [
+     "F19",
+     "F20",
+     "F21",
+     "F22"
+    ],
+    "guideline": "OCG I.B.14; AHIMA/ACDIS query practice",
+    "impact": "severity",
+    "codes": [
+     "E43",
+     "Z68.1"
+    ],
+    "blocks_autonomy": true
+   },
+   {
+    "kind": "query_opportunity",
+    "summary": "The H&P attributes the AKI partly to ACEi/thiazide use. The discharge summary mentions only dehydration. Clarify whether an adverse drug effect applies.",
+    "finding_ids": [
+     "F2",
+     "F37"
+    ],
+    "guideline": "AHIMA/ACDIS query practice",
+    "impact": "none",
+    "codes": [
+     "T46.4X5A",
+     "T50.2X5A"
+    ],
+    "blocks_autonomy": false
+   },
+   {
+    "kind": "query_opportunity",
+    "summary": "Hypotension (BP 104/60) and tachycardia (HR 102) appeared at presentation, but no provider diagnosed them. These are likely integral to dehydration, so no query is needed unless the provider adds clinical significance.",
+    "finding_ids": [
+     "F30",
+     "F31"
+    ],
+    "guideline": null,
+    "impact": "none",
+    "codes": [],
+    "blocks_autonomy": false
+   },
+   {
+    "kind": "other",
+    "summary": "Anemia (Hgb 11.6) appears only as a lab value, with no provider diagnosis and no evaluation or treatment. This does not meet reportable secondary diagnosis criteria, so it should not be coded without a query.",
+    "finding_ids": [
+     "F15"
+    ],
+    "guideline": "OCG Section III",
+    "impact": "none",
+    "codes": [],
+    "blocks_autonomy": false
+   }
+  ],
+  "queries": [
+   {
+    "issue": "The dietitian documents severe protein-calorie malnutrition (12% weight loss, severe wasting, BMI 18.6) but no provider diagnoses it. Query the attending for a clinical diagnosis. Without one, malnutrition and BMI cannot be coded.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "Dietitian assessment: 'Severe protein-calorie malnutrition in the context of social/environmental circumstances'",
+      "finding_id": "F19"
+     },
+     {
+      "text": "Usual body weight 52 kg (06/2026 PCP visit) -> 12% loss in 3 months",
+      "finding_id": "F20"
+     },
+     {
+      "text": "Physical findings: severe temporal wasting, moderate-severe clavicular and acromial muscle loss",
+      "finding_id": "F21"
+     },
+     {
+      "text": "Moderate orbital fat loss",
+      "finding_id": "F22"
+     },
+     {
+      "text": "BMI 18.6 documented in the nutrition assessment",
+      "finding_id": null
+     }
+    ],
+    "question": "Based on your clinical judgment and the nutrition findings above, please document the diagnosis, if any, that best describes this patient's nutritional status during this admission.",
+    "options": [
+     "Severe protein-calorie malnutrition",
+     "Moderate protein-calorie malnutrition",
+     "Mild protein-calorie malnutrition",
+     "No malnutrition diagnosis; findings not clinically significant",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  ],
+  "drg": {
+   "family": "aki",
+   "number": "684",
+   "title": "Renal failure w/o CC/MCC",
+   "weight": 0.62,
+   "tier": "none",
+   "drivers": []
+  },
+  "confidence": 0.44,
+  "confidence_base": 0.88,
+  "blocking_issues": 1,
+  "blocking_reasons": [
+   "query_opportunity: The dietitian documents severe protein-calorie malnutrition (12% weight loss, severe wasting, BMI 18.6) but no provider diagnoses it. Query the attending for a clinical diagnosis. Without one, malnutrition and BMI cannot be coded."
+  ],
+  "stages": [
+   {
+    "stage": "triage",
+    "model": null,
+    "started": 0,
+    "ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cost_usd": 0
+   },
+   {
+    "stage": "evidence",
+    "model": "claude-haiku-4-5",
+    "started": 0,
+    "ms": 23247,
+    "input_tokens": 7985,
+    "output_tokens": 4422,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.0301
+   },
+   {
+    "stage": "coder",
+    "model": "claude-sonnet-5-5",
+    "started": 23247,
+    "ms": 15017,
+    "input_tokens": 14478,
+    "output_tokens": 1873,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.04769
+   },
+   {
+    "stage": "critic",
+    "model": "claude-sonnet-5-5",
+    "started": 38264,
+    "ms": 7213,
+    "input_tokens": 6812,
+    "output_tokens": 932,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02294
+   },
+   {
+    "stage": "query",
+    "model": "claude-sonnet-5-5",
+    "started": 45477,
+    "ms": 4687,
+    "input_tokens": 1003,
+    "output_tokens": 382,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.00583
+   }
+  ],
+  "events": [
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "stage_start"
+   },
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "output",
+    "documents": [
+     {
+      "id": "d1",
+      "type": "ED note",
+      "author_role": "provider",
+      "timestamp": "2026-09-06T12:10",
+      "words": 123,
+      "flags": []
+     },
+     {
+      "id": "d2",
+      "type": "H&P",
+      "author_role": "provider",
+      "timestamp": "2026-09-06T15:45",
+      "words": 154,
+      "flags": []
+     },
+     {
+      "id": "d3",
+      "type": "Dietitian note",
+      "author_role": "dietitian",
+      "timestamp": "2026-09-07T10:30",
+      "words": 153,
+      "flags": []
+     },
+     {
+      "id": "d4",
+      "type": "Progress note",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T09:35",
+      "words": 108,
+      "flags": []
+     },
+     {
+      "id": "d5",
+      "type": "Discharge summary",
+      "author_role": "provider",
+      "timestamp": "2026-09-10T11:00",
+      "words": 123,
+      "flags": [
+       "discharge"
+      ]
+     }
+    ]
+   },
+   {
+    "t": 0,
+    "stage": "evidence",
+    "type": "stage_start",
+    "model": "anthropic:claude-haiku-4-5"
+   },
+   {
+    "t": 23247,
+    "stage": "evidence",
+    "type": "validation_retry",
+    "reason": "These quotes are not verbatim. Copy exact text from the document:\nF24: quote not found verbatim in d2: \"Depression (worse since husband's death 3 months ago)\""
+   },
+   {
+    "t": 23247,
+    "stage": "evidence",
+    "type": "output",
+    "findings": [
+     {
+      "id": "F1",
+      "condition": "Acute kidney injury",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "AKI, dehydration. Admit.",
+      "note": null,
+      "start": 710,
+      "end": 734
+     },
+     {
+      "id": "F2",
+      "condition": "Acute kidney injury, prerenal",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "AKI, prerenal - due to dehydration",
+      "note": null,
+      "start": 441,
+      "end": 475
+     },
+     {
+      "id": "F3",
+      "condition": "Acute kidney injury, prerenal, improving",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "AKI, prerenal - improving with IVF, Cr 1.2",
+      "note": null,
+      "start": 155,
+      "end": 197
+     },
+     {
+      "id": "F4",
+      "condition": "Acute kidney injury, prerenal, due to dehydration",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "Principal diagnosis: Acute kidney injury, prerenal, due to dehydration.",
+      "note": null,
+      "start": 93,
+      "end": 164
+     },
+     {
+      "id": "F5",
+      "condition": "Dehydration",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "AKI, dehydration. Admit.",
+      "note": null,
+      "start": 710,
+      "end": 734
+     },
+     {
+      "id": "F6",
+      "condition": "Dehydration",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Dehydration - IVF as above, encourage PO.",
+      "note": null,
+      "start": 591,
+      "end": 632
+     },
+     {
+      "id": "F7",
+      "condition": "Creatinine elevation from baseline",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Cr 2.4 (baseline 0.8, 02/2026)",
+      "note": null,
+      "start": 560,
+      "end": 590
+     },
+     {
+      "id": "F8",
+      "condition": "Creatinine improvement",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "Cr 2.4 -> 1.7 -> 1.2",
+      "note": null,
+      "start": 92,
+      "end": 112
+     },
+     {
+      "id": "F9",
+      "condition": "Creatinine normalized at discharge",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "Cr 0.9 at discharge",
+      "note": null,
+      "start": 439,
+      "end": 458
+     },
+     {
+      "id": "F10",
+      "condition": "Hypernatremia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Na 144",
+      "note": null,
+      "start": 528,
+      "end": 534
+     },
+     {
+      "id": "F11",
+      "condition": "BUN elevation",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "BUN 62",
+      "note": null,
+      "start": 552,
+      "end": 558
+     },
+     {
+      "id": "F12",
+      "condition": "BUN improvement",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "BUN 31",
+      "note": null,
+      "start": 114,
+      "end": 120
+     },
+     {
+      "id": "F13",
+      "condition": "Hypokalemia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "K 3.6",
+      "note": null,
+      "start": 536,
+      "end": 541
+     },
+     {
+      "id": "F14",
+      "condition": "Low albumin",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Albumin 3.0",
+      "note": null,
+      "start": 604,
+      "end": 615
+     },
+     {
+      "id": "F15",
+      "condition": "Anemia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Hgb 11.6",
+      "note": null,
+      "start": 626,
+      "end": 634
+     },
+     {
+      "id": "F16",
+      "condition": "Concentrated urine",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "UA concentrated, otherwise bland",
+      "note": null,
+      "start": 636,
+      "end": 668
+     },
+     {
+      "id": "F17",
+      "condition": "Weakness",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "progressive weakness and poor oral intake",
+      "note": null,
+      "start": 115,
+      "end": 156
+     },
+     {
+      "id": "F18",
+      "condition": "Poor oral intake / weight loss",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Poor PO intake / weight loss - dietitian consult",
+      "note": null,
+      "start": 636,
+      "end": 684
+     },
+     {
+      "id": "F19",
+      "condition": "Severe protein-calorie malnutrition",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "Severe protein-calorie malnutrition in the context of social/environmental circumstances",
+      "note": null,
+      "start": 510,
+      "end": 598
+     },
+     {
+      "id": "F20",
+      "condition": "Weight loss, 12% in 3 months",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "Usual body weight 52 kg (06/2026 PCP visit) -> 12% loss in 3 months",
+      "note": null,
+      "start": 119,
+      "end": 186
+     },
+     {
+      "id": "F21",
+      "condition": "Severe temporal wasting",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "Severe temporal wasting, moderate-severe clavicular and acromial muscle loss",
+      "note": null,
+      "start": 308,
+      "end": 384
+     },
+     {
+      "id": "F22",
+      "condition": "Moderate orbital fat loss",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "moderate orbital fat loss",
+      "note": null,
+      "start": 386,
+      "end": 411
+     },
+     {
+      "id": "F23",
+      "condition": "Weak hand grip strength",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "Hand grip weak",
+      "note": null,
+      "start": 413,
+      "end": 427
+     },
+     {
+      "id": "F24",
+      "condition": "Depression",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "depression (worse since husband's death 3 months ago)",
+      "note": null,
+      "start": 75,
+      "end": 128
+     },
+     {
+      "id": "F25",
+      "condition": "Bereavement stress",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Husband died in June; since then son notes she \"barely eats,\"",
+      "note": null,
+      "start": 158,
+      "end": 219
+     },
+     {
+      "id": "F26",
+      "condition": "Hypertension",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "84 y/o F with HTN, HLD, hypothyroidism",
+      "note": null,
+      "start": 31,
+      "end": 69
+     },
+     {
+      "id": "F27",
+      "condition": "Hyperlipidemia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "84 y/o F with HTN, HLD, hypothyroidism",
+      "note": null,
+      "start": 31,
+      "end": 69
+     },
+     {
+      "id": "F28",
+      "condition": "Hypothyroidism",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "84 y/o F with HTN, HLD, hypothyroidism, osteoporosis, depression",
+      "note": null,
+      "start": 31,
+      "end": 95
+     },
+     {
+      "id": "F29",
+      "condition": "Osteoporosis",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "osteoporosis, depression brought by son",
+      "note": null,
+      "start": 71,
+      "end": 110
+     },
+     {
+      "id": "F30",
+      "condition": "Tachycardia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "HR 102",
+      "note": null,
+      "start": 384,
+      "end": 390
+     },
+     {
+      "id": "F31",
+      "condition": "Hypotension",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "BP 104/60",
+      "note": null,
+      "start": 392,
+      "end": 401
+     },
+     {
+      "id": "F32",
+      "condition": "Dry mucous membranes",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Thin, frail, dry MM, temporal hollowing",
+      "note": null,
+      "start": 441,
+      "end": 480
+     },
+     {
+      "id": "F33",
+      "condition": "Flat affect",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "A&Ox3, flat affect",
+      "note": null,
+      "start": 502,
+      "end": 520
+     },
+     {
+      "id": "F34",
+      "condition": "Phosphate depletion",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "Phos 2.9",
+      "note": null,
+      "start": 122,
+      "end": 130
+     },
+     {
+      "id": "F35",
+      "condition": "Magnesium depletion",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "Mg 1.9",
+      "note": null,
+      "start": 132,
+      "end": 138
+     },
+     {
+      "id": "F36",
+      "condition": "Poor oral intake improving",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "intake improved to ~50-60% of meals",
+      "note": null,
+      "start": 551,
+      "end": 586
+     },
+     {
+      "id": "F37",
+      "condition": "ACE inhibitor/thiazide held as treatment for AKI",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Hold lisinopril, HCTZ",
+      "note": null,
+      "start": 516,
+      "end": 537
+     }
+    ]
+   },
+   {
+    "t": 23247,
+    "stage": "coder",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "thinking",
+    "text": "I'm working through the codes: AKI as principal diagnosis, dehydration, and noting malnutrition is only documented by the dietitian without physician confirmation, so it's a query opportunity rather than codable as-is. BMI similarly isn't codable without a provider diagnosis of an associated condition. I'm also including depression (F32.A) in the list.\n\nAdding HTN, HLD, hypothyroidism, and osteoporosis to the list, then considering whether the dehydration noted as related to ACEi/thiazide use constitutes a codable adverse effect \u2014 the documentation is ambiguous so I'm inclined to skip it as a "
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "N17.9"
+    },
+    "id": "toolu_01JcVFwBz8DbuPwT2LyPXfeX"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E86.0"
+    },
+    "id": "toolu_01YF665ja6jaZoscbBXSNaev"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "F32.A"
+    },
+    "id": "toolu_016Cx1jiSX5y8YJjsNCPbNYE"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "I10"
+    },
+    "id": "toolu_015AY8RqqTWjEgXV5SbQGXbA"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E78.5"
+    },
+    "id": "toolu_013EoQeUMd2HimEh8gMgMk6C"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E03.9"
+    },
+    "id": "toolu_01Su5rt1FMnKoUiBpnqAumNt"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "M81.0"
+    },
+    "id": "toolu_01JBELyecu9mJB38hmv9NqBk"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "R63.4"
+    },
+    "id": "toolu_01JU26HneYieZ5ddr6uYLYUq"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "Z63.4"
+    },
+    "id": "toolu_016EFmsWxvhDFdmVuLGfoTCw"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01JcVFwBz8DbuPwT2LyPXfeX",
+    "result": "N17.9: Acute kidney failure, unspecified (billable)"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01YF665ja6jaZoscbBXSNaev",
+    "result": "E86.0: Dehydration (billable)"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_016Cx1jiSX5y8YJjsNCPbNYE",
+    "result": "F32.A: Depression, unspecified (billable)"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_015AY8RqqTWjEgXV5SbQGXbA",
+    "result": "I10: Essential (primary) hypertension (billable)"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_013EoQeUMd2HimEh8gMgMk6C",
+    "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01Su5rt1FMnKoUiBpnqAumNt",
+    "result": "E03.9: Hypothyroidism, unspecified (billable)"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01JBELyecu9mJB38hmv9NqBk",
+    "result": "M81.0: Age-related osteoporosis without current pathological fracture (billable)"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01JU26HneYieZ5ddr6uYLYUq",
+    "result": "R63.4: Abnormal weight loss (billable)"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_016EFmsWxvhDFdmVuLGfoTCw",
+    "result": "Z63.4: Disappearance and death of family member (billable)"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "text",
+    "text": "{\"pdx\":{\"code\":\"N17.9\",\"poa\":\"Y\",\"finding_ids\":[\"F2\",\"F4\"],\"confidence\":0.9,\"rationale\":\"The attending documents prerenal AKI due to dehydration as the principal diagnosis. Cr went from 2.4 to 0.9 with IV fluids.\"},\"secondary\":[{\"code\":\"E86.0\",\"poa\":\"Y\",\"finding_ids\":[\"F5\",\"F6\"],\"confidence\":0.88,\"rationale\":\"The provider documents dehydration, which was treated with IV fluids.\"},{\"code\":\"F32.A\",\"poa\":\"Y\",\"finding_ids\":[\"F24\"],\"confidence\":0.8,\"rationale\":\"The provider documents depression, treated with sertraline and social work support.\"},{\"code\":\"I10\",\"poa\":\"Y\",\"finding_ids\":[\"F26\"],\"confid"
+   },
+   {
+    "t": 38264,
+    "stage": "coder",
+    "type": "output",
+    "draft": {
+     "pdx": {
+      "code": "N17.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F2",
+       "F4"
+      ],
+      "confidence": 0.9,
+      "rationale": "The attending documents prerenal AKI due to dehydration as the principal diagnosis. Cr went from 2.4 to 0.9 with IV fluids."
+     },
+     "secondary": [
+      {
+       "code": "E86.0",
+       "poa": "Y",
+       "finding_ids": [
+        "F5",
+        "F6"
+       ],
+       "confidence": 0.88,
+       "rationale": "The provider documents dehydration, which was treated with IV fluids."
+      },
+      {
+       "code": "F32.A",
+       "poa": "Y",
+       "finding_ids": [
+        "F24"
+       ],
+       "confidence": 0.8,
+       "rationale": "The provider documents depression, treated with sertraline and social work support."
+      },
+      {
+       "code": "I10",
+       "poa": "Y",
+       "finding_ids": [
+        "F26"
+       ],
+       "confidence": 0.85,
+       "rationale": "The provider documents hypertension. Antihypertensives were held and there is no CKD or heart disease."
+      },
+      {
+       "code": "E78.5",
+       "poa": "Y",
+       "finding_ids": [
+        "F27"
+       ],
+       "confidence": 0.85,
+       "rationale": "Hyperlipidemia is documented and the statin was continued."
+      },
+      {
+       "code": "E03.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F28"
+       ],
+       "confidence": 0.85,
+       "rationale": "Hypothyroidism is documented and levothyroxine was continued."
+      },
+      {
+       "code": "M81.0",
+       "poa": "Y",
+       "finding_ids": [
+        "F29"
+       ],
+       "confidence": 0.8,
+       "rationale": "Osteoporosis is documented without fracture, and alendronate was held during the stay."
+      },
+      {
+       "code": "R63.4",
+       "poa": "Y",
+       "finding_ids": [
+        "F18",
+        "F20"
+       ],
+       "confidence": 0.6,
+       "rationale": "The physician documents weight loss and it was evaluated by the dietitian. No malnutrition diagnosis is documented by a provider."
+      },
+      {
+       "code": "Z63.4",
+       "poa": "Y",
+       "finding_ids": [
+        "F25"
+       ],
+       "confidence": 0.6,
+       "rationale": "The provider documents bereavement after the husband's death, and social work provided support."
+      }
+     ],
+     "issues": [
+      {
+       "kind": "query_opportunity",
+       "summary": "The dietitian documents severe protein-calorie malnutrition (12% weight loss, severe wasting, BMI 18.6) but no provider diagnoses it. Query the attending for a clinical diagnosis. Without one, malnutrition and BMI cannot be coded.",
+       "finding_ids": [
+        "F19",
+        "F20",
+        "F21",
+        "F22"
+       ],
+       "guideline": "OCG I.B.14; AHIMA/ACDIS query practice",
+       "impact": "severity",
+       "codes": [
+        "E43",
+        "Z68.1"
+       ]
+      },
+      {
+       "kind": "query_opportunity",
+       "summary": "The H&P attributes the AKI partly to ACEi/thiazide use. The discharge summary mentions only dehydration. Clarify whether an adverse drug effect applies.",
+       "finding_ids": [
+        "F2",
+        "F37"
+       ],
+       "guideline": "AHIMA/ACDIS query practice",
+       "impact": "none",
+       "codes": [
+        "T46.4X5A",
+        "T50.2X5A"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "t": 38264,
+    "stage": "critic",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 45477,
+    "stage": "critic",
+    "type": "text",
+    "text": "{\"reviews\":[{\"code\":\"N17.9\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"Provider-documented AKI with Cr 2.4 from baseline 0.8, clinically valid (KDIGO >=3x baseline), consistent through the discharge summary. Prerenal AKI is indexed to N17.9.\"},{\"code\":\"E86.0\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"Dehydration is documented by the provider throughout, treated with IV fluids, and is not integral to AKI.\"},{\"code\":\"F32.A\",\"verdict\":\"supported\",\"confidence\":0.8,\"reason\":\"Depression is documented, monitored and treated with sertraline. F32.A is the correct unspecified code. A spec"
+   },
+   {
+    "t": 45477,
+    "stage": "critic",
+    "type": "output",
+    "critique": {
+     "reviews": [
+      {
+       "code": "N17.9",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "Provider-documented AKI with Cr 2.4 from baseline 0.8, clinically valid (KDIGO >=3x baseline), consistent through the discharge summary. Prerenal AKI is indexed to N17.9."
+      },
+      {
+       "code": "E86.0",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "Dehydration is documented by the provider throughout, treated with IV fluids, and is not integral to AKI."
+      },
+      {
+       "code": "F32.A",
+       "verdict": "supported",
+       "confidence": 0.8,
+       "reason": "Depression is documented, monitored and treated with sertraline. F32.A is the correct unspecified code. A specificity query is optional and not a billing risk."
+      },
+      {
+       "code": "I10",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "HTN is documented, and antihypertensives were held and monitored. No CKD or heart disease is documented. AKI is not CKD."
+      },
+      {
+       "code": "E78.5",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "HLD is documented and the statin was continued."
+      },
+      {
+       "code": "E03.9",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "Hypothyroidism is documented, with levothyroxine continued and TSH checked."
+      },
+      {
+       "code": "M81.0",
+       "verdict": "supported",
+       "confidence": 0.82,
+       "reason": "Osteoporosis is documented without fracture, and the alendronate was managed, which meets reporting criteria."
+      },
+      {
+       "code": "R63.4",
+       "verdict": "supported",
+       "confidence": 0.7,
+       "reason": "The physician documents weight loss, which was evaluated by the dietitian and monitored. It is a symptom code that would be superseded if a provider diagnoses malnutrition after the query."
+      },
+      {
+       "code": "Z63.4",
+       "verdict": "supported",
+       "confidence": 0.65,
+       "reason": "The bereavement is documented by the provider in the H&P and discharge summary, and social work was involved. The code is appropriate as a social-circumstance code."
+      }
+     ],
+     "pdx_ok": true,
+     "pdx_alternative": null,
+     "missed": [
+      {
+       "kind": "query_opportunity",
+       "summary": "Hypotension (BP 104/60) and tachycardia (HR 102) appeared at presentation, but no provider diagnosed them. These are likely integral to dehydration, so no query is needed unless the provider adds clinical significance.",
+       "finding_ids": [
+        "F30",
+        "F31"
+       ],
+       "guideline": null,
+       "impact": "none",
+       "codes": []
+      },
+      {
+       "kind": "other",
+       "summary": "Anemia (Hgb 11.6) appears only as a lab value, with no provider diagnosis and no evaluation or treatment. This does not meet reportable secondary diagnosis criteria, so it should not be coded without a query.",
+       "finding_ids": [
+        "F15"
+       ],
+       "guideline": "OCG Section III",
+       "impact": "none",
+       "codes": []
+      }
+     ]
+    }
+   },
+   {
+    "t": 45477,
+    "stage": "grouper",
+    "type": "output",
+    "family": "aki",
+    "drg": "684",
+    "title": "Renal failure w/o CC/MCC",
+    "weight": 0.62,
+    "tier": "none",
+    "drivers": []
+   },
+   {
+    "t": 45477,
+    "stage": "router",
+    "type": "output",
+    "base": 0.88,
+    "blocking": 1,
+    "reasons": [
+     "query_opportunity: The dietitian documents severe protein-calorie malnutrition (12% weight loss, severe wasting, BMI 18.6) but no provider diagnoses it. Query the attending for a clinical diagnosis. Without one, malnutrition and BMI cannot be coded."
+    ],
+    "confidence": 0.44
+   },
+   {
+    "t": 45477,
+    "stage": "query",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5",
+    "issue": "The dietitian documents severe protein-calorie malnutrition (12% weight loss, severe wasting, BMI 18.6) but no provider diagnoses it. Query the attending for a clinical diagnosis. Without one, malnutrition and BMI cannot be coded."
+   },
+   {
+    "t": 50164,
+    "stage": "query",
+    "type": "text",
+    "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"Dietitian assessment: 'Severe protein-calorie malnutrition in the context of social/environmental circumstances'\",\"finding_id\":\"F19\"},{\"text\":\"Usual body weight 52 kg (06/2026 PCP visit) -> 12% loss in 3 months\",\"finding_id\":\"F20\"},{\"text\":\"Physical findings: severe temporal wasting, moderate-severe clavicular and acromial muscle loss\",\"finding_id\":\"F21\"},{\"text\":\"Moderate orbital fat loss\",\"finding_id\":\"F22\"},{\"text\":\"BMI 18.6 documented in the nutrition assessment\",\"finding_id\":null}],\"question\":\"Based on your clinical judgment and "
+   },
+   {
+    "t": 50164,
+    "stage": "query",
+    "type": "output",
+    "query": {
+     "issue": "The dietitian documents severe protein-calorie malnutrition (12% weight loss, severe wasting, BMI 18.6) but no provider diagnoses it. Query the attending for a clinical diagnosis. Without one, malnutrition and BMI cannot be coded.",
+     "to": "Attending physician",
+     "clinical_indicators": [
+      {
+       "text": "Dietitian assessment: 'Severe protein-calorie malnutrition in the context of social/environmental circumstances'",
+       "finding_id": "F19"
+      },
+      {
+       "text": "Usual body weight 52 kg (06/2026 PCP visit) -> 12% loss in 3 months",
+       "finding_id": "F20"
+      },
+      {
+       "text": "Physical findings: severe temporal wasting, moderate-severe clavicular and acromial muscle loss",
+       "finding_id": "F21"
+      },
+      {
+       "text": "Moderate orbital fat loss",
+       "finding_id": "F22"
+      },
+      {
+       "text": "BMI 18.6 documented in the nutrition assessment",
+       "finding_id": null
+      }
+     ],
+     "question": "Based on your clinical judgment and the nutrition findings above, please document the diagnosis, if any, that best describes this patient's nutritional status during this admission.",
+     "options": [
+      "Severe protein-calorie malnutrition",
+      "Moderate protein-calorie malnutrition",
+      "Mild protein-calorie malnutrition",
+      "No malnutrition diagnosis; findings not clinically significant",
+      "Other (please specify)",
+      "Clinically undetermined"
+     ],
+     "lint": []
+    }
+   }
+  ],
+  "ms": 50165,
+  "cost_usd": 0.10656
+ },
+ "baseline": {
+  "case_id": "enc-23",
+  "codes": [
+   {
+    "code": "N17.9",
+    "poa": "Y",
+    "role": "pdx",
+    "valid": true,
+    "description": "Acute kidney failure, unspecified",
+    "confidence": 0.5
+   },
+   {
+    "code": "E86.0",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Dehydration",
+    "confidence": 0.5
+   },
+   {
+    "code": "F32.A",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Depression, unspecified",
+    "confidence": 0.5
+   },
+   {
+    "code": "I10",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Essential (primary) hypertension",
+    "confidence": 0.5
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Hyperlipidemia, unspecified",
+    "confidence": 0.5
+   },
+   {
+    "code": "E03.9",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Hypothyroidism, unspecified",
+    "confidence": 0.5
+   },
+   {
+    "code": "M81.0",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Age-related osteoporosis without current pathological fracture",
+    "confidence": 0.5
+   },
+   {
+    "code": "R63.4",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Abnormal weight loss",
+    "confidence": 0.5
+   },
+   {
+    "code": "R63.8",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Other symptoms and signs concerning food and fluid intake",
+    "confidence": 0.5
+   },
+   {
+    "code": "Z63.4",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Disappearance and death of family member",
+    "confidence": 0.5
+   },
+   {
+    "code": "T50.2X5A",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Adverse effect of carbonic-anhydrase inhibitors, benzothiadiazides and other diuretics, initial encounter",
+    "confidence": 0.5
+   },
+   {
+    "code": "T46.4X5A",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Adverse effect of angiotensin-converting-enzyme inhibitors, initial encounter",
+    "confidence": 0.5
+   },
+   {
+    "code": "Z68.1",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": false,
+    "description": "Body mass index [BMI] 19.9 or less, adult",
+    "confidence": 0.5
+   }
+  ],
+  "drg": {
+   "family": "aki",
+   "number": "684",
+   "weight": 0.62,
+   "tier": "none",
+   "drivers": []
+  },
+  "confidence": 0.25,
+  "needs_human": true,
+  "reason": "Severe protein-calorie malnutrition (E43) was diagnosed only by the dietitian; the physician documented only poor PO intake/weight loss and BMI 18.6, and never confirmed the malnutrition diagnosis. A provider query is needed before E43 can be coded. Without it, R63.8/R63.4 and Z68.1 are used (BMI code requires an associated provider-documented diagnosis, which is questionable). Adverse effect codes for HCTZ (T50.2X5A) and lisinopril (T46.4X5A) are supported by the 'due to dehydration plus ACEi/thiazide' statement, but the attribution is weak. Depression is unspecified (F32.A). Z63.4 reflects bereavement.",
+  "ms": 5595,
+  "cost_usd": 0.01116,
+  "input_tokens": 3029,
+  "output_tokens": 510
+ },
+ "score": {
+  "id": "enc-23",
+  "title": "AKI with malnutrition only in dietitian note",
+  "summary": "Kidney injury from dehydration; the dietitian found severe malnutrition but no doctor diagnosed it, so the doctor needs to be asked before it can be coded.",
+  "family": "aki",
+  "hero": false,
+  "traps": [
+   "lab_only"
+  ],
+  "gold_route": "coder",
+  "gold_drg": "684",
+  "pred_drg": "684",
+  "gold_weight": 0.62,
+  "pred_weight": 0.62,
+  "confidence": 0.44,
+  "tp": 7,
+  "fp": 2,
+  "fn": 0,
+  "fp_codes": [
+   "R63.4",
+   "Z63.4"
+  ],
+  "fn_codes": [],
+  "cc_tp": 0,
+  "cc_fp": 0,
+  "cc_fn": 0,
+  "pdx_ok": true,
+  "drg_ok": true,
+  "overcoded": false,
+  "undercoded": false,
+  "invalid_codes": [],
+  "citations": 37,
+  "citations_located": 37,
+  "queries": 1,
+  "queries_lint_clean": 1,
+  "cost_usd": 0.10656,
+  "ms": 50165
+ }
+}

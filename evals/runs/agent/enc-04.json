@@ -1,0 +1,1313 @@
+{
+ "case_id": "enc-04",
+ "prompt_version": "2026-10-02.4-router-v2",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Left lower lobe pneumonia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Left lower lobe pneumonia.",
+   "note": null,
+   "start": 298,
+   "end": 324
+  },
+  {
+   "id": "F2",
+   "condition": "Patchy consolidation left lower lobe",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Patchy consolidation in the left lower lobe",
+   "note": null,
+   "start": 75,
+   "end": 118
+  },
+  {
+   "id": "F3",
+   "condition": "No pleural effusion",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "No pleural effusion or pneumothorax",
+   "note": null,
+   "start": 174,
+   "end": 209
+  },
+  {
+   "id": "F4",
+   "condition": "No pneumothorax",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "No pleural effusion or pneumothorax",
+   "note": null,
+   "start": 174,
+   "end": 209
+  },
+  {
+   "id": "F5",
+   "condition": "Fever 39.2 C",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "fevers to 39.2 C",
+   "note": null,
+   "start": 160,
+   "end": 176
+  },
+  {
+   "id": "F6",
+   "condition": "Productive cough",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Five days of cough productive of yellow-green sputum",
+   "note": null,
+   "start": 106,
+   "end": 158
+  },
+  {
+   "id": "F7",
+   "condition": "Left-sided chest discomfort with coughing",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "L-sided chest discomfort with coughing",
+   "note": null,
+   "start": 189,
+   "end": 227
+  },
+  {
+   "id": "F8",
+   "condition": "Failed outpatient azithromycin therapy",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Seen at urgent care 3 days ago, started on azithromycin; fevers persist",
+   "note": null,
+   "start": 229,
+   "end": 300
+  },
+  {
+   "id": "F9",
+   "condition": "Hypertension",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "58M HVAC technician with HTN, HLD, GERD and BPH",
+   "note": null,
+   "start": 57,
+   "end": 104
+  },
+  {
+   "id": "F10",
+   "condition": "Hyperlipidemia",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "58M HVAC technician with HTN, HLD, GERD and BPH",
+   "note": null,
+   "start": 57,
+   "end": 104
+  },
+  {
+   "id": "F11",
+   "condition": "Gastroesophageal reflux disease",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "58M HVAC technician with HTN, HLD, GERD and BPH",
+   "note": null,
+   "start": 57,
+   "end": 104
+  },
+  {
+   "id": "F12",
+   "condition": "Benign prostatic hyperplasia",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "58M HVAC technician with HTN, HLD, GERD and BPH",
+   "note": null,
+   "start": 57,
+   "end": 104
+  },
+  {
+   "id": "F13",
+   "condition": "Former smoker, quit 2019, 30 pack-years",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "Quit smoking 2019 (30 pack-years)",
+   "note": null,
+   "start": 396,
+   "end": 429
+  },
+  {
+   "id": "F14",
+   "condition": "Myalgias",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "+ myalgias, decreased appetite",
+   "note": null,
+   "start": 437,
+   "end": 467
+  },
+  {
+   "id": "F15",
+   "condition": "Decreased appetite",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "decreased appetite",
+   "note": null,
+   "start": 449,
+   "end": 467
+  },
+  {
+   "id": "F16",
+   "condition": "Mild dyspnea on exertion",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Mild DOE",
+   "note": null,
+   "start": 336,
+   "end": 344
+  },
+  {
+   "id": "F17",
+   "condition": "Tachycardia HR 112",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "HR 112",
+   "note": null,
+   "start": 531,
+   "end": 537
+  },
+  {
+   "id": "F18",
+   "condition": "Tachypnea RR 22",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "RR 22",
+   "note": null,
+   "start": 550,
+   "end": 555
+  },
+  {
+   "id": "F19",
+   "condition": "Hypoxia SpO2 94% RA",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "SpO2 94% RA",
+   "note": null,
+   "start": 557,
+   "end": 568
+  },
+  {
+   "id": "F20",
+   "condition": "Crackles and egophony left base",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Crackles and egophony L base",
+   "note": null,
+   "start": 617,
+   "end": 645
+  },
+  {
+   "id": "F21",
+   "condition": "Leukocytosis WBC 17.1",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "WBC 17.1 (86% PMN)",
+   "note": null,
+   "start": 696,
+   "end": 714
+  },
+  {
+   "id": "F22",
+   "condition": "Elevated procalcitonin 2.2",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Procalcitonin 2.2",
+   "note": null,
+   "start": 788,
+   "end": 805
+  },
+  {
+   "id": "F23",
+   "condition": "Community-acquired pneumonia PSI class III",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Community-acquired pneumonia, LLL, failed outpatient azithromycin. PSI class III",
+   "note": null,
+   "start": 865,
+   "end": 945
+  },
+  {
+   "id": "F24",
+   "condition": "Penicillin allergy (hives)",
+   "assertion": "history",
+   "doc_id": "d3",
+   "quote": "Penicillin (hives as a child)",
+   "note": null,
+   "start": 415,
+   "end": 444
+  },
+  {
+   "id": "F25",
+   "condition": "Tolerated ceftriaxone in 2021 without reaction",
+   "assertion": "history",
+   "doc_id": "d3",
+   "quote": "tolerated ceftriaxone in 2021 without reaction",
+   "note": null,
+   "start": 883,
+   "end": 929
+  },
+  {
+   "id": "F26",
+   "condition": "Fever 38.2 C on hospital day 1",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "T 38.2",
+   "note": null,
+   "start": 602,
+   "end": 608
+  },
+  {
+   "id": "F27",
+   "condition": "Productive cough yellow sputum",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Productive cough, thick yellow sputum",
+   "note": null,
+   "start": 71,
+   "end": 108
+  },
+  {
+   "id": "F28",
+   "condition": "Coarse crackles left base",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Lungs coarse L base",
+   "note": null,
+   "start": 182,
+   "end": 201
+  },
+  {
+   "id": "F29",
+   "condition": "Chest pain 2/10 with coughing",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Pain 2/10 L chest with coughing",
+   "note": null,
+   "start": 203,
+   "end": 234
+  },
+  {
+   "id": "F30",
+   "condition": "Fever resolved last 37.9 C",
+   "assertion": "resolved",
+   "doc_id": "d5",
+   "quote": "Last fever 37.9 yesterday morning",
+   "note": null,
+   "start": 38,
+   "end": 71
+  },
+  {
+   "id": "F31",
+   "condition": "Afebrile",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "T 37.0",
+   "note": null,
+   "start": 126,
+   "end": 132
+  },
+  {
+   "id": "F32",
+   "condition": "Blood culture no growth at 48 h",
+   "assertion": "negated",
+   "doc_id": "d5",
+   "quote": "Blood cx no growth at 48 h",
+   "note": null,
+   "start": 209,
+   "end": 235
+  },
+  {
+   "id": "F33",
+   "condition": "Sputum normal respiratory flora",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Sputum: normal respiratory flora",
+   "note": null,
+   "start": 237,
+   "end": 269
+  },
+  {
+   "id": "F34",
+   "condition": "Urine Legionella antigen negative",
+   "assertion": "negated",
+   "doc_id": "d5",
+   "quote": "Urine Legionella and pneumococcal Ag negative",
+   "note": null,
+   "start": 271,
+   "end": 316
+  },
+  {
+   "id": "F35",
+   "condition": "Pneumococcal antigen urine negative",
+   "assertion": "negated",
+   "doc_id": "d5",
+   "quote": "Urine Legionella and pneumococcal Ag negative",
+   "note": null,
+   "start": 271,
+   "end": 316
+  },
+  {
+   "id": "F36",
+   "condition": "WBC normalized 10.2",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "WBC 10.2",
+   "note": null,
+   "start": 199,
+   "end": 207
+  },
+  {
+   "id": "F37",
+   "condition": "Organism not identified in pneumonia",
+   "assertion": "possible",
+   "doc_id": "d6",
+   "quote": "Community-acquired pneumonia, left lower lobe, organism not identified",
+   "note": null,
+   "start": 105,
+   "end": 175
+  },
+  {
+   "id": "F38",
+   "condition": "Never required supplemental oxygen",
+   "assertion": "negated",
+   "doc_id": "d6",
+   "quote": "never required supplemental oxygen",
+   "note": null,
+   "start": 487,
+   "end": 521
+  }
+ ],
+ "codes": [
+  {
+   "code": "J18.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F1",
+    "F23",
+    "F37"
+   ],
+   "confidence": 0.92,
+   "rationale": "The provider documented community-acquired LLL pneumonia with no organism identified. That indexes to J18.9, and a lobe location alone does not make it lobar pneumonia (J18.1).",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "Provider-documented CAP, LLL, organism not identified, consistent through the discharge summary. Radiology and the exam support it clinically, so it is clinically valid.",
+   "severity": null,
+   "description": "Pneumonia, unspecified organism"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F9"
+   ],
+   "confidence": 0.94,
+   "rationale": "Hypertension is a chronic condition. It is listed in the discharge diagnoses and treated with amlodipine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Documented in the H&P and discharge diagnoses and treated with amlodipine.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F10"
+   ],
+   "confidence": 0.92,
+   "rationale": "Hyperlipidemia is a chronic condition. It is listed in the discharge diagnoses and treated with rosuvastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Documented in the H&P and discharge diagnoses and treated with rosuvastatin.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F11"
+   ],
+   "confidence": 0.92,
+   "rationale": "GERD is a chronic condition. It is listed in the discharge diagnoses and treated with omeprazole.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Documented in the discharge diagnoses and treated with omeprazole. No esophagitis is documented.",
+   "severity": "none",
+   "description": "Gastro-esophageal reflux disease without esophagitis"
+  },
+  {
+   "code": "N40.0",
+   "poa": "Y",
+   "finding_ids": [
+    "F12"
+   ],
+   "confidence": 0.9,
+   "rationale": "The H&P documents BPH without urinary symptoms or retention, and it was treated with tamsulosin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "BPH without lower urinary tract symptoms is documented in the H&P, with tamsulosin continued.",
+   "severity": "none",
+   "description": "Benign prostatic hyperplasia without lower urinary tract symptoms"
+  },
+  {
+   "code": "Z87.891",
+   "poa": "Y",
+   "finding_ids": [
+    "F13"
+   ],
+   "confidence": 0.9,
+   "rationale": "The patient is a former smoker who quit in 2019, which is a history of nicotine dependence.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Former smoker who quit in 2019 is documented by the provider. The history code is appropriate.",
+   "severity": "none",
+   "description": "Personal history of nicotine dependence"
+  },
+  {
+   "code": "Z88.0",
+   "poa": "Y",
+   "finding_ids": [
+    "F24"
+   ],
+   "confidence": 0.85,
+   "rationale": "The H&P documents a penicillin allergy, and it influenced antibiotic selection.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "The H&P documents a penicillin allergy (childhood hives), and it is relevant to the antibiotic choice. This is a minor status code.",
+   "severity": "none",
+   "description": "Allergy status to penicillin"
+  }
+ ],
+ "removed": [],
+ "issues": [],
+ "queries": [],
+ "drg": {
+  "family": "pneumonia",
+  "number": "195",
+  "title": "Simple pneumonia and pleurisy w/o CC/MCC",
+  "weight": 0.68,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.92,
+ "confidence_base": 0.92,
+ "blocking_issues": 0,
+ "blocking_reasons": [],
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 15148,
+   "input_tokens": 3197,
+   "output_tokens": 2636,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01638
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 15148,
+   "ms": 8437,
+   "input_tokens": 15183,
+   "output_tokens": 1094,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.04131
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 23585,
+   "ms": 5795,
+   "input_tokens": 6628,
+   "output_tokens": 503,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01829
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "Radiology",
+     "author_role": "radiology",
+     "timestamp": "2026-09-02T16:05",
+     "words": 44,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-02T16:20",
+     "words": 177,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-02T20:10",
+     "words": 206,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-02T21:30",
+     "words": 64,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-04T10:30",
+     "words": 99,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-05T11:00",
+     "words": 138,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 15148,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Left lower lobe pneumonia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Left lower lobe pneumonia.",
+     "note": null,
+     "start": 298,
+     "end": 324
+    },
+    {
+     "id": "F2",
+     "condition": "Patchy consolidation left lower lobe",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Patchy consolidation in the left lower lobe",
+     "note": null,
+     "start": 75,
+     "end": 118
+    },
+    {
+     "id": "F3",
+     "condition": "No pleural effusion",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "No pleural effusion or pneumothorax",
+     "note": null,
+     "start": 174,
+     "end": 209
+    },
+    {
+     "id": "F4",
+     "condition": "No pneumothorax",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "No pleural effusion or pneumothorax",
+     "note": null,
+     "start": 174,
+     "end": 209
+    },
+    {
+     "id": "F5",
+     "condition": "Fever 39.2 C",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "fevers to 39.2 C",
+     "note": null,
+     "start": 160,
+     "end": 176
+    },
+    {
+     "id": "F6",
+     "condition": "Productive cough",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Five days of cough productive of yellow-green sputum",
+     "note": null,
+     "start": 106,
+     "end": 158
+    },
+    {
+     "id": "F7",
+     "condition": "Left-sided chest discomfort with coughing",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "L-sided chest discomfort with coughing",
+     "note": null,
+     "start": 189,
+     "end": 227
+    },
+    {
+     "id": "F8",
+     "condition": "Failed outpatient azithromycin therapy",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Seen at urgent care 3 days ago, started on azithromycin; fevers persist",
+     "note": null,
+     "start": 229,
+     "end": 300
+    },
+    {
+     "id": "F9",
+     "condition": "Hypertension",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "58M HVAC technician with HTN, HLD, GERD and BPH",
+     "note": null,
+     "start": 57,
+     "end": 104
+    },
+    {
+     "id": "F10",
+     "condition": "Hyperlipidemia",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "58M HVAC technician with HTN, HLD, GERD and BPH",
+     "note": null,
+     "start": 57,
+     "end": 104
+    },
+    {
+     "id": "F11",
+     "condition": "Gastroesophageal reflux disease",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "58M HVAC technician with HTN, HLD, GERD and BPH",
+     "note": null,
+     "start": 57,
+     "end": 104
+    },
+    {
+     "id": "F12",
+     "condition": "Benign prostatic hyperplasia",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "58M HVAC technician with HTN, HLD, GERD and BPH",
+     "note": null,
+     "start": 57,
+     "end": 104
+    },
+    {
+     "id": "F13",
+     "condition": "Former smoker, quit 2019, 30 pack-years",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "Quit smoking 2019 (30 pack-years)",
+     "note": null,
+     "start": 396,
+     "end": 429
+    },
+    {
+     "id": "F14",
+     "condition": "Myalgias",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "+ myalgias, decreased appetite",
+     "note": null,
+     "start": 437,
+     "end": 467
+    },
+    {
+     "id": "F15",
+     "condition": "Decreased appetite",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "decreased appetite",
+     "note": null,
+     "start": 449,
+     "end": 467
+    },
+    {
+     "id": "F16",
+     "condition": "Mild dyspnea on exertion",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Mild DOE",
+     "note": null,
+     "start": 336,
+     "end": 344
+    },
+    {
+     "id": "F17",
+     "condition": "Tachycardia HR 112",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "HR 112",
+     "note": null,
+     "start": 531,
+     "end": 537
+    },
+    {
+     "id": "F18",
+     "condition": "Tachypnea RR 22",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "RR 22",
+     "note": null,
+     "start": 550,
+     "end": 555
+    },
+    {
+     "id": "F19",
+     "condition": "Hypoxia SpO2 94% RA",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "SpO2 94% RA",
+     "note": null,
+     "start": 557,
+     "end": 568
+    },
+    {
+     "id": "F20",
+     "condition": "Crackles and egophony left base",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Crackles and egophony L base",
+     "note": null,
+     "start": 617,
+     "end": 645
+    },
+    {
+     "id": "F21",
+     "condition": "Leukocytosis WBC 17.1",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "WBC 17.1 (86% PMN)",
+     "note": null,
+     "start": 696,
+     "end": 714
+    },
+    {
+     "id": "F22",
+     "condition": "Elevated procalcitonin 2.2",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Procalcitonin 2.2",
+     "note": null,
+     "start": 788,
+     "end": 805
+    },
+    {
+     "id": "F23",
+     "condition": "Community-acquired pneumonia PSI class III",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Community-acquired pneumonia, LLL, failed outpatient azithromycin. PSI class III",
+     "note": null,
+     "start": 865,
+     "end": 945
+    },
+    {
+     "id": "F24",
+     "condition": "Penicillin allergy (hives)",
+     "assertion": "history",
+     "doc_id": "d3",
+     "quote": "Penicillin (hives as a child)",
+     "note": null,
+     "start": 415,
+     "end": 444
+    },
+    {
+     "id": "F25",
+     "condition": "Tolerated ceftriaxone in 2021 without reaction",
+     "assertion": "history",
+     "doc_id": "d3",
+     "quote": "tolerated ceftriaxone in 2021 without reaction",
+     "note": null,
+     "start": 883,
+     "end": 929
+    },
+    {
+     "id": "F26",
+     "condition": "Fever 38.2 C on hospital day 1",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "T 38.2",
+     "note": null,
+     "start": 602,
+     "end": 608
+    },
+    {
+     "id": "F27",
+     "condition": "Productive cough yellow sputum",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Productive cough, thick yellow sputum",
+     "note": null,
+     "start": 71,
+     "end": 108
+    },
+    {
+     "id": "F28",
+     "condition": "Coarse crackles left base",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Lungs coarse L base",
+     "note": null,
+     "start": 182,
+     "end": 201
+    },
+    {
+     "id": "F29",
+     "condition": "Chest pain 2/10 with coughing",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Pain 2/10 L chest with coughing",
+     "note": null,
+     "start": 203,
+     "end": 234
+    },
+    {
+     "id": "F30",
+     "condition": "Fever resolved last 37.9 C",
+     "assertion": "resolved",
+     "doc_id": "d5",
+     "quote": "Last fever 37.9 yesterday morning",
+     "note": null,
+     "start": 38,
+     "end": 71
+    },
+    {
+     "id": "F31",
+     "condition": "Afebrile",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "T 37.0",
+     "note": null,
+     "start": 126,
+     "end": 132
+    },
+    {
+     "id": "F32",
+     "condition": "Blood culture no growth at 48 h",
+     "assertion": "negated",
+     "doc_id": "d5",
+     "quote": "Blood cx no growth at 48 h",
+     "note": null,
+     "start": 209,
+     "end": 235
+    },
+    {
+     "id": "F33",
+     "condition": "Sputum normal respiratory flora",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Sputum: normal respiratory flora",
+     "note": null,
+     "start": 237,
+     "end": 269
+    },
+    {
+     "id": "F34",
+     "condition": "Urine Legionella antigen negative",
+     "assertion": "negated",
+     "doc_id": "d5",
+     "quote": "Urine Legionella and pneumococcal Ag negative",
+     "note": null,
+     "start": 271,
+     "end": 316
+    },
+    {
+     "id": "F35",
+     "condition": "Pneumococcal antigen urine negative",
+     "assertion": "negated",
+     "doc_id": "d5",
+     "quote": "Urine Legionella and pneumococcal Ag negative",
+     "note": null,
+     "start": 271,
+     "end": 316
+    },
+    {
+     "id": "F36",
+     "condition": "WBC normalized 10.2",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "WBC 10.2",
+     "note": null,
+     "start": 199,
+     "end": 207
+    },
+    {
+     "id": "F37",
+     "condition": "Organism not identified in pneumonia",
+     "assertion": "possible",
+     "doc_id": "d6",
+     "quote": "Community-acquired pneumonia, left lower lobe, organism not identified",
+     "note": null,
+     "start": 105,
+     "end": 175
+    },
+    {
+     "id": "F38",
+     "condition": "Never required supplemental oxygen",
+     "assertion": "negated",
+     "doc_id": "d6",
+     "quote": "never required supplemental oxygen",
+     "note": null,
+     "start": 487,
+     "end": 521
+    }
+   ]
+  },
+  {
+   "t": 15148,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "pneumonia unspecified organism lower lobe"
+   },
+   "id": "toolu_0113jeKDkq9SCSxxtmm8HB7B"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "benign prostatic hyperplasia without lower urinary tract symptoms"
+   },
+   "id": "toolu_01Tej2Q7UwzczZR1TZWMxnGx"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "personal history of nicotine dependence"
+   },
+   "id": "toolu_01KDVZRkGJyzGTWrCiXm24Nr"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "allergy status to penicillin"
+   },
+   "id": "toolu_01UUJeN1P8cDs9UVSp5j6NNv"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "hyperlipidemia unspecified"
+   },
+   "id": "toolu_015F55LUjt6o4J1QeCCmgXMd"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "gastro-esophageal reflux disease without esophagitis"
+   },
+   "id": "toolu_01Bqc3XMC9JfHNt34NdwY1Wg"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "essential hypertension"
+   },
+   "id": "toolu_01Kcb1Jrs4NZ4dDgm2U7haMP"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_0113jeKDkq9SCSxxtmm8HB7B",
+   "result": "[\"J12.9  Viral pneumonia, unspecified\", \"J15.9  Unspecified bacterial pneumonia\", \"J18.9  Pneumonia, unspecified organism\", \"P23.9  Congenital pneumonia, unspecified\", \"J18.1  Lobar pneumonia, unspecified organism\", \"J18.2  Hypostatic pneumonia, unspecified organism\", \"J18.8  Other pneumonia, unspecified organism\", \"J15.20  Pneumonia due to staphylococcus, unspecified\", \"A37.90  Whooping cough, unspecified species without pneumonia\", \"A37.91  Whooping cough, unspecified species with pneumonia\", \"J11.00  Influenza due to unidentified influenza virus with unspecified type of pneumonia\", \"J10.00  Influenza due to other identified influenza virus with unspecified type of pneumonia\"]"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01Tej2Q7UwzczZR1TZWMxnGx",
+   "result": "[\"N40.0  Benign prostatic hyperplasia without lower urinary tract symptoms\"]"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01KDVZRkGJyzGTWrCiXm24Nr",
+   "result": "[\"Z87.891  Personal history of nicotine dependence\"]"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01UUJeN1P8cDs9UVSp5j6NNv",
+   "result": "[\"Z88.0  Allergy status to penicillin\"]"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_015F55LUjt6o4J1QeCCmgXMd",
+   "result": "[\"E78.5  Hyperlipidemia, unspecified\"]"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01Bqc3XMC9JfHNt34NdwY1Wg",
+   "result": "[\"K21.9  Gastro-esophageal reflux disease without esophagitis\", \"K21.00  Gastro-esophageal reflux disease with esophagitis, without bleeding\"]"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01Kcb1Jrs4NZ4dDgm2U7haMP",
+   "result": "[\"I10  Essential (primary) hypertension\", \"O10.02  Pre-existing essential hypertension complicating childbirth\", \"O10.03  Pre-existing essential hypertension complicating the puerperium\", \"O10.011  Pre-existing essential hypertension complicating pregnancy, first trimester\", \"O10.012  Pre-existing essential hypertension complicating pregnancy, second trimester\", \"O10.013  Pre-existing essential hypertension complicating pregnancy, third trimester\", \"O10.019  Pre-existing essential hypertension complicating pregnancy, unspecified trimester\"]"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "\"LLL pneumonia\" just specifies location, not a true lobar pneumonia designation, so J18.1 doesn't apply here\u2014J18.9 for pneumonia, unspecified organism, is the right code.\n\n"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"J18.9\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F23\",\"F37\"],\"confidence\":0.9,\"rationale\":\"The provider documented community-acquired LLL pneumonia with no organism identified. That indexes to J18.9, and a lobe location alone does not make it lobar pneumonia (J18.1).\"},\"secondary\":[{\"code\":\"I10\",\"poa\":\"Y\",\"finding_ids\":[\"F9\"],\"confidence\":0.93,\"rationale\":\"Hypertension is a chronic condition. It is listed in the discharge diagnoses and treated with amlodipine.\"},{\"code\":\"E78.5\",\"poa\":\"Y\",\"finding_ids\":[\"F10\"],\"confidence\":0.9,\"rationale\":\"Hyperlipidemia is a chronic condition. It is liste"
+  },
+  {
+   "t": 23585,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "J18.9",
+     "poa": "Y",
+     "finding_ids": [
+      "F1",
+      "F23",
+      "F37"
+     ],
+     "confidence": 0.9,
+     "rationale": "The provider documented community-acquired LLL pneumonia with no organism identified. That indexes to J18.9, and a lobe location alone does not make it lobar pneumonia (J18.1)."
+    },
+    "secondary": [
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F9"
+      ],
+      "confidence": 0.93,
+      "rationale": "Hypertension is a chronic condition. It is listed in the discharge diagnoses and treated with amlodipine."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F10"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hyperlipidemia is a chronic condition. It is listed in the discharge diagnoses and treated with rosuvastatin."
+     },
+     {
+      "code": "K21.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F11"
+      ],
+      "confidence": 0.9,
+      "rationale": "GERD is a chronic condition. It is listed in the discharge diagnoses and treated with omeprazole."
+     },
+     {
+      "code": "N40.0",
+      "poa": "Y",
+      "finding_ids": [
+       "F12"
+      ],
+      "confidence": 0.88,
+      "rationale": "The H&P documents BPH without urinary symptoms or retention, and it was treated with tamsulosin."
+     },
+     {
+      "code": "Z87.891",
+      "poa": "Y",
+      "finding_ids": [
+       "F13"
+      ],
+      "confidence": 0.88,
+      "rationale": "The patient is a former smoker who quit in 2019, which is a history of nicotine dependence."
+     },
+     {
+      "code": "Z88.0",
+      "poa": "Y",
+      "finding_ids": [
+       "F24"
+      ],
+      "confidence": 0.8,
+      "rationale": "The H&P documents a penicillin allergy, and it influenced antibiotic selection."
+     }
+    ],
+    "issues": []
+   }
+  },
+  {
+   "t": 23585,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 29380,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"J18.9\",\"verdict\":\"supported\",\"confidence\":0.92,\"reason\":\"Provider-documented CAP, LLL, organism not identified, consistent through the discharge summary. Radiology and the exam support it clinically, so it is clinically valid.\"},{\"code\":\"I10\",\"verdict\":\"supported\",\"confidence\":0.94,\"reason\":\"Documented in the H&P and discharge diagnoses and treated with amlodipine.\"},{\"code\":\"E78.5\",\"verdict\":\"supported\",\"confidence\":0.92,\"reason\":\"Documented in the H&P and discharge diagnoses and treated with rosuvastatin.\"},{\"code\":\"K21.9\",\"verdict\":\"supported\",\"confidence\":0.92,\"reason\""
+  },
+  {
+   "t": 29380,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "J18.9",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "reason": "Provider-documented CAP, LLL, organism not identified, consistent through the discharge summary. Radiology and the exam support it clinically, so it is clinically valid."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.94,
+      "reason": "Documented in the H&P and discharge diagnoses and treated with amlodipine."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "reason": "Documented in the H&P and discharge diagnoses and treated with rosuvastatin."
+     },
+     {
+      "code": "K21.9",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "reason": "Documented in the discharge diagnoses and treated with omeprazole. No esophagitis is documented."
+     },
+     {
+      "code": "N40.0",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "BPH without lower urinary tract symptoms is documented in the H&P, with tamsulosin continued."
+     },
+     {
+      "code": "Z87.891",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Former smoker who quit in 2019 is documented by the provider. The history code is appropriate."
+     },
+     {
+      "code": "Z88.0",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "The H&P documents a penicillin allergy (childhood hives), and it is relevant to the antibiotic choice. This is a minor status code."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": []
+   }
+  },
+  {
+   "t": 29381,
+   "stage": "grouper",
+   "type": "output",
+   "family": "pneumonia",
+   "drg": "195",
+   "title": "Simple pneumonia and pleurisy w/o CC/MCC",
+   "weight": 0.68,
+   "tier": "none",
+   "drivers": []
+  },
+  {
+   "t": 29381,
+   "stage": "router",
+   "type": "output",
+   "base": 0.92,
+   "blocking": 0,
+   "reasons": [],
+   "confidence": 0.92
+  }
+ ],
+ "ms": 29381,
+ "cost_usd": 0.07598
+}

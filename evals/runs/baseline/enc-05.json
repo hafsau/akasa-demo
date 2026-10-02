@@ -1,0 +1,101 @@
+{
+ "case_id": "enc-05",
+ "codes": [
+  {
+   "code": "A41.9",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Sepsis, unspecified organism",
+   "confidence": 0.6
+  },
+  {
+   "code": "J18.1",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Lobar pneumonia, unspecified organism",
+   "confidence": 0.6
+  },
+  {
+   "code": "R65.20",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Severe sepsis without septic shock",
+   "confidence": 0.6
+  },
+  {
+   "code": "N17.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Acute kidney failure, unspecified",
+   "confidence": 0.6
+  },
+  {
+   "code": "E11.65",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus with hyperglycemia",
+   "confidence": 0.6
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.6
+  },
+  {
+   "code": "I25.10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+   "confidence": 0.6
+  },
+  {
+   "code": "Z95.5",
+   "poa": "Exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Presence of coronary angioplasty implant and graft",
+   "confidence": 0.6
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of oral hypoglycemic drugs",
+   "confidence": 0.6
+  },
+  {
+   "code": "Z79.82",
+   "poa": "Exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of aspirin",
+   "confidence": 0.6
+  }
+ ],
+ "drg": {
+  "family": "sepsis",
+  "number": "872",
+  "weight": 1.03,
+  "tier": "CC",
+  "drivers": [
+   "N17.9"
+  ]
+ },
+ "confidence": 0.3,
+ "needs_human": true,
+ "reason": "Several judgment calls. E11.65 (hyperglycemia) is not documented by the provider; glucose 246 and the sliding-scale insulin are not a diagnosis, so it should likely be E11.9 or E11.22-free only. Also, N17.9 is documented as AKI. Dehydration/volume depletion (E86.0/E86.9) was documented as a contributing cause and may be added. Lactic acidosis was not documented. Insulin use (Z79.4) vs oral hypoglycemic (Z79.84) is uncertain, since glargine was given only inpatient. Hypertension with AKI does not imply CKD, so I10 is fine.",
+ "ms": 4326,
+ "cost_usd": 0.01045,
+ "input_tokens": 3087,
+ "output_tokens": 428
+}

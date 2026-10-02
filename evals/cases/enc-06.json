@@ -1,0 +1,104 @@
+{
+  "id": "enc-06",
+  "title": "Pneumonia with a history of blood clots",
+  "summary": "A woman admitted for pneumonia had blood clots in her leg and lungs years ago, treated and finished; they count as history, not active disease.",
+  "hero": false,
+  "family": "pneumonia",
+  "patient": {
+    "age": 61,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-21",
+  "discharge_date": "2026-09-24",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "Radiology",
+      "author": "P. Novak, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-21T14:40",
+      "text": "EXAM: Chest radiograph, PA and lateral\nINDICATION: Cough, fever.\nFINDINGS: Airspace opacity in the left lower lobe. No pleural effusion. Heart size normal. Pulmonary vasculature normal.\nIMPRESSION: Left lower lobe pneumonia."
+    },
+    {
+      "id": "d2",
+      "type": "ED note",
+      "author": "G. Ruiz, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-21T15:10",
+      "text": "CC: Cough and fever x4 days.\n\nHPI: 61F with HTN, hypothyroidism, HLD, GERD and history of DVT/PE presents with productive cough, fever to 38.9 C and malaise. Mild DOE. No chest pain, hemoptysis, or leg swelling. History of R femoral DVT and bilateral PE after R total knee replacement in 2022; completed anticoagulation 2023.\n\nVitals: T 38.7, HR 102, BP 142/86, RR 20, SpO2 95% RA.\nExam: Crackles L base. Calves symmetric, nontender, no edema. R knee well-healed scar.\n\nLabs: WBC 14.9, Hgb 13.2, Cr 0.8, Na 139. Lactate 1.2.\nCXR: LLL infiltrate.\n\nMDM: PE considered given prior VTE, but presentation, focal exam and CXR consistent with pneumonia; no pleuritic pain, no leg findings. CTA not indicated at this time.\n\nAssessment/Plan:\n1. Community-acquired pneumonia, LLL - ceftriaxone + azithromycin. Admit."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "V. Thompson, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-21T19:30",
+      "text": "HISTORY AND PHYSICAL\n\nHPI: See ED. Unable to keep up with oral fluids and too fatigued to manage at home.\n\nPMH: HTN. Hypothyroidism. HLD. GERD. History of R femoral DVT and bilateral PE (provoked, post-op, 11/2022) - completed 6 months of rivaroxaban 05/2023, no recurrence, no longer on anticoagulation. S/p R TKA 11/2022.\nMeds: losartan 50 mg daily, levothyroxine 100 mcg daily, pravastatin 40 mg daily, pantoprazole 40 mg daily.\n\nExam: T 38.2, HR 96, BP 134/80, SpO2 95% RA. Crackles LLL. No calf tenderness.\n\nAssessment/Plan:\n1. Community-acquired pneumonia, LLL - ceftriaxone 1 g + azithromycin 500 mg daily; cultures pending.\n2. History of DVT/PE - completed anticoagulation 2023; no signs of current VTE. Enoxaparin 40 mg daily for prophylaxis.\n3. HTN - continue losartan.\n4. Hypothyroidism - levothyroxine.\n5. HLD - pravastatin.\n6. GERD - pantoprazole.\n7. S/p R TKA - ambulating independently."
+    },
+    {
+      "id": "d4",
+      "type": "Nursing note",
+      "author": "L. Baptiste, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-22T22:05",
+      "text": "Pt resting, cough productive of small amounts of yellow sputum. Afebrile this shift, SpO2 96% RA. Enoxaparin 40 mg SC given at 21:00 for VTE prophylaxis. Pt asked why she is getting \"blood thinner shots\" again; explained this is preventive while she is less active. Pt states she had clots after her knee surgery in 2022 and \"finished the pills a long time ago.\" Calves soft, no swelling or pain. Ambulated to bathroom independently."
+    },
+    {
+      "id": "d5",
+      "type": "Progress note",
+      "author": "V. Thompson, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-23T09:45",
+      "text": "HOSPITAL DAY 3\n\nS: Afebrile since yesterday AM, cough improving, eating well.\nO: T 36.9, HR 80, BP 128/78, SpO2 97% RA. Few crackles L base.\nLabs: WBC 9.8. Blood cx no growth at 48 h.\n\nAssessment/Plan:\n1. CAP, LLL - improving; switch to cefpodoxime PO + complete azithromycin.\n2. History of DVT/PE - VTE ppx continues while inpatient.\n3. HTN, hypothyroidism, HLD, GERD - stable.\nPlan d/c tomorrow."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "V. Thompson, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-24T10:20",
+      "text": "DISCHARGE SUMMARY\nAdmit: 09/21/2026   Discharge: 09/24/2026   Disposition: Home\n\nDISCHARGE DIAGNOSES:\n1. Community-acquired pneumonia, left lower lobe\n2. Hypertension\n3. Hypothyroidism\n4. Hyperlipidemia\n5. GERD\n6. History of DVT/PE (2022), completed anticoagulation 2023\n7. Status post right total knee arthroplasty\n\nHOSPITAL COURSE: Treated with ceftriaxone/azithromycin, improved quickly, never needed oxygen. Transitioned to cefpodoxime to complete 5 days. Received enoxaparin prophylaxis while inpatient; no anticoagulation indicated at discharge. Encouraged ambulation.\n\nDISCHARGE MEDICATIONS: cefpodoxime 200 mg BID x2 days; home meds unchanged.\nFOLLOW-UP: PCP 1-2 weeks."
+    }
+  ],
+  "gold": {
+    "pdx": "J18.9",
+    "secondary": [
+      {
+        "code": "Z86.711",
+        "poa": "Y"
+      },
+      {
+        "code": "Z86.718",
+        "poa": "Y"
+      },
+      {
+        "code": "Z96.651",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E03.9",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "K21.9",
+        "poa": "Y"
+      }
+    ],
+    "drg": "195",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [
+      "history_of"
+    ],
+    "explanation": "The DVT and PE happened in 2022 and anticoagulation was finished in 2023, so they're personal history (Z86.711, Z86.718), not active I26/I82 codes. Prophylactic enoxaparin doesn't support Z79.01. No CC/MCC applies, so the case groups to DRG 195. A naive system that sees 'PE' and 'DVT' codes I26.99 (an MCC) and inflates it to DRG 193."
+  }
+}

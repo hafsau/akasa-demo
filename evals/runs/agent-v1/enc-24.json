@@ -1,0 +1,1822 @@
+{
+ "case_id": "enc-24",
+ "prompt_version": "2026-10-02.3",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+   "note": null,
+   "start": 20,
+   "end": 53
+  },
+  {
+   "id": "F2",
+   "condition": "Type 2 diabetes mellitus",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+   "note": null,
+   "start": 20,
+   "end": 53
+  },
+  {
+   "id": "F3",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+   "note": null,
+   "start": 20,
+   "end": 53
+  },
+  {
+   "id": "F4",
+   "condition": "Coronary artery disease, history of percutaneous coronary intervention to LAD",
+   "assertion": "history",
+   "doc_id": "d1",
+   "quote": "CAD (s/p PCI 2019)",
+   "note": null,
+   "start": 50,
+   "end": 68
+  },
+  {
+   "id": "F5",
+   "condition": "Acute confusion",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "1 day of new confusion, sleepiness, and garbled speech",
+   "note": null,
+   "start": 89,
+   "end": 143
+  },
+  {
+   "id": "F6",
+   "condition": "Sleepiness/somnolence",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "1 day of new confusion, sleepiness, and garbled speech",
+   "note": null,
+   "start": 89,
+   "end": 143
+  },
+  {
+   "id": "F7",
+   "condition": "Dysuria and urinary frequency",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "2 days of urinary frequency and burning",
+   "note": null,
+   "start": 150,
+   "end": 189
+  },
+  {
+   "id": "F8",
+   "condition": "Fever",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Vitals: T 38.1",
+   "note": null,
+   "start": 308,
+   "end": 322
+  },
+  {
+   "id": "F9",
+   "condition": "Altered mental status - oriented to self only",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Drowsy but arousable, oriented to self only, inattentive",
+   "note": null,
+   "start": 368,
+   "end": 424
+  },
+  {
+   "id": "F10",
+   "condition": "Suprapubic tenderness",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Mild suprapubic tenderness",
+   "note": null,
+   "start": 510,
+   "end": 536
+  },
+  {
+   "id": "F11",
+   "condition": "Elevated white blood cell count",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "WBC 13.1",
+   "note": null,
+   "start": 544,
+   "end": 552
+  },
+  {
+   "id": "F12",
+   "condition": "Urinalysis with nitrite positive and large leukocyte esterase",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "UA: + nitrite, large LE, > 50 WBC/hpf",
+   "note": null,
+   "start": 658,
+   "end": 695
+  },
+  {
+   "id": "F13",
+   "condition": "Hyperglycemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "glucose 188",
+   "note": null,
+   "start": 611,
+   "end": 622
+  },
+  {
+   "id": "F14",
+   "condition": "Acute metabolic encephalopathy due to urinary tract infection",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Acute metabolic encephalopathy due to UTI",
+   "note": null,
+   "start": 534,
+   "end": 575
+  },
+  {
+   "id": "F15",
+   "condition": "Urinary tract infection, acute cystitis versus early pyelonephritis",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "UTI (acute cystitis vs early pyelo)",
+   "note": null,
+   "start": 862,
+   "end": 897
+  },
+  {
+   "id": "F16",
+   "condition": "No evidence of sepsis",
+   "assertion": "negated",
+   "doc_id": "d2",
+   "quote": "No evidence of sepsis: hemodynamically stable",
+   "note": null,
+   "start": 937,
+   "end": 982
+  },
+  {
+   "id": "F17",
+   "condition": "Confusion with inattention - cannot say days of week backward",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "inattentive (cannot say days of week backward)",
+   "note": null,
+   "start": 431,
+   "end": 477
+  },
+  {
+   "id": "F18",
+   "condition": "Nonfocal neurological examination",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Nonfocal neuro exam",
+   "note": null,
+   "start": 493,
+   "end": 512
+  },
+  {
+   "id": "F19",
+   "condition": "Delirium - Confusion Assessment Method positive",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Oriented to self only. CAM positive.",
+   "note": null,
+   "start": 55,
+   "end": 91
+  },
+  {
+   "id": "F20",
+   "condition": "Cloudy, foul-smelling urine",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Voided 350 mL, cloudy, foul-smelling",
+   "note": null,
+   "start": 162,
+   "end": 198
+  },
+  {
+   "id": "F21",
+   "condition": "Escherichia coli urinary tract infection, ampicillin-resistant",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Urine cx: > 100,000 CFU/mL E. coli, pan-sensitive except ampicillin",
+   "note": null,
+   "start": 148,
+   "end": 215
+  },
+  {
+   "id": "F22",
+   "condition": "Improved mental status on hospital day 2",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "S: Per RN restless overnight, CAM +. This AM more awake.",
+   "note": null,
+   "start": 0,
+   "end": 56
+  },
+  {
+   "id": "F23",
+   "condition": "Oriented to self and hospital, not date",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Oriented to self and hospital, not date",
+   "note": null,
+   "start": 89,
+   "end": 128
+  },
+  {
+   "id": "F24",
+   "condition": "Blood cultures negative at 48 hours",
+   "assertion": "negated",
+   "doc_id": "d5",
+   "quote": "Blood cultures x2 (09/18): no growth at 48 h",
+   "note": null,
+   "start": 170,
+   "end": 214
+  },
+  {
+   "id": "F25",
+   "condition": "Delirium resolved by hospital day 3",
+   "assertion": "resolved",
+   "doc_id": "d5",
+   "quote": "negative 09/20 08:00 and 20:00",
+   "note": null,
+   "start": 409,
+   "end": 439
+  },
+  {
+   "id": "F26",
+   "condition": "Hyperglycemia with fingerstick glucose range 132-191",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Fingerstick glucose range 09/19-09/20: 132-191",
+   "note": null,
+   "start": 292,
+   "end": 338
+  },
+  {
+   "id": "F27",
+   "condition": "White blood cell count trending down",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "WBC 13.1 -> 10.4 -> 8.2",
+   "note": null,
+   "start": 216,
+   "end": 239
+  },
+  {
+   "id": "F28",
+   "condition": "Creatinine stable at baseline",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Cr 1.0 -> 0.9",
+   "note": null,
+   "start": 241,
+   "end": 254
+  },
+  {
+   "id": "F29",
+   "condition": "Acute metabolic encephalopathy due to E. coli UTI, resolved",
+   "assertion": "resolved",
+   "doc_id": "d6",
+   "quote": "Acute metabolic encephalopathy due to E. coli UTI, resolved",
+   "note": null,
+   "start": 157,
+   "end": 216
+  },
+  {
+   "id": "F30",
+   "condition": "Mental status returned to baseline with full orientation and CAM negative",
+   "assertion": "resolved",
+   "doc_id": "d6",
+   "quote": "returned to baseline by HD3 per wife (oriented x3, CAM negative)",
+   "note": null,
+   "start": 578,
+   "end": 642
+  },
+  {
+   "id": "F31",
+   "condition": "Type 2 diabetes mellitus with A1c 6.9%",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "T2DM (A1c 6.9%)",
+   "note": null,
+   "start": 219,
+   "end": 234
+  },
+  {
+   "id": "F32",
+   "condition": "No acute intracranial process on CT head",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "CT head w/o contrast: no acute intracranial process",
+   "note": null,
+   "start": 697,
+   "end": 748
+  },
+  {
+   "id": "F33",
+   "condition": "Normal ammonia level",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "Ammonia 22",
+   "note": null,
+   "start": 637,
+   "end": 647
+  },
+  {
+   "id": "F34",
+   "condition": "Normal TSH",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "TSH 1.9",
+   "note": null,
+   "start": 649,
+   "end": 656
+  },
+  {
+   "id": "F35",
+   "condition": "Normal lactate",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Lactate 1.3",
+   "note": null,
+   "start": 624,
+   "end": 635
+  },
+  {
+   "id": "F36",
+   "condition": "Restlessness and delirium overnight with pulling at IV",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Pt restless overnight, pulling at IV x1, redirectable",
+   "note": null,
+   "start": 0,
+   "end": 53
+  },
+  {
+   "id": "F37",
+   "condition": "Aspirin use for CAD",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "continue aspirin, statin",
+   "note": null,
+   "start": 1117,
+   "end": 1141
+  },
+  {
+   "id": "F38",
+   "condition": "Atorvastatin 80 mg for hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "atorvastatin 80 mg",
+   "note": null,
+   "start": 330,
+   "end": 348
+  },
+  {
+   "id": "F39",
+   "condition": "Lisinopril 10 mg for hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "lisinopril 10 mg",
+   "note": null,
+   "start": 312,
+   "end": 328
+  }
+ ],
+ "codes": [
+  {
+   "code": "N39.0",
+   "poa": "Y",
+   "finding_ids": [
+    "F7",
+    "F12",
+    "F15",
+    "F21"
+   ],
+   "confidence": 0.6,
+   "rationale": "The discharge summary lists UTI due to E. coli as the principal diagnosis. It was present on admission, and the site is not specified because the H&P says cystitis vs early pyelonephritis.",
+   "role": "pdx",
+   "verdict": "needs_query",
+   "critic_reason": "UTI is well supported, but the site is documented only as 'cystitis vs early pyelo' in the H&P and never resolved. At discharge it is unspecified UTI. Uncertain diagnoses at discharge could be coded as if established, but 'vs' wording was not carried to the discharge summary. Query for site; N10 or N30.00 would replace N39.0.",
+   "severity": null,
+   "description": "Urinary tract infection, site not specified"
+  },
+  {
+   "code": "B96.20",
+   "poa": "Y",
+   "finding_ids": [
+    "F21"
+   ],
+   "confidence": 0.9,
+   "rationale": "The urine culture and the provider both document E. coli as the cause of the UTI.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "The provider documented E. coli UTI in the progress note and discharge summary, and the culture is consistent. Valid with N39.0 for organism.",
+   "severity": "none",
+   "description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere"
+  },
+  {
+   "code": "G93.41",
+   "poa": "Y",
+   "finding_ids": [
+    "F14",
+    "F29",
+    "F5",
+    "F9"
+   ],
+   "confidence": 0.85,
+   "rationale": "The provider documented acute metabolic encephalopathy due to UTI in the H&P, progress note and discharge summary. Delirium and confusion are integral to it, so they are not coded separately.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Documented consistently by the provider in H&P, progress note and discharge summary with clinical indicators: acute global change from baseline, inattention, CAM+, negative CT, and normal ammonia, TSH and glucose. Resolved, but treated and monitored this stay. Payer validation risk is moderate, but the indicators are strong. POA Y is correct.",
+   "severity": "MCC",
+   "description": "Metabolic encephalopathy"
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F2",
+    "F31"
+   ],
+   "confidence": 0.6,
+   "rationale": "The provider documented T2DM without complications. Hyperglycemia was seen only in lab values, so E11.65 is not assigned.",
+   "role": "secondary",
+   "verdict": "needs_query",
+   "critic_reason": "T2DM is supported. Glucose of 188 and fingersticks of 132-191 were managed with SSI, but no provider documented hyperglycemia, so E11.65 cannot be assigned without a query. E11.9 is acceptable as documented. Low-priority query. Add Z79.4 consideration: SSI during the stay is not long-term insulin, so Z79.4 is not assigned.",
+   "severity": "none",
+   "description": "Type 2 diabetes mellitus without complications"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F1",
+    "F39"
+   ],
+   "confidence": 0.92,
+   "rationale": "Hypertension is documented and treated with lisinopril.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "HTN is documented and treated with lisinopril. There is no documented CKD or heart failure, so I10 is correct.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "I25.10",
+   "poa": "Y",
+   "finding_ids": [
+    "F4",
+    "F37"
+   ],
+   "confidence": 0.85,
+   "rationale": "CAD is documented as asymptomatic and treated with aspirin and a statin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "CAD is documented in the H&P and discharge summary and treated with aspirin and a statin. Asymptomatic status is consistent with I25.10 without angina.",
+   "severity": "none",
+   "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F3",
+    "F38"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hyperlipidemia is documented and treated with atorvastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is documented and treated with atorvastatin 80 mg. E78.5 is correct for unspecified hyperlipidemia.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "Z98.61",
+   "poa": "Y",
+   "finding_ids": [
+    "F4"
+   ],
+   "confidence": 0.75,
+   "rationale": "The patient has a history of PCI to the LAD in 2019.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "PCI to LAD in 2019 is documented in the H&P. Status code is valid and POA-exempt, so the Y is unnecessary.",
+   "severity": "none",
+   "description": "Coronary angioplasty status"
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "finding_ids": [
+    "F2"
+   ],
+   "confidence": 0.8,
+   "rationale": "The patient takes metformin long term.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Home metformin 1000 mg BID is documented in the H&P and resumed at discharge, so long-term oral hypoglycemic use is supported. POA-exempt.",
+   "severity": "none",
+   "description": "Long term (current) use of oral hypoglycemic drugs"
+  },
+  {
+   "code": "Z79.82",
+   "poa": "Y",
+   "finding_ids": [
+    "F37"
+   ],
+   "confidence": 0.75,
+   "rationale": "The patient takes aspirin long term.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Home aspirin 81 mg is documented and continued, so long-term aspirin use is supported. POA-exempt.",
+   "severity": "none",
+   "description": "Long term (current) use of aspirin"
+  }
+ ],
+ "removed": [],
+ "issues": [
+  {
+   "kind": "other",
+   "summary": "G93.41 could also be sequenced first because both conditions were present on admission and the encephalopathy was a major reason for admission. The provider designated the UTI as principal, and that choice was followed here.",
+   "finding_ids": [
+    "F14",
+    "F29"
+   ],
+   "guideline": "OCG Section II",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "The UTI site is documented only as cystitis vs early pyelonephritis, and the discharge summary says only UTI. Query the provider to clarify whether it was cystitis (N30.00) or pyelonephritis (N10).",
+   "finding_ids": [
+    "F15"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "Unresolved UTI site: the H&P says 'cystitis vs early pyelo', and the progress notes and discharge summary say only UTI. Query for the final site (cystitis vs pyelonephritis) before final billing, as it changes the principal diagnosis code.",
+   "finding_ids": [
+    "F15",
+    "F10",
+    "F8"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": true
+  },
+  {
+   "kind": "other",
+   "summary": "Principal diagnosis sequencing: both UTI and G93.41 were POA and meet the definition, and the encephalopathy drove the admission and workup. OCG Section II.C allows either one to be sequenced first when two diagnoses equally meet the definition, and the provider-designated UTI is acceptable. Coding Guideline: G93.41 with an underlying infection is a clinical-validation target, so ensure documentation supports it. Not a blocker.",
+   "finding_ids": [
+    "F14",
+    "F29"
+   ],
+   "guideline": "OCG Section II.C",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "clinical_validation",
+   "summary": "Encephalopathy is the only CC and drives DRG severity. Payers commonly deny it, arguing delirium (F05.-) due to UTI is the more accurate diagnosis. Ensure the record holds the supporting indicators. Consider whether a clarification is needed on whether the delirium is a manifestation of the encephalopathy or a separate diagnosis.",
+   "finding_ids": [
+    "F14",
+    "F19",
+    "F17",
+    "F25"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Fever (38.1) and leukocytosis are integral to the UTI and not separately coded. Sepsis was explicitly negated by the provider (F16), so no sepsis code should be added.",
+   "finding_ids": [
+    "F16",
+    "F8",
+    "F11"
+   ],
+   "guideline": "OCG Section I.B.5",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "clinical_validation",
+   "summary": "N39.0: UTI is well supported, but the site is documented only as 'cystitis vs early pyelo' in the H&P and never resolved. At discharge it is unspecified UTI. Uncertain diagnoses at discharge could be coded as if established, but 'vs' wording was not carried to the discharge summary. Query for site; N10 or N30.00 would replace N39.0.",
+   "finding_ids": [
+    "F7",
+    "F12",
+    "F15",
+    "F21"
+   ],
+   "guideline": null,
+   "blocks_autonomy": true
+  },
+  {
+   "kind": "clinical_validation",
+   "summary": "E11.9: T2DM is supported. Glucose of 188 and fingersticks of 132-191 were managed with SSI, but no provider documented hyperglycemia, so E11.65 cannot be assigned without a query. E11.9 is acceptable as documented. Low-priority query. Add Z79.4 consideration: SSI during the stay is not long-term insulin, so Z79.4 is not assigned.",
+   "finding_ids": [
+    "F2",
+    "F31"
+   ],
+   "guideline": null,
+   "blocks_autonomy": true
+  }
+ ],
+ "queries": [
+  {
+   "issue": "Unresolved UTI site: the H&P says 'cystitis vs early pyelo', and the progress notes and discharge summary say only UTI. Query for the final site (cystitis vs pyelonephritis) before final billing, as it changes the principal diagnosis code.",
+   "to": "Attending physician",
+   "clinical_indicators": [
+    {
+     "text": "Vitals on day 1: T 38.1",
+     "finding_id": "F8"
+    },
+    {
+     "text": "Exam on day 1: mild suprapubic tenderness",
+     "finding_id": "F10"
+    },
+    {
+     "text": "Documented on day 2 as 'UTI (acute cystitis vs early pyelo)'; later progress notes and the discharge summary state only 'UTI' without further specification of site",
+     "finding_id": "F15"
+    }
+   ],
+   "question": "Based on your clinical judgment and the evaluation and treatment provided, please clarify the anatomic site or type of the urinary tract infection that was treated during this admission.",
+   "options": [
+    "Acute cystitis",
+    "Acute pyelonephritis",
+    "Both acute cystitis and acute pyelonephritis",
+    "Other (please specify)",
+    "Clinically undetermined"
+   ],
+   "lint": []
+  },
+  {
+   "issue": "N39.0: UTI is well supported, but the site is documented only as 'cystitis vs early pyelo' in the H&P and never resolved. At discharge it is unspecified UTI. Uncertain diagnoses at discharge could be coded as if established, but 'vs' wording was not carried to the discharge summary. Query for site; N10 or N30.00 would replace N39.0.",
+   "to": "Attending physician",
+   "clinical_indicators": [
+    {
+     "text": "2 days of urinary frequency and burning",
+     "finding_id": "F7"
+    },
+    {
+     "text": "UA: + nitrite, large LE, > 50 WBC/hpf",
+     "finding_id": "F12"
+    },
+    {
+     "text": "Documented as 'UTI (acute cystitis vs early pyelo)' on day 2 with no later clarification of site",
+     "finding_id": "F15"
+    },
+    {
+     "text": "Urine cx: > 100,000 CFU/mL E. coli, pan-sensitive except ampicillin",
+     "finding_id": "F21"
+    }
+   ],
+   "question": "Based on your clinical judgment and the course of this admission, can the anatomic site of the urinary tract infection be further specified?",
+   "options": [
+    "Acute cystitis",
+    "Acute pyelonephritis",
+    "Urinary tract infection, site not further specified",
+    "Other (please specify)",
+    "Clinically undetermined"
+   ],
+   "lint": []
+  }
+ ],
+ "drg": {
+  "family": "uti",
+  "number": "689",
+  "title": "Kidney and urinary tract infections w MCC",
+  "weight": 1.12,
+  "tier": "MCC",
+  "drivers": [
+   "G93.41"
+  ]
+ },
+ "confidence": 0.3,
+ "confidence_base": 0.6,
+ "blocking_issues": 3,
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 26229,
+   "input_tokens": 7853,
+   "output_tokens": 4140,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.02855
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 26230,
+   "ms": 14660,
+   "input_tokens": 14608,
+   "output_tokens": 1945,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.04867
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 40890,
+   "ms": 12841,
+   "input_tokens": 6863,
+   "output_tokens": 1715,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.03088
+  },
+  {
+   "stage": "query",
+   "model": "claude-sonnet-5-5",
+   "started": 53732,
+   "ms": 2887,
+   "input_tokens": 921,
+   "output_tokens": 279,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.00463
+  },
+  {
+   "stage": "query",
+   "model": "claude-sonnet-5-5",
+   "started": 56619,
+   "ms": 2973,
+   "input_tokens": 1006,
+   "output_tokens": 298,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.00499
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-18T19:30",
+     "words": 145,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-18T23:15",
+     "words": 185,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-19T04:10",
+     "words": 31,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-19T10:00",
+     "words": 85,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Lab summary",
+     "author_role": "lab",
+     "timestamp": "2026-09-20T06:15",
+     "words": 62,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-21T11:30",
+     "words": 111,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 26229,
+   "stage": "evidence",
+   "type": "validation_retry",
+   "reason": "These quotes are not verbatim. Copy exact text from the document:\nF22: quote not found verbatim in d4: 'This AM more awake. Oriented to self and hospital, not date'"
+  },
+  {
+   "t": 26230,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+     "note": null,
+     "start": 20,
+     "end": 53
+    },
+    {
+     "id": "F2",
+     "condition": "Type 2 diabetes mellitus",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+     "note": null,
+     "start": 20,
+     "end": 53
+    },
+    {
+     "id": "F3",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79 y/o M with HTN, T2DM, HLD, CAD",
+     "note": null,
+     "start": 20,
+     "end": 53
+    },
+    {
+     "id": "F4",
+     "condition": "Coronary artery disease, history of percutaneous coronary intervention to LAD",
+     "assertion": "history",
+     "doc_id": "d1",
+     "quote": "CAD (s/p PCI 2019)",
+     "note": null,
+     "start": 50,
+     "end": 68
+    },
+    {
+     "id": "F5",
+     "condition": "Acute confusion",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "1 day of new confusion, sleepiness, and garbled speech",
+     "note": null,
+     "start": 89,
+     "end": 143
+    },
+    {
+     "id": "F6",
+     "condition": "Sleepiness/somnolence",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "1 day of new confusion, sleepiness, and garbled speech",
+     "note": null,
+     "start": 89,
+     "end": 143
+    },
+    {
+     "id": "F7",
+     "condition": "Dysuria and urinary frequency",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "2 days of urinary frequency and burning",
+     "note": null,
+     "start": 150,
+     "end": 189
+    },
+    {
+     "id": "F8",
+     "condition": "Fever",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Vitals: T 38.1",
+     "note": null,
+     "start": 308,
+     "end": 322
+    },
+    {
+     "id": "F9",
+     "condition": "Altered mental status - oriented to self only",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Drowsy but arousable, oriented to self only, inattentive",
+     "note": null,
+     "start": 368,
+     "end": 424
+    },
+    {
+     "id": "F10",
+     "condition": "Suprapubic tenderness",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Mild suprapubic tenderness",
+     "note": null,
+     "start": 510,
+     "end": 536
+    },
+    {
+     "id": "F11",
+     "condition": "Elevated white blood cell count",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "WBC 13.1",
+     "note": null,
+     "start": 544,
+     "end": 552
+    },
+    {
+     "id": "F12",
+     "condition": "Urinalysis with nitrite positive and large leukocyte esterase",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "UA: + nitrite, large LE, > 50 WBC/hpf",
+     "note": null,
+     "start": 658,
+     "end": 695
+    },
+    {
+     "id": "F13",
+     "condition": "Hyperglycemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "glucose 188",
+     "note": null,
+     "start": 611,
+     "end": 622
+    },
+    {
+     "id": "F14",
+     "condition": "Acute metabolic encephalopathy due to urinary tract infection",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Acute metabolic encephalopathy due to UTI",
+     "note": null,
+     "start": 534,
+     "end": 575
+    },
+    {
+     "id": "F15",
+     "condition": "Urinary tract infection, acute cystitis versus early pyelonephritis",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "UTI (acute cystitis vs early pyelo)",
+     "note": null,
+     "start": 862,
+     "end": 897
+    },
+    {
+     "id": "F16",
+     "condition": "No evidence of sepsis",
+     "assertion": "negated",
+     "doc_id": "d2",
+     "quote": "No evidence of sepsis: hemodynamically stable",
+     "note": null,
+     "start": 937,
+     "end": 982
+    },
+    {
+     "id": "F17",
+     "condition": "Confusion with inattention - cannot say days of week backward",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "inattentive (cannot say days of week backward)",
+     "note": null,
+     "start": 431,
+     "end": 477
+    },
+    {
+     "id": "F18",
+     "condition": "Nonfocal neurological examination",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Nonfocal neuro exam",
+     "note": null,
+     "start": 493,
+     "end": 512
+    },
+    {
+     "id": "F19",
+     "condition": "Delirium - Confusion Assessment Method positive",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Oriented to self only. CAM positive.",
+     "note": null,
+     "start": 55,
+     "end": 91
+    },
+    {
+     "id": "F20",
+     "condition": "Cloudy, foul-smelling urine",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Voided 350 mL, cloudy, foul-smelling",
+     "note": null,
+     "start": 162,
+     "end": 198
+    },
+    {
+     "id": "F21",
+     "condition": "Escherichia coli urinary tract infection, ampicillin-resistant",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Urine cx: > 100,000 CFU/mL E. coli, pan-sensitive except ampicillin",
+     "note": null,
+     "start": 148,
+     "end": 215
+    },
+    {
+     "id": "F22",
+     "condition": "Improved mental status on hospital day 2",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "S: Per RN restless overnight, CAM +. This AM more awake.",
+     "note": null,
+     "start": 0,
+     "end": 56
+    },
+    {
+     "id": "F23",
+     "condition": "Oriented to self and hospital, not date",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Oriented to self and hospital, not date",
+     "note": null,
+     "start": 89,
+     "end": 128
+    },
+    {
+     "id": "F24",
+     "condition": "Blood cultures negative at 48 hours",
+     "assertion": "negated",
+     "doc_id": "d5",
+     "quote": "Blood cultures x2 (09/18): no growth at 48 h",
+     "note": null,
+     "start": 170,
+     "end": 214
+    },
+    {
+     "id": "F25",
+     "condition": "Delirium resolved by hospital day 3",
+     "assertion": "resolved",
+     "doc_id": "d5",
+     "quote": "negative 09/20 08:00 and 20:00",
+     "note": null,
+     "start": 409,
+     "end": 439
+    },
+    {
+     "id": "F26",
+     "condition": "Hyperglycemia with fingerstick glucose range 132-191",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Fingerstick glucose range 09/19-09/20: 132-191",
+     "note": null,
+     "start": 292,
+     "end": 338
+    },
+    {
+     "id": "F27",
+     "condition": "White blood cell count trending down",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "WBC 13.1 -> 10.4 -> 8.2",
+     "note": null,
+     "start": 216,
+     "end": 239
+    },
+    {
+     "id": "F28",
+     "condition": "Creatinine stable at baseline",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Cr 1.0 -> 0.9",
+     "note": null,
+     "start": 241,
+     "end": 254
+    },
+    {
+     "id": "F29",
+     "condition": "Acute metabolic encephalopathy due to E. coli UTI, resolved",
+     "assertion": "resolved",
+     "doc_id": "d6",
+     "quote": "Acute metabolic encephalopathy due to E. coli UTI, resolved",
+     "note": null,
+     "start": 157,
+     "end": 216
+    },
+    {
+     "id": "F30",
+     "condition": "Mental status returned to baseline with full orientation and CAM negative",
+     "assertion": "resolved",
+     "doc_id": "d6",
+     "quote": "returned to baseline by HD3 per wife (oriented x3, CAM negative)",
+     "note": null,
+     "start": 578,
+     "end": 642
+    },
+    {
+     "id": "F31",
+     "condition": "Type 2 diabetes mellitus with A1c 6.9%",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "T2DM (A1c 6.9%)",
+     "note": null,
+     "start": 219,
+     "end": 234
+    },
+    {
+     "id": "F32",
+     "condition": "No acute intracranial process on CT head",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "CT head w/o contrast: no acute intracranial process",
+     "note": null,
+     "start": 697,
+     "end": 748
+    },
+    {
+     "id": "F33",
+     "condition": "Normal ammonia level",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "Ammonia 22",
+     "note": null,
+     "start": 637,
+     "end": 647
+    },
+    {
+     "id": "F34",
+     "condition": "Normal TSH",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "TSH 1.9",
+     "note": null,
+     "start": 649,
+     "end": 656
+    },
+    {
+     "id": "F35",
+     "condition": "Normal lactate",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Lactate 1.3",
+     "note": null,
+     "start": 624,
+     "end": 635
+    },
+    {
+     "id": "F36",
+     "condition": "Restlessness and delirium overnight with pulling at IV",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Pt restless overnight, pulling at IV x1, redirectable",
+     "note": null,
+     "start": 0,
+     "end": 53
+    },
+    {
+     "id": "F37",
+     "condition": "Aspirin use for CAD",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "continue aspirin, statin",
+     "note": null,
+     "start": 1117,
+     "end": 1141
+    },
+    {
+     "id": "F38",
+     "condition": "Atorvastatin 80 mg for hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "atorvastatin 80 mg",
+     "note": null,
+     "start": 330,
+     "end": 348
+    },
+    {
+     "id": "F39",
+     "condition": "Lisinopril 10 mg for hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "lisinopril 10 mg",
+     "note": null,
+     "start": 312,
+     "end": 328
+    }
+   ]
+  },
+  {
+   "t": 26230,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "I need to verify codes for the UTI and encephalopathy findings. I'm weighing N39.0 with B96.20 for the E. coli UTI against whether cystitis or early pyelonephritis is better supported, and considering G93.41 for metabolic encephalopathy, while figuring out whether UTI or encephalopathy should be the principal diagnosis per the discharge summary.\n\nFor the remaining conditions, I'm settling on E11.9 for T2DM since hyperglycemia isn't explicitly documented, plus Z79.84 for oral hypoglycemics, I10 for hypertension, I25.10 for CAD with Z98.61 for prior angioplasty status since stent placement isn't"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "N39.0"
+   },
+   "id": "toolu_016eyvzNa6SYMEsNQcVCppZX"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "B96.20"
+   },
+   "id": "toolu_015ZCogmQeTNcLUwL2J3Aoc9"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "G93.41"
+   },
+   "id": "toolu_015PXSsyVcSHL36a9pnQZacF"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E11.9"
+   },
+   "id": "toolu_01WUCrUjDVo9dEphPxFR1UZv"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I10"
+   },
+   "id": "toolu_016F1J1W3t5ozAxDDeEmTzbQ"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I25.10"
+   },
+   "id": "toolu_0124hFw7e8bJgz5wGL2yfeMi"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_012FboTnHfZ9j8HcMSmcyvcT"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z98.61"
+   },
+   "id": "toolu_01TMGqMwhHtsW9xSUr9Z1dN9"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.84"
+   },
+   "id": "toolu_019p61JDcqEnA1XVvzY1r96m"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.82"
+   },
+   "id": "toolu_01HUC5fuKJmkLxYKi322bCvX"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_016eyvzNa6SYMEsNQcVCppZX",
+   "result": "N39.0: Urinary tract infection, site not specified (billable)"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_015ZCogmQeTNcLUwL2J3Aoc9",
+   "result": "B96.20: Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere (billable)"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_015PXSsyVcSHL36a9pnQZacF",
+   "result": "G93.41: Metabolic encephalopathy (billable)"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01WUCrUjDVo9dEphPxFR1UZv",
+   "result": "E11.9: Type 2 diabetes mellitus without complications (billable)"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_016F1J1W3t5ozAxDDeEmTzbQ",
+   "result": "I10: Essential (primary) hypertension (billable)"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_0124hFw7e8bJgz5wGL2yfeMi",
+   "result": "I25.10: Atherosclerotic heart disease of native coronary artery without angina pectoris (billable)"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_012FboTnHfZ9j8HcMSmcyvcT",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01TMGqMwhHtsW9xSUr9Z1dN9",
+   "result": "Z98.61: Coronary angioplasty status (billable)"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_019p61JDcqEnA1XVvzY1r96m",
+   "result": "Z79.84: Long term (current) use of oral hypoglycemic drugs (billable)"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01HUC5fuKJmkLxYKi322bCvX",
+   "result": "Z79.82: Long term (current) use of aspirin (billable)"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"N39.0\",\"poa\":\"Y\",\"finding_ids\":[\"F7\",\"F12\",\"F15\",\"F21\"],\"confidence\":0.8,\"rationale\":\"The discharge summary lists UTI due to E. coli as the principal diagnosis. It was present on admission, and the site is not specified because the H&P says cystitis vs early pyelonephritis.\"},\"secondary\":[{\"code\":\"B96.20\",\"poa\":\"Y\",\"finding_ids\":[\"F21\"],\"confidence\":0.9,\"rationale\":\"The urine culture and the provider both document E. coli as the cause of the UTI.\"},{\"code\":\"G93.41\",\"poa\":\"Y\",\"finding_ids\":[\"F14\",\"F29\",\"F5\",\"F9\"],\"confidence\":0.88,\"rationale\":\"The provider documented acute metab"
+  },
+  {
+   "t": 40890,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "N39.0",
+     "poa": "Y",
+     "finding_ids": [
+      "F7",
+      "F12",
+      "F15",
+      "F21"
+     ],
+     "confidence": 0.8,
+     "rationale": "The discharge summary lists UTI due to E. coli as the principal diagnosis. It was present on admission, and the site is not specified because the H&P says cystitis vs early pyelonephritis."
+    },
+    "secondary": [
+     {
+      "code": "B96.20",
+      "poa": "Y",
+      "finding_ids": [
+       "F21"
+      ],
+      "confidence": 0.9,
+      "rationale": "The urine culture and the provider both document E. coli as the cause of the UTI."
+     },
+     {
+      "code": "G93.41",
+      "poa": "Y",
+      "finding_ids": [
+       "F14",
+       "F29",
+       "F5",
+       "F9"
+      ],
+      "confidence": 0.88,
+      "rationale": "The provider documented acute metabolic encephalopathy due to UTI in the H&P, progress note and discharge summary. Delirium and confusion are integral to it, so they are not coded separately."
+     },
+     {
+      "code": "E11.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F2",
+       "F31"
+      ],
+      "confidence": 0.85,
+      "rationale": "The provider documented T2DM without complications. Hyperglycemia was seen only in lab values, so E11.65 is not assigned."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F1",
+       "F39"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hypertension is documented and treated with lisinopril."
+     },
+     {
+      "code": "I25.10",
+      "poa": "Y",
+      "finding_ids": [
+       "F4",
+       "F37"
+      ],
+      "confidence": 0.85,
+      "rationale": "CAD is documented as asymptomatic and treated with aspirin and a statin."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F3",
+       "F38"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hyperlipidemia is documented and treated with atorvastatin."
+     },
+     {
+      "code": "Z98.61",
+      "poa": "Y",
+      "finding_ids": [
+       "F4"
+      ],
+      "confidence": 0.7,
+      "rationale": "The patient has a history of PCI to the LAD in 2019."
+     },
+     {
+      "code": "Z79.84",
+      "poa": "Y",
+      "finding_ids": [
+       "F2"
+      ],
+      "confidence": 0.75,
+      "rationale": "The patient takes metformin long term."
+     },
+     {
+      "code": "Z79.82",
+      "poa": "Y",
+      "finding_ids": [
+       "F37"
+      ],
+      "confidence": 0.7,
+      "rationale": "The patient takes aspirin long term."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "other",
+      "summary": "G93.41 could also be sequenced first because both conditions were present on admission and the encephalopathy was a major reason for admission. The provider designated the UTI as principal, and that choice was followed here.",
+      "finding_ids": [
+       "F14",
+       "F29"
+      ],
+      "guideline": "OCG Section II",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "query_opportunity",
+      "summary": "The UTI site is documented only as cystitis vs early pyelonephritis, and the discharge summary says only UTI. Query the provider to clarify whether it was cystitis (N30.00) or pyelonephritis (N10).",
+      "finding_ids": [
+       "F15"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 40890,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 53731,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"N39.0\",\"verdict\":\"needs_query\",\"confidence\":0.6,\"reason\":\"UTI is well supported, but the site is documented only as 'cystitis vs early pyelo' in the H&P and never resolved. At discharge it is unspecified UTI. Uncertain diagnoses at discharge could be coded as if established, but 'vs' wording was not carried to the discharge summary. Query for site; N10 or N30.00 would replace N39.0.\"},{\"code\":\"B96.20\",\"verdict\":\"supported\",\"confidence\":0.9,\"reason\":\"The provider documented E. coli UTI in the progress note and discharge summary, and the culture is consistent. Valid with N39"
+  },
+  {
+   "t": 53731,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "N39.0",
+      "verdict": "needs_query",
+      "confidence": 0.6,
+      "reason": "UTI is well supported, but the site is documented only as 'cystitis vs early pyelo' in the H&P and never resolved. At discharge it is unspecified UTI. Uncertain diagnoses at discharge could be coded as if established, but 'vs' wording was not carried to the discharge summary. Query for site; N10 or N30.00 would replace N39.0."
+     },
+     {
+      "code": "B96.20",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "The provider documented E. coli UTI in the progress note and discharge summary, and the culture is consistent. Valid with N39.0 for organism."
+     },
+     {
+      "code": "G93.41",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Documented consistently by the provider in H&P, progress note and discharge summary with clinical indicators: acute global change from baseline, inattention, CAM+, negative CT, and normal ammonia, TSH and glucose. Resolved, but treated and monitored this stay. Payer validation risk is moderate, but the indicators are strong. POA Y is correct."
+     },
+     {
+      "code": "E11.9",
+      "verdict": "needs_query",
+      "confidence": 0.6,
+      "reason": "T2DM is supported. Glucose of 188 and fingersticks of 132-191 were managed with SSI, but no provider documented hyperglycemia, so E11.65 cannot be assigned without a query. E11.9 is acceptable as documented. Low-priority query. Add Z79.4 consideration: SSI during the stay is not long-term insulin, so Z79.4 is not assigned."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "reason": "HTN is documented and treated with lisinopril. There is no documented CKD or heart failure, so I10 is correct."
+     },
+     {
+      "code": "I25.10",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "CAD is documented in the H&P and discharge summary and treated with aspirin and a statin. Asymptomatic status is consistent with I25.10 without angina."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hyperlipidemia is documented and treated with atorvastatin 80 mg. E78.5 is correct for unspecified hyperlipidemia."
+     },
+     {
+      "code": "Z98.61",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "PCI to LAD in 2019 is documented in the H&P. Status code is valid and POA-exempt, so the Y is unnecessary."
+     },
+     {
+      "code": "Z79.84",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "Home metformin 1000 mg BID is documented in the H&P and resumed at discharge, so long-term oral hypoglycemic use is supported. POA-exempt."
+     },
+     {
+      "code": "Z79.82",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "Home aspirin 81 mg is documented and continued, so long-term aspirin use is supported. POA-exempt."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": [
+     {
+      "kind": "query_opportunity",
+      "summary": "Unresolved UTI site: the H&P says 'cystitis vs early pyelo', and the progress notes and discharge summary say only UTI. Query for the final site (cystitis vs pyelonephritis) before final billing, as it changes the principal diagnosis code.",
+      "finding_ids": [
+       "F15",
+       "F10",
+       "F8"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": true
+     },
+     {
+      "kind": "other",
+      "summary": "Principal diagnosis sequencing: both UTI and G93.41 were POA and meet the definition, and the encephalopathy drove the admission and workup. OCG Section II.C allows either one to be sequenced first when two diagnoses equally meet the definition, and the provider-designated UTI is acceptable. Coding Guideline: G93.41 with an underlying infection is a clinical-validation target, so ensure documentation supports it. Not a blocker.",
+      "finding_ids": [
+       "F14",
+       "F29"
+      ],
+      "guideline": "OCG Section II.C",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "clinical_validation",
+      "summary": "Encephalopathy is the only CC and drives DRG severity. Payers commonly deny it, arguing delirium (F05.-) due to UTI is the more accurate diagnosis. Ensure the record holds the supporting indicators. Consider whether a clarification is needed on whether the delirium is a manifestation of the encephalopathy or a separate diagnosis.",
+      "finding_ids": [
+       "F14",
+       "F19",
+       "F17",
+       "F25"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "Fever (38.1) and leukocytosis are integral to the UTI and not separately coded. Sepsis was explicitly negated by the provider (F16), so no sepsis code should be added.",
+      "finding_ids": [
+       "F16",
+       "F8",
+       "F11"
+      ],
+      "guideline": "OCG Section I.B.5",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 53732,
+   "stage": "grouper",
+   "type": "output",
+   "family": "uti",
+   "drg": "689",
+   "title": "Kidney and urinary tract infections w MCC",
+   "weight": 1.12,
+   "tier": "MCC",
+   "drivers": [
+    "G93.41"
+   ]
+  },
+  {
+   "t": 53732,
+   "stage": "router",
+   "type": "output",
+   "base": 0.6,
+   "blocking": 3,
+   "confidence": 0.3
+  },
+  {
+   "t": 53732,
+   "stage": "query",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5",
+   "issue": "Unresolved UTI site: the H&P says 'cystitis vs early pyelo', and the progress notes and discharge summary say only UTI. Query for the final site (cystitis vs pyelonephritis) before final billing, as it changes the principal diagnosis code."
+  },
+  {
+   "t": 56619,
+   "stage": "query",
+   "type": "text",
+   "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"Vitals on day 1: T 38.1\",\"finding_id\":\"F8\"},{\"text\":\"Exam on day 1: mild suprapubic tenderness\",\"finding_id\":\"F10\"},{\"text\":\"Documented on day 2 as 'UTI (acute cystitis vs early pyelo)'; later progress notes and the discharge summary state only 'UTI' without further specification of site\",\"finding_id\":\"F15\"}],\"question\":\"Based on your clinical judgment and the evaluation and treatment provided, please clarify the anatomic site or type of the urinary tract infection that was treated during this admission.\",\"options\":[\"Acute cystitis\",\""
+  },
+  {
+   "t": 56619,
+   "stage": "query",
+   "type": "output",
+   "query": {
+    "issue": "Unresolved UTI site: the H&P says 'cystitis vs early pyelo', and the progress notes and discharge summary say only UTI. Query for the final site (cystitis vs pyelonephritis) before final billing, as it changes the principal diagnosis code.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "Vitals on day 1: T 38.1",
+      "finding_id": "F8"
+     },
+     {
+      "text": "Exam on day 1: mild suprapubic tenderness",
+      "finding_id": "F10"
+     },
+     {
+      "text": "Documented on day 2 as 'UTI (acute cystitis vs early pyelo)'; later progress notes and the discharge summary state only 'UTI' without further specification of site",
+      "finding_id": "F15"
+     }
+    ],
+    "question": "Based on your clinical judgment and the evaluation and treatment provided, please clarify the anatomic site or type of the urinary tract infection that was treated during this admission.",
+    "options": [
+     "Acute cystitis",
+     "Acute pyelonephritis",
+     "Both acute cystitis and acute pyelonephritis",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  },
+  {
+   "t": 56619,
+   "stage": "query",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5",
+   "issue": "N39.0: UTI is well supported, but the site is documented only as 'cystitis vs early pyelo' in the H&P and never resolved. At discharge it is unspecified UTI. Uncertain diagnoses at discharge could be coded as if established, but 'vs' wording was not carried to the discharge summary. Query for site; N10 or N30.00 would replace N39.0."
+  },
+  {
+   "t": 59592,
+   "stage": "query",
+   "type": "text",
+   "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"2 days of urinary frequency and burning\",\"finding_id\":\"F7\"},{\"text\":\"UA: + nitrite, large LE, > 50 WBC/hpf\",\"finding_id\":\"F12\"},{\"text\":\"Documented as 'UTI (acute cystitis vs early pyelo)' on day 2 with no later clarification of site\",\"finding_id\":\"F15\"},{\"text\":\"Urine cx: > 100,000 CFU/mL E. coli, pan-sensitive except ampicillin\",\"finding_id\":\"F21\"}],\"question\":\"Based on your clinical judgment and the course of this admission, can the anatomic site of the urinary tract infection be further specified?\",\"options\":[\"Acute cystitis\",\"Acu"
+  },
+  {
+   "t": 59592,
+   "stage": "query",
+   "type": "output",
+   "query": {
+    "issue": "N39.0: UTI is well supported, but the site is documented only as 'cystitis vs early pyelo' in the H&P and never resolved. At discharge it is unspecified UTI. Uncertain diagnoses at discharge could be coded as if established, but 'vs' wording was not carried to the discharge summary. Query for site; N10 or N30.00 would replace N39.0.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "2 days of urinary frequency and burning",
+      "finding_id": "F7"
+     },
+     {
+      "text": "UA: + nitrite, large LE, > 50 WBC/hpf",
+      "finding_id": "F12"
+     },
+     {
+      "text": "Documented as 'UTI (acute cystitis vs early pyelo)' on day 2 with no later clarification of site",
+      "finding_id": "F15"
+     },
+     {
+      "text": "Urine cx: > 100,000 CFU/mL E. coli, pan-sensitive except ampicillin",
+      "finding_id": "F21"
+     }
+    ],
+    "question": "Based on your clinical judgment and the course of this admission, can the anatomic site of the urinary tract infection be further specified?",
+    "options": [
+     "Acute cystitis",
+     "Acute pyelonephritis",
+     "Urinary tract infection, site not further specified",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  }
+ ],
+ "ms": 59592,
+ "cost_usd": 0.11772
+}

@@ -1,0 +1,117 @@
+{
+  "id": "enc-02",
+  "title": "UTI with sepsis ruled out at discharge",
+  "summary": "A nursing-home resident with a urinary infection was called septic and encephalopathic by one doctor, but the discharging doctor wrote that sepsis was ruled out and her thinking was at baseline, so a coder has to ask before coding.",
+  "hero": true,
+  "family": "uti",
+  "patient": {
+    "age": 78,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-08",
+  "discharge_date": "2026-09-11",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "M. Okafor, DO (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T14:25",
+      "text": "CC: Confusion, fever.\n\nHPI: 78F, resident of Briarwood skilled nursing facility, with mild dementia (baseline per facility: oriented to self and place, conversant, ambulates with walker), HTN, paroxysmal AF on apixaban, hypothyroidism, sent in for increased confusion since last night and fever 38.3 C at the facility. Staff report she is pulling at her clothes and did not recognize her daughter this morning. Foul-smelling urine x2 days. No cough, vomiting or diarrhea. History limited by mental status.\n\nVitals: T 38.4 C, HR 112 (sinus tach on monitor), BP 104/62, RR 22, SpO2 95% RA.\nExam: Elderly woman, drowsy but arousable, oriented to self only, inattentive. Dry mucous membranes. Lungs clear. Suprapubic tenderness, no CVA tenderness. No focal neuro deficits.\n\nLabs: WBC 15.8 (bands 8%), Hgb 12.1, Plt 241. Na 141, K 3.9, BUN 24, Cr 1.0 (baseline 0.9), Glu 118. Lactate 2.6.\nUA: cloudy, LE 3+, nitrite positive, WBC >50/hpf, many bacteria. Urine and blood cultures x2 sent.\nCXR: no infiltrate. CT head without contrast: no acute intracranial process.\n\nAssessment/Plan:\n1. Possible sepsis, urinary source - SIRS criteria (T, HR, RR, WBC) with lactate 2.6. Sepsis bundle initiated: LR 30 mL/kg (1.8 L), ceftriaxone 1 g IV after cultures. Repeat lactate.\n2. Acute confusion on baseline dementia.\n3. Paroxysmal AF - in sinus rhythm.\nDispo: Admit to hospital medicine."
+    },
+    {
+      "id": "d2",
+      "type": "H&P",
+      "author": "A. Brennan, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T18:50",
+      "text": "HISTORY AND PHYSICAL\n\nHPI: 78F from SNF with fever, foul urine and acute confusion; see ED note. Daughter at bedside confirms she was \"sharp as usual\" two days ago (knows family, chats, does word searches).\n\nPMH: Dementia, mild; HTN; paroxysmal AF; hypothyroidism; osteoarthritis of both knees.\nMeds: apixaban 5 mg BID, metoprolol tartrate 25 mg BID, amlodipine 5 mg daily, levothyroxine 75 mcg daily, donepezil 10 mg qHS, acetaminophen 650 mg PRN.\nAllergies: Sulfa (rash).\n\nExam (after 1.8 L LR): T 37.6, HR 98, BP 118/66, RR 18, SpO2 96% RA. Drowsy, oriented to self, cannot say months backward. Mucosa moist. Mild suprapubic tenderness. Bilateral knee crepitus.\n\nAssessment/Plan:\n1. Suspected sepsis secondary to UTI - SIRS + lactate 2.6 on arrival, hemodynamics improving with fluids. Continue ceftriaxone 1 g daily. F/u cultures, repeat lactate.\n2. Acute metabolic encephalopathy, likely due to infection, superimposed on mild dementia - delirium precautions, reorient, avoid sedatives and anticholinergics.\n3. Paroxysmal AF - continue metoprolol and apixaban.\n4. HTN - hold amlodipine tonight given soft BP.\n5. Hypothyroidism - continue levothyroxine.\n6. Mild dementia - continue donepezil.\n7. Osteoarthritis, bilateral knees - acetaminophen PRN, PT eval.\nVTE ppx: on apixaban. Code: DNR/DNI per MOLST."
+    },
+    {
+      "id": "d3",
+      "type": "Lab summary",
+      "author": "Clinical Laboratory",
+      "author_role": "lab",
+      "timestamp": "2026-09-09T11:15",
+      "text": "MICROBIOLOGY\nUrine culture (collected 09/08 14:40): >100,000 CFU/mL Escherichia coli.\n Susceptible: ceftriaxone, cefazolin, nitrofurantoin, gentamicin. Resistant: ampicillin, ciprofloxacin, TMP-SMX.\nBlood cultures x2 (09/08 14:35): no growth at 24 hours.\n\nCHEMISTRY / HEMATOLOGY\nLactate 09/08 18:30: 1.1 mmol/L\nCBC 09/09 05:00: WBC 11.2, Hgb 11.6, Plt 228\nBMP 09/09 05:00: Na 140, K 3.8, BUN 17, Cr 0.9, Glu 104"
+    },
+    {
+      "id": "d4",
+      "type": "Progress note",
+      "author": "A. Brennan, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-09T13:40",
+      "text": "HOSPITAL DAY 2\n\nS: More alert per nursing, ate most of breakfast. Asked for her daughter by name.\nO: Tmax 37.8, HR 88, BP 124/70, RR 16, SpO2 97% RA. Oriented to self and place this afternoon, still mildly inattentive.\nLabs: urine cx E. coli, susceptible to ceftriaxone. Blood cx NGTD. Lactate 1.1. WBC 11.2.\n\nAssessment/Plan:\n1. Sepsis due to E. coli UTI - source identified, lactate cleared, hemodynamically stable. Continue ceftriaxone, day 2.\n2. Acute metabolic encephalopathy - improving with treatment of infection.\n3. Paroxysmal AF - rate controlled, continue apixaban.\n4. HTN - resume amlodipine if SBP >130.\n5. Hypothyroidism, mild dementia, OA knees - home meds.\nDispo: back to SNF in 1-2 days if continues to improve."
+    },
+    {
+      "id": "d5",
+      "type": "Nursing note",
+      "author": "T. Nguyen, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-10T21:10",
+      "text": "Pt alert, pleasant, oriented to self and place, follows commands. Daughter at bedside states pt is \"back to her usual self.\" Ambulated in hallway with walker and standby assist x1. Voiding without difficulty, urine clear yellow. Afebrile this shift. Fall precautions maintained."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "J. Whitfield, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-11T10:15",
+      "text": "DISCHARGE SUMMARY\nAdmit: 09/08/2026   Discharge: 09/11/2026   Disposition: Briarwood SNF\nAttending at discharge: J. Whitfield, MD (assumed care 09/10)\n\nDISCHARGE DIAGNOSES:\n1. E. coli urinary tract infection\n2. Paroxysmal atrial fibrillation\n3. Hypertension\n4. Hypothyroidism\n5. Mild dementia\n6. Osteoarthritis, bilateral knees\n\nHOSPITAL COURSE:\n78F from SNF admitted with fever and confusion, found to have E. coli UTI. Sepsis was considered in the ED; on my review, sepsis ruled out - tachycardia and lactate resolved promptly after 1.8 L of fluid, she was never hypotensive, and there was no organ dysfunction; vital sign changes attributed to fever. Blood cultures no growth at 72 h. Treated with ceftriaxone x3 days, transitioned to cephalexin 500 mg BID to complete 7 days. Mentation at baseline (baseline mild dementia) per daughter and facility staff; no further workup needed. Amlodipine resumed 09/10.\n\nDISCHARGE MEDICATIONS: cephalexin 500 mg BID through 09/14; home meds unchanged (apixaban, metoprolol, amlodipine, levothyroxine, donepezil).\n\nFOLLOW-UP: SNF physician in 2-3 days. Encourage fluids."
+    }
+  ],
+  "gold": {
+    "pdx": "N39.0",
+    "secondary": [
+      {
+        "code": "B96.20",
+        "poa": "Y"
+      },
+      {
+        "code": "F03.A0",
+        "poa": "Y"
+      },
+      {
+        "code": "I48.0",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.01",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E03.9",
+        "poa": "Y"
+      },
+      {
+        "code": "M17.0",
+        "poa": "Y"
+      }
+    ],
+    "drg": "690",
+    "route": "coder",
+    "hold_reasons": [
+      "Conflicting documentation on sepsis: ED 'possible sepsis', H&P 'suspected sepsis' and day-2 progress note 'sepsis due to E. coli UTI' vs the discharge summary by a different attending stating 'sepsis ruled out' (OCG I.A.19, I.C.1.d; clinical validation query to attending before final coding).",
+      "Conflicting documentation on acute metabolic encephalopathy: H&P and day-2 progress note document it, while the discharge summary attributes mentation to baseline mild dementia and omits it."
+    ],
+    "query": {
+      "topic": "Clinical validity of sepsis. Clinical indicators: on arrival T 38.4 C, HR 112, RR 22, BP 104/62, WBC 15.8 with 8% bands, lactate 2.6 mmol/L; after 1.8 L LR, HR 98, BP 118/66, lactate 1.1 mmol/L; urine culture >100,000 CFU/mL E. coli; blood cultures no growth; creatinine 1.0 (baseline 0.9). The 09/09 progress note documents 'sepsis due to E. coli UTI' and the 09/11 discharge summary documents 'sepsis ruled out.' Based on your clinical judgment, please clarify the diagnosis that best describes this patient's condition.",
+      "options": [
+        "Sepsis due to E. coli urinary tract infection",
+        "E. coli urinary tract infection without sepsis (sepsis ruled out)",
+        "Other (please specify)",
+        "Clinically undetermined"
+      ]
+    },
+    "traps": [
+      "conflicting_notes",
+      "ruled_out",
+      "clinical_validation"
+    ],
+    "explanation": "Three notes call this sepsis and two call it acute metabolic encephalopathy, but the discharging attending explicitly rules out sepsis and calls her mentation baseline dementia. A coder can't pick one physician's version; the conflict has to go back to the attending as a compliant clinical validation query. Pending that answer, the discharge summary supports N39.0 with B96.20 (DRG 690). Coding A41.51 would move it to the sepsis DRG, and adding G93.41 would add an MCC; a naive system codes both and overstates severity."
+  }
+}

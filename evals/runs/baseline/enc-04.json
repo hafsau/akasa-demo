@@ -1,0 +1,75 @@
+{
+ "case_id": "enc-04",
+ "codes": [
+  {
+   "code": "J18.9",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Pneumonia, unspecified organism",
+   "confidence": 0.88
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.88
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.88
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Gastro-esophageal reflux disease without esophagitis",
+   "confidence": 0.88
+  },
+  {
+   "code": "N40.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Benign prostatic hyperplasia without lower urinary tract symptoms",
+   "confidence": 0.88
+  },
+  {
+   "code": "Z87.891",
+   "poa": "",
+   "role": "secondary",
+   "valid": true,
+   "description": "Personal history of nicotine dependence",
+   "confidence": 0.88
+  },
+  {
+   "code": "Z88.0",
+   "poa": "",
+   "role": "secondary",
+   "valid": true,
+   "description": "Allergy status to penicillin",
+   "confidence": 0.88
+  }
+ ],
+ "drg": {
+  "family": "pneumonia",
+  "number": "195",
+  "weight": 0.68,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.88,
+ "needs_human": false,
+ "reason": null,
+ "ms": 4798,
+ "cost_usd": 0.01121,
+ "input_tokens": 3290,
+ "output_tokens": 463
+}

@@ -1,0 +1,1383 @@
+{
+ "case_id": "enc-16",
+ "prompt_version": "2026-10-02.4-router-v2",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Ischemic cardiomyopathy",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "ischemic cardiomyopathy (EF 25% on TTE 05/2026)",
+   "note": null,
+   "start": 14,
+   "end": 61
+  },
+  {
+   "id": "F2",
+   "condition": "Ejection fraction 25%",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "EF 25% on TTE 05/2026",
+   "note": null,
+   "start": 39,
+   "end": 60
+  },
+  {
+   "id": "F3",
+   "condition": "Heart failure with reduced ejection fraction (HFrEF)",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Acute on chronic systolic heart failure (HFrEF, EF 25%)",
+   "note": null,
+   "start": 893,
+   "end": 948
+  },
+  {
+   "id": "F4",
+   "condition": "Coronary artery disease s/p drug-eluting stent to RCA",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "CAD s/p DES to RCA 2019",
+   "note": null,
+   "start": 63,
+   "end": 86
+  },
+  {
+   "id": "F5",
+   "condition": "Type 2 diabetes mellitus",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "T2DM",
+   "note": null,
+   "start": 88,
+   "end": 92
+  },
+  {
+   "id": "F6",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HLD",
+   "note": null,
+   "start": 94,
+   "end": 97
+  },
+  {
+   "id": "F7",
+   "condition": "Hypothyroidism",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "hypothyroidism",
+   "note": null,
+   "start": 99,
+   "end": 113
+  },
+  {
+   "id": "F8",
+   "condition": "Acute decompensated heart failure with dyspnea on exertion",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "worsening DOE, orthopnea, abdominal bloating and leg swelling",
+   "note": null,
+   "start": 150,
+   "end": 211
+  },
+  {
+   "id": "F9",
+   "condition": "Volume overload with weight gain",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Weight up 12 lb",
+   "note": null,
+   "start": 213,
+   "end": 228
+  },
+  {
+   "id": "F10",
+   "condition": "Orthopnea",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "orthopnea",
+   "note": null,
+   "start": 165,
+   "end": 174
+  },
+  {
+   "id": "F11",
+   "condition": "Peripheral edema, pitting, 3+",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "3+ pitting edema to thighs",
+   "note": null,
+   "start": 658,
+   "end": 684
+  },
+  {
+   "id": "F12",
+   "condition": "Sacral edema",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "sacral edema",
+   "note": null,
+   "start": 686,
+   "end": 698
+  },
+  {
+   "id": "F13",
+   "condition": "Bibasilar crackles",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "bibasilar crackles",
+   "note": null,
+   "start": 634,
+   "end": 652
+  },
+  {
+   "id": "F14",
+   "condition": "S3 gallop",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "S3",
+   "note": null,
+   "start": 654,
+   "end": 656
+  },
+  {
+   "id": "F15",
+   "condition": "Elevated BNP",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "BNP 3,880",
+   "note": null,
+   "start": 732,
+   "end": 741
+  },
+  {
+   "id": "F16",
+   "condition": "Troponin flat/negative",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Troponin 0.04 flat",
+   "note": null,
+   "start": 743,
+   "end": 761
+  },
+  {
+   "id": "F17",
+   "condition": "Hyponatremia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Na 136",
+   "note": null,
+   "start": 763,
+   "end": 769
+  },
+  {
+   "id": "F18",
+   "condition": "Mild renal dysfunction with creatinine 1.1",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Cr 1.1 (baseline 1.0)",
+   "note": null,
+   "start": 778,
+   "end": 799
+  },
+  {
+   "id": "F19",
+   "condition": "Cardiomegaly",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "CXR: cardiomegaly",
+   "note": null,
+   "start": 810,
+   "end": 827
+  },
+  {
+   "id": "F20",
+   "condition": "Pulmonary edema",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "pulmonary edema",
+   "note": null,
+   "start": 829,
+   "end": 844
+  },
+  {
+   "id": "F21",
+   "condition": "Bilateral pleural effusions, small",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "bilateral small effusions",
+   "note": null,
+   "start": 846,
+   "end": 871
+  },
+  {
+   "id": "F22",
+   "condition": "No acute coronary syndrome",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "no ACS, flat troponin",
+   "note": null,
+   "start": 1158,
+   "end": 1179
+  },
+  {
+   "id": "F23",
+   "condition": "Pressure redistribution mattress placed on admission",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Pressure-redistribution mattress in place",
+   "note": null,
+   "start": 216,
+   "end": 257
+  },
+  {
+   "id": "F24",
+   "condition": "Skin intact on admission assessment",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "skin intact; no breakdown noted",
+   "note": null,
+   "start": 101,
+   "end": 132
+  },
+  {
+   "id": "F25",
+   "condition": "Braden score 15 (pressure ulcer risk)",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Braden score 15 (at risk)",
+   "note": null,
+   "start": 30,
+   "end": 55
+  },
+  {
+   "id": "F26",
+   "condition": "Clinical improvement with diuresis by hospital day 2",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Breathing better, lying flatter",
+   "note": null,
+   "start": 3,
+   "end": 34
+  },
+  {
+   "id": "F27",
+   "condition": "Creatinine increase to 1.2",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Cr 1.2",
+   "note": null,
+   "start": 114,
+   "end": 120
+  },
+  {
+   "id": "F28",
+   "condition": "Hospital-acquired sacral pressure injury, stage 3",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Stage: Stage 3 pressure injury, sacrum",
+   "note": null,
+   "start": 377,
+   "end": 415
+  },
+  {
+   "id": "F29",
+   "condition": "Full-thickness skin loss, sacral",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Full-thickness skin loss, 3.0 x 2.5 x 0.3 cm",
+   "note": null,
+   "start": 111,
+   "end": 155
+  },
+  {
+   "id": "F30",
+   "condition": "Subcutaneous fat visible on sacral wound",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Subcutaneous fat visible; no bone, tendon",
+   "note": null,
+   "start": 207,
+   "end": 248
+  },
+  {
+   "id": "F31",
+   "condition": "Wound bed with granulation tissue and slough",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Wound bed 80% red granulation, 20% yellow slough",
+   "note": null,
+   "start": 157,
+   "end": 205
+  },
+  {
+   "id": "F32",
+   "condition": "Successful diuresis with net loss 9 lb by day 4",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Wt down 9 lb",
+   "note": null,
+   "start": 123,
+   "end": 135
+  },
+  {
+   "id": "F33",
+   "condition": "Resolution of crackles to trace by day 4",
+   "assertion": "resolved",
+   "doc_id": "d5",
+   "quote": "Trace crackles",
+   "note": null,
+   "start": 97,
+   "end": 111
+  },
+  {
+   "id": "F34",
+   "condition": "Edema improvement to 1+",
+   "assertion": "resolved",
+   "doc_id": "d5",
+   "quote": "1+ edema",
+   "note": null,
+   "start": 113,
+   "end": 121
+  },
+  {
+   "id": "F35",
+   "condition": "Near euvolemia achieved",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "near euvolemia",
+   "note": null,
+   "start": 207,
+   "end": 221
+  },
+  {
+   "id": "F36",
+   "condition": "Sacral dressing clean, dry, intact",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Sacral dressing c/d/i",
+   "note": null,
+   "start": 145,
+   "end": 166
+  }
+ ],
+ "codes": [
+  {
+   "code": "I50.23",
+   "poa": "Y",
+   "finding_ids": [
+    "F3",
+    "F8",
+    "F9"
+   ],
+   "confidence": 0.95,
+   "rationale": "Acute on chronic systolic HF was the reason for admission and is documented by the provider as the first discharge diagnosis.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "Provider documents acute on chronic systolic HF as the reason for admission, treated with IV diuresis, and it is listed in the discharge diagnoses.",
+   "severity": null,
+   "description": "Acute on chronic systolic (congestive) heart failure"
+  },
+  {
+   "code": "L89.153",
+   "poa": "N",
+   "finding_ids": [
+    "F28",
+    "F24",
+    "F29",
+    "F30"
+   ],
+   "confidence": 0.9,
+   "rationale": "The provider documented a stage 3 sacral pressure ulcer as hospital-acquired. The admission skin was intact, so POA is N.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "The attending documents a stage 3 sacral pressure ulcer as hospital-acquired (09/06 note and discharge summary), and the stage is supported by the wound care note. Admission skin was intact, so POA N is consistent. L89.153 is the pressure ulcer of the sacral region, stage 3, which fits.",
+   "severity": "MCC",
+   "description": "Pressure ulcer of sacral region, stage 3"
+  },
+  {
+   "code": "I25.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F1"
+   ],
+   "confidence": 0.9,
+   "rationale": "Ischemic cardiomyopathy is documented by the provider as a chronic condition.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Ischemic cardiomyopathy is documented by the provider in the H&P and discharge summary.",
+   "severity": "none",
+   "description": "Ischemic cardiomyopathy"
+  },
+  {
+   "code": "I25.10",
+   "poa": "Y",
+   "finding_ids": [
+    "F4",
+    "F22"
+   ],
+   "confidence": 0.88,
+   "rationale": "CAD of a native vessel is documented with no angina and no ACS.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "CAD is documented, and there is no angina or ACS.",
+   "severity": "none",
+   "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris"
+  },
+  {
+   "code": "Z95.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F4"
+   ],
+   "confidence": 0.88,
+   "rationale": "The patient has a coronary stent (DES to RCA), which is a status code.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "A DES to the RCA is documented.",
+   "severity": "none",
+   "description": "Presence of coronary angioplasty implant and graft"
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F5"
+   ],
+   "confidence": 0.85,
+   "rationale": "T2DM is documented with no complication linked by the provider.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "T2DM is documented with no linked complication.",
+   "severity": "none",
+   "description": "Type 2 diabetes mellitus without complications"
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "finding_ids": [
+    "F5"
+   ],
+   "confidence": 0.75,
+   "rationale": "The patient takes empagliflozin, an oral hypoglycemic, long term.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Empagliflozin is a home and discharge oral hypoglycemic. Z79.84 is appropriate for long-term use of oral hypoglycemic drugs.",
+   "severity": "none",
+   "description": "Long term (current) use of oral hypoglycemic drugs"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F6"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hyperlipidemia is documented and treated with a statin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is documented and treated with a statin.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F7"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hypothyroidism is documented and treated with levothyroxine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypothyroidism is documented and treated with levothyroxine.",
+   "severity": "none",
+   "description": "Hypothyroidism, unspecified"
+  }
+ ],
+ "removed": [],
+ "issues": [],
+ "queries": [],
+ "drg": {
+  "family": "hf",
+  "number": "293",
+  "title": "Heart failure and shock w/o CC/MCC",
+  "weight": 0.64,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.475,
+ "confidence_base": 0.95,
+ "blocking_issues": 1,
+ "blocking_reasons": [
+  "hospital-acquired condition L89.153 coded POA=N: confirm before billing"
+ ],
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 25656,
+   "input_tokens": 8248,
+   "output_tokens": 4373,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.03011
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 25656,
+   "ms": 10888,
+   "input_tokens": 14483,
+   "output_tokens": 1363,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.0426
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 36544,
+   "ms": 4636,
+   "input_tokens": 6483,
+   "output_tokens": 643,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.0194
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-02T17:30",
+     "words": 220,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-02T20:00",
+     "words": 50,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-04T09:00",
+     "words": 79,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Wound care note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-05T14:20",
+     "words": 113,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-06T08:45",
+     "words": 83,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-09T11:30",
+     "words": 116,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 25656,
+   "stage": "evidence",
+   "type": "validation_retry",
+   "reason": "These quotes are not verbatim. Copy exact text from the document:\nF33: quote not found verbatim in d5: 'Breathing near baseline. Trace crackles.'"
+  },
+  {
+   "t": 25656,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Ischemic cardiomyopathy",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "ischemic cardiomyopathy (EF 25% on TTE 05/2026)",
+     "note": null,
+     "start": 14,
+     "end": 61
+    },
+    {
+     "id": "F2",
+     "condition": "Ejection fraction 25%",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "EF 25% on TTE 05/2026",
+     "note": null,
+     "start": 39,
+     "end": 60
+    },
+    {
+     "id": "F3",
+     "condition": "Heart failure with reduced ejection fraction (HFrEF)",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Acute on chronic systolic heart failure (HFrEF, EF 25%)",
+     "note": null,
+     "start": 893,
+     "end": 948
+    },
+    {
+     "id": "F4",
+     "condition": "Coronary artery disease s/p drug-eluting stent to RCA",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "CAD s/p DES to RCA 2019",
+     "note": null,
+     "start": 63,
+     "end": 86
+    },
+    {
+     "id": "F5",
+     "condition": "Type 2 diabetes mellitus",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "T2DM",
+     "note": null,
+     "start": 88,
+     "end": 92
+    },
+    {
+     "id": "F6",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HLD",
+     "note": null,
+     "start": 94,
+     "end": 97
+    },
+    {
+     "id": "F7",
+     "condition": "Hypothyroidism",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "hypothyroidism",
+     "note": null,
+     "start": 99,
+     "end": 113
+    },
+    {
+     "id": "F8",
+     "condition": "Acute decompensated heart failure with dyspnea on exertion",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "worsening DOE, orthopnea, abdominal bloating and leg swelling",
+     "note": null,
+     "start": 150,
+     "end": 211
+    },
+    {
+     "id": "F9",
+     "condition": "Volume overload with weight gain",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Weight up 12 lb",
+     "note": null,
+     "start": 213,
+     "end": 228
+    },
+    {
+     "id": "F10",
+     "condition": "Orthopnea",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "orthopnea",
+     "note": null,
+     "start": 165,
+     "end": 174
+    },
+    {
+     "id": "F11",
+     "condition": "Peripheral edema, pitting, 3+",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "3+ pitting edema to thighs",
+     "note": null,
+     "start": 658,
+     "end": 684
+    },
+    {
+     "id": "F12",
+     "condition": "Sacral edema",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "sacral edema",
+     "note": null,
+     "start": 686,
+     "end": 698
+    },
+    {
+     "id": "F13",
+     "condition": "Bibasilar crackles",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "bibasilar crackles",
+     "note": null,
+     "start": 634,
+     "end": 652
+    },
+    {
+     "id": "F14",
+     "condition": "S3 gallop",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "S3",
+     "note": null,
+     "start": 654,
+     "end": 656
+    },
+    {
+     "id": "F15",
+     "condition": "Elevated BNP",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "BNP 3,880",
+     "note": null,
+     "start": 732,
+     "end": 741
+    },
+    {
+     "id": "F16",
+     "condition": "Troponin flat/negative",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Troponin 0.04 flat",
+     "note": null,
+     "start": 743,
+     "end": 761
+    },
+    {
+     "id": "F17",
+     "condition": "Hyponatremia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Na 136",
+     "note": null,
+     "start": 763,
+     "end": 769
+    },
+    {
+     "id": "F18",
+     "condition": "Mild renal dysfunction with creatinine 1.1",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Cr 1.1 (baseline 1.0)",
+     "note": null,
+     "start": 778,
+     "end": 799
+    },
+    {
+     "id": "F19",
+     "condition": "Cardiomegaly",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "CXR: cardiomegaly",
+     "note": null,
+     "start": 810,
+     "end": 827
+    },
+    {
+     "id": "F20",
+     "condition": "Pulmonary edema",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "pulmonary edema",
+     "note": null,
+     "start": 829,
+     "end": 844
+    },
+    {
+     "id": "F21",
+     "condition": "Bilateral pleural effusions, small",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "bilateral small effusions",
+     "note": null,
+     "start": 846,
+     "end": 871
+    },
+    {
+     "id": "F22",
+     "condition": "No acute coronary syndrome",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "no ACS, flat troponin",
+     "note": null,
+     "start": 1158,
+     "end": 1179
+    },
+    {
+     "id": "F23",
+     "condition": "Pressure redistribution mattress placed on admission",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Pressure-redistribution mattress in place",
+     "note": null,
+     "start": 216,
+     "end": 257
+    },
+    {
+     "id": "F24",
+     "condition": "Skin intact on admission assessment",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "skin intact; no breakdown noted",
+     "note": null,
+     "start": 101,
+     "end": 132
+    },
+    {
+     "id": "F25",
+     "condition": "Braden score 15 (pressure ulcer risk)",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Braden score 15 (at risk)",
+     "note": null,
+     "start": 30,
+     "end": 55
+    },
+    {
+     "id": "F26",
+     "condition": "Clinical improvement with diuresis by hospital day 2",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Breathing better, lying flatter",
+     "note": null,
+     "start": 3,
+     "end": 34
+    },
+    {
+     "id": "F27",
+     "condition": "Creatinine increase to 1.2",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Cr 1.2",
+     "note": null,
+     "start": 114,
+     "end": 120
+    },
+    {
+     "id": "F28",
+     "condition": "Hospital-acquired sacral pressure injury, stage 3",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Stage: Stage 3 pressure injury, sacrum",
+     "note": null,
+     "start": 377,
+     "end": 415
+    },
+    {
+     "id": "F29",
+     "condition": "Full-thickness skin loss, sacral",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Full-thickness skin loss, 3.0 x 2.5 x 0.3 cm",
+     "note": null,
+     "start": 111,
+     "end": 155
+    },
+    {
+     "id": "F30",
+     "condition": "Subcutaneous fat visible on sacral wound",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Subcutaneous fat visible; no bone, tendon",
+     "note": null,
+     "start": 207,
+     "end": 248
+    },
+    {
+     "id": "F31",
+     "condition": "Wound bed with granulation tissue and slough",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Wound bed 80% red granulation, 20% yellow slough",
+     "note": null,
+     "start": 157,
+     "end": 205
+    },
+    {
+     "id": "F32",
+     "condition": "Successful diuresis with net loss 9 lb by day 4",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Wt down 9 lb",
+     "note": null,
+     "start": 123,
+     "end": 135
+    },
+    {
+     "id": "F33",
+     "condition": "Resolution of crackles to trace by day 4",
+     "assertion": "resolved",
+     "doc_id": "d5",
+     "quote": "Trace crackles",
+     "note": null,
+     "start": 97,
+     "end": 111
+    },
+    {
+     "id": "F34",
+     "condition": "Edema improvement to 1+",
+     "assertion": "resolved",
+     "doc_id": "d5",
+     "quote": "1+ edema",
+     "note": null,
+     "start": 113,
+     "end": 121
+    },
+    {
+     "id": "F35",
+     "condition": "Near euvolemia achieved",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "near euvolemia",
+     "note": null,
+     "start": 207,
+     "end": 221
+    },
+    {
+     "id": "F36",
+     "condition": "Sacral dressing clean, dry, intact",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Sacral dressing c/d/i",
+     "note": null,
+     "start": 145,
+     "end": 166
+    }
+   ]
+  },
+  {
+   "t": 25656,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "I'm working through the coding: principal diagnosis is acute on chronic systolic heart failure, then secondary codes for ischemic cardiomyopathy, prior CABG status, the sacral pressure ulcer stage 3 present on admission, plus diabetes, hyperlipidemia, and hypothyroidism.\n\n"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I50.23"
+   },
+   "id": "toolu_012A3vDUvzfnUVsY8MLuAbVL"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "L89.153"
+   },
+   "id": "toolu_0119rtwfqbUea8FxuqzXfPqX"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I25.5"
+   },
+   "id": "toolu_01TqCMeghkNgqUEYRUdpVPnL"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I25.10"
+   },
+   "id": "toolu_01PZ3uzcxWUw6Se6h4MacVCB"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z95.5"
+   },
+   "id": "toolu_0196Tqu1bx96rQWACuF6gMCN"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E11.9"
+   },
+   "id": "toolu_01VwLJQN84Yqt2pQp68jTtU2"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_01JoZCsKguQYyp2eJMAjL7dD"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E03.9"
+   },
+   "id": "toolu_018y39JKRHqkKmSbXgNNNStW"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.84"
+   },
+   "id": "toolu_01G2a4BdoEpW9kRvKLivvkCA"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_012A3vDUvzfnUVsY8MLuAbVL",
+   "result": "I50.23: Acute on chronic systolic (congestive) heart failure (billable)"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_0119rtwfqbUea8FxuqzXfPqX",
+   "result": "L89.153: Pressure ulcer of sacral region, stage 3 (billable)"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01TqCMeghkNgqUEYRUdpVPnL",
+   "result": "I25.5: Ischemic cardiomyopathy (billable)"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01PZ3uzcxWUw6Se6h4MacVCB",
+   "result": "I25.10: Atherosclerotic heart disease of native coronary artery without angina pectoris (billable)"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_0196Tqu1bx96rQWACuF6gMCN",
+   "result": "Z95.5: Presence of coronary angioplasty implant and graft (billable)"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01VwLJQN84Yqt2pQp68jTtU2",
+   "result": "E11.9: Type 2 diabetes mellitus without complications (billable)"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01JoZCsKguQYyp2eJMAjL7dD",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_018y39JKRHqkKmSbXgNNNStW",
+   "result": "E03.9: Hypothyroidism, unspecified (billable)"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01G2a4BdoEpW9kRvKLivvkCA",
+   "result": "Z79.84: Long term (current) use of oral hypoglycemic drugs (billable)"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"I50.23\",\"poa\":\"Y\",\"finding_ids\":[\"F3\",\"F8\",\"F9\"],\"confidence\":0.95,\"rationale\":\"Acute on chronic systolic HF was the reason for admission and is documented by the provider as the first discharge diagnosis.\"},\"secondary\":[{\"code\":\"L89.153\",\"poa\":\"N\",\"finding_ids\":[\"F28\",\"F24\",\"F29\",\"F30\"],\"confidence\":0.9,\"rationale\":\"The provider documented a stage 3 sacral pressure ulcer as hospital-acquired. The admission skin was intact, so POA is N.\"},{\"code\":\"I25.5\",\"poa\":\"Y\",\"finding_ids\":[\"F1\"],\"confidence\":0.9,\"rationale\":\"Ischemic cardiomyopathy is documented by the provider as a chron"
+  },
+  {
+   "t": 36544,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "I50.23",
+     "poa": "Y",
+     "finding_ids": [
+      "F3",
+      "F8",
+      "F9"
+     ],
+     "confidence": 0.95,
+     "rationale": "Acute on chronic systolic HF was the reason for admission and is documented by the provider as the first discharge diagnosis."
+    },
+    "secondary": [
+     {
+      "code": "L89.153",
+      "poa": "N",
+      "finding_ids": [
+       "F28",
+       "F24",
+       "F29",
+       "F30"
+      ],
+      "confidence": 0.9,
+      "rationale": "The provider documented a stage 3 sacral pressure ulcer as hospital-acquired. The admission skin was intact, so POA is N."
+     },
+     {
+      "code": "I25.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F1"
+      ],
+      "confidence": 0.9,
+      "rationale": "Ischemic cardiomyopathy is documented by the provider as a chronic condition."
+     },
+     {
+      "code": "I25.10",
+      "poa": "Y",
+      "finding_ids": [
+       "F4",
+       "F22"
+      ],
+      "confidence": 0.9,
+      "rationale": "CAD of a native vessel is documented with no angina and no ACS."
+     },
+     {
+      "code": "Z95.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F4"
+      ],
+      "confidence": 0.85,
+      "rationale": "The patient has a coronary stent (DES to RCA), which is a status code."
+     },
+     {
+      "code": "E11.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F5"
+      ],
+      "confidence": 0.85,
+      "rationale": "T2DM is documented with no complication linked by the provider."
+     },
+     {
+      "code": "Z79.84",
+      "poa": "Y",
+      "finding_ids": [
+       "F5"
+      ],
+      "confidence": 0.7,
+      "rationale": "The patient takes empagliflozin, an oral hypoglycemic, long term."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F6"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hyperlipidemia is documented and treated with a statin."
+     },
+     {
+      "code": "E03.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F7"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hypothyroidism is documented and treated with levothyroxine."
+     }
+    ],
+    "issues": []
+   }
+  },
+  {
+   "t": 36544,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 41180,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"I50.23\",\"verdict\":\"supported\",\"confidence\":0.95,\"reason\":\"Provider documents acute on chronic systolic HF as the reason for admission, treated with IV diuresis, and it is listed in the discharge diagnoses.\"},{\"code\":\"L89.153\",\"verdict\":\"supported\",\"confidence\":0.9,\"reason\":\"The attending documents a stage 3 sacral pressure ulcer as hospital-acquired (09/06 note and discharge summary), and the stage is supported by the wound care note. Admission skin was intact, so POA N is consistent. L89.153 is the pressure ulcer of the sacral region, stage 3, which fits.\"},{\"code\":\"I25.5"
+  },
+  {
+   "t": 41181,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "I50.23",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "reason": "Provider documents acute on chronic systolic HF as the reason for admission, treated with IV diuresis, and it is listed in the discharge diagnoses."
+     },
+     {
+      "code": "L89.153",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "The attending documents a stage 3 sacral pressure ulcer as hospital-acquired (09/06 note and discharge summary), and the stage is supported by the wound care note. Admission skin was intact, so POA N is consistent. L89.153 is the pressure ulcer of the sacral region, stage 3, which fits."
+     },
+     {
+      "code": "I25.5",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Ischemic cardiomyopathy is documented by the provider in the H&P and discharge summary."
+     },
+     {
+      "code": "I25.10",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "CAD is documented, and there is no angina or ACS."
+     },
+     {
+      "code": "Z95.5",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "A DES to the RCA is documented."
+     },
+     {
+      "code": "E11.9",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "T2DM is documented with no linked complication."
+     },
+     {
+      "code": "Z79.84",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "Empagliflozin is a home and discharge oral hypoglycemic. Z79.84 is appropriate for long-term use of oral hypoglycemic drugs."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hyperlipidemia is documented and treated with a statin."
+     },
+     {
+      "code": "E03.9",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hypothyroidism is documented and treated with levothyroxine."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": []
+   }
+  },
+  {
+   "t": 41181,
+   "stage": "grouper",
+   "type": "output",
+   "family": "hf",
+   "drg": "293",
+   "title": "Heart failure and shock w/o CC/MCC",
+   "weight": 0.64,
+   "tier": "none",
+   "drivers": []
+  },
+  {
+   "t": 41181,
+   "stage": "router",
+   "type": "output",
+   "base": 0.95,
+   "blocking": 0,
+   "reasons": [],
+   "confidence": 0.95
+  }
+ ],
+ "ms": 41181,
+ "cost_usd": 0.09211
+}

@@ -1,0 +1,116 @@
+{
+  "id": "enc-03",
+  "title": "Heart failure, cardiology specificity, unnamed creatinine rise",
+  "summary": "A man with a weak heart and kidney disease was admitted for fluid overload; only the cardiologist spelled out the type of heart failure, and his kidney numbers rose mid-stay without any doctor naming a diagnosis.",
+  "hero": true,
+  "family": "hf",
+  "patient": {
+    "age": 66,
+    "sex": "M"
+  },
+  "admit_date": "2026-09-20",
+  "discharge_date": "2026-09-24",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "D. Kaplan, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-20T09:05",
+      "text": "CC: Shortness of breath.\n\nHPI: 66M with HFrEF (EF 25%), CKD 3b, HTN, insulin-treated T2DM and OSA presents with 1 week of progressive DOE, now SOB walking to the mailbox, 3-pillow orthopnea, PND and leg swelling. Home scale up 10 lb (4.5 kg). Reports taking all meds; no clear dietary change. No chest pain, fever or cough.\n\nVitals: T 36.8, HR 96, BP 152/88, RR 24, SpO2 93% RA -> 96% on 2 L NC.\nExam: Uncomfortable, speaking in short sentences. JVD to angle of jaw. Bibasilar crackles halfway up. S3. 3+ pitting edema to knees.\n\nLabs: BNP 2,900. Troponin <0.01 x2. Na 137, K 4.6, BUN 38, Cr 1.6, Glu 214. Hgb 13.4.\nECG: sinus rhythm 94, no acute ST changes. CXR: cardiomegaly, pulmonary vascular congestion, small bilateral effusions.\n\nAssessment/Plan:\n1. CHF exacerbation - furosemide 80 mg IV now, O2, upright positioning.\nDispo: Admit to hospital medicine, telemetry."
+    },
+    {
+      "id": "d2",
+      "type": "H&P",
+      "author": "P. Sandoval, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-20T13:15",
+      "text": "HISTORY AND PHYSICAL\n\nHPI: 66M admitted with 1 week of worsening dyspnea, orthopnea and edema; see ED note. Diuresed ~900 mL after first IV furosemide dose.\n\nPMH: HFrEF, EF 25% (TTE 03/2026). CKD stage 3b (baseline Cr 1.5-1.7, eGFR ~40), attributed to diabetes and hypertension. T2DM with diabetic CKD, on insulin (A1c 7.9% 08/2026). HTN. Hyperlipidemia. OSA on CPAP.\nMeds: torsemide 40 mg daily, sacubitril/valsartan 24/26 mg BID, carvedilol 12.5 mg BID, spironolactone 12.5 mg daily, empagliflozin 10 mg daily, insulin glargine 24 units qHS, atorvastatin 40 mg daily.\nSocial: Retired bus mechanic, lives with wife. Never smoker. No EtOH.\n\nExam: HR 90, BP 144/84, RR 20, SpO2 96% 2 L. Weight 97.3 kg (dry weight ~92 kg). JVP 14 cm. Crackles bilateral bases. 3+ edema to knees.\n\nAssessment/Plan:\n1. CHF exacerbation - no clear precipitant. Furosemide 80 mg IV BID, strict I/O, daily weights, 2 g Na diet, 1.5 L fluid restriction. Continue carvedilol and sacubitril/valsartan. Cardiology consult.\n2. CKD stage 3b - Cr 1.6, at baseline. Daily BMP while diuresing.\n3. T2DM with diabetic CKD - glargine 20 units + correction scale. Hold empagliflozin while inpatient, resume at discharge.\n4. HTN - on GDMT as above.\n5. Hyperlipidemia - atorvastatin.\n6. OSA - CPAP qHS, home settings.\nVTE ppx: heparin 5,000 units SC q8h. Code: Full."
+    },
+    {
+      "id": "d3",
+      "type": "Consult",
+      "author": "N. Abernathy, MD (Cardiology)",
+      "author_role": "consultant",
+      "timestamp": "2026-09-21T10:30",
+      "text": "CARDIOLOGY CONSULTATION\nRequested by: Dr. P. Sandoval. Reason: heart failure management.\n\nHPI: 66M with known HFrEF followed in our HF clinic, admitted with volume overload. Last clinic visit 06/2026 euvolemic at 92 kg, NYHA II. Now NYHA III-IV symptoms for 1 week.\n\nData: TTE 03/2026: LVEF 25%, global hypokinesis, LV dilated, normal RV function. BNP 2,900 on admission. Net -2.4 L in first 24 h. Cr 1.9 today (1.6 on admission).\n\nExam: JVP 12 cm, crackles at bases, 2+ edema.\n\nIMPRESSION:\n1. Acute on chronic systolic heart failure (HFrEF), EF 25%, NYHA class III, volume overloaded ~5 kg above dry weight.\n2. CKD stage 3b.\n3. Hypertension.\n\nRECOMMENDATIONS:\n- Continue furosemide 80 mg IV BID; goal net negative 1.5-2 L/day.\n- Continue carvedilol 12.5 mg BID and sacubitril/valsartan; continue spironolactone if K <5.0.\n- Resume empagliflozin at discharge.\n- Transition to torsemide 40 mg BID when near dry weight.\n- HF clinic follow-up within 7 days; repeat TTE in 3 months after GDMT optimization."
+    },
+    {
+      "id": "d4",
+      "type": "Progress note",
+      "author": "P. Sandoval, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-22T11:40",
+      "text": "HOSPITAL DAY 3\n\nS: Breathing much better, slept with 1 pillow. No dizziness.\nO: HR 82, BP 112/68, RR 16, SpO2 96% RA. Weight 94.1 kg. Net -4.6 L since admission. JVP 9 cm, trace edema.\nLabs: Cr 2.5 (1.9 yesterday, 1.6 on admission), BUN 58, K 4.9, Na 136.\n\nAssessment/Plan:\n1. CHF exacerbation - diuresing well, near euvolemic. Hold furosemide and spironolactone today; hold sacubitril/valsartan x24 h. Recheck BMP in AM.\n2. CKD stage 3b - see above. Monitor BMP, avoid nephrotoxins.\n3. T2DM - BG 140-190 on glargine + correction.\n4. HTN - controlled.\n5. OSA - CPAP."
+    },
+    {
+      "id": "d5",
+      "type": "Lab summary",
+      "author": "Clinical Laboratory",
+      "author_role": "lab",
+      "timestamp": "2026-09-24T06:30",
+      "text": "RENAL FUNCTION TREND\nDate        Cr (mg/dL)  BUN  K    eGFR\n06/12/2026  1.6         30   4.4  46  (outpatient)\n09/20/2026  1.6         38   4.6  46\n09/21/2026  1.9         45   4.7  38\n09/22/2026  2.5         58   4.9  28\n09/23/2026  2.1         52   4.6  34\n09/24/2026  1.8         44   4.4  40\n\nBNP: 09/20 2,900 pg/mL; 09/23 1,180 pg/mL\nHemoglobin A1c (08/2026): 7.9%"
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "P. Sandoval, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-24T12:20",
+      "text": "DISCHARGE SUMMARY\nAdmit: 09/20/2026   Discharge: 09/24/2026   Disposition: Home\n\nDISCHARGE DIAGNOSES:\n1. CHF exacerbation\n2. CKD stage 3b\n3. Type 2 diabetes mellitus with diabetic CKD, on insulin\n4. Hypertension\n5. Hyperlipidemia\n6. Obstructive sleep apnea\n\nHOSPITAL COURSE:\n66M with HFrEF (EF 25%) admitted with volume overload. Diuresed with IV furosemide, net -5.8 L, weight 97.3 -> 92.6 kg. Cardiology followed and agreed with plan. Creatinine rose to 2.5 on HD3 with diuresis; furosemide, spironolactone and sacubitril/valsartan were held for 24 h and creatinine improved to 1.8 by discharge. Transitioned to torsemide 40 mg BID. Off O2 since HD2.\n\nDISCHARGE MEDICATIONS: torsemide 40 mg BID (increased), sacubitril/valsartan 24/26 mg BID, carvedilol 12.5 mg BID, spironolactone 12.5 mg daily, empagliflozin 10 mg daily (resume), insulin glargine 24 units qHS, atorvastatin 40 mg daily.\n\nFOLLOW-UP: HF clinic (Dr. Abernathy) in 7 days. BMP in 3 days. Daily weights; call for gain >2 lb/day or 5 lb/week."
+    }
+  ],
+  "gold": {
+    "pdx": "I13.0",
+    "secondary": [
+      {
+        "code": "I50.23",
+        "poa": "Y"
+      },
+      {
+        "code": "N18.32",
+        "poa": "Y"
+      },
+      {
+        "code": "E11.22",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.4",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.84",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "G47.33",
+        "poa": "Y"
+      }
+    ],
+    "drg": "291",
+    "route": "coder",
+    "hold_reasons": [
+      "Possible acute kidney injury documented only by laboratory values: creatinine 1.6 -> 2.5 mg/dL within 48 h during IV diuresis, back to 1.8 at discharge; diuretics and ARNI were held, but no provider named a diagnosis. Laboratory findings alone are not codable; query attending before final coding."
+    ],
+    "query": {
+      "topic": "Clinical significance of rising creatinine during diuresis. Clinical indicators: CKD stage 3b with baseline creatinine 1.5-1.7 mg/dL; creatinine 1.6 on admission (09/20), 1.9 (09/21), 2.5 (09/22) and 1.8 at discharge (09/24) while on furosemide 80 mg IV BID; BUN 38 -> 58; furosemide, spironolactone and sacubitril/valsartan held for 24 h on 09/22. Based on your clinical judgment, please clarify whether this represents a diagnosis.",
+      "options": [
+        "Acute kidney injury",
+        "Expected fluctuation of chronic kidney disease",
+        "Other (please specify)",
+        "Clinically undetermined"
+      ]
+    },
+    "traps": [
+      "consultant_specificity",
+      "combination_code",
+      "lab_only"
+    ],
+    "explanation": "Hypertension, CKD and heart failure together take the combination code I13.0 as principal (OCG I.C.9.a.3), with the heart failure type from cardiology's 'acute on chronic systolic heart failure (HFrEF)' (I50.23, MCC), since the hospitalist only says 'CHF exacerbation' and nothing conflicts. Add N18.32 for stage 3b and E11.22 for diabetic CKD, which gives DRG 291. The creatinine rise meets KDIGO AKI criteria, but no provider named it, so it goes to a query rather than becoming N17.9 from labs. A naive system codes I50.9 or I11.0 and misses the combination code, or codes AKI straight from the lab trend."
+  }
+}

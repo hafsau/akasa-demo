@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.next/
+.DS_Store
+test-results/
+playwright-report/
+lighthouse-reports/
+.lighthouseci/
+*.tsbuildinfo
+next-env.d.ts
+evals/run-log*.txt

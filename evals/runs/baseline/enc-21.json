@@ -1,0 +1,125 @@
+{
+ "case_id": "enc-21",
+ "codes": [
+  {
+   "code": "A41.51",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Sepsis due to Escherichia coli [E. coli]",
+   "confidence": 0.55
+  },
+  {
+   "code": "R65.20",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Severe sepsis without septic shock",
+   "confidence": 0.55
+  },
+  {
+   "code": "N17.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Acute kidney failure, unspecified",
+   "confidence": 0.55
+  },
+  {
+   "code": "G93.41",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Metabolic encephalopathy",
+   "confidence": 0.55
+  },
+  {
+   "code": "N39.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Urinary tract infection, site not specified",
+   "confidence": 0.55
+  },
+  {
+   "code": "B96.20",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere",
+   "confidence": 0.55
+  },
+  {
+   "code": "E87.20",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Acidosis, unspecified",
+   "confidence": 0.55
+  },
+  {
+   "code": "E11.65",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus with hyperglycemia",
+   "confidence": 0.55
+  },
+  {
+   "code": "E11.22",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease",
+   "confidence": 0.55
+  },
+  {
+   "code": "I12.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",
+   "confidence": 0.55
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.55
+  },
+  {
+   "code": "E86.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Dehydration",
+   "confidence": 0.55
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of oral hypoglycemic drugs",
+   "confidence": 0.55
+  }
+ ],
+ "drg": {
+  "family": "sepsis",
+  "number": "871",
+  "weight": 1.86,
+  "tier": "MCC",
+  "drivers": [
+   "G93.41"
+  ]
+ },
+ "confidence": 0.275,
+ "needs_human": true,
+ "reason": "Key uncertainties: (1) E11.22/I12.9 not documented by provider - diabetes with CKD or hypertensive CKD cannot be assumed; AKI is acute, no CKD documented, so these should likely be removed and replaced with E11.9 or E11.65 plus I10. (2) E11.65 hyperglycemia: glucose 248 but 'hyperglycemia' not documented by provider, so E11.65 may be unsupported, use E11.9. (3) E87.20 lactic acidosis: provider documented lactic acidosis in H&P as organ dysfunction, acceptable but E87.20 vs E87.29 should be verified for FY2027 code set. (4) Dehydration/volume depletion documented in H&P; E86.0 acceptable. (5) Pyelonephritis was only 'likely early' and not carried to discharge, so N39.0 retained. (6) Z79.84 long-term oral hypoglycemic use reasonable, insulin inpatient only. Recommend coder review of diabetes/hypertension code assignment.",
+ "ms": 7140,
+ "cost_usd": 0.01218,
+ "input_tokens": 3034,
+ "output_tokens": 611
+}

@@ -1,0 +1,118 @@
+{
+  "id": "enc-18",
+  "title": "AKI vs. baseline CKD, consultant disagrees",
+  "summary": "The hospitalist calls it acute kidney injury, but the kidney specialist says the creatinine is just the patient's usual level, so the attending must be asked to resolve the conflict.",
+  "hero": false,
+  "family": "aki",
+  "patient": {
+    "age": 68,
+    "sex": "M"
+  },
+  "admit_date": "2026-09-08",
+  "discharge_date": "2026-09-11",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "J. Whitcomb, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T15:02",
+      "text": "CC: nausea, poor PO intake, lightheaded.\nHPI: 68 y/o M with T2DM on insulin, HTN, CKD, HLD, OSA presents with 3 days of nausea and decreased PO intake after a \"stomach bug\" at home (grandchildren sick). 2 episodes of emesis day 1, none since. No diarrhea x 24 h. Lightheaded on standing this AM. Continued lisinopril and HCTZ at home.\nVitals: T 36.8, HR 98, BP 112/66 (orthostatic drop to 96/60 standing), RR 16, SpO2 97% RA.\nExam: Dry mucous membranes. Abd soft, mild diffuse tenderness, no rebound. Lungs clear.\nLabs: Na 137, K 4.6, Cl 101, HCO3 23, BUN 34, Cr 1.5, glucose 211. WBC 8.1. Lipase nl. UA: SG 1.025, trace protein, no blood.\nED course: 1 L NS bolus, ondansetron 4 mg IV.\nImpression: Dehydration, nausea, elevated Cr. Admit to hospitalist."
+    },
+    {
+      "id": "d2",
+      "type": "H&P",
+      "author": "A. Lindqvist, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T18:30",
+      "text": "HISTORY AND PHYSICAL\nHPI: 68M with T2DM (insulin), HTN, CKD 3a, HLD, OSA on CPAP, presenting with 3 days nausea/poor PO intake after viral GI illness, now lightheaded with orthostasis. Cr 1.5 today; last value I can find in our system is 1.1 (06/2022).\nPMH: T2DM with diabetic nephropathy, HTN, CKD 3a, HLD, OSA.\nMeds: insulin glargine 24 u qHS, lispro SSI, lisinopril 20 mg daily, HCTZ 25 mg daily, atorvastatin 40 mg, CPAP nightly.\nExam: Tired-appearing, A&Ox3. Dry MM. RRR. Lungs CTAB. Abd soft. No edema.\nASSESSMENT/PLAN:\n1. AKI on CKD 3a - Cr 1.5 from 1.1 (2022), likely prerenal from volume depletion + ACEi/thiazide. Hold lisinopril and HCTZ. IVF NS 100 mL/h. Strict I/O. Renal US if not improving. Nephrology consult for AKI on CKD.\n2. Dehydration due to viral gastroenteritis, resolving - IVF, antiemetics PRN, advance diet.\n3. T2DM with diabetic CKD, on insulin - reduce glargine to 16 u while PO poor, SSI.\n4. HTN - holding antihypertensives as above; BP soft.\n5. HLD - atorvastatin.\n6. OSA - CPAP qHS.\nDVT ppx: heparin SQ. Full code."
+    },
+    {
+      "id": "d3",
+      "type": "Consult",
+      "author": "P. Raghunathan, MD (Nephrology)",
+      "author_role": "consultant",
+      "timestamp": "2026-09-09T11:15",
+      "text": "NEPHROLOGY CONSULTATION\nReason: \"AKI on CKD 3a.\"\nHPI: As per H&P. Reviewed outside records from his nephrologist (Dr. Ferreira, Valley Kidney Associates): creatinine 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026); eGFR 46-54. Followed for CKD 3a due to diabetic nephropathy with contribution from hypertension. UACR 180 mg/g (05/2026).\nToday: Cr 1.5 -> 1.5 (AM). UOP 1.6 L/24 h. UA bland, no casts.\nExam: Euvolemic after IVF. No edema. No rub.\nASSESSMENT:\n1. No AKI. Creatinine 1.5 is at his established baseline of 1.4-1.6; the 2022 value of 1.1 predates his CKD progression and is not an appropriate comparator. KDIGO criteria for AKI not met.\n2. CKD stage 3a due to diabetic nephropathy and HTN, stable.\n3. Mild volume depletion from GI losses, corrected.\nRECOMMENDATIONS:\n- Stop IVF today, encourage PO.\n- Resume lisinopril at discharge once taking PO well; would hold HCTZ until seen in clinic.\n- No renal imaging needed.\n- Follow up with Dr. Ferreira in 4-6 weeks. We will sign off; call with questions."
+    },
+    {
+      "id": "d4",
+      "type": "Lab summary",
+      "author": "Clinical Laboratory",
+      "author_role": "lab",
+      "timestamp": "2026-09-10T06:20",
+      "text": "Creatinine trend: 09/08 15:00 1.5; 09/09 05:30 1.5; 09/10 05:40 1.4.\nBUN: 34 -> 25 -> 19. K 4.6 -> 4.3 -> 4.2. HCO3 23 -> 24 -> 25.\nGlucose (fingerstick) range 132-244.\nOutside results scanned to chart 09/09: Cr 1.4 (03/2025), 1.6 (11/2025), 1.5 (05/2026)."
+    },
+    {
+      "id": "d5",
+      "type": "Progress note",
+      "author": "A. Lindqvist, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-10T09:40",
+      "text": "S: Nausea resolved, tolerating regular diet. No lightheadedness walking in hall.\nO: T 36.7, HR 76, BP 134/80, orthostatics negative. Cr 1.4, BUN 19.\nA/P:\n1. AKI on CKD 3a - Cr 1.5 -> 1.4, improving with hydration. Nephrology input appreciated. IVF stopped.\n2. Dehydration due to viral gastroenteritis - resolved.\n3. T2DM with diabetic CKD on insulin - BG 130-240s, resume home glargine 24 u tonight.\n4. HTN - BP up; resume lisinopril tomorrow AM, continue holding HCTZ.\n5. HLD, OSA - stable.\nPlan d/c home tomorrow."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "A. Lindqvist, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-11T10:50",
+      "text": "DISCHARGE SUMMARY\nAdmit 09/08/2026 - Discharge 09/11/2026. Home, self-care.\nPrincipal diagnosis: Acute kidney injury on CKD stage 3a, prerenal, resolved.\nSecondary diagnoses: Dehydration due to viral gastroenteritis. Type 2 diabetes mellitus with diabetic CKD, on insulin. Hypertension. Hyperlipidemia. Obstructive sleep apnea.\nHospital course: Admitted with 3 days of nausea/poor PO intake and orthostasis, Cr 1.5. Treated as prerenal AKI on CKD 3a with IVF and holding ACEi/thiazide. Cr 1.4 at discharge. Seen by nephrology. Tolerating diet.\nDischarge meds: resume lisinopril 20 mg daily; HOLD HCTZ until nephrology follow-up; insulin glargine 24 u qHS; atorvastatin 40 mg.\nFollow-up: PCP 1 week with BMP; Dr. Ferreira (nephrology) 4-6 weeks."
+    }
+  ],
+  "gold": {
+    "pdx": "N17.9",
+    "secondary": [
+      {
+        "code": "E86.0",
+        "poa": "Y"
+      },
+      {
+        "code": "A08.4",
+        "poa": "Y"
+      },
+      {
+        "code": "E11.22",
+        "poa": "Y"
+      },
+      {
+        "code": "I12.9",
+        "poa": "Y"
+      },
+      {
+        "code": "N18.31",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.4",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "G47.33",
+        "poa": "Y"
+      }
+    ],
+    "drg": "684",
+    "route": "coder",
+    "hold_reasons": [
+      "Conflicting documentation: the attending documents 'AKI on CKD 3a' (H&P, HD3 progress note, discharge summary), but the nephrology consult states 'No AKI', with creatinine 1.5 at the established baseline of 1.4-1.6 and KDIGO criteria not met. The attending never addresses the consultant's finding. When attending and consultant conflict, the attending must be queried before final coding (OCG I.A.19; Coding Clinic guidance that attending-consultant conflicts go to the attending)."
+    ],
+    "query": {
+      "topic": "Acute kidney injury vs. CKD at baseline. The H&P and discharge summary document 'AKI on CKD 3a' (admission creatinine 1.5 compared with 1.1 in 06/2022). The nephrology consult on 09/09 documents 'No AKI' with creatinine at the established baseline of 1.4-1.6 (outside values 1.4 in 03/2025, 1.6 in 11/2025, 1.5 in 05/2026). Inpatient creatinine 1.5, 1.5, then 1.4; urine output 1.6 L/24 h. Based on your clinical judgment, please clarify the renal diagnosis for this admission.",
+      "options": [
+        "Acute kidney injury on chronic kidney disease stage 3a",
+        "Chronic kidney disease stage 3a at baseline, without acute kidney injury",
+        "Other (please specify)",
+        "Clinically undetermined"
+      ]
+    },
+    "traps": [
+      "conflicting_notes"
+    ],
+    "explanation": "The attending carries 'AKI on CKD 3a' all the way to discharge, using a 2022 creatinine as the comparator. The nephrologist reviewed outside records and says creatinine 1.5 is this patient's baseline, so there is no AKI. Provisionally the key follows the attending (N17.9 PDx with dehydration, viral gastroenteritis, E11.22, I12.9, N18.31). Because attending and consultant conflict, the account must be held and the attending queried. A naive system codes AKI without noticing the consult; an overcorrecting one drops AKI on the consultant's word alone, which a coder can't do without the attending."
+  }
+}

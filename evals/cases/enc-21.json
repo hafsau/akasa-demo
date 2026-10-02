@@ -1,0 +1,100 @@
+{
+  "id": "enc-21",
+  "title": "Severe E. coli sepsis, shock explicitly absent",
+  "summary": "Severe sepsis from an E. coli urinary infection with kidney injury and confusion; the doctors clearly state there was no septic shock.",
+  "hero": false,
+  "family": "sepsis",
+  "patient": {
+    "age": 77,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-12",
+  "discharge_date": "2026-09-17",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "C. Delacroix, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-12T07:40",
+      "text": "CC: confusion, fever.\nHPI: 77 y/o F with T2DM, HTN, HLD brought by daughter for 1 day of confusion and fever after 3 days of dysuria and frequency. Daughter reports she was \"talking nonsense\" this AM and did not recognize her granddaughter. Decreased PO intake x 2 days.\nVitals on arrival: T 39.2 C, HR 118, RR 24, BP 98/56 (MAP 70), SpO2 95% RA.\nExam: Ill-appearing, oriented to self only, inattentive. Dry MM. Suprapubic tenderness, + R CVA tenderness. Lungs clear.\nLabs: WBC 18.6 (bands 12%), Hgb 12.4, Plt 162. Na 136, K 4.4, HCO3 17, BUN 41, Cr 2.3 (baseline 0.8, 04/2026). Lactate 4.2. Glucose 248. UA: large LE, nitrite +, > 100 WBC/hpf, many bacteria.\nED course: Sepsis alert. Blood cx x2, urine cx. 30 mL/kg LR (2 L) over 1 h. Ceftriaxone 2 g IV. Concern for septic shock on arrival; after fluids MAP 74-78, never < 65, no vasopressors required.\nImpression: Severe sepsis, UTI source. Admit to step-down."
+    },
+    {
+      "id": "d2",
+      "type": "H&P",
+      "author": "N. Achterberg, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-12T11:10",
+      "text": "HISTORY AND PHYSICAL\nHPI: 77F with T2DM (metformin), HTN, HLD with 3 days dysuria, 1 day fever and acute confusion. Met sepsis criteria in ED with lactate 4.2, Cr 2.3 from baseline 0.8, and acute encephalopathy. Received 30 mL/kg LR.\nPMH: T2DM (A1c 7.6%), HTN, HLD. Meds: metformin 500 mg BID, losartan 50 mg, atorvastatin 20 mg.\nExam: T 38.4, HR 102, BP 108/62 (MAP 77), RR 20. Oriented to self and place only, inattentive on months-backward test. No focal deficits, no meningismus. + R CVA tenderness.\nASSESSMENT/PLAN:\n1. Severe sepsis due to UTI (likely early pyelonephritis), with acute organ dysfunction (AKI, lactic acidosis, encephalopathy). No signs of septic shock - MAP > 65 after initial fluid resuscitation without pressors. Ceftriaxone 2 g daily; f/u cultures. Repeat lactate in 4 h. Additional LR 500 mL boluses PRN MAP < 65.\n2. AKI due to sepsis/volume depletion - Cr 2.3 from 0.8. Hold losartan and metformin. IVF, strict I/O, renally dose meds.\n3. Acute metabolic encephalopathy due to sepsis/UTI - no sedating meds, delirium precautions, frequent reorientation. CT head not indicated (nonfocal, clear infectious source).\n4. T2DM - hold metformin; basal-bolus insulin while inpatient.\n5. HTN - hold losartan given soft BP.\n6. HLD - continue statin.\nCode: Full. Step-down."
+    },
+    {
+      "id": "d3",
+      "type": "Lab summary",
+      "author": "Clinical Laboratory",
+      "author_role": "lab",
+      "timestamp": "2026-09-13T06:30",
+      "text": "Lactate: 09/12 07:10 4.2; 09/12 12:05 2.4; 09/12 18:00 1.9; 09/13 05:50 1.3.\nCreatinine: 2.3 -> 1.9 -> 1.4 (09/13).\nWBC 18.6 -> 14.2. Plt 162 -> 151.\nUrine culture (09/12): > 100,000 CFU/mL Escherichia coli, susceptible to ceftriaxone, cefazolin, TMP-SMX; resistant to ampicillin.\nBlood cultures (09/12): 2/2 bottles Escherichia coli (same susceptibility pattern)."
+    },
+    {
+      "id": "d4",
+      "type": "Progress note",
+      "author": "N. Achterberg, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-13T10:20",
+      "text": "S: More alert, knows she is in hospital, still mildly inattentive. Eating some breakfast.\nO: Tmax 38.0, HR 90, BP 122/68, MAP 86 off fluids. Lactate cleared 1.3. Cr 1.4. Blood and urine cx: E. coli.\nA/P:\n1. Severe sepsis due to E. coli UTI with E. coli bacteremia - no septic shock at any point; never required vasopressors. Continue ceftriaxone; plan 10-14 day total course for bacteremic UTI. Transfer to med-surg.\n2. AKI - improving, Cr 2.3 -> 1.4.\n3. Acute metabolic encephalopathy - improving with treatment of infection.\n4. T2DM - BG 160-220, titrate insulin.\n5. HTN - continue holding losartan. 6. HLD - statin."
+    },
+    {
+      "id": "d5",
+      "type": "Discharge summary",
+      "author": "N. Achterberg, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-17T11:45",
+      "text": "DISCHARGE SUMMARY\nAdmit 09/12/2026 - Discharge 09/17/2026. Home with daughter, home health RN.\nPrincipal diagnosis: Sepsis due to E. coli (blood and urine cultures), urinary source.\nSecondary diagnoses: Severe sepsis with acute organ dysfunction (AKI, acute metabolic encephalopathy) - without septic shock. Urinary tract infection, E. coli. Acute kidney injury, resolved. Acute metabolic encephalopathy, resolved. Type 2 diabetes mellitus. Hypertension. Hyperlipidemia.\nHospital course: Presented with fever, confusion, dysuria, lactate 4.2 and Cr 2.3. Fluid resuscitated with prompt MAP response; no septic shock, no vasopressors. Treated with IV ceftriaxone, transitioned to PO cefpodoxime 09/16 per susceptibilities. Lactate normalized within 24 h; Cr 0.9 at discharge. Mental status back to baseline per daughter by HD3.\nDischarge meds: cefpodoxime 200 mg BID to complete 14 days total; resume metformin 09/19 if PO intake good; resume losartan at PCP visit; atorvastatin 20 mg.\nFollow-up: PCP 1 week with BMP."
+    }
+  ],
+  "gold": {
+    "pdx": "A41.51",
+    "secondary": [
+      {
+        "code": "R65.20",
+        "poa": "Y"
+      },
+      {
+        "code": "N39.0",
+        "poa": "Y"
+      },
+      {
+        "code": "N17.9",
+        "poa": "Y"
+      },
+      {
+        "code": "G93.41",
+        "poa": "Y"
+      },
+      {
+        "code": "E11.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.84",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      }
+    ],
+    "drg": "871",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [
+      "negation"
+    ],
+    "explanation": "Sepsis due to E. coli is PDx A41.51. Severe sepsis with acute organ dysfunction (AKI, metabolic encephalopathy) adds R65.20, and the localized infection N39.0 and each organ dysfunction (N17.9, G93.41) are coded separately. Septic shock is explicitly negated in several notes ('no signs of septic shock', 'never required vasopressors'), so R65.21 is wrong. A naive system latches onto the ED's 'concern for septic shock' or the initial BP 98/56. G93.41 is the MCC, giving DRG 871."
+  }
+}

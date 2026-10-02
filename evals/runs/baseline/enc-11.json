@@ -1,0 +1,77 @@
+{
+ "case_id": "enc-11",
+ "codes": [
+  {
+   "code": "J18.9",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Pneumonia, unspecified organism",
+   "confidence": 0.4
+  },
+  {
+   "code": "J96.01",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Acute respiratory failure with hypoxia",
+   "confidence": 0.4
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.4
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.4
+  },
+  {
+   "code": "N40.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Benign prostatic hyperplasia without lower urinary tract symptoms",
+   "confidence": 0.4
+  },
+  {
+   "code": "M17.11",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Unilateral primary osteoarthritis, right knee",
+   "confidence": 0.4
+  },
+  {
+   "code": "Z87.891",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Personal history of nicotine dependence",
+   "confidence": 0.4
+  }
+ ],
+ "drg": {
+  "family": "pneumonia",
+  "number": "193",
+  "weight": 1.31,
+  "tier": "MCC",
+  "drivers": [
+   "J96.01"
+  ]
+ },
+ "confidence": 0.2,
+ "needs_human": true,
+ "reason": "Sequencing question: acute hypoxic respiratory failure was present on admission (SpO2 84% RA, RR 30, accessory muscle use in ED) and is documented as secondary to pneumonia. Per guidelines, when respiratory failure and pneumonia are both POA and meet the principal diagnosis definition, either may be sequenced first depending on circumstances of admission and the focus of treatment. Pneumonia (J18.9) was chosen as the principal diagnosis because it was the underlying cause and the focus of the admission, but J96.01 as principal is a reasonable alternative, so coder review is needed. J18.9 was assigned because the organism was not identified and the LLL location has no specific code. Emphysema was not coded because radiology said it was not well evaluated and pulmonology documented no obstructive lung disease. N40.0 was used since no LUTS were documented.",
+ "ms": 5188,
+ "cost_usd": 0.01044,
+ "input_tokens": 3066,
+ "output_tokens": 431
+}

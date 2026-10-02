@@ -1,0 +1,104 @@
+{
+  "id": "enc-23",
+  "title": "AKI with malnutrition only in dietitian note",
+  "summary": "Kidney injury from dehydration; the dietitian found severe malnutrition but no doctor diagnosed it, so the doctor needs to be asked before it can be coded.",
+  "hero": false,
+  "family": "aki",
+  "patient": {
+    "age": 84,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-06",
+  "discharge_date": "2026-09-10",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "G. Halvorsen, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-06T12:10",
+      "text": "CC: weakness, not eating.\nHPI: 84 y/o F with HTN, HLD, hypothyroidism, osteoporosis, depression brought by son for progressive weakness and poor oral intake. Husband died in June; since then son notes she \"barely eats,\" drinks little, has lost weight, and stays in bed most of the day. No vomiting, diarrhea, fever, or urinary symptoms. Continued her HCTZ/lisinopril.\nVitals: T 36.5, HR 102, BP 104/60, RR 16, SpO2 97% RA. Wt 45.8 kg.\nExam: Thin, frail, dry MM, temporal hollowing. Abd scaphoid, soft. A&Ox3, flat affect.\nLabs: Na 144, K 3.6, HCO3 26, BUN 62, Cr 2.4 (baseline 0.8, 02/2026), glucose 92. Albumin 3.0. WBC 7.2, Hgb 11.6. UA concentrated, otherwise bland. TSH 3.4.\nED course: 1 L NS.\nImpression: AKI, dehydration. Admit."
+    },
+    {
+      "id": "d2",
+      "type": "H&P",
+      "author": "V. Szabo, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-06T15:45",
+      "text": "HISTORY AND PHYSICAL\nHPI: 84F with HTN, HLD, hypothyroidism, osteoporosis, depression (worse since husband's death 3 months ago) presenting with weakness, poor PO intake, Cr 2.4 from baseline 0.8, BUN 62.\nMeds: lisinopril 10 mg, HCTZ 12.5 mg, atorvastatin 10 mg, levothyroxine 50 mcg, sertraline 50 mg, alendronate 70 mg weekly, vitamin D.\nExam: T 36.6, HR 96, BP 108/62. Thin, dry MM. RRR. Lungs clear. No edema. A&Ox3.\nASSESSMENT/PLAN:\n1. AKI, prerenal - due to dehydration from poor PO intake plus ACEi/thiazide. Hold lisinopril, HCTZ. NS 100 mL/h, BMP in AM, I/O. Avoid nephrotoxins.\n2. Dehydration - IVF as above, encourage PO.\n3. Poor PO intake / weight loss - dietitian consult. Calorie counts.\n4. Depression - continue sertraline; SW consult for bereavement support.\n5. HTN - holding antihypertensives.\n6. HLD - continue statin. 7. Hypothyroidism - continue levothyroxine, TSH nl.\n8. Osteoporosis - hold alendronate inpatient.\nDVT ppx heparin SQ. Full code."
+    },
+    {
+      "id": "d3",
+      "type": "Dietitian note",
+      "author": "S. Kowalczyk, RD, LDN",
+      "author_role": "dietitian",
+      "timestamp": "2026-09-07T10:30",
+      "text": "NUTRITION ASSESSMENT\nReason: MD consult, poor PO intake/weight loss.\nAnthropometrics: Ht 157 cm, Wt 45.8 kg, BMI 18.6. Usual body weight 52 kg (06/2026 PCP visit) -> 12% loss in 3 months.\nIntake: Per son and pt, eating < 50% of estimated needs for > 3 weeks (since early August); mostly tea and toast.\nNFPE: Severe temporal wasting, moderate-severe clavicular and acromial muscle loss, moderate orbital fat loss. Hand grip weak. No edema.\nEstimated needs: 1400-1550 kcal, 55-65 g protein.\nNutrition diagnosis: Severe protein-calorie malnutrition in the context of social/environmental circumstances (bereavement, depression), as evidenced by 12% weight loss in 3 months, energy intake < 50% of estimated needs for > 7 days, and severe muscle and fat loss on NFPE. Meets ASPEN/AND criteria.\nInterventions: Ensure Plus BID, liberalized diet, MVI with minerals daily, monitor refeeding labs (Phos, Mg, K) x 3 days, weekly weights.\nRecommend MD document nutrition diagnosis if in agreement."
+    },
+    {
+      "id": "d4",
+      "type": "Progress note",
+      "author": "V. Szabo, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T09:35",
+      "text": "S: Feels a bit stronger. Ate 40% of breakfast, drank 1 Ensure.\nO: T 36.7, HR 82, BP 126/70. Cr 2.4 -> 1.7 -> 1.2. BUN 31. Phos 2.9, Mg 1.9, K 3.9.\nA/P:\n1. AKI, prerenal - improving with IVF, Cr 1.2. Decrease IVF to 50 mL/h, stop tomorrow if PO OK.\n2. Dehydration - improving.\n3. Poor PO intake / weight loss - appreciate dietitian recs; Ensure Plus BID, MVI. Refeeding labs stable.\n4. Depression/bereavement - SW saw pt, outpatient grief counseling info given; continue sertraline, discuss dose increase with PCP.\n5. HTN - BP 120s off meds, continue holding.\n6. HLD, hypothyroidism, osteoporosis - stable."
+    },
+    {
+      "id": "d5",
+      "type": "Discharge summary",
+      "author": "V. Szabo, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-10T11:00",
+      "text": "DISCHARGE SUMMARY\nAdmit 09/06/2026 - Discharge 09/10/2026. Home with son; home health PT/RN.\nPrincipal diagnosis: Acute kidney injury, prerenal, due to dehydration.\nSecondary diagnoses: Dehydration. Depression. Hypertension. Hyperlipidemia. Hypothyroidism. Osteoporosis.\nHospital course: 84F with weakness and poor oral intake in the setting of bereavement, Cr 2.4 from baseline 0.8. Treated with IV fluids and holding of lisinopril/HCTZ; Cr 0.9 at discharge. Seen by dietitian for poor intake and weight loss (BMI 18.6); started on oral supplements, intake improved to ~50-60% of meals. Social work provided bereavement resources.\nDischarge meds: Ensure Plus BID, multivitamin daily, sertraline 50 mg, levothyroxine 50 mcg, atorvastatin 10 mg, alendronate weekly, vitamin D. HOLD lisinopril and HCTZ until PCP visit.\nFollow-up: PCP 1 week with BMP and weight check."
+    }
+  ],
+  "gold": {
+    "pdx": "N17.9",
+    "secondary": [
+      {
+        "code": "E86.0",
+        "poa": "Y"
+      },
+      {
+        "code": "F32.A",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "E03.9",
+        "poa": "Y"
+      },
+      {
+        "code": "M81.0",
+        "poa": "Y"
+      }
+    ],
+    "drg": "684",
+    "route": "coder",
+    "hold_reasons": [
+      "Malnutrition documented only by the dietitian: the RD note diagnoses severe protein-calorie malnutrition meeting ASPEN/AND criteria (12% weight loss in 3 months, intake < 50% of needs for > 3 weeks, severe temporal and clavicular wasting). No provider documents malnutrition; the H&P, progress note and discharge summary say only 'poor PO intake / weight loss' and order supplements. Malnutrition can't be coded from dietitian documentation, so query the attending (OCG I.B.14)."
+    ],
+    "query": {
+      "topic": "Nutritional status. Dietitian assessment 09/07: weight 45.8 kg (BMI 18.6), down from usual 52 kg in 06/2026 (12% loss in 3 months); oral intake < 50% of estimated needs for > 3 weeks; NFPE with severe temporal wasting, moderate-severe clavicular/acromial muscle loss and moderate orbital fat loss; albumin 3.0. Treatment: Ensure Plus BID, multivitamin, refeeding lab monitoring. Provider notes document 'poor PO intake / weight loss.' Based on your clinical judgment, can you clarify the patient's nutritional status?",
+      "options": [
+        "Severe protein-calorie malnutrition",
+        "Moderate protein-calorie malnutrition",
+        "Mild protein-calorie malnutrition",
+        "Poor oral intake and weight loss without malnutrition",
+        "Other (please specify)",
+        "Clinically undetermined"
+      ]
+    },
+    "traps": [
+      "lab_only"
+    ],
+    "explanation": "The AKI from dehydration (N17.9 PDx, E86.0) and the chronic conditions are straightforward. The nuance is the dietitian note, which documents severe protein-calorie malnutrition with strong ASPEN criteria, while the providers only write 'poor PO intake / weight loss'. Per OCG I.B.14, a diagnosis like malnutrition has to come from a provider, so E43 can't be coded and the BMI code (which depends on a provider-documented associated condition) isn't reported either. A careful coder holds the account and sends a compliant query. A naive system codes E43 from the RD note, which would also wrongly raise the DRG to 682."
+  }
+}

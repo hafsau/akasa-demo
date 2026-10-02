@@ -1,0 +1,110 @@
+{
+  "id": "enc-13",
+  "title": "Pulmonary embolism with respiratory failure",
+  "summary": "A blood clot in the lungs that dropped the patient's oxygen enough that the attending diagnosed acute respiratory failure.",
+  "family": "pe",
+  "patient": {
+    "age": 66,
+    "sex": "M"
+  },
+  "admit_date": "2026-09-16",
+  "discharge_date": "2026-09-20",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "B. Fontaine, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-16T04:30",
+      "text": "CC: sudden SOB.\nHPI: 66M with CAD s/p PCI/DES to LAD (2021), HTN, HLD, insulin-requiring T2DM, former smoker, woke at 03:00 with abrupt SOB and L pleuritic chest pain. Unable to walk to bathroom without stopping. No leg pain. No recent surgery, immobilization or travel.\nROS: + dyspnea, pleuritic CP, lightheaded. Denies fever, cough, hemoptysis, syncope.\nVitals: T 37.2, HR 118, RR 28, BP 104/68, SpO2 82% RA.\nExam: Diaphoretic, tachypneic, speaking 4-5 word sentences. Lungs clear bilaterally. Tachycardic, regular. No JVD. No LE edema or asymmetry.\nLabs: Troponin 0.03 -> 0.04. BNP 88. D-dimer >20. WBC 10.2, Hgb 14.6. Cr 1.1. Glucose 212. ABG on NRB: 7.48/30/68.\nECG: sinus tach 116, S1Q3T3 absent, no ST elevation.\nCTA chest (prelim per radiology phone call): bilateral PE, no RV strain.\nMDM: Acute bilateral PE with severe hypoxemia, initially 82% RA, required 15L NRB to reach 92%. Intermediate-low risk by sPESI/troponin, no RV strain on CT, normotensive. Heparin bolus + infusion. Admit step-down."
+    },
+    {
+      "id": "d2",
+      "type": "Radiology",
+      "author": "H. Osei, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-16T05:15",
+      "text": "EXAM: CT angiography chest with contrast.\nFINDINGS: Filling defects in the right interlobar and right lower lobe lobar arteries extending into segmental branches; additional filling defects in left lower lobe segmental arteries. RV/LV ratio 0.9. No septal flattening. Small peripheral wedge-shaped opacity RLL may reflect early infarct. No pleural effusion. Coronary calcifications with LAD stent.\nIMPRESSION: Bilateral pulmonary emboli, lobar and segmental. No CT evidence of right heart strain."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "G. Petrov, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-16T09:00",
+      "text": "HPI: As per ED. 66M with abrupt dyspnea, SpO2 82% RA, RR 28, CTA bilateral lobar/segmental PE.\nPMH: CAD s/p DES LAD 2021, HTN, HLD, T2DM on insulin. Former smoker 30 pk-yr, quit 2019.\nMeds: aspirin 81 mg, atorvastatin 80 mg, metoprolol succinate 50 mg, lisinopril 10 mg, insulin glargine 24 u qHS, metformin 1000 mg BID.\nExam: HR 102, RR 24, BP 112/70, SpO2 91% on 6L NC (weaned from NRB). Increased work of breathing at rest. Lungs clear. No edema.\nTTE (bedside, prelim): normal RV size and function, LVEF 55%.\nLE duplex: no DVT bilaterally.\nAssessment/Plan:\n1. Acute bilateral pulmonary embolism, POA, without acute cor pulmonale - normal RV on echo. Unprovoked. Heparin infusion; transition to DOAC when stable. Age-appropriate cancer screening up to date (colonoscopy 2024).\n2. Acute hypoxic respiratory failure secondary to PE - SpO2 82% RA, RR 28, required NRB, now 6L NC. Titrate O2 to > 90%, step-down monitoring.\n3. CAD s/p PCI - no ACS; minimal troponin leak attributed to PE strain physiology rather than ischemia. Continue aspirin while on heparin per cardiology phone discussion, statin, beta-blocker.\n4. HTN - continue metoprolol, hold lisinopril while soft BPs.\n5. HLD - atorvastatin.\n6. T2DM on insulin - glargine 18 u + SSI; hold metformin (contrast).\nCode: Full."
+    },
+    {
+      "id": "d4",
+      "type": "Progress note",
+      "author": "G. Petrov, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-17T08:30",
+      "text": "S: Less SOB at rest. Pleuritic pain improving.\nO: HR 94, RR 20, BP 122/74, SpO2 93% on 3L NC. Lungs clear.\nA/P:\n1. Acute bilateral PE - stable on heparin. Plan apixaban tomorrow.\n2. Acute hypoxic respiratory failure due to PE - improving, weaned 6L -> 3L. Ambulatory sat check tomorrow.\n3. CAD s/p PCI, HTN, HLD - continue meds; resume lisinopril.\n4. T2DM on insulin - glucose 150-200, glargine 22 u."
+    },
+    {
+      "id": "d5",
+      "type": "Nursing note",
+      "author": "E. Tran, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-19T15:10",
+      "text": "Ambulatory O2 assessment: At rest on RA SpO2 95%. Ambulated 150 ft on RA, lowest SpO2 92%, HR 98, mild dyspnea, resolved with rest. Patient tolerated well. Educated on apixaban, bleeding precautions; teach-back complete."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "G. Petrov, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-20T11:00",
+      "text": "Admit: 09/16/2026  Discharge: 09/20/2026\nDischarge diagnoses:\n1. Acute bilateral pulmonary embolism (lobar and segmental), unprovoked, without acute cor pulmonale\n2. Acute hypoxic respiratory failure secondary to pulmonary embolism, resolved\n3. Coronary artery disease s/p PCI with DES to LAD\n4. Hypertension\n5. Hyperlipidemia\n6. Type 2 diabetes mellitus on long-term insulin\nHospital course: Presented with abrupt dyspnea, SpO2 82% on RA requiring NRB. CTA: bilateral lobar/segmental PE, no RV strain; echo normal RV. Duplex negative for DVT. Treated with heparin, transitioned to apixaban 09/18. O2 weaned to RA by 09/19; ambulatory SpO2 >= 92% on RA.\nDischarge meds: apixaban 10 mg BID x7 days then 5 mg BID; aspirin 81 mg (cardiology to reassess need with DOAC), atorvastatin, metoprolol, lisinopril, glargine 24 u, metformin.\nFollow-up: PCP 1 week; cardiology 2-4 weeks; hematology re: duration of anticoagulation for unprovoked PE."
+    }
+  ],
+  "gold": {
+    "pdx": "I26.99",
+    "secondary": [
+      {
+        "code": "J96.01",
+        "poa": "Y"
+      },
+      {
+        "code": "I25.10",
+        "poa": "Y"
+      },
+      {
+        "code": "Z95.5",
+        "poa": "1"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "E11.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.4",
+        "poa": "1"
+      },
+      {
+        "code": "Z79.84",
+        "poa": "1"
+      },
+      {
+        "code": "Z87.891",
+        "poa": "1"
+      }
+    ],
+    "drg": "175",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [],
+    "explanation": "The attending documents acute hypoxic respiratory failure due to PE from the H&P through discharge, with strong clinical support (SpO2 82% RA, RR 28, non-rebreather, then 6L NC), so J96.01 is coded as a secondary MCC and the case groups to DRG 175. Bilateral PE without right heart strain or cor pulmonale is I26.99. The 'possible early infarct' on CT and the small troponin leak are not separately coded because no provider makes them a diagnosis; CAD with stent, HTN, HLD and insulin-treated T2DM are coded as chronic conditions."
+  },
+  "hero": false
+}

@@ -1,0 +1,101 @@
+{
+ "case_id": "enc-24",
+ "codes": [
+  {
+   "code": "N39.0",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Urinary tract infection, site not specified",
+   "confidence": 0.72
+  },
+  {
+   "code": "B96.20",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere",
+   "confidence": 0.72
+  },
+  {
+   "code": "G93.41",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Metabolic encephalopathy",
+   "confidence": 0.72
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus without complications",
+   "confidence": 0.72
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.72
+  },
+  {
+   "code": "I25.10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+   "confidence": 0.72
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.72
+  },
+  {
+   "code": "Z95.5",
+   "poa": "",
+   "role": "secondary",
+   "valid": true,
+   "description": "Presence of coronary angioplasty implant and graft",
+   "confidence": 0.72
+  },
+  {
+   "code": "Z79.84",
+   "poa": "",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of oral hypoglycemic drugs",
+   "confidence": 0.72
+  },
+  {
+   "code": "Z79.82",
+   "poa": "",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of aspirin",
+   "confidence": 0.72
+  }
+ ],
+ "drg": {
+  "family": "uti",
+  "number": "689",
+  "weight": 1.12,
+  "tier": "MCC",
+  "drivers": [
+   "G93.41"
+  ]
+ },
+ "confidence": 0.36,
+ "needs_human": true,
+ "reason": "Sequencing of UTI (N39.0 + B96.20) vs acute metabolic encephalopathy (G93.41) as principal. Both were present on admission and both were treated. The provider listed UTI as principal, which I followed, but encephalopathy could arguably be sequenced first because it drove the admission. This changes the DRG. The pyelonephritis question (cystitis vs early pyelo) was never resolved. Sepsis was explicitly ruled out.",
+ "ms": 7783,
+ "cost_usd": 0.01459,
+ "input_tokens": 2946,
+ "output_tokens": 870
+}

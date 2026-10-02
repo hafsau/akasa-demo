@@ -1,0 +1,91 @@
+{
+ "case_id": "enc-06",
+ "codes": [
+  {
+   "code": "J18.9",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Pneumonia, unspecified organism",
+   "confidence": 0.8
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.8
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypothyroidism, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Gastro-esophageal reflux disease without esophagitis",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z86.711",
+   "poa": "Exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Personal history of pulmonary embolism",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z86.718",
+   "poa": "Exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Personal history of other venous thrombosis and embolism",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z96.651",
+   "poa": "Exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Presence of right artificial knee joint",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z79.899",
+   "poa": "Exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Other long term (current) drug therapy",
+   "confidence": 0.8
+  }
+ ],
+ "drg": {
+  "family": "pneumonia",
+  "number": "195",
+  "weight": 0.68,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.8,
+ "needs_human": false,
+ "reason": "CAP of left lower lobe without a specified organism is coded J18.9 (lobar pneumonia not documented). History of PE is Z86.711 and history of DVT is Z86.718. Right TKA status is Z96.651. Prophylactic enoxaparin does not represent current VTE. Z79.899 for long-term drug therapy is optional and could be removed.",
+ "ms": 4589,
+ "cost_usd": 0.00851,
+ "input_tokens": 2676,
+ "output_tokens": 316
+}

@@ -1,0 +1,96 @@
+{
+  "id": "enc-22",
+  "title": "Pneumonia in a patient with COPD",
+  "summary": "Pneumonia in someone with COPD calls for the COPD-with-lower-respiratory-infection code on top of the pneumonia code; it is not a COPD flare.",
+  "hero": false,
+  "family": "pneumonia",
+  "patient": {
+    "age": 69,
+    "sex": "M"
+  },
+  "admit_date": "2026-09-15",
+  "discharge_date": "2026-09-18",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "Radiology",
+      "author": "H. Iverson, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-15T13:02",
+      "text": "EXAM: XR chest PA and lateral.\nFINDINGS: Dense consolidation left lower lobe with air bronchograms. Hyperinflated lungs with flattened hemidiaphragms, consistent with emphysematous change. No effusion. Normal heart size.\nIMPRESSION: 1. Left lower lobe pneumonia. 2. Chronic emphysematous changes."
+    },
+    {
+      "id": "d2",
+      "type": "ED note",
+      "author": "E. Moreau, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-15T13:25",
+      "text": "CC: cough, fever, SOB.\nHPI: 69 y/o M with COPD (no home O2), HTN, HLD, GERD, current smoker 1 ppd, presents with 3 days productive cough with green sputum, fevers to 38.6, pleuritic L-sided chest pain, and increased SOB. Using albuterol 2-3x/day (usual 1x/day). No sick contacts.\nVitals: T 38.4, HR 104, RR 22, BP 142/84, SpO2 90% RA -> 94% on 2 L NC.\nExam: Mild increased WOB, speaking full sentences. Bronchial breath sounds and crackles L base. Scattered end-expiratory wheeze (pt states \"always a little wheezy\"). No edema.\nLabs: WBC 15.4 (88% PMN). Na 136, K 4.2, Cr 1.0, BUN 17. Procalcitonin 1.8. Lactate 1.6. VBG pH 7.39 / pCO2 46.\nCXR: LLL consolidation.\nED course: Duoneb x1, ceftriaxone 1 g + azithromycin 500 mg IV. R/o COPD exacerbation.\nImpression: LLL pneumonia in COPD patient. Admit to hospitalist."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "F. Beaumont, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-15T17:00",
+      "text": "HISTORY AND PHYSICAL\nHPI: 69M, COPD GOLD 3 (FEV1 44% predicted, 2025), active smoker 45 pack-years, presents with 3 days productive cough, fever, pleuritic pain, LLL consolidation on CXR, WBC 15.4, PCT 1.8.\nPMH: COPD on tiotropium/olodaterol, HTN, HLD, GERD. Meds: tiotropium/olodaterol 2 puffs daily, albuterol PRN, amlodipine 5 mg, simvastatin 20 mg, pantoprazole 40 mg.\nSH: smokes 1 ppd, interested in quitting. No EtOH.\nExam: T 38.1, HR 98, RR 20, SpO2 93% 2 L. LLL crackles, bronchial BS. Mild baseline expiratory wheeze, good air movement, no accessory muscle use.\nASSESSMENT/PLAN:\n1. Community-acquired pneumonia, LLL, bacterial - ceftriaxone 1 g daily + azithromycin x 3 days. Sputum cx, strep/legionella urine Ag. O2 to SpO2 88-92%.\n2. COPD with acute lower respiratory infection (the LLL pneumonia). I do not think this is a COPD exacerbation: wheeze at baseline per pt, good air movement, VBG with normal pH. Continue home tiotropium/olodaterol, albuterol PRN. No systemic steroids.\n3. Tobacco use disorder, cigarettes - nicotine patch 21 mg, cessation counseling.\n4. HTN - continue amlodipine.\n5. HLD - continue simvastatin.\n6. GERD - continue pantoprazole.\nDVT ppx enoxaparin. Full code."
+    },
+    {
+      "id": "d4",
+      "type": "Progress note",
+      "author": "F. Beaumont, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-16T09:50",
+      "text": "S: Less SOB, pleuritic pain improved, cough productive. Slept OK.\nO: Tmax 37.6, HR 86, RR 18, SpO2 92% on 1 L, 90% RA at rest. Lungs: LLL crackles, minimal wheeze. WBC 11.0. Strep pneumo and legionella urine Ag negative. Sputum cx: normal respiratory flora.\nA/P:\n1. LLL community-acquired pneumonia, organism not identified - continue ceftriaxone, d/c azithro after dose 3. Wean O2.\n2. COPD with acute lower respiratory infection - stable, no exacerbation, no steroids needed.\n3. Tobacco use disorder - patch, counseling done.\n4. HTN, HLD, GERD - home meds."
+    },
+    {
+      "id": "d5",
+      "type": "Nursing note",
+      "author": "J. Park, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-17T03:20",
+      "text": "Pt resting, no acute distress. Weaned to RA at 22:00 per protocol, SpO2 90-92% at rest, 89-90% ambulating to BR, recovered quickly with pursed-lip breathing. Productive cough, small amt yellow sputum. Lungs diminished L base. Using home inhaler as scheduled, albuterol x1 overnight. Nicotine patch in place, pt asked for cessation pamphlet, provided. Afebrile. Voiding qs. Ambulating independently."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "F. Beaumont, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-18T10:40",
+      "text": "DISCHARGE SUMMARY\nAdmit 09/15/2026 - Discharge 09/18/2026. Home.\nPrincipal diagnosis: Community-acquired pneumonia, left lower lobe.\nSecondary diagnoses: COPD with acute lower respiratory infection (no exacerbation). Nicotine dependence, cigarettes. Hypertension. Hyperlipidemia. GERD.\nHospital course: Treated with ceftriaxone/azithromycin with clinical improvement; weaned to room air HD3 (SpO2 92% RA at rest and 90% with ambulation, no home O2 needed). Urine antigens negative and sputum culture with normal flora; no organism identified. COPD remained at baseline throughout without steroids.\nDischarge meds: amoxicillin-clavulanate 875 mg BID x 3 days; home inhalers; nicotine patch 21 mg daily; amlodipine, simvastatin, pantoprazole.\nFollow-up: PCP 1 week; pulmonary clinic 6 weeks; repeat CXR 6-8 weeks; smoking cessation program referral placed."
+    }
+  ],
+  "gold": {
+    "pdx": "J18.9",
+    "secondary": [
+      {
+        "code": "J44.0",
+        "poa": "Y"
+      },
+      {
+        "code": "F17.210",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "K21.9",
+        "poa": "Y"
+      }
+    ],
+    "drg": "194",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [
+      "combination_code"
+    ],
+    "explanation": "Pneumonia in a COPD patient is coded with the infection (J18.9, no organism identified) plus J44.0, COPD with acute lower respiratory infection. J44.0 is a CC, giving DRG 194. The attending states explicitly and repeatedly that this is not a COPD exacerbation, so J44.1 doesn't apply, and plain J44.9 misses the combination code. A naive system codes J44.9 or follows the ED's 'r/o COPD exacerbation' to J44.1."
+  }
+}

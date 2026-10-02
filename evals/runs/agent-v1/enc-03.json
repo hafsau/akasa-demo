@@ -1,0 +1,1463 @@
+{
+ "case_id": "enc-03",
+ "prompt_version": "2026-10-02.3",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Heart failure with reduced ejection fraction",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "66M with HFrEF (EF 25%)",
+   "note": null,
+   "start": 31,
+   "end": 54
+  },
+  {
+   "id": "F2",
+   "condition": "Ejection fraction 25%",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HFrEF (EF 25%)",
+   "note": null,
+   "start": 40,
+   "end": 54
+  },
+  {
+   "id": "F3",
+   "condition": "Chronic kidney disease stage 3b",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "CKD 3b",
+   "note": null,
+   "start": 56,
+   "end": 62
+  },
+  {
+   "id": "F4",
+   "condition": "Hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HTN",
+   "note": null,
+   "start": 64,
+   "end": 67
+  },
+  {
+   "id": "F5",
+   "condition": "Type 2 diabetes mellitus",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "insulin-treated T2DM",
+   "note": null,
+   "start": 69,
+   "end": 89
+  },
+  {
+   "id": "F6",
+   "condition": "Obstructive sleep apnea",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "OSA",
+   "note": null,
+   "start": 94,
+   "end": 97
+  },
+  {
+   "id": "F7",
+   "condition": "CHF exacerbation with dyspnea on exertion",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "1 week of progressive DOE, now SOB walking to the mailbox",
+   "note": null,
+   "start": 112,
+   "end": 169
+  },
+  {
+   "id": "F8",
+   "condition": "Orthopnea",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "3-pillow orthopnea",
+   "note": null,
+   "start": 171,
+   "end": 189
+  },
+  {
+   "id": "F9",
+   "condition": "Paroxysmal nocturnal dyspnea",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "PND",
+   "note": null,
+   "start": 191,
+   "end": 194
+  },
+  {
+   "id": "F10",
+   "condition": "Peripheral edema",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "leg swelling",
+   "note": null,
+   "start": 199,
+   "end": 211
+  },
+  {
+   "id": "F11",
+   "condition": "Weight gain",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Home scale up 10 lb (4.5 kg)",
+   "note": null,
+   "start": 213,
+   "end": 241
+  },
+  {
+   "id": "F12",
+   "condition": "Jugular venous distension",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "JVD to angle of jaw",
+   "note": null,
+   "start": 446,
+   "end": 465
+  },
+  {
+   "id": "F13",
+   "condition": "Bibasilar crackles",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Bibasilar crackles halfway up",
+   "note": null,
+   "start": 467,
+   "end": 496
+  },
+  {
+   "id": "F14",
+   "condition": "S3 gallop",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "S3",
+   "note": null,
+   "start": 498,
+   "end": 500
+  },
+  {
+   "id": "F15",
+   "condition": "Pitting edema to knees",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "3+ pitting edema to knees",
+   "note": null,
+   "start": 502,
+   "end": 527
+  },
+  {
+   "id": "F16",
+   "condition": "Elevated BNP",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "BNP 2,900",
+   "note": null,
+   "start": 536,
+   "end": 545
+  },
+  {
+   "id": "F17",
+   "condition": "Chest pain",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "No chest pain, fever or cough",
+   "note": null,
+   "start": 293,
+   "end": 322
+  },
+  {
+   "id": "F18",
+   "condition": "Fever",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "No chest pain, fever or cough",
+   "note": null,
+   "start": 293,
+   "end": 322
+  },
+  {
+   "id": "F19",
+   "condition": "Cough",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "No chest pain, fever or cough",
+   "note": null,
+   "start": 293,
+   "end": 322
+  },
+  {
+   "id": "F20",
+   "condition": "Cardiomegaly",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "cardiomegaly",
+   "note": null,
+   "start": 664,
+   "end": 676
+  },
+  {
+   "id": "F21",
+   "condition": "Pulmonary vascular congestion",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "pulmonary vascular congestion",
+   "note": null,
+   "start": 678,
+   "end": 707
+  },
+  {
+   "id": "F22",
+   "condition": "Bilateral pleural effusions",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "small bilateral effusions",
+   "note": null,
+   "start": 709,
+   "end": 734
+  },
+  {
+   "id": "F23",
+   "condition": "Diabetic CKD",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "T2DM with diabetic CKD",
+   "note": null,
+   "start": 279,
+   "end": 301
+  },
+  {
+   "id": "F24",
+   "condition": "Baseline creatinine 1.5-1.7",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "baseline Cr 1.5-1.7, eGFR ~40",
+   "note": null,
+   "start": 206,
+   "end": 235
+  },
+  {
+   "id": "F25",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Hyperlipidemia",
+   "note": null,
+   "start": 339,
+   "end": 353
+  },
+  {
+   "id": "F26",
+   "condition": "A1c 7.9%",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "A1c 7.9% 08/2026",
+   "note": null,
+   "start": 315,
+   "end": 331
+  },
+  {
+   "id": "F27",
+   "condition": "NYHA class II at last clinic visit",
+   "assertion": "history",
+   "doc_id": "d3",
+   "quote": "NYHA II",
+   "note": null,
+   "start": 220,
+   "end": 227
+  },
+  {
+   "id": "F28",
+   "condition": "NYHA class III-IV on admission",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Now NYHA III-IV symptoms for 1 week",
+   "note": null,
+   "start": 229,
+   "end": 264
+  },
+  {
+   "id": "F29",
+   "condition": "Global left ventricular hypokinesis",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "global hypokinesis",
+   "note": null,
+   "start": 296,
+   "end": 314
+  },
+  {
+   "id": "F30",
+   "condition": "Left ventricle dilated",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "LV dilated",
+   "note": null,
+   "start": 316,
+   "end": 326
+  },
+  {
+   "id": "F31",
+   "condition": "Acute on chronic systolic heart failure",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Acute on chronic systolic heart failure (HFrEF)",
+   "note": null,
+   "start": 494,
+   "end": 541
+  },
+  {
+   "id": "F32",
+   "condition": "Volume overload of 5 kg above dry weight",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "volume overloaded ~5 kg above dry weight",
+   "note": null,
+   "start": 567,
+   "end": 607
+  },
+  {
+   "id": "F33",
+   "condition": "Acute kidney injury with diuresis",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Cr 2.5 (1.9 yesterday, 1.6 on admission)",
+   "note": null,
+   "start": 191,
+   "end": 231
+  },
+  {
+   "id": "F34",
+   "condition": "Creatinine improved after holding diuretics",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "creatinine improved to 1.8 by discharge",
+   "note": null,
+   "start": 557,
+   "end": 596
+  },
+  {
+   "id": "F35",
+   "condition": "Total net diuresis of 5.8 L during hospitalization",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "net -5.8 L",
+   "note": null,
+   "start": 359,
+   "end": 369
+  },
+  {
+   "id": "F36",
+   "condition": "Successful weaning off supplemental oxygen",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Off O2 since HD2",
+   "note": null,
+   "start": 635,
+   "end": 651
+  },
+  {
+   "id": "F37",
+   "condition": "Torsemide dose increased to 40 mg BID",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Transitioned to torsemide 40 mg BID",
+   "note": null,
+   "start": 598,
+   "end": 633
+  }
+ ],
+ "codes": [
+  {
+   "code": "I13.0",
+   "poa": "Y",
+   "finding_ids": [
+    "F1",
+    "F3",
+    "F4",
+    "F31"
+   ],
+   "confidence": 0.88,
+   "rationale": "Hypertension, CKD and heart failure are presumed related (OCG I.C.9.a), so the combination code I13.0 is sequenced first. I50.23 and N18.32 are coded as additional codes.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "HTN + CKD + HF are presumed related (OCG I.C.9.a.3) and no provider documents another cause. I13.0 is correct as PDx for HF with CKD stage 1-4, with I50.- and N18.- as additional codes. Acute HF drove admission, POA Y.",
+   "severity": null,
+   "description": "Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease"
+  },
+  {
+   "code": "I50.23",
+   "poa": "Y",
+   "finding_ids": [
+    "F31",
+    "F32",
+    "F16"
+   ],
+   "confidence": 0.9,
+   "rationale": "Cardiology documents acute on chronic systolic HF. I13.0 requires an additional code for the type of heart failure.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Cardiology documents acute on chronic systolic HF, EF 25%. This is consistent with the attending's 'CHF exacerbation' in a known HFrEF patient, and there is no conflict. Treatment (IV diuresis) and BNP support it. A confirming attending statement would be preferable.",
+   "severity": "MCC",
+   "description": "Acute on chronic systolic (congestive) heart failure"
+  },
+  {
+   "code": "N18.32",
+   "poa": "Y",
+   "finding_ids": [
+    "F3",
+    "F24"
+   ],
+   "confidence": 0.95,
+   "rationale": "CKD stage 3b is documented. I13.0 requires an additional code for the CKD stage.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "CKD 3b is documented consistently by the attending and cardiology, with baseline Cr and eGFR in range for stage 3b. Required as an additional code with I13.0.",
+   "severity": "none",
+   "description": "Chronic kidney disease, stage 3b"
+  },
+  {
+   "code": "E11.22",
+   "poa": "Y",
+   "finding_ids": [
+    "F5",
+    "F23"
+   ],
+   "confidence": 0.93,
+   "rationale": "The provider documents T2DM with diabetic CKD, so the combination code applies.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "The attending documents T2DM with diabetic CKD, so the link is explicit. It is also assumed per the 'with' convention. N18.32 is coded additionally.",
+   "severity": "none",
+   "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease"
+  },
+  {
+   "code": "Z79.4",
+   "poa": "Y",
+   "finding_ids": [
+    "F5"
+   ],
+   "confidence": 0.9,
+   "rationale": "The patient is on long-term insulin (glargine).",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Long-term insulin glargine is documented and continued.",
+   "severity": "none",
+   "description": "Long term (current) use of insulin"
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "finding_ids": [
+    "F5"
+   ],
+   "confidence": 0.65,
+   "rationale": "The patient takes empagliflozin, an oral hypoglycemic, along with insulin. OCG I.C.4.a.3 says to code both.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Empagliflozin is a long-term oral hypoglycemic (SGLT2 inhibitor), listed in home meds and resumed at discharge. It was held inpatient but remains a chronic med. OCG I.C.4.a.3 says to assign both Z79.4 and Z79.84 when insulin and an oral hypoglycemic are used. Empagliflozin is also used for HF, but it is on the diabetes regimen here, and the code is low-risk.",
+   "severity": "none",
+   "description": "Long term (current) use of oral hypoglycemic drugs"
+  },
+  {
+   "code": "G47.33",
+   "poa": "Y",
+   "finding_ids": [
+    "F6"
+   ],
+   "confidence": 0.9,
+   "rationale": "OSA is documented and treated with CPAP.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "OSA is documented by the provider, treated with CPAP, and carried into the discharge diagnoses.",
+   "severity": "none",
+   "description": "Obstructive sleep apnea (adult) (pediatric)"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F25"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hyperlipidemia is documented and treated with atorvastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is documented in the H&P and discharge summary and treated with atorvastatin. Unspecified is acceptable.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  }
+ ],
+ "removed": [],
+ "issues": [
+  {
+   "kind": "query_opportunity",
+   "summary": "Creatinine rose from 1.6 to 2.5 during diuresis (eGFR 46 to 28). The drug-holding and trending are documented, but no provider documents AKI, so N17.9 is not coded. Query the provider for a diagnosis, such as AKI or a transient diuresis-related creatinine rise.",
+   "finding_ids": [
+    "F33",
+    "F34"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "The discharge summary says only 'CHF exacerbation'. Cardiology documents acute on chronic systolic HF, which is consistent with HFrEF, so I50.23 is supported. The pleural effusions are integral to the HF and are not coded separately.",
+   "finding_ids": [
+    "F31",
+    "F22"
+   ],
+   "guideline": "OCG Section I.A.19",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "Cr rose 1.6 to 2.5 (about 56%, meets KDIGO criteria) with diuretics and ARNI held, and then recovered to 1.8, but no provider diagnosis links this. Query for AKI vs expected diuresis-related creatinine change vs other. Do not code N17.9 without provider documentation.",
+   "finding_ids": [
+    "F33",
+    "F34"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "The attending's progress notes and discharge summary say only 'CHF exacerbation', which lacks type and acuity. Cardiology documents acute on chronic systolic HF. A brief attending confirmation in the discharge summary would remove any payer challenge to I50.23.",
+   "finding_ids": [
+    "F31"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "The HD3 note says 'AKI' is not documented, but the progress note labels it only 'with diuresis', so the AKI finding F33 is a coder or NLP inference and should not be treated as provider-documented.",
+   "finding_ids": [
+    "F33"
+   ],
+   "guideline": "OCG Section III.B / I.A.19",
+   "blocks_autonomy": false
+  }
+ ],
+ "queries": [],
+ "drg": {
+  "family": "hf",
+  "number": "291",
+  "title": "Heart failure and shock w MCC",
+  "weight": 1.34,
+  "tier": "MCC",
+  "drivers": [
+   "I50.23"
+  ]
+ },
+ "confidence": 0.88,
+ "confidence_base": 0.88,
+ "blocking_issues": 0,
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 33032,
+   "input_tokens": 9311,
+   "output_tokens": 4371,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.03117
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 33032,
+   "ms": 15357,
+   "input_tokens": 22936,
+   "output_tokens": 1660,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.06247
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 48390,
+   "ms": 9805,
+   "input_tokens": 7105,
+   "output_tokens": 1290,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.02711
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-20T09:05",
+     "words": 149,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-20T13:15",
+     "words": 218,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "Consult",
+     "author_role": "consultant",
+     "timestamp": "2026-09-21T10:30",
+     "words": 164,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-22T11:40",
+     "words": 100,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Lab summary",
+     "author_role": "lab",
+     "timestamp": "2026-09-24T06:30",
+     "words": 51,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-24T12:20",
+     "words": 153,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 33032,
+   "stage": "evidence",
+   "type": "validation_retry",
+   "reason": "These quotes are not verbatim. Copy exact text from the document:\nF18: quote not found verbatim in d1: 'No fever'\nF19: quote not found verbatim in d1: 'No cough'\nF37: quote not found verbatim in d6: 'Transitioned to torsemide 40 mg BID (increased)'"
+  },
+  {
+   "t": 33032,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Heart failure with reduced ejection fraction",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "66M with HFrEF (EF 25%)",
+     "note": null,
+     "start": 31,
+     "end": 54
+    },
+    {
+     "id": "F2",
+     "condition": "Ejection fraction 25%",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HFrEF (EF 25%)",
+     "note": null,
+     "start": 40,
+     "end": 54
+    },
+    {
+     "id": "F3",
+     "condition": "Chronic kidney disease stage 3b",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "CKD 3b",
+     "note": null,
+     "start": 56,
+     "end": 62
+    },
+    {
+     "id": "F4",
+     "condition": "Hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HTN",
+     "note": null,
+     "start": 64,
+     "end": 67
+    },
+    {
+     "id": "F5",
+     "condition": "Type 2 diabetes mellitus",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "insulin-treated T2DM",
+     "note": null,
+     "start": 69,
+     "end": 89
+    },
+    {
+     "id": "F6",
+     "condition": "Obstructive sleep apnea",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "OSA",
+     "note": null,
+     "start": 94,
+     "end": 97
+    },
+    {
+     "id": "F7",
+     "condition": "CHF exacerbation with dyspnea on exertion",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "1 week of progressive DOE, now SOB walking to the mailbox",
+     "note": null,
+     "start": 112,
+     "end": 169
+    },
+    {
+     "id": "F8",
+     "condition": "Orthopnea",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "3-pillow orthopnea",
+     "note": null,
+     "start": 171,
+     "end": 189
+    },
+    {
+     "id": "F9",
+     "condition": "Paroxysmal nocturnal dyspnea",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "PND",
+     "note": null,
+     "start": 191,
+     "end": 194
+    },
+    {
+     "id": "F10",
+     "condition": "Peripheral edema",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "leg swelling",
+     "note": null,
+     "start": 199,
+     "end": 211
+    },
+    {
+     "id": "F11",
+     "condition": "Weight gain",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Home scale up 10 lb (4.5 kg)",
+     "note": null,
+     "start": 213,
+     "end": 241
+    },
+    {
+     "id": "F12",
+     "condition": "Jugular venous distension",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "JVD to angle of jaw",
+     "note": null,
+     "start": 446,
+     "end": 465
+    },
+    {
+     "id": "F13",
+     "condition": "Bibasilar crackles",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Bibasilar crackles halfway up",
+     "note": null,
+     "start": 467,
+     "end": 496
+    },
+    {
+     "id": "F14",
+     "condition": "S3 gallop",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "S3",
+     "note": null,
+     "start": 498,
+     "end": 500
+    },
+    {
+     "id": "F15",
+     "condition": "Pitting edema to knees",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "3+ pitting edema to knees",
+     "note": null,
+     "start": 502,
+     "end": 527
+    },
+    {
+     "id": "F16",
+     "condition": "Elevated BNP",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "BNP 2,900",
+     "note": null,
+     "start": 536,
+     "end": 545
+    },
+    {
+     "id": "F17",
+     "condition": "Chest pain",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "No chest pain, fever or cough",
+     "note": null,
+     "start": 293,
+     "end": 322
+    },
+    {
+     "id": "F18",
+     "condition": "Fever",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "No chest pain, fever or cough",
+     "note": null,
+     "start": 293,
+     "end": 322
+    },
+    {
+     "id": "F19",
+     "condition": "Cough",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "No chest pain, fever or cough",
+     "note": null,
+     "start": 293,
+     "end": 322
+    },
+    {
+     "id": "F20",
+     "condition": "Cardiomegaly",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "cardiomegaly",
+     "note": null,
+     "start": 664,
+     "end": 676
+    },
+    {
+     "id": "F21",
+     "condition": "Pulmonary vascular congestion",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "pulmonary vascular congestion",
+     "note": null,
+     "start": 678,
+     "end": 707
+    },
+    {
+     "id": "F22",
+     "condition": "Bilateral pleural effusions",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "small bilateral effusions",
+     "note": null,
+     "start": 709,
+     "end": 734
+    },
+    {
+     "id": "F23",
+     "condition": "Diabetic CKD",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "T2DM with diabetic CKD",
+     "note": null,
+     "start": 279,
+     "end": 301
+    },
+    {
+     "id": "F24",
+     "condition": "Baseline creatinine 1.5-1.7",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "baseline Cr 1.5-1.7, eGFR ~40",
+     "note": null,
+     "start": 206,
+     "end": 235
+    },
+    {
+     "id": "F25",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Hyperlipidemia",
+     "note": null,
+     "start": 339,
+     "end": 353
+    },
+    {
+     "id": "F26",
+     "condition": "A1c 7.9%",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "A1c 7.9% 08/2026",
+     "note": null,
+     "start": 315,
+     "end": 331
+    },
+    {
+     "id": "F27",
+     "condition": "NYHA class II at last clinic visit",
+     "assertion": "history",
+     "doc_id": "d3",
+     "quote": "NYHA II",
+     "note": null,
+     "start": 220,
+     "end": 227
+    },
+    {
+     "id": "F28",
+     "condition": "NYHA class III-IV on admission",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Now NYHA III-IV symptoms for 1 week",
+     "note": null,
+     "start": 229,
+     "end": 264
+    },
+    {
+     "id": "F29",
+     "condition": "Global left ventricular hypokinesis",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "global hypokinesis",
+     "note": null,
+     "start": 296,
+     "end": 314
+    },
+    {
+     "id": "F30",
+     "condition": "Left ventricle dilated",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "LV dilated",
+     "note": null,
+     "start": 316,
+     "end": 326
+    },
+    {
+     "id": "F31",
+     "condition": "Acute on chronic systolic heart failure",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Acute on chronic systolic heart failure (HFrEF)",
+     "note": null,
+     "start": 494,
+     "end": 541
+    },
+    {
+     "id": "F32",
+     "condition": "Volume overload of 5 kg above dry weight",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "volume overloaded ~5 kg above dry weight",
+     "note": null,
+     "start": 567,
+     "end": 607
+    },
+    {
+     "id": "F33",
+     "condition": "Acute kidney injury with diuresis",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Cr 2.5 (1.9 yesterday, 1.6 on admission)",
+     "note": null,
+     "start": 191,
+     "end": 231
+    },
+    {
+     "id": "F34",
+     "condition": "Creatinine improved after holding diuretics",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "creatinine improved to 1.8 by discharge",
+     "note": null,
+     "start": 557,
+     "end": 596
+    },
+    {
+     "id": "F35",
+     "condition": "Total net diuresis of 5.8 L during hospitalization",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "net -5.8 L",
+     "note": null,
+     "start": 359,
+     "end": 369
+    },
+    {
+     "id": "F36",
+     "condition": "Successful weaning off supplemental oxygen",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Off O2 since HD2",
+     "note": null,
+     "start": 635,
+     "end": 651
+    },
+    {
+     "id": "F37",
+     "condition": "Torsemide dose increased to 40 mg BID",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Transitioned to torsemide 40 mg BID",
+     "note": null,
+     "start": 598,
+     "end": 633
+    }
+   ]
+  },
+  {
+   "t": 33032,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "I'm working through the coding: hypertension with CKD and heart failure points to I13.0, plus acute on chronic systolic heart failure, CKD stage 3, diabetes with CKD, long-term anticoagulant use, OSA, and hyperlipidemia codes. The creatinine rise to 2.5 isn't explicitly documented as AKI by the provider, so that's a potential query opportunity.\n\n"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I13.0"
+   },
+   "id": "toolu_01Nmdx135Qkt8GeCgkzvHnk1"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I50.23"
+   },
+   "id": "toolu_01HVfQUSmCVcehoF8Pv1JYbn"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "N18.32"
+   },
+   "id": "toolu_01MbBhUH37TmFZ6M5K1WCEUU"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E11.22"
+   },
+   "id": "toolu_01X41DMKzGkGwT49VfHNYD5Q"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.4"
+   },
+   "id": "toolu_01VqQwW5GNHYviobVRJNf4iS"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "G47.33"
+   },
+   "id": "toolu_01Y26SpbGhQPhMUpBohHU3Jx"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_011thvGeq6VCSoTkgDrHRiau"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01Nmdx135Qkt8GeCgkzvHnk1",
+   "result": "I13.0: Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease (billable)"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01HVfQUSmCVcehoF8Pv1JYbn",
+   "result": "I50.23: Acute on chronic systolic (congestive) heart failure (billable)"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01MbBhUH37TmFZ6M5K1WCEUU",
+   "result": "N18.32: Chronic kidney disease, stage 3b (billable)"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01X41DMKzGkGwT49VfHNYD5Q",
+   "result": "E11.22: Type 2 diabetes mellitus with diabetic chronic kidney disease (billable)"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01VqQwW5GNHYviobVRJNf4iS",
+   "result": "Z79.4: Long term (current) use of insulin (billable)"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01Y26SpbGhQPhMUpBohHU3Jx",
+   "result": "G47.33: Obstructive sleep apnea (adult) (pediatric) (billable)"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_011thvGeq6VCSoTkgDrHRiau",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "Empagliflozin is also an oral hypoglycemic, so I should check whether Z79.84 applies alongside Z79.4 since both insulin and oral agents are being used.\n\n"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.84"
+   },
+   "id": "toolu_014BnC1muTKCW8C6e4vwM6GM"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_014BnC1muTKCW8C6e4vwM6GM",
+   "result": "Z79.84: Long term (current) use of oral hypoglycemic drugs (billable)"
+  },
+  {
+   "t": 48389,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"I13.0\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F3\",\"F4\",\"F31\"],\"confidence\":0.85,\"rationale\":\"Hypertension, CKD and heart failure are presumed related (OCG I.C.9.a), so the combination code I13.0 is sequenced first. I50.23 and N18.32 are coded as additional codes.\"},\"secondary\":[{\"code\":\"I50.23\",\"poa\":\"Y\",\"finding_ids\":[\"F31\",\"F32\",\"F16\"],\"confidence\":0.92,\"rationale\":\"Cardiology documents acute on chronic systolic HF. I13.0 requires an additional code for the type of heart failure.\"},{\"code\":\"N18.32\",\"poa\":\"Y\",\"finding_ids\":[\"F3\",\"F24\"],\"confidence\":0.93,\"rationale\":\"CKD stage 3b is do"
+  },
+  {
+   "t": 48390,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "I13.0",
+     "poa": "Y",
+     "finding_ids": [
+      "F1",
+      "F3",
+      "F4",
+      "F31"
+     ],
+     "confidence": 0.85,
+     "rationale": "Hypertension, CKD and heart failure are presumed related (OCG I.C.9.a), so the combination code I13.0 is sequenced first. I50.23 and N18.32 are coded as additional codes."
+    },
+    "secondary": [
+     {
+      "code": "I50.23",
+      "poa": "Y",
+      "finding_ids": [
+       "F31",
+       "F32",
+       "F16"
+      ],
+      "confidence": 0.92,
+      "rationale": "Cardiology documents acute on chronic systolic HF. I13.0 requires an additional code for the type of heart failure."
+     },
+     {
+      "code": "N18.32",
+      "poa": "Y",
+      "finding_ids": [
+       "F3",
+       "F24"
+      ],
+      "confidence": 0.93,
+      "rationale": "CKD stage 3b is documented. I13.0 requires an additional code for the CKD stage."
+     },
+     {
+      "code": "E11.22",
+      "poa": "Y",
+      "finding_ids": [
+       "F5",
+       "F23"
+      ],
+      "confidence": 0.92,
+      "rationale": "The provider documents T2DM with diabetic CKD, so the combination code applies."
+     },
+     {
+      "code": "Z79.4",
+      "poa": "Y",
+      "finding_ids": [
+       "F5"
+      ],
+      "confidence": 0.88,
+      "rationale": "The patient is on long-term insulin (glargine)."
+     },
+     {
+      "code": "Z79.84",
+      "poa": "Y",
+      "finding_ids": [
+       "F5"
+      ],
+      "confidence": 0.6,
+      "rationale": "The patient takes empagliflozin, an oral hypoglycemic, along with insulin. OCG I.C.4.a.3 says to code both."
+     },
+     {
+      "code": "G47.33",
+      "poa": "Y",
+      "finding_ids": [
+       "F6"
+      ],
+      "confidence": 0.9,
+      "rationale": "OSA is documented and treated with CPAP."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F25"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hyperlipidemia is documented and treated with atorvastatin."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "query_opportunity",
+      "summary": "Creatinine rose from 1.6 to 2.5 during diuresis (eGFR 46 to 28). The drug-holding and trending are documented, but no provider documents AKI, so N17.9 is not coded. Query the provider for a diagnosis, such as AKI or a transient diuresis-related creatinine rise.",
+      "finding_ids": [
+       "F33",
+       "F34"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "query_opportunity",
+      "summary": "The discharge summary says only 'CHF exacerbation'. Cardiology documents acute on chronic systolic HF, which is consistent with HFrEF, so I50.23 is supported. The pleural effusions are integral to the HF and are not coded separately.",
+      "finding_ids": [
+       "F31",
+       "F22"
+      ],
+      "guideline": "OCG Section I.A.19",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 48390,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 58195,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"I13.0\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"HTN + CKD + HF are presumed related (OCG I.C.9.a.3) and no provider documents another cause. I13.0 is correct as PDx for HF with CKD stage 1-4, with I50.- and N18.- as additional codes. Acute HF drove admission, POA Y.\"},{\"code\":\"I50.23\",\"verdict\":\"supported\",\"confidence\":0.9,\"reason\":\"Cardiology documents acute on chronic systolic HF, EF 25%. This is consistent with the attending's 'CHF exacerbation' in a known HFrEF patient, and there is no conflict. Treatment (IV diuresis) and BNP support it. A confirming attendin"
+  },
+  {
+   "t": 58195,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "I13.0",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "HTN + CKD + HF are presumed related (OCG I.C.9.a.3) and no provider documents another cause. I13.0 is correct as PDx for HF with CKD stage 1-4, with I50.- and N18.- as additional codes. Acute HF drove admission, POA Y."
+     },
+     {
+      "code": "I50.23",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Cardiology documents acute on chronic systolic HF, EF 25%. This is consistent with the attending's 'CHF exacerbation' in a known HFrEF patient, and there is no conflict. Treatment (IV diuresis) and BNP support it. A confirming attending statement would be preferable."
+     },
+     {
+      "code": "N18.32",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "reason": "CKD 3b is documented consistently by the attending and cardiology, with baseline Cr and eGFR in range for stage 3b. Required as an additional code with I13.0."
+     },
+     {
+      "code": "E11.22",
+      "verdict": "supported",
+      "confidence": 0.93,
+      "reason": "The attending documents T2DM with diabetic CKD, so the link is explicit. It is also assumed per the 'with' convention. N18.32 is coded additionally."
+     },
+     {
+      "code": "Z79.4",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Long-term insulin glargine is documented and continued."
+     },
+     {
+      "code": "Z79.84",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "Empagliflozin is a long-term oral hypoglycemic (SGLT2 inhibitor), listed in home meds and resumed at discharge. It was held inpatient but remains a chronic med. OCG I.C.4.a.3 says to assign both Z79.4 and Z79.84 when insulin and an oral hypoglycemic are used. Empagliflozin is also used for HF, but it is on the diabetes regimen here, and the code is low-risk."
+     },
+     {
+      "code": "G47.33",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "OSA is documented by the provider, treated with CPAP, and carried into the discharge diagnoses."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hyperlipidemia is documented in the H&P and discharge summary and treated with atorvastatin. Unspecified is acceptable."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": [
+     {
+      "kind": "query_opportunity",
+      "summary": "Cr rose 1.6 to 2.5 (about 56%, meets KDIGO criteria) with diuretics and ARNI held, and then recovered to 1.8, but no provider diagnosis links this. Query for AKI vs expected diuresis-related creatinine change vs other. Do not code N17.9 without provider documentation.",
+      "finding_ids": [
+       "F33",
+       "F34"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "query_opportunity",
+      "summary": "The attending's progress notes and discharge summary say only 'CHF exacerbation', which lacks type and acuity. Cardiology documents acute on chronic systolic HF. A brief attending confirmation in the discharge summary would remove any payer challenge to I50.23.",
+      "finding_ids": [
+       "F31"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "The HD3 note says 'AKI' is not documented, but the progress note labels it only 'with diuresis', so the AKI finding F33 is a coder or NLP inference and should not be treated as provider-documented.",
+      "finding_ids": [
+       "F33"
+      ],
+      "guideline": "OCG Section III.B / I.A.19",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 58195,
+   "stage": "grouper",
+   "type": "output",
+   "family": "hf",
+   "drg": "291",
+   "title": "Heart failure and shock w MCC",
+   "weight": 1.34,
+   "tier": "MCC",
+   "drivers": [
+    "I50.23"
+   ]
+  },
+  {
+   "t": 58195,
+   "stage": "router",
+   "type": "output",
+   "base": 0.88,
+   "blocking": 0,
+   "confidence": 0.88
+  }
+ ],
+ "ms": 58195,
+ "cost_usd": 0.12075
+}

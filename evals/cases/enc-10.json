@@ -1,0 +1,115 @@
+{
+  "id": "enc-10",
+  "title": "Heart failure, unaddressed low sodium",
+  "summary": "A heart failure admission where the sodium level is low on every blood test, but no doctor ever writes it down as a diagnosis, so the coder has to ask.",
+  "family": "hf",
+  "patient": {
+    "age": 81,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-08",
+  "discharge_date": "2026-09-12",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "ED note",
+      "author": "J. Whitfield, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T10:05",
+      "text": "CC: SOB, leg swelling.\nHPI: 81F with HFpEF (EF 60% on echo 03/2026), T2DM, HLD, hypothyroidism, OSA on CPAP, obesity, presents with 1 week progressive DOE, 3-pillow orthopnea, PND x2 nights, and bilateral leg swelling. Reports 8 lb weight gain. Admits to dietary indiscretion at a family reunion. Compliant with furosemide 20 mg daily.\nROS: + DOE, orthopnea, LE edema. Denies CP, palpitations, syncope, fever, cough.\nVitals: T 36.7, HR 88, RR 22, BP 132/74, SpO2 92% RA -> 96% on 2L NC.\nExam: JVD to angle of jaw. Bibasilar crackles. Regular rhythm, no murmur. 2+ pitting edema to knees bilaterally.\nLabs: BNP 1,240. Troponin 0.02 (flat on repeat). Na 128, K 4.0, Cl 94, CO2 27, BUN 24, Cr 1.0. Glucose 168. Hgb 12.1.\nECG: NSR 86, no acute ST changes.\nCXR: cardiomegaly, vascular congestion, small bilateral effusions.\nMDM: Acute on chronic HFpEF exacerbation, likely dietary. Furosemide 40 mg IV given. Admit."
+    },
+    {
+      "id": "d2",
+      "type": "H&P",
+      "author": "A. Lindqvist, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T14:40",
+      "text": "HPI: 81F with chronic diastolic HF (EF 60%), T2DM, HLD, hypothyroidism, OSA, obesity, admitted with volume overload after high-salt intake. Up 8 lb from dry weight 196 lb.\nPMH: HFpEF, T2DM, HLD, hypothyroidism, OSA on CPAP, obesity.\nMeds: furosemide 20 mg daily, metformin 500 mg BID, atorvastatin 20 mg, levothyroxine 88 mcg, CPAP nightly.\nSocial: widowed, lives alone, former teacher, no tobacco or EtOH.\nExam: Wt 204 lb, Ht 5'5\" (BMI 34.0). JVD +, bibasilar crackles, 2+ BLE edema.\nLabs/imaging reviewed; see ED note. TSH 2.1. A1c 7.0.\nAssessment/Plan:\n1. Acute on chronic diastolic (HFpEF) heart failure - EF 60%. Furosemide 40 mg IV BID, strict I/O, daily weights, 2 g Na diet, 1.5 L fluid restriction, BMP daily. Wean O2 as tolerated.\n2. T2DM - hold metformin, SSI.\n3. HLD - continue atorvastatin.\n4. Hypothyroidism - continue levothyroxine; TSH normal.\n5. OSA - CPAP qHS.\n6. Obesity, BMI 34 - outpatient counseling.\nDVT ppx: heparin SQ. Code: Full."
+    },
+    {
+      "id": "d3",
+      "type": "Progress note",
+      "author": "A. Lindqvist, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-09T09:15",
+      "text": "S: Breathing easier, slept with 2 pillows. Net -1.9 L.\nO: HR 80, BP 124/70, RR 18, SpO2 95% on 1L. Wt 201.6 lb. JVD improving. Crackles at bases. 2+ edema.\nLabs: BMP reviewed. Cr 1.1, K 3.8.\nA/P:\n1. Acute on chronic HFpEF - good response, continue furosemide 40 IV BID, KCl 20 mEq daily.\n2. T2DM - glucose 140-180 on SSI.\n3. Hypothyroidism, HLD, OSA - stable on home regimen."
+    },
+    {
+      "id": "d4",
+      "type": "Progress note",
+      "author": "A. Lindqvist, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-11T08:40",
+      "text": "S: Feels close to baseline. Walked hallway without dyspnea. Net -5.2 L since admit.\nO: HR 76, BP 118/68, SpO2 96% RA. Wt 197.2 lb. No JVD. Trace crackles. Trace edema.\nLabs: BMP reviewed, Cr 1.1 stable. Mg 2.0.\nA/P:\n1. Acute on chronic diastolic HF - near euvolemic. Transition to PO furosemide 40 mg daily today, observe 24h.\n2. T2DM - resume metformin at discharge.\n3. Remaining chronic issues stable."
+    },
+    {
+      "id": "d5",
+      "type": "Lab summary",
+      "author": "Clinical Laboratory",
+      "author_role": "lab",
+      "timestamp": "2026-09-12T06:30",
+      "text": "Basic metabolic panel trend (reference Na 135-145 mmol/L):\n09/08 10:00  Na 128 L  K 4.0  Cl 94 L  CO2 27  BUN 24  Cr 1.0  Glu 168 H\n09/09 05:00  Na 127 L  K 3.8  Cl 93 L  CO2 28  BUN 26  Cr 1.1  Glu 152 H\n09/10 05:00  Na 129 L  K 3.9  Cl 94 L  CO2 29  BUN 27  Cr 1.1  Glu 148 H\n09/11 05:00  Na 128 L  K 4.1  Cl 93 L  CO2 29  BUN 28  Cr 1.1  Glu 139 H\n09/12 05:00  Na 129 L  K 4.0  Cl 95 L  CO2 28  BUN 27  Cr 1.0  Glu 131 H\nSerum osmolality 09/09: 266 mOsm/kg (L). Urine sodium 09/09: 22 mmol/L."
+    },
+    {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author": "A. Lindqvist, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-12T12:00",
+      "text": "Admit: 09/08/2026  Discharge: 09/12/2026\nDischarge diagnoses:\n1. Acute on chronic diastolic heart failure (HFpEF, EF 60%), precipitated by dietary sodium indiscretion\n2. Type 2 diabetes mellitus\n3. Hyperlipidemia\n4. Hypothyroidism\n5. Obstructive sleep apnea on CPAP\n6. Obesity, BMI 34\nHospital course: Admitted with volume overload (BNP 1,240, JVD, edema, pulmonary congestion). Diuresed with IV furosemide, net -5.6 L, weight 204 -> 196.8 lb (dry weight). Weaned off O2 day 3. Transitioned to furosemide 40 mg PO daily with stable renal function. Diet and daily weight education completed.\nDischarge meds: furosemide 40 mg daily (increased), KCl 20 mEq daily, metformin, atorvastatin, levothyroxine.\nFollow-up: HF clinic 7 days with BMP; PCP 2 weeks.\nCondition: stable, home with home health."
+    }
+  ],
+  "gold": {
+    "pdx": "I50.33",
+    "secondary": [
+      {
+        "code": "E11.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.84",
+        "poa": "1"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "E03.9",
+        "poa": "Y"
+      },
+      {
+        "code": "G47.33",
+        "poa": "Y"
+      },
+      {
+        "code": "E66.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z68.34",
+        "poa": "1"
+      }
+    ],
+    "drg": "293",
+    "route": "coder",
+    "hold_reasons": [
+      "Possible hyponatremia indicated only by labs: serum Na 127-129 mmol/L on every BMP (admission through discharge), serum osmolality 266, during IV diuresis with a 1.5 L fluid restriction, but no provider documents hyponatremia or its clinical significance (OCG III.B abnormal findings are not coded from lab values; query attending before final coding)"
+    ],
+    "query": {
+      "topic": "Clinical significance of low serum sodium. Clinical indicators: Na 128 on admission, 127-129 on all daily BMPs through discharge (ref 135-145); serum osmolality 266 mOsm/kg; urine Na 22; receiving IV furosemide 40 mg BID with 1.5 L fluid restriction for acute on chronic HFpEF. Please clarify whether these values represent a diagnosis that was monitored, evaluated or treated.",
+      "options": [
+        "Hyponatremia",
+        "Hypervolemic (dilutional) hyponatremia related to heart failure",
+        "Low sodium values without clinical significance",
+        "Other (please specify)",
+        "Clinically undetermined"
+      ]
+    },
+    "traps": [
+      "lab_only"
+    ],
+    "explanation": "Sodium was 127-129 on every BMP and the patient was on a fluid restriction and daily BMPs, but no provider ever names hyponatremia; the notes only say 'BMP reviewed'. Abnormal lab values are not coded unless the provider documents their clinical significance (OCG III.B), so E87.1 is not assigned and the case is held for a compliant, non-leading query. A naive system codes E87.1 straight from the lab flags; an overly literal one ignores the opportunity and finalizes without asking."
+  },
+  "hero": false
+}

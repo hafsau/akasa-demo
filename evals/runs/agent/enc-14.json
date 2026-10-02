@@ -1,0 +1,1252 @@
+{
+ "case_id": "enc-14",
+ "prompt_version": "2026-10-02.4-router-v2",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Urinary tract infection",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "UTI failing outpatient oral therapy in a frail 79F",
+   "note": null,
+   "start": 891,
+   "end": 941
+  },
+  {
+   "id": "F2",
+   "condition": "Dysuria",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "5 days of dysuria, frequency and suprapubic discomfort",
+   "note": null,
+   "start": 134,
+   "end": 188
+  },
+  {
+   "id": "F3",
+   "condition": "Urinary frequency",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "5 days of dysuria, frequency and suprapubic discomfort",
+   "note": null,
+   "start": 134,
+   "end": 188
+  },
+  {
+   "id": "F4",
+   "condition": "Suprapubic discomfort/pain",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "5 days of dysuria, frequency and suprapubic discomfort",
+   "note": null,
+   "start": 134,
+   "end": 188
+  },
+  {
+   "id": "F5",
+   "condition": "Low-grade fever",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "now with low-grade temps and generalized weakness",
+   "note": null,
+   "start": 263,
+   "end": 312
+  },
+  {
+   "id": "F6",
+   "condition": "Generalized weakness",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "now with low-grade temps and generalized weakness",
+   "note": null,
+   "start": 263,
+   "end": 312
+  },
+  {
+   "id": "F7",
+   "condition": "Hematuria",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "Denies hematuria",
+   "note": null,
+   "start": 385,
+   "end": 401
+  },
+  {
+   "id": "F8",
+   "condition": "Flank pain",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "Denies flank pain",
+   "note": null,
+   "start": 403,
+   "end": 420
+  },
+  {
+   "id": "F9",
+   "condition": "Pyelonephritis",
+   "assertion": "ruled_out",
+   "doc_id": "d1",
+   "quote": "No evidence of pyelonephritis clinically",
+   "note": null,
+   "start": 985,
+   "end": 1025
+  },
+  {
+   "id": "F10",
+   "condition": "Sepsis",
+   "assertion": "ruled_out",
+   "doc_id": "d1",
+   "quote": "Does not meet SIRS; sepsis not suspected",
+   "note": null,
+   "start": 943,
+   "end": 983
+  },
+  {
+   "id": "F11",
+   "condition": "Elevated WBC",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "WBC 11.2",
+   "note": null,
+   "start": 730,
+   "end": 738
+  },
+  {
+   "id": "F12",
+   "condition": "Leukocyte esterase 3+ in urinalysis",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "UA: LE 3+, nitrite +, WBC >50/hpf",
+   "note": null,
+   "start": 809,
+   "end": 842
+  },
+  {
+   "id": "F13",
+   "condition": "Nitrite positive in urinalysis",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "UA: LE 3+, nitrite +, WBC >50/hpf",
+   "note": null,
+   "start": 809,
+   "end": 842
+  },
+  {
+   "id": "F14",
+   "condition": "Bacteriuria",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "bacteria many",
+   "note": null,
+   "start": 857,
+   "end": 870
+  },
+  {
+   "id": "F15",
+   "condition": "Hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+   "note": null,
+   "start": 43,
+   "end": 108
+  },
+  {
+   "id": "F16",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+   "note": null,
+   "start": 43,
+   "end": 108
+  },
+  {
+   "id": "F17",
+   "condition": "Hypothyroidism",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+   "note": null,
+   "start": 43,
+   "end": 108
+  },
+  {
+   "id": "F18",
+   "condition": "Osteoporosis",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+   "note": null,
+   "start": 43,
+   "end": 108
+  },
+  {
+   "id": "F19",
+   "condition": "Depression",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+   "note": null,
+   "start": 43,
+   "end": 108
+  },
+  {
+   "id": "F20",
+   "condition": "GERD",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+   "note": null,
+   "start": 43,
+   "end": 108
+  },
+  {
+   "id": "F21",
+   "condition": "UTI treatment failure on nitrofurantoin",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "5 days of dysuria/frequency, worse despite 3 days of outpatient nitrofurantoin",
+   "note": null,
+   "start": 25,
+   "end": 103
+  },
+  {
+   "id": "F22",
+   "condition": "Mild suprapubic tenderness on exam",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Mild suprapubic TTP",
+   "note": null,
+   "start": 453,
+   "end": 472
+  },
+  {
+   "id": "F23",
+   "condition": "CVA tenderness absent",
+   "assertion": "negated",
+   "doc_id": "d2",
+   "quote": "No CVA tenderness",
+   "note": null,
+   "start": 474,
+   "end": 491
+  },
+  {
+   "id": "F24",
+   "condition": "Acute kidney injury",
+   "assertion": "ruled_out",
+   "doc_id": "d2",
+   "quote": "No evidence of AKI - Cr at baseline",
+   "note": null,
+   "start": 754,
+   "end": 789
+  },
+  {
+   "id": "F25",
+   "condition": "Hydronephrosis",
+   "assertion": "ruled_out",
+   "doc_id": "d3",
+   "quote": "No hydronephrosis",
+   "note": null,
+   "start": 109,
+   "end": 126
+  },
+  {
+   "id": "F26",
+   "condition": "Renal abscess",
+   "assertion": "ruled_out",
+   "doc_id": "d3",
+   "quote": "No hydronephrosis or renal abscess",
+   "note": null,
+   "start": 259,
+   "end": 293
+  },
+  {
+   "id": "F27",
+   "condition": "Bladder wall thickening",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Bladder partially distended with mild diffuse wall thickening",
+   "note": null,
+   "start": 162,
+   "end": 223
+  },
+  {
+   "id": "F28",
+   "condition": "Escherichia coli UTI",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Urine culture: >100,000 CFU/mL Escherichia coli",
+   "note": null,
+   "start": 119,
+   "end": 166
+  },
+  {
+   "id": "F29",
+   "condition": "E. coli susceptible to cephalosporins",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "susceptible to ceftriaxone, cefazolin, nitrofurantoin, ciprofloxacin",
+   "note": null,
+   "start": 168,
+   "end": 236
+  },
+  {
+   "id": "F30",
+   "condition": "Dysuria improving",
+   "assertion": "resolved",
+   "doc_id": "d4",
+   "quote": "Dysuria improving",
+   "note": null,
+   "start": 3,
+   "end": 20
+  },
+  {
+   "id": "F31",
+   "condition": "WBC normalization",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "WBC 8.4",
+   "note": null,
+   "start": 102,
+   "end": 109
+  },
+  {
+   "id": "F32",
+   "condition": "Urine clarity",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "urine clear yellow, no visible blood",
+   "note": null,
+   "start": 116,
+   "end": 152
+  },
+  {
+   "id": "F33",
+   "condition": "Age-related osteoporosis",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Age-related osteoporosis",
+   "note": null,
+   "start": 177,
+   "end": 201
+  }
+ ],
+ "codes": [
+  {
+   "code": "N39.0",
+   "poa": "Y",
+   "finding_ids": [
+    "F1",
+    "F28"
+   ],
+   "confidence": 0.93,
+   "rationale": "The provider documented a UTI with no site specified, and pyelonephritis was ruled out. It was the reason for admission.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "UTI documented by provider throughout, culture-confirmed, site unspecified, pyelonephritis ruled out, reason for admission. Cystitis is not provider-diagnosed (radiology only), so N39.0 is appropriate.",
+   "severity": null,
+   "description": "Urinary tract infection, site not specified"
+  },
+  {
+   "code": "B96.20",
+   "poa": "Y",
+   "finding_ids": [
+    "F28"
+   ],
+   "confidence": 0.92,
+   "rationale": "The urine culture grew E. coli and the provider documented an E. coli UTI. Organism code is added to N39.0.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider linked E. coli to the UTI in the progress note and discharge summary; B96.20 is appropriate as an additional code with N39.0.",
+   "severity": "none",
+   "description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F15"
+   ],
+   "confidence": 0.94,
+   "rationale": "Chronic hypertension treated with HCTZ.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "HTN documented in the discharge summary and treated with HCTZ.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F16"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hyperlipidemia treated with simvastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is documented in the discharge diagnoses and treated with simvastatin.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F17"
+   ],
+   "confidence": 0.91,
+   "rationale": "Hypothyroidism treated with levothyroxine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypothyroidism is documented and treated with levothyroxine.",
+   "severity": "none",
+   "description": "Hypothyroidism, unspecified"
+  },
+  {
+   "code": "M81.0",
+   "poa": "Y",
+   "finding_ids": [
+    "F33"
+   ],
+   "confidence": 0.9,
+   "rationale": "The discharge summary documents age-related osteoporosis with no current fracture.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Age-related osteoporosis is documented in the discharge summary with no fracture; alendronate was managed.",
+   "severity": "none",
+   "description": "Age-related osteoporosis without current pathological fracture"
+  },
+  {
+   "code": "F32.A",
+   "poa": "Y",
+   "finding_ids": [
+    "F19"
+   ],
+   "confidence": 0.86,
+   "rationale": "Depression, unspecified, treated with sertraline.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Depression is documented in the discharge diagnoses and treated with sertraline; unspecified is correct without further specificity.",
+   "severity": "none",
+   "description": "Depression, unspecified"
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F20"
+   ],
+   "confidence": 0.9,
+   "rationale": "GERD treated with famotidine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "GERD is documented and treated with famotidine, with no esophagitis documented.",
+   "severity": "none",
+   "description": "Gastro-esophageal reflux disease without esophagitis"
+  }
+ ],
+ "removed": [],
+ "issues": [],
+ "queries": [],
+ "drg": {
+  "family": "uti",
+  "number": "690",
+  "title": "Kidney and urinary tract infections w/o MCC",
+  "weight": 0.79,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.93,
+ "confidence_base": 0.93,
+ "blocking_issues": 0,
+ "blocking_reasons": [],
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 12729,
+   "input_tokens": 3032,
+   "output_tokens": 2308,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01457
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 12729,
+   "ms": 8071,
+   "input_tokens": 14815,
+   "output_tokens": 996,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.03959
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 20800,
+   "ms": 4570,
+   "input_tokens": 6245,
+   "output_tokens": 578,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01827
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-19T16:30",
+     "words": 173,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-19T20:15",
+     "words": 171,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "Radiology",
+     "author_role": "radiology",
+     "timestamp": "2026-09-20T10:05",
+     "words": 52,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-21T09:00",
+     "words": 80,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-21T19:40",
+     "words": 65,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-22T11:20",
+     "words": 109,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 12729,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Urinary tract infection",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "UTI failing outpatient oral therapy in a frail 79F",
+     "note": null,
+     "start": 891,
+     "end": 941
+    },
+    {
+     "id": "F2",
+     "condition": "Dysuria",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "5 days of dysuria, frequency and suprapubic discomfort",
+     "note": null,
+     "start": 134,
+     "end": 188
+    },
+    {
+     "id": "F3",
+     "condition": "Urinary frequency",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "5 days of dysuria, frequency and suprapubic discomfort",
+     "note": null,
+     "start": 134,
+     "end": 188
+    },
+    {
+     "id": "F4",
+     "condition": "Suprapubic discomfort/pain",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "5 days of dysuria, frequency and suprapubic discomfort",
+     "note": null,
+     "start": 134,
+     "end": 188
+    },
+    {
+     "id": "F5",
+     "condition": "Low-grade fever",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "now with low-grade temps and generalized weakness",
+     "note": null,
+     "start": 263,
+     "end": 312
+    },
+    {
+     "id": "F6",
+     "condition": "Generalized weakness",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "now with low-grade temps and generalized weakness",
+     "note": null,
+     "start": 263,
+     "end": 312
+    },
+    {
+     "id": "F7",
+     "condition": "Hematuria",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "Denies hematuria",
+     "note": null,
+     "start": 385,
+     "end": 401
+    },
+    {
+     "id": "F8",
+     "condition": "Flank pain",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "Denies flank pain",
+     "note": null,
+     "start": 403,
+     "end": 420
+    },
+    {
+     "id": "F9",
+     "condition": "Pyelonephritis",
+     "assertion": "ruled_out",
+     "doc_id": "d1",
+     "quote": "No evidence of pyelonephritis clinically",
+     "note": null,
+     "start": 985,
+     "end": 1025
+    },
+    {
+     "id": "F10",
+     "condition": "Sepsis",
+     "assertion": "ruled_out",
+     "doc_id": "d1",
+     "quote": "Does not meet SIRS; sepsis not suspected",
+     "note": null,
+     "start": 943,
+     "end": 983
+    },
+    {
+     "id": "F11",
+     "condition": "Elevated WBC",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "WBC 11.2",
+     "note": null,
+     "start": 730,
+     "end": 738
+    },
+    {
+     "id": "F12",
+     "condition": "Leukocyte esterase 3+ in urinalysis",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "UA: LE 3+, nitrite +, WBC >50/hpf",
+     "note": null,
+     "start": 809,
+     "end": 842
+    },
+    {
+     "id": "F13",
+     "condition": "Nitrite positive in urinalysis",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "UA: LE 3+, nitrite +, WBC >50/hpf",
+     "note": null,
+     "start": 809,
+     "end": 842
+    },
+    {
+     "id": "F14",
+     "condition": "Bacteriuria",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "bacteria many",
+     "note": null,
+     "start": 857,
+     "end": 870
+    },
+    {
+     "id": "F15",
+     "condition": "Hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+     "note": null,
+     "start": 43,
+     "end": 108
+    },
+    {
+     "id": "F16",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+     "note": null,
+     "start": 43,
+     "end": 108
+    },
+    {
+     "id": "F17",
+     "condition": "Hypothyroidism",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+     "note": null,
+     "start": 43,
+     "end": 108
+    },
+    {
+     "id": "F18",
+     "condition": "Osteoporosis",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+     "note": null,
+     "start": 43,
+     "end": 108
+    },
+    {
+     "id": "F19",
+     "condition": "Depression",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+     "note": null,
+     "start": 43,
+     "end": 108
+    },
+    {
+     "id": "F20",
+     "condition": "GERD",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "79F with HTN, HLD, hypothyroidism, osteoporosis, depression, GERD",
+     "note": null,
+     "start": 43,
+     "end": 108
+    },
+    {
+     "id": "F21",
+     "condition": "UTI treatment failure on nitrofurantoin",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "5 days of dysuria/frequency, worse despite 3 days of outpatient nitrofurantoin",
+     "note": null,
+     "start": 25,
+     "end": 103
+    },
+    {
+     "id": "F22",
+     "condition": "Mild suprapubic tenderness on exam",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Mild suprapubic TTP",
+     "note": null,
+     "start": 453,
+     "end": 472
+    },
+    {
+     "id": "F23",
+     "condition": "CVA tenderness absent",
+     "assertion": "negated",
+     "doc_id": "d2",
+     "quote": "No CVA tenderness",
+     "note": null,
+     "start": 474,
+     "end": 491
+    },
+    {
+     "id": "F24",
+     "condition": "Acute kidney injury",
+     "assertion": "ruled_out",
+     "doc_id": "d2",
+     "quote": "No evidence of AKI - Cr at baseline",
+     "note": null,
+     "start": 754,
+     "end": 789
+    },
+    {
+     "id": "F25",
+     "condition": "Hydronephrosis",
+     "assertion": "ruled_out",
+     "doc_id": "d3",
+     "quote": "No hydronephrosis",
+     "note": null,
+     "start": 109,
+     "end": 126
+    },
+    {
+     "id": "F26",
+     "condition": "Renal abscess",
+     "assertion": "ruled_out",
+     "doc_id": "d3",
+     "quote": "No hydronephrosis or renal abscess",
+     "note": null,
+     "start": 259,
+     "end": 293
+    },
+    {
+     "id": "F27",
+     "condition": "Bladder wall thickening",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Bladder partially distended with mild diffuse wall thickening",
+     "note": null,
+     "start": 162,
+     "end": 223
+    },
+    {
+     "id": "F28",
+     "condition": "Escherichia coli UTI",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Urine culture: >100,000 CFU/mL Escherichia coli",
+     "note": null,
+     "start": 119,
+     "end": 166
+    },
+    {
+     "id": "F29",
+     "condition": "E. coli susceptible to cephalosporins",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "susceptible to ceftriaxone, cefazolin, nitrofurantoin, ciprofloxacin",
+     "note": null,
+     "start": 168,
+     "end": 236
+    },
+    {
+     "id": "F30",
+     "condition": "Dysuria improving",
+     "assertion": "resolved",
+     "doc_id": "d4",
+     "quote": "Dysuria improving",
+     "note": null,
+     "start": 3,
+     "end": 20
+    },
+    {
+     "id": "F31",
+     "condition": "WBC normalization",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "WBC 8.4",
+     "note": null,
+     "start": 102,
+     "end": 109
+    },
+    {
+     "id": "F32",
+     "condition": "Urine clarity",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "urine clear yellow, no visible blood",
+     "note": null,
+     "start": 116,
+     "end": 152
+    },
+    {
+     "id": "F33",
+     "condition": "Age-related osteoporosis",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Age-related osteoporosis",
+     "note": null,
+     "start": 177,
+     "end": 201
+    }
+   ]
+  },
+  {
+   "t": 12729,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "urinary tract infection site not specified"
+   },
+   "id": "toolu_013MjwuPKDqigdCMhxYnNSZj"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "Escherichia coli as cause of disease"
+   },
+   "id": "toolu_01YbWh4SGTuz7eRa87E3drNh"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "age-related osteoporosis without current pathological fracture"
+   },
+   "id": "toolu_015J5CE3oKQTKn3fgyGoCP5A"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "depression"
+   },
+   "id": "toolu_01F1FGSTMzafis8h4rMGYT5M"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "hyperlipidemia"
+   },
+   "id": "toolu_01NRjL4rtSpEnqUCQddcARgS"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "hypothyroidism"
+   },
+   "id": "toolu_01Q1u36owwAFfkCmjm7Q6kDT"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "gastro-esophageal reflux disease"
+   },
+   "id": "toolu_01DkS3KPWMMEfFduFkJaseuF"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "essential hypertension"
+   },
+   "id": "toolu_01Gmsbm5ukTvQ5hSibWuqYSG"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_013MjwuPKDqigdCMhxYnNSZj",
+   "result": "[\"N39.0  Urinary tract infection, site not specified\"]"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01YbWh4SGTuz7eRa87E3drNh",
+   "result": "[\"B96.20  Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere\", \"B96.29  Other Escherichia coli [E. coli] as the cause of diseases classified elsewhere\", \"B96.21  Shiga toxin-producing Escherichia coli [E. coli] [STEC] O157 as the cause of diseases classified elsewhere\", \"B96.23  Unspecified Shiga toxin-producing Escherichia coli [E. coli] [STEC] as the cause of diseases classified elsewhere\", \"B96.22  Other specified Shiga toxin-producing Escherichia coli [E. coli] [STEC] as the cause of diseases classified elsewhere\"]"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_015J5CE3oKQTKn3fgyGoCP5A",
+   "result": "[\"M81.0  Age-related osteoporosis without current pathological fracture\"]"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01F1FGSTMzafis8h4rMGYT5M",
+   "result": "[\"F32.A  Depression, unspecified\", \"F53.0  Postpartum depression\", \"P91.4  Neonatal cerebral depression\", \"Z13.31  Encounter for screening for depression\", \"Z13.32  Encounter for screening for maternal depression\"]"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01NRjL4rtSpEnqUCQddcARgS",
+   "result": "[\"E78.2  Mixed hyperlipidemia\", \"E78.49  Other hyperlipidemia\", \"E78.5  Hyperlipidemia, unspecified\"]"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01Q1u36owwAFfkCmjm7Q6kDT",
+   "result": "[\"E03.3  Postinfectious hypothyroidism\", \"E03.9  Hypothyroidism, unspecified\", \"E89.0  Postprocedural hypothyroidism\", \"E03.8  Other specified hypothyroidism\", \"E02  Subclinical iodine-deficiency hypothyroidism\", \"E03.1  Congenital hypothyroidism without goiter\", \"E03.0  Congenital hypothyroidism with diffuse goiter\", \"E03.2  Hypothyroidism due to medicaments and other exogenous substances\"]"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01DkS3KPWMMEfFduFkJaseuF",
+   "result": "[\"K21.9  Gastro-esophageal reflux disease without esophagitis\", \"K21.00  Gastro-esophageal reflux disease with esophagitis, without bleeding\", \"K21.01  Gastro-esophageal reflux disease with esophagitis, with bleeding\"]"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01Gmsbm5ukTvQ5hSibWuqYSG",
+   "result": "[\"I10  Essential (primary) hypertension\", \"O10.02  Pre-existing essential hypertension complicating childbirth\", \"O10.03  Pre-existing essential hypertension complicating the puerperium\", \"O10.011  Pre-existing essential hypertension complicating pregnancy, first trimester\", \"O10.012  Pre-existing essential hypertension complicating pregnancy, second trimester\", \"O10.013  Pre-existing essential hypertension complicating pregnancy, third trimester\", \"O10.019  Pre-existing essential hypertension complicating pregnancy, unspecified trimester\"]"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"N39.0\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F28\"],\"confidence\":0.93,\"rationale\":\"The provider documented a UTI with no site specified, and pyelonephritis was ruled out. It was the reason for admission.\"},\"secondary\":[{\"code\":\"B96.20\",\"poa\":\"Y\",\"finding_ids\":[\"F28\"],\"confidence\":0.9,\"rationale\":\"The urine culture grew E. coli and the provider documented an E. coli UTI. Organism code is added to N39.0.\"},{\"code\":\"I10\",\"poa\":\"Y\",\"finding_ids\":[\"F15\"],\"confidence\":0.93,\"rationale\":\"Chronic hypertension treated with HCTZ.\"},{\"code\":\"E78.5\",\"poa\":\"Y\",\"finding_ids\":[\"F16\"],\"confidence\":0.9,"
+  },
+  {
+   "t": 20800,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "N39.0",
+     "poa": "Y",
+     "finding_ids": [
+      "F1",
+      "F28"
+     ],
+     "confidence": 0.93,
+     "rationale": "The provider documented a UTI with no site specified, and pyelonephritis was ruled out. It was the reason for admission."
+    },
+    "secondary": [
+     {
+      "code": "B96.20",
+      "poa": "Y",
+      "finding_ids": [
+       "F28"
+      ],
+      "confidence": 0.9,
+      "rationale": "The urine culture grew E. coli and the provider documented an E. coli UTI. Organism code is added to N39.0."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F15"
+      ],
+      "confidence": 0.93,
+      "rationale": "Chronic hypertension treated with HCTZ."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F16"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hyperlipidemia treated with simvastatin."
+     },
+     {
+      "code": "E03.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F17"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hypothyroidism treated with levothyroxine."
+     },
+     {
+      "code": "M81.0",
+      "poa": "Y",
+      "finding_ids": [
+       "F33"
+      ],
+      "confidence": 0.9,
+      "rationale": "The discharge summary documents age-related osteoporosis with no current fracture."
+     },
+     {
+      "code": "F32.A",
+      "poa": "Y",
+      "finding_ids": [
+       "F19"
+      ],
+      "confidence": 0.85,
+      "rationale": "Depression, unspecified, treated with sertraline."
+     },
+     {
+      "code": "K21.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F20"
+      ],
+      "confidence": 0.9,
+      "rationale": "GERD treated with famotidine."
+     }
+    ],
+    "issues": []
+   }
+  },
+  {
+   "t": 20800,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 25370,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"N39.0\",\"verdict\":\"supported\",\"confidence\":0.93,\"reason\":\"UTI documented by provider throughout, culture-confirmed, site unspecified, pyelonephritis ruled out, reason for admission. Cystitis is not provider-diagnosed (radiology only), so N39.0 is appropriate.\"},{\"code\":\"B96.20\",\"verdict\":\"supported\",\"confidence\":0.92,\"reason\":\"Provider linked E. coli to the UTI in the progress note and discharge summary; B96.20 is appropriate as an additional code with N39.0.\"},{\"code\":\"I10\",\"verdict\":\"supported\",\"confidence\":0.94,\"reason\":\"HTN documented in the discharge summary and treate"
+  },
+  {
+   "t": 25370,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "N39.0",
+      "verdict": "supported",
+      "confidence": 0.93,
+      "reason": "UTI documented by provider throughout, culture-confirmed, site unspecified, pyelonephritis ruled out, reason for admission. Cystitis is not provider-diagnosed (radiology only), so N39.0 is appropriate."
+     },
+     {
+      "code": "B96.20",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "reason": "Provider linked E. coli to the UTI in the progress note and discharge summary; B96.20 is appropriate as an additional code with N39.0."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.94,
+      "reason": "HTN documented in the discharge summary and treated with HCTZ."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hyperlipidemia is documented in the discharge diagnoses and treated with simvastatin."
+     },
+     {
+      "code": "E03.9",
+      "verdict": "supported",
+      "confidence": 0.91,
+      "reason": "Hypothyroidism is documented and treated with levothyroxine."
+     },
+     {
+      "code": "M81.0",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Age-related osteoporosis is documented in the discharge summary with no fracture; alendronate was managed."
+     },
+     {
+      "code": "F32.A",
+      "verdict": "supported",
+      "confidence": 0.86,
+      "reason": "Depression is documented in the discharge diagnoses and treated with sertraline; unspecified is correct without further specificity."
+     },
+     {
+      "code": "K21.9",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "GERD is documented and treated with famotidine, with no esophagitis documented."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": []
+   }
+  },
+  {
+   "t": 25370,
+   "stage": "grouper",
+   "type": "output",
+   "family": "uti",
+   "drg": "690",
+   "title": "Kidney and urinary tract infections w/o MCC",
+   "weight": 0.79,
+   "tier": "none",
+   "drivers": []
+  },
+  {
+   "t": 25370,
+   "stage": "router",
+   "type": "output",
+   "base": 0.93,
+   "blocking": 0,
+   "reasons": [],
+   "confidence": 0.93
+  }
+ ],
+ "ms": 25371,
+ "cost_usd": 0.07243
+}

@@ -1,0 +1,1503 @@
+{
+ "case_id": "enc-10",
+ "prompt_version": "2026-10-02.3",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Heart failure with preserved ejection fraction (HFpEF)",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "81F with HFpEF (EF 60% on echo 03/2026)",
+   "note": null,
+   "start": 28,
+   "end": 67
+  },
+  {
+   "id": "F2",
+   "condition": "Type 2 diabetes mellitus",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "T2DM, HLD, hypothyroidism, OSA on CPAP, obesity",
+   "note": null,
+   "start": 69,
+   "end": 116
+  },
+  {
+   "id": "F3",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "T2DM, HLD, hypothyroidism, OSA on CPAP, obesity",
+   "note": null,
+   "start": 69,
+   "end": 116
+  },
+  {
+   "id": "F4",
+   "condition": "Hypothyroidism",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "T2DM, HLD, hypothyroidism, OSA on CPAP, obesity",
+   "note": null,
+   "start": 69,
+   "end": 116
+  },
+  {
+   "id": "F5",
+   "condition": "Obstructive sleep apnea on CPAP",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "OSA on CPAP, obesity, presents with 1 week progressive DOE",
+   "note": null,
+   "start": 96,
+   "end": 154
+  },
+  {
+   "id": "F6",
+   "condition": "Obesity",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "obesity, presents with 1 week progressive DOE, 3-pillow orthopnea",
+   "note": null,
+   "start": 109,
+   "end": 174
+  },
+  {
+   "id": "F7",
+   "condition": "Acute exacerbation of heart failure",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Acute on chronic HFpEF exacerbation, likely dietary",
+   "note": null,
+   "start": 824,
+   "end": 875
+  },
+  {
+   "id": "F8",
+   "condition": "Dyspnea on exertion",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "1 week progressive DOE, 3-pillow orthopnea, PND x2 nights",
+   "note": null,
+   "start": 132,
+   "end": 189
+  },
+  {
+   "id": "F9",
+   "condition": "Orthopnea",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "1 week progressive DOE, 3-pillow orthopnea, PND x2 nights",
+   "note": null,
+   "start": 132,
+   "end": 189
+  },
+  {
+   "id": "F10",
+   "condition": "Paroxysmal nocturnal dyspnea",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "PND x2 nights, and bilateral leg swelling",
+   "note": null,
+   "start": 176,
+   "end": 217
+  },
+  {
+   "id": "F11",
+   "condition": "Bilateral leg edema",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "bilateral leg swelling. Reports 8 lb weight gain",
+   "note": null,
+   "start": 195,
+   "end": 243
+  },
+  {
+   "id": "F12",
+   "condition": "Weight gain",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Reports 8 lb weight gain",
+   "note": null,
+   "start": 219,
+   "end": 243
+  },
+  {
+   "id": "F13",
+   "condition": "Elevated BNP",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Labs: BNP 1,240",
+   "note": null,
+   "start": 600,
+   "end": 615
+  },
+  {
+   "id": "F14",
+   "condition": "Hyponatremia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Na 128, K 4.0, Cl 94, CO2 27, BUN 24, Cr 1.0",
+   "note": null,
+   "start": 649,
+   "end": 693
+  },
+  {
+   "id": "F15",
+   "condition": "Hyperglycemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Glucose 168",
+   "note": null,
+   "start": 695,
+   "end": 706
+  },
+  {
+   "id": "F16",
+   "condition": "Cardiomegaly",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "CXR: cardiomegaly, vascular congestion, small bilateral effusions",
+   "note": null,
+   "start": 752,
+   "end": 817
+  },
+  {
+   "id": "F17",
+   "condition": "Pulmonary vascular congestion",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "CXR: cardiomegaly, vascular congestion, small bilateral effusions",
+   "note": null,
+   "start": 752,
+   "end": 817
+  },
+  {
+   "id": "F18",
+   "condition": "Bilateral pleural effusions",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "small bilateral effusions",
+   "note": null,
+   "start": 792,
+   "end": 817
+  },
+  {
+   "id": "F19",
+   "condition": "Jugular venous distention",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Exam: JVD to angle of jaw",
+   "note": null,
+   "start": 487,
+   "end": 512
+  },
+  {
+   "id": "F20",
+   "condition": "Bibasilar crackles",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Bibasilar crackles. Regular rhythm, no murmur",
+   "note": null,
+   "start": 514,
+   "end": 559
+  },
+  {
+   "id": "F21",
+   "condition": "Pitting edema to knees bilaterally",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "2+ pitting edema to knees bilaterally",
+   "note": null,
+   "start": 561,
+   "end": 598
+  },
+  {
+   "id": "F22",
+   "condition": "Troponin elevation (0.02)",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Troponin 0.02 (flat on repeat)",
+   "note": null,
+   "start": 617,
+   "end": 647
+  },
+  {
+   "id": "F23",
+   "condition": "Hypochloremia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Cl 94, CO2 27, BUN 24, Cr 1.0",
+   "note": null,
+   "start": 664,
+   "end": 693
+  },
+  {
+   "id": "F24",
+   "condition": "Elevated BUN",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "BUN 24, Cr 1.0. Glucose 168",
+   "note": null,
+   "start": 679,
+   "end": 706
+  },
+  {
+   "id": "F25",
+   "condition": "Volume overload precipitated by dietary sodium indiscretion",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "admitted with volume overload after high-salt intake",
+   "note": null,
+   "start": 86,
+   "end": 138
+  },
+  {
+   "id": "F26",
+   "condition": "Hyponatremia persisting",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Na 128 L  K 4.0  Cl 94 L  CO2 27",
+   "note": null,
+   "start": 72,
+   "end": 104
+  },
+  {
+   "id": "F27",
+   "condition": "Hypo-osmolality",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Serum osmolality 09/09: 266 mOsm/kg (L)",
+   "note": null,
+   "start": 424,
+   "end": 463
+  },
+  {
+   "id": "F28",
+   "condition": "Low urine sodium",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Urine sodium 09/09: 22 mmol/L",
+   "note": null,
+   "start": 465,
+   "end": 494
+  },
+  {
+   "id": "F29",
+   "condition": "Elevated A1c (7.0)",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "A1c 7.0",
+   "note": null,
+   "start": 530,
+   "end": 537
+  },
+  {
+   "id": "F30",
+   "condition": "Normal TSH (2.1)",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "TSH 2.1. A1c 7.0",
+   "note": null,
+   "start": 521,
+   "end": 537
+  },
+  {
+   "id": "F31",
+   "condition": "BMI 34 (obesity class 1)",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "BMI 34.0",
+   "note": null,
+   "start": 433,
+   "end": 441
+  },
+  {
+   "id": "F32",
+   "condition": "Clinical improvement in heart failure symptoms",
+   "assertion": "resolved",
+   "doc_id": "d4",
+   "quote": "Feels close to baseline. Walked hallway without dyspnea",
+   "note": null,
+   "start": 3,
+   "end": 58
+  }
+ ],
+ "codes": [
+  {
+   "code": "I50.33",
+   "poa": "Y",
+   "finding_ids": [
+    "F1",
+    "F7",
+    "F25"
+   ],
+   "confidence": 0.96,
+   "rationale": "Acute on chronic diastolic HF is documented by the ED physician, the hospitalist and the discharge summary, and it was the reason for admission.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "Acute on chronic diastolic HF documented by ED, hospitalist and discharge summary, treated with IV diuresis. Reason for admission. POA Y is correct.",
+   "severity": null,
+   "description": "Acute on chronic diastolic (congestive) heart failure"
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F2"
+   ],
+   "confidence": 0.6,
+   "rationale": "T2DM is documented. No complication is documented by a provider, so hyperglycemia is not coded from labs alone.",
+   "role": "secondary",
+   "verdict": "needs_query",
+   "critic_reason": "T2DM is documented. A1c 7.0 and glucose 130-170 on SSI, but no provider linked hyperglycemia. E11.9 is acceptable as documented. Hyperglycemia (E11.65) needs provider documentation, so it can't be coded from labs. Also, the HF is documented as diastolic without hypertension, so no I11.0 issue arises.",
+   "severity": "none",
+   "description": "Type 2 diabetes mellitus without complications"
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "finding_ids": [
+    "F2"
+   ],
+   "confidence": 0.85,
+   "rationale": "The patient takes metformin long term, an oral hypoglycemic.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Home metformin is documented on the med list and resumed at discharge. Z79.84 fits oral hypoglycemic use. The finding F2 only cites T2DM, but the med list in d2 supports it.",
+   "severity": "none",
+   "description": "Long term (current) use of oral hypoglycemic drugs"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F3"
+   ],
+   "confidence": 0.93,
+   "rationale": "Hyperlipidemia is documented and treated with atorvastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "HLD is documented in the H&P and discharge summary and treated with atorvastatin.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F4"
+   ],
+   "confidence": 0.93,
+   "rationale": "Hypothyroidism is documented and treated with levothyroxine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypothyroidism is documented, treated with levothyroxine, and TSH was checked.",
+   "severity": "none",
+   "description": "Hypothyroidism, unspecified"
+  },
+  {
+   "code": "G47.33",
+   "poa": "Y",
+   "finding_ids": [
+    "F5"
+   ],
+   "confidence": 0.93,
+   "rationale": "OSA on CPAP is documented and was managed during the stay.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "OSA on CPAP is documented in the H&P and discharge summary, with CPAP ordered nightly.",
+   "severity": "none",
+   "description": "Obstructive sleep apnea (adult) (pediatric)"
+  },
+  {
+   "code": "E66.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F6",
+    "F31"
+   ],
+   "confidence": 0.55,
+   "rationale": "Providers document obesity without a class, so the unspecified code is used.",
+   "role": "secondary",
+   "verdict": "needs_query",
+   "critic_reason": "Obesity is documented by the provider with BMI 34, which is class 1 range. The provider did not state class. The proposed E66.9 is acceptable only if the class stays undocumented. E66.811 (obesity class 1) would need the provider to document the class. Note the proposed query is reasonable but low value.",
+   "severity": "none",
+   "description": "Obesity, unspecified"
+  },
+  {
+   "code": "Z68.34",
+   "poa": "Y",
+   "finding_ids": [
+    "F31"
+   ],
+   "confidence": 0.88,
+   "rationale": "BMI 34.0 is documented, and the provider diagnosed obesity, so the BMI code can be reported.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "BMI 34.0 is documented by the provider in the H&P and associated with a provider-diagnosed obesity. Z68.34 is a valid code for BMI 34.0-34.9.",
+   "severity": "none",
+   "description": "Body mass index [BMI] 34.0-34.9, adult"
+  }
+ ],
+ "removed": [],
+ "issues": [
+  {
+   "kind": "query_opportunity",
+   "summary": "Na was 127-129 throughout the stay. Serum osmolality was low and urine sodium was 22. Na was monitored with daily BMPs and fluid restriction, but no provider documented a hyponatremia diagnosis in the H&P, progress notes or discharge summary. Query the provider for clinical significance and diagnosis (E87.1).",
+   "finding_ids": [
+    "F14",
+    "F26",
+    "F27",
+    "F28"
+   ],
+   "guideline": null,
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "Query whether the obesity is class 1 (E66.811). BMI 34 is documented but the class is not stated.",
+   "finding_ids": [
+    "F6",
+    "F31"
+   ],
+   "guideline": null,
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Pleural effusions, cardiomegaly, JVD, edema, DOE, orthopnea, PND and the elevated BNP are integral to the heart failure and are not coded separately. The troponin of 0.02 was flat and is not coded.",
+   "finding_ids": [
+    "F8",
+    "F9",
+    "F10",
+    "F11",
+    "F13",
+    "F16",
+    "F18",
+    "F22"
+   ],
+   "guideline": null,
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "Hyponatremia (Na 127-129 throughout, low osmolality 266, urine Na 22) was monitored with daily BMP and fluid restriction, but no provider documented a diagnosis. Query for clinical significance, e.g. dilutional hyponatremia in HF. Do not code E87.1 without provider documentation.",
+   "finding_ids": [
+    "F14",
+    "F26",
+    "F27",
+    "F28"
+   ],
+   "guideline": "AHIMA/ACDIS query practice; OCG Section III.B (abnormal findings)",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "conflicting_documentation",
+   "summary": "Discharge weight conflicts across the record: the progress note on 09/11 says 197.2 lb, the discharge summary says 196.8 lb (dry weight). Net fluid balance is -5.2 L on 09/11 vs -5.6 L at discharge. These are minor and don't affect coding, but note them for documentation consistency.",
+   "finding_ids": [
+    "F32"
+   ],
+   "guideline": null,
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Discharge summary says 'weaned off O2 day 3', but the 09/09 note shows 1 L O2 and the 09/11 note shows RA. No provider documented acute respiratory failure or hypoxia. SpO2 92% RA on arrival is borderline and doesn't support a respiratory failure query.",
+   "finding_ids": [
+    "F7"
+   ],
+   "guideline": null,
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "clinical_validation",
+   "summary": "E11.9: T2DM is documented. A1c 7.0 and glucose 130-170 on SSI, but no provider linked hyperglycemia. E11.9 is acceptable as documented. Hyperglycemia (E11.65) needs provider documentation, so it can't be coded from labs. Also, the HF is documented as diastolic without hypertension, so no I11.0 issue arises.",
+   "finding_ids": [
+    "F2"
+   ],
+   "guideline": null,
+   "blocks_autonomy": true
+  },
+  {
+   "kind": "clinical_validation",
+   "summary": "E66.9: Obesity is documented by the provider with BMI 34, which is class 1 range. The provider did not state class. The proposed E66.9 is acceptable only if the class stays undocumented. E66.811 (obesity class 1) would need the provider to document the class. Note the proposed query is reasonable but low value.",
+   "finding_ids": [
+    "F6",
+    "F31"
+   ],
+   "guideline": null,
+   "blocks_autonomy": true
+  }
+ ],
+ "queries": [
+  {
+   "issue": "E11.9: T2DM is documented. A1c 7.0 and glucose 130-170 on SSI, but no provider linked hyperglycemia. E11.9 is acceptable as documented. Hyperglycemia (E11.65) needs provider documentation, so it can't be coded from labs. Also, the HF is documented as diastolic without hypertension, so no I11.0 issue arises.",
+   "to": "Attending physician",
+   "clinical_indicators": [
+    {
+     "text": "History documents: T2DM, HLD, hypothyroidism, OSA on CPAP, obesity",
+     "finding_id": "F2"
+    },
+    {
+     "text": "Hemoglobin A1c 7.0 noted in the record",
+     "finding_id": null
+    },
+    {
+     "text": "Serum glucose values 130-170 mg/dL with sliding scale insulin (SSI) ordered",
+     "finding_id": null
+    }
+   ],
+   "question": "Based on your clinical judgment, can you please clarify the status of the patient's type 2 diabetes mellitus during this admission, considering the glucose values and sliding scale insulin treatment noted?",
+   "options": [
+    "Type 2 diabetes mellitus with hyperglycemia",
+    "Type 2 diabetes mellitus without hyperglycemia (glucose values at expected/controlled levels)",
+    "Other (please specify)",
+    "Clinically undetermined"
+   ],
+   "lint": []
+  }
+ ],
+ "drg": {
+  "family": "hf",
+  "number": "293",
+  "title": "Heart failure and shock w/o CC/MCC",
+  "weight": 0.64,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.48,
+ "confidence_base": 0.96,
+ "blocking_issues": 2,
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 18047,
+   "input_tokens": 3244,
+   "output_tokens": 2340,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.01494
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 18047,
+   "ms": 15543,
+   "input_tokens": 21968,
+   "output_tokens": 1781,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.06175
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 33590,
+   "ms": 9634,
+   "input_tokens": 6771,
+   "output_tokens": 1285,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.02639
+  },
+  {
+   "stage": "query",
+   "model": "claude-sonnet-5-5",
+   "started": 43225,
+   "ms": 2764,
+   "input_tokens": 918,
+   "output_tokens": 301,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.00485
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-08T10:05",
+     "words": 153,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-08T14:40",
+     "words": 159,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-09T09:15",
+     "words": 72,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-11T08:40",
+     "words": 71,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Lab summary",
+     "author_role": "lab",
+     "timestamp": "2026-09-12T06:30",
+     "words": 114,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-12T12:00",
+     "words": 118,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 18047,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Heart failure with preserved ejection fraction (HFpEF)",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "81F with HFpEF (EF 60% on echo 03/2026)",
+     "note": null,
+     "start": 28,
+     "end": 67
+    },
+    {
+     "id": "F2",
+     "condition": "Type 2 diabetes mellitus",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "T2DM, HLD, hypothyroidism, OSA on CPAP, obesity",
+     "note": null,
+     "start": 69,
+     "end": 116
+    },
+    {
+     "id": "F3",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "T2DM, HLD, hypothyroidism, OSA on CPAP, obesity",
+     "note": null,
+     "start": 69,
+     "end": 116
+    },
+    {
+     "id": "F4",
+     "condition": "Hypothyroidism",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "T2DM, HLD, hypothyroidism, OSA on CPAP, obesity",
+     "note": null,
+     "start": 69,
+     "end": 116
+    },
+    {
+     "id": "F5",
+     "condition": "Obstructive sleep apnea on CPAP",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "OSA on CPAP, obesity, presents with 1 week progressive DOE",
+     "note": null,
+     "start": 96,
+     "end": 154
+    },
+    {
+     "id": "F6",
+     "condition": "Obesity",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "obesity, presents with 1 week progressive DOE, 3-pillow orthopnea",
+     "note": null,
+     "start": 109,
+     "end": 174
+    },
+    {
+     "id": "F7",
+     "condition": "Acute exacerbation of heart failure",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Acute on chronic HFpEF exacerbation, likely dietary",
+     "note": null,
+     "start": 824,
+     "end": 875
+    },
+    {
+     "id": "F8",
+     "condition": "Dyspnea on exertion",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "1 week progressive DOE, 3-pillow orthopnea, PND x2 nights",
+     "note": null,
+     "start": 132,
+     "end": 189
+    },
+    {
+     "id": "F9",
+     "condition": "Orthopnea",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "1 week progressive DOE, 3-pillow orthopnea, PND x2 nights",
+     "note": null,
+     "start": 132,
+     "end": 189
+    },
+    {
+     "id": "F10",
+     "condition": "Paroxysmal nocturnal dyspnea",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "PND x2 nights, and bilateral leg swelling",
+     "note": null,
+     "start": 176,
+     "end": 217
+    },
+    {
+     "id": "F11",
+     "condition": "Bilateral leg edema",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "bilateral leg swelling. Reports 8 lb weight gain",
+     "note": null,
+     "start": 195,
+     "end": 243
+    },
+    {
+     "id": "F12",
+     "condition": "Weight gain",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Reports 8 lb weight gain",
+     "note": null,
+     "start": 219,
+     "end": 243
+    },
+    {
+     "id": "F13",
+     "condition": "Elevated BNP",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Labs: BNP 1,240",
+     "note": null,
+     "start": 600,
+     "end": 615
+    },
+    {
+     "id": "F14",
+     "condition": "Hyponatremia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Na 128, K 4.0, Cl 94, CO2 27, BUN 24, Cr 1.0",
+     "note": null,
+     "start": 649,
+     "end": 693
+    },
+    {
+     "id": "F15",
+     "condition": "Hyperglycemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Glucose 168",
+     "note": null,
+     "start": 695,
+     "end": 706
+    },
+    {
+     "id": "F16",
+     "condition": "Cardiomegaly",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "CXR: cardiomegaly, vascular congestion, small bilateral effusions",
+     "note": null,
+     "start": 752,
+     "end": 817
+    },
+    {
+     "id": "F17",
+     "condition": "Pulmonary vascular congestion",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "CXR: cardiomegaly, vascular congestion, small bilateral effusions",
+     "note": null,
+     "start": 752,
+     "end": 817
+    },
+    {
+     "id": "F18",
+     "condition": "Bilateral pleural effusions",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "small bilateral effusions",
+     "note": null,
+     "start": 792,
+     "end": 817
+    },
+    {
+     "id": "F19",
+     "condition": "Jugular venous distention",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Exam: JVD to angle of jaw",
+     "note": null,
+     "start": 487,
+     "end": 512
+    },
+    {
+     "id": "F20",
+     "condition": "Bibasilar crackles",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Bibasilar crackles. Regular rhythm, no murmur",
+     "note": null,
+     "start": 514,
+     "end": 559
+    },
+    {
+     "id": "F21",
+     "condition": "Pitting edema to knees bilaterally",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "2+ pitting edema to knees bilaterally",
+     "note": null,
+     "start": 561,
+     "end": 598
+    },
+    {
+     "id": "F22",
+     "condition": "Troponin elevation (0.02)",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Troponin 0.02 (flat on repeat)",
+     "note": null,
+     "start": 617,
+     "end": 647
+    },
+    {
+     "id": "F23",
+     "condition": "Hypochloremia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Cl 94, CO2 27, BUN 24, Cr 1.0",
+     "note": null,
+     "start": 664,
+     "end": 693
+    },
+    {
+     "id": "F24",
+     "condition": "Elevated BUN",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "BUN 24, Cr 1.0. Glucose 168",
+     "note": null,
+     "start": 679,
+     "end": 706
+    },
+    {
+     "id": "F25",
+     "condition": "Volume overload precipitated by dietary sodium indiscretion",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "admitted with volume overload after high-salt intake",
+     "note": null,
+     "start": 86,
+     "end": 138
+    },
+    {
+     "id": "F26",
+     "condition": "Hyponatremia persisting",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Na 128 L  K 4.0  Cl 94 L  CO2 27",
+     "note": null,
+     "start": 72,
+     "end": 104
+    },
+    {
+     "id": "F27",
+     "condition": "Hypo-osmolality",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Serum osmolality 09/09: 266 mOsm/kg (L)",
+     "note": null,
+     "start": 424,
+     "end": 463
+    },
+    {
+     "id": "F28",
+     "condition": "Low urine sodium",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Urine sodium 09/09: 22 mmol/L",
+     "note": null,
+     "start": 465,
+     "end": 494
+    },
+    {
+     "id": "F29",
+     "condition": "Elevated A1c (7.0)",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "A1c 7.0",
+     "note": null,
+     "start": 530,
+     "end": 537
+    },
+    {
+     "id": "F30",
+     "condition": "Normal TSH (2.1)",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "TSH 2.1. A1c 7.0",
+     "note": null,
+     "start": 521,
+     "end": 537
+    },
+    {
+     "id": "F31",
+     "condition": "BMI 34 (obesity class 1)",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "BMI 34.0",
+     "note": null,
+     "start": 433,
+     "end": 441
+    },
+    {
+     "id": "F32",
+     "condition": "Clinical improvement in heart failure symptoms",
+     "assertion": "resolved",
+     "doc_id": "d4",
+     "quote": "Feels close to baseline. Walked hallway without dyspnea",
+     "note": null,
+     "start": 3,
+     "end": 58
+    }
+   ]
+  },
+  {
+   "t": 18047,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "I'm working through the diagnosis codes: acute on chronic diastolic heart failure as I50.33 since hypertension isn't documented, type 2 diabetes as E11.9 without hyperglycemia specified, and Z79.84 for long-term metformin use. I'm also adding E78.5 for hyperlipidemia, E03.9 for hypothyroidism, G47.33 for OSA, and E66.9 for obesity.\n\nNow I'm considering the updated FY2025 obesity coding as E66.811 for class 1 with BMI code Z68.34, and flagging hyponatremia as a potential query opportunity since it's only noted as an ED lab finding rather than a provider diagnosis. Pleural effusions seem integra"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I50.33"
+   },
+   "id": "toolu_018RJtKv82u4gfk4uvvAtKeV"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E11.9"
+   },
+   "id": "toolu_01BEj6YitoLxenYryAodoFnf"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E66.811"
+   },
+   "id": "toolu_012oSX4wN3wJ11rV4QkPSR6T"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z68.34"
+   },
+   "id": "toolu_01ATfBPDu7PWwNHu8q3biByZ"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "G47.33"
+   },
+   "id": "toolu_013sTRN15sDQpDmUbDcZz4Rv"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_01QCpqQZxBUQ8ehtBgFKJMUF"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E03.9"
+   },
+   "id": "toolu_01Sb8YhbK1pKyjbwDe1GrscK"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.84"
+   },
+   "id": "toolu_013FuWG6fp63BnJKCrtPbvBt"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_018RJtKv82u4gfk4uvvAtKeV",
+   "result": "I50.33: Acute on chronic diastolic (congestive) heart failure (billable)"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01BEj6YitoLxenYryAodoFnf",
+   "result": "E11.9: Type 2 diabetes mellitus without complications (billable)"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_012oSX4wN3wJ11rV4QkPSR6T",
+   "result": "E66.811: Obesity, class 1 (billable)"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01ATfBPDu7PWwNHu8q3biByZ",
+   "result": "Z68.34: Body mass index [BMI] 34.0-34.9, adult (billable)"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_013sTRN15sDQpDmUbDcZz4Rv",
+   "result": "G47.33: Obstructive sleep apnea (adult) (pediatric) (billable)"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01QCpqQZxBUQ8ehtBgFKJMUF",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01Sb8YhbK1pKyjbwDe1GrscK",
+   "result": "E03.9: Hypothyroidism, unspecified (billable)"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_013FuWG6fp63BnJKCrtPbvBt",
+   "result": "Z79.84: Long term (current) use of oral hypoglycemic drugs (billable)"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "The provider documented \"Obesity, BMI 34\" without specifying a class, so I'll default to E66.9 since the specific subtype isn't stated, and I should verify that code is billable.\n\n"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E66.9"
+   },
+   "id": "toolu_0183UT6cfT4yWfPhsuxS1gPG"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_0183UT6cfT4yWfPhsuxS1gPG",
+   "result": "E66.9: Obesity, unspecified (billable)"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"I50.33\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F7\",\"F25\"],\"confidence\":0.96,\"rationale\":\"Acute on chronic diastolic HF is documented by the ED physician, the hospitalist and the discharge summary, and it was the reason for admission.\"},\"secondary\":[{\"code\":\"E11.9\",\"poa\":\"Y\",\"finding_ids\":[\"F2\"],\"confidence\":0.85,\"rationale\":\"T2DM is documented. No complication is documented by a provider, so hyperglycemia is not coded from labs alone.\"},{\"code\":\"Z79.84\",\"poa\":\"Y\",\"finding_ids\":[\"F2\"],\"confidence\":0.8,\"rationale\":\"The patient takes metformin long term, an oral hypoglycemic.\"},{\"code\":\"E"
+  },
+  {
+   "t": 33590,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "I50.33",
+     "poa": "Y",
+     "finding_ids": [
+      "F1",
+      "F7",
+      "F25"
+     ],
+     "confidence": 0.96,
+     "rationale": "Acute on chronic diastolic HF is documented by the ED physician, the hospitalist and the discharge summary, and it was the reason for admission."
+    },
+    "secondary": [
+     {
+      "code": "E11.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F2"
+      ],
+      "confidence": 0.85,
+      "rationale": "T2DM is documented. No complication is documented by a provider, so hyperglycemia is not coded from labs alone."
+     },
+     {
+      "code": "Z79.84",
+      "poa": "Y",
+      "finding_ids": [
+       "F2"
+      ],
+      "confidence": 0.8,
+      "rationale": "The patient takes metformin long term, an oral hypoglycemic."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F3"
+      ],
+      "confidence": 0.92,
+      "rationale": "Hyperlipidemia is documented and treated with atorvastatin."
+     },
+     {
+      "code": "E03.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F4"
+      ],
+      "confidence": 0.92,
+      "rationale": "Hypothyroidism is documented and treated with levothyroxine."
+     },
+     {
+      "code": "G47.33",
+      "poa": "Y",
+      "finding_ids": [
+       "F5"
+      ],
+      "confidence": 0.92,
+      "rationale": "OSA on CPAP is documented and was managed during the stay."
+     },
+     {
+      "code": "E66.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F6",
+       "F31"
+      ],
+      "confidence": 0.85,
+      "rationale": "Providers document obesity without a class, so the unspecified code is used."
+     },
+     {
+      "code": "Z68.34",
+      "poa": "Y",
+      "finding_ids": [
+       "F31"
+      ],
+      "confidence": 0.85,
+      "rationale": "BMI 34.0 is documented, and the provider diagnosed obesity, so the BMI code can be reported."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "query_opportunity",
+      "summary": "Na was 127-129 throughout the stay. Serum osmolality was low and urine sodium was 22. Na was monitored with daily BMPs and fluid restriction, but no provider documented a hyponatremia diagnosis in the H&P, progress notes or discharge summary. Query the provider for clinical significance and diagnosis (E87.1).",
+      "finding_ids": [
+       "F14",
+       "F26",
+       "F27",
+       "F28"
+      ],
+      "guideline": null,
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "query_opportunity",
+      "summary": "Query whether the obesity is class 1 (E66.811). BMI 34 is documented but the class is not stated.",
+      "finding_ids": [
+       "F6",
+       "F31"
+      ],
+      "guideline": null,
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "Pleural effusions, cardiomegaly, JVD, edema, DOE, orthopnea, PND and the elevated BNP are integral to the heart failure and are not coded separately. The troponin of 0.02 was flat and is not coded.",
+      "finding_ids": [
+       "F8",
+       "F9",
+       "F10",
+       "F11",
+       "F13",
+       "F16",
+       "F18",
+       "F22"
+      ],
+      "guideline": null,
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 33590,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 43224,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"I50.33\",\"verdict\":\"supported\",\"confidence\":0.96,\"reason\":\"Acute on chronic diastolic HF documented by ED, hospitalist and discharge summary, treated with IV diuresis. Reason for admission. POA Y is correct.\"},{\"code\":\"E11.9\",\"verdict\":\"needs_query\",\"confidence\":0.6,\"reason\":\"T2DM is documented. A1c 7.0 and glucose 130-170 on SSI, but no provider linked hyperglycemia. E11.9 is acceptable as documented. Hyperglycemia (E11.65) needs provider documentation, so it can't be coded from labs. Also, the HF is documented as diastolic without hypertension, so no I11.0 issue arises.\"}"
+  },
+  {
+   "t": 43224,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "I50.33",
+      "verdict": "supported",
+      "confidence": 0.96,
+      "reason": "Acute on chronic diastolic HF documented by ED, hospitalist and discharge summary, treated with IV diuresis. Reason for admission. POA Y is correct."
+     },
+     {
+      "code": "E11.9",
+      "verdict": "needs_query",
+      "confidence": 0.6,
+      "reason": "T2DM is documented. A1c 7.0 and glucose 130-170 on SSI, but no provider linked hyperglycemia. E11.9 is acceptable as documented. Hyperglycemia (E11.65) needs provider documentation, so it can't be coded from labs. Also, the HF is documented as diastolic without hypertension, so no I11.0 issue arises."
+     },
+     {
+      "code": "Z79.84",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "Home metformin is documented on the med list and resumed at discharge. Z79.84 fits oral hypoglycemic use. The finding F2 only cites T2DM, but the med list in d2 supports it."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.93,
+      "reason": "HLD is documented in the H&P and discharge summary and treated with atorvastatin."
+     },
+     {
+      "code": "E03.9",
+      "verdict": "supported",
+      "confidence": 0.93,
+      "reason": "Hypothyroidism is documented, treated with levothyroxine, and TSH was checked."
+     },
+     {
+      "code": "G47.33",
+      "verdict": "supported",
+      "confidence": 0.93,
+      "reason": "OSA on CPAP is documented in the H&P and discharge summary, with CPAP ordered nightly."
+     },
+     {
+      "code": "E66.9",
+      "verdict": "needs_query",
+      "confidence": 0.55,
+      "reason": "Obesity is documented by the provider with BMI 34, which is class 1 range. The provider did not state class. The proposed E66.9 is acceptable only if the class stays undocumented. E66.811 (obesity class 1) would need the provider to document the class. Note the proposed query is reasonable but low value."
+     },
+     {
+      "code": "Z68.34",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "BMI 34.0 is documented by the provider in the H&P and associated with a provider-diagnosed obesity. Z68.34 is a valid code for BMI 34.0-34.9."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": [
+     {
+      "kind": "query_opportunity",
+      "summary": "Hyponatremia (Na 127-129 throughout, low osmolality 266, urine Na 22) was monitored with daily BMP and fluid restriction, but no provider documented a diagnosis. Query for clinical significance, e.g. dilutional hyponatremia in HF. Do not code E87.1 without provider documentation.",
+      "finding_ids": [
+       "F14",
+       "F26",
+       "F27",
+       "F28"
+      ],
+      "guideline": "AHIMA/ACDIS query practice; OCG Section III.B (abnormal findings)",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "conflicting_documentation",
+      "summary": "Discharge weight conflicts across the record: the progress note on 09/11 says 197.2 lb, the discharge summary says 196.8 lb (dry weight). Net fluid balance is -5.2 L on 09/11 vs -5.6 L at discharge. These are minor and don't affect coding, but note them for documentation consistency.",
+      "finding_ids": [
+       "F32"
+      ],
+      "guideline": null,
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "Discharge summary says 'weaned off O2 day 3', but the 09/09 note shows 1 L O2 and the 09/11 note shows RA. No provider documented acute respiratory failure or hypoxia. SpO2 92% RA on arrival is borderline and doesn't support a respiratory failure query.",
+      "finding_ids": [
+       "F7"
+      ],
+      "guideline": null,
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 43225,
+   "stage": "grouper",
+   "type": "output",
+   "family": "hf",
+   "drg": "293",
+   "title": "Heart failure and shock w/o CC/MCC",
+   "weight": 0.64,
+   "tier": "none",
+   "drivers": []
+  },
+  {
+   "t": 43225,
+   "stage": "router",
+   "type": "output",
+   "base": 0.96,
+   "blocking": 2,
+   "confidence": 0.48
+  },
+  {
+   "t": 43225,
+   "stage": "query",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5",
+   "issue": "E11.9: T2DM is documented. A1c 7.0 and glucose 130-170 on SSI, but no provider linked hyperglycemia. E11.9 is acceptable as documented. Hyperglycemia (E11.65) needs provider documentation, so it can't be coded from labs. Also, the HF is documented as diastolic without hypertension, so no I11.0 issue arises."
+  },
+  {
+   "t": 45989,
+   "stage": "query",
+   "type": "text",
+   "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"History documents: T2DM, HLD, hypothyroidism, OSA on CPAP, obesity\",\"finding_id\":\"F2\"},{\"text\":\"Hemoglobin A1c 7.0 noted in the record\",\"finding_id\":null},{\"text\":\"Serum glucose values 130-170 mg/dL with sliding scale insulin (SSI) ordered\",\"finding_id\":null}],\"question\":\"Based on your clinical judgment, can you please clarify the status of the patient's type 2 diabetes mellitus during this admission, considering the glucose values and sliding scale insulin treatment noted?\",\"options\":[\"Type 2 diabetes mellitus with hyperglycemia\",\"Ty"
+  },
+  {
+   "t": 45990,
+   "stage": "query",
+   "type": "output",
+   "query": {
+    "issue": "E11.9: T2DM is documented. A1c 7.0 and glucose 130-170 on SSI, but no provider linked hyperglycemia. E11.9 is acceptable as documented. Hyperglycemia (E11.65) needs provider documentation, so it can't be coded from labs. Also, the HF is documented as diastolic without hypertension, so no I11.0 issue arises.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "History documents: T2DM, HLD, hypothyroidism, OSA on CPAP, obesity",
+      "finding_id": "F2"
+     },
+     {
+      "text": "Hemoglobin A1c 7.0 noted in the record",
+      "finding_id": null
+     },
+     {
+      "text": "Serum glucose values 130-170 mg/dL with sliding scale insulin (SSI) ordered",
+      "finding_id": null
+     }
+    ],
+    "question": "Based on your clinical judgment, can you please clarify the status of the patient's type 2 diabetes mellitus during this admission, considering the glucose values and sliding scale insulin treatment noted?",
+    "options": [
+     "Type 2 diabetes mellitus with hyperglycemia",
+     "Type 2 diabetes mellitus without hyperglycemia (glucose values at expected/controlled levels)",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  }
+ ],
+ "ms": 45990,
+ "cost_usd": 0.10793
+}

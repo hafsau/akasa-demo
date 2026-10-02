@@ -1,0 +1,109 @@
+{
+  "id": "enc-19",
+  "title": "Influenza A with pneumonia",
+  "summary": "Pneumonia caused by influenza A gets one combination code, not separate pneumonia and flu codes.",
+  "hero": false,
+  "family": "pneumonia",
+  "patient": {
+    "age": 63,
+    "sex": "F"
+  },
+  "admit_date": "2026-09-20",
+  "discharge_date": "2026-09-23",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "Radiology",
+      "author": "D. Nakamura, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-20T20:40",
+      "text": "EXAM: XR chest, 2 views.\nFINDINGS: Patchy bibasilar airspace and interstitial opacities, left greater than right. No effusion or pneumothorax. Cardiomediastinal silhouette within normal limits for technique.\nIMPRESSION: Bibasilar opacities, which may reflect multifocal pneumonia, viral or bacterial."
+    },
+    {
+      "id": "d2",
+      "type": "ED note",
+      "author": "K. Abernathy, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-20T21:05",
+      "text": "CC: fever, cough, body aches.\nHPI: 63 y/o F with HTN, HLD, hypothyroidism, obesity presents with 3 days fever to 39.4 at home, dry cough now productive, myalgias, headache, SOB with walking to bathroom. Husband had \"the flu\" last week. Did not receive flu vaccine this season.\nVitals: T 39.0, HR 108, RR 22, BP 128/74, SpO2 92% RA -> 95% on 2 L NC.\nExam: Ill-appearing, A&Ox3. Coarse crackles bilateral bases. Tachycardic, regular. Abd soft.\nLabs: Influenza A/B PCR: Influenza A DETECTED, B not detected. SARS-CoV-2 PCR negative. RSV negative. WBC 6.8 (lymphocytes 9%). Na 129, K 3.8, Cr 0.8, BUN 18, glucose 121. Procalcitonin 0.09. Lactate 1.4.\nCXR: bilateral lower lobe patchy opacities.\nED course: oseltamivir 75 mg PO, ceftriaxone 1 g + azithromycin 500 mg IV (empiric CAP coverage), acetaminophen, 1 L NS.\nImpression: Influenza A; bilateral pneumonia - viral vs superimposed bacterial. Hyponatremia. Admit."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "R. Oyelaran, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-21T00:45",
+      "text": "HISTORY AND PHYSICAL\nHPI: 63F, unvaccinated this season, sick contact at home, 3 days of fever, myalgias, cough, exertional dyspnea. Flu A PCR positive. CXR bibasilar opacities. Na 129.\nPMH: HTN, HLD, hypothyroidism, obesity (BMI 33.4).\nMeds: amlodipine 10 mg, rosuvastatin 10 mg, levothyroxine 100 mcg.\nExam: T 38.6, HR 102, RR 20, SpO2 95% 2 L. Bibasilar crackles. No edema. Euvolemic to slightly dry.\nASSESSMENT/PLAN:\n1. Influenza A with bilateral pneumonia - oseltamivir 75 mg BID x 5 days. Continue ceftriaxone/azithro pending procalcitonin trend; low suspicion for bacterial superinfection (PCT 0.09). O2 to keep SpO2 > 92%. Droplet precautions.\n2. Hyponatremia - Na 129, likely hypovolemic from poor PO intake/insensible losses. NS 75 mL/h, BMP q12h, avoid overcorrection.\n3. HTN - continue amlodipine.\n4. HLD - continue rosuvastatin.\n5. Hypothyroidism - continue levothyroxine; TSH 2.1 in 07/2026.\n6. Obesity, BMI 33.4 - counsel outpatient.\nDVT ppx enoxaparin. Full code."
+    },
+    {
+      "id": "d4",
+      "type": "Nursing note",
+      "author": "A. Benitez, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-22T02:40",
+      "text": "Droplet precautions maintained. Pt resting, coughing intermittently, productive of small amt white sputum. SpO2 93-95% on 1 L NC, trialed RA at 01:30 with SpO2 92-93%, left off O2 per order. T 37.6 at midnight, acetaminophen given for myalgias with relief. Taking PO fluids well, ~900 mL this shift. IVF NS @ 75 mL/h infusing. Voiding qs. Ambulated to BR independently, steady. Husband called, updated per pt request."
+    },
+    {
+      "id": "d5",
+      "type": "Lab summary",
+      "author": "Clinical Laboratory",
+      "author_role": "lab",
+      "timestamp": "2026-09-22T06:30",
+      "text": "Sodium trend: 09/20 20:15 129; 09/21 06:00 131; 09/21 18:00 133; 09/22 05:45 135.\nSerum osmolality (09/20): 268 mOsm/kg. Urine Na (09/20): < 20 mmol/L. Urine osm 540.\nProcalcitonin: 0.09 (09/20) -> 0.07 (09/22).\nBlood cultures x2 (09/20): no growth at 48 h. Sputum culture: normal respiratory flora.\nWBC 6.8 -> 5.9. Cr 0.8 -> 0.7."
+    },
+    {
+      "id": "d6",
+      "type": "Progress note",
+      "author": "R. Oyelaran, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-22T09:30",
+      "text": "S: Fevers breaking, myalgias better. Cough persists. Ambulating with RN.\nO: Tmax 37.8, HR 88, RR 18, SpO2 94% RA (weaned off O2 overnight). Na 129 -> 133 -> 135. Repeat PCT 0.07. Blood cx NGTD.\nA/P:\n1. Influenza A pneumonia (viral) - PCT low x2, cultures negative; stop ceftriaxone/azithromycin. This is pneumonia due to influenza; no evidence of bacterial pneumonia. Continue oseltamivir, day 3 of 5.\n2. Hyponatremia - improved to 135 with IVF; saline lock today.\n3. HTN, HLD, hypothyroidism - home meds.\n4. Obesity BMI 33.4."
+    },
+    {
+      "id": "d7",
+      "type": "Discharge summary",
+      "author": "R. Oyelaran, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-23T11:10",
+      "text": "DISCHARGE SUMMARY\nAdmit 09/20/2026 - Discharge 09/23/2026. Home.\nPrincipal diagnosis: Influenza A with pneumonia.\nSecondary diagnoses: Hyponatremia (hypovolemic), resolved. Hypertension. Hyperlipidemia. Hypothyroidism. Obesity, BMI 33.4.\nHospital course: Presented with fever, cough, hypoxemia; influenza A PCR positive with bibasilar opacities. Treated with oseltamivir and initially empiric antibiotics, discontinued HD2 given low procalcitonin x2 and negative cultures; pneumonia felt to be due to influenza. Weaned to room air HD2. Hyponatremia corrected with isotonic fluids (129 -> 135).\nDischarge meds: oseltamivir 75 mg BID to complete 5 days; home amlodipine, rosuvastatin, levothyroxine.\nFollow-up: PCP 1 week with BMP; flu vaccine when recovered; household members advised re: prophylaxis."
+    }
+  ],
+  "gold": {
+    "pdx": "J10.00",
+    "secondary": [
+      {
+        "code": "E87.1",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "E78.5",
+        "poa": "Y"
+      },
+      {
+        "code": "E03.9",
+        "poa": "Y"
+      },
+      {
+        "code": "E66.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z68.33",
+        "poa": "Y"
+      }
+    ],
+    "drg": "194",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [
+      "combination_code",
+      "excludes1"
+    ],
+    "explanation": "Pneumonia due to confirmed influenza A takes the single combination code J10.00 (influenza with unspecified type of pneumonia). Bacterial pneumonia was considered and explicitly dropped, so no separate pneumonia code is added. J18.9 and J12.9 carry Excludes1 notes for pneumonia with influenza, and J10.1 is the wrong axis. A naive system codes J18.9 + J10.1, or keys on the ED's 'viral vs superimposed bacterial'. Hyponatremia (E87.1) is the CC, giving DRG 194."
+  }
+}

@@ -1,0 +1,77 @@
+{
+ "case_id": "enc-15",
+ "codes": [
+  {
+   "code": "J44.1",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Chronic obstructive pulmonary disease with (acute) exacerbation",
+   "confidence": 0.8
+  },
+  {
+   "code": "E87.1",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypo-osmolality and hyponatremia",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z99.81",
+   "poa": "Exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Dependence on supplemental oxygen",
+   "confidence": 0.8
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.8
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Gastro-esophageal reflux disease without esophagitis",
+   "confidence": 0.8
+  },
+  {
+   "code": "F17.210",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Nicotine dependence, cigarettes, uncomplicated",
+   "confidence": 0.8
+  }
+ ],
+ "drg": {
+  "family": "copd",
+  "number": "191",
+  "weight": 0.86,
+  "tier": "CC",
+  "drivers": [
+   "E87.1"
+  ]
+ },
+ "confidence": 0.8,
+ "needs_human": false,
+ "reason": "Viral-triggered COPD exacerbation: the provider did not document a specific virus (flu/COVID negative), so no additional code for the viral infection (e.g., B34.9) is assigned. J44.1 is sequenced as the principal diagnosis. Hypovolemic hyponatremia is coded as E87.1. Hypovolemia is included in that code. Z99.81 is POA-exempt. Acute respiratory failure was explicitly ruled out. Possible additional code J44.0 would be inappropriate, as there is no pneumonia or lower respiratory infection documented.",
+ "ms": 5393,
+ "cost_usd": 0.00919,
+ "input_tokens": 2881,
+ "output_tokens": 343
+}

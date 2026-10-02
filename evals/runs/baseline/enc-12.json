@@ -1,0 +1,83 @@
+{
+ "case_id": "enc-12",
+ "codes": [
+  {
+   "code": "I26.99",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Other pulmonary embolism without acute cor pulmonale",
+   "confidence": 0.8
+  },
+  {
+   "code": "I82.411",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Acute embolism and thrombosis of right femoral vein",
+   "confidence": 0.8
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.8
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypothyroidism, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Gastro-esophageal reflux disease without esophagitis",
+   "confidence": 0.8
+  },
+  {
+   "code": "E66.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Obesity, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z68.36",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Body mass index [BMI] 36.0-36.9, adult",
+   "confidence": 0.8
+  }
+ ],
+ "drg": {
+  "family": "pe",
+  "number": "176",
+  "weight": 0.93,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.8,
+ "needs_human": false,
+ "reason": "Acute bilateral segmental PE without acute cor pulmonale coded I26.99 (multiple subsegmental/segmental PE without cor pulmonale; FY2027 code selection for bilateral segmental PE should be verified). Acute right femoral DVT I82.411. Obesity BMI 36.0 coded E66.9 with Z68.36; check whether E66.811 (class 2 obesity) is applicable in the FY2027 code set. Z86.718/travel codes not applicable. Hiatal hernia is radiology-only and not coded.",
+ "ms": 4499,
+ "cost_usd": 0.00942,
+ "input_tokens": 2959,
+ "output_tokens": 350
+}

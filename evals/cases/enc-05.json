@@ -1,0 +1,118 @@
+{
+  "id": "enc-05",
+  "title": "Severe sepsis from pneumonia with kidney injury",
+  "summary": "A man with pneumonia developed a body-wide infection response that strained his kidneys; every note documents it the same way.",
+  "hero": false,
+  "family": "sepsis",
+  "patient": {
+    "age": 72,
+    "sex": "M"
+  },
+  "admit_date": "2026-09-10",
+  "discharge_date": "2026-09-15",
+  "documents": [
+    {
+      "id": "d1",
+      "type": "Radiology",
+      "author": "J. Whitcombe, MD (Radiology)",
+      "author_role": "radiology",
+      "timestamp": "2026-09-10T22:25",
+      "text": "EXAM: Chest radiograph, AP portable\nINDICATION: Fever, hypotension, cough.\nFINDINGS: Dense consolidation in the right lower lobe with air bronchograms. No pleural effusion or pneumothorax. Heart size within normal limits. Coronary stent noted.\nIMPRESSION: Right lower lobe pneumonia."
+    },
+    {
+      "id": "d2",
+      "type": "ED note",
+      "author": "B. Lindgren, MD (Emergency Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-10T22:40",
+      "text": "CC: Fever, cough, weakness.\n\nHPI: 72M with T2DM, HTN and CAD s/p PCI (2021) brought by wife for 3 days of cough with rusty sputum, fever, rigors and decreased oral intake; today too weak to stand. Urinating less. No chest pain.\n\nVitals: T 39.1 C, HR 124, BP 88/50, RR 28, SpO2 94% RA.\nExam: Ill-appearing, alert and oriented x3. Dry mucosa. Coarse crackles R base. Tachycardic. Cool extremities, cap refill 3 s.\n\nLabs: WBC 19.4 (bands 12%), Hgb 13.8, Plt 162. Na 135, K 4.8, HCO3 18, BUN 46, Cr 2.4 (baseline 0.9, 05/2026), Glu 246. Lactate 3.4. Procalcitonin 8.6.\nCXR: RLL consolidation.\n\nAssessment/Plan:\n1. Sepsis due to RLL pneumonia with hypotension, lactate 3.4 and AKI. Blood cx x2, then cefepime 2 g IV + azithromycin 500 mg IV. LR 30 mL/kg (2.4 L). BP 112/64 after bolus, no vasopressors needed. Repeat lactate.\nDispo: Admit to step-down."
+    },
+    {
+      "id": "d3",
+      "type": "H&P",
+      "author": "S. Haddad, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-11T02:15",
+      "text": "HISTORY AND PHYSICAL\n\nHPI: As per ED. After 2.4 L LR, MAP 78, HR 104, UOP 40 mL/h. Repeat lactate 2.1.\n\nPMH: T2DM (A1c 7.2%, no known complications). HTN. CAD s/p DES to LAD 2021, no angina since; on aspirin and high-intensity statin.\nMeds: metformin 1000 mg BID, lisinopril 10 mg daily, atorvastatin 80 mg daily, aspirin 81 mg daily.\nSocial: Retired machinist. Never smoker.\n\nExam: T 38.3, HR 104, BP 116/66, RR 22, SpO2 95% RA. Alert, oriented. Crackles R base. No edema.\n\nAssessment/Plan:\n1. Severe sepsis due to RLL community-acquired pneumonia, with acute organ dysfunction (AKI). No septic shock - BP fluid responsive, no vasopressors. Cefepime + azithromycin; f/u cultures; lactate q6h until normal.\n2. Acute kidney injury - Cr 2.4 from baseline 0.9, prerenal from sepsis and volume depletion. IV fluids, hold lisinopril and metformin, avoid nephrotoxins, strict I/O.\n3. T2DM - hold metformin; glargine 10 units + correction scale.\n4. HTN - hold lisinopril for AKI and soft BP.\n5. CAD s/p PCI - continue aspirin 81 mg daily and atorvastatin 80 mg."
+    },
+    {
+      "id": "d4",
+      "type": "Nursing note",
+      "author": "A. Sutherland, RN",
+      "author_role": "nursing",
+      "timestamp": "2026-09-11T06:10",
+      "text": "Step-down. Sepsis reassessment completed after 30 mL/kg bolus: MAP 76-82, HR 100-106, no vasopressors required. UOP 35-50 mL/h via urinal. A&O x3, follows commands. SpO2 95% RA. Febrile 38.4 at 04:00, acetaminophen given. Cefepime second dose hung on time. Fingerstick 212, correction insulin per scale. Wife updated by phone."
+    },
+    {
+      "id": "d5",
+      "type": "Lab summary",
+      "author": "Clinical Laboratory",
+      "author_role": "lab",
+      "timestamp": "2026-09-13T07:00",
+      "text": "Lactate: 09/10 22:30 3.4; 09/11 01:50 2.1; 09/11 08:00 1.4\nCreatinine: 09/10 2.4; 09/11 2.1; 09/12 1.6; 09/13 1.2\nWBC: 09/10 19.4; 09/12 13.0; 09/13 10.1\nBlood cultures x2 (09/10): no growth at 48 h.\nSputum culture: normal respiratory flora.\nUrine Legionella and pneumococcal antigens: negative."
+    },
+    {
+      "id": "d6",
+      "type": "Progress note",
+      "author": "S. Haddad, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-13T11:20",
+      "text": "HOSPITAL DAY 3\n\nS: Eating, walked with PT. Cough improving.\nO: T 37.2, HR 86, BP 128/74, SpO2 96% RA. UOP adequate.\n\nAssessment/Plan:\n1. Severe sepsis due to RLL pneumonia - resolving, lactate normal, cultures negative. Narrow to ceftriaxone; azithromycin completed.\n2. AKI - improving, Cr 1.2. Continue holding lisinopril and metformin until Cr at baseline.\n3. T2DM - BG 130-180 on basal/correction.\n4. CAD, HTN - stable.\nTransfer to med-surg."
+    },
+    {
+      "id": "d7",
+      "type": "Discharge summary",
+      "author": "S. Haddad, MD (Hospital Medicine)",
+      "author_role": "provider",
+      "timestamp": "2026-09-15T10:50",
+      "text": "DISCHARGE SUMMARY\nAdmit: 09/10/2026   Discharge: 09/15/2026   Disposition: Home with wife\n\nDISCHARGE DIAGNOSES:\n1. Severe sepsis due to RLL community-acquired pneumonia, without septic shock\n2. Acute kidney injury due to sepsis, resolved\n3. Type 2 diabetes mellitus\n4. Hypertension\n5. Coronary artery disease s/p PCI, on aspirin\n\nHOSPITAL COURSE: Presented with fever, hypotension responsive to fluids, lactate 3.4 and Cr 2.4 from RLL pneumonia. Treated with IV fluids and antibiotics; never required vasopressors. Lactate normalized within 10 h; Cr down to 1.0 by 09/15. Cultures negative. Transitioned to oral cefpodoxime to complete 7 days. Metformin and lisinopril resumed at discharge.\n\nFOLLOW-UP: PCP in 1 week with BMP."
+    }
+  ],
+  "gold": {
+    "pdx": "A41.9",
+    "secondary": [
+      {
+        "code": "R65.20",
+        "poa": "Y"
+      },
+      {
+        "code": "J18.9",
+        "poa": "Y"
+      },
+      {
+        "code": "N17.9",
+        "poa": "Y"
+      },
+      {
+        "code": "E11.9",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.84",
+        "poa": "Y"
+      },
+      {
+        "code": "I10",
+        "poa": "Y"
+      },
+      {
+        "code": "I25.10",
+        "poa": "Y"
+      },
+      {
+        "code": "Z95.5",
+        "poa": "Y"
+      },
+      {
+        "code": "Z79.82",
+        "poa": "Y"
+      }
+    ],
+    "drg": "871",
+    "route": "autonomous",
+    "hold_reasons": [],
+    "query": null,
+    "traps": [],
+    "explanation": "Sepsis was present on admission and documented the same way in every provider note, so A41.9 (no organism) is principal. R65.20 follows for severe sepsis without shock, with J18.9 for the localized infection and N17.9 for the associated organ dysfunction. J18.9 is an MCC, giving DRG 871. Chronic T2DM, HTN and CAD s/p PCI are coded along with their status and long-term medication Z codes; hypotension and lactate are integral to severe sepsis."
+  }
+}

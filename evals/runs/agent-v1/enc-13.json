@@ -1,0 +1,1580 @@
+{
+ "case_id": "enc-13",
+ "prompt_version": "2026-10-02.3",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Bilateral pulmonary embolism",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "CTA chest (prelim per radiology phone call): bilateral PE, no RV strain.",
+   "note": null,
+   "start": 720,
+   "end": 792
+  },
+  {
+   "id": "F2",
+   "condition": "Bilateral pulmonary embolism, lobar and segmental",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Filling defects in the right interlobar and right lower lobe lobar arteries extending into segmental branches; additional filling defects in left lower lobe segmental arteries.",
+   "note": null,
+   "start": 52,
+   "end": 228
+  },
+  {
+   "id": "F3",
+   "condition": "Right heart strain",
+   "assertion": "negated",
+   "doc_id": "d2",
+   "quote": "No CT evidence of right heart strain.",
+   "note": null,
+   "start": 459,
+   "end": 496
+  },
+  {
+   "id": "F4",
+   "condition": "Acute hypoxic respiratory failure",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Acute bilateral PE with severe hypoxemia, initially 82% RA, required 15L NRB to reach 92%.",
+   "note": null,
+   "start": 798,
+   "end": 888
+  },
+  {
+   "id": "F5",
+   "condition": "Hypoxemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "SpO2 82% RA.",
+   "note": null,
+   "start": 398,
+   "end": 410
+  },
+  {
+   "id": "F6",
+   "condition": "Tachycardia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HR 118",
+   "note": null,
+   "start": 372,
+   "end": 378
+  },
+  {
+   "id": "F7",
+   "condition": "Tachypnea",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "RR 28",
+   "note": null,
+   "start": 380,
+   "end": 385
+  },
+  {
+   "id": "F8",
+   "condition": "Elevated troponin",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Troponin 0.03 -> 0.04.",
+   "note": null,
+   "start": 558,
+   "end": 580
+  },
+  {
+   "id": "F9",
+   "condition": "Elevated D-dimer",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "D-dimer >20.",
+   "note": null,
+   "start": 589,
+   "end": 601
+  },
+  {
+   "id": "F10",
+   "condition": "Acidemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "ABG on NRB: 7.48/30/68.",
+   "note": null,
+   "start": 643,
+   "end": 666
+  },
+  {
+   "id": "F11",
+   "condition": "Coronary artery disease s/p PCI with DES to LAD",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "CAD s/p PCI/DES to LAD (2021)",
+   "note": null,
+   "start": 30,
+   "end": 59
+  },
+  {
+   "id": "F12",
+   "condition": "Hypertension",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HTN",
+   "note": null,
+   "start": 61,
+   "end": 64
+  },
+  {
+   "id": "F13",
+   "condition": "Hyperlipidemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HLD",
+   "note": null,
+   "start": 66,
+   "end": 69
+  },
+  {
+   "id": "F14",
+   "condition": "Type 2 diabetes mellitus on insulin",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "insulin-requiring T2DM",
+   "note": null,
+   "start": 71,
+   "end": 93
+  },
+  {
+   "id": "F15",
+   "condition": "Former smoker",
+   "assertion": "history",
+   "doc_id": "d1",
+   "quote": "former smoker",
+   "note": null,
+   "start": 95,
+   "end": 108
+  },
+  {
+   "id": "F16",
+   "condition": "Small peripheral wedge-shaped opacity right lower lobe",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Small peripheral wedge-shaped opacity RLL may reflect early infarct.",
+   "note": null,
+   "start": 268,
+   "end": 336
+  },
+  {
+   "id": "F17",
+   "condition": "Coronary calcifications with LAD stent",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Coronary calcifications with LAD stent.",
+   "note": null,
+   "start": 358,
+   "end": 397
+  },
+  {
+   "id": "F18",
+   "condition": "Normal RV size and function on echocardiography",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "TTE (bedside, prelim): normal RV size and function",
+   "note": null,
+   "start": 450,
+   "end": 500
+  },
+  {
+   "id": "F19",
+   "condition": "LVEF 55%",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "LVEF 55%.",
+   "note": null,
+   "start": 502,
+   "end": 511
+  },
+  {
+   "id": "F20",
+   "condition": "No DVT bilaterally",
+   "assertion": "negated",
+   "doc_id": "d3",
+   "quote": "LE duplex: no DVT bilaterally.",
+   "note": null,
+   "start": 512,
+   "end": 542
+  },
+  {
+   "id": "F21",
+   "condition": "Acute cor pulmonale",
+   "assertion": "negated",
+   "doc_id": "d3",
+   "quote": "without acute cor pulmonale",
+   "note": null,
+   "start": 604,
+   "end": 631
+  },
+  {
+   "id": "F22",
+   "condition": "Unprovoked pulmonary embolism",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Unprovoked.",
+   "note": null,
+   "start": 653,
+   "end": 664
+  },
+  {
+   "id": "F23",
+   "condition": "Minimal troponin leak attributed to PE strain physiology",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "minimal troponin leak attributed to PE strain physiology rather than ischemia.",
+   "note": null,
+   "start": 947,
+   "end": 1025
+  },
+  {
+   "id": "F24",
+   "condition": "Acute coronary syndrome",
+   "assertion": "negated",
+   "doc_id": "d3",
+   "quote": "no ACS",
+   "note": null,
+   "start": 939,
+   "end": 945
+  },
+  {
+   "id": "F25",
+   "condition": "Pleuritic chest pain",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "L pleuritic chest pain",
+   "note": null,
+   "start": 144,
+   "end": 166
+  },
+  {
+   "id": "F26",
+   "condition": "Pleuritic pain improving",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "Pleuritic pain improving.",
+   "note": null,
+   "start": 21,
+   "end": 46
+  },
+  {
+   "id": "F27",
+   "condition": "Acute hypoxic respiratory failure secondary to PE, resolved",
+   "assertion": "resolved",
+   "doc_id": "d6",
+   "quote": "Acute hypoxic respiratory failure secondary to pulmonary embolism, resolved",
+   "note": null,
+   "start": 166,
+   "end": 241
+  },
+  {
+   "id": "F28",
+   "condition": "Transition to apixaban from heparin",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "transition to DOAC when stable.",
+   "note": null,
+   "start": 683,
+   "end": 714
+  },
+  {
+   "id": "F29",
+   "condition": "Ambulated 150 ft on RA with lowest SpO2 92%",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Ambulated 150 ft on RA, lowest SpO2 92%",
+   "note": null,
+   "start": 50,
+   "end": 89
+  },
+  {
+   "id": "F30",
+   "condition": "Hyperglycemia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Glucose 212.",
+   "note": null,
+   "start": 630,
+   "end": 642
+  },
+  {
+   "id": "F31",
+   "condition": "Elevated WBC",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "WBC 10.2",
+   "note": null,
+   "start": 602,
+   "end": 610
+  },
+  {
+   "id": "F32",
+   "condition": "Elevated respiratory rate on presentation",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "RR 28",
+   "note": null,
+   "start": 54,
+   "end": 59
+  },
+  {
+   "id": "F33",
+   "condition": "Increased work of breathing at rest",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Increased work of breathing at rest.",
+   "note": null,
+   "start": 390,
+   "end": 426
+  }
+ ],
+ "codes": [
+  {
+   "code": "I26.99",
+   "poa": "Y",
+   "finding_ids": [
+    "F1",
+    "F2",
+    "F21",
+    "F22"
+   ],
+   "confidence": 0.9,
+   "rationale": "Acute bilateral lobar/segmental PE without acute cor pulmonale (provider documented, normal RV) is the condition chiefly responsible for admission.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "Provider-documented acute bilateral PE without acute cor pulmonale, consistent across H&P, progress note and discharge summary. Treated with heparin then apixaban. Lobar/segmental location does not change the code; no saddle PE documented.",
+   "severity": null,
+   "description": "Other pulmonary embolism without acute cor pulmonale"
+  },
+  {
+   "code": "J96.01",
+   "poa": "Y",
+   "finding_ids": [
+    "F4",
+    "F27",
+    "F5"
+   ],
+   "confidence": 0.85,
+   "rationale": "Provider documents acute hypoxic respiratory failure due to PE, with SpO2 82% RA and NRB requirement, which is not integral to PE.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documents acute hypoxic respiratory failure due to PE through the discharge summary. Clinical indicators are strong: SpO2 82% RA, RR 28, work of breathing, NRB/15L need, PaO2 68 on NRB. Resolved by discharge, which is consistent.",
+   "severity": "MCC",
+   "description": "Acute respiratory failure with hypoxia"
+  },
+  {
+   "code": "I25.10",
+   "poa": "Y",
+   "finding_ids": [
+    "F11",
+    "F17"
+   ],
+   "confidence": 0.85,
+   "rationale": "CAD documented as a chronic condition and treated with continued meds, with no angina.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "CAD is documented by the provider in H&P and discharge summary and is managed with aspirin, statin and beta-blocker. No angina is documented. Coronary calcification on radiology is not needed as support.",
+   "severity": "none",
+   "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris"
+  },
+  {
+   "code": "Z95.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F11"
+   ],
+   "confidence": 0.88,
+   "rationale": "Status post PCI with DES to LAD.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documents s/p PCI with DES to LAD in H&P and discharge summary.",
+   "severity": "none",
+   "description": "Presence of coronary angioplasty implant and graft"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F12"
+   ],
+   "confidence": 0.88,
+   "rationale": "Hypertension is documented and treated, with no heart or kidney involvement documented.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "HTN is documented and treated (metoprolol, lisinopril). No CKD or heart failure is documented, so I10 is appropriate. Cr is 1.1 with no CKD diagnosis.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F13"
+   ],
+   "confidence": 0.85,
+   "rationale": "Hyperlipidemia is treated with a statin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is documented by the provider and treated with atorvastatin.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F14",
+    "F30"
+   ],
+   "confidence": 0.8,
+   "rationale": "T2DM is documented, but the provider did not document hyperglycemia, so the code is without complications.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documents T2DM on insulin with no documented complication. Glucose 212 is a lab value only and is not a provider diagnosis. E11.9 is correct unless a query yields hyperglycemia.",
+   "severity": "none",
+   "description": "Type 2 diabetes mellitus without complications"
+  },
+  {
+   "code": "Z79.4",
+   "poa": "Y",
+   "finding_ids": [
+    "F14"
+   ],
+   "confidence": 0.9,
+   "rationale": "Long-term insulin use is documented.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documents insulin-requiring T2DM with glargine at home and at discharge.",
+   "severity": "none",
+   "description": "Long term (current) use of insulin"
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "finding_ids": [
+    "F14"
+   ],
+   "confidence": 0.65,
+   "rationale": "Metformin is on the home and discharge medication lists, and guidelines say to code oral hypoglycemic use together with insulin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Metformin is on the home and discharge medication lists, so Z79.84 is reportable. OCG I.C.4.a.3 says to assign both Z79.4 and Z79.84 when a patient takes insulin and an oral hypoglycemic. Metformin was held inpatient but resumed at discharge, so this is chronic use.",
+   "severity": "none",
+   "description": "Long term (current) use of oral hypoglycemic drugs"
+  },
+  {
+   "code": "Z79.82",
+   "poa": "Y",
+   "finding_ids": [
+    "F11"
+   ],
+   "confidence": 0.65,
+   "rationale": "Daily aspirin 81 mg is a long-term medication.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Aspirin 81 mg is a home medication and is continued at discharge. A provider note says cardiology will reassess its need with the DOAC. Chronic use is documented, so the code is valid.",
+   "severity": "none",
+   "description": "Long term (current) use of aspirin"
+  },
+  {
+   "code": "Z87.891",
+   "poa": "Y",
+   "finding_ids": [
+    "F15"
+   ],
+   "confidence": 0.85,
+   "rationale": "The patient is a former smoker who quit in 2019.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documents former smoker, 30 pack-years, quit 2019, with no current tobacco use.",
+   "severity": "none",
+   "description": "Personal history of nicotine dependence"
+  }
+ ],
+ "removed": [],
+ "issues": [
+  {
+   "kind": "query_opportunity",
+   "summary": "CTA read 'may reflect early infarct' for the RLL wedge opacity. Radiology alone is not codable, so query the provider about pulmonary infarction. If confirmed, I26.99 would still apply, since infarction is included in the PE code.",
+   "finding_ids": [
+    "F16"
+   ],
+   "guideline": null,
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "Glucose was 212 in a patient with T2DM, but no provider documented hyperglycemia. Query if clinically significant.",
+   "finding_ids": [
+    "F30"
+   ],
+   "guideline": null,
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "The troponin leak was attributed to PE strain physiology. No myocardial injury diagnosis was documented, and cor pulmonale was explicitly negated, so none was coded. Consider a query only if myocardial injury is clinically intended.",
+   "finding_ids": [
+    "F8",
+    "F23"
+   ],
+   "guideline": null,
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Z79.01 for long-term anticoagulant (apixaban) was not proposed. Apixaban is a new start for the acute PE with a planned duration decision by hematology, so it is likely not reportable as long-term use at this time. Confirm intent per facility policy.",
+   "finding_ids": [
+    "F28"
+   ],
+   "guideline": "OCG I.C.21.c.3",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "The H&P states glargine 18 u in the plan while the home medication list says 24 u. This is a minor dosing discrepancy and does not affect coding.",
+   "finding_ids": [
+    "F14"
+   ],
+   "guideline": null,
+   "blocks_autonomy": false
+  }
+ ],
+ "queries": [],
+ "drg": {
+  "family": "pe",
+  "number": "175",
+  "title": "Pulmonary embolism w MCC or acute cor pulmonale",
+  "weight": 1.43,
+  "tier": "MCC",
+  "drivers": [
+   "J96.01"
+  ]
+ },
+ "confidence": 0.85,
+ "confidence_base": 0.85,
+ "blocking_issues": 0,
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 13548,
+   "input_tokens": 3085,
+   "output_tokens": 2242,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.0143
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 13548,
+   "ms": 19843,
+   "input_tokens": 29599,
+   "output_tokens": 2148,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.08068
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 33391,
+   "ms": 9381,
+   "input_tokens": 6786,
+   "output_tokens": 1286,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.02643
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-16T04:30",
+     "words": 161,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "Radiology",
+     "author_role": "radiology",
+     "timestamp": "2026-09-16T05:15",
+     "words": 69,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-16T09:00",
+     "words": 213,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-17T08:30",
+     "words": 73,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-19T15:10",
+     "words": 34,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-20T11:00",
+     "words": 139,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 13548,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Bilateral pulmonary embolism",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "CTA chest (prelim per radiology phone call): bilateral PE, no RV strain.",
+     "note": null,
+     "start": 720,
+     "end": 792
+    },
+    {
+     "id": "F2",
+     "condition": "Bilateral pulmonary embolism, lobar and segmental",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Filling defects in the right interlobar and right lower lobe lobar arteries extending into segmental branches; additional filling defects in left lower lobe segmental arteries.",
+     "note": null,
+     "start": 52,
+     "end": 228
+    },
+    {
+     "id": "F3",
+     "condition": "Right heart strain",
+     "assertion": "negated",
+     "doc_id": "d2",
+     "quote": "No CT evidence of right heart strain.",
+     "note": null,
+     "start": 459,
+     "end": 496
+    },
+    {
+     "id": "F4",
+     "condition": "Acute hypoxic respiratory failure",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Acute bilateral PE with severe hypoxemia, initially 82% RA, required 15L NRB to reach 92%.",
+     "note": null,
+     "start": 798,
+     "end": 888
+    },
+    {
+     "id": "F5",
+     "condition": "Hypoxemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "SpO2 82% RA.",
+     "note": null,
+     "start": 398,
+     "end": 410
+    },
+    {
+     "id": "F6",
+     "condition": "Tachycardia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HR 118",
+     "note": null,
+     "start": 372,
+     "end": 378
+    },
+    {
+     "id": "F7",
+     "condition": "Tachypnea",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "RR 28",
+     "note": null,
+     "start": 380,
+     "end": 385
+    },
+    {
+     "id": "F8",
+     "condition": "Elevated troponin",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Troponin 0.03 -> 0.04.",
+     "note": null,
+     "start": 558,
+     "end": 580
+    },
+    {
+     "id": "F9",
+     "condition": "Elevated D-dimer",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "D-dimer >20.",
+     "note": null,
+     "start": 589,
+     "end": 601
+    },
+    {
+     "id": "F10",
+     "condition": "Acidemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "ABG on NRB: 7.48/30/68.",
+     "note": null,
+     "start": 643,
+     "end": 666
+    },
+    {
+     "id": "F11",
+     "condition": "Coronary artery disease s/p PCI with DES to LAD",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "CAD s/p PCI/DES to LAD (2021)",
+     "note": null,
+     "start": 30,
+     "end": 59
+    },
+    {
+     "id": "F12",
+     "condition": "Hypertension",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HTN",
+     "note": null,
+     "start": 61,
+     "end": 64
+    },
+    {
+     "id": "F13",
+     "condition": "Hyperlipidemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HLD",
+     "note": null,
+     "start": 66,
+     "end": 69
+    },
+    {
+     "id": "F14",
+     "condition": "Type 2 diabetes mellitus on insulin",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "insulin-requiring T2DM",
+     "note": null,
+     "start": 71,
+     "end": 93
+    },
+    {
+     "id": "F15",
+     "condition": "Former smoker",
+     "assertion": "history",
+     "doc_id": "d1",
+     "quote": "former smoker",
+     "note": null,
+     "start": 95,
+     "end": 108
+    },
+    {
+     "id": "F16",
+     "condition": "Small peripheral wedge-shaped opacity right lower lobe",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Small peripheral wedge-shaped opacity RLL may reflect early infarct.",
+     "note": null,
+     "start": 268,
+     "end": 336
+    },
+    {
+     "id": "F17",
+     "condition": "Coronary calcifications with LAD stent",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Coronary calcifications with LAD stent.",
+     "note": null,
+     "start": 358,
+     "end": 397
+    },
+    {
+     "id": "F18",
+     "condition": "Normal RV size and function on echocardiography",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "TTE (bedside, prelim): normal RV size and function",
+     "note": null,
+     "start": 450,
+     "end": 500
+    },
+    {
+     "id": "F19",
+     "condition": "LVEF 55%",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "LVEF 55%.",
+     "note": null,
+     "start": 502,
+     "end": 511
+    },
+    {
+     "id": "F20",
+     "condition": "No DVT bilaterally",
+     "assertion": "negated",
+     "doc_id": "d3",
+     "quote": "LE duplex: no DVT bilaterally.",
+     "note": null,
+     "start": 512,
+     "end": 542
+    },
+    {
+     "id": "F21",
+     "condition": "Acute cor pulmonale",
+     "assertion": "negated",
+     "doc_id": "d3",
+     "quote": "without acute cor pulmonale",
+     "note": null,
+     "start": 604,
+     "end": 631
+    },
+    {
+     "id": "F22",
+     "condition": "Unprovoked pulmonary embolism",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Unprovoked.",
+     "note": null,
+     "start": 653,
+     "end": 664
+    },
+    {
+     "id": "F23",
+     "condition": "Minimal troponin leak attributed to PE strain physiology",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "minimal troponin leak attributed to PE strain physiology rather than ischemia.",
+     "note": null,
+     "start": 947,
+     "end": 1025
+    },
+    {
+     "id": "F24",
+     "condition": "Acute coronary syndrome",
+     "assertion": "negated",
+     "doc_id": "d3",
+     "quote": "no ACS",
+     "note": null,
+     "start": 939,
+     "end": 945
+    },
+    {
+     "id": "F25",
+     "condition": "Pleuritic chest pain",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "L pleuritic chest pain",
+     "note": null,
+     "start": 144,
+     "end": 166
+    },
+    {
+     "id": "F26",
+     "condition": "Pleuritic pain improving",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "Pleuritic pain improving.",
+     "note": null,
+     "start": 21,
+     "end": 46
+    },
+    {
+     "id": "F27",
+     "condition": "Acute hypoxic respiratory failure secondary to PE, resolved",
+     "assertion": "resolved",
+     "doc_id": "d6",
+     "quote": "Acute hypoxic respiratory failure secondary to pulmonary embolism, resolved",
+     "note": null,
+     "start": 166,
+     "end": 241
+    },
+    {
+     "id": "F28",
+     "condition": "Transition to apixaban from heparin",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "transition to DOAC when stable.",
+     "note": null,
+     "start": 683,
+     "end": 714
+    },
+    {
+     "id": "F29",
+     "condition": "Ambulated 150 ft on RA with lowest SpO2 92%",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Ambulated 150 ft on RA, lowest SpO2 92%",
+     "note": null,
+     "start": 50,
+     "end": 89
+    },
+    {
+     "id": "F30",
+     "condition": "Hyperglycemia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Glucose 212.",
+     "note": null,
+     "start": 630,
+     "end": 642
+    },
+    {
+     "id": "F31",
+     "condition": "Elevated WBC",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "WBC 10.2",
+     "note": null,
+     "start": 602,
+     "end": 610
+    },
+    {
+     "id": "F32",
+     "condition": "Elevated respiratory rate on presentation",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "RR 28",
+     "note": null,
+     "start": 54,
+     "end": 59
+    },
+    {
+     "id": "F33",
+     "condition": "Increased work of breathing at rest",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Increased work of breathing at rest.",
+     "note": null,
+     "start": 390,
+     "end": 426
+    }
+   ]
+  },
+  {
+   "t": 13548,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "acute pulmonary embolism bilateral without acute cor pulmonale"
+   },
+   "id": "toolu_01KtH1g5guVJEDZPJo1dNUbG"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "acute hypoxic respiratory failure"
+   },
+   "id": "toolu_01J2hK9R5Qvxr15HxkfFz1rJ"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "type 2 diabetes with hyperglycemia"
+   },
+   "id": "toolu_01WXaNCaXyDUvyi8VxCkuuuR"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "atherosclerotic heart disease native coronary artery without angina"
+   },
+   "id": "toolu_01CAB2PUPyiHwU2k7kGtMsCc"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "presence of coronary angioplasty implant and graft"
+   },
+   "id": "toolu_01L6WGR1x9zQBGTw9AZCmmv9"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01KtH1g5guVJEDZPJo1dNUbG",
+   "result": "[\"no matches; try different terms\"]"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01J2hK9R5Qvxr15HxkfFz1rJ",
+   "result": "[\"no matches; try different terms\"]"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01WXaNCaXyDUvyi8VxCkuuuR",
+   "result": "[\"E10.65  Type 1 diabetes mellitus with hyperglycemia\", \"E11.65  Type 2 diabetes mellitus with hyperglycemia\"]"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01CAB2PUPyiHwU2k7kGtMsCc",
+   "result": "[\"I25.10  Atherosclerotic heart disease of native coronary artery without angina pectoris\"]"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01L6WGR1x9zQBGTw9AZCmmv9",
+   "result": "[\"Z95.5  Presence of coronary angioplasty implant and graft\"]"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I26.99"
+   },
+   "id": "toolu_01Yb2CqjWQm73Jqnts9gwxgv"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "J96.01"
+   },
+   "id": "toolu_01PTfAgxcgX2UYHPjQnDztNg"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I26.9"
+   },
+   "id": "toolu_01CaQaoKpatt9yyA8LxnCfHA"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.4"
+   },
+   "id": "toolu_01KGxLb7ykvUuTErU6wryoF8"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I10"
+   },
+   "id": "toolu_01LNnAse9qghr53Ue9fwnAwc"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_01LXHv5Gqa4hhoSuUcohfiGP"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z87.891"
+   },
+   "id": "toolu_016vbpbVsdkXWhsjkWzAkEN7"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E11.9"
+   },
+   "id": "toolu_01VaDMWXcGLBbPV2PMfQXd97"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01Yb2CqjWQm73Jqnts9gwxgv",
+   "result": "I26.99: Other pulmonary embolism without acute cor pulmonale (billable)"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01PTfAgxcgX2UYHPjQnDztNg",
+   "result": "J96.01: Acute respiratory failure with hypoxia (billable)"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01CaQaoKpatt9yyA8LxnCfHA",
+   "result": "I26.9: Pulmonary embolism without acute cor pulmonale (HEADER, not billable). Billable children:\n  I26.90  Septic pulmonary embolism without acute cor pulmonale\n  I26.92  Saddle embolus of pulmonary artery without acute cor pulmonale\n  I26.93  Single subsegmental thrombotic pulmonary embolism without acute cor pulmonale\n  I26.94  Multiple subsegmental thrombotic pulmonary emboli without acute cor pulmonale\n  I26.95  Cement embolism of pulmonary artery without acute cor pulmonale\n  I26.96  Fat embolism of pulmonary artery without acute cor pulmonale\n  I26.99  Other pulmonary embolism without acute cor pulmonale"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01KGxLb7ykvUuTErU6wryoF8",
+   "result": "Z79.4: Long term (current) use of insulin (billable)"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01LNnAse9qghr53Ue9fwnAwc",
+   "result": "I10: Essential (primary) hypertension (billable)"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01LXHv5Gqa4hhoSuUcohfiGP",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_016vbpbVsdkXWhsjkWzAkEN7",
+   "result": "Z87.891: Personal history of nicotine dependence (billable)"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01VaDMWXcGLBbPV2PMfQXd97",
+   "result": "E11.9: Type 2 diabetes mellitus without complications (billable)"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "Since hyperglycemia isn't documented, I'll code the diabetes as E11.9. Since the patient is on both insulin and metformin, guidelines say to capture both long-term drug use codes, so I'll include Z79.4 and Z79.84 rather than skip one for simplicity, and I should verify whether aspirin use warrants Z79.82 as well.\n\n"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.84"
+   },
+   "id": "toolu_01R738ZMS6a1fmr84oioUcj9"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.82"
+   },
+   "id": "toolu_01ApT27Viqwc95gbukgfeqyW"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01R738ZMS6a1fmr84oioUcj9",
+   "result": "Z79.84: Long term (current) use of oral hypoglycemic drugs (billable)"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01ApT27Viqwc95gbukgfeqyW",
+   "result": "Z79.82: Long term (current) use of aspirin (billable)"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"I26.99\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F2\",\"F21\",\"F22\"],\"confidence\":0.9,\"rationale\":\"Acute bilateral lobar/segmental PE without acute cor pulmonale (provider documented, normal RV) is the condition chiefly responsible for admission.\"},\"secondary\":[{\"code\":\"J96.01\",\"poa\":\"Y\",\"finding_ids\":[\"F4\",\"F27\",\"F5\"],\"confidence\":0.88,\"rationale\":\"Provider documents acute hypoxic respiratory failure due to PE, with SpO2 82% RA and NRB requirement, which is not integral to PE.\"},{\"code\":\"I25.10\",\"poa\":\"Y\",\"finding_ids\":[\"F11\",\"F17\"],\"confidence\":0.85,\"rationale\":\"CAD documented as a chroni"
+  },
+  {
+   "t": 33391,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "I26.99",
+     "poa": "Y",
+     "finding_ids": [
+      "F1",
+      "F2",
+      "F21",
+      "F22"
+     ],
+     "confidence": 0.9,
+     "rationale": "Acute bilateral lobar/segmental PE without acute cor pulmonale (provider documented, normal RV) is the condition chiefly responsible for admission."
+    },
+    "secondary": [
+     {
+      "code": "J96.01",
+      "poa": "Y",
+      "finding_ids": [
+       "F4",
+       "F27",
+       "F5"
+      ],
+      "confidence": 0.88,
+      "rationale": "Provider documents acute hypoxic respiratory failure due to PE, with SpO2 82% RA and NRB requirement, which is not integral to PE."
+     },
+     {
+      "code": "I25.10",
+      "poa": "Y",
+      "finding_ids": [
+       "F11",
+       "F17"
+      ],
+      "confidence": 0.85,
+      "rationale": "CAD documented as a chronic condition and treated with continued meds, with no angina."
+     },
+     {
+      "code": "Z95.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F11"
+      ],
+      "confidence": 0.85,
+      "rationale": "Status post PCI with DES to LAD."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F12"
+      ],
+      "confidence": 0.88,
+      "rationale": "Hypertension is documented and treated, with no heart or kidney involvement documented."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F13"
+      ],
+      "confidence": 0.85,
+      "rationale": "Hyperlipidemia is treated with a statin."
+     },
+     {
+      "code": "E11.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F14",
+       "F30"
+      ],
+      "confidence": 0.75,
+      "rationale": "T2DM is documented, but the provider did not document hyperglycemia, so the code is without complications."
+     },
+     {
+      "code": "Z79.4",
+      "poa": "Y",
+      "finding_ids": [
+       "F14"
+      ],
+      "confidence": 0.88,
+      "rationale": "Long-term insulin use is documented."
+     },
+     {
+      "code": "Z79.84",
+      "poa": "Y",
+      "finding_ids": [
+       "F14"
+      ],
+      "confidence": 0.6,
+      "rationale": "Metformin is on the home and discharge medication lists, and guidelines say to code oral hypoglycemic use together with insulin."
+     },
+     {
+      "code": "Z79.82",
+      "poa": "Y",
+      "finding_ids": [
+       "F11"
+      ],
+      "confidence": 0.6,
+      "rationale": "Daily aspirin 81 mg is a long-term medication."
+     },
+     {
+      "code": "Z87.891",
+      "poa": "Y",
+      "finding_ids": [
+       "F15"
+      ],
+      "confidence": 0.8,
+      "rationale": "The patient is a former smoker who quit in 2019."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "query_opportunity",
+      "summary": "CTA read 'may reflect early infarct' for the RLL wedge opacity. Radiology alone is not codable, so query the provider about pulmonary infarction. If confirmed, I26.99 would still apply, since infarction is included in the PE code.",
+      "finding_ids": [
+       "F16"
+      ],
+      "guideline": null,
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "query_opportunity",
+      "summary": "Glucose was 212 in a patient with T2DM, but no provider documented hyperglycemia. Query if clinically significant.",
+      "finding_ids": [
+       "F30"
+      ],
+      "guideline": null,
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "The troponin leak was attributed to PE strain physiology. No myocardial injury diagnosis was documented, and cor pulmonale was explicitly negated, so none was coded. Consider a query only if myocardial injury is clinically intended.",
+      "finding_ids": [
+       "F8",
+       "F23"
+      ],
+      "guideline": null,
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 33391,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 42772,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"I26.99\",\"verdict\":\"supported\",\"confidence\":0.9,\"reason\":\"Provider-documented acute bilateral PE without acute cor pulmonale, consistent across H&P, progress note and discharge summary. Treated with heparin then apixaban. Lobar/segmental location does not change the code; no saddle PE documented.\"},{\"code\":\"J96.01\",\"verdict\":\"supported\",\"confidence\":0.85,\"reason\":\"Provider documents acute hypoxic respiratory failure due to PE through the discharge summary. Clinical indicators are strong: SpO2 82% RA, RR 28, work of breathing, NRB/15L need, PaO2 68 on NRB. Resolved by discha"
+  },
+  {
+   "t": 42772,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "I26.99",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Provider-documented acute bilateral PE without acute cor pulmonale, consistent across H&P, progress note and discharge summary. Treated with heparin then apixaban. Lobar/segmental location does not change the code; no saddle PE documented."
+     },
+     {
+      "code": "J96.01",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Provider documents acute hypoxic respiratory failure due to PE through the discharge summary. Clinical indicators are strong: SpO2 82% RA, RR 28, work of breathing, NRB/15L need, PaO2 68 on NRB. Resolved by discharge, which is consistent."
+     },
+     {
+      "code": "I25.10",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "CAD is documented by the provider in H&P and discharge summary and is managed with aspirin, statin and beta-blocker. No angina is documented. Coronary calcification on radiology is not needed as support."
+     },
+     {
+      "code": "Z95.5",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "Provider documents s/p PCI with DES to LAD in H&P and discharge summary."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "HTN is documented and treated (metoprolol, lisinopril). No CKD or heart failure is documented, so I10 is appropriate. Cr is 1.1 with no CKD diagnosis."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Hyperlipidemia is documented by the provider and treated with atorvastatin."
+     },
+     {
+      "code": "E11.9",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "Provider documents T2DM on insulin with no documented complication. Glucose 212 is a lab value only and is not a provider diagnosis. E11.9 is correct unless a query yields hyperglycemia."
+     },
+     {
+      "code": "Z79.4",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Provider documents insulin-requiring T2DM with glargine at home and at discharge."
+     },
+     {
+      "code": "Z79.84",
+      "verdict": "supported",
+      "confidence": 0.75,
+      "reason": "Metformin is on the home and discharge medication lists, so Z79.84 is reportable. OCG I.C.4.a.3 says to assign both Z79.4 and Z79.84 when a patient takes insulin and an oral hypoglycemic. Metformin was held inpatient but resumed at discharge, so this is chronic use."
+     },
+     {
+      "code": "Z79.82",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "Aspirin 81 mg is a home medication and is continued at discharge. A provider note says cardiology will reassess its need with the DOAC. Chronic use is documented, so the code is valid."
+     },
+     {
+      "code": "Z87.891",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Provider documents former smoker, 30 pack-years, quit 2019, with no current tobacco use."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": [
+     {
+      "kind": "other",
+      "summary": "Z79.01 for long-term anticoagulant (apixaban) was not proposed. Apixaban is a new start for the acute PE with a planned duration decision by hematology, so it is likely not reportable as long-term use at this time. Confirm intent per facility policy.",
+      "finding_ids": [
+       "F28"
+      ],
+      "guideline": "OCG I.C.21.c.3",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "The H&P states glargine 18 u in the plan while the home medication list says 24 u. This is a minor dosing discrepancy and does not affect coding.",
+      "finding_ids": [
+       "F14"
+      ],
+      "guideline": null,
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 42773,
+   "stage": "grouper",
+   "type": "output",
+   "family": "pe",
+   "drg": "175",
+   "title": "Pulmonary embolism w MCC or acute cor pulmonale",
+   "weight": 1.43,
+   "tier": "MCC",
+   "drivers": [
+    "J96.01"
+   ]
+  },
+  {
+   "t": 42773,
+   "stage": "router",
+   "type": "output",
+   "base": 0.85,
+   "blocking": 0,
+   "confidence": 0.85
+  }
+ ],
+ "ms": 42773,
+ "cost_usd": 0.12141
+}

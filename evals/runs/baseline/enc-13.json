@@ -1,0 +1,101 @@
+{
+ "case_id": "enc-13",
+ "codes": [
+  {
+   "code": "I26.99",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Other pulmonary embolism without acute cor pulmonale",
+   "confidence": 0.8
+  },
+  {
+   "code": "J96.01",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Acute respiratory failure with hypoxia",
+   "confidence": 0.8
+  },
+  {
+   "code": "I25.10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Atherosclerotic heart disease of native coronary artery without angina pectoris",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z95.5",
+   "poa": "exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Presence of coronary angioplasty implant and graft",
+   "confidence": 0.8
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.8
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.8
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus without complications",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z79.4",
+   "poa": "exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of insulin",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z87.891",
+   "poa": "exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Personal history of nicotine dependence",
+   "confidence": 0.8
+  },
+  {
+   "code": "Z79.82",
+   "poa": "exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of aspirin",
+   "confidence": 0.8
+  }
+ ],
+ "drg": {
+  "family": "pe",
+  "number": "175",
+  "weight": 1.43,
+  "tier": "MCC",
+  "drivers": [
+   "J96.01"
+  ]
+ },
+ "confidence": 0.8,
+ "needs_human": false,
+ "reason": "PE bilateral without acute cor pulmonale (I26.99) is principal; acute hypoxic respiratory failure J96.01 is a secondary diagnosis POA. CT mention of possible early infarct was not confirmed by the provider, so not coded. Troponin leak attributed to PE, not coded. Diabetes coded E11.9 with long-term insulin Z79.4; metformin is also used but insulin code is sufficient. Minor uncertainty about the optional status codes.",
+ "ms": 5792,
+ "cost_usd": 0.00998,
+ "input_tokens": 3138,
+ "output_tokens": 370
+}

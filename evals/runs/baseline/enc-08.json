@@ -1,0 +1,85 @@
+{
+ "case_id": "enc-08",
+ "codes": [
+  {
+   "code": "N17.9",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Acute kidney failure, unspecified",
+   "confidence": 0.72
+  },
+  {
+   "code": "A08.4",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Viral intestinal infection, unspecified",
+   "confidence": 0.72
+  },
+  {
+   "code": "E86.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Dehydration",
+   "confidence": 0.72
+  },
+  {
+   "code": "E87.1",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypo-osmolality and hyponatremia",
+   "confidence": 0.72
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus without complications",
+   "confidence": 0.72
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.72
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.72
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of oral hypoglycemic drugs",
+   "confidence": 0.72
+  }
+ ],
+ "drg": {
+  "family": "aki",
+  "number": "683",
+  "weight": 0.93,
+  "tier": "CC",
+  "drivers": [
+   "E87.1"
+  ]
+ },
+ "confidence": 0.72,
+ "needs_human": false,
+ "reason": "AKI sequenced as principal diagnosis because it was the main reason for admission, with dehydration and gastroenteritis as contributing conditions. Hyponatremia is coded as E87.1 (hypovolemic hyponatremia is included there). Viral gastroenteritis is coded A08.4 (norovirus is suspected but not confirmed). Dehydration is coded separately. The sequencing of AKI versus gastroenteritis or dehydration is the main uncertainty. Hypertension is coded I10 and is not linked to kidney disease. Z79.84 is added for long-term oral hypoglycemic (metformin) use.",
+ "ms": 3556,
+ "cost_usd": 0.00926,
+ "input_tokens": 2752,
+ "output_tokens": 376
+}

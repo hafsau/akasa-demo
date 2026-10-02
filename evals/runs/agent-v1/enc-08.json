@@ -1,0 +1,1323 @@
+{
+ "case_id": "enc-08",
+ "prompt_version": "2026-10-02.3",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Acute kidney injury",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "AKI, likely prerenal from dehydration due to gastroenteritis",
+   "note": null,
+   "start": 628,
+   "end": 688
+  },
+  {
+   "id": "F2",
+   "condition": "Acute kidney injury, prerenal",
+   "assertion": "resolved",
+   "doc_id": "d7",
+   "quote": "Acute kidney injury, prerenal, due to dehydration from viral gastroenteritis - resolved",
+   "note": null,
+   "start": 118,
+   "end": 205
+  },
+  {
+   "id": "F3",
+   "condition": "Dehydration",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Dehydration - IV fluids as above.",
+   "note": null,
+   "start": 458,
+   "end": 491
+  },
+  {
+   "id": "F4",
+   "condition": "Viral gastroenteritis",
+   "assertion": "probable",
+   "doc_id": "d2",
+   "quote": "Viral gastroenteritis - likely norovirus given sick contact",
+   "note": null,
+   "start": 601,
+   "end": 660
+  },
+  {
+   "id": "F5",
+   "condition": "Hyponatremia",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "2. Hyponatremia.",
+   "note": null,
+   "start": 717,
+   "end": 733
+  },
+  {
+   "id": "F6",
+   "condition": "Hyponatremia, hypovolemic",
+   "assertion": "resolved",
+   "doc_id": "d7",
+   "quote": "Hypovolemic hyponatremia - resolved",
+   "note": null,
+   "start": 209,
+   "end": 244
+  },
+  {
+   "id": "F7",
+   "condition": "Diarrhea, nonbloody watery",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "3 days of nonbloody watery diarrhea (6-8/day)",
+   "note": null,
+   "start": 75,
+   "end": 120
+  },
+  {
+   "id": "F8",
+   "condition": "Vomiting",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "and vomiting, unable to keep fluids down x24 h",
+   "note": null,
+   "start": 121,
+   "end": 167
+  },
+  {
+   "id": "F9",
+   "condition": "Orthostatic hypotension",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "BP 102/58 (orthostatic drop to 84/50 standing)",
+   "note": null,
+   "start": 317,
+   "end": 363
+  },
+  {
+   "id": "F10",
+   "condition": "Hypertension",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "PMH: HTN.",
+   "note": null,
+   "start": 71,
+   "end": 80
+  },
+  {
+   "id": "F11",
+   "condition": "Type 2 diabetes mellitus",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "T2DM (A1c 6.9%, no complications)",
+   "note": null,
+   "start": 81,
+   "end": 114
+  },
+  {
+   "id": "F12",
+   "condition": "Hyperlipidemia",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "HLD.",
+   "note": null,
+   "start": 116,
+   "end": 120
+  },
+  {
+   "id": "F13",
+   "condition": "Sodium 128 mEq/L",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Na 128",
+   "note": null,
+   "start": 475,
+   "end": 481
+  },
+  {
+   "id": "F14",
+   "condition": "Potassium 3.7 mEq/L",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "K 3.7",
+   "note": null,
+   "start": 483,
+   "end": 488
+  },
+  {
+   "id": "F15",
+   "condition": "Chloride 94 mEq/L",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Cl 94",
+   "note": null,
+   "start": 490,
+   "end": 495
+  },
+  {
+   "id": "F16",
+   "condition": "Bicarbonate 20 mEq/L",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HCO3 20",
+   "note": null,
+   "start": 497,
+   "end": 504
+  },
+  {
+   "id": "F17",
+   "condition": "Elevated BUN 52 mg/dL",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "BUN 52",
+   "note": null,
+   "start": 506,
+   "end": 512
+  },
+  {
+   "id": "F18",
+   "condition": "Elevated creatinine 2.3 mg/dL from baseline 0.8",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Cr 2.3 (baseline 0.8, 04/2026)",
+   "note": null,
+   "start": 514,
+   "end": 544
+  },
+  {
+   "id": "F19",
+   "condition": "Hyperglycemia, glucose 162 mg/dL",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Glu 162",
+   "note": null,
+   "start": 546,
+   "end": 553
+  },
+  {
+   "id": "F20",
+   "condition": "Dry mucous membranes",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Dry mucous membranes, poor skin turgor",
+   "note": null,
+   "start": 391,
+   "end": 429
+  },
+  {
+   "id": "F21",
+   "condition": "Hyperactive bowel sounds",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Abd soft, hyperactive BS, nontender",
+   "note": null,
+   "start": 431,
+   "end": 466
+  },
+  {
+   "id": "F22",
+   "condition": "Urine specific gravity 1.030",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "UA: SG 1.030",
+   "note": null,
+   "start": 579,
+   "end": 591
+  },
+  {
+   "id": "F23",
+   "condition": "Lightheadedness on standing",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Lightheaded on standing",
+   "note": null,
+   "start": 224,
+   "end": 247
+  },
+  {
+   "id": "F24",
+   "condition": "Tachycardia, heart rate 104 bpm",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "HR 104",
+   "note": null,
+   "start": 309,
+   "end": 315
+  },
+  {
+   "id": "F25",
+   "condition": "Sick contact with same illness",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Husband had the same illness last week, now recovered",
+   "note": null,
+   "start": 169,
+   "end": 222
+  },
+  {
+   "id": "F26",
+   "condition": "Creatinine improved to 1.0 mg/dL",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "AKI - prerenal, resolving, Cr 1.0",
+   "note": null,
+   "start": 172,
+   "end": 205
+  },
+  {
+   "id": "F27",
+   "condition": "Sodium corrected to 137 mEq/L",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Hyponatremia - corrected, Na 137",
+   "note": null,
+   "start": 210,
+   "end": 242
+  },
+  {
+   "id": "F28",
+   "condition": "No vomiting since admission",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "No vomiting since admission, one loose stool yesterday",
+   "note": null,
+   "start": 19,
+   "end": 73
+  },
+  {
+   "id": "F29",
+   "condition": "Moist mucous membranes at discharge",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "Mucosa moist.",
+   "note": null,
+   "start": 137,
+   "end": 150
+  },
+  {
+   "id": "F30",
+   "condition": "Orthostatic hypotension resolved",
+   "assertion": "resolved",
+   "doc_id": "d6",
+   "quote": "orthostatics negative",
+   "note": null,
+   "start": 114,
+   "end": 135
+  }
+ ],
+ "codes": [
+  {
+   "code": "N17.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F1",
+    "F2",
+    "F18"
+   ],
+   "confidence": 0.6,
+   "rationale": "AKI (Cr 2.3 from baseline 0.8) was the condition that drove admission and treatment, and it is documented through discharge. Prerenal AKI has no more specific code here, so N17.9 is used.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "AKI is provider-documented throughout with Cr 2.3 from baseline 0.8 (KDIGO met), treated and monitored. The sequencing is still debatable, see pdx question.",
+   "severity": null,
+   "description": "Acute kidney failure, unspecified"
+  },
+  {
+   "code": "A08.4",
+   "poa": "Y",
+   "finding_ids": [
+    "F4",
+    "F7",
+    "F8"
+   ],
+   "confidence": 0.85,
+   "rationale": "The discharge diagnosis is viral gastroenteritis. Norovirus appears only as 'likely' in the H&P and not at discharge, so the unspecified viral code is used.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "The discharge diagnosis is viral gastroenteritis. The 'likely norovirus' qualifier would be codable as A08.11 for an inpatient stay, but it was not carried to discharge. A08.4 is appropriate unless the provider confirms norovirus. Diarrhea and vomiting are integral and correctly not coded separately.",
+   "severity": "none",
+   "description": "Viral intestinal infection, unspecified"
+  },
+  {
+   "code": "E86.0",
+   "poa": "Y",
+   "finding_ids": [
+    "F3",
+    "F20"
+   ],
+   "confidence": 0.88,
+   "rationale": "Dehydration is documented by the provider and treated with IV fluids.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Dehydration is documented by the provider, treated with IV fluids, and clinically supported by dry mucosa, orthostasis, and BUN/Cr. It is a separate diagnosis from hypovolemic hyponatremia. E86.0 is correct, and E86.1 hypovolemia is not documented.",
+   "severity": "none",
+   "description": "Dehydration"
+  },
+  {
+   "code": "E87.1",
+   "poa": "Y",
+   "finding_ids": [
+    "F5",
+    "F6",
+    "F13"
+   ],
+   "confidence": 0.85,
+   "rationale": "Hypovolemic hyponatremia is a provider diagnosis (Na 128), and E87.1 covers it.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypovolemic hyponatremia is documented by the provider in the H&P and discharge summary, treated with isotonic fluids and monitored, with Na 128 corrected to 138. E87.1 is supported. A provider-documented hypovolemic state does not require E86.1 in addition.",
+   "severity": "CC",
+   "description": "Hypo-osmolality and hyponatremia"
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F11"
+   ],
+   "confidence": 0.85,
+   "rationale": "T2DM is documented as having no complications. The glucose of 162 is not coded as hyperglycemia.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "T2DM is documented as a provider diagnosis with no complications. It was managed with held metformin and a correction scale insulin, so it meets reportable criteria. The finding is tagged history, but it is an active chronic condition in the H&P and discharge diagnoses. Hyperglycemia of 162 is not separately coded.",
+   "severity": "none",
+   "description": "Type 2 diabetes mellitus without complications"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F10"
+   ],
+   "confidence": 0.8,
+   "rationale": "Hypertension is documented, and the home antihypertensives were held and then resumed.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypertension is an active chronic condition, with medications held and resumed. It is listed in the discharge diagnoses. The CKD/AKI combination does not apply because AKI is not CKD, so I10 is correct.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F12"
+   ],
+   "confidence": 0.85,
+   "rationale": "Hyperlipidemia is documented and the patient was continued on simvastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is on the discharge diagnosis list and simvastatin was continued.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Y",
+   "finding_ids": [
+    "F11"
+   ],
+   "confidence": 0.75,
+   "rationale": "The patient takes metformin long term, an oral hypoglycemic.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Home metformin 500 mg BID is documented in the H&P medication list and was resumed at discharge. Z79.84 applies to long-term oral hypoglycemic use. It is not an insulin-only use case. Inpatient correction insulin does not change this, and Z79.4 should not be assigned for temporary inpatient insulin.",
+   "severity": "none",
+   "description": "Long term (current) use of oral hypoglycemic drugs"
+  }
+ ],
+ "removed": [],
+ "issues": [
+  {
+   "kind": "other",
+   "summary": "AKI, dehydration and gastroenteritis could each be argued as principal diagnosis. AKI was chosen because it drove the workup and monitoring. Coder should confirm the sequencing.",
+   "finding_ids": [
+    "F1",
+    "F3",
+    "F4"
+   ],
+   "guideline": "OCG Section II.B/C",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Orthostatic hypotension appears only in ED vitals and was not diagnosed by a provider. It is integral to dehydration, so it was not coded.",
+   "finding_ids": [
+    "F9"
+   ],
+   "guideline": null,
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Principal diagnosis sequencing: AKI, dehydration, and gastroenteritis all meet the definition of principal diagnosis, so OCG Section II.C may allow any of them. Admission was driven by AKI (Cr 2.3) and hyponatremia needing inpatient monitoring. N17.9 is reasonable, but confirm facility policy on sequencing.",
+   "finding_ids": [
+    "F1",
+    "F3",
+    "F4"
+   ],
+   "guideline": "OCG Section II.B/C",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "other",
+   "summary": "Adverse effect question: lisinopril/HCTZ (ACE inhibitor plus a diuretic) in a volume-depleted patient may have contributed to the AKI and hyponatremia, since HCTZ is a recognized cause of hyponatremia. The provider attributes the AKI to dehydration from gastroenteritis only. Query only if the facility policy supports it. Do not code an adverse effect without provider documentation.",
+   "finding_ids": [
+    "F1",
+    "F6"
+   ],
+   "guideline": "AHIMA/ACDIS query practice",
+   "blocks_autonomy": false
+  },
+  {
+   "kind": "query_opportunity",
+   "summary": "Likely norovirus appears only as 'likely' in the H&P and is absent from the discharge summary. For inpatient stays uncertain diagnoses documented at discharge may be coded as established, but this was not carried to discharge. Consider asking the provider whether norovirus gastroenteritis was the final diagnosis, which would change A08.4 to A08.11.",
+   "finding_ids": [
+    "F4"
+   ],
+   "guideline": "OCG Section II.H / III.C",
+   "blocks_autonomy": false
+  }
+ ],
+ "queries": [],
+ "drg": {
+  "family": "aki",
+  "number": "683",
+  "title": "Renal failure w CC",
+  "weight": 0.93,
+  "tier": "CC",
+  "drivers": [
+   "E87.1"
+  ]
+ },
+ "confidence": 0.6,
+ "confidence_base": 0.6,
+ "blocking_issues": 0,
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 12008,
+   "input_tokens": 2812,
+   "output_tokens": 2077,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.0132
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 12008,
+   "ms": 16593,
+   "input_tokens": 12968,
+   "output_tokens": 1855,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.04449
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 28601,
+   "ms": 10880,
+   "input_tokens": 5897,
+   "output_tokens": 1530,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.02709
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-25T12:50",
+     "words": 124,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-25T17:20",
+     "words": 134,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-25T22:40",
+     "words": 55,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Dietitian note",
+     "author_role": "dietitian",
+     "timestamp": "2026-09-26T13:15",
+     "words": 61,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Lab summary",
+     "author_role": "lab",
+     "timestamp": "2026-09-27T06:30",
+     "words": 27,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-27T10:10",
+     "words": 55,
+     "flags": []
+    },
+    {
+     "id": "d7",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-28T09:40",
+     "words": 76,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 12008,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Acute kidney injury",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "AKI, likely prerenal from dehydration due to gastroenteritis",
+     "note": null,
+     "start": 628,
+     "end": 688
+    },
+    {
+     "id": "F2",
+     "condition": "Acute kidney injury, prerenal",
+     "assertion": "resolved",
+     "doc_id": "d7",
+     "quote": "Acute kidney injury, prerenal, due to dehydration from viral gastroenteritis - resolved",
+     "note": null,
+     "start": 118,
+     "end": 205
+    },
+    {
+     "id": "F3",
+     "condition": "Dehydration",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Dehydration - IV fluids as above.",
+     "note": null,
+     "start": 458,
+     "end": 491
+    },
+    {
+     "id": "F4",
+     "condition": "Viral gastroenteritis",
+     "assertion": "probable",
+     "doc_id": "d2",
+     "quote": "Viral gastroenteritis - likely norovirus given sick contact",
+     "note": null,
+     "start": 601,
+     "end": 660
+    },
+    {
+     "id": "F5",
+     "condition": "Hyponatremia",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "2. Hyponatremia.",
+     "note": null,
+     "start": 717,
+     "end": 733
+    },
+    {
+     "id": "F6",
+     "condition": "Hyponatremia, hypovolemic",
+     "assertion": "resolved",
+     "doc_id": "d7",
+     "quote": "Hypovolemic hyponatremia - resolved",
+     "note": null,
+     "start": 209,
+     "end": 244
+    },
+    {
+     "id": "F7",
+     "condition": "Diarrhea, nonbloody watery",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "3 days of nonbloody watery diarrhea (6-8/day)",
+     "note": null,
+     "start": 75,
+     "end": 120
+    },
+    {
+     "id": "F8",
+     "condition": "Vomiting",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "and vomiting, unable to keep fluids down x24 h",
+     "note": null,
+     "start": 121,
+     "end": 167
+    },
+    {
+     "id": "F9",
+     "condition": "Orthostatic hypotension",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "BP 102/58 (orthostatic drop to 84/50 standing)",
+     "note": null,
+     "start": 317,
+     "end": 363
+    },
+    {
+     "id": "F10",
+     "condition": "Hypertension",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "PMH: HTN.",
+     "note": null,
+     "start": 71,
+     "end": 80
+    },
+    {
+     "id": "F11",
+     "condition": "Type 2 diabetes mellitus",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "T2DM (A1c 6.9%, no complications)",
+     "note": null,
+     "start": 81,
+     "end": 114
+    },
+    {
+     "id": "F12",
+     "condition": "Hyperlipidemia",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "HLD.",
+     "note": null,
+     "start": 116,
+     "end": 120
+    },
+    {
+     "id": "F13",
+     "condition": "Sodium 128 mEq/L",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Na 128",
+     "note": null,
+     "start": 475,
+     "end": 481
+    },
+    {
+     "id": "F14",
+     "condition": "Potassium 3.7 mEq/L",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "K 3.7",
+     "note": null,
+     "start": 483,
+     "end": 488
+    },
+    {
+     "id": "F15",
+     "condition": "Chloride 94 mEq/L",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Cl 94",
+     "note": null,
+     "start": 490,
+     "end": 495
+    },
+    {
+     "id": "F16",
+     "condition": "Bicarbonate 20 mEq/L",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HCO3 20",
+     "note": null,
+     "start": 497,
+     "end": 504
+    },
+    {
+     "id": "F17",
+     "condition": "Elevated BUN 52 mg/dL",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "BUN 52",
+     "note": null,
+     "start": 506,
+     "end": 512
+    },
+    {
+     "id": "F18",
+     "condition": "Elevated creatinine 2.3 mg/dL from baseline 0.8",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Cr 2.3 (baseline 0.8, 04/2026)",
+     "note": null,
+     "start": 514,
+     "end": 544
+    },
+    {
+     "id": "F19",
+     "condition": "Hyperglycemia, glucose 162 mg/dL",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Glu 162",
+     "note": null,
+     "start": 546,
+     "end": 553
+    },
+    {
+     "id": "F20",
+     "condition": "Dry mucous membranes",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Dry mucous membranes, poor skin turgor",
+     "note": null,
+     "start": 391,
+     "end": 429
+    },
+    {
+     "id": "F21",
+     "condition": "Hyperactive bowel sounds",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Abd soft, hyperactive BS, nontender",
+     "note": null,
+     "start": 431,
+     "end": 466
+    },
+    {
+     "id": "F22",
+     "condition": "Urine specific gravity 1.030",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "UA: SG 1.030",
+     "note": null,
+     "start": 579,
+     "end": 591
+    },
+    {
+     "id": "F23",
+     "condition": "Lightheadedness on standing",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Lightheaded on standing",
+     "note": null,
+     "start": 224,
+     "end": 247
+    },
+    {
+     "id": "F24",
+     "condition": "Tachycardia, heart rate 104 bpm",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "HR 104",
+     "note": null,
+     "start": 309,
+     "end": 315
+    },
+    {
+     "id": "F25",
+     "condition": "Sick contact with same illness",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Husband had the same illness last week, now recovered",
+     "note": null,
+     "start": 169,
+     "end": 222
+    },
+    {
+     "id": "F26",
+     "condition": "Creatinine improved to 1.0 mg/dL",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "AKI - prerenal, resolving, Cr 1.0",
+     "note": null,
+     "start": 172,
+     "end": 205
+    },
+    {
+     "id": "F27",
+     "condition": "Sodium corrected to 137 mEq/L",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Hyponatremia - corrected, Na 137",
+     "note": null,
+     "start": 210,
+     "end": 242
+    },
+    {
+     "id": "F28",
+     "condition": "No vomiting since admission",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "No vomiting since admission, one loose stool yesterday",
+     "note": null,
+     "start": 19,
+     "end": 73
+    },
+    {
+     "id": "F29",
+     "condition": "Moist mucous membranes at discharge",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "Mucosa moist.",
+     "note": null,
+     "start": 137,
+     "end": 150
+    },
+    {
+     "id": "F30",
+     "condition": "Orthostatic hypotension resolved",
+     "assertion": "resolved",
+     "doc_id": "d6",
+     "quote": "orthostatics negative",
+     "note": null,
+     "start": 114,
+     "end": 135
+    }
+   ]
+  },
+  {
+   "t": 12008,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "I need to sort out the principal diagnosis question - AKI versus gastroenteritis versus dehydration, since the AKI stems from dehydration caused by the gastroenteritis. Both conditions meet the criteria for principal diagnosis, so sequencing could go either way, but since the AKI is likely what drove admission for treatment and monitoring, I'm leaning toward coding that as the principal diagnosis with gastroenteritis as a contributing cause.\n\nSince the ED explicitly documented admission for AKI, I'll settle on N17.9 as principal. For the gastroenteritis, the discharge summary says viral gastro"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "N17.9"
+   },
+   "id": "toolu_01EkNed4QELgHS7SG6zEirks"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "A08.4"
+   },
+   "id": "toolu_01GX58dWzTbHvSxu7e87iD8s"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E86.0"
+   },
+   "id": "toolu_01RubyUcvY2GY3gTSgvLMz2D"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E87.1"
+   },
+   "id": "toolu_01FADoHf5ZSNKDuY3cdm7UDX"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E11.9"
+   },
+   "id": "toolu_01UwfefzY6RL4atCBoUVZyXE"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I10"
+   },
+   "id": "toolu_01LyENKCF1G8aRb4RHgn8Sqe"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_017goj6pn5ETiY1NKvBfofsT"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z79.84"
+   },
+   "id": "toolu_01YJWXU3PVUhf5oDFTW442AA"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01EkNed4QELgHS7SG6zEirks",
+   "result": "N17.9: Acute kidney failure, unspecified (billable)"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01GX58dWzTbHvSxu7e87iD8s",
+   "result": "A08.4: Viral intestinal infection, unspecified (billable)"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01RubyUcvY2GY3gTSgvLMz2D",
+   "result": "E86.0: Dehydration (billable)"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01FADoHf5ZSNKDuY3cdm7UDX",
+   "result": "E87.1: Hypo-osmolality and hyponatremia (billable)"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01UwfefzY6RL4atCBoUVZyXE",
+   "result": "E11.9: Type 2 diabetes mellitus without complications (billable)"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01LyENKCF1G8aRb4RHgn8Sqe",
+   "result": "I10: Essential (primary) hypertension (billable)"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_017goj6pn5ETiY1NKvBfofsT",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01YJWXU3PVUhf5oDFTW442AA",
+   "result": "Z79.84: Long term (current) use of oral hypoglycemic drugs (billable)"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"N17.9\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F2\",\"F18\"],\"confidence\":0.6,\"rationale\":\"AKI (Cr 2.3 from baseline 0.8) was the condition that drove admission and treatment, and it is documented through discharge. Prerenal AKI has no more specific code here, so N17.9 is used.\"},\"secondary\":[{\"code\":\"A08.4\",\"poa\":\"Y\",\"finding_ids\":[\"F4\",\"F7\",\"F8\"],\"confidence\":0.8,\"rationale\":\"The discharge diagnosis is viral gastroenteritis. Norovirus appears only as 'likely' in the H&P and not at discharge, so the unspecified viral code is used.\"},{\"code\":\"E86.0\",\"poa\":\"Y\",\"finding_ids\":[\"F3\",\"F20\"],\"co"
+  },
+  {
+   "t": 28601,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "N17.9",
+     "poa": "Y",
+     "finding_ids": [
+      "F1",
+      "F2",
+      "F18"
+     ],
+     "confidence": 0.6,
+     "rationale": "AKI (Cr 2.3 from baseline 0.8) was the condition that drove admission and treatment, and it is documented through discharge. Prerenal AKI has no more specific code here, so N17.9 is used."
+    },
+    "secondary": [
+     {
+      "code": "A08.4",
+      "poa": "Y",
+      "finding_ids": [
+       "F4",
+       "F7",
+       "F8"
+      ],
+      "confidence": 0.8,
+      "rationale": "The discharge diagnosis is viral gastroenteritis. Norovirus appears only as 'likely' in the H&P and not at discharge, so the unspecified viral code is used."
+     },
+     {
+      "code": "E86.0",
+      "poa": "Y",
+      "finding_ids": [
+       "F3",
+       "F20"
+      ],
+      "confidence": 0.85,
+      "rationale": "Dehydration is documented by the provider and treated with IV fluids."
+     },
+     {
+      "code": "E87.1",
+      "poa": "Y",
+      "finding_ids": [
+       "F5",
+       "F6",
+       "F13"
+      ],
+      "confidence": 0.85,
+      "rationale": "Hypovolemic hyponatremia is a provider diagnosis (Na 128), and E87.1 covers it."
+     },
+     {
+      "code": "E11.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F11"
+      ],
+      "confidence": 0.85,
+      "rationale": "T2DM is documented as having no complications. The glucose of 162 is not coded as hyperglycemia."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F10"
+      ],
+      "confidence": 0.85,
+      "rationale": "Hypertension is documented, and the home antihypertensives were held and then resumed."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F12"
+      ],
+      "confidence": 0.85,
+      "rationale": "Hyperlipidemia is documented and the patient was continued on simvastatin."
+     },
+     {
+      "code": "Z79.84",
+      "poa": "Y",
+      "finding_ids": [
+       "F11"
+      ],
+      "confidence": 0.7,
+      "rationale": "The patient takes metformin long term, an oral hypoglycemic."
+     }
+    ],
+    "issues": [
+     {
+      "kind": "other",
+      "summary": "AKI, dehydration and gastroenteritis could each be argued as principal diagnosis. AKI was chosen because it drove the workup and monitoring. Coder should confirm the sequencing.",
+      "finding_ids": [
+       "F1",
+       "F3",
+       "F4"
+      ],
+      "guideline": "OCG Section II.B/C",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "Orthostatic hypotension appears only in ED vitals and was not diagnosed by a provider. It is integral to dehydration, so it was not coded.",
+      "finding_ids": [
+       "F9"
+      ],
+      "guideline": null,
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 28601,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 39481,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"N17.9\",\"verdict\":\"supported\",\"confidence\":0.6,\"reason\":\"AKI is provider-documented throughout with Cr 2.3 from baseline 0.8 (KDIGO met), treated and monitored. The sequencing is still debatable, see pdx question.\"},{\"code\":\"A08.4\",\"verdict\":\"supported\",\"confidence\":0.85,\"reason\":\"The discharge diagnosis is viral gastroenteritis. The 'likely norovirus' qualifier would be codable as A08.11 for an inpatient stay, but it was not carried to discharge. A08.4 is appropriate unless the provider confirms norovirus. Diarrhea and vomiting are integral and correctly not coded separate"
+  },
+  {
+   "t": 39481,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "N17.9",
+      "verdict": "supported",
+      "confidence": 0.6,
+      "reason": "AKI is provider-documented throughout with Cr 2.3 from baseline 0.8 (KDIGO met), treated and monitored. The sequencing is still debatable, see pdx question."
+     },
+     {
+      "code": "A08.4",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "The discharge diagnosis is viral gastroenteritis. The 'likely norovirus' qualifier would be codable as A08.11 for an inpatient stay, but it was not carried to discharge. A08.4 is appropriate unless the provider confirms norovirus. Diarrhea and vomiting are integral and correctly not coded separately."
+     },
+     {
+      "code": "E86.0",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "Dehydration is documented by the provider, treated with IV fluids, and clinically supported by dry mucosa, orthostasis, and BUN/Cr. It is a separate diagnosis from hypovolemic hyponatremia. E86.0 is correct, and E86.1 hypovolemia is not documented."
+     },
+     {
+      "code": "E87.1",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Hypovolemic hyponatremia is documented by the provider in the H&P and discharge summary, treated with isotonic fluids and monitored, with Na 128 corrected to 138. E87.1 is supported. A provider-documented hypovolemic state does not require E86.1 in addition."
+     },
+     {
+      "code": "E11.9",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "T2DM is documented as a provider diagnosis with no complications. It was managed with held metformin and a correction scale insulin, so it meets reportable criteria. The finding is tagged history, but it is an active chronic condition in the H&P and discharge diagnoses. Hyperglycemia of 162 is not separately coded."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "Hypertension is an active chronic condition, with medications held and resumed. It is listed in the discharge diagnoses. The CKD/AKI combination does not apply because AKI is not CKD, so I10 is correct."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Hyperlipidemia is on the discharge diagnosis list and simvastatin was continued."
+     },
+     {
+      "code": "Z79.84",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "reason": "Home metformin 500 mg BID is documented in the H&P medication list and was resumed at discharge. Z79.84 applies to long-term oral hypoglycemic use. It is not an insulin-only use case. Inpatient correction insulin does not change this, and Z79.4 should not be assigned for temporary inpatient insulin."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": [
+     {
+      "kind": "other",
+      "summary": "Principal diagnosis sequencing: AKI, dehydration, and gastroenteritis all meet the definition of principal diagnosis, so OCG Section II.C may allow any of them. Admission was driven by AKI (Cr 2.3) and hyponatremia needing inpatient monitoring. N17.9 is reasonable, but confirm facility policy on sequencing.",
+      "finding_ids": [
+       "F1",
+       "F3",
+       "F4"
+      ],
+      "guideline": "OCG Section II.B/C",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "other",
+      "summary": "Adverse effect question: lisinopril/HCTZ (ACE inhibitor plus a diuretic) in a volume-depleted patient may have contributed to the AKI and hyponatremia, since HCTZ is a recognized cause of hyponatremia. The provider attributes the AKI to dehydration from gastroenteritis only. Query only if the facility policy supports it. Do not code an adverse effect without provider documentation.",
+      "finding_ids": [
+       "F1",
+       "F6"
+      ],
+      "guideline": "AHIMA/ACDIS query practice",
+      "blocks_autonomy": false
+     },
+     {
+      "kind": "query_opportunity",
+      "summary": "Likely norovirus appears only as 'likely' in the H&P and is absent from the discharge summary. For inpatient stays uncertain diagnoses documented at discharge may be coded as established, but this was not carried to discharge. Consider asking the provider whether norovirus gastroenteritis was the final diagnosis, which would change A08.4 to A08.11.",
+      "finding_ids": [
+       "F4"
+      ],
+      "guideline": "OCG Section II.H / III.C",
+      "blocks_autonomy": false
+     }
+    ]
+   }
+  },
+  {
+   "t": 39482,
+   "stage": "grouper",
+   "type": "output",
+   "family": "aki",
+   "drg": "683",
+   "title": "Renal failure w CC",
+   "weight": 0.93,
+   "tier": "CC",
+   "drivers": [
+    "E87.1"
+   ]
+  },
+  {
+   "t": 39482,
+   "stage": "router",
+   "type": "output",
+   "base": 0.6,
+   "blocking": 0,
+   "confidence": 0.6
+  }
+ ],
+ "ms": 39482,
+ "cost_usd": 0.08478
+}

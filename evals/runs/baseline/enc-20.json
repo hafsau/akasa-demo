@@ -1,0 +1,91 @@
+{
+ "case_id": "enc-20",
+ "codes": [
+  {
+   "code": "N17.9",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Acute kidney failure, unspecified",
+   "confidence": 0.6
+  },
+  {
+   "code": "A08.11",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Acute gastroenteropathy due to Norwalk agent",
+   "confidence": 0.6
+  },
+  {
+   "code": "E86.0",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Dehydration",
+   "confidence": 0.6
+  },
+  {
+   "code": "E87.6",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypokalemia",
+   "confidence": 0.6
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.6
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.6
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hypothyroidism, unspecified",
+   "confidence": 0.6
+  },
+  {
+   "code": "R53.81",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Other malaise",
+   "confidence": 0.6
+  },
+  {
+   "code": "R26.81",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Unsteadiness on feet",
+   "confidence": 0.6
+  }
+ ],
+ "drg": {
+  "family": "aki",
+  "number": "684",
+  "weight": 0.62,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.3,
+ "needs_human": true,
+ "reason": "Sequencing question: AKI documented as principal diagnosis due to dehydration from norovirus gastroenteritis; both AKI and gastroenteritis were POA and treated, so A08.11 could be sequenced as principal per guidelines/provider query. Progress notes on HD3 and HD4 contain conflicting copy-forward AKI 'worsening' statements inconsistent with Cr 0.9 and the discharge summary 'resolved', so a query may be needed. Losartan (ARB) contributing to AKI could suggest an adverse effect code (T50.5X5A?) but is not clearly documented as the cause. Unsteady gait and deconditioning documented separately; Z74.x/Z91.81 not assigned.",
+ "ms": 4987,
+ "cost_usd": 0.0102,
+ "input_tokens": 2974,
+ "output_tokens": 425
+}

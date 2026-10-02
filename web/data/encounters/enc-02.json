@@ -1,0 +1,1863 @@
+{
+ "case": {
+  "id": "enc-02",
+  "title": "UTI with sepsis ruled out at discharge",
+  "summary": "A nursing-home resident with a urinary infection was called septic and encephalopathic by one doctor, but the discharging doctor wrote that sepsis was ruled out and her thinking was at baseline, so a coder has to ask before coding.",
+  "hero": true,
+  "family": "uti",
+  "patient": {
+   "age": 78,
+   "sex": "F"
+  },
+  "admit_date": "2026-09-08",
+  "discharge_date": "2026-09-11",
+  "documents": [
+   {
+    "id": "d1",
+    "type": "ED note",
+    "author": "M. Okafor, DO (Emergency Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-08T14:25",
+    "text": "CC: Confusion, fever.\n\nHPI: 78F, resident of Briarwood skilled nursing facility, with mild dementia (baseline per facility: oriented to self and place, conversant, ambulates with walker), HTN, paroxysmal AF on apixaban, hypothyroidism, sent in for increased confusion since last night and fever 38.3 C at the facility. Staff report she is pulling at her clothes and did not recognize her daughter this morning. Foul-smelling urine x2 days. No cough, vomiting or diarrhea. History limited by mental status.\n\nVitals: T 38.4 C, HR 112 (sinus tach on monitor), BP 104/62, RR 22, SpO2 95% RA.\nExam: Elderly woman, drowsy but arousable, oriented to self only, inattentive. Dry mucous membranes. Lungs clear. Suprapubic tenderness, no CVA tenderness. No focal neuro deficits.\n\nLabs: WBC 15.8 (bands 8%), Hgb 12.1, Plt 241. Na 141, K 3.9, BUN 24, Cr 1.0 (baseline 0.9), Glu 118. Lactate 2.6.\nUA: cloudy, LE 3+, nitrite positive, WBC >50/hpf, many bacteria. Urine and blood cultures x2 sent.\nCXR: no infiltrate. CT head without contrast: no acute intracranial process.\n\nAssessment/Plan:\n1. Possible sepsis, urinary source - SIRS criteria (T, HR, RR, WBC) with lactate 2.6. Sepsis bundle initiated: LR 30 mL/kg (1.8 L), ceftriaxone 1 g IV after cultures. Repeat lactate.\n2. Acute confusion on baseline dementia.\n3. Paroxysmal AF - in sinus rhythm.\nDispo: Admit to hospital medicine."
+   },
+   {
+    "id": "d2",
+    "type": "H&P",
+    "author": "A. Brennan, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-08T18:50",
+    "text": "HISTORY AND PHYSICAL\n\nHPI: 78F from SNF with fever, foul urine and acute confusion; see ED note. Daughter at bedside confirms she was \"sharp as usual\" two days ago (knows family, chats, does word searches).\n\nPMH: Dementia, mild; HTN; paroxysmal AF; hypothyroidism; osteoarthritis of both knees.\nMeds: apixaban 5 mg BID, metoprolol tartrate 25 mg BID, amlodipine 5 mg daily, levothyroxine 75 mcg daily, donepezil 10 mg qHS, acetaminophen 650 mg PRN.\nAllergies: Sulfa (rash).\n\nExam (after 1.8 L LR): T 37.6, HR 98, BP 118/66, RR 18, SpO2 96% RA. Drowsy, oriented to self, cannot say months backward. Mucosa moist. Mild suprapubic tenderness. Bilateral knee crepitus.\n\nAssessment/Plan:\n1. Suspected sepsis secondary to UTI - SIRS + lactate 2.6 on arrival, hemodynamics improving with fluids. Continue ceftriaxone 1 g daily. F/u cultures, repeat lactate.\n2. Acute metabolic encephalopathy, likely due to infection, superimposed on mild dementia - delirium precautions, reorient, avoid sedatives and anticholinergics.\n3. Paroxysmal AF - continue metoprolol and apixaban.\n4. HTN - hold amlodipine tonight given soft BP.\n5. Hypothyroidism - continue levothyroxine.\n6. Mild dementia - continue donepezil.\n7. Osteoarthritis, bilateral knees - acetaminophen PRN, PT eval.\nVTE ppx: on apixaban. Code: DNR/DNI per MOLST."
+   },
+   {
+    "id": "d3",
+    "type": "Lab summary",
+    "author": "Clinical Laboratory",
+    "author_role": "lab",
+    "timestamp": "2026-09-09T11:15",
+    "text": "MICROBIOLOGY\nUrine culture (collected 09/08 14:40): >100,000 CFU/mL Escherichia coli.\n Susceptible: ceftriaxone, cefazolin, nitrofurantoin, gentamicin. Resistant: ampicillin, ciprofloxacin, TMP-SMX.\nBlood cultures x2 (09/08 14:35): no growth at 24 hours.\n\nCHEMISTRY / HEMATOLOGY\nLactate 09/08 18:30: 1.1 mmol/L\nCBC 09/09 05:00: WBC 11.2, Hgb 11.6, Plt 228\nBMP 09/09 05:00: Na 140, K 3.8, BUN 17, Cr 0.9, Glu 104"
+   },
+   {
+    "id": "d4",
+    "type": "Progress note",
+    "author": "A. Brennan, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-09T13:40",
+    "text": "HOSPITAL DAY 2\n\nS: More alert per nursing, ate most of breakfast. Asked for her daughter by name.\nO: Tmax 37.8, HR 88, BP 124/70, RR 16, SpO2 97% RA. Oriented to self and place this afternoon, still mildly inattentive.\nLabs: urine cx E. coli, susceptible to ceftriaxone. Blood cx NGTD. Lactate 1.1. WBC 11.2.\n\nAssessment/Plan:\n1. Sepsis due to E. coli UTI - source identified, lactate cleared, hemodynamically stable. Continue ceftriaxone, day 2.\n2. Acute metabolic encephalopathy - improving with treatment of infection.\n3. Paroxysmal AF - rate controlled, continue apixaban.\n4. HTN - resume amlodipine if SBP >130.\n5. Hypothyroidism, mild dementia, OA knees - home meds.\nDispo: back to SNF in 1-2 days if continues to improve."
+   },
+   {
+    "id": "d5",
+    "type": "Nursing note",
+    "author": "T. Nguyen, RN",
+    "author_role": "nursing",
+    "timestamp": "2026-09-10T21:10",
+    "text": "Pt alert, pleasant, oriented to self and place, follows commands. Daughter at bedside states pt is \"back to her usual self.\" Ambulated in hallway with walker and standby assist x1. Voiding without difficulty, urine clear yellow. Afebrile this shift. Fall precautions maintained."
+   },
+   {
+    "id": "d6",
+    "type": "Discharge summary",
+    "author": "J. Whitfield, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-11T10:15",
+    "text": "DISCHARGE SUMMARY\nAdmit: 09/08/2026   Discharge: 09/11/2026   Disposition: Briarwood SNF\nAttending at discharge: J. Whitfield, MD (assumed care 09/10)\n\nDISCHARGE DIAGNOSES:\n1. E. coli urinary tract infection\n2. Paroxysmal atrial fibrillation\n3. Hypertension\n4. Hypothyroidism\n5. Mild dementia\n6. Osteoarthritis, bilateral knees\n\nHOSPITAL COURSE:\n78F from SNF admitted with fever and confusion, found to have E. coli UTI. Sepsis was considered in the ED; on my review, sepsis ruled out - tachycardia and lactate resolved promptly after 1.8 L of fluid, she was never hypotensive, and there was no organ dysfunction; vital sign changes attributed to fever. Blood cultures no growth at 72 h. Treated with ceftriaxone x3 days, transitioned to cephalexin 500 mg BID to complete 7 days. Mentation at baseline (baseline mild dementia) per daughter and facility staff; no further workup needed. Amlodipine resumed 09/10.\n\nDISCHARGE MEDICATIONS: cephalexin 500 mg BID through 09/14; home meds unchanged (apixaban, metoprolol, amlodipine, levothyroxine, donepezil).\n\nFOLLOW-UP: SNF physician in 2-3 days. Encourage fluids."
+   }
+  ],
+  "gold": {
+   "pdx": "N39.0",
+   "secondary": [
+    {
+     "code": "B96.20",
+     "poa": "Y"
+    },
+    {
+     "code": "F03.A0",
+     "poa": "Y"
+    },
+    {
+     "code": "I48.0",
+     "poa": "Y"
+    },
+    {
+     "code": "Z79.01",
+     "poa": "Y"
+    },
+    {
+     "code": "I10",
+     "poa": "Y"
+    },
+    {
+     "code": "E03.9",
+     "poa": "Y"
+    },
+    {
+     "code": "M17.0",
+     "poa": "Y"
+    }
+   ],
+   "drg": "690",
+   "route": "coder",
+   "hold_reasons": [
+    "Conflicting documentation on sepsis: ED 'possible sepsis', H&P 'suspected sepsis' and day-2 progress note 'sepsis due to E. coli UTI' vs the discharge summary by a different attending stating 'sepsis ruled out' (OCG I.A.19, I.C.1.d; clinical validation query to attending before final coding).",
+    "Conflicting documentation on acute metabolic encephalopathy: H&P and day-2 progress note document it, while the discharge summary attributes mentation to baseline mild dementia and omits it."
+   ],
+   "query": {
+    "topic": "Clinical validity of sepsis. Clinical indicators: on arrival T 38.4 C, HR 112, RR 22, BP 104/62, WBC 15.8 with 8% bands, lactate 2.6 mmol/L; after 1.8 L LR, HR 98, BP 118/66, lactate 1.1 mmol/L; urine culture >100,000 CFU/mL E. coli; blood cultures no growth; creatinine 1.0 (baseline 0.9). The 09/09 progress note documents 'sepsis due to E. coli UTI' and the 09/11 discharge summary documents 'sepsis ruled out.' Based on your clinical judgment, please clarify the diagnosis that best describes this patient's condition.",
+    "options": [
+     "Sepsis due to E. coli urinary tract infection",
+     "E. coli urinary tract infection without sepsis (sepsis ruled out)",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ]
+   },
+   "traps": [
+    "conflicting_notes",
+    "ruled_out",
+    "clinical_validation"
+   ],
+   "explanation": "Three notes call this sepsis and two call it acute metabolic encephalopathy, but the discharging attending explicitly rules out sepsis and calls her mentation baseline dementia. A coder can't pick one physician's version; the conflict has to go back to the attending as a compliant clinical validation query. Pending that answer, the discharge summary supports N39.0 with B96.20 (DRG 690). Coding A41.51 would move it to the sepsis DRG, and adding G93.41 would add an MCC; a naive system codes both and overstates severity."
+  }
+ },
+ "run": {
+  "case_id": "enc-02",
+  "prompt_version": "2026-10-02.4-router-v2",
+  "models": {
+   "fast": "anthropic:claude-haiku-4-5",
+   "reason": "anthropic:claude-sonnet-5-5"
+  },
+  "findings": [
+   {
+    "id": "F1",
+    "condition": "Confusion/altered mental status",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "increased confusion since last night",
+    "note": null,
+    "start": 248,
+    "end": 284
+   },
+   {
+    "id": "F2",
+    "condition": "Fever",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "fever 38.3 C at the facility",
+    "note": null,
+    "start": 289,
+    "end": 317
+   },
+   {
+    "id": "F3",
+    "condition": "Mild dementia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "mild dementia (baseline per facility: oriented to self and place, conversant, ambulates with walker)",
+    "note": null,
+    "start": 86,
+    "end": 186
+   },
+   {
+    "id": "F4",
+    "condition": "Hypertension",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "HTN",
+    "note": null,
+    "start": 188,
+    "end": 191
+   },
+   {
+    "id": "F5",
+    "condition": "Paroxysmal atrial fibrillation",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "paroxysmal AF on apixaban",
+    "note": null,
+    "start": 193,
+    "end": 218
+   },
+   {
+    "id": "F6",
+    "condition": "Hypothyroidism",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "hypothyroidism",
+    "note": null,
+    "start": 220,
+    "end": 234
+   },
+   {
+    "id": "F7",
+    "condition": "Foul-smelling urine",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Foul-smelling urine x2 days",
+    "note": null,
+    "start": 411,
+    "end": 438
+   },
+   {
+    "id": "F8",
+    "condition": "Disorientation to time and person",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "did not recognize her daughter this morning",
+    "note": null,
+    "start": 366,
+    "end": 409
+   },
+   {
+    "id": "F9",
+    "condition": "Tachycardia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "HR 112 (sinus tach on monitor)",
+    "note": null,
+    "start": 525,
+    "end": 555
+   },
+   {
+    "id": "F10",
+    "condition": "Fever (high)",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "T 38.4 C",
+    "note": null,
+    "start": 515,
+    "end": 523
+   },
+   {
+    "id": "F11",
+    "condition": "Tachypnea",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "RR 22",
+    "note": null,
+    "start": 568,
+    "end": 573
+   },
+   {
+    "id": "F12",
+    "condition": "Elevated WBC with left shift",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "WBC 15.8 (bands 8%)",
+    "note": null,
+    "start": 776,
+    "end": 795
+   },
+   {
+    "id": "F13",
+    "condition": "Elevated creatinine",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Cr 1.0 (baseline 0.9)",
+    "note": null,
+    "start": 839,
+    "end": 860
+   },
+   {
+    "id": "F14",
+    "condition": "Elevated BUN",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "BUN 24",
+    "note": null,
+    "start": 831,
+    "end": 837
+   },
+   {
+    "id": "F15",
+    "condition": "Elevated lactate",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Lactate 2.6",
+    "note": null,
+    "start": 871,
+    "end": 882
+   },
+   {
+    "id": "F16",
+    "condition": "Cloudy urine with pyuria",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "UA: cloudy, LE 3+, nitrite positive, WBC >50/hpf, many bacteria",
+    "note": null,
+    "start": 884,
+    "end": 947
+   },
+   {
+    "id": "F17",
+    "condition": "Suprapubic tenderness",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Suprapubic tenderness, no CVA tenderness",
+    "note": null,
+    "start": 702,
+    "end": 742
+   },
+   {
+    "id": "F18",
+    "condition": "Possible sepsis with urinary source",
+    "assertion": "possible",
+    "doc_id": "d1",
+    "quote": "Possible sepsis, urinary source - SIRS criteria (T, HR, RR, WBC) with lactate 2.6",
+    "note": null,
+    "start": 1081,
+    "end": 1162
+   },
+   {
+    "id": "F19",
+    "condition": "Acute metabolic encephalopathy",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Acute metabolic encephalopathy, likely due to infection, superimposed on mild dementia",
+    "note": null,
+    "start": 854,
+    "end": 940
+   },
+   {
+    "id": "F20",
+    "condition": "Osteoarthritis of both knees",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "osteoarthritis of both knees",
+    "note": null,
+    "start": 265,
+    "end": 293
+   },
+   {
+    "id": "F21",
+    "condition": "Bilateral knee crepitus",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Bilateral knee crepitus",
+    "note": null,
+    "start": 640,
+    "end": 663
+   },
+   {
+    "id": "F22",
+    "condition": "Escherichia coli urinary tract infection",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": ">100,000 CFU/mL Escherichia coli",
+    "note": null,
+    "start": 52,
+    "end": 84
+   },
+   {
+    "id": "F23",
+    "condition": "E. coli resistant to ampicillin, ciprofloxacin, and TMP-SMX",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "Resistant: ampicillin, ciprofloxacin, TMP-SMX",
+    "note": null,
+    "start": 152,
+    "end": 197
+   },
+   {
+    "id": "F24",
+    "condition": "E. coli susceptible to ceftriaxone",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "Susceptible: ceftriaxone, cefazolin, nitrofurantoin, gentamicin",
+    "note": null,
+    "start": 87,
+    "end": 150
+   },
+   {
+    "id": "F25",
+    "condition": "Blood cultures no growth at 24 hours",
+    "assertion": "negated",
+    "doc_id": "d3",
+    "quote": "Blood cultures x2 (09/08 14:35): no growth at 24 hours",
+    "note": null,
+    "start": 199,
+    "end": 253
+   },
+   {
+    "id": "F26",
+    "condition": "Lactate normalized",
+    "assertion": "resolved",
+    "doc_id": "d3",
+    "quote": "Lactate 09/08 18:30: 1.1 mmol/L",
+    "note": null,
+    "start": 279,
+    "end": 310
+   },
+   {
+    "id": "F27",
+    "condition": "WBC normalized",
+    "assertion": "resolved",
+    "doc_id": "d3",
+    "quote": "WBC 11.2",
+    "note": null,
+    "start": 328,
+    "end": 336
+   },
+   {
+    "id": "F28",
+    "condition": "Renal function normalized",
+    "assertion": "resolved",
+    "doc_id": "d3",
+    "quote": "BUN 17, Cr 0.9",
+    "note": null,
+    "start": 388,
+    "end": 402
+   },
+   {
+    "id": "F29",
+    "condition": "Sepsis",
+    "assertion": "ruled_out",
+    "doc_id": "d6",
+    "quote": "on my review, sepsis ruled out - tachycardia and lactate resolved promptly after 1.8 L of fluid, she was never hypotensive, and there was no organ dysfunction",
+    "note": null,
+    "start": 454,
+    "end": 612
+   },
+   {
+    "id": "F30",
+    "condition": "Mental status returned to baseline",
+    "assertion": "resolved",
+    "doc_id": "d6",
+    "quote": "Mentation at baseline (baseline mild dementia) per daughter and facility staff",
+    "note": null,
+    "start": 780,
+    "end": 858
+   }
+  ],
+  "codes": [
+   {
+    "code": "N39.0",
+    "poa": "Y",
+    "finding_ids": [
+     "F22",
+     "F16",
+     "F7"
+    ],
+    "confidence": 0.88,
+    "rationale": "UTI is the condition chiefly responsible for admission. Sepsis is not coded because the discharge attending ruled it out and the documentation conflicts.",
+    "role": "pdx",
+    "verdict": "supported",
+    "critic_reason": "UTI documented by the discharge attending, with E. coli on culture, symptoms, and treatment. Sepsis was ruled out by the discharge attending, so UTI is the reasonable principal diagnosis.",
+    "severity": null,
+    "description": "Urinary tract infection, site not specified"
+   },
+   {
+    "code": "B96.20",
+    "poa": "Y",
+    "finding_ids": [
+     "F22"
+    ],
+    "confidence": 0.88,
+    "rationale": "Urine culture grew E. coli, which is the organism causing the UTI. Code B96.- as an additional code.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "The provider documented E. coli UTI, and the culture supports the organism.",
+    "severity": "none",
+    "description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere"
+   },
+   {
+    "code": "G93.41",
+    "poa": "Y",
+    "finding_ids": [
+     "F19",
+     "F1",
+     "F8",
+     "F30"
+    ],
+    "confidence": 0.5,
+    "rationale": "The attending documented acute metabolic encephalopathy in the H&P and progress note. The discharge summary does not negate it but does not list it either.",
+    "role": "secondary",
+    "verdict": "needs_query",
+    "critic_reason": "The attending documented acute metabolic encephalopathy on days 1 and 2 and treated it with delirium precautions, but the discharge summary omits it and says mentation is at baseline. Clinical validity is weak and it is an MCC, so a query is warranted.",
+    "severity": "MCC",
+    "description": "Metabolic encephalopathy"
+   },
+   {
+    "code": "F03.A0",
+    "poa": "Y",
+    "finding_ids": [
+     "F3"
+    ],
+    "confidence": 0.85,
+    "rationale": "Mild dementia, unspecified type, with no behavioral disturbance documented.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Mild dementia is documented consistently and treated with donepezil. Unspecified type with no behavioral disturbance is acceptable.",
+    "severity": "none",
+    "description": "Unspecified dementia, mild, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety"
+   },
+   {
+    "code": "I48.0",
+    "poa": "Y",
+    "finding_ids": [
+     "F5"
+    ],
+    "confidence": 0.9,
+    "rationale": "Paroxysmal AF, treated with apixaban and metoprolol.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Paroxysmal AF is documented in the discharge diagnoses and treated with metoprolol and apixaban.",
+    "severity": "CC",
+    "description": "Paroxysmal atrial fibrillation"
+   },
+   {
+    "code": "I10",
+    "poa": "Y",
+    "finding_ids": [
+     "F4"
+    ],
+    "confidence": 0.9,
+    "rationale": "Hypertension, with no CKD or heart disease documented.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Hypertension is documented in the discharge diagnoses and treated with amlodipine.",
+    "severity": "none",
+    "description": "Essential (primary) hypertension"
+   },
+   {
+    "code": "E03.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F6"
+    ],
+    "confidence": 0.9,
+    "rationale": "Hypothyroidism, treated with levothyroxine.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Hypothyroidism is documented in the discharge diagnoses and treated with levothyroxine.",
+    "severity": "none",
+    "description": "Hypothyroidism, unspecified"
+   },
+   {
+    "code": "M17.0",
+    "poa": "Y",
+    "finding_ids": [
+     "F20"
+    ],
+    "confidence": 0.85,
+    "rationale": "Osteoarthritis of both knees.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Bilateral knee osteoarthritis is documented in the discharge diagnoses and treated with acetaminophen and PT.",
+    "severity": "none",
+    "description": "Bilateral primary osteoarthritis of knee"
+   },
+   {
+    "code": "Z79.01",
+    "poa": "Y",
+    "finding_ids": [
+     "F5"
+    ],
+    "confidence": 0.85,
+    "rationale": "Long-term apixaban use.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Apixaban is a long-term home medication and is continued at discharge.",
+    "severity": "none",
+    "description": "Long term (current) use of anticoagulants"
+   }
+  ],
+  "removed": [],
+  "issues": [
+   {
+    "kind": "conflicting_documentation",
+    "summary": "The progress note says 'Sepsis due to E. coli UTI' and the H&P says suspected sepsis. The discharge attending says sepsis was ruled out and lists only E. coli UTI. Sepsis was not coded, and the conflict should be clarified with the attending.",
+    "finding_ids": [
+     "F18",
+     "F29"
+    ],
+    "guideline": "OCG I.C.1.d / Section II.H; AHIMA/ACDIS query practice",
+    "impact": "principal",
+    "codes": [
+     "A41.51",
+     "N39.0"
+    ],
+    "blocks_autonomy": true
+   },
+   {
+    "kind": "conflicting_documentation",
+    "summary": "Acute metabolic encephalopathy was documented on days 1 and 2, but the discharge summary omits it and describes mentation as baseline. Query whether it was a valid diagnosis or a delirium/UTI-related confusion.",
+    "finding_ids": [
+     "F19",
+     "F30"
+    ],
+    "guideline": "AHIMA/ACDIS query practice",
+    "impact": "severity",
+    "codes": [
+     "G93.41"
+    ],
+    "blocks_autonomy": true
+   },
+   {
+    "kind": "other",
+    "summary": "E. coli resistant to ciprofloxacin, ampicillin and TMP-SMX is documented only on the lab report; coders may add Z16.- only if the provider documents the resistance, so consider a clarification.",
+    "finding_ids": [
+     "F23"
+    ],
+    "guideline": "OCG I.C.1.b / Section III.B",
+    "impact": "none",
+    "codes": [
+     "Z16.29"
+    ],
+    "blocks_autonomy": false
+   },
+   {
+    "kind": "other",
+    "summary": "DNR status was documented in the H&P (MOLST), so Z66 may be reportable if it was in effect this admission.",
+    "finding_ids": [],
+    "guideline": null,
+    "impact": "none",
+    "codes": [
+     "Z66"
+    ],
+    "blocks_autonomy": false
+   },
+   {
+    "kind": "clinical_validation",
+    "summary": "G93.41: The attending documented acute metabolic encephalopathy on days 1 and 2 and treated it with delirium precautions, but the discharge summary omits it and says mentation is at baseline. Clinical validity is weak and it is an MCC, so a query is warranted.",
+    "finding_ids": [
+     "F19",
+     "F1",
+     "F8",
+     "F30"
+    ],
+    "guideline": null,
+    "impact": "severity",
+    "codes": [
+     "G93.41"
+    ],
+    "blocks_autonomy": true,
+    "source": "critic_verdict"
+   }
+  ],
+  "queries": [
+   {
+    "issue": "The progress note says 'Sepsis due to E. coli UTI' and the H&P says suspected sepsis. The discharge attending says sepsis was ruled out and lists only E. coli UTI. Sepsis was not coded, and the conflict should be clarified with the attending.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "Day 1 H&P: \"Possible sepsis, urinary source - SIRS criteria (T, HR, RR, WBC) with lactate 2.6\"",
+      "finding_id": "F18"
+     },
+     {
+      "text": "Day 6 discharge documentation: \"on my review, sepsis ruled out - tachycardia and lactate resolved promptly after 1.8 L of fluid, she was never hypotensive, and there was no organ dysfunction\"",
+      "finding_id": "F29"
+     },
+     {
+      "text": "Progress note documents \"Sepsis due to E. coli UTI\", while the discharge documentation lists only E. coli UTI",
+      "finding_id": null
+     }
+    ],
+    "question": "The record contains conflicting documentation regarding sepsis (H&P: possible sepsis; progress note: sepsis due to E. coli UTI; discharge: sepsis ruled out). Based on your clinical judgment and the full course of this admission, please clarify the final diagnosis that best describes the patient's condition.",
+    "options": [
+     "Sepsis due to E. coli urinary tract infection",
+     "E. coli urinary tract infection without sepsis (sepsis ruled out)",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   },
+   {
+    "issue": "G93.41: The attending documented acute metabolic encephalopathy on days 1 and 2 and treated it with delirium precautions, but the discharge summary omits it and says mentation is at baseline. Clinical validity is weak and it is an MCC, so a query is warranted.",
+    "to": "Attending physician",
+    "clinical_indicators": [
+     {
+      "text": "Day 1: 'increased confusion since last night'",
+      "finding_id": "F1"
+     },
+     {
+      "text": "Day 1: 'did not recognize her daughter this morning'",
+      "finding_id": "F8"
+     },
+     {
+      "text": "Day 2 progress note: 'Acute metabolic encephalopathy, likely due to infection, superimposed on mild dementia'",
+      "finding_id": "F19"
+     },
+     {
+      "text": "Day 6 discharge documentation: 'Mentation at baseline (baseline mild dementia) per daughter and facility staff'",
+      "finding_id": "F30"
+     }
+    ],
+    "question": "Based on your clinical judgment and the indicators above, please clarify the diagnosis that best describes the patient's altered mental status during this admission, including whether the acute metabolic encephalopathy documented on day 2 was confirmed, ruled out, or replaced by another diagnosis.",
+    "options": [
+     "Acute metabolic encephalopathy, confirmed and resolved by discharge",
+     "Delirium due to a known physiological condition (e.g., infection) without encephalopathy",
+     "Acute confusional state or behavioral change related to underlying mild dementia, without encephalopathy",
+     "Acute metabolic encephalopathy was considered and ruled out",
+     "Other (please specify)",
+     "Clinically undetermined"
+    ],
+    "lint": []
+   }
+  ],
+  "drg": {
+   "family": "uti",
+   "number": "689",
+   "title": "Kidney and urinary tract infections w MCC",
+   "weight": 1.12,
+   "tier": "MCC",
+   "drivers": [
+    "G93.41"
+   ]
+  },
+  "confidence": 0.25,
+  "confidence_base": 0.5,
+  "blocking_issues": 3,
+  "blocking_reasons": [
+   "conflicting_documentation: The progress note says 'Sepsis due to E. coli UTI' and the H&P says suspected sepsis. The discharge attending says sepsis was ruled out and lists only E. coli UTI. Sepsis was not coded, and the conflict should be clarified with the attending.",
+   "conflicting_documentation: Acute metabolic encephalopathy was documented on days 1 and 2, but the discharge summary omits it and describes mentation as baseline. Query whether it was a valid diagnosis or a delirium/UTI-related confusion.",
+   "critic wants a query on claim code G93.41"
+  ],
+  "stages": [
+   {
+    "stage": "triage",
+    "model": null,
+    "started": 0,
+    "ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cost_usd": 0
+   },
+   {
+    "stage": "evidence",
+    "model": "claude-haiku-4-5",
+    "started": 0,
+    "ms": 13088,
+    "input_tokens": 3338,
+    "output_tokens": 2123,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01395
+   },
+   {
+    "stage": "coder",
+    "model": "claude-sonnet-5-5",
+    "started": 13088,
+    "ms": 24550,
+    "input_tokens": 25112,
+    "output_tokens": 3211,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.08233
+   },
+   {
+    "stage": "critic",
+    "model": "claude-sonnet-5-5",
+    "started": 37638,
+    "ms": 6990,
+    "input_tokens": 7151,
+    "output_tokens": 896,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02326
+   },
+   {
+    "stage": "query",
+    "model": "claude-sonnet-5-5",
+    "started": 44628,
+    "ms": 4228,
+    "input_tokens": 991,
+    "output_tokens": 415,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.00613
+   },
+   {
+    "stage": "query",
+    "model": "claude-sonnet-5-5",
+    "started": 48856,
+    "ms": 3682,
+    "input_tokens": 958,
+    "output_tokens": 436,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.00628
+   }
+  ],
+  "events": [
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "stage_start"
+   },
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "output",
+    "documents": [
+     {
+      "id": "d1",
+      "type": "ED note",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T14:25",
+      "words": 219,
+      "flags": []
+     },
+     {
+      "id": "d2",
+      "type": "H&P",
+      "author_role": "provider",
+      "timestamp": "2026-09-08T18:50",
+      "words": 199,
+      "flags": []
+     },
+     {
+      "id": "d3",
+      "type": "Lab summary",
+      "author_role": "lab",
+      "timestamp": "2026-09-09T11:15",
+      "words": 59,
+      "flags": []
+     },
+     {
+      "id": "d4",
+      "type": "Progress note",
+      "author_role": "provider",
+      "timestamp": "2026-09-09T13:40",
+      "words": 120,
+      "flags": []
+     },
+     {
+      "id": "d5",
+      "type": "Nursing note",
+      "author_role": "nursing",
+      "timestamp": "2026-09-10T21:10",
+      "words": 42,
+      "flags": []
+     },
+     {
+      "id": "d6",
+      "type": "Discharge summary",
+      "author_role": "provider",
+      "timestamp": "2026-09-11T10:15",
+      "words": 160,
+      "flags": [
+       "discharge"
+      ]
+     }
+    ]
+   },
+   {
+    "t": 0,
+    "stage": "evidence",
+    "type": "stage_start",
+    "model": "anthropic:claude-haiku-4-5"
+   },
+   {
+    "t": 13088,
+    "stage": "evidence",
+    "type": "output",
+    "findings": [
+     {
+      "id": "F1",
+      "condition": "Confusion/altered mental status",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "increased confusion since last night",
+      "note": null,
+      "start": 248,
+      "end": 284
+     },
+     {
+      "id": "F2",
+      "condition": "Fever",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "fever 38.3 C at the facility",
+      "note": null,
+      "start": 289,
+      "end": 317
+     },
+     {
+      "id": "F3",
+      "condition": "Mild dementia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "mild dementia (baseline per facility: oriented to self and place, conversant, ambulates with walker)",
+      "note": null,
+      "start": 86,
+      "end": 186
+     },
+     {
+      "id": "F4",
+      "condition": "Hypertension",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "HTN",
+      "note": null,
+      "start": 188,
+      "end": 191
+     },
+     {
+      "id": "F5",
+      "condition": "Paroxysmal atrial fibrillation",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "paroxysmal AF on apixaban",
+      "note": null,
+      "start": 193,
+      "end": 218
+     },
+     {
+      "id": "F6",
+      "condition": "Hypothyroidism",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "hypothyroidism",
+      "note": null,
+      "start": 220,
+      "end": 234
+     },
+     {
+      "id": "F7",
+      "condition": "Foul-smelling urine",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Foul-smelling urine x2 days",
+      "note": null,
+      "start": 411,
+      "end": 438
+     },
+     {
+      "id": "F8",
+      "condition": "Disorientation to time and person",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "did not recognize her daughter this morning",
+      "note": null,
+      "start": 366,
+      "end": 409
+     },
+     {
+      "id": "F9",
+      "condition": "Tachycardia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "HR 112 (sinus tach on monitor)",
+      "note": null,
+      "start": 525,
+      "end": 555
+     },
+     {
+      "id": "F10",
+      "condition": "Fever (high)",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "T 38.4 C",
+      "note": null,
+      "start": 515,
+      "end": 523
+     },
+     {
+      "id": "F11",
+      "condition": "Tachypnea",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "RR 22",
+      "note": null,
+      "start": 568,
+      "end": 573
+     },
+     {
+      "id": "F12",
+      "condition": "Elevated WBC with left shift",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "WBC 15.8 (bands 8%)",
+      "note": null,
+      "start": 776,
+      "end": 795
+     },
+     {
+      "id": "F13",
+      "condition": "Elevated creatinine",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Cr 1.0 (baseline 0.9)",
+      "note": null,
+      "start": 839,
+      "end": 860
+     },
+     {
+      "id": "F14",
+      "condition": "Elevated BUN",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "BUN 24",
+      "note": null,
+      "start": 831,
+      "end": 837
+     },
+     {
+      "id": "F15",
+      "condition": "Elevated lactate",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Lactate 2.6",
+      "note": null,
+      "start": 871,
+      "end": 882
+     },
+     {
+      "id": "F16",
+      "condition": "Cloudy urine with pyuria",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "UA: cloudy, LE 3+, nitrite positive, WBC >50/hpf, many bacteria",
+      "note": null,
+      "start": 884,
+      "end": 947
+     },
+     {
+      "id": "F17",
+      "condition": "Suprapubic tenderness",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Suprapubic tenderness, no CVA tenderness",
+      "note": null,
+      "start": 702,
+      "end": 742
+     },
+     {
+      "id": "F18",
+      "condition": "Possible sepsis with urinary source",
+      "assertion": "possible",
+      "doc_id": "d1",
+      "quote": "Possible sepsis, urinary source - SIRS criteria (T, HR, RR, WBC) with lactate 2.6",
+      "note": null,
+      "start": 1081,
+      "end": 1162
+     },
+     {
+      "id": "F19",
+      "condition": "Acute metabolic encephalopathy",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Acute metabolic encephalopathy, likely due to infection, superimposed on mild dementia",
+      "note": null,
+      "start": 854,
+      "end": 940
+     },
+     {
+      "id": "F20",
+      "condition": "Osteoarthritis of both knees",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "osteoarthritis of both knees",
+      "note": null,
+      "start": 265,
+      "end": 293
+     },
+     {
+      "id": "F21",
+      "condition": "Bilateral knee crepitus",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Bilateral knee crepitus",
+      "note": null,
+      "start": 640,
+      "end": 663
+     },
+     {
+      "id": "F22",
+      "condition": "Escherichia coli urinary tract infection",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": ">100,000 CFU/mL Escherichia coli",
+      "note": null,
+      "start": 52,
+      "end": 84
+     },
+     {
+      "id": "F23",
+      "condition": "E. coli resistant to ampicillin, ciprofloxacin, and TMP-SMX",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "Resistant: ampicillin, ciprofloxacin, TMP-SMX",
+      "note": null,
+      "start": 152,
+      "end": 197
+     },
+     {
+      "id": "F24",
+      "condition": "E. coli susceptible to ceftriaxone",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "Susceptible: ceftriaxone, cefazolin, nitrofurantoin, gentamicin",
+      "note": null,
+      "start": 87,
+      "end": 150
+     },
+     {
+      "id": "F25",
+      "condition": "Blood cultures no growth at 24 hours",
+      "assertion": "negated",
+      "doc_id": "d3",
+      "quote": "Blood cultures x2 (09/08 14:35): no growth at 24 hours",
+      "note": null,
+      "start": 199,
+      "end": 253
+     },
+     {
+      "id": "F26",
+      "condition": "Lactate normalized",
+      "assertion": "resolved",
+      "doc_id": "d3",
+      "quote": "Lactate 09/08 18:30: 1.1 mmol/L",
+      "note": null,
+      "start": 279,
+      "end": 310
+     },
+     {
+      "id": "F27",
+      "condition": "WBC normalized",
+      "assertion": "resolved",
+      "doc_id": "d3",
+      "quote": "WBC 11.2",
+      "note": null,
+      "start": 328,
+      "end": 336
+     },
+     {
+      "id": "F28",
+      "condition": "Renal function normalized",
+      "assertion": "resolved",
+      "doc_id": "d3",
+      "quote": "BUN 17, Cr 0.9",
+      "note": null,
+      "start": 388,
+      "end": 402
+     },
+     {
+      "id": "F29",
+      "condition": "Sepsis",
+      "assertion": "ruled_out",
+      "doc_id": "d6",
+      "quote": "on my review, sepsis ruled out - tachycardia and lactate resolved promptly after 1.8 L of fluid, she was never hypotensive, and there was no organ dysfunction",
+      "note": null,
+      "start": 454,
+      "end": 612
+     },
+     {
+      "id": "F30",
+      "condition": "Mental status returned to baseline",
+      "assertion": "resolved",
+      "doc_id": "d6",
+      "quote": "Mentation at baseline (baseline mild dementia) per daughter and facility staff",
+      "note": null,
+      "start": 780,
+      "end": 858
+     }
+    ]
+   },
+   {
+    "t": 13088,
+    "stage": "coder",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "thinking",
+    "text": "Given the conflicting documentation, I'm not coding sepsis since the discharge attending ruled it out, but I'll code UTI due to E. coli (N39.0 + B96.20). For encephalopathy, Brennan documented it and the discharge summary doesn't explicitly contradict it\u2014just notes baseline mentation\u2014so I'm including G93.41 as an MCC since it isn't clearly refuted.\n\nI'll skip antimicrobial resistance codes since lab findings alone need provider documentation, which isn't present here. I'm also adding other supporting codes: F03.A0 for mild unspecified dementia, I48.0 for paroxysmal AFib, I10 for hypertension, "
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "N39.0"
+    },
+    "id": "toolu_01N11gwbthV4AAX9k3rfwopv"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "B96.20"
+    },
+    "id": "toolu_01XTMDPRfJ6Cfi4i7E3GZ56M"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "G93.41"
+    },
+    "id": "toolu_015gXG1UYSAAhFB9H2SYc6og"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "F03.A0"
+    },
+    "id": "toolu_013PX7k7jBCjkDvSRwFhgu7W"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "I48.0"
+    },
+    "id": "toolu_01BmnphEFS3HfBMemrCPRxpP"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "I10"
+    },
+    "id": "toolu_01CB7s9k9TyprwPRsxV89FcR"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E03.9"
+    },
+    "id": "toolu_01N7N5DekNSen2GNbH58C2Mh"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "M17.0"
+    },
+    "id": "toolu_019dbWYE7sxNtMHiSmUeunZt"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "Z66"
+    },
+    "id": "toolu_016ctemzdJixPsx34EPJkZS8"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "Z79.01"
+    },
+    "id": "toolu_01Rf2WMYjhfveNjqP7gtaRJL"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01N11gwbthV4AAX9k3rfwopv",
+    "result": "N39.0: Urinary tract infection, site not specified (billable)"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01XTMDPRfJ6Cfi4i7E3GZ56M",
+    "result": "B96.20: Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere (billable)"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_015gXG1UYSAAhFB9H2SYc6og",
+    "result": "G93.41: Metabolic encephalopathy (billable)"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_013PX7k7jBCjkDvSRwFhgu7W",
+    "result": "F03.A0: Unspecified dementia, mild, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety (billable)"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01BmnphEFS3HfBMemrCPRxpP",
+    "result": "I48.0: Paroxysmal atrial fibrillation (billable)"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01CB7s9k9TyprwPRsxV89FcR",
+    "result": "I10: Essential (primary) hypertension (billable)"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01N7N5DekNSen2GNbH58C2Mh",
+    "result": "E03.9: Hypothyroidism, unspecified (billable)"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_019dbWYE7sxNtMHiSmUeunZt",
+    "result": "M17.0: Bilateral primary osteoarthritis of knee (billable)"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_016ctemzdJixPsx34EPJkZS8",
+    "result": "Z66: Do not resuscitate (billable)"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01Rf2WMYjhfveNjqP7gtaRJL",
+    "result": "Z79.01: Long term (current) use of anticoagulants (billable)"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "text",
+    "text": "{\"pdx\":{\"code\":\"N39.0\",\"poa\":\"Y\",\"finding_ids\":[\"F22\",\"F16\",\"F7\"],\"confidence\":0.85,\"rationale\":\"UTI is the condition chiefly responsible for admission. Sepsis is not coded because the discharge attending ruled it out and the documentation conflicts.\"},\"secondary\":[{\"code\":\"B96.20\",\"poa\":\"Y\",\"finding_ids\":[\"F22\"],\"confidence\":0.88,\"rationale\":\"Urine culture grew E. coli, which is the organism causing the UTI. Code B96.- as an additional code.\"},{\"code\":\"G93.41\",\"poa\":\"Y\",\"finding_ids\":[\"F19\",\"F1\",\"F8\",\"F30\"],\"confidence\":0.55,\"rationale\":\"The attending documented acute metabolic encephalopathy"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "validation_retry",
+    "reason": "Fix these before returning:\nZ66 cites unknown findings ['']"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "thinking",
+    "text": "Z66 isn't backed by any finding ID since there's no DNR documentation in the findings list, so I should drop it rather than force a citation that doesn't exist.\n\n"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "text",
+    "text": "{\"pdx\":{\"code\":\"N39.0\",\"poa\":\"Y\",\"finding_ids\":[\"F22\",\"F16\",\"F7\"],\"confidence\":0.85,\"rationale\":\"UTI is the condition chiefly responsible for admission. Sepsis is not coded because the discharge attending ruled it out and the documentation conflicts.\"},\"secondary\":[{\"code\":\"B96.20\",\"poa\":\"Y\",\"finding_ids\":[\"F22\"],\"confidence\":0.88,\"rationale\":\"Urine culture grew E. coli, which is the organism causing the UTI. Code B96.- as an additional code.\"},{\"code\":\"G93.41\",\"poa\":\"Y\",\"finding_ids\":[\"F19\",\"F1\",\"F8\",\"F30\"],\"confidence\":0.55,\"rationale\":\"The attending documented acute metabolic encephalopathy"
+   },
+   {
+    "t": 37638,
+    "stage": "coder",
+    "type": "output",
+    "draft": {
+     "pdx": {
+      "code": "N39.0",
+      "poa": "Y",
+      "finding_ids": [
+       "F22",
+       "F16",
+       "F7"
+      ],
+      "confidence": 0.85,
+      "rationale": "UTI is the condition chiefly responsible for admission. Sepsis is not coded because the discharge attending ruled it out and the documentation conflicts."
+     },
+     "secondary": [
+      {
+       "code": "B96.20",
+       "poa": "Y",
+       "finding_ids": [
+        "F22"
+       ],
+       "confidence": 0.88,
+       "rationale": "Urine culture grew E. coli, which is the organism causing the UTI. Code B96.- as an additional code."
+      },
+      {
+       "code": "G93.41",
+       "poa": "Y",
+       "finding_ids": [
+        "F19",
+        "F1",
+        "F8",
+        "F30"
+       ],
+       "confidence": 0.55,
+       "rationale": "The attending documented acute metabolic encephalopathy in the H&P and progress note. The discharge summary does not negate it but does not list it either."
+      },
+      {
+       "code": "F03.A0",
+       "poa": "Y",
+       "finding_ids": [
+        "F3"
+       ],
+       "confidence": 0.85,
+       "rationale": "Mild dementia, unspecified type, with no behavioral disturbance documented."
+      },
+      {
+       "code": "I48.0",
+       "poa": "Y",
+       "finding_ids": [
+        "F5"
+       ],
+       "confidence": 0.9,
+       "rationale": "Paroxysmal AF, treated with apixaban and metoprolol."
+      },
+      {
+       "code": "I10",
+       "poa": "Y",
+       "finding_ids": [
+        "F4"
+       ],
+       "confidence": 0.88,
+       "rationale": "Hypertension, with no CKD or heart disease documented."
+      },
+      {
+       "code": "E03.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F6"
+       ],
+       "confidence": 0.9,
+       "rationale": "Hypothyroidism, treated with levothyroxine."
+      },
+      {
+       "code": "M17.0",
+       "poa": "Y",
+       "finding_ids": [
+        "F20"
+       ],
+       "confidence": 0.85,
+       "rationale": "Osteoarthritis of both knees."
+      },
+      {
+       "code": "Z79.01",
+       "poa": "Y",
+       "finding_ids": [
+        "F5"
+       ],
+       "confidence": 0.8,
+       "rationale": "Long-term apixaban use."
+      }
+     ],
+     "issues": [
+      {
+       "kind": "conflicting_documentation",
+       "summary": "The progress note says 'Sepsis due to E. coli UTI' and the H&P says suspected sepsis. The discharge attending says sepsis was ruled out and lists only E. coli UTI. Sepsis was not coded, and the conflict should be clarified with the attending.",
+       "finding_ids": [
+        "F18",
+        "F29"
+       ],
+       "guideline": "OCG I.C.1.d / Section II.H; AHIMA/ACDIS query practice",
+       "impact": "principal",
+       "codes": [
+        "A41.51",
+        "N39.0"
+       ]
+      },
+      {
+       "kind": "conflicting_documentation",
+       "summary": "Acute metabolic encephalopathy was documented on days 1 and 2, but the discharge summary omits it and describes mentation as baseline. Query whether it was a valid diagnosis or a delirium/UTI-related confusion.",
+       "finding_ids": [
+        "F19",
+        "F30"
+       ],
+       "guideline": "AHIMA/ACDIS query practice",
+       "impact": "severity",
+       "codes": [
+        "G93.41"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "t": 37638,
+    "stage": "critic",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 44628,
+    "stage": "critic",
+    "type": "text",
+    "text": "{\"reviews\":[{\"code\":\"N39.0\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"UTI documented by the discharge attending, with E. coli on culture, symptoms, and treatment. Sepsis was ruled out by the discharge attending, so UTI is the reasonable principal diagnosis.\"},{\"code\":\"B96.20\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"The provider documented E. coli UTI, and the culture supports the organism.\"},{\"code\":\"G93.41\",\"verdict\":\"needs_query\",\"confidence\":0.5,\"reason\":\"The attending documented acute metabolic encephalopathy on days 1 and 2 and treated it with delirium precautions, but t"
+   },
+   {
+    "t": 44628,
+    "stage": "critic",
+    "type": "output",
+    "critique": {
+     "reviews": [
+      {
+       "code": "N39.0",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "UTI documented by the discharge attending, with E. coli on culture, symptoms, and treatment. Sepsis was ruled out by the discharge attending, so UTI is the reasonable principal diagnosis."
+      },
+      {
+       "code": "B96.20",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "The provider documented E. coli UTI, and the culture supports the organism."
+      },
+      {
+       "code": "G93.41",
+       "verdict": "needs_query",
+       "confidence": 0.5,
+       "reason": "The attending documented acute metabolic encephalopathy on days 1 and 2 and treated it with delirium precautions, but the discharge summary omits it and says mentation is at baseline. Clinical validity is weak and it is an MCC, so a query is warranted."
+      },
+      {
+       "code": "F03.A0",
+       "verdict": "supported",
+       "confidence": 0.85,
+       "reason": "Mild dementia is documented consistently and treated with donepezil. Unspecified type with no behavioral disturbance is acceptable."
+      },
+      {
+       "code": "I48.0",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "Paroxysmal AF is documented in the discharge diagnoses and treated with metoprolol and apixaban."
+      },
+      {
+       "code": "I10",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "Hypertension is documented in the discharge diagnoses and treated with amlodipine."
+      },
+      {
+       "code": "E03.9",
+       "verdict": "supported",
+       "confidence": 0.9,
+       "reason": "Hypothyroidism is documented in the discharge diagnoses and treated with levothyroxine."
+      },
+      {
+       "code": "M17.0",
+       "verdict": "supported",
+       "confidence": 0.85,
+       "reason": "Bilateral knee osteoarthritis is documented in the discharge diagnoses and treated with acetaminophen and PT."
+      },
+      {
+       "code": "Z79.01",
+       "verdict": "supported",
+       "confidence": 0.85,
+       "reason": "Apixaban is a long-term home medication and is continued at discharge."
+      }
+     ],
+     "pdx_ok": true,
+     "pdx_alternative": null,
+     "missed": [
+      {
+       "kind": "other",
+       "summary": "E. coli resistant to ciprofloxacin, ampicillin and TMP-SMX is documented only on the lab report; coders may add Z16.- only if the provider documents the resistance, so consider a clarification.",
+       "finding_ids": [
+        "F23"
+       ],
+       "guideline": "OCG I.C.1.b / Section III.B",
+       "impact": "none",
+       "codes": [
+        "Z16.29"
+       ]
+      },
+      {
+       "kind": "other",
+       "summary": "DNR status was documented in the H&P (MOLST), so Z66 may be reportable if it was in effect this admission.",
+       "finding_ids": [],
+       "guideline": null,
+       "impact": "none",
+       "codes": [
+        "Z66"
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "t": 44628,
+    "stage": "grouper",
+    "type": "output",
+    "family": "uti",
+    "drg": "689",
+    "title": "Kidney and urinary tract infections w MCC",
+    "weight": 1.12,
+    "tier": "MCC",
+    "drivers": [
+     "G93.41"
+    ]
+   },
+   {
+    "t": 44628,
+    "stage": "router",
+    "type": "output",
+    "base": 0.5,
+    "blocking": 3,
+    "reasons": [
+     "conflicting_documentation: The progress note says 'Sepsis due to E. coli UTI' and the H&P says suspected sepsis. The discharge attending says sepsis was ruled out and lists only E. coli UTI. Sepsis was not coded, and the conflict should be clarified with the attending.",
+     "conflicting_documentation: Acute metabolic encephalopathy was documented on days 1 and 2, but the discharge summary omits it and describes mentation as baseline. Query whether it was a valid diagnosis or a delirium/UTI-related confusion.",
+     "critic wants a query on claim code G93.41"
+    ],
+    "confidence": 0.25
+   },
+   {
+    "t": 44628,
+    "stage": "query",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5",
+    "issue": "The progress note says 'Sepsis due to E. coli UTI' and the H&P says suspected sepsis. The discharge attending says sepsis was ruled out and lists only E. coli UTI. Sepsis was not coded, and the conflict should be clarified with the attending."
+   },
+   {
+    "t": 48856,
+    "stage": "query",
+    "type": "text",
+    "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"Day 1 H&P: \\\"Possible sepsis, urinary source - SIRS criteria (T, HR, RR, WBC) with lactate 2.6\\\"\",\"finding_id\":\"F18\"},{\"text\":\"Day 6 discharge documentation: \\\"on my review, sepsis ruled out - tachycardia and lactate resolved promptly after 1.8 L of fluid, she was never hypotensive, and there was no organ dysfunction\\\"\",\"finding_id\":\"F29\"},{\"text\":\"Progress note documents \\\"Sepsis due to E. coli UTI\\\", while the discharge documentation lists only E. coli UTI\",\"finding_id\":null}],\"question\":\"The record contains conflicting documentatio"
+   },
+   {
+    "t": 48856,
+    "stage": "query",
+    "type": "output",
+    "query": {
+     "issue": "The progress note says 'Sepsis due to E. coli UTI' and the H&P says suspected sepsis. The discharge attending says sepsis was ruled out and lists only E. coli UTI. Sepsis was not coded, and the conflict should be clarified with the attending.",
+     "to": "Attending physician",
+     "clinical_indicators": [
+      {
+       "text": "Day 1 H&P: \"Possible sepsis, urinary source - SIRS criteria (T, HR, RR, WBC) with lactate 2.6\"",
+       "finding_id": "F18"
+      },
+      {
+       "text": "Day 6 discharge documentation: \"on my review, sepsis ruled out - tachycardia and lactate resolved promptly after 1.8 L of fluid, she was never hypotensive, and there was no organ dysfunction\"",
+       "finding_id": "F29"
+      },
+      {
+       "text": "Progress note documents \"Sepsis due to E. coli UTI\", while the discharge documentation lists only E. coli UTI",
+       "finding_id": null
+      }
+     ],
+     "question": "The record contains conflicting documentation regarding sepsis (H&P: possible sepsis; progress note: sepsis due to E. coli UTI; discharge: sepsis ruled out). Based on your clinical judgment and the full course of this admission, please clarify the final diagnosis that best describes the patient's condition.",
+     "options": [
+      "Sepsis due to E. coli urinary tract infection",
+      "E. coli urinary tract infection without sepsis (sepsis ruled out)",
+      "Other (please specify)",
+      "Clinically undetermined"
+     ],
+     "lint": []
+    }
+   },
+   {
+    "t": 48856,
+    "stage": "query",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5",
+    "issue": "G93.41: The attending documented acute metabolic encephalopathy on days 1 and 2 and treated it with delirium precautions, but the discharge summary omits it and says mentation is at baseline. Clinical validity is weak and it is an MCC, so a query is warranted."
+   },
+   {
+    "t": 52538,
+    "stage": "query",
+    "type": "text",
+    "text": "{\"to\":\"Attending physician\",\"clinical_indicators\":[{\"text\":\"Day 1: 'increased confusion since last night'\",\"finding_id\":\"F1\"},{\"text\":\"Day 1: 'did not recognize her daughter this morning'\",\"finding_id\":\"F8\"},{\"text\":\"Day 2 progress note: 'Acute metabolic encephalopathy, likely due to infection, superimposed on mild dementia'\",\"finding_id\":\"F19\"},{\"text\":\"Day 6 discharge documentation: 'Mentation at baseline (baseline mild dementia) per daughter and facility staff'\",\"finding_id\":\"F30\"}],\"question\":\"Based on your clinical judgment and the indicators above, please clarify the diagnosis that best "
+   },
+   {
+    "t": 52538,
+    "stage": "query",
+    "type": "output",
+    "query": {
+     "issue": "G93.41: The attending documented acute metabolic encephalopathy on days 1 and 2 and treated it with delirium precautions, but the discharge summary omits it and says mentation is at baseline. Clinical validity is weak and it is an MCC, so a query is warranted.",
+     "to": "Attending physician",
+     "clinical_indicators": [
+      {
+       "text": "Day 1: 'increased confusion since last night'",
+       "finding_id": "F1"
+      },
+      {
+       "text": "Day 1: 'did not recognize her daughter this morning'",
+       "finding_id": "F8"
+      },
+      {
+       "text": "Day 2 progress note: 'Acute metabolic encephalopathy, likely due to infection, superimposed on mild dementia'",
+       "finding_id": "F19"
+      },
+      {
+       "text": "Day 6 discharge documentation: 'Mentation at baseline (baseline mild dementia) per daughter and facility staff'",
+       "finding_id": "F30"
+      }
+     ],
+     "question": "Based on your clinical judgment and the indicators above, please clarify the diagnosis that best describes the patient's altered mental status during this admission, including whether the acute metabolic encephalopathy documented on day 2 was confirmed, ruled out, or replaced by another diagnosis.",
+     "options": [
+      "Acute metabolic encephalopathy, confirmed and resolved by discharge",
+      "Delirium due to a known physiological condition (e.g., infection) without encephalopathy",
+      "Acute confusional state or behavioral change related to underlying mild dementia, without encephalopathy",
+      "Acute metabolic encephalopathy was considered and ruled out",
+      "Other (please specify)",
+      "Clinically undetermined"
+     ],
+     "lint": []
+    }
+   }
+  ],
+  "ms": 52538,
+  "cost_usd": 0.13195
+ },
+ "baseline": {
+  "case_id": "enc-02",
+  "codes": [
+   {
+    "code": "N39.0",
+    "poa": "Y",
+    "role": "pdx",
+    "valid": true,
+    "description": "Urinary tract infection, site not specified",
+    "confidence": 0.55
+   },
+   {
+    "code": "B96.20",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere",
+    "confidence": 0.55
+   },
+   {
+    "code": "G93.41",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Metabolic encephalopathy",
+    "confidence": 0.55
+   },
+   {
+    "code": "F03.A0",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Unspecified dementia, mild, without behavioral disturbance, psychotic disturbance, mood disturbance, and anxiety",
+    "confidence": 0.55
+   },
+   {
+    "code": "I48.0",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Paroxysmal atrial fibrillation",
+    "confidence": 0.55
+   },
+   {
+    "code": "I10",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Essential (primary) hypertension",
+    "confidence": 0.55
+   },
+   {
+    "code": "E03.9",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Hypothyroidism, unspecified",
+    "confidence": 0.55
+   },
+   {
+    "code": "M17.0",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Bilateral primary osteoarthritis of knee",
+    "confidence": 0.55
+   },
+   {
+    "code": "Z79.01",
+    "poa": "1",
+    "role": "secondary",
+    "valid": true,
+    "description": "Long term (current) use of anticoagulants",
+    "confidence": 0.55
+   },
+   {
+    "code": "Z66",
+    "poa": "1",
+    "role": "secondary",
+    "valid": true,
+    "description": "Do not resuscitate",
+    "confidence": 0.55
+   },
+   {
+    "code": "Z88.2",
+    "poa": "1",
+    "role": "secondary",
+    "valid": true,
+    "description": "Allergy status to sulfonamides",
+    "confidence": 0.55
+   }
+  ],
+  "drg": {
+   "family": "uti",
+   "number": "689",
+   "weight": 1.12,
+   "tier": "MCC",
+   "drivers": [
+    "G93.41"
+   ]
+  },
+  "confidence": 0.275,
+  "needs_human": true,
+  "reason": "Conflicting documentation on sepsis: ED and H&P/progress notes say suspected/confirmed sepsis due to E. coli UTI, but the discharging attending ruled sepsis out, so A41.51 and R65.x were not coded. UTI is the principal diagnosis. Acute metabolic encephalopathy (G93.41, an MCC) was documented by the attending on 09/08 and 09/09 but is missing from the discharge summary, which says mentation was at baseline. A query is needed to confirm G93.41 and the sepsis status. Z16 codes for resistance were not assigned because only the lab reported resistance, not a provider.",
+  "ms": 11249,
+  "cost_usd": 0.02032,
+  "input_tokens": 3515,
+  "output_tokens": 1329
+ },
+ "score": {
+  "id": "enc-02",
+  "title": "UTI with sepsis ruled out at discharge",
+  "summary": "A nursing-home resident with a urinary infection was called septic and encephalopathic by one doctor, but the discharging doctor wrote that sepsis was ruled out and her thinking was at baseline, so a coder has to ask before coding.",
+  "family": "uti",
+  "hero": true,
+  "traps": [
+   "conflicting_notes",
+   "ruled_out",
+   "clinical_validation"
+  ],
+  "gold_route": "coder",
+  "gold_drg": "690",
+  "pred_drg": "689",
+  "gold_weight": 0.79,
+  "pred_weight": 1.12,
+  "confidence": 0.25,
+  "tp": 8,
+  "fp": 1,
+  "fn": 0,
+  "fp_codes": [
+   "G93.41"
+  ],
+  "fn_codes": [],
+  "cc_tp": 1,
+  "cc_fp": 1,
+  "cc_fn": 0,
+  "pdx_ok": true,
+  "drg_ok": false,
+  "overcoded": true,
+  "undercoded": false,
+  "invalid_codes": [],
+  "citations": 30,
+  "citations_located": 30,
+  "queries": 2,
+  "queries_lint_clean": 2,
+  "cost_usd": 0.13195,
+  "ms": 52538
+ }
+}

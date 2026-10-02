@@ -1,0 +1,1398 @@
+{
+ "case": {
+  "id": "enc-12",
+  "title": "Pulmonary embolism with leg clot",
+  "summary": "A straightforward blood clot in the lung with a clot in the right leg, both clearly documented and present on arrival.",
+  "hero": false,
+  "family": "pe",
+  "patient": {
+   "age": 58,
+   "sex": "F"
+  },
+  "admit_date": "2026-09-15",
+  "discharge_date": "2026-09-18",
+  "documents": [
+   {
+    "id": "d1",
+    "type": "ED note",
+    "author": "K. Abernathy, MD (Emergency Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-15T21:10",
+    "text": "CC: SOB, R leg swelling.\nHPI: 58F with HTN, HLD, hypothyroidism, GERD, obesity presents with 2 days of exertional SOB and 5 days of R calf/thigh swelling and ache. Returned 6 days ago from a 14-hour flight from Singapore. No prior VTE. No hormone therapy. No known malignancy; colonoscopy and mammogram up to date.\nROS: + DOE, R leg pain/swelling, mild pleuritic L chest pain. Denies syncope, hemoptysis, fever.\nVitals: T 37.0, HR 104, RR 20, BP 146/88, SpO2 95% RA.\nExam: Mild tachypnea, lungs clear. RRR. R thigh and calf swollen (R calf 4 cm > L), tender along femoral vein. Distal pulses intact.\nLabs: D-dimer 4.8. Troponin <0.01. BNP 42. CBC, BMP unremarkable; Cr 0.8.\nCTA chest (prelim per radiology phone call): segmental PE RLL and LLL, no RV strain.\nMDM: Acute PE, provoked by long-haul travel, hemodynamically stable, sPESI 0. Heparin drip started. Admit for anticoagulation and LE duplex."
+   },
+   {
+    "id": "d2",
+    "type": "Radiology",
+    "author": "D. Mwangi, MD (Radiology)",
+    "author_role": "radiology",
+    "timestamp": "2026-09-15T22:20",
+    "text": "EXAM: CT angiography chest with contrast.\nFINDINGS: Filling defects in segmental branches of the right lower lobe and left lower lobe pulmonary arteries. Main and lobar arteries patent. RV/LV ratio 0.8; no septal bowing; no reflux of contrast into the IVC. No infarct. No effusion. Small hiatal hernia.\nIMPRESSION: Bilateral segmental pulmonary emboli without CT evidence of right heart strain."
+   },
+   {
+    "id": "d3",
+    "type": "H&P",
+    "author": "F. Castellano, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-16T01:30",
+    "text": "HPI: As per ED. Travel-associated bilateral segmental PE.\nPMH: HTN, HLD, hypothyroidism, GERD, obesity.\nMeds: losartan 50 mg, rosuvastatin 10 mg, levothyroxine 100 mcg, pantoprazole 40 mg.\nSocial: Accountant, never smoker, rare EtOH.\nExam: Wt 98 kg, Ht 165 cm, BMI 36.0. HR 96, SpO2 96% RA. R leg edema/tenderness.\nAssessment/Plan:\n1. Acute bilateral segmental pulmonary embolism, POA, without right heart strain - heparin gtt per protocol; transition to DOAC once duplex done and stable.\n2. R leg swelling, suspect DVT - LE venous duplex in AM.\n3. HTN - continue losartan.\n4. HLD - continue rosuvastatin.\n5. Hypothyroidism - continue levothyroxine.\n6. GERD - continue PPI.\n7. Obesity, BMI 36 - counseling.\nCode: Full."
+   },
+   {
+    "id": "d4",
+    "type": "Radiology",
+    "author": "D. Mwangi, MD (Radiology)",
+    "author_role": "radiology",
+    "timestamp": "2026-09-16T09:45",
+    "text": "EXAM: US venous duplex, bilateral lower extremities.\nFINDINGS: RIGHT: Noncompressible, expanded femoral vein with occlusive echogenic thrombus from the proximal to distal femoral vein. Common femoral, popliteal, and calf veins compressible with normal flow. LEFT: Normal compressibility and flow throughout.\nIMPRESSION: Acute occlusive deep vein thrombosis of the right femoral vein."
+   },
+   {
+    "id": "d5",
+    "type": "Progress note",
+    "author": "F. Castellano, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-17T08:20",
+    "text": "S: SOB improving, leg pain better with elevation.\nO: HR 84, RR 16, BP 132/80, SpO2 97% RA. R leg edema persists, less tender.\nA/P:\n1. Acute bilateral segmental PE - stable on heparin; transition to apixaban 10 mg BID x7d then 5 mg BID today.\n2. Acute DVT, R femoral vein, POA - source of PE; on anticoagulation as above.\n3. HTN, HLD, hypothyroidism, GERD, obesity - stable, home meds."
+   },
+   {
+    "id": "d6",
+    "type": "Pharmacy note",
+    "author": "I. Moreau, PharmD (Clinical Pharmacy)",
+    "author_role": "pharmacy",
+    "timestamp": "2026-09-17T14:05",
+    "text": "Anticoagulation transition consult. Heparin infusion stopped 13:30; apixaban 10 mg PO given 13:30. Wt 98 kg, CrCl ~105 mL/min, no interacting CYP3A4/P-gp agents on med list. Plan: apixaban 10 mg BID x7 days (through 09/22) then 5 mg BID. Counseled patient on missed doses, bleeding signs, avoidance of NSAIDs, and to inform dentist/surgeons. Copay verified affordable; 30-day free trial card provided. Patient verbalized understanding via teach-back."
+   },
+   {
+    "id": "d7",
+    "type": "Discharge summary",
+    "author": "F. Castellano, MD (Hospital Medicine)",
+    "author_role": "provider",
+    "timestamp": "2026-09-18T10:30",
+    "text": "Admit: 09/15/2026  Discharge: 09/18/2026\nDischarge diagnoses:\n1. Acute bilateral segmental pulmonary embolism without right heart strain, provoked (long-haul travel)\n2. Acute deep vein thrombosis, right femoral vein\n3. Hypertension\n4. Hyperlipidemia\n5. Hypothyroidism\n6. GERD\n7. Obesity, BMI 36\nHospital course: Presented with dyspnea and R leg swelling after a 14-h flight. CTA: bilateral segmental PE, no RV strain; troponin/BNP normal. Duplex: occlusive R femoral DVT. Treated with heparin gtt then apixaban. Never hypoxic, remained hemodynamically stable.\nDischarge meds: apixaban 10 mg BID through 09/22 then 5 mg BID for at least 3 months; home losartan, rosuvastatin, levothyroxine, pantoprazole.\nFollow-up: PCP 1 week; hematology 3 months to decide duration."
+   }
+  ],
+  "gold": {
+   "pdx": "I26.99",
+   "secondary": [
+    {
+     "code": "I82.411",
+     "poa": "Y"
+    },
+    {
+     "code": "I10",
+     "poa": "Y"
+    },
+    {
+     "code": "E78.5",
+     "poa": "Y"
+    },
+    {
+     "code": "E03.9",
+     "poa": "Y"
+    },
+    {
+     "code": "K21.9",
+     "poa": "Y"
+    },
+    {
+     "code": "E66.9",
+     "poa": "Y"
+    },
+    {
+     "code": "Z68.36",
+     "poa": "1"
+    }
+   ],
+   "drg": "176",
+   "route": "autonomous",
+   "hold_reasons": [],
+   "query": null,
+   "traps": [],
+   "explanation": "Clean case: bilateral segmental PE without right heart strain is I26.99 (not cor pulmonale), and the attending documents the acute right femoral vein DVT as the source, so I82.411 is added, both present on admission. Chronic conditions are coded from the provider's problem list, with BMI from the H&P supporting the documented obesity. With no CC/MCC beyond the PE family, the case groups to DRG 176 and can go through without a coder."
+  }
+ },
+ "run": {
+  "case_id": "enc-12",
+  "prompt_version": "2026-10-02.4-router-v2",
+  "models": {
+   "fast": "anthropic:claude-haiku-4-5",
+   "reason": "anthropic:claude-sonnet-5-5"
+  },
+  "findings": [
+   {
+    "id": "F1",
+    "condition": "Pulmonary embolism, right lower lobe",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "segmental PE RLL and LLL",
+    "note": null,
+    "start": 719,
+    "end": 743
+   },
+   {
+    "id": "F2",
+    "condition": "Pulmonary embolism, left lower lobe",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "segmental PE RLL and LLL",
+    "note": null,
+    "start": 719,
+    "end": 743
+   },
+   {
+    "id": "F3",
+    "condition": "Right ventricular strain",
+    "assertion": "negated",
+    "doc_id": "d1",
+    "quote": "no RV strain",
+    "note": null,
+    "start": 745,
+    "end": 757
+   },
+   {
+    "id": "F4",
+    "condition": "D-dimer elevation",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "D-dimer 4.8",
+    "note": null,
+    "start": 606,
+    "end": 617
+   },
+   {
+    "id": "F5",
+    "condition": "Troponin normal",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Troponin <0.01",
+    "note": null,
+    "start": 619,
+    "end": 633
+   },
+   {
+    "id": "F6",
+    "condition": "BNP normal",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "BNP 42",
+    "note": null,
+    "start": 635,
+    "end": 641
+   },
+   {
+    "id": "F7",
+    "condition": "Creatinine normal",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "Cr 0.8",
+    "note": null,
+    "start": 666,
+    "end": 672
+   },
+   {
+    "id": "F8",
+    "condition": "Right leg swelling",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "R thigh and calf swollen (R calf 4 cm > L)",
+    "note": null,
+    "start": 507,
+    "end": 549
+   },
+   {
+    "id": "F9",
+    "condition": "Dyspnea on exertion",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "2 days of exertional SOB",
+    "note": null,
+    "start": 93,
+    "end": 117
+   },
+   {
+    "id": "F10",
+    "condition": "Pleuritic chest pain, left",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "mild pleuritic L chest pain",
+    "note": null,
+    "start": 348,
+    "end": 375
+   },
+   {
+    "id": "F11",
+    "condition": "Hypertension",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "58F with HTN",
+    "note": null,
+    "start": 30,
+    "end": 42
+   },
+   {
+    "id": "F12",
+    "condition": "Hyperlipidemia",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "HLD",
+    "note": null,
+    "start": 44,
+    "end": 47
+   },
+   {
+    "id": "F13",
+    "condition": "Hypothyroidism",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "hypothyroidism",
+    "note": null,
+    "start": 49,
+    "end": 63
+   },
+   {
+    "id": "F14",
+    "condition": "GERD",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "GERD",
+    "note": null,
+    "start": 65,
+    "end": 69
+   },
+   {
+    "id": "F15",
+    "condition": "Obesity",
+    "assertion": "affirmed",
+    "doc_id": "d1",
+    "quote": "obesity",
+    "note": null,
+    "start": 71,
+    "end": 78
+   },
+   {
+    "id": "F16",
+    "condition": "Pulmonary embolism, bilateral segmental, provoked by long-haul travel",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Bilateral segmental pulmonary emboli without CT evidence of right heart strain",
+    "note": null,
+    "start": 315,
+    "end": 393
+   },
+   {
+    "id": "F17",
+    "condition": "Hiatal hernia",
+    "assertion": "affirmed",
+    "doc_id": "d2",
+    "quote": "Small hiatal hernia",
+    "note": null,
+    "start": 282,
+    "end": 301
+   },
+   {
+    "id": "F18",
+    "condition": "Deep vein thrombosis, right femoral vein, occlusive",
+    "assertion": "affirmed",
+    "doc_id": "d4",
+    "quote": "Noncompressible, expanded femoral vein with occlusive echogenic thrombus from the proximal to distal femoral vein",
+    "note": null,
+    "start": 70,
+    "end": 183
+   },
+   {
+    "id": "F19",
+    "condition": "Travel-related venous thromboembolism",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "Travel-associated bilateral segmental PE",
+    "note": null,
+    "start": 16,
+    "end": 56
+   },
+   {
+    "id": "F20",
+    "condition": "BMI 36 (obesity class I)",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "BMI 36.0",
+    "note": null,
+    "start": 261,
+    "end": 269
+   },
+   {
+    "id": "F21",
+    "condition": "Acute right leg edema and tenderness",
+    "assertion": "affirmed",
+    "doc_id": "d3",
+    "quote": "R leg edema/tenderness",
+    "note": null,
+    "start": 291,
+    "end": 313
+   },
+   {
+    "id": "F22",
+    "condition": "Right femoral vein DVT is source of pulmonary embolism",
+    "assertion": "affirmed",
+    "doc_id": "d5",
+    "quote": "Acute DVT, R femoral vein, POA - source of PE",
+    "note": null,
+    "start": 245,
+    "end": 290
+   },
+   {
+    "id": "F23",
+    "condition": "Hemodynamic stability throughout admission",
+    "assertion": "affirmed",
+    "doc_id": "d7",
+    "quote": "remained hemodynamically stable",
+    "note": null,
+    "start": 527,
+    "end": 558
+   },
+   {
+    "id": "F24",
+    "condition": "No hypoxia during admission",
+    "assertion": "negated",
+    "doc_id": "d7",
+    "quote": "Never hypoxic",
+    "note": null,
+    "start": 512,
+    "end": 525
+   },
+   {
+    "id": "F25",
+    "condition": "Prior VTE",
+    "assertion": "negated",
+    "doc_id": "d1",
+    "quote": "No prior VTE",
+    "note": null,
+    "start": 222,
+    "end": 234
+   },
+   {
+    "id": "F26",
+    "condition": "Hormone therapy use",
+    "assertion": "negated",
+    "doc_id": "d1",
+    "quote": "No hormone therapy",
+    "note": null,
+    "start": 236,
+    "end": 254
+   },
+   {
+    "id": "F27",
+    "condition": "Known malignancy",
+    "assertion": "negated",
+    "doc_id": "d1",
+    "quote": "No known malignancy",
+    "note": null,
+    "start": 256,
+    "end": 275
+   }
+  ],
+  "codes": [
+   {
+    "code": "I26.99",
+    "poa": "Y",
+    "finding_ids": [
+     "F1",
+     "F2",
+     "F16"
+    ],
+    "confidence": 0.93,
+    "rationale": "Acute bilateral segmental PE without acute cor pulmonale (no RV strain) was the reason for admission, so it is the principal diagnosis.",
+    "role": "pdx",
+    "verdict": "supported",
+    "critic_reason": "Provider documents acute bilateral segmental PE without right heart strain, so no acute cor pulmonale. It was the reason for admission and is POA. I26.99 is appropriate.",
+    "severity": null,
+    "description": "Other pulmonary embolism without acute cor pulmonale"
+   },
+   {
+    "code": "I82.411",
+    "poa": "Y",
+    "finding_ids": [
+     "F18",
+     "F22"
+    ],
+    "confidence": 0.92,
+    "rationale": "The provider documented acute DVT of the right femoral vein, POA, as the source of the PE.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Provider documents acute DVT of the right femoral vein in the progress note and discharge summary, with duplex confirmation. The femoral vein is I82.41-, and right is I82.411. POA is Y.",
+    "severity": "none",
+    "description": "Acute embolism and thrombosis of right femoral vein"
+   },
+   {
+    "code": "I10",
+    "poa": "Y",
+    "finding_ids": [
+     "F11"
+    ],
+    "confidence": 0.94,
+    "rationale": "Hypertension is a chronic condition treated with losartan.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "HTN is documented by the provider and treated with losartan.",
+    "severity": "none",
+    "description": "Essential (primary) hypertension"
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "finding_ids": [
+     "F12"
+    ],
+    "confidence": 0.92,
+    "rationale": "Hyperlipidemia is a chronic condition treated with rosuvastatin.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "HLD is documented by the provider and treated with rosuvastatin.",
+    "severity": "none",
+    "description": "Hyperlipidemia, unspecified"
+   },
+   {
+    "code": "E03.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F13"
+    ],
+    "confidence": 0.92,
+    "rationale": "Hypothyroidism is a chronic condition treated with levothyroxine.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Hypothyroidism is documented and treated with levothyroxine.",
+    "severity": "none",
+    "description": "Hypothyroidism, unspecified"
+   },
+   {
+    "code": "K21.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F14"
+    ],
+    "confidence": 0.91,
+    "rationale": "GERD is a chronic condition treated with a PPI.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "GERD is documented and treated with a PPI. The hiatal hernia is a radiology-only finding and is not coded.",
+    "severity": "none",
+    "description": "Gastro-esophageal reflux disease without esophagitis"
+   },
+   {
+    "code": "E66.9",
+    "poa": "Y",
+    "finding_ids": [
+     "F15",
+     "F20"
+    ],
+    "confidence": 0.8,
+    "rationale": "The provider documented obesity without a class, so the unspecified code is used.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "Provider documents 'Obesity, BMI 36' without a class or type. E66.9 is acceptable, and the lack of specificity is a minor quibble. The 2025 code set offers E66.811 for class 1 obesity, but the provider did not document a class.",
+    "severity": "none",
+    "description": "Obesity, unspecified"
+   },
+   {
+    "code": "Z68.36",
+    "poa": "Y",
+    "finding_ids": [
+     "F20"
+    ],
+    "confidence": 0.88,
+    "rationale": "BMI 36.0 is reported as an additional code, and the associated obesity diagnosis is documented by the provider.",
+    "role": "secondary",
+    "verdict": "supported",
+    "critic_reason": "BMI 36.0 is documented by the provider alongside the obesity diagnosis, so it can be reported. Obesity is a clinically significant diagnosis that is counseled and monitored.",
+    "severity": "none",
+    "description": "Body mass index [BMI] 36.0-36.9, adult"
+   }
+  ],
+  "removed": [],
+  "issues": [],
+  "queries": [],
+  "drg": {
+   "family": "pe",
+   "number": "176",
+   "title": "Pulmonary embolism w/o MCC",
+   "weight": 0.93,
+   "tier": "none",
+   "drivers": []
+  },
+  "confidence": 0.93,
+  "confidence_base": 0.93,
+  "blocking_issues": 0,
+  "blocking_reasons": [],
+  "stages": [
+   {
+    "stage": "triage",
+    "model": null,
+    "started": 0,
+    "ms": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cost_usd": 0
+   },
+   {
+    "stage": "evidence",
+    "model": "claude-haiku-4-5",
+    "started": 0,
+    "ms": 10501,
+    "input_tokens": 2969,
+    "output_tokens": 1767,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.0118
+   },
+   {
+    "stage": "coder",
+    "model": "claude-sonnet-5-5",
+    "started": 10501,
+    "ms": 12961,
+    "input_tokens": 21659,
+    "output_tokens": 1258,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.0559
+   },
+   {
+    "stage": "critic",
+    "model": "claude-sonnet-5-5",
+    "started": 23462,
+    "ms": 5116,
+    "input_tokens": 5768,
+    "output_tokens": 652,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01806
+   }
+  ],
+  "events": [
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "stage_start"
+   },
+   {
+    "t": 0,
+    "stage": "triage",
+    "type": "output",
+    "documents": [
+     {
+      "id": "d1",
+      "type": "ED note",
+      "author_role": "provider",
+      "timestamp": "2026-09-15T21:10",
+      "words": 152,
+      "flags": []
+     },
+     {
+      "id": "d2",
+      "type": "Radiology",
+      "author_role": "radiology",
+      "timestamp": "2026-09-15T22:20",
+      "words": 60,
+      "flags": []
+     },
+     {
+      "id": "d3",
+      "type": "H&P",
+      "author_role": "provider",
+      "timestamp": "2026-09-16T01:30",
+      "words": 115,
+      "flags": []
+     },
+     {
+      "id": "d4",
+      "type": "Radiology",
+      "author_role": "radiology",
+      "timestamp": "2026-09-16T09:45",
+      "words": 51,
+      "flags": []
+     },
+     {
+      "id": "d5",
+      "type": "Progress note",
+      "author_role": "provider",
+      "timestamp": "2026-09-17T08:20",
+      "words": 71,
+      "flags": []
+     },
+     {
+      "id": "d6",
+      "type": "Pharmacy note",
+      "author_role": "pharmacy",
+      "timestamp": "2026-09-17T14:05",
+      "words": 66,
+      "flags": []
+     },
+     {
+      "id": "d7",
+      "type": "Discharge summary",
+      "author_role": "provider",
+      "timestamp": "2026-09-18T10:30",
+      "words": 109,
+      "flags": [
+       "discharge"
+      ]
+     }
+    ]
+   },
+   {
+    "t": 0,
+    "stage": "evidence",
+    "type": "stage_start",
+    "model": "anthropic:claude-haiku-4-5"
+   },
+   {
+    "t": 10501,
+    "stage": "evidence",
+    "type": "output",
+    "findings": [
+     {
+      "id": "F1",
+      "condition": "Pulmonary embolism, right lower lobe",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "segmental PE RLL and LLL",
+      "note": null,
+      "start": 719,
+      "end": 743
+     },
+     {
+      "id": "F2",
+      "condition": "Pulmonary embolism, left lower lobe",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "segmental PE RLL and LLL",
+      "note": null,
+      "start": 719,
+      "end": 743
+     },
+     {
+      "id": "F3",
+      "condition": "Right ventricular strain",
+      "assertion": "negated",
+      "doc_id": "d1",
+      "quote": "no RV strain",
+      "note": null,
+      "start": 745,
+      "end": 757
+     },
+     {
+      "id": "F4",
+      "condition": "D-dimer elevation",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "D-dimer 4.8",
+      "note": null,
+      "start": 606,
+      "end": 617
+     },
+     {
+      "id": "F5",
+      "condition": "Troponin normal",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Troponin <0.01",
+      "note": null,
+      "start": 619,
+      "end": 633
+     },
+     {
+      "id": "F6",
+      "condition": "BNP normal",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "BNP 42",
+      "note": null,
+      "start": 635,
+      "end": 641
+     },
+     {
+      "id": "F7",
+      "condition": "Creatinine normal",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "Cr 0.8",
+      "note": null,
+      "start": 666,
+      "end": 672
+     },
+     {
+      "id": "F8",
+      "condition": "Right leg swelling",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "R thigh and calf swollen (R calf 4 cm > L)",
+      "note": null,
+      "start": 507,
+      "end": 549
+     },
+     {
+      "id": "F9",
+      "condition": "Dyspnea on exertion",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "2 days of exertional SOB",
+      "note": null,
+      "start": 93,
+      "end": 117
+     },
+     {
+      "id": "F10",
+      "condition": "Pleuritic chest pain, left",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "mild pleuritic L chest pain",
+      "note": null,
+      "start": 348,
+      "end": 375
+     },
+     {
+      "id": "F11",
+      "condition": "Hypertension",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "58F with HTN",
+      "note": null,
+      "start": 30,
+      "end": 42
+     },
+     {
+      "id": "F12",
+      "condition": "Hyperlipidemia",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "HLD",
+      "note": null,
+      "start": 44,
+      "end": 47
+     },
+     {
+      "id": "F13",
+      "condition": "Hypothyroidism",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "hypothyroidism",
+      "note": null,
+      "start": 49,
+      "end": 63
+     },
+     {
+      "id": "F14",
+      "condition": "GERD",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "GERD",
+      "note": null,
+      "start": 65,
+      "end": 69
+     },
+     {
+      "id": "F15",
+      "condition": "Obesity",
+      "assertion": "affirmed",
+      "doc_id": "d1",
+      "quote": "obesity",
+      "note": null,
+      "start": 71,
+      "end": 78
+     },
+     {
+      "id": "F16",
+      "condition": "Pulmonary embolism, bilateral segmental, provoked by long-haul travel",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Bilateral segmental pulmonary emboli without CT evidence of right heart strain",
+      "note": null,
+      "start": 315,
+      "end": 393
+     },
+     {
+      "id": "F17",
+      "condition": "Hiatal hernia",
+      "assertion": "affirmed",
+      "doc_id": "d2",
+      "quote": "Small hiatal hernia",
+      "note": null,
+      "start": 282,
+      "end": 301
+     },
+     {
+      "id": "F18",
+      "condition": "Deep vein thrombosis, right femoral vein, occlusive",
+      "assertion": "affirmed",
+      "doc_id": "d4",
+      "quote": "Noncompressible, expanded femoral vein with occlusive echogenic thrombus from the proximal to distal femoral vein",
+      "note": null,
+      "start": 70,
+      "end": 183
+     },
+     {
+      "id": "F19",
+      "condition": "Travel-related venous thromboembolism",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "Travel-associated bilateral segmental PE",
+      "note": null,
+      "start": 16,
+      "end": 56
+     },
+     {
+      "id": "F20",
+      "condition": "BMI 36 (obesity class I)",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "BMI 36.0",
+      "note": null,
+      "start": 261,
+      "end": 269
+     },
+     {
+      "id": "F21",
+      "condition": "Acute right leg edema and tenderness",
+      "assertion": "affirmed",
+      "doc_id": "d3",
+      "quote": "R leg edema/tenderness",
+      "note": null,
+      "start": 291,
+      "end": 313
+     },
+     {
+      "id": "F22",
+      "condition": "Right femoral vein DVT is source of pulmonary embolism",
+      "assertion": "affirmed",
+      "doc_id": "d5",
+      "quote": "Acute DVT, R femoral vein, POA - source of PE",
+      "note": null,
+      "start": 245,
+      "end": 290
+     },
+     {
+      "id": "F23",
+      "condition": "Hemodynamic stability throughout admission",
+      "assertion": "affirmed",
+      "doc_id": "d7",
+      "quote": "remained hemodynamically stable",
+      "note": null,
+      "start": 527,
+      "end": 558
+     },
+     {
+      "id": "F24",
+      "condition": "No hypoxia during admission",
+      "assertion": "negated",
+      "doc_id": "d7",
+      "quote": "Never hypoxic",
+      "note": null,
+      "start": 512,
+      "end": 525
+     },
+     {
+      "id": "F25",
+      "condition": "Prior VTE",
+      "assertion": "negated",
+      "doc_id": "d1",
+      "quote": "No prior VTE",
+      "note": null,
+      "start": 222,
+      "end": 234
+     },
+     {
+      "id": "F26",
+      "condition": "Hormone therapy use",
+      "assertion": "negated",
+      "doc_id": "d1",
+      "quote": "No hormone therapy",
+      "note": null,
+      "start": 236,
+      "end": 254
+     },
+     {
+      "id": "F27",
+      "condition": "Known malignancy",
+      "assertion": "negated",
+      "doc_id": "d1",
+      "quote": "No known malignancy",
+      "note": null,
+      "start": 256,
+      "end": 275
+     }
+    ]
+   },
+   {
+    "t": 10501,
+    "stage": "coder",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "acute pulmonary embolism segmental bilateral"
+    },
+    "id": "toolu_01KHv8Sdm5VRZxqsjQEcY3N2"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "acute deep vein thrombosis femoral vein right"
+    },
+    "id": "toolu_01YVvWkE2qcHoGJFYELdzHsG"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "index_lookup",
+    "args": {
+     "term": "obesity BMI 36"
+    },
+    "id": "toolu_018GMsv3EVmzZr39WkRW4Xnw"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01KHv8Sdm5VRZxqsjQEcY3N2",
+    "result": "[\"B38.0  Acute pulmonary coccidioidomycosis\", \"B40.0  Acute pulmonary blastomycosis\", \"J81.0  Acute pulmonary edema\", \"B39.0  Acute pulmonary histoplasmosis capsulati\", \"J70.0  Acute pulmonary manifestations due to radiation\", \"J95.1  Acute pulmonary insufficiency following thoracic surgery\", \"J95.2  Acute pulmonary insufficiency following nonthoracic surgery\", \"R04.81  Acute idiopathic pulmonary hemorrhage in infants\", \"I26.01  Septic pulmonary embolism with acute cor pulmonale\", \"I26.09  Other pulmonary embolism with acute cor pulmonale\", \"I26.90  Septic pulmonary embolism without acute cor pulmonale\", \"I26.99  Other pulmonary embolism without acute cor pulmonale\"]"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_01YVvWkE2qcHoGJFYELdzHsG",
+    "result": "[\"I82.621  Acute embolism and thrombosis of deep veins of right upper extremity\", \"I82.622  Acute embolism and thrombosis of deep veins of left upper extremity\", \"I82.623  Acute embolism and thrombosis of deep veins of upper extremity, bilateral\", \"I82.629  Acute embolism and thrombosis of deep veins of unspecified upper extremity\", \"I82.401  Acute embolism and thrombosis of unspecified deep veins of right lower extremity\", \"I82.402  Acute embolism and thrombosis of unspecified deep veins of left lower extremity\", \"I82.403  Acute embolism and thrombosis of unspecified deep veins of lower extremity, bilateral\", \"I82.409  Acute embolism and thrombosis of unspecified deep veins of unspecified lower extremity\", \"I82.491  Acute embolism and thrombosis of other specified deep vein of right lower extremity\", \"I82.492  Acute embolism and thrombosis of other specified deep vein of left lower extr\u2026"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "index_lookup",
+    "id": "toolu_018GMsv3EVmzZr39WkRW4Xnw",
+    "result": "[\"E66.9  Obesity, unspecified\", \"E66.1  Drug-induced obesity\", \"E66.811  Obesity, class 1\", \"E66.812  Obesity, class 2\", \"E66.813  Obesity, class 3\", \"O99.214  Obesity complicating childbirth\", \"O99.215  Obesity complicating the puerperium\", \"Z15.2  Genetic susceptibility to obesity\", \"E66.89  Other obesity not elsewhere classified\", \"O99.210  Obesity complicating pregnancy, unspecified trimester\", \"O99.211  Obesity complicating pregnancy, first trimester\", \"O99.212  Obesity complicating pregnancy, second trimester\"]"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "thinking",
+    "text": "I'm coding I82.411 for the right femoral vein embolism/thrombosis, plus Z68.36, I10, E78.5, and E03.9/K21.9. For the obesity BMI of 36, that's actually class 2 rather than class 1 as documented, so I'll just use E66.9 since the provider's classification doesn't match the BMI value.\n\n"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "I82.411"
+    },
+    "id": "toolu_01TDPgkRbqEE5kG19vesa58W"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "Z68.36"
+    },
+    "id": "toolu_018M871uoLjfPzLAJ2d8Hc4Y"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E78.5"
+    },
+    "id": "toolu_01NwYt3LNtDJ75nonho9j1vU"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "E03.9"
+    },
+    "id": "toolu_015oq9DqBHBihL19yAR7nhJ2"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "K21.9"
+    },
+    "id": "toolu_01GRaCT3RfXXwnGoxoA1ei5g"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_call",
+    "tool": "tabular_lookup",
+    "args": {
+     "code": "I10"
+    },
+    "id": "toolu_0147A5PZfWPoQaobkNeDr4Gs"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01TDPgkRbqEE5kG19vesa58W",
+    "result": "I82.411: Acute embolism and thrombosis of right femoral vein (billable)"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_018M871uoLjfPzLAJ2d8Hc4Y",
+    "result": "Z68.36: Body mass index [BMI] 36.0-36.9, adult (billable)"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01NwYt3LNtDJ75nonho9j1vU",
+    "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_015oq9DqBHBihL19yAR7nhJ2",
+    "result": "E03.9: Hypothyroidism, unspecified (billable)"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_01GRaCT3RfXXwnGoxoA1ei5g",
+    "result": "K21.9: Gastro-esophageal reflux disease without esophagitis (billable)"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "tool_result",
+    "tool": "tabular_lookup",
+    "id": "toolu_0147A5PZfWPoQaobkNeDr4Gs",
+    "result": "I10: Essential (primary) hypertension (billable)"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "text",
+    "text": "{\"pdx\":{\"code\":\"I26.99\",\"poa\":\"Y\",\"finding_ids\":[\"F1\",\"F2\",\"F16\"],\"confidence\":0.93,\"rationale\":\"Acute bilateral segmental PE without acute cor pulmonale (no RV strain) was the reason for admission, so it is the principal diagnosis.\"},\"secondary\":[{\"code\":\"I82.411\",\"poa\":\"Y\",\"finding_ids\":[\"F18\",\"F22\"],\"confidence\":0.92,\"rationale\":\"The provider documented acute DVT of the right femoral vein, POA, as the source of the PE.\"},{\"code\":\"I10\",\"poa\":\"Y\",\"finding_ids\":[\"F11\"],\"confidence\":0.93,\"rationale\":\"Hypertension is a chronic condition treated with losartan.\"},{\"code\":\"E78.5\",\"poa\":\"Y\",\"finding"
+   },
+   {
+    "t": 23462,
+    "stage": "coder",
+    "type": "output",
+    "draft": {
+     "pdx": {
+      "code": "I26.99",
+      "poa": "Y",
+      "finding_ids": [
+       "F1",
+       "F2",
+       "F16"
+      ],
+      "confidence": 0.93,
+      "rationale": "Acute bilateral segmental PE without acute cor pulmonale (no RV strain) was the reason for admission, so it is the principal diagnosis."
+     },
+     "secondary": [
+      {
+       "code": "I82.411",
+       "poa": "Y",
+       "finding_ids": [
+        "F18",
+        "F22"
+       ],
+       "confidence": 0.92,
+       "rationale": "The provider documented acute DVT of the right femoral vein, POA, as the source of the PE."
+      },
+      {
+       "code": "I10",
+       "poa": "Y",
+       "finding_ids": [
+        "F11"
+       ],
+       "confidence": 0.93,
+       "rationale": "Hypertension is a chronic condition treated with losartan."
+      },
+      {
+       "code": "E78.5",
+       "poa": "Y",
+       "finding_ids": [
+        "F12"
+       ],
+       "confidence": 0.92,
+       "rationale": "Hyperlipidemia is a chronic condition treated with rosuvastatin."
+      },
+      {
+       "code": "E03.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F13"
+       ],
+       "confidence": 0.92,
+       "rationale": "Hypothyroidism is a chronic condition treated with levothyroxine."
+      },
+      {
+       "code": "K21.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F14"
+       ],
+       "confidence": 0.9,
+       "rationale": "GERD is a chronic condition treated with a PPI."
+      },
+      {
+       "code": "E66.9",
+       "poa": "Y",
+       "finding_ids": [
+        "F15",
+        "F20"
+       ],
+       "confidence": 0.8,
+       "rationale": "The provider documented obesity without a class, so the unspecified code is used."
+      },
+      {
+       "code": "Z68.36",
+       "poa": "Y",
+       "finding_ids": [
+        "F20"
+       ],
+       "confidence": 0.88,
+       "rationale": "BMI 36.0 is reported as an additional code, and the associated obesity diagnosis is documented by the provider."
+      }
+     ],
+     "issues": []
+    }
+   },
+   {
+    "t": 23462,
+    "stage": "critic",
+    "type": "stage_start",
+    "model": "anthropic:claude-sonnet-5-5"
+   },
+   {
+    "t": 28578,
+    "stage": "critic",
+    "type": "text",
+    "text": "{\"reviews\":[{\"code\":\"I26.99\",\"verdict\":\"supported\",\"confidence\":0.93,\"reason\":\"Provider documents acute bilateral segmental PE without right heart strain, so no acute cor pulmonale. It was the reason for admission and is POA. I26.99 is appropriate.\"},{\"code\":\"I82.411\",\"verdict\":\"supported\",\"confidence\":0.92,\"reason\":\"Provider documents acute DVT of the right femoral vein in the progress note and discharge summary, with duplex confirmation. The femoral vein is I82.41-, and right is I82.411. POA is Y.\"},{\"code\":\"I10\",\"verdict\":\"supported\",\"confidence\":0.94,\"reason\":\"HTN is documented by the prov"
+   },
+   {
+    "t": 28578,
+    "stage": "critic",
+    "type": "output",
+    "critique": {
+     "reviews": [
+      {
+       "code": "I26.99",
+       "verdict": "supported",
+       "confidence": 0.93,
+       "reason": "Provider documents acute bilateral segmental PE without right heart strain, so no acute cor pulmonale. It was the reason for admission and is POA. I26.99 is appropriate."
+      },
+      {
+       "code": "I82.411",
+       "verdict": "supported",
+       "confidence": 0.92,
+       "reason": "Provider documents acute DVT of the right femoral vein in the progress note and discharge summary, with duplex confirmation. The femoral vein is I82.41-, and right is I82.411. POA is Y."
+      },
+      {
+       "code": "I10",
+       "verdict": "supported",
+       "confidence": 0.94,
+       "reason": "HTN is documented by the provider and treated with losartan."
+      },
+      {
+       "code": "E78.5",
+       "verdict": "supported",
+       "confidence": 0.92,
+       "reason": "HLD is documented by the provider and treated with rosuvastatin."
+      },
+      {
+       "code": "E03.9",
+       "verdict": "supported",
+       "confidence": 0.92,
+       "reason": "Hypothyroidism is documented and treated with levothyroxine."
+      },
+      {
+       "code": "K21.9",
+       "verdict": "supported",
+       "confidence": 0.91,
+       "reason": "GERD is documented and treated with a PPI. The hiatal hernia is a radiology-only finding and is not coded."
+      },
+      {
+       "code": "E66.9",
+       "verdict": "supported",
+       "confidence": 0.8,
+       "reason": "Provider documents 'Obesity, BMI 36' without a class or type. E66.9 is acceptable, and the lack of specificity is a minor quibble. The 2025 code set offers E66.811 for class 1 obesity, but the provider did not document a class."
+      },
+      {
+       "code": "Z68.36",
+       "verdict": "supported",
+       "confidence": 0.88,
+       "reason": "BMI 36.0 is documented by the provider alongside the obesity diagnosis, so it can be reported. Obesity is a clinically significant diagnosis that is counseled and monitored."
+      }
+     ],
+     "pdx_ok": true,
+     "pdx_alternative": null,
+     "missed": []
+    }
+   },
+   {
+    "t": 28578,
+    "stage": "grouper",
+    "type": "output",
+    "family": "pe",
+    "drg": "176",
+    "title": "Pulmonary embolism w/o MCC",
+    "weight": 0.93,
+    "tier": "none",
+    "drivers": []
+   },
+   {
+    "t": 28578,
+    "stage": "router",
+    "type": "output",
+    "base": 0.93,
+    "blocking": 0,
+    "reasons": [],
+    "confidence": 0.93
+   }
+  ],
+  "ms": 28578,
+  "cost_usd": 0.08576
+ },
+ "baseline": {
+  "case_id": "enc-12",
+  "codes": [
+   {
+    "code": "I26.99",
+    "poa": "Y",
+    "role": "pdx",
+    "valid": true,
+    "description": "Other pulmonary embolism without acute cor pulmonale",
+    "confidence": 0.8
+   },
+   {
+    "code": "I82.411",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Acute embolism and thrombosis of right femoral vein",
+    "confidence": 0.8
+   },
+   {
+    "code": "I10",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Essential (primary) hypertension",
+    "confidence": 0.8
+   },
+   {
+    "code": "E78.5",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Hyperlipidemia, unspecified",
+    "confidence": 0.8
+   },
+   {
+    "code": "E03.9",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Hypothyroidism, unspecified",
+    "confidence": 0.8
+   },
+   {
+    "code": "K21.9",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Gastro-esophageal reflux disease without esophagitis",
+    "confidence": 0.8
+   },
+   {
+    "code": "E66.9",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Obesity, unspecified",
+    "confidence": 0.8
+   },
+   {
+    "code": "Z68.36",
+    "poa": "Y",
+    "role": "secondary",
+    "valid": true,
+    "description": "Body mass index [BMI] 36.0-36.9, adult",
+    "confidence": 0.8
+   }
+  ],
+  "drg": {
+   "family": "pe",
+   "number": "176",
+   "weight": 0.93,
+   "tier": "none",
+   "drivers": []
+  },
+  "confidence": 0.8,
+  "needs_human": false,
+  "reason": "Acute bilateral segmental PE without acute cor pulmonale coded I26.99 (multiple subsegmental/segmental PE without cor pulmonale; FY2027 code selection for bilateral segmental PE should be verified). Acute right femoral DVT I82.411. Obesity BMI 36.0 coded E66.9 with Z68.36; check whether E66.811 (class 2 obesity) is applicable in the FY2027 code set. Z86.718/travel codes not applicable. Hiatal hernia is radiology-only and not coded.",
+  "ms": 4499,
+  "cost_usd": 0.00942,
+  "input_tokens": 2959,
+  "output_tokens": 350
+ },
+ "score": {
+  "id": "enc-12",
+  "title": "Pulmonary embolism with leg clot",
+  "summary": "A straightforward blood clot in the lung with a clot in the right leg, both clearly documented and present on arrival.",
+  "family": "pe",
+  "hero": false,
+  "traps": [],
+  "gold_route": "autonomous",
+  "gold_drg": "176",
+  "pred_drg": "176",
+  "gold_weight": 0.93,
+  "pred_weight": 0.93,
+  "confidence": 0.93,
+  "tp": 8,
+  "fp": 0,
+  "fn": 0,
+  "fp_codes": [],
+  "fn_codes": [],
+  "cc_tp": 0,
+  "cc_fp": 0,
+  "cc_fn": 0,
+  "pdx_ok": true,
+  "drg_ok": true,
+  "overcoded": false,
+  "undercoded": false,
+  "invalid_codes": [],
+  "citations": 27,
+  "citations_located": 27,
+  "queries": 0,
+  "queries_lint_clean": 0,
+  "cost_usd": 0.08576,
+  "ms": 28578
+ }
+}

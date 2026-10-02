@@ -1,0 +1,8 @@
+{
+  "threshold": 0.8,
+  "min_cases": 24,
+  "code_precision_min": 0.92,
+  "drg_match_min": 0.95,
+  "overcoding_max": 0.0,
+  "escape_rate_max": 0.0
+}

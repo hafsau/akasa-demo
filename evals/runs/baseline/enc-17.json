@@ -1,0 +1,67 @@
+{
+ "case_id": "enc-17",
+ "codes": [
+  {
+   "code": "J18.9",
+   "poa": "Y",
+   "role": "pdx",
+   "valid": true,
+   "description": "Pneumonia, unspecified organism",
+   "confidence": 0.4
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Essential (primary) hypertension",
+   "confidence": 0.4
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Hyperlipidemia, unspecified",
+   "confidence": 0.4
+  },
+  {
+   "code": "E11.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Type 2 diabetes mellitus without complications",
+   "confidence": 0.4
+  },
+  {
+   "code": "K21.9",
+   "poa": "Y",
+   "role": "secondary",
+   "valid": true,
+   "description": "Gastro-esophageal reflux disease without esophagitis",
+   "confidence": 0.4
+  },
+  {
+   "code": "Z79.84",
+   "poa": "Exempt",
+   "role": "secondary",
+   "valid": true,
+   "description": "Long term (current) use of oral hypoglycemic drugs",
+   "confidence": 0.4
+  }
+ ],
+ "drg": {
+  "family": "pneumonia",
+  "number": "195",
+  "weight": 0.68,
+  "tier": "none",
+  "drivers": []
+ },
+ "confidence": 0.2,
+ "needs_human": true,
+ "reason": "Providers documented 'sepsis due to RLL CAP' through the discharge summary, but the chart shows only SIRS criteria (HR>90, WBC 11.2, T 37.9). There is no organ dysfunction: lactate normal x2, Cr at baseline, no hypotension, GCS 15, SpO2 normal on room air, bilirubin and platelets normal. This does not meet Sepsis-3, and the 1 L LR was given per protocol. A clinical validation query to the attending is needed. I coded pneumonia only (J18.9) as principal. If the attending confirms sepsis, the set changes to A41.9 as principal (POA Y) with J18.9 as a secondary diagnosis (POA Y). Also verify the Z79.84 POA exempt status.",
+ "ms": 10367,
+ "cost_usd": 0.01408,
+ "input_tokens": 3115,
+ "output_tokens": 785
+}

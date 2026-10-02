@@ -1,0 +1,1328 @@
+{
+ "case_id": "enc-19",
+ "prompt_version": "2026-10-02.4-router-v2",
+ "models": {
+  "fast": "anthropic:claude-haiku-4-5",
+  "reason": "anthropic:claude-sonnet-5-5"
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "condition": "Bibasilar airspace and interstitial opacities",
+   "assertion": "affirmed",
+   "doc_id": "d1",
+   "quote": "Patchy bibasilar airspace and interstitial opacities",
+   "note": null,
+   "start": 35,
+   "end": 87
+  },
+  {
+   "id": "F2",
+   "condition": "Pneumonia, multifocal, viral or bacterial",
+   "assertion": "possible",
+   "doc_id": "d1",
+   "quote": "may reflect multifocal pneumonia, viral or bacterial",
+   "note": null,
+   "start": 247,
+   "end": 299
+  },
+  {
+   "id": "F3",
+   "condition": "No pleural effusion",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "No effusion or pneumothorax",
+   "note": null,
+   "start": 114,
+   "end": 141
+  },
+  {
+   "id": "F4",
+   "condition": "No pneumothorax",
+   "assertion": "negated",
+   "doc_id": "d1",
+   "quote": "No effusion or pneumothorax",
+   "note": null,
+   "start": 114,
+   "end": 141
+  },
+  {
+   "id": "F5",
+   "condition": "Fever",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "3 days fever to 39.4 at home",
+   "note": null,
+   "start": 97,
+   "end": 125
+  },
+  {
+   "id": "F6",
+   "condition": "Cough, productive",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "dry cough now productive",
+   "note": null,
+   "start": 127,
+   "end": 151
+  },
+  {
+   "id": "F7",
+   "condition": "Myalgias",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "myalgias, headache",
+   "note": null,
+   "start": 153,
+   "end": 171
+  },
+  {
+   "id": "F8",
+   "condition": "Headache",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "headache",
+   "note": null,
+   "start": 163,
+   "end": 171
+  },
+  {
+   "id": "F9",
+   "condition": "Shortness of breath, exertional",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "SOB with walking to bathroom",
+   "note": null,
+   "start": 173,
+   "end": 201
+  },
+  {
+   "id": "F10",
+   "condition": "Influenza A",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Influenza A/B PCR: Influenza A DETECTED",
+   "note": null,
+   "start": 448,
+   "end": 487
+  },
+  {
+   "id": "F11",
+   "condition": "Hyponatremia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "Na 129",
+   "note": null,
+   "start": 570,
+   "end": 576
+  },
+  {
+   "id": "F12",
+   "condition": "Tachycardia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "HR 108",
+   "note": null,
+   "start": 293,
+   "end": 299
+  },
+  {
+   "id": "F13",
+   "condition": "Tachypnea",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "RR 22",
+   "note": null,
+   "start": 301,
+   "end": 306
+  },
+  {
+   "id": "F14",
+   "condition": "Hypoxemia",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "SpO2 92% RA -> 95% on 2 L NC",
+   "note": null,
+   "start": 319,
+   "end": 347
+  },
+  {
+   "id": "F15",
+   "condition": "Bilateral lower lobe patchy opacities",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "CXR: bilateral lower lobe patchy opacities",
+   "note": null,
+   "start": 647,
+   "end": 689
+  },
+  {
+   "id": "F16",
+   "condition": "Pneumonia, bilateral",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "bilateral pneumonia - viral vs superimposed bacterial",
+   "note": null,
+   "start": 837,
+   "end": 890
+  },
+  {
+   "id": "F17",
+   "condition": "Hypertension",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "63 y/o F with HTN, HLD, hypothyroidism",
+   "note": null,
+   "start": 35,
+   "end": 73
+  },
+  {
+   "id": "F18",
+   "condition": "Hyperlipidemia",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "with HTN, HLD, hypothyroidism, obesity",
+   "note": null,
+   "start": 44,
+   "end": 82
+  },
+  {
+   "id": "F19",
+   "condition": "Hypothyroidism",
+   "assertion": "history",
+   "doc_id": "d2",
+   "quote": "with HTN, HLD, hypothyroidism, obesity",
+   "note": null,
+   "start": 44,
+   "end": 82
+  },
+  {
+   "id": "F20",
+   "condition": "Obesity",
+   "assertion": "affirmed",
+   "doc_id": "d2",
+   "quote": "HLD, hypothyroidism, obesity presents",
+   "note": null,
+   "start": 54,
+   "end": 91
+  },
+  {
+   "id": "F21",
+   "condition": "Bibasilar crackles",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Bibasilar crackles",
+   "note": null,
+   "start": 347,
+   "end": 365
+  },
+  {
+   "id": "F22",
+   "condition": "Hyponatremia with hypovolemia",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "Na 129, likely hypovolemic from poor PO intake",
+   "note": null,
+   "start": 670,
+   "end": 716
+  },
+  {
+   "id": "F23",
+   "condition": "Obesity, BMI 33.4",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "obesity (BMI 33.4)",
+   "note": null,
+   "start": 217,
+   "end": 235
+  },
+  {
+   "id": "F24",
+   "condition": "Low procalcitonin, no bacterial superinfection suspected",
+   "assertion": "affirmed",
+   "doc_id": "d3",
+   "quote": "low suspicion for bacterial superinfection (PCT 0.09)",
+   "note": null,
+   "start": 553,
+   "end": 606
+  },
+  {
+   "id": "F25",
+   "condition": "Cough, productive, white sputum",
+   "assertion": "affirmed",
+   "doc_id": "d4",
+   "quote": "productive of small amt white sputum",
+   "note": null,
+   "start": 69,
+   "end": 105
+  },
+  {
+   "id": "F26",
+   "condition": "Sodium normalized",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Sodium trend: 09/20 20:15 129; 09/21 06:00 131",
+   "note": null,
+   "start": 0,
+   "end": 46
+  },
+  {
+   "id": "F27",
+   "condition": "Blood cultures negative",
+   "assertion": "negated",
+   "doc_id": "d5",
+   "quote": "Blood cultures x2 (09/20): no growth at 48 h",
+   "note": null,
+   "start": 212,
+   "end": 256
+  },
+  {
+   "id": "F28",
+   "condition": "Sputum culture with normal respiratory flora",
+   "assertion": "affirmed",
+   "doc_id": "d5",
+   "quote": "Sputum culture: normal respiratory flora",
+   "note": null,
+   "start": 258,
+   "end": 298
+  },
+  {
+   "id": "F29",
+   "condition": "Pneumonia due to influenza only, no bacterial pneumonia",
+   "assertion": "affirmed",
+   "doc_id": "d6",
+   "quote": "pneumonia due to influenza; no evidence of bacterial",
+   "note": null,
+   "start": 304,
+   "end": 356
+  },
+  {
+   "id": "F30",
+   "condition": "Hypoxemia resolved, room air",
+   "assertion": "resolved",
+   "doc_id": "d6",
+   "quote": "SpO2 94% RA (weaned off O2 overnight)",
+   "note": null,
+   "start": 101,
+   "end": 138
+  },
+  {
+   "id": "F31",
+   "condition": "Hyponatremia resolved",
+   "assertion": "resolved",
+   "doc_id": "d7",
+   "quote": "Hyponatremia (hypovolemic), resolved",
+   "note": null,
+   "start": 135,
+   "end": 171
+  },
+  {
+   "id": "F32",
+   "condition": "Influenza A with pneumonia",
+   "assertion": "affirmed",
+   "doc_id": "d7",
+   "quote": "Principal diagnosis: Influenza A with pneumonia",
+   "note": null,
+   "start": 65,
+   "end": 112
+  }
+ ],
+ "codes": [
+  {
+   "code": "J10.08",
+   "poa": "Y",
+   "finding_ids": [
+    "F10",
+    "F29",
+    "F32"
+   ],
+   "confidence": 0.88,
+   "rationale": "The attending documents pneumonia due to influenza A with no bacterial pneumonia, so the influenza-with-other-specified-pneumonia combination code (viral pneumonia) applies.",
+   "role": "pdx",
+   "verdict": "supported",
+   "critic_reason": "Attending documents pneumonia due to influenza with no bacterial pneumonia, and the discharge summary is consistent. Influenza A was confirmed by PCR. J10.08 is a reasonable code for influenza with other specified pneumonia (viral). The ED/H&P 'viral vs bacterial' wording was resolved in the later notes.",
+   "severity": null,
+   "description": "Influenza due to other identified influenza virus with other specified pneumonia"
+  },
+  {
+   "code": "E87.1",
+   "poa": "Y",
+   "finding_ids": [
+    "F11",
+    "F22",
+    "F31"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hyponatremia (Na 129) was documented, evaluated, and treated with IV fluids.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider-documented hyponatremia (Na 129, serum osm 268), with workup, IV fluids and monitoring. Documented as hypovolemic and resolved by discharge. Meets reportability.",
+   "severity": "CC",
+   "description": "Hypo-osmolality and hyponatremia"
+  },
+  {
+   "code": "I10",
+   "poa": "Y",
+   "finding_ids": [
+    "F17"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hypertension is chronic and was treated with amlodipine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Chronic hypertension, listed in the discharge diagnoses and treated with amlodipine.",
+   "severity": "none",
+   "description": "Essential (primary) hypertension"
+  },
+  {
+   "code": "E78.5",
+   "poa": "Y",
+   "finding_ids": [
+    "F18"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hyperlipidemia is chronic and was treated with rosuvastatin.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hyperlipidemia is in the discharge diagnoses and is treated with rosuvastatin.",
+   "severity": "none",
+   "description": "Hyperlipidemia, unspecified"
+  },
+  {
+   "code": "E03.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F19"
+   ],
+   "confidence": 0.9,
+   "rationale": "Hypothyroidism is chronic and was treated with levothyroxine.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Hypothyroidism is in the discharge diagnoses and is treated with levothyroxine.",
+   "severity": "none",
+   "description": "Hypothyroidism, unspecified"
+  },
+  {
+   "code": "E66.9",
+   "poa": "Y",
+   "finding_ids": [
+    "F20",
+    "F23"
+   ],
+   "confidence": 0.85,
+   "rationale": "The provider documents obesity without a class, so the unspecified code is used.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "Provider documents obesity with BMI 33.4 and no class. The unspecified code is appropriate.",
+   "severity": "none",
+   "description": "Obesity, unspecified"
+  },
+  {
+   "code": "Z68.33",
+   "poa": "Y",
+   "finding_ids": [
+    "F23"
+   ],
+   "confidence": 0.85,
+   "rationale": "BMI 33.4 is reported with the provider's obesity diagnosis.",
+   "role": "secondary",
+   "verdict": "supported",
+   "critic_reason": "BMI 33.4 is recorded with a provider-documented obesity diagnosis, which satisfies the BMI reporting requirement.",
+   "severity": "none",
+   "description": "Body mass index [BMI] 33.0-33.9, adult"
+  }
+ ],
+ "removed": [
+  {
+   "code": "R09.02",
+   "poa": "Y",
+   "finding_ids": [
+    "F14",
+    "F30"
+   ],
+   "confidence": 0.3,
+   "rationale": "Hypoxemia needing 2 L oxygen is named in the discharge summary and is not clearly integral to the pneumonia.",
+   "role": "secondary",
+   "verdict": "unsupported",
+   "critic_reason": "Hypoxemia (SpO2 92% RA, 2 L NC) is a common finding with influenza pneumonia and is integral to it. The discharge summary mentions it only in the presenting picture, with no separate evaluation. It was not documented as acute respiratory failure and the clinical criteria do not suggest it.",
+   "severity": "none",
+   "description": "Hypoxemia"
+  }
+ ],
+ "issues": [],
+ "queries": [],
+ "drg": {
+  "family": "pneumonia",
+  "number": "194",
+  "title": "Simple pneumonia and pleurisy w CC",
+  "weight": 0.89,
+  "tier": "CC",
+  "drivers": [
+   "E87.1"
+  ]
+ },
+ "confidence": 0.88,
+ "confidence_base": 0.88,
+ "blocking_issues": 0,
+ "blocking_reasons": [],
+ "stages": [
+  {
+   "stage": "triage",
+   "model": null,
+   "started": 0,
+   "ms": 0,
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "cache_read_tokens": 0,
+   "cost_usd": 0
+  },
+  {
+   "stage": "evidence",
+   "model": "claude-haiku-4-5",
+   "started": 0,
+   "ms": 22074,
+   "input_tokens": 8232,
+   "output_tokens": 3912,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.02779
+  },
+  {
+   "stage": "coder",
+   "model": "claude-sonnet-5-5",
+   "started": 22074,
+   "ms": 15541,
+   "input_tokens": 30377,
+   "output_tokens": 1581,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.07656
+  },
+  {
+   "stage": "critic",
+   "model": "claude-sonnet-5-5",
+   "started": 37616,
+   "ms": 5376,
+   "input_tokens": 6374,
+   "output_tokens": 738,
+   "cache_read_tokens": 0,
+   "cost_usd": 0.02013
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "stage_start"
+  },
+  {
+   "t": 0,
+   "stage": "triage",
+   "type": "output",
+   "documents": [
+    {
+     "id": "d1",
+     "type": "Radiology",
+     "author_role": "radiology",
+     "timestamp": "2026-09-20T20:40",
+     "words": 38,
+     "flags": []
+    },
+    {
+     "id": "d2",
+     "type": "ED note",
+     "author_role": "provider",
+     "timestamp": "2026-09-20T21:05",
+     "words": 148,
+     "flags": []
+    },
+    {
+     "id": "d3",
+     "type": "H&P",
+     "author_role": "provider",
+     "timestamp": "2026-09-21T00:45",
+     "words": 150,
+     "flags": []
+    },
+    {
+     "id": "d4",
+     "type": "Nursing note",
+     "author_role": "nursing",
+     "timestamp": "2026-09-22T02:40",
+     "words": 68,
+     "flags": []
+    },
+    {
+     "id": "d5",
+     "type": "Lab summary",
+     "author_role": "lab",
+     "timestamp": "2026-09-22T06:30",
+     "words": 56,
+     "flags": []
+    },
+    {
+     "id": "d6",
+     "type": "Progress note",
+     "author_role": "provider",
+     "timestamp": "2026-09-22T09:30",
+     "words": 89,
+     "flags": []
+    },
+    {
+     "id": "d7",
+     "type": "Discharge summary",
+     "author_role": "provider",
+     "timestamp": "2026-09-23T11:10",
+     "words": 104,
+     "flags": [
+      "discharge"
+     ]
+    }
+   ]
+  },
+  {
+   "t": 0,
+   "stage": "evidence",
+   "type": "stage_start",
+   "model": "anthropic:claude-haiku-4-5"
+  },
+  {
+   "t": 22074,
+   "stage": "evidence",
+   "type": "validation_retry",
+   "reason": "These quotes are not verbatim. Copy exact text from the document:\nF3: quote not found verbatim in d1: 'No effusion or pneumotharax'\nF4: quote not found verbatim in d1: 'No effusion or pneumotharax'"
+  },
+  {
+   "t": 22074,
+   "stage": "evidence",
+   "type": "output",
+   "findings": [
+    {
+     "id": "F1",
+     "condition": "Bibasilar airspace and interstitial opacities",
+     "assertion": "affirmed",
+     "doc_id": "d1",
+     "quote": "Patchy bibasilar airspace and interstitial opacities",
+     "note": null,
+     "start": 35,
+     "end": 87
+    },
+    {
+     "id": "F2",
+     "condition": "Pneumonia, multifocal, viral or bacterial",
+     "assertion": "possible",
+     "doc_id": "d1",
+     "quote": "may reflect multifocal pneumonia, viral or bacterial",
+     "note": null,
+     "start": 247,
+     "end": 299
+    },
+    {
+     "id": "F3",
+     "condition": "No pleural effusion",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "No effusion or pneumothorax",
+     "note": null,
+     "start": 114,
+     "end": 141
+    },
+    {
+     "id": "F4",
+     "condition": "No pneumothorax",
+     "assertion": "negated",
+     "doc_id": "d1",
+     "quote": "No effusion or pneumothorax",
+     "note": null,
+     "start": 114,
+     "end": 141
+    },
+    {
+     "id": "F5",
+     "condition": "Fever",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "3 days fever to 39.4 at home",
+     "note": null,
+     "start": 97,
+     "end": 125
+    },
+    {
+     "id": "F6",
+     "condition": "Cough, productive",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "dry cough now productive",
+     "note": null,
+     "start": 127,
+     "end": 151
+    },
+    {
+     "id": "F7",
+     "condition": "Myalgias",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "myalgias, headache",
+     "note": null,
+     "start": 153,
+     "end": 171
+    },
+    {
+     "id": "F8",
+     "condition": "Headache",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "headache",
+     "note": null,
+     "start": 163,
+     "end": 171
+    },
+    {
+     "id": "F9",
+     "condition": "Shortness of breath, exertional",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "SOB with walking to bathroom",
+     "note": null,
+     "start": 173,
+     "end": 201
+    },
+    {
+     "id": "F10",
+     "condition": "Influenza A",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Influenza A/B PCR: Influenza A DETECTED",
+     "note": null,
+     "start": 448,
+     "end": 487
+    },
+    {
+     "id": "F11",
+     "condition": "Hyponatremia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "Na 129",
+     "note": null,
+     "start": 570,
+     "end": 576
+    },
+    {
+     "id": "F12",
+     "condition": "Tachycardia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "HR 108",
+     "note": null,
+     "start": 293,
+     "end": 299
+    },
+    {
+     "id": "F13",
+     "condition": "Tachypnea",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "RR 22",
+     "note": null,
+     "start": 301,
+     "end": 306
+    },
+    {
+     "id": "F14",
+     "condition": "Hypoxemia",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "SpO2 92% RA -> 95% on 2 L NC",
+     "note": null,
+     "start": 319,
+     "end": 347
+    },
+    {
+     "id": "F15",
+     "condition": "Bilateral lower lobe patchy opacities",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "CXR: bilateral lower lobe patchy opacities",
+     "note": null,
+     "start": 647,
+     "end": 689
+    },
+    {
+     "id": "F16",
+     "condition": "Pneumonia, bilateral",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "bilateral pneumonia - viral vs superimposed bacterial",
+     "note": null,
+     "start": 837,
+     "end": 890
+    },
+    {
+     "id": "F17",
+     "condition": "Hypertension",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "63 y/o F with HTN, HLD, hypothyroidism",
+     "note": null,
+     "start": 35,
+     "end": 73
+    },
+    {
+     "id": "F18",
+     "condition": "Hyperlipidemia",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "with HTN, HLD, hypothyroidism, obesity",
+     "note": null,
+     "start": 44,
+     "end": 82
+    },
+    {
+     "id": "F19",
+     "condition": "Hypothyroidism",
+     "assertion": "history",
+     "doc_id": "d2",
+     "quote": "with HTN, HLD, hypothyroidism, obesity",
+     "note": null,
+     "start": 44,
+     "end": 82
+    },
+    {
+     "id": "F20",
+     "condition": "Obesity",
+     "assertion": "affirmed",
+     "doc_id": "d2",
+     "quote": "HLD, hypothyroidism, obesity presents",
+     "note": null,
+     "start": 54,
+     "end": 91
+    },
+    {
+     "id": "F21",
+     "condition": "Bibasilar crackles",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Bibasilar crackles",
+     "note": null,
+     "start": 347,
+     "end": 365
+    },
+    {
+     "id": "F22",
+     "condition": "Hyponatremia with hypovolemia",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "Na 129, likely hypovolemic from poor PO intake",
+     "note": null,
+     "start": 670,
+     "end": 716
+    },
+    {
+     "id": "F23",
+     "condition": "Obesity, BMI 33.4",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "obesity (BMI 33.4)",
+     "note": null,
+     "start": 217,
+     "end": 235
+    },
+    {
+     "id": "F24",
+     "condition": "Low procalcitonin, no bacterial superinfection suspected",
+     "assertion": "affirmed",
+     "doc_id": "d3",
+     "quote": "low suspicion for bacterial superinfection (PCT 0.09)",
+     "note": null,
+     "start": 553,
+     "end": 606
+    },
+    {
+     "id": "F25",
+     "condition": "Cough, productive, white sputum",
+     "assertion": "affirmed",
+     "doc_id": "d4",
+     "quote": "productive of small amt white sputum",
+     "note": null,
+     "start": 69,
+     "end": 105
+    },
+    {
+     "id": "F26",
+     "condition": "Sodium normalized",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Sodium trend: 09/20 20:15 129; 09/21 06:00 131",
+     "note": null,
+     "start": 0,
+     "end": 46
+    },
+    {
+     "id": "F27",
+     "condition": "Blood cultures negative",
+     "assertion": "negated",
+     "doc_id": "d5",
+     "quote": "Blood cultures x2 (09/20): no growth at 48 h",
+     "note": null,
+     "start": 212,
+     "end": 256
+    },
+    {
+     "id": "F28",
+     "condition": "Sputum culture with normal respiratory flora",
+     "assertion": "affirmed",
+     "doc_id": "d5",
+     "quote": "Sputum culture: normal respiratory flora",
+     "note": null,
+     "start": 258,
+     "end": 298
+    },
+    {
+     "id": "F29",
+     "condition": "Pneumonia due to influenza only, no bacterial pneumonia",
+     "assertion": "affirmed",
+     "doc_id": "d6",
+     "quote": "pneumonia due to influenza; no evidence of bacterial",
+     "note": null,
+     "start": 304,
+     "end": 356
+    },
+    {
+     "id": "F30",
+     "condition": "Hypoxemia resolved, room air",
+     "assertion": "resolved",
+     "doc_id": "d6",
+     "quote": "SpO2 94% RA (weaned off O2 overnight)",
+     "note": null,
+     "start": 101,
+     "end": 138
+    },
+    {
+     "id": "F31",
+     "condition": "Hyponatremia resolved",
+     "assertion": "resolved",
+     "doc_id": "d7",
+     "quote": "Hyponatremia (hypovolemic), resolved",
+     "note": null,
+     "start": 135,
+     "end": 171
+    },
+    {
+     "id": "F32",
+     "condition": "Influenza A with pneumonia",
+     "assertion": "affirmed",
+     "doc_id": "d7",
+     "quote": "Principal diagnosis: Influenza A with pneumonia",
+     "note": null,
+     "start": 65,
+     "end": 112
+    }
+   ]
+  },
+  {
+   "t": 22074,
+   "stage": "coder",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "influenza due to other identified influenza virus with other specified pneumonia"
+   },
+   "id": "toolu_01KE7uFVAoGD9TnyezwoPLtP"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "hypovolemic hyponatremia"
+   },
+   "id": "toolu_01Uo7oxDc6PMJwKBwrF5jh43"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "index_lookup",
+   "args": {
+    "term": "obesity BMI 33"
+   },
+   "id": "toolu_013yRx8YW4zBnraXC3zTi1nX"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01KE7uFVAoGD9TnyezwoPLtP",
+   "result": "[\"J10.08  Influenza due to other identified influenza virus with other specified pneumonia\"]"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_01Uo7oxDc6PMJwKBwrF5jh43",
+   "result": "[\"no matches; try different terms\"]"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "index_lookup",
+   "id": "toolu_013yRx8YW4zBnraXC3zTi1nX",
+   "result": "[\"E66.9  Obesity, unspecified\", \"E66.1  Drug-induced obesity\", \"E66.811  Obesity, class 1\", \"E66.812  Obesity, class 2\", \"E66.813  Obesity, class 3\", \"O99.214  Obesity complicating childbirth\", \"O99.215  Obesity complicating the puerperium\", \"Z15.2  Genetic susceptibility to obesity\", \"E66.89  Other obesity not elsewhere classified\", \"O99.210  Obesity complicating pregnancy, unspecified trimester\", \"O99.211  Obesity complicating pregnancy, first trimester\", \"O99.212  Obesity complicating pregnancy, second trimester\"]"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "thinking",
+   "text": "Confirming influenza A is not novel strain, so I'll code J10.08 for viral pneumonia with other specified influenza manifestations. I'm also working through additional codes for hyponatremia and possible hypovolemia.\n\nChecking hypoxemia coding since it's documented separately rather than integral to the pneumonia, and reviewing the BMI/obesity documentation to decide between a specific class code or the general E66.9 given the provider only wrote \"obesity.\"\n\n"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E87.1"
+   },
+   "id": "toolu_01QrF4GJ86xuFTUVQD5M7zkR"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "Z68.33"
+   },
+   "id": "toolu_01HQKYFtPJtKcGDHYV9MuZuu"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E66.9"
+   },
+   "id": "toolu_01Jg5SJpkqZP8gSHub4vgmZX"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "I10"
+   },
+   "id": "toolu_016xaXQ875y92M1VyFMn7X8y"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E78.5"
+   },
+   "id": "toolu_01NS6WGZnPmiV1Kd6QnkjYkH"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "E03.9"
+   },
+   "id": "toolu_01NyvjzoiygkkWpLYwefDELK"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "R09.02"
+   },
+   "id": "toolu_01VRN1dHUsJDS69mJghUr9iz"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01QrF4GJ86xuFTUVQD5M7zkR",
+   "result": "E87.1: Hypo-osmolality and hyponatremia (billable)"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01HQKYFtPJtKcGDHYV9MuZuu",
+   "result": "Z68.33: Body mass index [BMI] 33.0-33.9, adult (billable)"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01Jg5SJpkqZP8gSHub4vgmZX",
+   "result": "E66.9: Obesity, unspecified (billable)"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_016xaXQ875y92M1VyFMn7X8y",
+   "result": "I10: Essential (primary) hypertension (billable)"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01NS6WGZnPmiV1Kd6QnkjYkH",
+   "result": "E78.5: Hyperlipidemia, unspecified (billable)"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01NyvjzoiygkkWpLYwefDELK",
+   "result": "E03.9: Hypothyroidism, unspecified (billable)"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01VRN1dHUsJDS69mJghUr9iz",
+   "result": "R09.02: Hypoxemia (billable)"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_call",
+   "tool": "tabular_lookup",
+   "args": {
+    "code": "J10.08"
+   },
+   "id": "toolu_01BqXNopX6RwiugmHzof257Q"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "tool_result",
+   "tool": "tabular_lookup",
+   "id": "toolu_01BqXNopX6RwiugmHzof257Q",
+   "result": "J10.08: Influenza due to other identified influenza virus with other specified pneumonia (billable)"
+  },
+  {
+   "t": 37615,
+   "stage": "coder",
+   "type": "text",
+   "text": "{\"pdx\":{\"code\":\"J10.08\",\"poa\":\"Y\",\"finding_ids\":[\"F10\",\"F29\",\"F32\"],\"confidence\":0.85,\"rationale\":\"The attending documents pneumonia due to influenza A with no bacterial pneumonia, so the influenza-with-other-specified-pneumonia combination code (viral pneumonia) applies.\"},\"secondary\":[{\"code\":\"E87.1\",\"poa\":\"Y\",\"finding_ids\":[\"F11\",\"F22\",\"F31\"],\"confidence\":0.9,\"rationale\":\"Hyponatremia (Na 129) was documented, evaluated, and treated with IV fluids.\"},{\"code\":\"R09.02\",\"poa\":\"Y\",\"finding_ids\":[\"F14\",\"F30\"],\"confidence\":0.4,\"rationale\":\"Hypoxemia needing 2 L oxygen is named in the discharge sum"
+  },
+  {
+   "t": 37616,
+   "stage": "coder",
+   "type": "output",
+   "draft": {
+    "pdx": {
+     "code": "J10.08",
+     "poa": "Y",
+     "finding_ids": [
+      "F10",
+      "F29",
+      "F32"
+     ],
+     "confidence": 0.85,
+     "rationale": "The attending documents pneumonia due to influenza A with no bacterial pneumonia, so the influenza-with-other-specified-pneumonia combination code (viral pneumonia) applies."
+    },
+    "secondary": [
+     {
+      "code": "E87.1",
+      "poa": "Y",
+      "finding_ids": [
+       "F11",
+       "F22",
+       "F31"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hyponatremia (Na 129) was documented, evaluated, and treated with IV fluids."
+     },
+     {
+      "code": "R09.02",
+      "poa": "Y",
+      "finding_ids": [
+       "F14",
+       "F30"
+      ],
+      "confidence": 0.4,
+      "rationale": "Hypoxemia needing 2 L oxygen is named in the discharge summary and is not clearly integral to the pneumonia."
+     },
+     {
+      "code": "I10",
+      "poa": "Y",
+      "finding_ids": [
+       "F17"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hypertension is chronic and was treated with amlodipine."
+     },
+     {
+      "code": "E78.5",
+      "poa": "Y",
+      "finding_ids": [
+       "F18"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hyperlipidemia is chronic and was treated with rosuvastatin."
+     },
+     {
+      "code": "E03.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F19"
+      ],
+      "confidence": 0.9,
+      "rationale": "Hypothyroidism is chronic and was treated with levothyroxine."
+     },
+     {
+      "code": "E66.9",
+      "poa": "Y",
+      "finding_ids": [
+       "F20",
+       "F23"
+      ],
+      "confidence": 0.85,
+      "rationale": "The provider documents obesity without a class, so the unspecified code is used."
+     },
+     {
+      "code": "Z68.33",
+      "poa": "Y",
+      "finding_ids": [
+       "F23"
+      ],
+      "confidence": 0.85,
+      "rationale": "BMI 33.4 is reported with the provider's obesity diagnosis."
+     }
+    ],
+    "issues": []
+   }
+  },
+  {
+   "t": 37616,
+   "stage": "critic",
+   "type": "stage_start",
+   "model": "anthropic:claude-sonnet-5-5"
+  },
+  {
+   "t": 42992,
+   "stage": "critic",
+   "type": "text",
+   "text": "{\"reviews\":[{\"code\":\"J10.08\",\"verdict\":\"supported\",\"confidence\":0.88,\"reason\":\"Attending documents pneumonia due to influenza with no bacterial pneumonia, and the discharge summary is consistent. Influenza A was confirmed by PCR. J10.08 is a reasonable code for influenza with other specified pneumonia (viral). The ED/H&P 'viral vs bacterial' wording was resolved in the later notes.\"},{\"code\":\"E87.1\",\"verdict\":\"supported\",\"confidence\":0.9,\"reason\":\"Provider-documented hyponatremia (Na 129, serum osm 268), with workup, IV fluids and monitoring. Documented as hypovolemic and resolved by discharge"
+  },
+  {
+   "t": 42992,
+   "stage": "critic",
+   "type": "output",
+   "critique": {
+    "reviews": [
+     {
+      "code": "J10.08",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "reason": "Attending documents pneumonia due to influenza with no bacterial pneumonia, and the discharge summary is consistent. Influenza A was confirmed by PCR. J10.08 is a reasonable code for influenza with other specified pneumonia (viral). The ED/H&P 'viral vs bacterial' wording was resolved in the later notes."
+     },
+     {
+      "code": "E87.1",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Provider-documented hyponatremia (Na 129, serum osm 268), with workup, IV fluids and monitoring. Documented as hypovolemic and resolved by discharge. Meets reportability."
+     },
+     {
+      "code": "R09.02",
+      "verdict": "unsupported",
+      "confidence": 0.3,
+      "reason": "Hypoxemia (SpO2 92% RA, 2 L NC) is a common finding with influenza pneumonia and is integral to it. The discharge summary mentions it only in the presenting picture, with no separate evaluation. It was not documented as acute respiratory failure and the clinical criteria do not suggest it."
+     },
+     {
+      "code": "I10",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Chronic hypertension, listed in the discharge diagnoses and treated with amlodipine."
+     },
+     {
+      "code": "E78.5",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hyperlipidemia is in the discharge diagnoses and is treated with rosuvastatin."
+     },
+     {
+      "code": "E03.9",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "reason": "Hypothyroidism is in the discharge diagnoses and is treated with levothyroxine."
+     },
+     {
+      "code": "E66.9",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "Provider documents obesity with BMI 33.4 and no class. The unspecified code is appropriate."
+     },
+     {
+      "code": "Z68.33",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "reason": "BMI 33.4 is recorded with a provider-documented obesity diagnosis, which satisfies the BMI reporting requirement."
+     }
+    ],
+    "pdx_ok": true,
+    "pdx_alternative": null,
+    "missed": []
+   }
+  },
+  {
+   "t": 42992,
+   "stage": "critic",
+   "type": "removed",
+   "code": "R09.02",
+   "reason": "Hypoxemia (SpO2 92% RA, 2 L NC) is a common finding with influenza pneumonia and is integral to it. The discharge summary mentions it only in the presenting picture, with no separate evaluation. It was not documented as acute respiratory failure and the clinical criteria do not suggest it."
+  },
+  {
+   "t": 42993,
+   "stage": "grouper",
+   "type": "output",
+   "family": "pneumonia",
+   "drg": "194",
+   "title": "Simple pneumonia and pleurisy w CC",
+   "weight": 0.89,
+   "tier": "CC",
+   "drivers": [
+    "E87.1"
+   ]
+  },
+  {
+   "t": 42993,
+   "stage": "router",
+   "type": "output",
+   "base": 0.88,
+   "blocking": 0,
+   "reasons": [],
+   "confidence": 0.88
+  }
+ ],
+ "ms": 42993,
+ "cost_usd": 0.12448
+}
