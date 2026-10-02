@@ -3,7 +3,7 @@ import { Montserrat, Zilla_Slab } from "next/font/google";
 import { Header } from "@/components/header";
 import "./globals.css";
 
-const montserrat = Montserrat({ variable: "--font-montserrat", subsets: ["latin"], weight: ["400", "500", "600", "700"] });
+const montserrat = Montserrat({ variable: "--font-montserrat", subsets: ["latin"], weight: ["400", "500", "600", "700", "800"] });
 const zilla = Zilla_Slab({ variable: "--font-zilla", subsets: ["latin"], weight: ["500", "700"] });
 
 export const metadata: Metadata = {

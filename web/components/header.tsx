@@ -10,15 +10,17 @@ const NAV = [
 ];
 
 export function Mark({ className = "" }: { className?: string }) {
-  // Dots resolving into a line: a stay's notes becoming one coded claim.
+  // A solid badge in Akasa's visual language: four points rising across a coral
+  // threshold line. Below the line they're plain; above it they're connected.
   return (
-    <svg viewBox="0 0 32 32" className={className} aria-hidden>
-      <circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" strokeOpacity="0.25" strokeWidth="1.5" />
-      <path d="M16 3a13 13 0 0 1 13 13" fill="none" stroke="var(--coral)" strokeWidth="3" strokeLinecap="round" />
-      <circle cx="9" cy="20" r="1.8" fill="currentColor" />
-      <circle cx="14" cy="17" r="1.8" fill="currentColor" />
-      <circle cx="19" cy="13.5" r="1.8" fill="var(--teal)" />
-      <circle cx="23.5" cy="10" r="1.8" fill="var(--teal)" />
+    <svg viewBox="0 0 40 40" className={className} aria-hidden>
+      <circle cx="20" cy="20" r="20" fill="var(--navy)" />
+      <rect x="9" y="19.5" width="22" height="3" rx="1.5" fill="var(--coral)" />
+      <circle cx="12.5" cy="28" r="2.3" fill="#fff" />
+      <circle cx="18" cy="26" r="2.3" fill="#fff" />
+      <path d="M22.5 15 L28 11.5" stroke="var(--cyan)" strokeWidth="2.4" strokeLinecap="round" />
+      <circle cx="22.5" cy="15" r="2.6" fill="var(--cyan)" />
+      <circle cx="28" cy="11.5" r="2.6" fill="var(--cyan)" />
     </svg>
   );
 }
@@ -29,8 +31,8 @@ export function Header() {
     <header className="sticky top-0 z-40 bg-paper/95 shadow-nav backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4">
         <Link href="/" className="flex items-center gap-2.5 text-ink" aria-label="Threshold home">
-          <Mark className="h-8 w-8" />
-          <span className="hidden text-[19px] font-bold tracking-tight min-[400px]:inline">threshold</span>
+          <Mark className="h-9 w-9" />
+          <span className="hidden text-[21px] font-extrabold tracking-[0.02em] text-navy uppercase min-[400px]:inline">Threshold</span>
         </Link>
         <nav aria-label="Primary" className="flex items-center gap-1 sm:gap-4">
           {NAV.map((n) => {
