@@ -9,7 +9,7 @@ primary_region = "sjc"
   LIVE_CASES = "enc-01,enc-02,enc-04"
   LIVE_PER_IP = "3"
   LIVE_DAILY = "60"
-  ALLOWED_ORIGINS = "https://akasa-demo.vercel.app"
+  ALLOWED_ORIGINS = "https://akasa-demo-tau.vercel.app"
 
 [http_service]
   internal_port = 8080

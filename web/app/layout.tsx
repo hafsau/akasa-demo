@@ -7,6 +7,7 @@ const montserrat = Montserrat({ variable: "--font-montserrat", subsets: ["latin"
 const zilla = Zilla_Slab({ variable: "--font-zilla", subsets: ["latin"], weight: ["500", "700"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://akasa-demo-tau.vercel.app"),
   title: { default: "Threshold: autonomy you can audit", template: "%s · Threshold" },
   description:
     "An unofficial concept by Hafsa Usmani: the eval harness and exception router you'd want behind an autonomous inpatient coder. Synthetic charts, real agent runs, every code cited.",

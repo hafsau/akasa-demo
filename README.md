@@ -1,5 +1,9 @@
 # Threshold
 
+[![CI](https://github.com/hafsau/akasa-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/hafsau/akasa-demo/actions/workflows/ci.yml)
+
+**▶ Live: [akasa-demo-tau.vercel.app](https://akasa-demo-tau.vercel.app)** · [Evals](https://akasa-demo-tau.vercel.app/evals) · [Case study](https://akasa-demo-tau.vercel.app/about) · [Watch a chart get coded](https://akasa-demo-tau.vercel.app/encounter/enc-02)
+
 **Autonomy you can audit.** An unofficial concept by [Hafsa Usmani](https://hafsausmani.com), built as my application for **Software Engineer, Applied AI** at [Akasa](https://akasa.com).
 
 > **Not affiliated with Akasa.** Synthetic charts only, no patient data. DRG weights are illustrative. Codes are real FY2027 ICD-10-CM.
