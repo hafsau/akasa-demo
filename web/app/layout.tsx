@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import { Montserrat, Zilla_Slab } from "next/font/google";
 import { Header } from "@/components/header";
@@ -53,6 +54,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
